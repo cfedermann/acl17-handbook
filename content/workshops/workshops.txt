@@ -1,0 +1,56 @@
+W1, SemEval
+9th International Workshop on Semantic Evaluations.
+Preslav Nakov, Torsten Zesch
+
+W2, ArgMining
+2nd Workshop on Argumentation Mining
+Claire Cardie, Nancy Green, Iryna Gurevych, Graeme Hirst, Diane Litman, Smaranda Muresan, Georgios Petasis, Manfred Stede, Marilyn Walker, Janyce Wiebe
+
+W3, BEA
+The 10th Workshop on Innovative Use of NLP for Building Educational Applications
+Joel Tetreault, Jill Burstein, Claudia Leacock
+
+W4, CLFL
+Fourth Workshop on Computational Linguistics for Literature
+Anna Feldman, Anna Kazantseva, Stan Szpakowicz
+
+W5, CMCL
+Cognitive Modeling and Computational Linguistics
+Timothy J. O’Donnell, Marten van Schijndel
+
+W6, Event
+The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation
+Eduard Hovy, Teruko Mitamura, Martha Palmer
+
+W7, MWE
+The 11th Workshop on Multiword Expressions.
+Valia Kordoni, Markus Egg, Kostadin Cholakov, Stella Markantonatou, Shuly Wintner
+
+W8, SSST
+Ninth Workshop on Syntax, Semantics and Structure in Statistical Translation
+Dekai Wu, Marine Carpuat, Eneko Agirre, Nora Aranberri
+
+W9, CLPsych
+Computational Linguistics and Clinical Psychology — From Linguistic Signal to Clinical Reality
+Margaret Mitchell, Glen Coppersmith, Kristy Hollingshead
+
+W10, ExProM
+Extra-Propositional Aspects of Meaning in Computational Linguistics
+Eduardo Blanco, Roser Morante, Caroline Sporleder
+
+W11, LAW
+The 9th Linguistic Annotation Workshop
+Adam Meyers, Ines Rehbein, Heike Zinsmeister
+
+W12, Metaphor
+The Third Workshop on Metaphor in NLP
+Ekaterina Shutova, Beata Beigman Klebanov, Patricia Lichtenstein
+
+W13, SocialNLP
+Third International Workshop on Natural Language Processing for Social Media
+Shou-De Lin, Lun-Wei Ku, Cheng-Te Li, Erik Cambria
+
+W14, VSM–NLP
+Vector Space Modeling for NLP
+Phil Blunsom, Shay Cohen, Paramveer Dhillon, Percy Liang
+

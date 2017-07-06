@@ -1,0 +1,149 @@
+- id: tacl-485
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/485
+  title: "[TACL] A sense-topic model for WSI with unsupervised data enrichment"
+  authors: Wang Jing and Bansal, Mohit and Gimpel, Kevin and Ziebart, Brian D. and Yu, Clement T.
+  contact: jwang69@uic.edu
+  abstract: Word sense induction (WSI) seeks to automatically discover the senses of a word in a corpus via unsupervised methods. We propose a sense-topic model for WSI, which treats sense and topic as two separate latent variables to be inferred jointly. Topics are informed by the entire document, while senses are informed by the local context surrounding the ambiguous word. We also discuss unsupervised ways of enriching the original corpus in order to improve model performance, including using neural word embeddings and external corpora to expand the context of each data instance. We demonstrate significant improvements over the previous state-of-the-art, achieving the best results reported to date on the SemEval-2013 WSI task.
+
+- id: tacl-403
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/
+  title: "[TACL] SPRITE: Generalizing Topic Models with Structured Priors"
+  authors: Paul, Michael J. and Dredze, Mark
+  contact: mpaul39@gmail.com
+  abstract: We introduce SPRITE, a family of topic models that incorporates structure into model priors as a function of underlying components. The structured priors can be constrained to model topic hierarchies, factorizations, correlations, and supervision, allowing SPRITE to be tailored to particular settings. We demonstrate this flexibility by constructing a SPRITE-based model to jointly infer topic hierarchies and author perspective, which we apply to corpora of political debates and online reviews. We show that the model learns intuitive topics, outperforming several other topic models at predictive tasks.
+
+- id: tacl-429
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/429
+  title: "[TACL] Learning Strictly Local Subsequential Functions"
+  authors: Chandlee, Jane and Eyraud, Remi and Heinz, Jeffrey
+  contact: janemc@udel.edu
+  abstract: We define two proper subclasses of subsequential functions based on the concept of Strict Locality (McNaughton and Papert, 1971; Rogers and Pullum, 2011; Rogers et al., 2013) for formal languages. They are called Input and Output Strictly Local (ISL and OSL). We provide an automata-theoretic characterization of the ISL class and theorems establishing how the classes are related to each other and to Strictly Local languages. We give evidence that local phonological and morphological processes belong to these classes. Finally we provide a learning algorithm which provably identifies the class of ISL functions in the limit from positive data in polynomial time and data. We demonstrate this learning result on appropriately synthesized artificial corpora. We leave a similar learning result for OSL functions for future work and suggest future directions for addressing non-local phonological processes.
+
+- id: tacl-255
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/255
+  title: "[TACL] Dense Event Ordering with a Multi-Pass Architecture"
+  authors: Chambers, Nathanael and Cassidy, Taylor and McDowell, Bill and Bethard, Steven
+  contact: nchamber@usna.edu
+  abstract: The past 10 years of event ordering research has focused on learning partial orderings over document events and time expressions. The most popular corpus, the TimeBank, contains a small subset of the possible ordering graph. Many evaluations follow suit by only testing certain pairs of events (e.g., only main verbs of neighboring sentences). This has led most research to focus on specific learners for partial labelings. This paper attempts to nudge the discussion from identifying some relations to all relations. We present new experiments on strongly connected event graphs that contain ∼10 times more relations per document than the TimeBank. We also describe a shift away from the single learner to a sieve-based architecture that naturally blends multiple learners into a precision-ranked cascade of sieves. Each sieve adds labels to the event graph one at a time, and earlier sieves inform later ones through transitive closure. This paper thus describes innovations in both approach and task. We experiment on the densest event graphs to date and show a 14% gain over state-of-the-art.
+
+- id: tacl-452
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/452
+  title: "[TACL] Reasoning about Quantities in Natural Language"
+  authors: Roy, Subhro and Vieira, Tim and Roth, Dan
+  contact:  sroy9@illinois.edu
+  abstract: >
+    Little work from the Natural Language Processing community
+    has targeted the role of quantities in Natural Language
+    Understanding. This paper takes some key steps towards facilitating
+    reasoning about quantities expressed in natural language. We
+    investigate two different tasks of numerical reasoning. First, we
+    consider Quantity Entailment, a new task formulated to understand
+    the role of quantities in general textual inference tasks. Second,
+    we consider the problem of automatically understanding and solving
+    elementary school math word problems. In order to address these
+    quantitative reasoning problems we first develop a computational
+    approach which we show to successfully recognize and normalize
+    textual expressions of quantities. We then use these capabilities to
+    further develop algorithms to assist reasoning in the context of
+    the aforementioned tasks.
+
+- id: tacl-371
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/371
+  title: "[TACL] Unsupervised Discovery of Biographical Structure from Text"
+  authors: Bamman, David and Smith, Noah A.
+  contact:  dbamman@cs.cmu.edu
+  abstract: We present a method for discovering abstract event classes in biographies, based on a probabilistic latent-variable model. Taking as input timestamped text, we exploit latent correlations among events to learn a set of event classes (such as "Born", "Graduates high school", and "Becomes citizen"), along with the typical times in a person's life when those events occur. In a quantitative evaluation at the task of predicting a person's age for a given event, we find that our generative model outperforms a strong linear regression baseline, along with simpler variants of the model that ablate some features. The abstract event classes that we learn allow us to perform a large-scale analysis of 242,970 Wikipedia biographies. Though it is known that women are greatly underrepresented on Wikipedia -- not only as editors (Wikipedia, 2011) but also as subjects of articles (Reagle and Rhue, 2011) -- we find that there is a bias in their characterization as well, with biographies of women containing significantly more emphasis on events of marriage and divorce than biographies of men.
+
+- id: tacl-385
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/385
+  title: "[TACL] 2-Slave Dual Decomposition for Generalized High Order CRFs"
+  authors: Qian, Xian and Liu, Yang
+  contact:  qx@hlt.utdallas.edu
+  abstract: "We show that the decoding problem in generalized Higher Order Conditional Random Fields (CRFs) can be decomposed into two parts: one is a tree labeling problem that can be solved in linear time using dynamic programming; the other is a supermodular quadratic pseudo-Boolean maximization problem, which can be solved in cubic time using a minimum cut algorithm. We use dual decomposition to force their agreement. Experimental results on Twitter named entity recognition and sentence dependency tagging tasks show that our method outperforms spanning tree based dual decomposition."
+
+- id: tacl-381
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/381
+  title: "[TACL] Locally Non-Linear Learning for Statistical Machine Translation via Discretization and Structured Regularization"
+  authors: Clark, Jonathan H. and Dyer, Chris and Lavie, Alon
+  contact:  jon.h.clark@gmail.com
+  abstract: Linear models, which support efficient learning and inference, are the workhorses of statistical machine translation; however, linear decision rules are less attractive from a modeling perspective. In this work, we introduce a technique for learning arbitrary, rule-local, nonlinear feature transforms that improve model expressivity, but do not sacrifice the efficient inference and learning associated with linear models. To demonstrate the value of our technique, we discard the customary log transform of lexical probabilities and drop the phrasal translation probability in favor of raw counts. We observe that our algorithm learns a variation of a log transform that leads to better translation quality compared to the explicit log transform. We conclude that non-linear responses play an important role in SMT, an observation that we hope will inform the efforts of feature engineers.
+
+- id: tacl-472
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/472
+  title: "[TACL] Learning Constraints for Information Structure Analysis of Scientific Documents"
+  authors: Guo, Yufan and Reichart, Roi and Korhonen, Anna
+  contact: yufan.guo@gmail.com
+  abstract: Inferring the information structure of scientific documents is useful for many NLP applications. Existing approaches to this task require substantial human effort. We propose a framework for constraint learning that reduces human involvement considerably. Our model uses topic models to identify latent topics and their key linguistic features in input documents, induces constraints from this information and maps sentences to their dominant information structure categories through a constrained unsupervised model. When the induced constraints are combined with a fully unsupervised model, the resulting model challenges existing lightly supervised feature-based models as well as unsupervised models that use manually constructed declarative knowledge. Our results demonstrate that useful declarative knowledge can be learned from data with very limited human involvement.
+
+- id: tacl-276
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/276
+  title: "[TACL] A Bayesian Model of Grounded Color Semantics"
+  authors: McMahan, Brian and Stone, Matthew
+  contact:  brian.c.mcmahan@gmail.com
+  abstract: "Natural language meanings allow speakers to encode important real-world distinctions, but corpora of grounded language use also reveal that speakers categorize the world in different ways and describe situations with different terminology. To learn meanings from data, we therefore need to link underlying representations of meaning to models of speaker judgment and speaker choice.  This paper describes a new approach to this problem: we model variability through uncertainty in categorization boundaries and distributions over preferred vocabulary. We apply the approach to a large data set of color descriptions, where statistical evaluation documents its accuracy. The results are available as a Lexicon of Uncertain Color Standards (LUX), which supports future efforts in grounded language understanding and generation by probabilistically mapping 829 English color descriptions to potentially context-sensitive regions in HSV color space."
+
+- id: tacl-398
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/398
+  title: "[TACL] Large-scale Semantic Parsing without Question-Answer Pairs"
+  authors: Reddy, Siva and Lapata, Mirella and Steedman, Mark
+  contact:  siva.reddy@ed.ac.uk
+  abstract: In this paper we introduce a novel semantic parsing approach to query Freebase in natural language without requiring manual annotations or question-answer pairs. Our key insight is to represent natural language via semantic graphs whose topology shares many commonalities with Freebase. Given this representation, we conceptualize semantic parsing as a graph matching problem. Our model converts sentences to semantic graphs using CCG and subsequently grounds them to Freebase guided by denotations as a form of weak supervision. Evaluation experiments on a subset of the Free917 and WebQuestions benchmark datasets show our semantic parser improves over the state of the art.
+
+- id: tacl-384
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/384
+  title: "[TACL] Building a State-of-the-Art Grammatical Error Correction System"
+  authors: Rozovskaya, Alla and Roth, Dan
+  contact:  rozovska@illinois.edu
+  abstract: >
+    This paper identifies and examines the key principles underlying building a state-of-the-art grammatical error correction system. We do this by analyzing the Illinois system that placed first among seventeen teams in the recent CoNLL-2013 shared task on grammatical error correction.
+
+    The system focuses on five different types of errors common among non-native English writers. We describe four design principles that are relevant for correcting all of these errors, analyze the system along these dimensions, and show how each of these dimensions contributes to the performance.
+
+- id: tacl-412
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/412
+  title: "[TACL] A Joint Model for Entity Analysis: Coreference, Typing, and Linking"
+  authors: Durrett, Greg and Klein, Dan
+  contact:  gdurrett@eecs.berkeley.edu
+  abstract: "We present a joint model of three core tasks in the entity analysis stack: coreference resolution (within-document clustering), named entity recognition (coarse semantic typing), and entity linking (matching to Wikipedia entities). Our model is formally a structured conditional random field. Unary factors encode local features from strong baselines for each task. We then add binary and ternary factors to capture cross-task interactions, such as the constraint that coreferent mentions have the same semantic type. On the ACE 2005 and OntoNotes datasets, we achieve state-of-the-art results for all three tasks. Moreover, joint modeling improves performance on each task over strong independent baselines."
+
+- id: tacl-414
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/414
+  title: "[TACL] Predicting the Difficulty of Language Proficiency Tests"
+  authors: Beinborn, Lisa and Zesch, Torsten and Gurevych, Iryna
+  contact:  beinborn@ukp.informatik.tu-darmstadt.de
+  abstract: "Language proficiency tests are used to evaluate and compare the progress  of language learners. We present an approach for automatic difficulty prediction of C-tests that performs on par with human experts. On the basis of detailed analysis of newly collected data, we develop a model for C-test difficulty introducing four dimensions: solution difficulty, candidate ambiguity, inter-gap dependency, and paragraph difficulty. We show that cues from all four dimensions contribute to  C-test difficulty."
+
+- id: tacl-488
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/488
+  title: "[TACL] Exploring Compositional Architectures and Word Vector Representations for Prepositional Phrase Attachment"
+  authors: Belinkov, Yonatan and Lei, Tao and Barzilay, Regina and Globerson, Amir
+  contact:  belinkov@mit.edu
+  abstract: Prepositional phrase (PP) attachment disambiguation is a known challenge in syntactic parsing. The lexical sparsity associated with PP attachments motivates research in word representations that can capture pertinent syntactic and semantic features of the word. One promising solution is to use word vectors induced from large amounts of raw text. However, state-of-the-art systems that employ such representations yield modest gains in PP attachment accuracy.  In this paper, we show that word vector representations can yield significant PP attachment performance gains. This is achieved via a non-linear architecture that is discriminatively trained to maximize PP attachment accuracy. The architecture is initialized with word vectors trained from unlabeled data, and relearns those to maximize attachment accuracy. We obtain additional performance gains with alternative representations such as dependency-based word vectors. When tested on both English and Arabic datasets, our method outperforms both a strong SVM classifier and state-of-the-art parsers. For instance, we achieve 82.6% PP attachment accuracy on Arabic, while the Turbo and Charniak self-trained parsers obtain 76.7% and 80.8% respectively.
+
+- id: tacl-555
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/555
+  title: "[TACL] Gappy Pattern Matching on GPUs for On-Demand Extraction of Hierarchical Translation Grammars"
+  authors: He, Hua and Lin, Jimmy and Lopez, Adam
+  contact: alopez@inf.ed.ac.uk
+  abstract: Grammars for machine translation can be materialized on demand by finding source phrases in an indexed parallel corpus and extracting their translations. This approach is limited in practical applications by the computational expense of online lookup and extraction. For phrase-based models, recent work has shown that on-demand grammar extraction can be greatly accelerated by parallelization on general purpose graphics processing units (GPUs), but these algorithms do not work for hierarchical models, which require matching patterns that contain gaps. We address this limitation by presenting a novel GPU algorithm for on-demand hierarchical grammar extraction that is at least an order of magnitude faster than a comparable CPU algorithm when processing large batches of sentences. In terms of end-to-end translation, with decoding on the CPU, we increase throughput by roughly two thirds on a standard MT evaluation dataset. The GPU necessary to achieve these improvements increases the cost of a server by about a third. We believe that GPU-based extraction of hierarchical grammars is an attractive proposition, particularly for MT applications that demand high throughput.
+
+- id: tacl-457
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/457
+  title: "[TACL] A Large Scale Evaluation of Distributional Semantic Models: Parameters, Interactions and Model Selection"
+  authors: Lapesa, Gabriella and Evert, Stefan 
+  contact:  g.lapesa@gmail.com
+  abstract: This paper presents the results of a large-scale evaluation study of window-based Distributional Semantic Models on a wide variety of tasks. Our study combines a broad coverage of model parameters with a model selection methodology that is robust to overfitting and able to capture parameter interactions. We show that our strategy allows us to identify parameter configurations that achieve good performance across different datasets and tasks.
+
+- id: tacl-494
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/494
+  title: "[TACL] Entity disambiguation with web links"
+  authors:  Chisholm, Andrew and Hachey, Ben
+  contact:  andy.chisholm.89@gmail.com
+  abstract: Entity disambiguation with Wikipedia relies on structured information from redirect pages, article text, inter-article links, and categories. We explore whether web links can replace a curated encyclopaedia, obtaining entity prior, name, context, and coherence models from a corpus of web pages with links to Wikipedia. Experiments compare web link models to Wikipedia models on well-known CoNLL and TAC data sets. Results show that using 34 million web links approaches Wikipedia performance. Combining web link and Wikipedia models produces the best-known disambiguation accuracy of 88.7 on standard newswire test data.
+
+- id: tacl-498
+  url: https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/498
+  title: "[TACL] Extracting Lexically Divergent Paraphrases from Twitter"
+  authors: Xu, Wei and Ritter, Alan and Callison-Burch, Chris and Dolan, William B. and Ji, Yangfeng
+  contact:  xwe@cis.upenn.edu
+  abstract: We present MultiP (Multi-instance Learning Paraphrase Model), a new model suited to identify paraphrases within the short messages on Twitter. We jointly model paraphrase relations between word and sentence pairs and assume only sentence-level annotations during learning. Using this principled latent variable model alone, we achieve the performance competitive with a state-of-the-art method which combines a latent space model with a feature-based supervised classifier. Our model also captures lexically divergent paraphrases that differ from yet complement previous methods; combining our model with previous work significantly outperforms the state-of-the-art. In addition, we present a novel annotation methodology that has allowed us to crowdsource a paraphrase corpus from Twitter. We make this new dataset available to the research community.

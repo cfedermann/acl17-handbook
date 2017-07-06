@@ -1,0 +1,43 @@
+1A	Discourse, Dialogue, Coreference and Pragmatics	Micha Elsner
+1B	Semantics I	Mirella Lapata
+1C	Machine Translation I	Taro Watanabe
+1D	Syntax, Parsing & Tagging I	Ting Liu
+1E	NLP for the Web and Social Media I	Miles Osborne
+2A	Syntax, Parsing & Tagging II	Julia Hockenmaier
+2B	Semantics II	Raymond Mooney
+2C	Word Segmentation and POS Tagging	Greg Kondrak
+2D  SRW  Svitlana Volkova
+2E	Sentiment Analysis I	Myle Ott
+3A	Topic Modeling	Chris Dyer
+3B	Information Extraction I	Mihai Surdeanu
+3C	Generation	Margaret Mitchell
+3D	Syntax, Parsing & Tagging III	Yusuke Miyao
+3E	Language Resources and Evaluation I	Fei Xia
+4A	Machine Learning for NLP	Kevin Duh
+4B	Information Extraction II	Jian Su
+4C	Machine Translation II	Colin Cherry
+4D	Summarization	Yang Liu
+4E	Language Resources and Evaluation II	Nianwen Xue
+5A	Question Answering	Scott Yih
+5B	Information Extraction III	Wei Xu
+5C	Lexical Semantics and Ontology I	Tim Baldwin
+5D	Syntax, Parsing, and Tagging IV	Phil Blunsom
+5E	Cognitive Modeling and Psycholonguistics	Vera Demberg
+6A short	Machine Translation III	Niyu Ge
+6B short	Lexical Semantics and Ontology II	Mohit Bansal
+6C short	Generation/Summarization/Dialogue	Asli Celikyilmaz
+6D short	NLP Applications and NLP enables Technology I	Hwee Tou Ng
+6E short	Language Resources and Evaluation III	Roberto Navigili
+7A	Multimodal NLP/Lexical Semantics	Richard Socher
+7B	Semantics III	Shiqi Zhao
+7C	Machine Translation IV	David Chiang
+7D	NLP Applications and NLP enabled Technology II	Brian  Roark
+7E	Sentiment Analysis II	Janyce Wiebe
+8A short	NLP for the Web and Social Media II	Alan Ritter
+8B short	Semantics/Information Extraction	Percy Liang
+8C short	Machine Translation V	Yanjun Ma
+8D short	Syntax, Parsing, and Tagging V	Mark Johnson
+8E short	Multilinguality and Multimodal NLP	Xiaodong He
+Best paper session		Kristina Toutanova and Hua Wu
+Invited Talk I	Learning Ensembles of Structured Prediction Rules	Hal Daume III
+Invited Talk II	Zoran Popović	Daniel Marcu
