@@ -26,3 +26,4 @@ data/tar
 *.tgz
 *.gz
 *._*
+.DS_Store
