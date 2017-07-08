@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Evaluating text coherence based on semantic similarity graph
+ShortPaperTitle#=%=#Evaluating text coherence based on semantic similarity graph
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jan Wira Gotama Putra
+JobTitle#==#Student
+Organization#==#Tokyo Institute of Technology
+Abstract#==#Coherence is a crucial feature of text because
+it is indispensable for conveying its
+communication purpose and meaning to
+its readers. In this paper, we propose an
+unsupervised text coherence scoring based
+on graph construction in which edges are
+established between semantically similar
+sentences represented by vertices. The
+sentence similarity is calculated based on
+the cosine similarity of semantic vectors
+representing sentences. We provide three
+graph construction methods establishing
+an edge from a given vertex to a preceding
+adjacent vertex, to a single similar
+vertex, or to multiple similar vertices.
+We evaluated our methods in the document
+discrimination task and the insertion
+task by comparing our proposed methods
+to the supervised (Entity Grid) and unsupervised
+(Entity Graph) baselines. In the
+document discrimination task, our method
+outperformed the unsupervised baseline
+but could not do the supervised baseline,
+while in the insertion task, our method outperformed
+both baselines.
+Author{1}{Firstname}#=%=#Jan Wira Gotama
+Author{1}{Lastname}#=%=#Putra
+Author{1}{Email}#=%=#wiragotama@gmail.com
+Author{1}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{2}{Firstname}#=%=#Takenobu
+Author{2}{Lastname}#=%=#Tokunaga
+Author{2}{Email}#=%=#take@c.titech.ac.jp
+Author{2}{Affiliation}#=%=#Tokyo Institute of Technology
+
+==========

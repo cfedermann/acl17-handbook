@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Adapting predominant and novel sense discovery algorithms for identifying corpus-specific sense differences
+ShortPaperTitle#=%=#Adapting predominant and novel sense discovery algorithms for identifying corpus-specific sense differences
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Binny Mathew
+JobTitle#==#
+Organization#==#IIT Kharagpur, Kharagpur, West Bengal-721302, India
+Abstract#==#Word senses are not static and may have temporal, spatial or corpus-specific
+scopes. Identifying such scopes might benefit the existing WSD systems largely.
+In this paper, while studying corpus specific word senses, we adapt three
+existing predominant and novel-sense discovery algorithms to identify these
+corpus-specific senses. We make use of text data available in the form of
+millions of digitized books and newspaper archives as two different sources of
+corpora and propose automated methods to identify corpus-specific word senses
+at various time points. We conduct an extensive and thorough human judgement
+experiment to rigorously evaluate and compare the performance of these
+approaches. Post adaptation, the output of the three algorithms are in the same
+format and the accuracy results are also comparable, with roughly 45-60% of the
+reported corpus-specific senses being judged as genuine.
+Author{1}{Firstname}#=%=#Binny
+Author{1}{Lastname}#=%=#Mathew
+Author{1}{Email}#=%=#binny.iitkgp@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology, Kharagpur
+Author{2}{Firstname}#=%=#Suman Kalyan
+Author{2}{Lastname}#=%=#Maity
+Author{2}{Email}#=%=#sumankalyan.maity@cse.iitkgp.ernet.in
+Author{2}{Affiliation}#=%=#Dept. of CSE, IIT Kharagpur
+Author{3}{Firstname}#=%=#Pratip
+Author{3}{Lastname}#=%=#Sarkar
+Author{3}{Email}#=%=#pratip.sarkar.iitkgp@gmail.com
+Author{3}{Affiliation}#=%=#Microsoft India
+Author{4}{Firstname}#=%=#Animesh
+Author{4}{Lastname}#=%=#Mukherjee
+Author{4}{Email}#=%=#animeshm@gmail.com
+Author{4}{Affiliation}#=%=#IIT Kharagpur
+Author{5}{Firstname}#=%=#Pawan
+Author{5}{Lastname}#=%=#Goyal
+Author{5}{Email}#=%=#pawang.iitk@gmail.com
+Author{5}{Affiliation}#=%=#IIT Kharagpur
+
+==========

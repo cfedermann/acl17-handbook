@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Spectral Graph-Based Method of Multimodal Word Embedding
+ShortPaperTitle#=%=#Spectral Graph-Based Method of Multimodal Word Embedding
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kazuki Fukui
+JobTitle#==#
+Organization#==#Kyoto University, Yoshida Honcho, Sakyoku, Kyoto-city,  Kyoto, Japan
+Abstract#==#In this paper, we propose a novel method for multimodal word embedding, which
+exploit a generalized framework of multi-view spectral graph embedding to take
+into account visual appearances or scenes denoted by words in a corpus.  
+We evaluated our method through word similarity tasks and
+a concept-to-image search task, having found that it provides word
+representations that reflect visual information, while somewhat trading-off the
+performance on the word similarity tasks. Moreover, we demonstrate that our
+method captures multimodal linguistic regularities, which enable recovering
+relational similarities between words and images by vector arithmetics.
+Author{1}{Firstname}#=%=#Kazuki
+Author{1}{Lastname}#=%=#Fukui
+Author{1}{Email}#=%=#k.fukui@sys.i.kyoto-u.ac.jp
+Author{1}{Affiliation}#=%=#Kyoto University
+Author{2}{Firstname}#=%=#Takamasa
+Author{2}{Lastname}#=%=#Oshikiri
+Author{2}{Email}#=%=#oshikiri@sigmath.es.osaka-u.ac.jp
+Author{2}{Affiliation}#=%=#Osaka University
+Author{3}{Firstname}#=%=#Hidetoshi
+Author{3}{Lastname}#=%=#Shimodaira
+Author{3}{Email}#=%=#shimo@i.kyoto-u.ac.jp
+Author{3}{Affiliation}#=%=#Kyoto University
+
+==========

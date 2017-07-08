@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#A Graph Based Semi-Supervised Approach for Analysis of Derivational Nouns in Sanskrit
+ShortPaperTitle#=%=#A Graph Based Semi-Supervised Approach for Analysis of Derivational Nouns in Sanskrit
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Amrith Krishna
+JobTitle#==#
+Organization#==#IIT Kharagpur, West Bengal, India. Pin - 721302
+Abstract#==#Derivational nouns are widely used in Sanskrit corpora and represent an
+important cornerstone of productivity in the language. Currently there exists
+no analyser that identifies the derivational nouns. We propose a semi
+supervised approach for identification of derivational nouns in Sanskrit. We
+not only identify the derivational words, but also link them to their
+corresponding source words. Our novelty comes in the design of the network
+structure for the task. The edge weights are featurised based on the phonetic,
+morphological, syntactic and the semantic similarity shared between the words
+to be identified. We find that our model is effective for the task, even when
+we employ a labelled dataset which is only 5 \% to that of the entire dataset.
+Author{1}{Firstname}#=%=#Amrith
+Author{1}{Lastname}#=%=#Krishna
+Author{1}{Email}#=%=#amrith@iitkgp.ac.in
+Author{1}{Affiliation}#=%=#IIT Kharagpur
+Author{2}{Firstname}#=%=#Pavankumar
+Author{2}{Lastname}#=%=#Satuluri
+Author{2}{Email}#=%=#pavankumarsatuluri@gmail.com
+Author{2}{Affiliation}#=%=#Chinmaya Vishvavidyapeeth
+Author{3}{Firstname}#=%=#Harshavardhan
+Author{3}{Lastname}#=%=#Ponnada
+Author{3}{Email}#=%=#ponnadaharshavardhan@gmail.com
+Author{3}{Affiliation}#=%=#IIT Kharagpur
+Author{4}{Firstname}#=%=#Muneeb
+Author{4}{Lastname}#=%=#Ahmed
+Author{4}{Email}#=%=#muneeb.ahmed.eee14@iitbhu.ac.in
+Author{4}{Affiliation}#=%=#IIT BHU
+Author{5}{Firstname}#=%=#Gulab
+Author{5}{Lastname}#=%=#Arora
+Author{5}{Email}#=%=#gulabarora07@gmail.com
+Author{5}{Affiliation}#=%=#IIT Kharagpur
+Author{6}{Firstname}#=%=#Kaustubh
+Author{6}{Lastname}#=%=#Hiware
+Author{6}{Email}#=%=#hiwarekaustubh@gmail.com
+Author{6}{Affiliation}#=%=#IIT Kharagpur
+Author{7}{Firstname}#=%=#Pawan
+Author{7}{Lastname}#=%=#Goyal
+Author{7}{Email}#=%=#pawang.iitk@gmail.com
+Author{7}{Affiliation}#=%=#IIT Kharagpur
+
+==========

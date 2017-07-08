@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Work Hard, Play Hard: Email Classification on the Avocado and Enron Corpora
+ShortPaperTitle#=%=#Email Classification on the Avocado and Enron Corpora
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Sakhar Alkhereyf
+JobTitle#==#
+Organization#==#Columbia University
+Abstract#==#In this paper, we present an empirical study of email classification into
+  two main categories ``Business" and ``Personal".  We train on the Enron
+  email corpus, and test on the Enron and Avocado email corpora. We show
+  that information from the email exchange networks improves the
+  performance of classification. We represent the email exchange networks
+  as social networks with
+  graph structures. For this classification task, we extract social
+  networks features from the graphs in addition to lexical features from
+  email content and we compare the performance of SVM and Extra-Trees
+  classifiers using these features.  Combining graph features with lexical
+  features improves the performance on both classifiers. We also provide
+  manually annotated sets of the Avocado and Enron email corpora as
+  a supplementary contribution.
+Author{1}{Firstname}#=%=#Sakhar
+Author{1}{Lastname}#=%=#Alkhereyf
+Author{1}{Email}#=%=#sakhar@cs.columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Owen
+Author{2}{Lastname}#=%=#Rambow
+Author{2}{Email}#=%=#rambow@ccls.columbia.edu
+Author{2}{Affiliation}#=%=#Columbia University
+
+==========

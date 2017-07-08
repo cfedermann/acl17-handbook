@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Graph Methods for Multilingual FrameNets
+ShortPaperTitle#=%=#Graph Methods for Multilingual FrameNets
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Collin F. Baker
+JobTitle#==#
+Organization#==#International Computer Science Institute
+1947 Center St. Suite 600
+Berkleley, CA 94530
+Abstract#==#This paper introduces a new, graph-based view of the data of the FrameNet
+project, which we hope will make it easier to understand the mixture of
+semantic and syntactic information contained in FrameNet annotation.  We show
+how English FrameNet and other Frame Semantic resources can be represented as
+sets of interconnected graphs of frames, frame elements, semantic types, and
+annotated instances of them in text.  We display examples of the new graphical
+representation based on the annotations, which combine Frame Semantics and
+Construction Grammar, thus capturing most of the syntax and semantics of each
+sentence.  We consider how graph theory could help researchers to make better
+use of FrameNet data for tasks such as automatic Frame Semantic role labeling,
+paraphrasing, and translation.              Finally, we describe the development of
+FrameNet-like lexical resources for other languages in the current Multilingual
+FrameNet project.  which seeks to discover cross-lingual alignments, both in
+the lexicon (for frames and lexical units within frames) and across parallel or
+comparable texts.  We conclude with an example showing graphically the semantic
+and syntactic similarities and differences between parallel sentences in
+English and Japanese.  We will release software for displaying such graphs from
+the current data releases.
+Author{1}{Firstname}#=%=#Collin
+Author{1}{Lastname}#=%=#Baker
+Author{1}{Email}#=%=#collinb@icsi.berkeley.edu
+Author{1}{Affiliation}#=%=#International Computer Science Institute
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Ellsworth
+Author{2}{Email}#=%=#infinity@icsi.berkeley.edu
+Author{2}{Affiliation}#=%=#International Computer Science Institute
+
+==========

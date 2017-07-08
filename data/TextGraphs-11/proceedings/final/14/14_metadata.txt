@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#On the "Calligraphy" of Books
+ShortPaperTitle#=%=#On the "Calligraphy" of Books
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Vanessa Queiroz Marinho
+JobTitle#==#
+Organization#==#
+Abstract#==#Authorship attribution is a natural language processing task that has been
+widely studied, often by considering small order statistics. In this paper, we
+explore a complex network approach to assign the authorship of texts based on
+their mesoscopic representation, in an attempt to capture the flow of the
+narrative.  Indeed, as reported in this work, such an approach allowed the
+identification of the dominant narrative structure of the studied authors.  
+This has been achieved due to the ability of the mesoscopic approach to take
+into account relationships between different, not necessarily adjacent, parts
+of the text, which is able to capture the story flow. The potential of the
+proposed approach has been illustrated through principal component analysis, a
+comparison with the chance baseline method, and network visualization. Such
+visualizations reveal individual characteristics of the authors, which can be
+understood as a kind of calligraphy.
+Author{1}{Firstname}#=%=#Vanessa Queiroz
+Author{1}{Lastname}#=%=#Marinho
+Author{1}{Email}#=%=#vanessa.qm.1@gmail.com
+Author{1}{Affiliation}#=%=#University of São Paulo
+Author{2}{Firstname}#=%=#Henrique Ferraz
+Author{2}{Lastname}#=%=#de Arruda
+Author{2}{Email}#=%=#h.f.arruda@gmail.com
+Author{2}{Affiliation}#=%=#University of São Paulo
+Author{3}{Firstname}#=%=#Thales
+Author{3}{Lastname}#=%=#Sinelli
+Author{3}{Email}#=%=#thalessinelli@gmail.com
+Author{3}{Affiliation}#=%=#University of São Paulo
+Author{4}{Firstname}#=%=#Luciano da Fontoura
+Author{4}{Lastname}#=%=#Costa
+Author{4}{Email}#=%=#ldfcosta@gmail.com
+Author{4}{Affiliation}#=%=#University of São Paulo
+Author{5}{Firstname}#=%=#Diego Raphael
+Author{5}{Lastname}#=%=#Amancio
+Author{5}{Email}#=%=#diegoraphael@gmail.com
+Author{5}{Affiliation}#=%=#University of São Paulo
+
+==========

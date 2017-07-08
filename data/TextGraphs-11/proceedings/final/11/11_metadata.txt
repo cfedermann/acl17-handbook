@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Merging knowledge bases in different languages
+ShortPaperTitle#=%=#Merging knowledge bases in different languages
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Jerónimo Hernández-González
+JobTitle#==#Merging knowledge bases in different languages
+Organization#==#University of the Basque Country UPV/EHU
+P. Manuel de Lardizabal 1, 20018 Donostia, Gipuzkoa, Spain
+Abstract#==#Recently, different systems which learn to populate and extend a knowledge base
+(KB) from the web in different languages have been presented. Although a large
+set of concepts should be learnt independently from the language used to read,
+there are facts which are expected to be more easily gathered in local language
+(e.g., culture or geography). A system that merges KBs learnt in different
+languages will benefit from the complementary information as long as common
+beliefs are identified, as well as from redundancy present in web pages written
+in different languages. In this paper, we deal with the problem of identifying
+equivalent beliefs (or concepts) across language specific KBs, assuming that
+they share the same ontology of categories and relations. In a case study with
+two KBs independently learnt from different inputs, namely web pages written in
+English and web pages written in Portuguese respectively, we report on the
+results of two methodologies: an approach based on personalized PageRank and an
+inference technique to find out common relevant paths through the KBs. The
+proposed inference technique efficiently identifies relevant paths,
+outperforming the baseline (a dictionary-based classifier) in the vast majority
+of tested categories.
+Author{1}{Firstname}#=%=#Jerónimo
+Author{1}{Lastname}#=%=#Hernández-González
+Author{1}{Email}#=%=#jeronimo.hernandez@ehu.eus
+Author{1}{Affiliation}#=%=#Dept. Computer Sciences and Artificial Intelligence, University of the Basque Country UPV/EHU
+Author{2}{Firstname}#=%=#Estevam R.
+Author{2}{Lastname}#=%=#Hruschka Jr.
+Author{2}{Email}#=%=#estevam@dc.ufscar.br
+Author{2}{Affiliation}#=%=#Federal University of Sao Carlos, São Carlos, SP - Brazil
+Author{3}{Firstname}#=%=#Tom M.
+Author{3}{Lastname}#=%=#Mitchell
+Author{3}{Email}#=%=#tom.mitchell@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University, Pittsburgh, PA - USA
+
+==========
