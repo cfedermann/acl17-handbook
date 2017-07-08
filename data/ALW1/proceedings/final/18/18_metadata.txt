@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Rephrasing Profanity in Chinese Text
+ShortPaperTitle#=%=#Rephrasing Profanity in Chinese Text
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Chuan-Jie Lin
+JobTitle#==#
+Organization#==#National Taiwan Ocean University
+No 2, Pei-Ning Road, Keelung, Taiwan ROC
+Abstract#==#This paper proposes a system that can detect and rephrase profanity in Chinese
+text.  Rather than just masking detected profanity, we want to revise the input
+sentence by using inoffensive words while keeping their original meanings.  29
+of such rephrasing rules were invented after observing sentences on real-word
+social websites.  The overall accuracy of the proposed system is 85.56%
+Author{1}{Firstname}#=%=#Hui-Po
+Author{1}{Lastname}#=%=#Su
+Author{1}{Email}#=%=#00157035@ntou.edu.tw
+Author{1}{Affiliation}#=%=#National Taiwan Ocean University
+Author{2}{Firstname}#=%=#Zhen-Jie
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#kentak812@yahoo.com.tw
+Author{2}{Affiliation}#=%=#National Taiwan Ocean University
+Author{3}{Firstname}#=%=#Hao-Tsung
+Author{3}{Lastname}#=%=#Chang
+Author{3}{Email}#=%=#htchang.cse@ntou.edu.tw
+Author{3}{Affiliation}#=%=#National Taiwan Ocean University
+Author{4}{Firstname}#=%=#Chuan-Jie
+Author{4}{Lastname}#=%=#Lin
+Author{4}{Email}#=%=#cjlinntou@gmail.com
+Author{4}{Affiliation}#=%=#National Taiwan Ocean Universty
+
+==========

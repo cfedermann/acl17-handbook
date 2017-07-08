@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Dimensions of Abusive Language on Twitter
+ShortPaperTitle#=%=#Dimensions of Abusive Language on Twitter
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Isobelle Clarke
+JobTitle#==#PhD student and author
+Organization#==#Aston University, Birmingham, West Midlands, England, B4 7ET
+Abstract#==#In this paper, we use a new categorical form of multidimensional register
+analysis to identify the main dimensions of functional linguistic variation in
+a corpus of abusive language, consisting of racist and sexist Tweets. By
+analysing the use of a wide variety of parts-of-speech and grammatical
+constructions, as well as various features related to Twitter and
+computer-mediated communication, we discover three dimensions of linguistic
+variation in this corpus, which we interpret as being related to the degree of
+interactive, antagonistic and attitudinal language exhibited by individual
+Tweets. We then demonstrate that there is a significant functional difference
+between racist and sexist Tweets, with sexists Tweets tending to be more
+interactive and attitudinal than racist Tweets.
+Author{1}{Firstname}#=%=#Isobelle
+Author{1}{Lastname}#=%=#Clarke
+Author{1}{Email}#=%=#clarkei@aston.ac.uk
+Author{1}{Affiliation}#=%=#Aston University
+Author{2}{Firstname}#=%=#Dr. Jack
+Author{2}{Lastname}#=%=#Grieve
+Author{2}{Email}#=%=#j.grieve1@aston.ac.uk
+Author{2}{Affiliation}#=%=#Aston University
+
+==========

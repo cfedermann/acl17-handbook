@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#One-step and Two-step Classification for Abusive Language Detection on Twitter
+ShortPaperTitle#=%=#One-step and Two-step Classification for Abusive Language Detection on Twitter
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Park Ji Ho
+JobTitle#==#
+Organization#==#Human Language Technology Center
+Abstract#==#Automatic abusive language detection is a difficult but important task for
+online social media. Our research explores a two-step approach of performing
+classification on abusive language and then classifying into specific types and
+compares it with one-step approach of doing one multi-class classification for
+detecting sexist and racist languages. With a public English Twitter corpus of
+20 thousand tweets in the type of sexism and racism, our approach shows a
+promising performance of 0.827 F-measure by using HybridCNN in one-step and
+0.824 F-measure by using logistic regression in two-steps.
+Author{1}{Firstname}#=%=#Ji Ho
+Author{1}{Lastname}#=%=#Park
+Author{1}{Email}#=%=#jhpark@connect.ust.hk
+Author{1}{Affiliation}#=%=#HKUST
+Author{2}{Firstname}#=%=#Pascale
+Author{2}{Lastname}#=%=#Fung
+Author{2}{Email}#=%=#pascale@ece.ust.hk
+Author{2}{Affiliation}#=%=#
+
+==========

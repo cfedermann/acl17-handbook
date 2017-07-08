@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Using Convolutional Neural Networks to Classify Hate-Speech
+ShortPaperTitle#=%=#Using Convolutional Neural Networks to Classify Hate-Speech
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Björn Gambäck
+JobTitle#==#
+Organization#==#
+Abstract#==#The paper introduces a deep learning-based Twitter hate-speech text
+classification system. The classifier assigns each tweet to one of four
+predefined categories: racism, sexism, both (racism and sexism) and
+non-hate-speech. Four Convolutional Neural Network models were trained on resp.
+character 4-grams, word vectors based on semantic information built using
+word2vec, randomly generated word vectors, and word vectors combined with
+character n-grams. The feature set was down-sized in the networks by
+max-pooling, and a softmax function used to classify tweets. Tested by 10-fold
+cross-validation, the model based on word2vec embeddings performed best, with
+higher precision than recall, and a 78.3% F-score.
+Author{1}{Firstname}#=%=#Björn
+Author{1}{Lastname}#=%=#Gambäck
+Author{1}{Email}#=%=#gamback@ntnu.no
+Author{1}{Affiliation}#=%=#Norwegian University of Science and Technology
+Author{2}{Firstname}#=%=#Utpal Kumar
+Author{2}{Lastname}#=%=#Sikdar
+Author{2}{Email}#=%=#sikdar.utpal@idi.ntnu.no
+Author{2}{Affiliation}#=%=#Norwegian University of Science and Technology (NTNU)
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Constructive Language in News Comments
+ShortPaperTitle#=%=#Constructive Language in News Comments
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Maite Taboada
+JobTitle#==#
+Organization#==#Simon Fraser University
+Discourse Processing Lab
+Department of Linguistics
+8888 University Dr.
+Burnaby, BC, V5A 1S6
+Canada
+Abstract#==#We discuss the characteristics of constructive news comments, and present
+methods to identify them. First, we define the notion of constructiveness.
+Second, we annotate a corpus for constructiveness. Third, we explore whether
+available argumentation corpora can be useful to identify constructiveness in
+news comments. Our model trained on argumentation corpora achieves a top
+accuracy of 72.59% (baseline=49.44%) on our crowd-annotated test data. Finally,
+we examine the relation between constructiveness and toxicity. In our
+crowd-annotated data, 21.42% of the non-constructive comments and 17.89% of the
+constructive comments are toxic, suggesting that non-constructive comments are
+not much more toxic than constructive comments.
+Author{1}{Firstname}#=%=#Varada
+Author{1}{Lastname}#=%=#Kolhatkar
+Author{1}{Email}#=%=#varada.kolhatkar@gmail.com
+Author{1}{Affiliation}#=%=#Simon Fraser University
+Author{2}{Firstname}#=%=#Maite
+Author{2}{Lastname}#=%=#Taboada
+Author{2}{Email}#=%=#mtaboada@sfu.ca
+Author{2}{Affiliation}#=%=#Simon Fraser University
+
+==========

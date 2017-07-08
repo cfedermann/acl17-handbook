@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Legal Framework, Dataset and Annotation Schema for Socially Unacceptable Online Discourse Practices in Slovene
+ShortPaperTitle#=%=#Legal Framework, Dataset and Annotation Schema for Socially Unacceptable Online Discourse Practices in Slovene
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Darja Fišer
+JobTitle#==#
+Organization#==#University of Ljubljana
+Faculy of Arts
+Aškerčeva 2
+1000 Ljubljana
+Slovenia
+Abstract#==#In this paper we present the legal framework, dataset and annotation schema of
+socially unacceptable discourse practices on social networking platforms in
+Slovenia. On this basis we aim to train an automatic identification and
+classification system with which we wish contribute towards an improved
+methodology, understanding and treatment of such practices in the contemporary,
+increasingly multicultural information society.
+Author{1}{Firstname}#=%=#Darja
+Author{1}{Lastname}#=%=#Fišer
+Author{1}{Email}#=%=#darja.fiser@ff.uni-lj.si
+Author{1}{Affiliation}#=%=#University of Ljubljana
+Author{2}{Firstname}#=%=#Tomaž
+Author{2}{Lastname}#=%=#Erjavec
+Author{2}{Email}#=%=#tomaz.erjavec@ijs.si
+Author{2}{Affiliation}#=%=#Dept. of Knowledge Technologies, Jožef Stefan Institute
+Author{3}{Firstname}#=%=#Nikola
+Author{3}{Lastname}#=%=#Ljubešić
+Author{3}{Email}#=%=#nljubesi@gmail.com
+Author{3}{Affiliation}#=%=#Dept. of Knowledge Technologies, Jožef Stefan Institute
+
+==========

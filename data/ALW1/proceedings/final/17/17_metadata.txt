@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Detecting Nastiness in Social Media
+ShortPaperTitle#=%=#Detecting Nastiness in Social Media
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Niloofar Safi Samghabadi
+JobTitle#==#
+Organization#==#University of Houston, 4800 Calhoun Rd, Houston, TX 77004
+Abstract#==#Although social media has made it easy for people to connect on a virtually
+unlimited basis, it has also opened doors to people who misuse it to undermine,
+harass, humiliate, threaten and bully others. There is a lack of adequate
+resources to detect and hinder its occurrence. In this paper, we  present our
+initial NLP approach to detect invective posts as a first step to eventually
+detect and deter cyberbullying. We crawl data containing profanities and then
+determine whether or not it contains invective. Annotations on this data are
+improved iteratively by in-lab annotations and crowdsourcing. We pursue
+different NLP approaches containing various typical and some newer techniques
+to distinguish the use of swear words in a neutral way from those instances in
+which they are used in an insulting way. We also show that this model not only
+works for our data set, but also can be successfully applied to different data
+sets.
+Author{1}{Firstname}#=%=#Niloofar
+Author{1}{Lastname}#=%=#Safi Samghabadi
+Author{1}{Email}#=%=#nsafisamghabadi@uh.edu
+Author{1}{Affiliation}#=%=#University of Houston
+Author{2}{Firstname}#=%=#Suraj
+Author{2}{Lastname}#=%=#Maharjan
+Author{2}{Email}#=%=#smaharjan2@uh.edu
+Author{2}{Affiliation}#=%=#University of Houston
+Author{3}{Firstname}#=%=#Alan
+Author{3}{Lastname}#=%=#Sprague
+Author{3}{Email}#=%=#sprague@cis.uab.edu
+Author{3}{Affiliation}#=%=#University of Alabama at Birmingham
+Author{4}{Firstname}#=%=#Raquel
+Author{4}{Lastname}#=%=#Diaz-Sprague
+Author{4}{Email}#=%=#diazspra@uab.edu
+Author{4}{Affiliation}#=%=#University of Alabama at Birmingham
+Author{5}{Firstname}#=%=#Thamar
+Author{5}{Lastname}#=%=#Solorio
+Author{5}{Email}#=%=#thamar.solorio@gmail.com
+Author{5}{Affiliation}#=%=#UH
+
+==========

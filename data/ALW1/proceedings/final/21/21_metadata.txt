@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Understanding Abuse: A Typology of Abusive Language Detection Subtasks
+ShortPaperTitle#=%=#Understanding Abuse: A Typology of Abusive Language Detection Subtasks
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Zeerak Waseem
+JobTitle#==#
+Organization#==#Department of Computer Science
+University of Sheffield
+Regent Court, 211 Portobello
+Sheffield
+S1 4DP
+Abstract#==#As the body of research on abusive language detection and analysis grows, there
+is a need for critical consideration of the relationships between different
+subtasks that have been grouped under this label. Based on work on hate speech,
+cyberbullying, and online abuse we propose a typology that captures central
+similarities and differences between subtasks and discuss the implications of
+this for data annotation and feature construction. We emphasize the practical
+actions that can be taken by researchers to best approach their abusive
+language detection subtask of interest.
+Author{1}{Firstname}#=%=#Zeerak
+Author{1}{Lastname}#=%=#Waseem
+Author{1}{Email}#=%=#z.w.butt@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Thomas
+Author{2}{Lastname}#=%=#Davidson
+Author{2}{Email}#=%=#trd54@cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+Author{3}{Firstname}#=%=#Dana
+Author{3}{Lastname}#=%=#Warmsley
+Author{3}{Email}#=%=#dw457@cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+Author{4}{Firstname}#=%=#Ingmar
+Author{4}{Lastname}#=%=#Weber
+Author{4}{Email}#=%=#iweber@qf.org.qa
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute
+
+==========

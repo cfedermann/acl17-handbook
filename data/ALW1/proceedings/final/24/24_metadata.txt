@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Illegal is not a Noun: Linguistic Form for Detection of Pejorative Nominalizations
+ShortPaperTitle#=%=#Illegal is not a Noun: Linguistic Form for Detection of Pejorative Nominalizations
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Alexis Palmer
+JobTitle#==#
+Organization#==#Department of Linguistics, University of North Texas, Denton, TX, 76203, USA
+Abstract#==#This paper focuses on a particular type of abusive language, targeting 
+expressions in which typically neutral adjectives take on pejorative meaning
+when used as nouns - compare 'gay people' to 'the gays'. We first collect and
+analyze a corpus of hand-curated, expert-annotated pejorative nominalizations
+for four target adjectives: female, gay, illegal, and poor. We then collect a
+second corpus of automatically-extracted and POS-tagged, crowd-annotated
+tweets. For both corpora, we find support for the hypothesis that some
+adjectives, when nominalized, take on negative meaning. The targeted
+constructions are non-standard yet widely-used, and part-of-speech taggers
+mistag some nominal forms as adjectives. We implement a tool called NomCatcher
+to correct these mistaggings, and find that the same tool is effective for
+identifying new adjectives subject to transformation via nominalization into
+abusive language.
+Author{1}{Firstname}#=%=#Alexis
+Author{1}{Lastname}#=%=#Palmer
+Author{1}{Email}#=%=#alexis.palmer@unt.edu
+Author{1}{Affiliation}#=%=#University of North Texas
+Author{2}{Firstname}#=%=#Melissa
+Author{2}{Lastname}#=%=#Robinson
+Author{2}{Email}#=%=#melissarobinson@my.unt.edu
+Author{2}{Affiliation}#=%=#University of North Texas
+Author{3}{Firstname}#=%=#Kristy K.
+Author{3}{Lastname}#=%=#Phillips
+Author{3}{Email}#=%=#kristy.phillips@unt.edu
+Author{3}{Affiliation}#=%=#University of North Texas
+
+==========

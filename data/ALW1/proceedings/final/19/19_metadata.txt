@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Technology Solutions to Combat Online Harassment
+ShortPaperTitle#=%=#Technology Solutions to Combat Online Harassment
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#George W. Kennedy
+JobTitle#==#
+Organization#==#Intel Corporation
+2111 NE 25th Ave
+Hillsboro, OR 97124
+Abstract#==#This work is part of a new initiative to use machine learning to identify
+online harassment in social media and comment streams. Online harassment goes
+under-reported due to the reliance on humans to identify and report harassment,
+reporting that is further slowed by requirements to fill out forms providing
+context. In addition, the time for moderators to respond and apply human
+judgment can take days, but response times in terms of minutes are needed in
+the online context. Though some of the major social media companies have been
+doing proprietary work in automating the detection of harassment, there are few
+tools available for use by the public. In addition, the amount of labeled
+online harassment data and availability of cross-platform online harassment
+datasets is limited. We present the methodology used to create a harassment
+dataset and classifier and the dataset used to help the system learn what
+harassment looks like.
+Author{1}{Firstname}#=%=#George
+Author{1}{Lastname}#=%=#Kennedy
+Author{1}{Email}#=%=#george.w.kennedy@intel.com
+Author{1}{Affiliation}#=%=#Intel
+Author{2}{Firstname}#=%=#Andrew
+Author{2}{Lastname}#=%=#McCollough
+Author{2}{Email}#=%=#andrew.w.mccollough@gmail.com
+Author{2}{Affiliation}#=%=#EdgeRock Technology Partners
+Author{3}{Firstname}#=%=#Edward
+Author{3}{Lastname}#=%=#Dixon
+Author{3}{Email}#=%=#edward_dixon@mcafee.com
+Author{3}{Affiliation}#=%=#McAfee
+Author{4}{Firstname}#=%=#Alexei
+Author{4}{Lastname}#=%=#Bastidas
+Author{4}{Email}#=%=#alexeib@stanford.edu
+Author{4}{Affiliation}#=%=#Stanford
+Author{5}{Firstname}#=%=#John
+Author{5}{Lastname}#=%=#Ryan
+Author{5}{Email}#=%=#johnryan465@gmail.com
+Author{5}{Affiliation}#=%=#Intel
+Author{6}{Firstname}#=%=#Chris
+Author{6}{Lastname}#=%=#Loo
+Author{6}{Email}#=%=#Christopher.J.Loo@Intel.com
+Author{6}{Affiliation}#=%=#Intel
+Author{7}{Firstname}#=%=#Saurav
+Author{7}{Lastname}#=%=#Sahay
+Author{7}{Email}#=%=#saurav.sahay@intel.com
+Author{7}{Affiliation}#=%=#Intel
+
+==========

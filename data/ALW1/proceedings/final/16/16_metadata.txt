@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Vectors for Counterspeech on Twitter
+ShortPaperTitle#=%=#Vectors for Counterspeech on Twitter
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tonei Glavinic
+JobTitle#==#Program Manager
+Organization#==#Dangerous Speech Project
+c/o New Venture Fund
+1201 Connecticut Avenue NW, Suite 300
+Washington, DC 20036
+Abstract#==#A study of conversations on Twitter found that some arguments between strangers
+led to favorable change in discourse and even in attitudes. The authors propose
+that such exchanges can be usefully distinguished according to whether
+individuals or groups take part on each side, since the opportunity for a
+constructive exchange of views seems to vary accordingly.
+Author{1}{Firstname}#=%=#Lucas
+Author{1}{Lastname}#=%=#Wright
+Author{1}{Email}#=%=#lucas@dangerousspeech.org
+Author{1}{Affiliation}#=%=#Dangerous Speech Project
+Author{2}{Firstname}#=%=#Derek
+Author{2}{Lastname}#=%=#Ruths
+Author{2}{Email}#=%=#druths@networkdynamics.org
+Author{2}{Affiliation}#=%=#McGill University, School of Computer Science
+Author{3}{Firstname}#=%=#Kelly P
+Author{3}{Lastname}#=%=#Dillon
+Author{3}{Email}#=%=#dillonk@wittenberg.edu
+Author{3}{Affiliation}#=%=#Wittenberg University, Department of Communication
+Author{4}{Firstname}#=%=#Haji Mohammad
+Author{4}{Lastname}#=%=#Saleem
+Author{4}{Email}#=%=#haji.saleem@mail.mcgill.ca
+Author{4}{Affiliation}#=%=#McGill University, School of Computer Science
+Author{5}{Firstname}#=%=#Susan
+Author{5}{Lastname}#=%=#Benesch
+Author{5}{Email}#=%=#susan.benesch@gmail.com
+Author{5}{Affiliation}#=%=#Dangerous Speech Project
+
+==========

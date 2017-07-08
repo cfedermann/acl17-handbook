@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Deep Learning for User Comment Moderation
+ShortPaperTitle#=%=#Deep Learning for User Comment Moderation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Prodromos Malakasiotis
+JobTitle#==#
+Organization#==#StrainTek, Leoforos Irakleiou 385, Neo Irakleio, 14122, Greece
+Abstract#==#Experimenting with a new dataset of 1.6M user comments from a Greek news portal
+and existing datasets of EnglishWikipedia comments, we show that an RNN
+outperforms the previous state of the art in moderation. A deep,
+classification-specific attention mechanism improves further the overall
+performance of the RNN. We also compare against a CNN and a word-list baseline,
+considering both fully automatic and semi-automatic moderation.
+Author{1}{Firstname}#=%=#John
+Author{1}{Lastname}#=%=#Pavlopoulos
+Author{1}{Email}#=%=#annis@aueb.gr
+Author{1}{Affiliation}#=%=#Athens University of Economics and Business
+Author{2}{Firstname}#=%=#Prodromos
+Author{2}{Lastname}#=%=#Malakasiotis
+Author{2}{Email}#=%=#rulller@gmail.com
+Author{2}{Affiliation}#=%=#Athens University of Economics and Business, Department of Informatics
+Author{3}{Firstname}#=%=#Ion
+Author{3}{Lastname}#=%=#Androutsopoulos
+Author{3}{Email}#=%=#ionandr@gmail.com
+Author{3}{Affiliation}#=%=#Athens University of Economics and Business
+
+==========

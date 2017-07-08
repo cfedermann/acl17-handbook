@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Class-based Prediction Errors to Detect Hate Speech with Out-of-vocabulary Words
+ShortPaperTitle#=%=#Class-based Prediction Errors to Detect Hate Speech with Out-of-vocabulary Words
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Dimitris Spathis
+JobTitle#==#
+Organization#==#Aristotle University Campus
+54124 Thessaloniki
+Greece
+Abstract#==#Common approaches  to text categorization essentially rely either on n-gram
+counts or on word embeddings. This presents important difficulties in highly
+dynamic or quickly-interacting environments, where the appearance of new words
+and/or varied misspellings is the norm. A paradigmatic example of this
+situation is abusive online behavior, with social networks and media platforms
+struggling to effectively combat uncommon or non-blacklisted hate words. To
+better deal with these issues in those fast-paced environments, we propose
+using the error signal of class-based language models as input to text
+classification algorithms. In particular, we train a next-character prediction
+model for any given class and then exploit the error of such class-based models
+to inform a neural network classifier. This way, we shift from the ‘ability
+to describe’ seen documents to the ‘ability to predict’ unseen content.
+Preliminary studies using out-of-vocabulary splits from abusive tweet data show
+promising results, outperforming competitive text categorization strategies by
+4-11%.
+Author{1}{Firstname}#=%=#Joan
+Author{1}{Lastname}#=%=#Serrà
+Author{1}{Email}#=%=#joan.serra@telefonica.com
+Author{1}{Affiliation}#=%=#Telefonica Research
+Author{2}{Firstname}#=%=#Ilias
+Author{2}{Lastname}#=%=#Leontiadis
+Author{2}{Email}#=%=#ilias.leontiadis@telefonica.com
+Author{2}{Affiliation}#=%=#Telefonica Research
+Author{3}{Firstname}#=%=#Dimitris
+Author{3}{Lastname}#=%=#Spathis
+Author{3}{Email}#=%=#sdimitris@csd.auth.gr
+Author{3}{Affiliation}#=%=#Aristotle University of Thessaloniki
+Author{4}{Firstname}#=%=#Gianluca
+Author{4}{Lastname}#=%=#Stringhini
+Author{4}{Email}#=%=#g.stringhini@ucl.ac.uk
+Author{4}{Affiliation}#=%=#University College London
+Author{5}{Firstname}#=%=#Jeremy
+Author{5}{Lastname}#=%=#Blackburn
+Author{5}{Email}#=%=#jeremy.blackburn@telefonica.com
+Author{5}{Affiliation}#=%=#Telefonica Research
+Author{6}{Firstname}#=%=#Athena
+Author{6}{Lastname}#=%=#Vakali
+Author{6}{Email}#=%=#avakali@csd.auth.gr
+Author{6}{Affiliation}#=%=#Aristotle University of Thessaloniki
+
+==========
