@@ -1,0 +1,58 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Towards Problem Solving Agents that Communicate and Learn
+ShortPaperTitle#=%=#Towards Problem Solving Agents that Communicate and Learn
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Anjali Narayan-Chen
+JobTitle#==#
+Organization#==#University of Illinois at Urbana-Champaign
+201 N Goodwin Ave, Urbana, IL 61801
+Abstract#==#Agents that communicate back and forth with humans to help them execute
+non-linguistic tasks are a long sought goal of AI. These agents need to
+translate between utterances and actionable meaning representations that can be
+interpreted by task-specific problem solvers in a context-dependent manner.
+They should also be able to learn such actionable interpretations for new
+predicates on the fly. We define an agent architecture for this scenario and
+present a series of experiments in the Blocks World domain that illustrate how
+our architecture supports language learning and problem solving in this domain.
+Author{1}{Firstname}#=%=#Anjali
+Author{1}{Lastname}#=%=#Narayan-Chen
+Author{1}{Email}#=%=#nrynchn2@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{2}{Firstname}#=%=#Colin
+Author{2}{Lastname}#=%=#Graber
+Author{2}{Email}#=%=#cgraber2@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#Mayukh
+Author{3}{Lastname}#=%=#Das
+Author{3}{Email}#=%=#maydas@indiana.edu
+Author{3}{Affiliation}#=%=#Indiana University Bloomington
+Author{4}{Firstname}#=%=#Md Rakibul
+Author{4}{Lastname}#=%=#Islam
+Author{4}{Email}#=%=#mislam1@eecs.wsu.edu
+Author{4}{Affiliation}#=%=#Washington State University
+Author{5}{Firstname}#=%=#Soham
+Author{5}{Lastname}#=%=#Dan
+Author{5}{Email}#=%=#sdan2@illinois.edu
+Author{5}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{6}{Firstname}#=%=#Sriraam
+Author{6}{Lastname}#=%=#Natarajan
+Author{6}{Email}#=%=#natarasr@indiana.edu
+Author{6}{Affiliation}#=%=#Indiana University Bloomington
+Author{7}{Firstname}#=%=#Janardhan Rao
+Author{7}{Lastname}#=%=#Doppa
+Author{7}{Email}#=%=#jana@eecs.wsu.edu
+Author{7}{Affiliation}#=%=#Washington State University
+Author{8}{Firstname}#=%=#Julia
+Author{8}{Lastname}#=%=#Hockenmaier
+Author{8}{Email}#=%=#juliahmr@illinois.edu
+Author{8}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{9}{Firstname}#=%=#Martha
+Author{9}{Lastname}#=%=#Palmer
+Author{9}{Email}#=%=#martha.palmer@colorado.edu
+Author{9}{Affiliation}#=%=#University of Colorado at Boulder
+Author{10}{Firstname}#=%=#Dan
+Author{10}{Lastname}#=%=#Roth
+Author{10}{Email}#=%=#danr@illinois.edu
+Author{10}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+
+==========

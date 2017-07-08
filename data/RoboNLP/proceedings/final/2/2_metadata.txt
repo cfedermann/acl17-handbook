@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Grounding Language for Interactive Task Learning
+ShortPaperTitle#=%=#Grounding Language for Interactive Task Learning
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Peter Lindes
+JobTitle#==#
+Organization#==#University of Michigan
+2260 Hayward St.
+Ann Arbor, MI 48109
+Abstract#==#This paper describes how language is
+grounded by a comprehension system
+called Lucia within a robotic agent called
+Rosie that can manipulate objects and
+navigate indoors. The whole system is
+built within the Soar cognitive architecture
+and uses Embodied Construction Grammar
+(ECG) as a formalism for describing
+linguistic knowledge. Grounding is performed
+using knowledge from the grammar
+itself, from the linguistic context,
+from the agents perception, and from an
+ontology of long-term knowledge about
+object categories and properties and actions
+the agent can perform. The paper
+also describes a benchmark corpus of 200
+sentences in this domain along with test
+versions of the world model and ontology
+and gold-standard meanings for each
+of the sentences. The benchmark is contained
+in the supplemental materials.
+Author{1}{Firstname}#=%=#Peter
+Author{1}{Lastname}#=%=#Lindes
+Author{1}{Email}#=%=#plindes@umich.edu
+Author{1}{Affiliation}#=%=#University of Michigan
+Author{2}{Firstname}#=%=#Aaron
+Author{2}{Lastname}#=%=#Mininger
+Author{2}{Email}#=%=#mininger@umich.edu
+Author{2}{Affiliation}#=%=#University of Michigan
+Author{3}{Firstname}#=%=#James R.
+Author{3}{Lastname}#=%=#Kirk
+Author{3}{Email}#=%=#jrkirk@umich.edu
+Author{3}{Affiliation}#=%=#University of Michigan
+Author{4}{Firstname}#=%=#John E.
+Author{4}{Lastname}#=%=#Laird
+Author{4}{Email}#=%=#laird@umich.edu
+Author{4}{Affiliation}#=%=#University of Michigan
+
+==========

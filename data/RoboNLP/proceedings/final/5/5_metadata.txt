@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Structured Learning for Context-aware Spoken Language Understanding of Robotic Commands
+ShortPaperTitle#=%=#Structured Learning for Context-aware Spoken Language Understanding of Robotic Commands
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Andrea Vanzo
+JobTitle#==#
+Organization#==#Sapienza University of Rome,
+Via Ariosto 25, 00185, Rome, Italy
+Abstract#==#Service robots are expected to operate in specific environments, where the
+presence of humans plays a key role. A major feature of such robotics platforms
+is thus the ability to react to spoken commands. This requires the
+understanding of the user utterance with an accuracy able to trigger the robot
+reaction.
+Such correct interpretation of linguistic exchanges depends on physical,
+cognitive and language-dependent aspects related to the environment. In this
+work, we present the empirical evaluation of an adaptive Spoken Language
+Understanding chain for robotic commands, that explicitly depends on the
+operational environment during both the learning and recognition stages. The
+effectiveness of such a context-sensitive command interpretation is tested
+against an extension of an already existing corpus of commands, that introduced
+explicit perceptual knowledge: this enabled deeper measures proving that more
+accurate disambiguation capabilities can be actually obtained.
+Author{1}{Firstname}#=%=#Andrea
+Author{1}{Lastname}#=%=#Vanzo
+Author{1}{Email}#=%=#vanzo@dis.uniroma1.it
+Author{1}{Affiliation}#=%=#Sapienza University of Rome
+Author{2}{Firstname}#=%=#Danilo
+Author{2}{Lastname}#=%=#Croce
+Author{2}{Email}#=%=#croce@info.uniroma2.it
+Author{2}{Affiliation}#=%=#University of Roma, Tor Vergata
+Author{3}{Firstname}#=%=#Roberto
+Author{3}{Lastname}#=%=#Basili
+Author{3}{Email}#=%=#basili@info.uniroma2.it
+Author{3}{Affiliation}#=%=#University of Roma, Tor Vergata
+Author{4}{Firstname}#=%=#Daniele
+Author{4}{Lastname}#=%=#Nardi
+Author{4}{Email}#=%=#nardi@dis.uniroma1.it
+Author{4}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

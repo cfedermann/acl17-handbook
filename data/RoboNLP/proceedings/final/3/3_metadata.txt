@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Learning how to Learn: An Adaptive Dialogue Agent for Incrementally Learning Visually Grounded Word Meanings
+ShortPaperTitle#=%=#Learning how to Learn: An Adaptive Dialogue Agent for Incrementally Learning Visually Grounded Word Meanings
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yanchao Yu
+JobTitle#==#
+Organization#==#Heriot-Watt University, Riccarton, Edinburgh, UK, EH14 4AS
+Abstract#==#We present an optimised multi-modal dialogue agent for interactive learning of
+visually grounded word meanings from a human tutor, trained on real human-human
+tutoring data. Within a life-long interactive learning period, the agent,
+trained using Reinforcement Learning (RL), must be able to handle natural
+conversations with human users, and achieve  good learning performance (i.e.
+accuracy) while minimising human effort in the learning process. We train and
+evaluate this  system in interaction with a simulated human tutor, which is
+built on the BURCHAK corpus -- a Human-Human Dialogue dataset for the visual
+learning task. The results show that: 1) The learned policy can coherently
+interact with the simulated user to achieve the goal of the task (i.e. learning
+visual attributes of  objects, e.g. colour and shape); and 2) it finds a better
+trade-off between  classifier accuracy and tutoring costs than hand-crafted
+rule-based policies, including ones with dynamic policies.
+Author{1}{Firstname}#=%=#Yanchao
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Email}#=%=#y.yu@hw.ac.uk
+Author{1}{Affiliation}#=%=#Heriot-Watt University
+Author{2}{Firstname}#=%=#Arash
+Author{2}{Lastname}#=%=#Eshghi
+Author{2}{Email}#=%=#eshghi.a@gmail.com
+Author{2}{Affiliation}#=%=#Heriot-Watt University
+Author{3}{Firstname}#=%=#Oliver
+Author{3}{Lastname}#=%=#Lemon
+Author{3}{Email}#=%=#olemon@gmail.com
+Author{3}{Affiliation}#=%=#Heriot-Watt University, Edinburgh
+
+==========

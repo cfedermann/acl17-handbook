@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Communication with Robots using Multilayer Recurrent Networks
+ShortPaperTitle#=%=#Communication with Robots using Multilayer Recurrent Networks
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Bedrich Pisl
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we describe an improvement on the task of giving instructions to
+robots in a simulated block world using unrestricted natural language commands.
+Author{1}{Firstname}#=%=#Bedřich
+Author{1}{Lastname}#=%=#Pišl
+Author{1}{Email}#=%=#bedapisl@gmail.com
+Author{1}{Affiliation}#=%=#Charles University in Prague
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Mareček
+Author{2}{Email}#=%=#marecek@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University in Prague
+
+==========

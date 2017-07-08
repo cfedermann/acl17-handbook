@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Grounding Symbols in Multi-Modal Instructions
+ShortPaperTitle#=%=#Grounding Symbols in Multi-Modal Instructions
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Yordan Hristov
+JobTitle#==#
+Organization#==#
+Abstract#==#As robots begin to cohabit with humans in semi-structured environments, the
+need arises to understand instructions involving rich variability---for
+instance, learning to ground symbols in the physical world. Realistically, this
+task must cope with small datasets consisting of a particular users' contextual
+assignment of meaning to terms. We present a method for processing a raw stream
+of cross-modal input---i.e., linguistic instructions, visual perception of a
+scene and a concurrent trace of 3D eye tracking fixations---to produce the
+segmentation of objects with a correspondent association to high-level
+concepts. To test our framework we present experiments in a table-top object
+manipulation scenario. Our results show our model learns the user's notion of
+colour and shape from a small number of physical demonstrations, generalising
+to identifying physical referents for novel combinations of the words.
+Author{1}{Firstname}#=%=#Yordan
+Author{1}{Lastname}#=%=#Hristov
+Author{1}{Email}#=%=#yordan.hristov@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Svetlin
+Author{2}{Lastname}#=%=#Penkov
+Author{2}{Email}#=%=#sv.penkov@ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Alex
+Author{3}{Lastname}#=%=#Lascarides
+Author{3}{Email}#=%=#alex@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Subramanian
+Author{4}{Lastname}#=%=#Ramamoorthy
+Author{4}{Email}#=%=#s.ramamoorthy@ed.ac.uk
+Author{4}{Affiliation}#=%=#University of Edinburgh
+
+==========

@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Guiding Interaction Behaviors for Multi-modal Grounded Language Learning
+ShortPaperTitle#=%=#Interaction Behaviors for Multi-modal Grounding
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jesse Thomason
+JobTitle#==#
+Organization#==#University of Texas at Austin
+Main Building (MAI)
+110 Inner Campus Drive
+Austin, TX 78705
+Abstract#==#Multi-modal grounded language learning connects language predicates to physical
+properties of objects in the world. Sensing with multiple modalities, such as
+audio, haptics, and visual colors and shapes while performing interaction
+behaviors like lifting, dropping, and looking on objects enables a robot to
+ground non-visual predicates like ``empty'' as well as visual predicates like
+``red''. Previous work has established that grounding in multi-modal space
+improves performance on object retrieval from human descriptions. In this work,
+we gather behavior annotations from humans and demonstrate that these improve
+language grounding performance by allowing a system to focus on relevant
+behaviors for words like ``white'' or ``half-full'' that can be understood by
+looking or lifting, respectively. We also explore adding modality annotations
+(whether to focus on audio or haptics when performing a behavior), which
+improves performance, and sharing information between linguistically related
+predicates (if ``green'' is a color, ``white'' is a color), which improves
+grounding recall but at the cost of precision.
+Author{1}{Firstname}#=%=#Jesse
+Author{1}{Lastname}#=%=#Thomason
+Author{1}{Email}#=%=#jesse@cs.utexas.edu
+Author{1}{Affiliation}#=%=#University of Texas at Austin
+Author{2}{Firstname}#=%=#Jivko
+Author{2}{Lastname}#=%=#Sinapov
+Author{2}{Email}#=%=#jsinapov@cs.utexas.edu
+Author{2}{Affiliation}#=%=#University of Texas at Austin
+Author{3}{Firstname}#=%=#Raymond
+Author{3}{Lastname}#=%=#Mooney
+Author{3}{Email}#=%=#mooney@cs.utexas.edu
+Author{3}{Affiliation}#=%=#University of Texas at Austin
+
+==========

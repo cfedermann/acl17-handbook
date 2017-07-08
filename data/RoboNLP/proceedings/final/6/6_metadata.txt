@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Natural Language Grounding and Grammar Induction for Robotic Manipulation Commands
+ShortPaperTitle#=%=#Natural Language Grounding and Grammar Induction for Robotic Manipulation Commands
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Muhannad Alomari
+JobTitle#==#
+Organization#==#School of Computing, University of Leeds
+EC Stoner Building
+LS2 9JT
+Leeds, UK
+Abstract#==#We present a cognitively plausible system capable of acquiring knowledge in
+language and vision from pairs of short video clips and linguistic
+descriptions. The aim of this work is to teach a robot manipulator how to
+execute natural language commands by demonstration. This is achieved by first
+learning a set of visual `concepts' that abstract the visual feature spaces
+into concepts that have human-level meaning. Second, learning the
+mapping/grounding between words and the extracted visual concepts. Third,
+inducing grammar rules via a semantic representation known as Robot Control
+Language (RCL).
+We evaluate our approach against state-of-the-art supervised and unsupervised
+grounding and grammar induction systems, and show that a robot can learn to
+execute never seen-before commands from pairs of unlabelled linguistic and
+visual inputs.
+Author{1}{Firstname}#=%=#Muhannad
+Author{1}{Lastname}#=%=#Alomari
+Author{1}{Email}#=%=#scmara@leeds.ac.uk
+Author{1}{Affiliation}#=%=#University of Leeds
+Author{2}{Firstname}#=%=#Paul
+Author{2}{Lastname}#=%=#Duckworth
+Author{2}{Email}#=%=#scpd@leeds.ac.uk
+Author{2}{Affiliation}#=%=#University of Leeds
+Author{3}{Firstname}#=%=#Majd
+Author{3}{Lastname}#=%=#Hawasly
+Author{3}{Email}#=%=#m.hawasly@leeds.ac.uk
+Author{3}{Affiliation}#=%=#University of Leeds
+Author{4}{Firstname}#=%=#David C.
+Author{4}{Lastname}#=%=#Hogg
+Author{4}{Email}#=%=#d.c.hogg@leeds.ac.uk
+Author{4}{Affiliation}#=%=#university of Leeds
+Author{5}{Firstname}#=%=#Anthony G.
+Author{5}{Lastname}#=%=#Cohn
+Author{5}{Email}#=%=#a.g.cohn@leeds.ac.uk
+Author{5}{Affiliation}#=%=#University of Leeds
+
+==========

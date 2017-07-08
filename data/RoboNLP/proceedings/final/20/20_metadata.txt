@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Are Distributional Representations Ready for the Real World? Evaluating Word Vectors for Grounded Perceptual Meaning
+ShortPaperTitle#=%=#Are Distributional Representations Ready for the Real World? Evaluating Word Vectors for Grounded Perceptual Meaning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lucy Li
+JobTitle#==#
+Organization#==#Stanford University
+450 Serra Mall, Stanford, CA 94305
+Abstract#==#Distributional word representation methods exploit word co-occurrences to build
+compact vector encodings of words. While these representations enjoy widespread
+use in modern natural language processing, it is unclear whether they
+accurately encode all necessary facets of conceptual meaning. In this paper, we
+evaluate how well these representations can predict perceptual and conceptual
+features of concrete concepts, drawing on two semantic norm datasets sourced
+from human participants. We find that several standard word representations
+fail to encode many salient perceptual features of concepts, and show that
+these deficits correlate with word-word similarity prediction errors. Our
+analyses provide motivation for grounded and embodied language learning
+approaches, which may help to remedy these deficits.
+Author{1}{Firstname}#=%=#Li
+Author{1}{Lastname}#=%=#Lucy
+Author{1}{Email}#=%=#lucy3@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Jon
+Author{2}{Lastname}#=%=#Gauthier
+Author{2}{Email}#=%=#jgauthie@stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+
+==========

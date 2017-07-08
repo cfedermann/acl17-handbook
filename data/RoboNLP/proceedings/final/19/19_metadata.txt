@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#A Tale of Two DRAGGNs: A Hybrid Approach for Interpreting Action-Oriented and Goal-Oriented Instructions
+ShortPaperTitle#=%=#A Tale of Two DRAGGNs: Interpreting Action and Goal-Oriented Instructions
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Siddharth Karamcheti
+JobTitle#==#
+Organization#==#Brown University Department of Computer Science, 115 Waterman Street, Providence, RI 02912
+Abstract#==#Robots operating alongside humans in diverse, stochastic environments must be
+able to accurately interpret natural language commands. These instructions
+often fall into one of two categories: those that specify a goal condition or
+target state, and those that specify explicit actions, or how to perform a
+given task. Recent approaches have used reward functions as a semantic
+representation of goal-based commands, which allows for the use of a
+state-of-the-art planner to find a policy for the given task. However, these
+reward functions cannot be directly used to represent action-oriented commands.
+We introduce a new hybrid approach, the Deep Recurrent Action-Goal Grounding
+Network (DRAGGN), for task grounding and execution that handles natural
+language from either category as input, and generalizes to unseen environments.
+Our robot-simulation results demonstrate that a system successfully
+interpreting both goal-oriented and action-oriented task specifications brings
+us closer to robust natural language understanding for human-robot interaction.
+Author{1}{Firstname}#=%=#Siddharth
+Author{1}{Lastname}#=%=#Karamcheti
+Author{1}{Email}#=%=#siddharth_karamcheti@brown.edu
+Author{1}{Affiliation}#=%=#Brown University
+Author{2}{Firstname}#=%=#Edward Clem
+Author{2}{Lastname}#=%=#Williams
+Author{2}{Email}#=%=#edward_c_williams@brown.edu
+Author{2}{Affiliation}#=%=#Brown University
+Author{3}{Firstname}#=%=#Dilip
+Author{3}{Lastname}#=%=#Arumugam
+Author{3}{Email}#=%=#dilip_arumugam@brown.edu
+Author{3}{Affiliation}#=%=#Brown University
+Author{4}{Firstname}#=%=#Mina
+Author{4}{Lastname}#=%=#Rhee
+Author{4}{Email}#=%=#mina_rhee@brown.edu
+Author{4}{Affiliation}#=%=#Brown University
+Author{5}{Firstname}#=%=#Nakul
+Author{5}{Lastname}#=%=#Gopalan
+Author{5}{Email}#=%=#ngopalan@cs.brown.edu
+Author{5}{Affiliation}#=%=#Brown University
+Author{6}{Firstname}#=%=#Lawson L.S.
+Author{6}{Lastname}#=%=#Wong
+Author{6}{Email}#=%=#lsw@brown.edu
+Author{6}{Affiliation}#=%=#Brown University
+Author{7}{Firstname}#=%=#Stefanie
+Author{7}{Lastname}#=%=#Tellex
+Author{7}{Email}#=%=#stefie10@cs.brown.edu
+Author{7}{Affiliation}#=%=#Brown University
+
+==========

@@ -1,0 +1,57 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Exploring Variation of Natural Human Commands to a Robot in a Collaborative Navigation Task
+ShortPaperTitle#=%=#Exploring Variation of Natural Robot-Directed Commands
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#United States Army Research Lab, 2800 Powder Mill Rd, Adelphi, MD 20783
+Abstract#==#Robot-directed communication is variable, and may change based on human
+perception of robot capabilities. To collect training data for a dialogue
+system and to investigate possible communication changes over time, we
+developed a Wizard-of-Oz study that (a) simulates a robot's limited
+understanding, and (b) collects dialogues where human participants build a
+progressively better mental model of the robot's understanding. With ten
+participants, we collected ten hours of human-robot dialogue. We analyzed the
+structure of instructions that participants gave to a remote robot before it
+responded. Our findings show a general initial preference for including metric
+information (e.g., move forward 3 feet) over landmarks (e.g., move to the desk)
+in motion commands, but this decreased over time, suggesting changes in
+perception.
+Author{1}{Firstname}#=%=#Matthew
+Author{1}{Lastname}#=%=#Marge
+Author{1}{Email}#=%=#matthew.r.marge.civ@mail.mil
+Author{1}{Affiliation}#=%=#Army Research Laboratory
+Author{2}{Firstname}#=%=#Claire
+Author{2}{Lastname}#=%=#Bonial
+Author{2}{Email}#=%=#claire.n.bonial.civ@mail.mil
+Author{2}{Affiliation}#=%=#US Army Research Lab
+Author{3}{Firstname}#=%=#Ashley
+Author{3}{Lastname}#=%=#Foots
+Author{3}{Email}#=%=#ashley.n.foots.civ@mail.mil
+Author{3}{Affiliation}#=%=#Army Research Laboratory
+Author{4}{Firstname}#=%=#Cory
+Author{4}{Lastname}#=%=#Hayes
+Author{4}{Email}#=%=#cory.j.hayes4.ctr@mail.mil
+Author{4}{Affiliation}#=%=#Army Research Laboratory
+Author{5}{Firstname}#=%=#Cassidy
+Author{5}{Lastname}#=%=#Henry
+Author{5}{Email}#=%=#cassidy.henry@ucla.edu
+Author{5}{Affiliation}#=%=#U.S. Army Research Laboratory, West // UCLA
+Author{6}{Firstname}#=%=#Kimberly
+Author{6}{Lastname}#=%=#Pollard
+Author{6}{Email}#=%=#kimberly.a.pollard.civ@mail.mil
+Author{6}{Affiliation}#=%=#Army Research Laboratory
+Author{7}{Firstname}#=%=#Ron
+Author{7}{Lastname}#=%=#Artstein
+Author{7}{Email}#=%=#artstein@ict.usc.edu
+Author{7}{Affiliation}#=%=#USC Institute for Creative Technologies
+Author{8}{Firstname}#=%=#Clare
+Author{8}{Lastname}#=%=#Voss
+Author{8}{Email}#=%=#crvoss@acm.org
+Author{8}{Affiliation}#=%=#ARL
+Author{9}{Firstname}#=%=#David
+Author{9}{Lastname}#=%=#Traum
+Author{9}{Email}#=%=#traum@ict.usc.edu
+Author{9}{Affiliation}#=%=#University of Southern California Institute for Creative Technologies
+
+==========
