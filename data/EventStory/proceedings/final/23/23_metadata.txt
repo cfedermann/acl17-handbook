@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#The Event StoryLine Corpus: A New Benchmark for Causal and Temporal Relation Extraction
+ShortPaperTitle#=%=#The Event StoryLine Corpus: A New Benchmark for Causal and Temporal Relation Extraction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Tommaso Caselli
+JobTitle#==#
+Organization#==#Vrije Universiteit Amsterdam
+De Boelelaan 1105 
+1081 HV Amsterdam 
+Nederland
+Abstract#==#This paper reports on the Event StoryLine Corpus (ESC) v1.0, a new benchmark
+dataset for the temporal and causal relation detection. By developing this
+dataset, we also introduce a new task, the StoryLine Extraction from news data,
+which aims at extracting and classifying events relevant for stories, from
+across news documents spread in time and clustered around a single seminal
+event or topic. In addition to describing the dataset, we also report on three
+baselines systems whose results show the complexity of the task and suggest
+directions for the development of more robust systems.
+Author{1}{Firstname}#=%=#Tommaso
+Author{1}{Lastname}#=%=#Caselli
+Author{1}{Email}#=%=#t.caselli@vu.nl
+Author{1}{Affiliation}#=%=#VU Amsterdam
+Author{2}{Firstname}#=%=#Piek
+Author{2}{Lastname}#=%=#Vossen
+Author{2}{Email}#=%=#piek.vossen@vu.nl
+Author{2}{Affiliation}#=%=#VU University Amsterdam
+
+==========

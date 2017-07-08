@@ -1,0 +1,55 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Event Detection and Semantic Storytelling: Generating a Travelogue from a large Collection of Personal Letters
+ShortPaperTitle#=%=#Event Detection and Semantic Storytelling: Generating a Travelogue from a large Collection of Personal Letters
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Georg Rehm
+JobTitle#==#
+Organization#==#Deutsches Forschungszentrum für Künstliche Intelligenz GmbH (DFKI), Alt-Moabit 91c, 10559 Berlin, Germany
+Abstract#==#We present an approach at identifying a specific class of events, movement
+action events (MAEs), in a data set that consists of ca. 2,800 personal letters
+exchanged by the German architect Erich Mendelsohn and his wife, Luise. A
+backend system uses these and other semantic analysis results as input for an
+authoring environment that digital curators can use to produce new pieces of
+digital content. In our example case, the human expert will receive
+recommendations from the system with the goal of putting together a travelogue,
+i.e., a description of the trips and journeys undertaken by the couple. We
+describe the components and architecture and also apply the system to news
+data.
+Author{1}{Firstname}#=%=#Georg
+Author{1}{Lastname}#=%=#Rehm
+Author{1}{Email}#=%=#georg.rehm@dfki.de
+Author{1}{Affiliation}#=%=#DFKI
+Author{2}{Firstname}#=%=#Julian
+Author{2}{Lastname}#=%=#Moreno Schneider
+Author{2}{Email}#=%=#julian.moreno_schneider@dfki.de
+Author{2}{Affiliation}#=%=#DFKI
+Author{3}{Firstname}#=%=#peter
+Author{3}{Lastname}#=%=#bourgonje
+Author{3}{Email}#=%=#peter.bourgonje@dfki.de
+Author{3}{Affiliation}#=%=#DFKI
+Author{4}{Firstname}#=%=#Ankit
+Author{4}{Lastname}#=%=#Srivastava
+Author{4}{Email}#=%=#ankit.srivastava@dfki.de
+Author{4}{Affiliation}#=%=#German Research Centre for Artificial Intelligence (DFKI)
+Author{5}{Firstname}#=%=#Jan
+Author{5}{Lastname}#=%=#Nehring
+Author{5}{Email}#=%=#jan.nehring@dfki.de
+Author{5}{Affiliation}#=%=#DFKI
+Author{6}{Firstname}#=%=#Armin
+Author{6}{Lastname}#=%=#Berger
+Author{6}{Email}#=%=#ajberger@3pc.de
+Author{6}{Affiliation}#=%=#3pc GmbH
+Author{7}{Firstname}#=%=#Luca
+Author{7}{Lastname}#=%=#König
+Author{7}{Email}#=%=#lkoenig@3pc.de
+Author{7}{Affiliation}#=%=#3pc GmbH
+Author{8}{Firstname}#=%=#Sören
+Author{8}{Lastname}#=%=#Räuchle
+Author{8}{Email}#=%=#sraeuchle@3pc.de
+Author{8}{Affiliation}#=%=#3pc GmbH
+Author{9}{Firstname}#=%=#Jens
+Author{9}{Lastname}#=%=#Gerth
+Author{9}{Email}#=%=#jgerth@3pc.de
+Author{9}{Affiliation}#=%=#3pc GmbH
+
+==========

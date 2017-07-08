@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Event Detection Using Frame-Semantic Parser
+ShortPaperTitle#=%=#Event Detection Using Frame-Semantic Parser
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Evangelia Spiliopoulou
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA
+Abstract#==#Recent methods for Event Detection focus on Deep Learning for automatic feature
+generation and feature ranking. However, most of those approaches fail to
+exploit rich semantic information, which results in relatively poor recall.
+This paper is a small & focused contribution, where we introduce an Event
+Detection and classification system, based on deep semantic information
+retrieved from a frame-semantic parser. Our experiments show that our system
+achieves higher recall than state-of-the-art systems. Further, we claim that
+enhancing our system with deep learning techniques like feature ranking can
+achieve even better results, as it can benefit from both approaches.
+Author{1}{Firstname}#=%=#Evangelia
+Author{1}{Lastname}#=%=#Spiliopoulou
+Author{1}{Email}#=%=#espiliop@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Eduard
+Author{2}{Lastname}#=%=#Hovy
+Author{2}{Email}#=%=#hovy@cmu.edu
+Author{2}{Affiliation}#=%=#CMU
+Author{3}{Firstname}#=%=#Teruko
+Author{3}{Lastname}#=%=#Mitamura
+Author{3}{Email}#=%=#teruko@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

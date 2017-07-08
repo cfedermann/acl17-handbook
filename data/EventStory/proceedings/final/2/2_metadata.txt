@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#newsLens: building and visualizing long-ranging news stories
+ShortPaperTitle#=%=#newsLens: building and visualizing long-ranging news stories
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Philippe Laban
+JobTitle#==#
+Organization#==#UC Berkeley
+Berkeley, CA 94720, USA
+Abstract#==#We propose a method to aggregate and organize a large, multi-source dataset of
+news articles into a collection of major stories, and automatically name and
+visualize these stories in a working system. The approach is able to run
+online, as new articles are added, processing 4 million news articles from 20
+news sources, and extracting 80000 major stories, some of which span several
+years. The visual interface consists of lanes of timelines, each annotated with
+information that is deemed important for the story, including extracted
+quotations. The working system allows a user to search and navigate 8 years of
+story information.
+Author{1}{Firstname}#=%=#Philippe
+Author{1}{Lastname}#=%=#Laban
+Author{1}{Email}#=%=#phillab@berkeley.edu
+Author{1}{Affiliation}#=%=#UC Berkeley
+Author{2}{Firstname}#=%=#Marti
+Author{2}{Lastname}#=%=#Hearst
+Author{2}{Email}#=%=#hearst@berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+
+==========

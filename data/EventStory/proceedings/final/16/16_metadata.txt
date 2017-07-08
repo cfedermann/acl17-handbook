@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Improving Shared Argument Identification in Japanese Event Knowledge Acquisition
+ShortPaperTitle#=%=#Improving Shared Argument Identification in Japanese Event Knowledge Acquisition
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yin Jou Huang
+JobTitle#==#
+Organization#==#Graduate School of Informatics, Kyoto University
+Yoshida-honmachi, Sakyo-ku, Kyoto, 606-8501, Japan
+Abstract#==#Event knowledge represents the knowledge of causal and temporal relations
+between events. Shared arguments of event knowledge encode patterns of role
+shifting in successive events. A two-stage framework was proposed for the task
+of Japanese event knowledge acquisition, 
+in which related event pairs are first extracted, and shared arguments are then
+identified to form the complete event knowledge. This paper focuses on the
+second stage of this framework, and proposes a method to improve the shared
+argument identification of related event pairs. We constructed a gold dataset
+for shared argument learning. By evaluating our system on this gold dataset, we
+found that our proposed model outperformed the baseline models by a large
+margin.
+Author{1}{Firstname}#=%=#Yin Jou
+Author{1}{Lastname}#=%=#Huang
+Author{1}{Email}#=%=#leslie071564@gmail.com
+Author{1}{Affiliation}#=%=#Kyoto University
+Author{2}{Firstname}#=%=#Sadao
+Author{2}{Lastname}#=%=#Kurohashi
+Author{2}{Email}#=%=#kuro@i.kyoto-u.ac.jp
+Author{2}{Affiliation}#=%=#Kyoto University
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#The Circumstantial Event Ontology (CEO)
+ShortPaperTitle#=%=#The Circumstantial Event Ontology (CEO)
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Roxane Segers
+JobTitle#==#
+Organization#==#Vrije Universiteit Amsterdam
+De Boelelaan 1105 
+1081 HV Amsterdam 
+Nederland
+Abstract#==#In this paper we describe the ongoing work on the Circumstantial Event Ontology
+(CEO), a newly developed ontology for calamity events that models semantic
+circumstantial relations between event classes. The circumstantial relations
+are designed manually, based on the shared properties of each event class. We
+discuss and contrast two types of event circumstantial relations: semantic
+circumstantial relations and episodic circumstantial relations. Further, we
+show the metamodel and the current contents of the ontology and outline the
+evaluation of the CEO.
+Author{1}{Firstname}#=%=#Roxane
+Author{1}{Lastname}#=%=#Segers
+Author{1}{Email}#=%=#roxane.segers@gmail.com
+Author{1}{Affiliation}#=%=#Vrije Universiteit Amsterdam
+Author{2}{Firstname}#=%=#Tommaso
+Author{2}{Lastname}#=%=#Caselli
+Author{2}{Email}#=%=#t.caselli@vu.nl
+Author{2}{Affiliation}#=%=#VU Amsterdam
+Author{3}{Firstname}#=%=#Piek
+Author{3}{Lastname}#=%=#Vossen
+Author{3}{Email}#=%=#piek.vossen@vu.nl
+Author{3}{Affiliation}#=%=#VU University Amsterdam
+
+==========

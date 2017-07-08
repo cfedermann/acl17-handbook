@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Integrating Decompositional Event Structures into Storylines
+ShortPaperTitle#=%=#Integrating Decompositional Event Structures into Storylines
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#William Croft
+JobTitle#==#
+Organization#==#University of New Mexico
+Abstract#==#Storyline research links together events in stories and specifies shared
+participants in those stories. In these analyses, an atomic event is assumed to
+be a single clause headed by a single verb. However, many analyses of verbal
+semantics assume a decompositional analysis of events expressed in single
+clauses. We present a formalization of a decompositional analysis of events in
+which each participant in a clausal event has their own temporally extended
+subevent, and the subevents are related through causal and other interactions.
+This decomposition allows us to represent storylines as an evolving set of
+interactions between participants over time.
+Author{1}{Firstname}#=%=#William
+Author{1}{Lastname}#=%=#Croft
+Author{1}{Email}#=%=#wcroft@unm.edu
+Author{1}{Affiliation}#=%=#University of New Mexico
+Author{2}{Firstname}#=%=#Pavlina
+Author{2}{Lastname}#=%=#Peskova
+Author{2}{Email}#=%=#pavlinap@unm.edu
+Author{2}{Affiliation}#=%=#University of New Mexico
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Regan
+Author{3}{Email}#=%=#reganman@unm.edu
+Author{3}{Affiliation}#=%=#University of New Mexico
+
+==========

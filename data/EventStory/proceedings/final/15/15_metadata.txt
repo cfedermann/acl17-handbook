@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#On the Creation of a Security-Related Event Corpus
+ShortPaperTitle#=%=#On the Creation of a Security-Related Event Corpus
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Jakub Piskorski
+JobTitle#==#
+Organization#==#Joint Research Centre of the European Commission
+Abstract#==#This paper reports on an effort of creating a corpus of structured information
+on security-related events automatically extracted from on-line news, part of
+which has been manually curated. The main motivation behind this effort is to
+provide material to the NLP community working on event extraction that could be
+used both for training and evaluation purposes.
+Author{1}{Firstname}#=%=#Martin
+Author{1}{Lastname}#=%=#Atkinson
+Author{1}{Email}#=%=#Martin.Atkinson@ec.europa.eu
+Author{1}{Affiliation}#=%=#Joint Research Centre of the European Commission
+Author{2}{Firstname}#=%=#Jakub
+Author{2}{Lastname}#=%=#Piskorski
+Author{2}{Email}#=%=#jpiskorski@gmail.com
+Author{2}{Affiliation}#=%=#Joint Research Centre of the European Commission
+Author{3}{Firstname}#=%=#Hristo
+Author{3}{Lastname}#=%=#Tanev
+Author{3}{Email}#=%=#htanev@gmail.com
+Author{3}{Affiliation}#=%=#Joint Research Centre, European Commission
+Author{4}{Firstname}#=%=#Vanni
+Author{4}{Lastname}#=%=#Zavarella
+Author{4}{Email}#=%=#vanni.zavarella@jrc.ec.europa.eu
+Author{4}{Affiliation}#=%=#Joint Research Center - European Commission
+
+==========
