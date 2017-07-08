@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#58
+FinalPaperTitle#=%=#A Mixture Model for Learning Multi-Sense Word Embeddings
+ShortPaperTitle#=%=#A Mixture Model for Learning Multi-Sense Word Embeddings
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Dai Quoc Nguyen
+JobTitle#==#
+Organization#==#Department of Computational Linguistics,
+Saarland University,
+Saarbrücken, Germany
+Abstract#==#Word embeddings are now a standard technique for inducing meaning
+representations for words. For getting good representations, it is important to
+take into account different senses of a word. In this paper, we propose a
+mixture model for learning multi-sense word embeddings. Our model generalizes
+the previous works in that it allows to induce different weights of different
+senses of a word. The experimental results show that our model outperforms
+previous models on standard evaluation tasks.
+Author{1}{Firstname}#=%=#Dai Quoc
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#daiquocn@coli.uni-saarland.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Dat Quoc
+Author{2}{Lastname}#=%=#Nguyen
+Author{2}{Email}#=%=#dat.nguyen@students.mq.edu.au
+Author{2}{Affiliation}#=%=#Macquarie University
+Author{3}{Firstname}#=%=#Ashutosh
+Author{3}{Lastname}#=%=#Modi
+Author{3}{Email}#=%=#ashutosh@coli.uni-sb.de
+Author{3}{Affiliation}#=%=#Saarland University
+Author{4}{Firstname}#=%=#Stefan
+Author{4}{Lastname}#=%=#Thater
+Author{4}{Email}#=%=#stth@coli.uni-saarland.de
+Author{4}{Affiliation}#=%=#Universität des Saarlandes
+Author{5}{Firstname}#=%=#Manfred
+Author{5}{Lastname}#=%=#Pinkal
+Author{5}{Email}#=%=#pinkal@coli.uni-sb.de
+Author{5}{Affiliation}#=%=#Saarland University
+
+==========

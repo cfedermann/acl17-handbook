@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#102
+FinalPaperTitle#=%=#Domain-Specific New Words Detection in Chinese
+ShortPaperTitle#=%=#Domain-Specific New Words Detection in Chinese
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ao Chen
+JobTitle#==#
+Organization#==#
+Abstract#==#With the explosive growth of Internet, more and more domain-specific
+environments appear, such as forums, blogs, MOOCs and etc. Domain-specific
+words appear in these areas and always play a critical role in the
+domain-specific NLP tasks. This paper aims at extracting Chinese
+domain-specific new words automatically. The extraction of domain-specific new
+words has two parts including both new words in this domain and the especially
+important words. In this work, we propose a joint statistical model to perform
+these two works simultaneously. Compared to traditional new words detection
+models, our model doesn't need handcraft features which are labor intensive.
+Experimental results demonstrate that our joint model achieves a better
+performance compared with the state-of-the-art methods.
+Author{1}{Firstname}#=%=#Ao
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#chenao3220@gmail.com
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Maosong
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Email}#=%=#sms@mail.tsinghua.edu.cn
+Author{2}{Affiliation}#=%=#Tsinghua University
+
+==========

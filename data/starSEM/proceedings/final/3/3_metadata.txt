@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Acquiring Predicate Paraphrases from News Tweets
+ShortPaperTitle#=%=#Acquiring Predicate Paraphrases from News Tweets
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Vered Shwartz
+JobTitle#==#
+Organization#==#Bar-Ilan University, Ramat-Gan, Israel
+Abstract#==#We present a simple method for ever-growing extraction of predicate paraphrases
+from news headlines in Twitter. Analysis of the output of ten weeks of
+collection shows that the accuracy of paraphrases with different support levels
+is estimated between 60-86\%. We also demonstrate that our resource is to a
+large extent complementary to existing resources, providing many novel
+paraphrases. Our resource is publicly available, continuously expanding based
+on daily news.
+Author{1}{Firstname}#=%=#Vered
+Author{1}{Lastname}#=%=#Shwartz
+Author{1}{Email}#=%=#vered1986@gmail.com
+Author{1}{Affiliation}#=%=#Bar-Ilan University
+Author{2}{Firstname}#=%=#Gabriel
+Author{2}{Lastname}#=%=#Stanovsky
+Author{2}{Email}#=%=#gabriel.satanovsky@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+Author{3}{Firstname}#=%=#Ido
+Author{3}{Lastname}#=%=#Dagan
+Author{3}{Email}#=%=#dagan@cs.biu.ac.il
+Author{3}{Affiliation}#=%=#Bar-Ilan University
+
+==========

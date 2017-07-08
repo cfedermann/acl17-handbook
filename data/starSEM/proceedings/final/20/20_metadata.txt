@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Predictive Linguistic Features of Schizophrenia
+ShortPaperTitle#=%=#Predictive Linguistic Features of Schizophrenia
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Efsun Kayi
+JobTitle#==#
+Organization#==#George Washington University
+2121 I St NW, Washington, DC 20052
+Abstract#==#Schizophrenia is one of the most disabling and difficult to treat of all human
+medical/health conditions, ranking in the top ten causes of disability
+worldwide. It has been a puzzle in part due to difficulty in identifying its
+basic, fundamental components. Several studies have shown that some
+manifestations of schizophrenia (e.g., the negative symptoms that include
+blunting of speech prosody, as well as the disorganization symptoms that lead
+to disordered language) can be understood from the perspective of linguistics.
+However, schizophrenia research has not kept pace with technologies in
+computational linguistics, especially in semantics and pragmatics. As such, we
+examine the writings of schizophrenia patients analyzing their syntax,
+semantics and pragmatics. In addition, we analyze tweets of (self proclaimed)
+schizophrenia patients who publicly discuss their diagnoses. For writing
+samples dataset, syntactic features are found to be the most successful in
+classification whereas for the less structured Twitter dataset, a combination
+of  features performed the best.
+Author{1}{Firstname}#=%=#Efsun
+Author{1}{Lastname}#=%=#Sarioglu Kayi
+Author{1}{Email}#=%=#efsun@gwu.edu
+Author{1}{Affiliation}#=%=#George Washington University
+Author{2}{Firstname}#=%=#Mona
+Author{2}{Lastname}#=%=#Diab
+Author{2}{Email}#=%=#mtdiab@gwu.edu
+Author{2}{Affiliation}#=%=#GWU
+Author{3}{Firstname}#=%=#Luca
+Author{3}{Lastname}#=%=#Pauselli
+Author{3}{Email}#=%=#pausell@nyspi.columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Michael
+Author{4}{Lastname}#=%=#Compton
+Author{4}{Email}#=%=#mtc2176@cumc.columbia.edu
+Author{4}{Affiliation}#=%=#Columbia University
+Author{5}{Firstname}#=%=#Glen
+Author{5}{Lastname}#=%=#Coppersmith
+Author{5}{Email}#=%=#glen@qntfy.com
+Author{5}{Affiliation}#=%=#Qntfy
+
+==========

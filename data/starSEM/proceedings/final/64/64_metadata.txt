@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#64
+FinalPaperTitle#=%=#Double Trouble: The Problem of Construal in Semantic Annotation of Adpositions
+ShortPaperTitle#=%=#Double Trouble: The Problem of Construal in Semantic Annotation of Adpositions
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jena Hwang
+JobTitle#==#
+Organization#==#
+Abstract#==#We consider the semantics of prepositions, revisiting a broad-coverage
+annotation scheme used for annotating all 4,250 preposition tokens in a 55,000
+word corpus of English. Attempts to apply the scheme to adpositions and case
+markers in other languages, as well as some problematic cases in English, have
+led us to reconsider the assumption that an adposition’s lexical contribution
+is equivalent to the role/relation that it mediates. Our proposal is to embrace
+the potential for construal in adposition use, expressing such phenomena
+directly at the token level to manage complexity and avoid sense proliferation.
+We suggest a framework to represent both the scene role and the adposition’s
+lexical function so they can be annotated at scale—supporting automatic,
+statistical processing of domain-general language—and discuss how this
+representation would allow for a simpler inventory of labels.
+Author{1}{Firstname}#=%=#Jena D.
+Author{1}{Lastname}#=%=#Hwang
+Author{1}{Email}#=%=#jhwang@ihmc.us
+Author{1}{Affiliation}#=%=#IHMC
+Author{2}{Firstname}#=%=#Archna
+Author{2}{Lastname}#=%=#Bhatia
+Author{2}{Email}#=%=#abhatia@ihmc.us
+Author{2}{Affiliation}#=%=#Florida Institute for Human and Machine Cognition
+Author{3}{Firstname}#=%=#Na-Rae
+Author{3}{Lastname}#=%=#Han
+Author{3}{Email}#=%=#naraehan@pitt.edu
+Author{3}{Affiliation}#=%=#University of Pittsburgh
+Author{4}{Firstname}#=%=#Tim
+Author{4}{Lastname}#=%=#O'Gorman
+Author{4}{Email}#=%=#timjogorman@gmail.com
+Author{4}{Affiliation}#=%=#University of Colorado Boulder
+Author{5}{Firstname}#=%=#Vivek
+Author{5}{Lastname}#=%=#Srikumar
+Author{5}{Email}#=%=#svivek@cs.utah.edu
+Author{5}{Affiliation}#=%=#University of Utah
+Author{6}{Firstname}#=%=#Nathan
+Author{6}{Lastname}#=%=#Schneider
+Author{6}{Email}#=%=#nathan.schneider@georgetown.edu
+Author{6}{Affiliation}#=%=#Georgetown University
+
+==========

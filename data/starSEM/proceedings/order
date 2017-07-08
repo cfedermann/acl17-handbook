@@ -1,0 +1,52 @@
+* August 3rd, 2017
+= 9:00--10:30 Session S1: Invited Talk (Jointly with SemEval) and Best Paper Award
++ 9:00--9:15 Opening Remarks
+! 9:15--10:15 Invited Talk: From Naive Physics to Connotation: Modeling Commonsense in Frame Semantics %by Yejin Choi
++ 10:15--10:30 Announcement of the Adam Kilgarriff Best Paper Award
++ 10:30--11:00 Coffee Break
+= 11:00--12:30 Session S2: Distributional Semantics
+98 11:00--11:30  # What Analogies Reveal about Word Vectors and their Compositionality
+91 11:30--12:00  # Learning Antonyms with Paraphrases and a Morphology-Aware Neural Network
+77 12:00--12:30  # Decoding Sentiment from Distributed Representations of Sentences
++ 12:30--14:00 Lunch Break
+= 14:00--15:30 Session S3: Lexical Semantics and Lexical Resources
+90 14:00--14:30  # Detecting Asymmetric Semantic Relations in Context: A Case-Study on Hypernymy Detection
+102 14:30--15:00  # Domain-Specific New Words Detection in Chinese
+60 15:00--15:30  # Deep Learning Models For Multiword Expression Identification
++ 15:30--16:00 Coffee Break
+= 16:00--16:30 Session S4: Lexical Semantics and Lexical Resources (continued)
+30 16:00--16:30  # Emotion Intensities in Tweets
+= 16:30--18:00 Session S5: Poster Session
+9   # Deep Active Learning for Dialogue Generation
+69   # Mapping the Paraphrase Database to WordNet
+5   # Semantic Frame Labeling with Target-based Neural Model
+82   # Frame-Based Continuous Lexical Semantics through Exponential Family Tensor Factorization and Semantic Proto-Roles
+21   # Distributed Prediction of Relations for Entities: The Easy, The Difficult, and The Impossible
+81   # Comparing Approaches for Automatic Question Identification
+46   # Does Free Word Order Hurt? Assessing the Practical Lexical Function Model for Croatian
+58   # A Mixture Model for Learning Multi-Sense Word Embeddings
+34   # Aligning Script Events with Narrative Texts
+62   # The (too Many) Problems of Analogical Reasoning with Word Vectors
+28   # Semantic Frames and Visual Scenes: Learning Semantic Role Inventories from Image and Video Descriptions
+3   # Acquiring Predicate Paraphrases from News Tweets
+35   # Evaluating Semantic Parsing against a Simple Web-based Question Answering Model
+* August 4th, 2017
+= 9:00--10:30 Session S6: Invited Talk and Distributional Semantics
+! 9:00--10:00 Invited Talk: What Do You Know About an Alligator When You Know the Company It Keeps? %by Katrin Erk
+55 10:00--10:30  # Logical Metonymy in a Distributional Model of Sentence Comprehension
++ 10:30--11:00 Coffee Break
+= 11:00--12:30 Session S7: Linguistic and Formal Semantics
+64 11:00--11:30  # Double Trouble: The Problem of Construal in Semantic Annotation of Adpositions
+27 11:30--12:00  # Issues of Mass and Count: Dealing with `Dual-Life' Nouns
+18 12:00--12:30  # Parsing Graphs with Regular Graph Grammars
++ 12:30--14:00 Lunch Break
+= 14:00--15:30 Session S8: Representations of Meaning
+44 14:00--14:30  # Embedded Semantic Lexicon Induction with Joint Global and Local Optimization
+7 14:30--15:00  # Generating Pattern-Based Entailment Graphs for Relation Extraction
+41 15:00--15:30  # Classifying Semantic Clause Types: Modeling Context and Genre Characteristics with Recurrent Neural Networks and Attention
++ 15:30--16:00 Coffee Break
+= 16:00--17:30 Session S9: Semantics for Applications
+20 16:00--16:30  # Predictive Linguistic Features of Schizophrenia
+32 16:30--17:00  # Learning to Solve Geometry Problems from Natural Language Demonstrations in Textbooks
+38 17:00--17:30  # Ways of Asking and Replying in Duplicate Question Detection
++ 17:30--17:40 Closing Remarks

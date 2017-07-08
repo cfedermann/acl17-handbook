@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#98
+FinalPaperTitle#=%=#What Analogies Reveal about Word Vectors and their Compositionality
+ShortPaperTitle#=%=#What Analogies Reveal about Word Vectors and their Compositionality
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Gregory Finley
+JobTitle#==#
+Organization#==#EMR.AI
+90 New Montgomery St.
+San Francisco, CA 94105
+Abstract#==#Analogy completion via vector arithmetic has become a common means of
+demonstrating the compositionality of word embeddings. Previous work have shown
+that this strategy works more reliably for certain types of analogical word
+relationships than for others, but these studies have not offered a convincing
+account for why this is the case. We arrive at such an account through an
+experiment that targets a wide variety of analogy questions and defines a
+baseline condition to more accurately measure the efficacy of our system. We
+find that the most reliably solvable analogy categories involve either 1) the
+application of a morpheme with clear syntactic effects, 2) male--female
+alternations, or 3) named entities. These broader types do not pattern cleanly
+along a syntactic--semantic divide. We suggest instead that their commonality
+is distributional, in that the difference between the distributions of two
+words in any given pair encompasses a relatively small number of word types.
+Our study offers a needed explanation for why analogy tests succeed and fail
+where they do and provides nuanced insight into the relationship between word
+distributions and the theoretical linguistic domains of syntax and semantics.
+Author{1}{Firstname}#=%=#Gregory
+Author{1}{Lastname}#=%=#Finley
+Author{1}{Email}#=%=#gregpfinley@gmail.com
+Author{1}{Affiliation}#=%=#University of Minnesota; EMR.AI
+Author{2}{Firstname}#=%=#Stephanie
+Author{2}{Lastname}#=%=#Farmer
+Author{2}{Email}#=%=#sfarmer@macalester.edu
+Author{2}{Affiliation}#=%=#Macalester College
+Author{3}{Firstname}#=%=#Serguei
+Author{3}{Lastname}#=%=#Pakhomov
+Author{3}{Email}#=%=#pakh0002@umn.edu
+Author{3}{Affiliation}#=%=#
+
+==========

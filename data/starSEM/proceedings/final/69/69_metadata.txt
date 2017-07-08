@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#69
+FinalPaperTitle#=%=#Mapping the Paraphrase Database to WordNet
+ShortPaperTitle#=%=#Mapping the Paraphrase Database to WordNet
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Anne Cocos
+JobTitle#==#
+Organization#==#University of Pennsylvania, Department of Computer and Information Science
+3330 Walnut St, Philadelphia, PA, 19104
+Abstract#==#WordNet has facilitated important research in natural language processing but
+its usefulness is somewhat limited by its relatively small lexical coverage.
+The Paraphrase Database (PPDB) covers 650 times more words, but lacks the
+semantic structure of WordNet that would make it more directly useful for
+downstream tasks. We present a method for mapping words from PPDB to WordNet
+synsets with 89\% accuracy. The mapping also lays important groundwork for
+incorporating WordNet's relations into PPDB so as to increase its utility for
+semantic reasoning in applications.
+Author{1}{Firstname}#=%=#Anne
+Author{1}{Lastname}#=%=#Cocos
+Author{1}{Email}#=%=#acocos@seas.upenn.edu
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Marianna
+Author{2}{Lastname}#=%=#Apidianaki
+Author{2}{Email}#=%=#marianna.apidianaki@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI-CNRS, University Paris-Saclay
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Callison-Burch
+Author{3}{Email}#=%=#ccb@upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+
+==========

@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Ways of Asking and Replying in Duplicate Question Detection
+ShortPaperTitle#=%=#Ways of Asking and Replying in Duplicate Question Detection
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#João António Rodrigues
+JobTitle#==#
+Organization#==#Faculty of Science of the University of Lisbon, Campo Grande, Lisboa, Portugal
+Abstract#==#This paper presents the results of systematic experimentation on the impact in
+duplicate question detection of different types of questions across both a
+number of established approaches and a novel, superior one used to address this
+language
+processing task. This study permits to gain a novel insight on the different
+levels of robustness of the diverse detection methods with respect to different
+conditions of their application, including the ones that approximate real usage
+scenarios.
+Author{1}{Firstname}#=%=#João
+Author{1}{Lastname}#=%=#António Rodrigues
+Author{1}{Email}#=%=#joao.antonio.verdade@gmail.com
+Author{1}{Affiliation}#=%=#University of Lisbon
+Author{2}{Firstname}#=%=#Chakaveh
+Author{2}{Lastname}#=%=#Saedi
+Author{2}{Email}#=%=#chakaveh.saedi@di.fc.ul.pt
+Author{2}{Affiliation}#=%=#University of Lisbon
+Author{3}{Firstname}#=%=#Vladislav
+Author{3}{Lastname}#=%=#Maraev
+Author{3}{Email}#=%=#vlad.maraev@di.fc.ul.pt
+Author{3}{Affiliation}#=%=#University of Lisbon
+Author{4}{Firstname}#=%=#João
+Author{4}{Lastname}#=%=#Silva
+Author{4}{Email}#=%=#jsilva@di.fc.ul.pt
+Author{4}{Affiliation}#=%=#University of Lisbon
+Author{5}{Firstname}#=%=#António
+Author{5}{Lastname}#=%=#Branco
+Author{5}{Email}#=%=#antonio.branco@di.fc.ul.pt
+Author{5}{Affiliation}#=%=#University of Lisbon
+
+==========

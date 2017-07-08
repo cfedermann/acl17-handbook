@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Parsing Graphs with Regular Graph Grammars
+ShortPaperTitle#=%=#Parsing Graphs with Regular Graph Grammars
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Sorcha Gilroy
+JobTitle#==#
+Organization#==#University of Edinburgh, 10 Crichton St, Edinburgh EH8 9AB
+Abstract#==#Recently, several datasets have become available which represent natural
+language phenomena as graphs. Hyperedge Replacement Languages (HRL) have been
+the focus of much attention as a formalism to represent the graphs in these
+datasets. Chiang et al. (2013) prove that HRL graphs can be parsed in
+polynomial time with respect to the size of the input graph. We believe that
+HRL are more expressive than is necessary to represent semantic graphs and we
+propose the use of Regular Graph Languages (RGL; Courcelle 1991), which is a
+subfamily of HRL, as a possible alternative. We provide a top-down parsing
+algorithm for RGL that runs in time linear in the size of the input graph.
+Author{1}{Firstname}#=%=#Sorcha
+Author{1}{Lastname}#=%=#Gilroy
+Author{1}{Email}#=%=#s.gilroy@sms.ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Adam
+Author{2}{Lastname}#=%=#Lopez
+Author{2}{Email}#=%=#alopez@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Sebastian
+Author{3}{Lastname}#=%=#Maneth
+Author{3}{Email}#=%=#smaneth@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+
+==========

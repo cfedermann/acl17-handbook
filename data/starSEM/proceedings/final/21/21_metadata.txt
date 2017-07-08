@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Distributed Prediction of Relations for Entities: The Easy, The Difficult, and The Impossible
+ShortPaperTitle#=%=#Distributed Prediction of Relations for Entities: The Easy, The Difficult, and The Impossible
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Gemma Boleda
+JobTitle#==#
+Organization#==#Universitat Pompeu Fabra
+Pl. Merce, 10-12
+08002 Barcelona
+Abstract#==#Word embeddings are supposed to provide easy access to semantic relations such
+as "male of" (man–woman). While this claim has been investigated for
+concepts, little is known about the distributional behavior of relations of
+(Named) Entities. We describe two word embedding-based models that predict
+values for relational attributes of entities, and analyse them. The task is
+challenging, with major performance differences between relations. Contrary to
+many NLP tasks, high difficulty for a relation does not result from low
+frequency, but from (a) one-to-many mappings; and (b) lack of context patterns
+expressing the relation that are easy to pick up by word
+embeddings.
+Author{1}{Firstname}#=%=#Abhijeet
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Email}#=%=#abhijeet.gupta@ims-uni-stuttgart.de
+Author{1}{Affiliation}#=%=#University of Stuttgart
+Author{2}{Firstname}#=%=#Gemma
+Author{2}{Lastname}#=%=#Boleda
+Author{2}{Email}#=%=#gemma.boleda@upf.edu
+Author{2}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{3}{Firstname}#=%=#Sebastian
+Author{3}{Lastname}#=%=#Padó
+Author{3}{Email}#=%=#pado@ims.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#Stuttgart University
+
+==========

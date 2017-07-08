@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#Deep Learning Models For Multiword Expression Identification
+ShortPaperTitle#=%=#Deep Learning Models For Multiword Expression Identification
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Waseem Gharbieh
+JobTitle#==#
+Organization#==#
+Abstract#==#Multiword expressions (MWEs) are lexical items that can be decomposed
+into multiple component words, but have properties that are
+unpredictable with respect to their component words. In this paper we
+propose the first deep learning models for token-level identification
+of MWEs. Specifically, we consider a layered feedforward network, a
+recurrent neural network, and convolutional neural networks. In
+experimental results we show that convolutional neural networks are
+able to outperform the previous state-of-the-art for MWE
+identification, with a convolutional neural network with three hidden
+layers giving the best performance.
+Author{1}{Firstname}#=%=#Waseem
+Author{1}{Lastname}#=%=#Gharbieh
+Author{1}{Email}#=%=#wgharbie@unb.ca
+Author{1}{Affiliation}#=%=#University of New Brunswick
+Author{2}{Firstname}#=%=#Virendrakumar
+Author{2}{Lastname}#=%=#Bhavsar
+Author{2}{Email}#=%=#bhavsar@unb.ca
+Author{2}{Affiliation}#=%=#University of New Brunswick
+Author{3}{Firstname}#=%=#Paul
+Author{3}{Lastname}#=%=#Cook
+Author{3}{Email}#=%=#paul.cook@unb.ca
+Author{3}{Affiliation}#=%=#University of New Brunswick
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#Embedded Semantic Lexicon Induction with Joint Global and Local Optimization
+ShortPaperTitle#=%=#Embedded Semantic Lexicon Induction with Joint Global and Local Optimization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Sujay Kumar Jauhar
+JobTitle#==#
+Organization#==#Language Technologies Institute
+Carnegie Mellon University
+5000 Forbes Avenue
+Pittsburgh, PA - 15217
+USA
+Abstract#==#Creating annotated frame lexicons such as PropBank and FrameNet is expensive
+and labor intensive. We present a method to induce an embedded frame lexicon in
+an minimally supervised fashion using nothing more than unlabeled
+predicate-argument word pairs. We hypothesize that aggregating such pair
+selectional preferences across training leads us to a global understanding that
+captures predicate-argument frame structure. Our approach revolves around a
+novel integration between a predictive embedding model and an Indian Buffet
+Process posterior regularizer. We show, through our experimental evaluation,
+that we outperform baselines on two tasks and can learn an embedded frame
+lexicon that is able to capture some interesting generalities in relation to
+hand-crafted semantic frames.
+Author{1}{Firstname}#=%=#Sujay Kumar
+Author{1}{Lastname}#=%=#Jauhar
+Author{1}{Email}#=%=#sjauhar@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Eduard
+Author{2}{Lastname}#=%=#Hovy
+Author{2}{Email}#=%=#hovy@cmu.edu
+Author{2}{Affiliation}#=%=#CMU
+
+==========

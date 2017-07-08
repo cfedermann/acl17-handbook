@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Generating Pattern-Based Entailment Graphs for Relation Extraction
+ShortPaperTitle#=%=#Generating Pattern-Based Entailment Graphs for Relation Extraction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kathrin Eichler
+JobTitle#==#
+Organization#==#DFKI GmbH
+Alt-Moabit 91c
+10559 Berlin
+Abstract#==#Relation extraction is the task of recognizing and extracting relations between
+entities or concepts in texts. A common approach is to exploit existing
+knowledge to learn linguistic patterns expressing the target relation and use
+these patterns for extracting new relation mentions. Deriving relation patterns
+automatically usually results in large numbers of candidates, which need to be
+ﬁltered to derive a subset of patterns that reliably extract correct relation
+mentions. We address the pattern selection task by exploiting the knowledge
+represented by entailment graphs, which capture semantic relationships holding
+among the learned pattern candidates. This is motivated by the fact that a
+pattern may not express the target relation explicitly, but still be useful for
+extracting instances for which the relation holds, because its meaning entails
+the meaning of the target relation. We evaluate the usage of both automatically
+generated and gold-standard entailment graphs in a relation extraction scenario
+and present favorable experimental results, exhibiting the beneﬁts of
+structuring and selecting patterns based on entailment graphs.
+Author{1}{Firstname}#=%=#Kathrin
+Author{1}{Lastname}#=%=#Eichler
+Author{1}{Email}#=%=#kathrin.eichler@dfki.de
+Author{1}{Affiliation}#=%=#DFKI GmbH
+Author{2}{Firstname}#=%=#Feiyu
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#feiyu@dfki.de
+Author{2}{Affiliation}#=%=#DFKI LT Lab
+Author{3}{Firstname}#=%=#Hans
+Author{3}{Lastname}#=%=#Uszkoreit
+Author{3}{Email}#=%=#uszkoreit@dfki.de
+Author{3}{Affiliation}#=%=#DFKI and Saarland University
+Author{4}{Firstname}#=%=#Sebastian
+Author{4}{Lastname}#=%=#Krause
+Author{4}{Email}#=%=#sebastian.krause@dfki.de
+Author{4}{Affiliation}#=%=#German Research Center for Artificial Intelligence
+
+==========

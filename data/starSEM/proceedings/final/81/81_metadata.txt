@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#81
+FinalPaperTitle#=%=#Comparing Approaches for Automatic Question Identification
+ShortPaperTitle#=%=#Comparing Approaches for Automatic Question Identification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Angel Maredia
+JobTitle#==#
+Organization#==#Columbia University in the City of New York, 
+16th St & Broadway, New York, NY 10027
+Abstract#==#Collecting spontaneous speech corpora that are open-ended, yet topically
+constrained, is increasingly popular for research in spoken dialogue systems
+and speaker state, inter alia. Typically, these corpora are labeled by human
+annotators, either in the lab or through crowd-sourcing; however, this is
+cumbersome and time-consuming for large corpora. We present four different
+approaches to automatically tagging a corpus when general topics of the
+conversations are known. We develop these approaches on the Columbia X-Cultural
+Deception corpus and find accuracy that significantly exceeds the baseline.
+Finally, we conduct a cross-corpus evaluation by testing the best performing
+approach on the Columbia/SRI/Colorado corpus.
+Author{1}{Firstname}#=%=#Angel
+Author{1}{Lastname}#=%=#Maredia
+Author{1}{Email}#=%=#angelmaredia@gmail.com
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Kara
+Author{2}{Lastname}#=%=#Schechtman
+Author{2}{Email}#=%=#kws2121@columbia.edu
+Author{2}{Affiliation}#=%=#Columbia University
+Author{3}{Firstname}#=%=#Sarah Ita
+Author{3}{Lastname}#=%=#Levitan
+Author{3}{Email}#=%=#sarahita@cs.columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Julia
+Author{4}{Lastname}#=%=#Hirschberg
+Author{4}{Email}#=%=#julia@cs.columbia.edu
+Author{4}{Affiliation}#=%=#Columbia University
+
+==========

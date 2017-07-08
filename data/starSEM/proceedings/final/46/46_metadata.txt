@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Does Free Word Order Hurt? Assessing the Practical Lexical Function Model for Croatian
+ShortPaperTitle#=%=#Does Free Word Order Hurt? Assessing the Practical Lexical Function Model for Croatian
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jan Snajder
+JobTitle#==#
+Organization#==#Faculty of Electrical Engineering and Computing, University of Zagreb, Croatia
+Abstract#==#The Practical Lexical Function (PLF) model is a model of computational
+distributional semantics that attempts to strike a balance between expressivity
+and learnability in predicting phrase meaning and shows competitive results. We
+investigate how well the PLF carries over to free word order languages, given
+that it builds on observations of predicate-argument combinations that are
+harder to recover in free word order languages. We evaluate variants of the PLF
+for Croatian, using a new lexical substitution dataset. We find that the PLF
+works about as well for Croatian as for English, but demonstrate that its
+strength lies in modeling verbs, and that the free word order affects the less
+robust PLF variant.
+Author{1}{Firstname}#=%=#Zoran
+Author{1}{Lastname}#=%=#Medić
+Author{1}{Email}#=%=#zoran.medic@fer.hr
+Author{1}{Affiliation}#=%=#TakeLab FER
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Šnajder
+Author{2}{Email}#=%=#jan.snajder@fer.hr
+Author{2}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+Author{3}{Firstname}#=%=#Sebastian
+Author{3}{Lastname}#=%=#Padó
+Author{3}{Email}#=%=#pado@ims.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#Stuttgart University
+
+==========

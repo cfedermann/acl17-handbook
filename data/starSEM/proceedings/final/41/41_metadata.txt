@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Classifying Semantic Clause Types: Modeling Context and Genre Characteristics with Recurrent Neural Networks and Attention
+ShortPaperTitle#=%=#Classifying Semantic Clause Types: Modeling Context and Genre Characteristics with Recurrent Neural Networks and Attention
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Maria Becker
+JobTitle#==#
+Organization#==#
+Abstract#==#Detecting aspectual properties of clauses in the form of situation entity types
+has been shown to depend on a combination of syntactic-semantic and contextual
+features. We explore this task in a deep-learning framework, where tuned word
+representations capture lexical, syntactic and semantic features. We introduce
+an attention mechanism that pinpoints relevant context not only for the current
+instance, but also for the larger context. Apart from implicitly capturing task
+relevant features, the advantage of our neural model is that it avoids the need
+to reproduce linguistic features for other languages and is thus more easily
+transferable. We present experiments for English and German that achieve
+competitive performance. We present a novel take on modeling and exploiting
+genre information and showcase the adaptation of our system from one language
+to another.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Becker
+Author{1}{Email}#=%=#mbecker@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#University of Heidelberg
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Staniek
+Author{2}{Email}#=%=#staniek@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Heidelberg University
+Author{3}{Firstname}#=%=#Vivi
+Author{3}{Lastname}#=%=#Nastase
+Author{3}{Email}#=%=#vivi.a.nastase@gmail.com
+Author{3}{Affiliation}#=%=#University of Heidelberg
+Author{4}{Firstname}#=%=#Alexis
+Author{4}{Lastname}#=%=#Palmer
+Author{4}{Email}#=%=#alexis.palmer@unt.edu
+Author{4}{Affiliation}#=%=#University of North Texas
+Author{5}{Firstname}#=%=#Anette
+Author{5}{Lastname}#=%=#Frank
+Author{5}{Email}#=%=#frank@cl.uni-heidelberg.de
+Author{5}{Affiliation}#=%=#Heidelberg Universiy
+
+==========

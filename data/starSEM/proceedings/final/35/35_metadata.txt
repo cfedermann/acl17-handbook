@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Evaluating Semantic Parsing against a Simple Web-based Question Answering Model
+ShortPaperTitle#=%=#Evaluating Semantic Parsing against a Simple Web-based Question Answering Model
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Alon Talmor
+JobTitle#==#
+Organization#==#Tel-Aviv University,
+Ramat-Aviv, Tel Aviv, Israel
+69978
+Abstract#==#Semantic parsing shines at analyzing complex natural language that involves
+composition and computation over multiple pieces of evidence. However, datasets
+for semantic parsing contain many factoid questions that can be answered from a
+single web document. In this paper, we propose to evaluate semantic
+parsing-based question answering models by comparing them to a question
+answering baseline that queries the web and extracts the answer only from web
+snippets, without access to the target knowledge-base. We investigate this
+approach on COMPLEXQUESTIONS, a dataset designed to focus on compositional
+language, and find that our model obtains reasonable performance (∼35 F1
+compared to 41 F1 of state-of-the-art). We find in our analysis that our model
+performs well on complex questions involving conjunctions, but struggles on
+questions that involve relation composition and superlatives.
+Author{1}{Firstname}#=%=#Alon
+Author{1}{Lastname}#=%=#Talmor
+Author{1}{Email}#=%=#salont@gmail.com
+Author{1}{Affiliation}#=%=#Tel Aviv University
+Author{2}{Firstname}#=%=#Mor
+Author{2}{Lastname}#=%=#Geva
+Author{2}{Email}#=%=#mega.mor@gmail.com
+Author{2}{Affiliation}#=%=#Tel Aviv University
+Author{3}{Firstname}#=%=#Jonathan
+Author{3}{Lastname}#=%=#Berant
+Author{3}{Email}#=%=#joberant@cs.tau.ac.il
+Author{3}{Affiliation}#=%=#Tel Aviv University
+
+==========

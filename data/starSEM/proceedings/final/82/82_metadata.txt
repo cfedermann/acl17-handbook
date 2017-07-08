@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#82
+FinalPaperTitle#=%=#Frame-Based Continuous Lexical Semantics through Exponential Family Tensor Factorization and Semantic Proto-Roles
+ShortPaperTitle#=%=#Frame-Based Continuous Lexical Semantics through Exponential Family Tensor Factorization and Semantic Proto-Roles
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Francis Ferraro
+JobTitle#==#
+Organization#==#3400 N. Charles St.
+Baltimore, MD 21218
+Abstract#==#We study how different frame annotations complement one another when learning
+continuous lexical semantics. We learn the representations from a tensorized
+skip-gram model that consistently encodes syntactic-semantic content better,
+with multiple 10% gains over baselines.
+Author{1}{Firstname}#=%=#Francis
+Author{1}{Lastname}#=%=#Ferraro
+Author{1}{Email}#=%=#ferraro@cs.jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Adam
+Author{2}{Lastname}#=%=#Poliak
+Author{2}{Email}#=%=#azpoliak@gmail.com
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Ryan
+Author{3}{Lastname}#=%=#Cotterell
+Author{3}{Email}#=%=#ryan.cotterell@gmail.com
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Benjamin
+Author{4}{Lastname}#=%=#Van Durme
+Author{4}{Email}#=%=#vandurme@cs.jhu.edu
+Author{4}{Affiliation}#=%=#JHU
+
+==========

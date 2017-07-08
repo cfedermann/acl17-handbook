@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Semantic Frame Labeling with Target-based Neural Model
+ShortPaperTitle#=%=#Semantic Frame Labeling with Target-based Neural Model
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yukun Feng
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper explores the automatic learning of distributed representations of
+the target's context for semantic frame labeling with target-based neural
+model. We constrain the whole sentence as the model's input without feature
+extraction from the sentence. This is different from many previous works in
+which local feature extraction of the targets is widely used. This constraint
+makes the task harder, especially with long sentences, but also makes our model
+easily applicable to a range of resources and other similar tasks. We evaluate
+our model on several resources and get the state-of-the-art result on subtask 2
+of SemEval 2015 task 15. Finally, we extend the task to word-sense
+disambiguation task and we also achieve a strong result in comparison to
+state-of-the-art work.
+Author{1}{Firstname}#=%=#Yukun
+Author{1}{Lastname}#=%=#Feng
+Author{1}{Email}#=%=#fengyukun_blcu@126.com
+Author{1}{Affiliation}#=%=#Beijing Language and Culture University
+Author{2}{Firstname}#=%=#Dong
+Author{2}{Lastname}#=%=#Yu
+Author{2}{Email}#=%=#yudong_blcu@126.com
+Author{2}{Affiliation}#=%=#Beijing Language and Cultrual University
+Author{3}{Firstname}#=%=#Jian
+Author{3}{Lastname}#=%=#Xu
+Author{3}{Email}#=%=#jianxu1@mail.ustc.edu.cn
+Author{3}{Affiliation}#=%=#University of Science and Technology of China
+Author{4}{Firstname}#=%=#Chunhua
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#chunhualiu596@gmail.com
+Author{4}{Affiliation}#=%=#Beijing Language and Cultural University
+
+==========

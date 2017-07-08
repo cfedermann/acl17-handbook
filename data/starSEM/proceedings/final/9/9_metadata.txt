@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Deep Active Learning for Dialogue Generation
+ShortPaperTitle#=%=#Deep Active Learning for Dialogue Generation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nabiha Asghar
+JobTitle#==#
+Organization#==#University of Waterloo
+200 University Avenue West
+Waterloo, ON, Canada  N2L 3G1
+Abstract#==#We propose an online, end-to-end, neural generative conversational model for
+open-domain dialogue. It is trained using a unique combination of offline
+two-phase supervised learning and online human-in-the-loop active learning.
+While most existing research proposes offline supervision or hand-crafted
+reward functions for online reinforcement, we devise a novel interactive
+learning mechanism based on hamming-diverse beam search for response generation
+and one-character user-feedback at each step. Experiments show that our model
+inherently promotes the generation of semantically relevant and interesting
+responses, and can be used to train agents with customized personas, moods and
+conversational styles.
+Author{1}{Firstname}#=%=#Nabiha
+Author{1}{Lastname}#=%=#Asghar
+Author{1}{Email}#=%=#nasghar@uwaterloo.ca
+Author{1}{Affiliation}#=%=#University of Waterloo
+Author{2}{Firstname}#=%=#Pascal
+Author{2}{Lastname}#=%=#Poupart
+Author{2}{Email}#=%=#ppoupart@uwaterloo.ca
+Author{2}{Affiliation}#=%=#University of Waterloo
+Author{3}{Firstname}#=%=#Xin
+Author{3}{Lastname}#=%=#Jiang
+Author{3}{Email}#=%=#jiang.xin@huawei.com
+Author{3}{Affiliation}#=%=#Huawei Technologies, Hong Kong
+Author{4}{Firstname}#=%=#Hang
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#hangli.hl@huawei.com
+Author{4}{Affiliation}#=%=#Huawei Technologies, Hong Kong
+
+==========

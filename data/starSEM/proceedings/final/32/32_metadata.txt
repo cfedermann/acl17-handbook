@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#Learning to Solve Geometry Problems from Natural Language Demonstrations in Textbooks
+ShortPaperTitle#=%=#Learning to Solve Geometry Problems from Natural Language Demonstrations in Textbooks
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#MRINMAYA SACHAN
+JobTitle#==#
+Organization#==#CARNEGIE MELLON UNIVERSITY
+5000 FORBES AVE
+PITTSBURGH
+PA 15213
+Abstract#==#Humans as well as animals are good at imitation. Inspired by this, the learning
+by demonstration view of machine learning learns to perform a task from
+detailed example demonstrations. In this paper, we introduce the task of
+question answering using natural language demonstrations where the question
+answering system is provided with detailed demonstrative solutions to questions
+in natural language. As a case study, we explore the task of learning to solve
+geometry problems using demonstrative solutions available in textbooks. We
+collect a new dataset of demonstrative geometry solutions from textbooks and
+explore approaches that learn to interpret these demonstrations as well as to
+use these interpretations to solve geometry problems. Our approaches show
+improvements over the best previously published system for solving geometry
+problems.
+Author{1}{Firstname}#=%=#Mrinmaya
+Author{1}{Lastname}#=%=#Sachan
+Author{1}{Email}#=%=#mrinmayaster@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Eric
+Author{2}{Lastname}#=%=#Xing
+Author{2}{Email}#=%=#epxing@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

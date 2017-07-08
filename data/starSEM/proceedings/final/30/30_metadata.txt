@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Emotion Intensities in Tweets
+ShortPaperTitle#=%=#Emotion Intensities in Tweets
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#National Research Council Canada
+1200 Montreal Rd Bldg-M50, Ottawa, ON, K1A 0R6, Canada
+Abstract#==#This paper examines the task of detecting intensity of emotion from text. We
+create the first datasets of tweets annotated for anger, fear, joy, and sadness
+intensities. We use a technique called best–worst scaling (BWS) that improves
+annotation consistency and obtains reliable fine-grained scores. We show that
+emotion-word hashtags often impact emotion intensity, usually conveying a more
+intense emotion. Finally, we create a benchmark regression system and conduct
+experiments to determine: which features are useful for detecting emotion
+intensity; and, the extent to which two emotions are similar in terms of how
+they manifest in language.
+Author{1}{Firstname}#=%=#Saif
+Author{1}{Lastname}#=%=#Mohammad
+Author{1}{Email}#=%=#uvgotsaif@gmail.com
+Author{1}{Affiliation}#=%=#National Research Council Canada
+Author{2}{Firstname}#=%=#Felipe
+Author{2}{Lastname}#=%=#Bravo-Marquez
+Author{2}{Email}#=%=#felipebravom@gmail.com
+Author{2}{Affiliation}#=%=#University of Waikato
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Issues of Mass and Count: Dealing with `Dual-Life' Nouns
+ShortPaperTitle#=%=#Issues of Mass and Count: Dealing with `Dual-Life' Nouns
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Francis Jeffry Pelletier
+JobTitle#==#
+Organization#==#Department of Philosophy
+University of Alberta
+Edmonton, Alberta, Canada T6G 2E7
+Abstract#==#The topics of mass and count have been studied for many decades in philosophy
+(e.g., Quine, 1960; Pelletier, 1975), linguistics (e.g., McCawley, 1975; Allen,
+1980; Krifka, 1991) and psychology (e.g., Middleton et al, 2004; Barner et al,
+2009).                          More recently, interest from within computational
+linguistics has
+studied the issues involved (e.g., Pustejovsky, 1991; Bond, 2005; Schmidtke &
+Kuperman, 2016), to name just a few.  As is pointed out in these works, there
+are many difficult conceptual issues involved in the study of this contrast. In
+this article we study one of these issues -- the ``Dual-Life'' of being
+simultaneously +mass and +count -- by means of an unusual combination of human
+annotation, online lexical resources, and online corpora.
+Author{1}{Firstname}#=%=#Tibor
+Author{1}{Lastname}#=%=#Kiss
+Author{1}{Email}#=%=#tibor@linguistics.rub.de
+Author{1}{Affiliation}#=%=#Ruhr University Bochum
+Author{2}{Firstname}#=%=#Francis Jeffry
+Author{2}{Lastname}#=%=#Pelletier
+Author{2}{Email}#=%=#jeffpell@sfu.ca
+Author{2}{Affiliation}#=%=#University of Alberta
+Author{3}{Firstname}#=%=#Halima
+Author{3}{Lastname}#=%=#Husic
+Author{3}{Email}#=%=#husic@linguistics.rub.de
+Author{3}{Affiliation}#=%=#Ruhr University Bochum
+Author{4}{Firstname}#=%=#Johanna
+Author{4}{Lastname}#=%=#Poppek
+Author{4}{Email}#=%=#poppek@linguistics.rub.de
+Author{4}{Affiliation}#=%=#Ruhr University Bochum
+
+==========

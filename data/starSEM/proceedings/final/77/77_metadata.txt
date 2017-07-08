@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#77
+FinalPaperTitle#=%=#Decoding Sentiment from Distributed Representations of Sentences
+ShortPaperTitle#=%=#Decoding Sentiment from Distributed Representations of Sentences
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Edaordo Maria Ponti
+JobTitle#==#
+Organization#==#
+Abstract#==#Distributed representations of sentences have been developed recently to
+represent their meaning as real-valued vectors. However, it is not clear how
+much information such representations retain about the polarity of sentences.
+To study this question, we decode sentiment from unsupervised sentence
+representations learned with different architectures (sensitive to the order of
+words, the order of sentences, or none) in 9 typologically diverse languages.
+Sentiment results from the (recursive) composition of lexical items and
+grammatical strategies such as negation and concession. The results are
+manifold: we show that there is no `one-size-fits-all' representation
+architecture outperforming the others across the board. Rather, the top-ranking
+architectures depend on the language at hand. Moreover, we find that in several
+cases the additive composition model based on skip-gram word vectors may
+surpass supervised state-of-art architectures such as bi-directional LSTMs.
+Finally, we provide a possible explanation of the observed variation based on
+the type of negative constructions in each language.
+Author{1}{Firstname}#=%=#Edoardo Maria
+Author{1}{Lastname}#=%=#Ponti
+Author{1}{Email}#=%=#ep490@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Ivan
+Author{2}{Lastname}#=%=#Vulić
+Author{2}{Email}#=%=#iv250@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Anna
+Author{3}{Lastname}#=%=#Korhonen
+Author{3}{Email}#=%=#anna.korhonen@cl.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

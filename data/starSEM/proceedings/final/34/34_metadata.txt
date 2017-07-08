@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#Aligning Script Events with Narrative Texts
+ShortPaperTitle#=%=#Aligning Script Events with Narrative Texts
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Simon Ostermann
+JobTitle#==#
+Organization#==#Saarland University
+Abstract#==#Script knowledge plays a central role in text understanding and is relevant for
+a variety of downstream tasks. In this paper, we consider two recent datasets
+which provide a rich and general representation of script events in terms of
+paraphrase sets. We introduce the task of mapping event mentions in narrative
+texts to such script event types, and present a model for this task that
+exploits rich linguistic representations as well as information on temporal
+ordering. The results of our experiments demonstrate that this complex task is
+indeed feasible.
+Author{1}{Firstname}#=%=#Simon
+Author{1}{Lastname}#=%=#Ostermann
+Author{1}{Email}#=%=#simon-ostermann@web.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Roth
+Author{2}{Email}#=%=#mroth@coli.uni-sb.de
+Author{2}{Affiliation}#=%=#Saarland University
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Thater
+Author{3}{Email}#=%=#stth@coli.uni-saarland.de
+Author{3}{Affiliation}#=%=#Universität des Saarlandes
+Author{4}{Firstname}#=%=#Manfred
+Author{4}{Lastname}#=%=#Pinkal
+Author{4}{Email}#=%=#pinkal@coli.uni-sb.de
+Author{4}{Affiliation}#=%=#Saarland University
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#62
+FinalPaperTitle#=%=#The (too Many) Problems of Analogical Reasoning with Word Vectors
+ShortPaperTitle#=%=#The (too Many) Problems of Analogical Reasoning with Word Vectors
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Anna Rogers
+JobTitle#==#
+Organization#==#University of Massachusetts Lowell
+Department of Computer Science
+One University Avenue
+Lowell, MA 01854
+Abstract#==#This paper explores the possibilities of analogical reasoning with vector space
+models. Given two pairs of words with the same relation (e.g. man:woman ::
+king:queen), it was proposed that the offset between one pair of the
+corresponding word vectors can be used to identify the unknown member of the
+other pair (king - man + woman = queen). We argue against such "linguistic
+regularities" as a model for linguistic relations in vector space models and as
+a benchmark, and we show that the vector offset (as well as two other,
+better-performing methods) suffers from dependence on vector similarity.
+Author{1}{Firstname}#=%=#Anna
+Author{1}{Lastname}#=%=#Rogers
+Author{1}{Email}#=%=#anna.gld@gmail.com
+Author{1}{Affiliation}#=%=#University of Massachusets Lowell
+Author{2}{Firstname}#=%=#Aleksandr
+Author{2}{Lastname}#=%=#Drozd
+Author{2}{Email}#=%=#alexander.drozd@gmail.com
+Author{2}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{3}{Firstname}#=%=#Bofang
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#libofang@ruc.edu.cn
+Author{3}{Affiliation}#=%=#Renmin University of China
+
+==========
