@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Users and Data: The Two Neglected Children of Bilingual Natural Language Processing Research
+ShortPaperTitle#=%=#Users and Data: The Two Neglected Children of Bilingual Natural Language Processing Research
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#PL
+JobTitle#==#
+Organization#==#RALI-DIRO
+Université de Montréal
+CP. 6128 Succ. Centre Ville
+H3C 3J7 Montréal, Québec, Canada
+Abstract#==#Despite numerous studies devoted to mining parallel material from bilingual
+data, we have yet to see the resulting technologies wholeheartedly adopted by
+professional translators and terminologists alike. I argue that this state of
+affairs is mainly due to two factors: the emphasis published authors put on
+models (even though data is as important), and the conspicuous lack of concern
+for actual end-users.
+Author{1}{Firstname}#=%=#Phillippe
+Author{1}{Lastname}#=%=#Langlais
+Author{1}{Email}#=%=#felipe@iro.umontreal.ca
+Author{1}{Affiliation}#=%=#Université de Montréal
+
+==========

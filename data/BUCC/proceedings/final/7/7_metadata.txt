@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Deep Investigation of Cross-Language Plagiarism Detection Methods
+ShortPaperTitle#=%=#Deep Investigation of Cross-Language Plagiarism Detection Methods
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ferrero
+JobTitle#==#
+Organization#==#Compilatio
+276 rue du Mont Blanc 74540 Saint-Fe ́lix, France
+LIG-GETALP
+Univ. Grenoble Alpes, France
+Abstract#==#This paper is a deep investigation of cross-language plagiarism detection
+methods on a new recently introduced open dataset, which contains parallel and
+com- parable collections of documents with multiple characteristics (different
+genres, languages and sizes of texts). We investigate cross-language plagiarism
+detection methods for 6 language pairs on 2 granularities of text units in
+order to draw robust conclusions on the best methods while deeply analyzing
+correlations across document styles and languages.
+Author{1}{Firstname}#=%=#Jérémy
+Author{1}{Lastname}#=%=#Ferrero
+Author{1}{Email}#=%=#ferrero.jerem@gmail.com
+Author{1}{Affiliation}#=%=#Université Grenoble Alpes
+Author{2}{Firstname}#=%=#Laurent
+Author{2}{Lastname}#=%=#Besacier
+Author{2}{Email}#=%=#laurent.besacier@imag.fr
+Author{2}{Affiliation}#=%=#LIG
+Author{3}{Firstname}#=%=#Didier
+Author{3}{Lastname}#=%=#Schwab
+Author{3}{Email}#=%=#didier.schwab@imag.fr
+Author{3}{Affiliation}#=%=#Univ. Grenoble Alpes
+Author{4}{Firstname}#=%=#Frédéric
+Author{4}{Lastname}#=%=#Agnès
+Author{4}{Email}#=%=#frederic@compilatio.net
+Author{4}{Affiliation}#=%=#Compilatio
+
+==========

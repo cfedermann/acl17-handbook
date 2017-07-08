@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#zNLP: Identifying Parallel Sentences in Chinese-English Comparable Corpora
+ShortPaperTitle#=%=#zNLP: Identifying Parallel Sentences in Chinese-English Comparable Corpora
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Zheng ZHANG
+JobTitle#==#
+Organization#==#LIMSI
+Campus universitaire bât 508
+Rue John von Neumann
+91405 Orsay cedex, France
+Abstract#==#This paper describes the zNLP system for the BUCC 2017 shared task. Our system
+identifies parallel sentence pairs in Chinese-English comparable corpora by
+translating word-by-word Chinese sentences into English,
+using the search engine Solr to select near-parallel sentences and then by
+using an SVM classifier to identify true parallel sentences from the previous
+results. It obtains an F1-score of 45% (resp. 32%) on the test (training) set.
+Author{1}{Firstname}#=%=#Zheng
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zheng.zhang@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI-CNRS
+Author{2}{Firstname}#=%=#Pierre
+Author{2}{Lastname}#=%=#Zweigenbaum
+Author{2}{Email}#=%=#pz@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI, CNRS, Université Paris-Saclay
+
+==========

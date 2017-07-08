@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#A parallel collection of clinical trials in Portuguese and English
+ShortPaperTitle#=%=#A parallel collection of clinical trials in Portuguese and English
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Mariana Lara Neves
+JobTitle#==#
+Organization#==#Hasso-Plattner-Institute at the University of Potsdam
+August-Bebel-Str. 88 Potsdam, Brandenburg, 14482 Germany
+Abstract#==#Parallel collections of documents are crucial resources for training and
+evaluating
+machine translation (MT) systems. Even though large collections are available
+for
+certain domains and language pairs, these are still scarce in the biomedical
+domain. We developed a parallel corpus of clinical trials in Portuguese and
+English. The documents are derived from the Brazilian Clinical Trials Registry
+and the corpus currently contains a total of 1188 documents. In this paper, we
+describe the corpus construction and discuss the quality of the translation and
+the sentence alignment that we obtained.
+Author{1}{Firstname}#=%=#Mariana
+Author{1}{Lastname}#=%=#Neves
+Author{1}{Email}#=%=#marianalaraneves@gmail.com
+Author{1}{Affiliation}#=%=#Hasso Plattner Institute
+
+==========

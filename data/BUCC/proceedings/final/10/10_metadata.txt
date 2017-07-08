@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Automatic Extraction of Parallel Speech Corpora from Dubbed Movies
+ShortPaperTitle#=%=#Automatic Extraction of Parallel Speech Corpora from Dubbed Movies
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Alp Öktem
+JobTitle#==#
+Organization#==#Universitat Pompeu Fabra
+Roc Boronat, 138 - 08018 Barcelona
+Spain
+Abstract#==#This paper presents a methodology to extract parallel speech corpora based on
+any language pair from dubbed movies, together with an application framework in
+which some corresponding prosodic parameters are extracted. The obtained
+parallel corpora are especially suitable for speech-to-speech translation
+applications when a prosody transfer between source and target languages is
+desired.
+Author{1}{Firstname}#=%=#Alp
+Author{1}{Lastname}#=%=#Öktem
+Author{1}{Email}#=%=#alp.oktem@upf.edu
+Author{1}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{2}{Firstname}#=%=#Mireia
+Author{2}{Lastname}#=%=#Farrús
+Author{2}{Email}#=%=#mireia.farrus@upf.edu
+Author{2}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{3}{Firstname}#=%=#Leo
+Author{3}{Lastname}#=%=#Wanner
+Author{3}{Email}#=%=#leo.wanner@upf.edu
+Author{3}{Affiliation}#=%=#Universitat Pompeu Fabra
+
+==========

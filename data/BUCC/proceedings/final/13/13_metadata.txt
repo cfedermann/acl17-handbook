@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Sentence Alignment using Unfolding Recursive Autoencoders
+ShortPaperTitle#=%=#Sentence Alignment using Unfolding Recursive Autoencoders
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jeenu Grover
+JobTitle#==#Student
+Organization#==#IIT Kharagpur
+Abstract#==#In this paper, we propose a novel two step algorithm for sentence alignment in
+monolingual corpora using Unfolding Recursive Autoencoders. First, we use
+unfolding recursive auto-encoders (RAE) to learn feature vectors for phrases in
+syntactical tree of the sentence. To compare two sentences we use a similarity
+matrix which has dimensions proportional to the size of the two sentences.
+Since the similarity matrix generated to compare two sentences has varying
+dimension due to different sentence lengths, a dynamic pooling layer is used to
+map it to a matrix of fixed dimension. The resulting matrix is used to
+calculate the similarity scores between the two sentences. The second step of
+the algorithm captures the contexts in which the sentences occur in the
+document by using a dynamic programming algorithm for global alignment.
+Author{1}{Firstname}#=%=#Jeenu
+Author{1}{Lastname}#=%=#Grover
+Author{1}{Email}#=%=#groverjeenu@gmail.com
+Author{1}{Affiliation}#=%=#IIT Kharagpur
+Author{2}{Firstname}#=%=#Pabitra
+Author{2}{Lastname}#=%=#Mitra
+Author{2}{Email}#=%=#pabitra@cse.iitkgp.ernet.in
+Author{2}{Affiliation}#=%=#IIT Kharagpur
+
+==========

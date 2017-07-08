@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Overview of the Second BUCC Shared Task: Spotting Parallel Sentences in Comparable Corpora
+ShortPaperTitle#=%=#Overview of the Second BUCC Shared Task
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Pierre Zweigenbaum
+JobTitle#==#
+Organization#==#LIMSI, CNRS, Université Paris-Saclay
+Abstract#==#This paper presents the BUCC 2017 shared task on parallel sentence extraction
+from comparable corpora.  It recalls the design of the datasets, presents their
+final construction and statistics and the methods used to evaluate system
+results.
+13 runs were submitted to the shared task by 4 teams, covering three of the
+four proposed language pairs: French-English (7 runs), German-English (3 runs),
+and Chinese-English (3 runs).
+The best F-scores as measured against the gold standard were 0.84
+(German-English), 0.80 (French-English), and 0.43 (Chinese-English).  Because
+of the design of the dataset, in which not all gold parallel sentence pairs are
+known, these are only minimum values.
+We examined manually a small sample of the false negative sentence pairs for
+the most precise French-English runs and estimated the number of parallel
+sentence pairs not yet in the provided gold standard.  Adding them to the gold
+standard leads to revised estimates for the French-English F-scores of at most
++1.5pt.  This suggests that the BUCC 2017 datasets provide a reasonable
+approximate evaluation of the parallel sentence spotting task.
+Author{1}{Firstname}#=%=#Pierre
+Author{1}{Lastname}#=%=#Zweigenbaum
+Author{1}{Email}#=%=#pz@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI, CNRS, Université Paris-Saclay
+Author{2}{Firstname}#=%=#Serge
+Author{2}{Lastname}#=%=#Sharoff
+Author{2}{Email}#=%=#s.sharoff@leeds.ac.uk
+Author{2}{Affiliation}#=%=#University of Leeds
+Author{3}{Firstname}#=%=#Reinhard
+Author{3}{Lastname}#=%=#Rapp
+Author{3}{Email}#=%=#reinhardrapp@gmx.de
+Author{3}{Affiliation}#=%=#Magdeburg-Stendal University of Applied Sciences and University of Mainz
+
+==========

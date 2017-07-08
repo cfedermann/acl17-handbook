@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Acquisition of Translation Lexicons for Historically Unwritten Languages via Bridging Loanwords
+ShortPaperTitle#=%=#Acquisition of Translation Lexicons for Historically Unwritten Languages via Bridging Loanwords
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Michael Bloodgood
+JobTitle#==#
+Organization#==#
+Abstract#==#With the advent of informal electronic communications such as social media,
+colloquial languages that were historically unwritten are being written for the
+first time in heavily code-switched environments. We present a method for
+inducing portions of translation lexicons through the use of expert knowledge
+in these settings where there are approximately zero resources available other
+than a language informant, potentially not even large amounts of monolingual
+data. We investigate inducing a Moroccan Darija-English translation lexicon via
+French loanwords bridging into English and find that a useful lexicon is
+induced for human-assisted translation and statistical machine translation.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Bloodgood
+Author{1}{Email}#=%=#mbloodgood@tcnj.edu
+Author{1}{Affiliation}#=%=#The College of New Jersey
+Author{2}{Firstname}#=%=#Benjamin
+Author{2}{Lastname}#=%=#Strauss
+Author{2}{Email}#=%=#strauss.105@osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#BUCC2017: A Hybrid Approach for Identifying Parallel Sentences in Comparable Corpora
+ShortPaperTitle#=%=#BUCC2017: A Hybrid Approach for Identifying Parallel Sentences in Comparable Corpora
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Sainik Kumar Mahata
+JobTitle#==#
+Organization#==#Computer Science and Engineering Department
+88, Raja Subodh Chandra Mallick Rd, 
+Jadavpur University Campus Area, Jadavpur
+Kolkata, West Bengal 700032
+India
+Abstract#==#A Statistical Machine Translation (SMT) system is always trained using large
+parallel corpus to produce effective translation. Not only is the corpus
+scarce, it also involves a lot of manual labor and cost. Parallel corpus can be
+prepared by employing comparable corpora where a pair of corpora is in two
+different languages pointing to the same domain. In the present work, we try to
+build a parallel corpus for French-English language pair from a given
+comparable corpus. The data and the problem set are provided as part of the
+shared task organized by BUCC 2017. We have proposed a system that first
+translates the sentences by heavily relying on Moses and then group the
+sentences based on sentence length similarity. Finally, the one to one sentence
+selection was done based on Cosine Similarity algorithm.
+Author{1}{Firstname}#=%=#Sainik
+Author{1}{Lastname}#=%=#Mahata
+Author{1}{Email}#=%=#sainik.mahata@gmail.com
+Author{1}{Affiliation}#=%=#Jadavpur University
+Author{2}{Firstname}#=%=#Dipankar
+Author{2}{Lastname}#=%=#Das
+Author{2}{Email}#=%=#ddas@cse.jdvu.ac.in
+Author{2}{Affiliation}#=%=#Jadavpur University
+Author{3}{Firstname}#=%=#Sivaji
+Author{3}{Lastname}#=%=#Bandyopadhyay
+Author{3}{Email}#=%=#sbandyopadhyay@cse.jdvu.ac.in
+Author{3}{Affiliation}#=%=#Jadavpur University
+
+==========

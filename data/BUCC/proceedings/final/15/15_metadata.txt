@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#BUCC 2017 Shared Task: a First Attempt Toward a Deep Learning Framework for Identifying Parallel Sentences in Comparable Corpora
+ShortPaperTitle#=%=#BUCC 2017 Shared Task: a First Attempt Toward a Deep Learning Framework for Identifying Parallel Sentences in Comparable Corpora
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Francis Grégoire
+JobTitle#==#
+Organization#==#Université de Montréal
+Abstract#==#This paper describes our participation in BUCC 2017 shared task:
+identifying parallel sentences in comparable corpora. Our goal is to leverage
+continuous vector representations and distributional semantics with a minimal
+use of external preprocessing and postprocessing tools. We report experiments
+that were conducted after transmitting our results.
+Author{1}{Firstname}#=%=#Francis
+Author{1}{Lastname}#=%=#Grégoire
+Author{1}{Email}#=%=#gregoifr@iro.umontreal.ca
+Author{1}{Affiliation}#=%=#Université de Montréal
+Author{2}{Firstname}#=%=#Philippe
+Author{2}{Lastname}#=%=#Langlais
+Author{2}{Email}#=%=#felipe@iro.umontreal.ca
+Author{2}{Affiliation}#=%=#Université de Montréal
+
+==========

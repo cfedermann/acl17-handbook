@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Toward a Comparable Corpus of Latvian, Russian and English Tweets
+ShortPaperTitle#=%=#Toward a Comparable Corpus of Latvian, Russian and English Tweets
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Dmitrijs Milajevs
+JobTitle#==#
+Organization#==#NIST
+Abstract#==#Twitter has become a rich source for linguistic data. Here, a possibility of
+building a trilingual Latvian-Russian-English corpus of tweets from Riga,
+Latvia is investigated. Such a corpus, once constructed, might be of great use
+for multiple purposes including  training machine translation models, examining
+cross-lingual phenomena and studying the population of Riga. This pilot study
+shows that it is feasible to build such a resource by collecting and analysing
+a pilot corpus, which is made publicly available and can be used to construct a
+large comparable corpus.
+Author{1}{Firstname}#=%=#Dmitrijs
+Author{1}{Lastname}#=%=#Milajevs
+Author{1}{Email}#=%=#dmitrijs.milajevs@nist.gov
+Author{1}{Affiliation}#=%=#National Institute of Standards and Technology
+
+==========

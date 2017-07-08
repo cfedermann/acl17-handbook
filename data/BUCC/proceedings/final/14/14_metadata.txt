@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Weighted Set-Theoretic Alignment of Comparable Sentences
+ShortPaperTitle#=%=#Weighted Set-Theoretic Alignment of Comparable Sentences
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This article presents the STACCw system for the BUCC 2017 shared task on
+parallel sentence extraction from comparable corpora. The original STACC
+approach, based on set-theoretic operations over bags of words, had been
+previously shown to be efficient and portable across domains and alignment
+scenarios. Wedescribe an extension of this approach with a new weighting scheme
+and show that it provides significant improvements on the datasets provided for
+the shared task.
+Author{1}{Firstname}#=%=#Andoni
+Author{1}{Lastname}#=%=#Azpeitia
+Author{1}{Email}#=%=#aazpeitia@vicomtech.org
+Author{1}{Affiliation}#=%=#Vicomtech-IK4
+Author{2}{Firstname}#=%=#Thierry
+Author{2}{Lastname}#=%=#Etchegoyhen
+Author{2}{Email}#=%=#tetchegoyhen@vicomtech.org
+Author{2}{Affiliation}#=%=#Vicomtech-IK4
+Author{3}{Firstname}#=%=#Eva
+Author{3}{Lastname}#=%=#Martínez Garcia
+Author{3}{Email}#=%=#emartinez@vicomtech.org
+Author{3}{Affiliation}#=%=#Vicomtech-IK4
+
+==========
