@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Deep Learning for Biomedical Information Retrieval: Learning Textual Relevance from Click Logs
+ShortPaperTitle#=%=#Deep Learning for Biomedical Information Retrieval: Learning Textual Relevance from Click Logs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Sunil Mohan
+JobTitle#==#
+Organization#==#NCBI, 8600 Rockville Pike, Bethesda MD, 20894 USA
+Abstract#==#We describe a Deep Learning approach to modeling the relevance of a document's
+text to a query, applied to biomedical literature. Instead of mapping each
+document and query to a common semantic space, we compute a variable-length
+difference vector between the query and document which is then passed through a
+deep convolution stage followed by a deep regression network to produce the
+estimated probability of the document's relevance to the query. Despite the
+small amount of training data, this approach produces a more robust predictor
+than computing similarities between semantic vector representations of the
+query and document, and also results in significant improvements over
+traditional IR text factors. In the future, we plan to explore its application
+in improving PubMed search.
+Author{1}{Firstname}#=%=#Sunil
+Author{1}{Lastname}#=%=#Mohan
+Author{1}{Email}#=%=#sunilm_k2@yahoo.com
+Author{1}{Affiliation}#=%=#NCBI
+Author{2}{Firstname}#=%=#Nicolas
+Author{2}{Lastname}#=%=#Fiorini
+Author{2}{Email}#=%=#nicolas.fiorini@nih.gov
+Author{2}{Affiliation}#=%=#NCBI
+Author{3}{Firstname}#=%=#Sun
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#sun.kim@nih.gov
+Author{3}{Affiliation}#=%=#NCBI
+Author{4}{Firstname}#=%=#Zhiyong
+Author{4}{Lastname}#=%=#Lu
+Author{4}{Email}#=%=#zhiyong.lu@nih.gov
+Author{4}{Affiliation}#=%=#NCBI
+
+==========

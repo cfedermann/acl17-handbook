@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#Noise Reduction Methods for Distantly Supervised Biomedical Relation Extraction
+ShortPaperTitle#=%=#Noise Reduction Methods for Distantly Supervised Biomedical Relation Extraction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Gang Li
+JobTitle#==#
+Organization#==#Department of Computer and Information Sciences,
+University of Delaware,
+101 Smith Hall, Newark, DE 19716, USA
+Abstract#==#Distant supervision has been applied to automatically generate labeled data for
+biomedical relation extraction. Noise exists in both positively and
+negatively-labeled data and affects the performance of supervised machine
+learning methods. In this paper, we propose three novel heuristics based on the
+notion of proximity, trigger word and confidence of patterns to leverage
+lexical and syntactic information to reduce the level of noise in the distantly
+labeled data. Experiments on three different tasks, extraction of
+protein-protein-interaction, miRNA-gene regulation relation and
+protein-localization event, show that the proposed methods can improve the
+F-score over the baseline by 6, 10 and 14 points for the three tasks,
+respectively. We also show that when the models are configured to output
+high-confidence results, high precisions can be obtained using the proposed
+methods, making them promising for facilitating manual curation for databases.
+Author{1}{Firstname}#=%=#Gang
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#ligang@udel.edu
+Author{1}{Affiliation}#=%=#Department of Computer and Information Sciences, University of Delaware
+Author{2}{Firstname}#=%=#Cathy
+Author{2}{Lastname}#=%=#Wu
+Author{2}{Email}#=%=#wuc@udel.edu
+Author{2}{Affiliation}#=%=#Department of Computer and Information Sciences, University of Delaware, Newark, Delaware, United States of America, Department of Biochemistry and Molecular & Cellular Biology, Georgetown University Medical Center, Washington, DC, United States of America, Center for Bioinformatics and Computational Biology, University of Delaware, Newark, Delaware, United States of America
+Author{3}{Firstname}#=%=#K.
+Author{3}{Lastname}#=%=#Vijay-Shanker
+Author{3}{Email}#=%=#vijay@udel.edu
+Author{3}{Affiliation}#=%=#Department of Computer and Information Sciences, University of Delaware
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#45
+FinalPaperTitle#=%=#Extracting Drug-Drug Interactions with Attention CNNs
+ShortPaperTitle#=%=#Extracting Drug-Drug Interactions with Attention CNNs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#MASAKI ASADA
+JobTitle#==#
+Organization#==#Toyota Technological Institute
+2-12-1 Hisakata, Tenpaku-ku, Nagoya, Aichi, 468-8511, Japan
+Abstract#==#We propose a novel attention mechanism for a Convolutional Neural Network
+(CNN)-based Drug-Drug Interaction (DDI) extraction model. CNNs have been shown
+to have a great potential on DDI extraction tasks; however, attention
+mechanisms, which emphasize important words in the sentence of a target-entity
+pair, have not been investigated with the CNNs despite the fact that attention
+mechanisms are shown to be effective for a general domain relation
+classification task. We evaluated our model on the Task 9.2 of the
+DDIExtraction-2013 shared task. As a result, our attention mechanism improved
+the performance of our base CNN-based DDI model, and the model achieved an
+F-score of 69.12%, which is competitive with the state-of-the-art models.
+Author{1}{Firstname}#=%=#Masaki
+Author{1}{Lastname}#=%=#Asada
+Author{1}{Email}#=%=#sd17402@toyota-ti.ac.jp
+Author{1}{Affiliation}#=%=#Toyota Technological Institute
+Author{2}{Firstname}#=%=#Makoto
+Author{2}{Lastname}#=%=#Miwa
+Author{2}{Email}#=%=#makoto-miwa@toyota-ti.ac.jp
+Author{2}{Affiliation}#=%=#Toyota Technological Institute
+Author{3}{Firstname}#=%=#Yutaka
+Author{3}{Lastname}#=%=#Sasaki
+Author{3}{Email}#=%=#yutaka.sasaki@toyota-ti.ac.jp
+Author{3}{Affiliation}#=%=#Toyota Technological Institute
+
+==========

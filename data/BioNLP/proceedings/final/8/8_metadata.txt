@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks
+ShortPaperTitle#=%=#Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chen Lin
+JobTitle#==#
+Organization#==#Boston Children's Hospital
+300 Longwood Ave, Boston, MA 02115
+Abstract#==#Token sequences are often used as the input for Convolutional Neural Networks
+(CNNs) in natural language processing. However, they might not be an ideal
+representation for time expressions, which are long, highly varied, and
+semantically complex. We describe a method for representing time expressions
+with single pseudo-tokens for CNNs. With this method, we establish a new
+state-of-the-art result for a clinical temporal relation extraction task.
+Author{1}{Firstname}#=%=#Chen
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Email}#=%=#chen.lin@childrens.harvard.edu
+Author{1}{Affiliation}#=%=#Children's Hospital Informatics Program, Boston Children's Hospital
+Author{2}{Firstname}#=%=#Timothy
+Author{2}{Lastname}#=%=#Miller
+Author{2}{Email}#=%=#timothy.miller@childrens.harvard.edu
+Author{2}{Affiliation}#=%=#Boston Children's Hospital and Harvard Medical School
+Author{3}{Firstname}#=%=#Dmitriy
+Author{3}{Lastname}#=%=#Dligach
+Author{3}{Email}#=%=#ddligach@luc.edu
+Author{3}{Affiliation}#=%=#Loyola University Chicago
+Author{4}{Firstname}#=%=#Steven
+Author{4}{Lastname}#=%=#Bethard
+Author{4}{Email}#=%=#bethard@email.arizona.edu
+Author{4}{Affiliation}#=%=#University of Arizona
+Author{5}{Firstname}#=%=#Guergana
+Author{5}{Lastname}#=%=#Savova
+Author{5}{Email}#=%=#guergana.savova@childrens.harvard.edu
+Author{5}{Affiliation}#=%=#Harvard
+
+==========

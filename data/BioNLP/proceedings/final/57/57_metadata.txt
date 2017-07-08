@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#57
+FinalPaperTitle#=%=#Painless Relation Extraction with Kindred
+ShortPaperTitle#=%=#Painless Relation Extraction with Kindred
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Jake Lever
+JobTitle#==#
+Organization#==#Canada’s Michael Smith Genome Sciences Centre
+570 W 7th Ave, Vancouver
+BC, V5Z 4S6, Canada
+Abstract#==#Relation extraction methods are essential for creating robust text mining tools
+to help researchers find useful knowledge in the vast published literature.
+Easy-to-use and generalizable methods are needed to encourage an ecosystem in
+which researchers can easily use shared resources and build upon each others'
+methods. We present the Kindred Python package for relation extraction. It
+builds upon methods from the most successful tools in the recent BioNLP Shared
+Task to predict high-quality predictions with low computational cost. It also
+integrates with PubAnnotation, PubTator, and BioNLP Shared Task data in order
+to allow easy development and application of relation extraction models.
+Author{1}{Firstname}#=%=#Jake
+Author{1}{Lastname}#=%=#Lever
+Author{1}{Email}#=%=#jake.lever@gmail.com
+Author{1}{Affiliation}#=%=#University of British Columbia
+Author{2}{Firstname}#=%=#Steven
+Author{2}{Lastname}#=%=#Jones
+Author{2}{Email}#=%=#sjones@bcgsc.ca
+Author{2}{Affiliation}#=%=#Canada's Michael Smith Genome Sciences Centre
+
+==========

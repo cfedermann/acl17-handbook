@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Enhancing Automatic ICD-9-CM Code Assignment for \\Medical Texts with PubMed
+ShortPaperTitle#=%=#Enhancing Automatic ICD-9-CM Code Assignment for \\Medical Texts with PubMed
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#danchen zhang
+JobTitle#==#
+Organization#==#School of information sciences; university of pittsburgh
+Abstract#==#Assigning a standard ICD-9-CM code to disease symptoms in medical texts is an
+important task in the medical domain. Automating this process could greatly
+reduce the costs. However, the effectiveness of an automatic ICD-9-CM code
+classifier faces a serious problem, which can be triggered by unbalanced
+training data. Frequent diseases often have more training data, which helps its
+classification to perform better than that of an infrequent disease. However, a
+disease’s frequency does not necessarily reflect its importance. To resolve
+this training data shortage problem, we propose to strategically draw data from
+PubMed to enrich the training data when there is such need. We validate our
+method on the CMC dataset, and the evaluation results indicate that our method
+can significantly improve the code assignment classifiers' performance at the
+macro-averaging level.
+Author{1}{Firstname}#=%=#Danchen
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#daz45@pitt.edu
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Daqing
+Author{2}{Lastname}#=%=#He
+Author{2}{Email}#=%=#dah44@pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+Author{3}{Firstname}#=%=#Sanqiang
+Author{3}{Lastname}#=%=#Zhao
+Author{3}{Email}#=%=#saz31@pitt.edu
+Author{3}{Affiliation}#=%=#University of Pittsburgh
+Author{4}{Firstname}#=%=#Lei
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#leili@njust.edu.cn
+Author{4}{Affiliation}#=%=#Nanjing Unviersity of Science and Technology
+
+==========

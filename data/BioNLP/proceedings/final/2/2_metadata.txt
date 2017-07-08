@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Neural Question Answering at BioASQ 5B
+ShortPaperTitle#=%=#Neural Question Answering at BioASQ 5B
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Georg Wiese
+JobTitle#==#
+Organization#==#Hasso Plattner Institute
+August Bebel Strasse 88
+14482 Potsdam, Germany
+Abstract#==#This paper describes our submission to the 2017 BioASQ challenge. We
+participated in Task B, Phase B which is concerned with biomedical question
+answering (QA). We focus on factoid and list question, using an extractive QA
+model, that is, we restrict our system to output  substrings of the provided
+text snippets. At the core of our system, we use FastQA, a state-of-the-art
+neural QA system. We extended it with biomedical word embeddings and changed
+its answer layer to be able to answer list questions in addition to factoid
+questions. We pre-trained the model on a large-scale open-domain QA dataset,
+SQuAD, and then fine-tuned the parameters on the BioASQ training set. With our
+approach, we achieve state-of-the-art results on factoid questions and
+competitive results on list questions.
+Author{1}{Firstname}#=%=#Georg
+Author{1}{Lastname}#=%=#Wiese
+Author{1}{Email}#=%=#georg.wiese@dfki.de
+Author{1}{Affiliation}#=%=#Hasso Plattner Institute (HPI), German Research Center for Artificial Intelligence (DFKI)
+Author{2}{Firstname}#=%=#Dirk
+Author{2}{Lastname}#=%=#Weissenborn
+Author{2}{Email}#=%=#dirk.weissenborn@dfki.de
+Author{2}{Affiliation}#=%=#German Research Center for Artificial Intelligence (DFKI)
+Author{3}{Firstname}#=%=#Mariana
+Author{3}{Lastname}#=%=#Neves
+Author{3}{Email}#=%=#marianalaraneves@gmail.com
+Author{3}{Affiliation}#=%=#Hasso Plattner Institute
+
+==========

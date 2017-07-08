@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Toward Automated Early Sepsis Alerting: Identifying Infection Patients from Nursing Notes
+ShortPaperTitle#=%=#Toward Automated Early Sepsis Alerting: Identifying Infection Patients from Nursing Notes
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Emilia Apostolova
+JobTitle#==#
+Organization#==#Language.ai
+1414 W Wolfram, #1, Chicago, IL 60657
+Abstract#==#Severe sepsis and septic shock are conditions that affect millions of patients
+and have close to 50% mortality rate. Early identification of at-risk patients
+significantly improves outcomes. Electronic surveillance tools have been
+developed to monitor structured Electronic Medical Records and automatically
+recognize early signs of sepsis. However, many sepsis risk factors (e.g.
+symptoms and signs of infection) are often captured only in free text clinical
+notes. In this study, we developed a method for automatic monitoring of nursing
+notes for signs and symptoms of infection. We utilized a creative approach to
+automatically generate an annotated dataset. The dataset was used to create a
+Machine Learning model that achieved an F1-score ranging from 79 to 96%.
+Author{1}{Firstname}#=%=#Emilia
+Author{1}{Lastname}#=%=#Apostolova
+Author{1}{Email}#=%=#emilia@language.ai
+Author{1}{Affiliation}#=%=#Language.ai
+Author{2}{Firstname}#=%=#Tom
+Author{2}{Lastname}#=%=#Velez
+Author{2}{Email}#=%=#tom.velez@cta.com
+Author{2}{Affiliation}#=%=#Vivace Health Solutions Inc
+
+==========

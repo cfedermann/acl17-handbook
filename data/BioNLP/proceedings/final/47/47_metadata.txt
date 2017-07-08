@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#A Multi-strategy Query Processing Approach for Biomedical Question Answering: USTB\_PRIR at BioASQ 2017 Task 5B
+ShortPaperTitle#=%=#USTB_PRIR at BioASQ 2017 Task 5B
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Zan-Xia Jin, Bo-Wen Zhang, Fan Fang, Le-Le Zhang, Xu-Cheng Yin
+JobTitle#==#
+Organization#==#University of Science and Technology Beijing
+No.30 Xueyuan Rd., Haidian Dist., Beijing 100083, China
+Abstract#==#This paper describes the participation of USTB_PRIR team in the 2017 BioASQ 5B
+on question answering, including document retrieval, snippet retrieval, and
+concept retrieval task. We introduce different multimodal query processing
+strategies to enrich query terms and assign different weights to them.
+Specifically, sequential dependence model (SDM), pseudo-relevance feedback
+(PRF), fielded sequential dependence model (FSDM) and Divergence from
+Randomness model (DFRM) are respectively performed on different fields of
+PubMed articles, sentences extracted from relevant articles, the five
+terminologies or ontologies (MeSH, GO, Jochem, Uniprot and DO) to achieve
+better search performances. Preliminary results show that our systems
+outperform others in the document and snippet retrieval task in the first two
+batches.
+Author{1}{Firstname}#=%=#Zan-Xia
+Author{1}{Lastname}#=%=#Jin
+Author{1}{Email}#=%=#13811154084@163.com
+Author{1}{Affiliation}#=%=#University of Science and Technology Beijing
+Author{2}{Firstname}#=%=#Bo-Wen
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#bowenzhang@xs.ustb.edu.cn
+Author{2}{Affiliation}#=%=#University of Science and Technology Beijing
+Author{3}{Firstname}#=%=#Fan
+Author{3}{Lastname}#=%=#Fang
+Author{3}{Email}#=%=#ustb_ff@163.com
+Author{3}{Affiliation}#=%=#University of Science and Technology Beijing
+Author{4}{Firstname}#=%=#Le-Le
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Email}#=%=#294611817@qq.com
+Author{4}{Affiliation}#=%=#University of Science and Technology Beijing
+Author{5}{Firstname}#=%=#Xu-Cheng
+Author{5}{Lastname}#=%=#Yin
+Author{5}{Email}#=%=#xuchengyin@ustb.edu.cn
+Author{5}{Affiliation}#=%=#University of Science and Technology Beijing
+
+==========

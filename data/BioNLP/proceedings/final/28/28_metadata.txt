@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Automated Preamble Detection in Dictated Medical Reports
+ShortPaperTitle#=%=#Automated Preamble Detection in Dictated Medical Reports
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#David Suendermann-Oeft
+JobTitle#==#
+Organization#==#EMR.AI Inc
+90 New Montgomery St #400
+San Francisco, CA 94105, USA
+Abstract#==#Dictated medical reports very often feature
+a preamble containing metainformation
+about the report such as patient and
+physician names, location and name of the
+clinic, date of procedure, and so on. In the
+medical transcription process, the preamble
+is usually omitted from the final report,
+as it contains information already available
+in the electronic medical record. We
+present a method which is able to automatically
+identify preambles in medical dictations.
+The method makes use of stateof-
+the-art NLP techniques including word
+embeddings and Bi-LSTMs and achieves
+preamble detection performance superior
+to humans.
+Author{1}{Firstname}#=%=#Wael
+Author{1}{Lastname}#=%=#Salloum
+Author{1}{Email}#=%=#wael.salloum@emr.ai
+Author{1}{Affiliation}#=%=#EMR.AI
+Author{2}{Firstname}#=%=#Greg
+Author{2}{Lastname}#=%=#Finley
+Author{2}{Email}#=%=#greg.finley@emr.ai
+Author{2}{Affiliation}#=%=#EMR.AI
+Author{3}{Firstname}#=%=#Erik
+Author{3}{Lastname}#=%=#Edwards
+Author{3}{Email}#=%=#erik.edward@emr.ai
+Author{3}{Affiliation}#=%=#EMR.AI
+Author{4}{Firstname}#=%=#Mark
+Author{4}{Lastname}#=%=#Miller
+Author{4}{Email}#=%=#mark.miller@emr.ai
+Author{4}{Affiliation}#=%=#EMR.AI
+Author{5}{Firstname}#=%=#David
+Author{5}{Lastname}#=%=#Suendermann-Oeft
+Author{5}{Email}#=%=#david@emr.ai
+Author{5}{Affiliation}#=%=#EMR.AI
+
+==========

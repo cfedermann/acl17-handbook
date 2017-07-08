@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Extracting Personal Medical Events for User Timeline Construction using Minimal Supervision
+ShortPaperTitle#=%=#Extracting Personal Medical Events for User Timeline Construction using Minimal Supervision
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Aakanksha Naik
+JobTitle#==#
+Organization#==#Language Technologies Institute, Carnegie Mellon University, Gates-Hillman Center, Pittsburgh, PA-15213
+Abstract#==#In this paper, we describe a system for automatic construction of user disease
+progression timelines from their posts in online support groups using minimal
+supervision. In recent years, several online support groups have been
+established which has led to a huge increase in the amount of patient-authored
+text available. Creating systems which can automatically extract important
+medical events and create disease progression timelines for users from such
+text can help in patient health monitoring as well as studying links between
+medical events and users' participation in support groups. Prior work in this
+domain has used manually constructed keyword sets to detect medical events. In
+this work, our aim is to perform medical event detection using minimal
+supervision in order to develop a more general timeline construction system.
+Our system achieves an accuracy of 55.17%, which is 92\% of the performance
+achieved by a supervised baseline system.
+Author{1}{Firstname}#=%=#Aakanksha
+Author{1}{Lastname}#=%=#Naik
+Author{1}{Email}#=%=#aakankshanaik19@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Bogart
+Author{2}{Email}#=%=#cbogart@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Carolyn
+Author{3}{Lastname}#=%=#Rose
+Author{3}{Email}#=%=#cprose@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

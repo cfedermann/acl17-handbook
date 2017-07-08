@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Adapting Pre-trained Word Embeddings For Use In Medical Coding
+ShortPaperTitle#=%=#Adapting Pre-trained Word Embeddings For Use In Medical Coding
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Kevin Patel
+JobTitle#==#
+Organization#==#Indian Institute of Technology Bombay
+Powai, Mumbai - 400076 
+Maharashtra, India
+Abstract#==#Word embeddings are a crucial component in modern NLP. Pre-trained embeddings
+released by different groups have been a major reason for their popularity.
+However, they are trained on generic corpora, which limits their direct use for
+domain specific tasks. In this paper, we propose a method to add task specific
+information to pre-trained word embeddings. Such information can improve their
+utility. We add information from medical coding data, as well as the first
+level from the hierarchy of ICD-10 medical code set to different pre-trained
+word embeddings. We adapt CBOW algorithm from the word2vec package for our
+purpose. We evaluated our approach on five different pre-trained word
+embeddings. Both the original word embeddings, and their modified versions (the
+ones with added information) were used for automated review of medical coding.
+The modified word embeddings give an improvement in f-score by 1% on the
+5-fold evaluation on a private medical claims dataset. Our results show that
+adding extra information is possible and beneficial for the task at hand.
+Author{1}{Firstname}#=%=#Kevin
+Author{1}{Lastname}#=%=#Patel
+Author{1}{Email}#=%=#kevin.patel@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Bombay
+Author{2}{Firstname}#=%=#Divya
+Author{2}{Lastname}#=%=#Patel
+Author{2}{Email}#=%=#divya.patel.8796@gmail.com
+Author{2}{Affiliation}#=%=#Dharmsinh Desai University
+Author{3}{Firstname}#=%=#Mansi
+Author{3}{Lastname}#=%=#Golakiya
+Author{3}{Email}#=%=#golkiya.mansi@gmail.com
+Author{3}{Affiliation}#=%=#Dharmsinh Desai University, Nadiad
+Author{4}{Firstname}#=%=#Pushpak
+Author{4}{Lastname}#=%=#Bhattacharyya
+Author{4}{Email}#=%=#pushpakbh@gmail.com
+Author{4}{Affiliation}#=%=#CSE Department, IIT Bombay
+Author{5}{Firstname}#=%=#Nilesh
+Author{5}{Lastname}#=%=#Birari
+Author{5}{Email}#=%=#nilesh.b@ezdi.us
+Author{5}{Affiliation}#=%=#ezDI Inc., India
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Protein Word Detection using Text Segmentation Techniques
+ShortPaperTitle#=%=#Protein Word Detection using Text Segmentation Techniques
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#G.Devi
+JobTitle#==#
+Organization#==#Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
+Abstract#==#Literature in Molecular Biology is abundant with linguistic metaphors. There
+have been works in the past that attempt to draw parallels between linguistics
+and biology, driven by the fundamental premise that proteins have a language of
+their own. Since word detection is crucial to the decipherment of any  unknown
+language, we attempt to establish a problem mapping from natural language text
+to protein sequences at the level of words. Towards this end, we explore the
+use of an unsupervised text segmentation algorithm to the task of extracting
+"biological words" from protein sequences. In particular, we demonstrate the
+effectiveness of using domain knowledge to complement data driven approaches in
+the text segmentation task, as well as in its biological counterpart. We also
+propose a novel extrinsic evaluation measure for protein words through protein
+family classification.
+Author{1}{Firstname}#=%=#Devi
+Author{1}{Lastname}#=%=#Ganesan
+Author{1}{Email}#=%=#gdevi@cse.iitm.ac.in
+Author{1}{Affiliation}#=%=#Department of Computer Science and Engineering, Indian Institute of Technology Madras
+Author{2}{Firstname}#=%=#Ashish V.
+Author{2}{Lastname}#=%=#Tendulkar
+Author{2}{Email}#=%=#ashishvt@google.com
+Author{2}{Affiliation}#=%=#Google Inc., Hyderabad, India
+Author{3}{Firstname}#=%=#Sutanu
+Author{3}{Lastname}#=%=#Chakraborti
+Author{3}{Email}#=%=#sutanuc@cse.iitm.ac.in
+Author{3}{Affiliation}#=%=#Department of Computer Science and Engineering, Indian Institute of Technology Madras
+
+==========

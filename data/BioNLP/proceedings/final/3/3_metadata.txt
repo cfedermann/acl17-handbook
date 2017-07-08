@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Creation and evaluation of a dictionary-based tagger for virus species and proteins
+ShortPaperTitle#=%=#Creation and evaluation of a dictionary-based tagger for virus species and proteins
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Helen Cook
+JobTitle#==#
+Organization#==#Novo Nordisk Foundation Center for Protein Research
+Blegdamsvej 3B
+Copenhagen N 2200
+Denmark
+Abstract#==#ext mining automatically extracts information from the literature with the goal
+of making it available for further analysis, for example by incorporating it
+into biomedical databases.  A key first step towards this goal is to identify
+and normalize the named entities, such as proteins and species, which are
+mentioned in text.  Despite the large detrimental impact that viruses have on
+human and agricultural health, very little previous text-mining work has
+focused on identifying virus species and proteins in the literature.  Here, we
+present an improved dictionary-based system for viral species and the first
+dictionary for viral proteins, which we benchmark on a new corpus of 300
+manually annotated abstracts.  We achieve 81.0\% precision and 72.7\% recall at
+the task of recognizing and normalizing viral species and 76.2\% precision and
+34.9\% recall on viral proteins.  These results are achieved despite the many
+challenges involved with the names of viral species and, especially, proteins. 
+This work provides a foundation that can be used to extract more complicated
+relations about viruses from the literature.
+Author{1}{Firstname}#=%=#Helen
+Author{1}{Lastname}#=%=#Cook
+Author{1}{Email}#=%=#helen.cook@cpr.ku.dk
+Author{1}{Affiliation}#=%=#Novo Nordisk Foundation Center for Protein Research, University of Copenhagen
+Author{2}{Firstname}#=%=#Rudolfs
+Author{2}{Lastname}#=%=#Berzins
+Author{2}{Email}#=%=#rudolfs.berzins.bio@gmail.com
+Author{2}{Affiliation}#=%=#Novo Nordisk Foundation Center for Protein Research, University of Copenhagen
+Author{3}{Firstname}#=%=#Cristina Leal
+Author{3}{Lastname}#=%=#Rodrıguez
+Author{3}{Email}#=%=#cristina.leal@cpr.ku.dk
+Author{3}{Affiliation}#=%=#Novo Nordisk Foundation Center for Protein Research, University of Copenhagen
+Author{4}{Firstname}#=%=#Juan Miguel
+Author{4}{Lastname}#=%=#Cejuela
+Author{4}{Email}#=%=#juanmi@tagtog.net
+Author{4}{Affiliation}#=%=#TUM, Department of Informatics, Bioinformatics & Computational Biology
+Author{5}{Firstname}#=%=#Lars Juhl
+Author{5}{Lastname}#=%=#Jensen
+Author{5}{Email}#=%=#lars.juhl.jensen@cpr.ku.dk
+Author{5}{Affiliation}#=%=#Novo Nordisk Foundation Center for Protein Research, University of Copenhagen
+
+==========

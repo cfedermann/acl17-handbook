@@ -1,0 +1,59 @@
+* Friday August 4, 2017
+= 8:30--8:45 Opening remarks
+= 8:45--10:30 Session 1: Prediction and relation extraction
+66 8:45--9:00  # Target word prediction and paraphasia classification in spoken discourse
+45 9:00--9:15  # Extracting Drug-Drug Interactions with Attention CNNs
+19 9:15--9:30  # Insights into Analogy Completion from the Biomedical Domain
+6 9:30--9:45  # Deep learning for extracting protein-protein interactions from biomedical literature
+4 9:45--10:00  # Stacking With Auxiliary Features for Entity Linking in the Medical Domain
+= 10:00--10:30 Invited Talk: "Results of the 5th edition of BioASQ Challenge"   -- Georgios Paliouras
+68   # Results of the fifth edition of the BioASQ Challenge
++ 10:30--11:00 Coffee Break
+= 11:00--12:30 Session 2:  BioASQ 2017 and more
+23 11:00--11:15  # Tackling Biomedical Text Summarization: OAQA at BioASQ 5B
+44 11:15--11:30  # Macquarie University at BioASQ 5b -- Query-based Summarisation Techniques for Selecting the Ideal Answers
+2 11:30--11:45  # Neural Question Answering at BioASQ 5B
+46 11:45--12:00  # End-to-End System for Bacteria Habitat Extraction
+3 12:00--12:15  # Creation and evaluation of a dictionary-based tagger for virus species and proteins
+56 12:15--12:30  # Representation of complex terms in a vector space structured by an ontology for a normalization task
++ 12:30--14:00 Lunch break
+= 14:00--15:30 Session 3: From bio to clinical NLP
+52 14:00--14:15  # Improving Correlation with Human Judgments by Integrating Semantic Similarity with Second--Order Vectors
+41 14:15--14:30  # Proactive Learning for Named Entity Recognition
+30 14:30--14:45  # Biomedical Event Extraction using Abstract Meaning Representation
+53 14:45--15:00  # Detecting Personal Medication Intake in Twitter: An Annotated Corpus and Baseline Classification System
+13 15:00--15:15  # Unsupervised Context-Sensitive Spelling Correction of Clinical Free-Text with Word and Character N-Gram Embeddings
+32 15:15--15:30  # Characterization of Divergence in Impaired Speech of ALS Patients
++ 15:30--16:00 Coffee Break
+= 16:00--16:30 Session 4 More clinical NLP
+34 16:00--16:15  # Deep Learning for Punctuation Restoration in Medical Reports
+15 16:15--16:30  # Unsupervised Domain Adaptation for Clinical Negation Detection
+= 16:30--18:00 Poster Session
+67   # BioCreative VI Precision Medicine Track: creating a training corpus for mining protein-protein interactions affected by mutations
+57   # Painless Relation Extraction with Kindred
+60   # Noise Reduction Methods for Distantly Supervised Biomedical Relation Extraction
+27   # Role-Preserving Redaction of Medical Records to Enable Ontology-Driven Processing
+1   # Annotation of pain and anesthesia events for surgery-related processes and outcomes extraction
+51   # Identifying Comparative Structures in Biomedical Text
+12   # Tagging Funding Agencies and Grants in Scientific Articles using Sequential Learning Models
+21   # Deep Learning for Biomedical Information Retrieval: Learning Textual Relevance from Click Logs
+24   # Detecting Dementia through Retrospective Analysis of Routine Blog Posts by Bloggers with Dementia
+33   # Protein Word Detection using Text Segmentation Techniques
+43   # External Evaluation of Event Extraction Classifiers for Automatic Pathway Curation: An extended study of the mTOR pathway
+9   # Toward Automated Early Sepsis Alerting: Identifying Infection Patients from Nursing Notes
+31   # Enhancing Automatic ICD-9-CM Code Assignment for \\Medical Texts with PubMed
+50   # Evaluating Feature Extraction Methods for Knowledge-based Biomedical Word Sense Disambiguation
+37   # Investigating the Documentation of Electronic Cigarette Use in the Veteran Affairs Electronic Health Record: A Pilot Study
+28   # Automated Preamble Detection in Dictated Medical Reports
+5   # A Biomedical Question Answering System in BioASQ 2017
+14   # Adapting Pre-trained Word Embeddings For Use In Medical Coding
+29   # Initializing neural networks for hierarchical multi-label text classification
+17   # Biomedical Event Trigger Identification Using Bidirectional Recurrent Neural Network Based Models
+8   # Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks
+39   # Automatic Diagnosis Coding of Radiology Reports: A Comparison of Deep Learning and Conventional Classification Methods
+49   # Automatic classification of doctor-patient questions for a virtual patient record query task
+42   # Assessing the performance of Olelo, a real-time biomedical question answering application
+59   # Clinical Event Detection with Hybrid Neural Architecture
+22   # Extracting Personal Medical Events for User Timeline Construction using Minimal Supervision
+55   # Detecting mentions of pain and acute confusion in Finnish clinical text
+47   # A Multi-strategy Query Processing Approach for Biomedical Question Answering: USTB\_PRIR at BioASQ 2017 Task 5B

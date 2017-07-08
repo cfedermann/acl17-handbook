@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#53
+FinalPaperTitle#=%=#Detecting Personal Medication Intake in Twitter: An Annotated Corpus and Baseline Classification System
+ShortPaperTitle#=%=#Detecting Personal Medication Intake in Twitter: An Annotated Corpus and Baseline Classification System
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Social media sites (e.g., Twitter) have been used for surveillance of drug
+safety at the population level, but studies that focus on the effects of
+medications on specific sets of individuals have had to rely on other sources
+of data. Mining social media data for this in-formation would require the
+ability to distinguish indications of personal medication in-take in this
+media. Towards that end, this paper presents an annotated corpus that can be
+used to train machine learning systems to determine whether a tweet that
+mentions a medication indicates that the individual posting has taken that
+medication at a specific time. To demonstrate the utility of the corpus as a
+training set, we present baseline results of supervised classification.
+Author{1}{Firstname}#=%=#Ari
+Author{1}{Lastname}#=%=#Klein
+Author{1}{Email}#=%=#ariklein@mail.med.upenn.edu
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Abeed
+Author{2}{Lastname}#=%=#Sarker
+Author{2}{Email}#=%=#abeed@upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Masoud
+Author{3}{Lastname}#=%=#Rouhizadeh
+Author{3}{Email}#=%=#mrouhizadeh@gmail.com
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Karen
+Author{4}{Lastname}#=%=#O'Connor
+Author{4}{Email}#=%=#karoc@upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+Author{5}{Firstname}#=%=#Graciela
+Author{5}{Lastname}#=%=#Gonzalez
+Author{5}{Email}#=%=#gragon@upenn.edu
+Author{5}{Affiliation}#=%=#University of Pennsylvania
+
+==========

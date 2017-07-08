@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Unsupervised Domain Adaptation for Clinical Negation Detection
+ShortPaperTitle#=%=#Unsupervised Domain Adaptation for Clinical Negation Detection
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tim Miller
+JobTitle#==#
+Organization#==#Enders 144
+300 Longwood Ave.
+BCH 3092
+Boston, MA 02115
+Abstract#==#Detecting negated concepts in clinical texts is an important part of NLP
+information extraction systems. However, generalizability of negation systems
+is lacking, as cross-domain experiments suffer dramatic performance losses. We
+examine the performance of multiple unsupervised domain adaptation algorithms
+on clinical negation detection, finding only modest gains that fall well short
+of in-domain performance.
+Author{1}{Firstname}#=%=#Timothy
+Author{1}{Lastname}#=%=#Miller
+Author{1}{Email}#=%=#timothy.miller@childrens.harvard.edu
+Author{1}{Affiliation}#=%=#Boston Children's Hospital and Harvard Medical School
+Author{2}{Firstname}#=%=#Steven
+Author{2}{Lastname}#=%=#Bethard
+Author{2}{Email}#=%=#bethard@email.arizona.edu
+Author{2}{Affiliation}#=%=#University of Arizona
+Author{3}{Firstname}#=%=#Hadi
+Author{3}{Lastname}#=%=#Amiri
+Author{3}{Email}#=%=#amirieb@gmail.com
+Author{3}{Affiliation}#=%=#Harvard University
+Author{4}{Firstname}#=%=#Guergana
+Author{4}{Lastname}#=%=#Savova
+Author{4}{Email}#=%=#guergana.savova@childrens.harvard.edu
+Author{4}{Affiliation}#=%=#Harvard
+
+==========

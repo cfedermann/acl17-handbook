@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Proactive Learning for Named Entity Recognition
+ShortPaperTitle#=%=#Proactive Learning for Named Entity Recognition
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Maolin Li
+JobTitle#==#
+Organization#==#National Centre for Text Mining, Manchester Institute of Biotechnology, 131 Princess Street, Manchester, M1 7DN, UK
+Abstract#==#The goal of active learning is to minimise the cost of producing an annotated
+dataset, in which annotators are assumed to be perfect, i.e., they always
+choose the correct labels. However, in practice, annotators are not infallible,
+and they are likely to assign incorrect labels to some instances. Proactive
+learning is a generalisation of active learning that can model different kinds
+of annotators. Although proactive learning has been applied to certain
+labelling tasks, such as text classification, there is little work on its
+application to named entity (NE) tagging. In this paper, we propose a proactive
+learning method for producing NE annotated corpora, using two annotators with
+different levels of expertise, and who charge different amounts based on their
+levels of experience. To optimise both cost and annotation quality, we also
+propose a mechanism to present multiple sentences to annotators at each
+iteration. Experimental results for several corpora show that our method
+facilitates the construction of high-quality NE labelled datasets at minimal
+cost.
+Author{1}{Firstname}#=%=#Maolin
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#maolin.li@postgrad.manchester.ac.uk
+Author{1}{Affiliation}#=%=#University of Manchester
+Author{2}{Firstname}#=%=#Nhung
+Author{2}{Lastname}#=%=#Nguyen
+Author{2}{Email}#=%=#nhung.nguyen@manchester.ac.uk
+Author{2}{Affiliation}#=%=#The University of Manchester
+Author{3}{Firstname}#=%=#Sophia
+Author{3}{Lastname}#=%=#Ananiadou
+Author{3}{Email}#=%=#sophia.ananiadou@manchester.ac.uk
+Author{3}{Affiliation}#=%=#University of Manchester
+
+==========

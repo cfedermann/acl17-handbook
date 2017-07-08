@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#Macquarie University at BioASQ 5b -- Query-based Summarisation Techniques for Selecting the Ideal Answers
+ShortPaperTitle#=%=#Query-based Summarisation Techniques for Selecting the Ideal Answers
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Diego Molla
+JobTitle#==#
+Organization#==#Macquarie University
+Abstract#==#Macquarie University's contribution to the BioASQ challenge (Task 5b Phase B)
+focused on the use of query-based extractive summarisation techniques for the
+generation of the ideal answers. Four runs were submitted, with approaches
+ranging from a trivial system that selected the first $n$ snippets, to the use
+of deep learning approaches under a regression framework. Our experiments and
+the ROUGE results of the five test batches of BioASQ indicate surprisingly good
+results for the trivial approach. Overall, most of our runs on the first three
+test batches achieved the best ROUGE-SU4 results in the challenge.
+Author{1}{Firstname}#=%=#Diego
+Author{1}{Lastname}#=%=#Molla
+Author{1}{Email}#=%=#diego.molla-aliod@mq.edu.au
+Author{1}{Affiliation}#=%=#Macquarie University
+
+==========

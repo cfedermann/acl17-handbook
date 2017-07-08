@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Tackling Biomedical Text Summarization: OAQA at BioASQ 5B
+ShortPaperTitle#=%=#Tackling Biomedical Text Summarization: OAQA at BioASQ 5B
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Aakanksha Naik
+JobTitle#==#
+Organization#==#Language Technologies Institute, Gates Hillman Center, Carnegie Mellon University, Pittsburgh, PA-15213
+Abstract#==#In this paper, we describe our participation in phase B of task 5b of the fifth
+edition of the annual BioASQ challenge, which includes answering factoid, list,
+yes-no and summary questions from biomedical data. We describe our techniques
+with an emphasis on ideal answer generation, where the goal is to produce a
+relevant, precise, non-redundant, query-oriented summary from multiple relevant
+documents. We make use of extractive summarization techniques to address this
+task and experiment with different biomedical ontologies and various algorithms
+including agglomerative clustering, Maximum Marginal Relevance (MMR) and
+sentence compression. We propose a novel word embedding based tf-idf similarity
+metric and a soft positional constraint which improve our system performance.
+We evaluate our techniques on test batch 4 from the fourth edition of the
+challenge. Our best system achieves a ROUGE-2 score of 0.6534 and ROUGE-SU4
+score of 0.6536.
+Author{1}{Firstname}#=%=#Khyathi
+Author{1}{Lastname}#=%=#Chandu
+Author{1}{Email}#=%=#khythiraghavi@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Aakanksha
+Author{2}{Lastname}#=%=#Naik
+Author{2}{Email}#=%=#aakankshanaik19@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Aditya
+Author{3}{Lastname}#=%=#Chandrasekar
+Author{3}{Email}#=%=#snadityac@gmail.com
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Zi
+Author{4}{Lastname}#=%=#Yang
+Author{4}{Email}#=%=#ziy@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Niloy
+Author{5}{Lastname}#=%=#Gupta
+Author{5}{Email}#=%=#niloygupta@gmail.com
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+Author{6}{Firstname}#=%=#Eric
+Author{6}{Lastname}#=%=#Nyberg
+Author{6}{Email}#=%=#ehn@cs.cmu.edu
+Author{6}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#56
+FinalPaperTitle#=%=#Representation of complex terms in a vector space structured by an ontology for a normalization task
+ShortPaperTitle#=%=#Representation of complex terms in a vector space structured by an ontology for a normalization task
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Arnaud Ferré
+JobTitle#==#
+Organization#==#INRA Jouy-en-Josas
+Allée de Vilvert, 78352 Jouy-en-Josas, FRANCE
+Abstract#==#We propose in this paper a semi-supervised method for labeling terms of texts
+with concepts of a domain ontology. The method generates continuous vector
+representations of complex terms in a semantic space structured by the
+ontology. The proposed method relies on a distributional semantics approach,
+which generates initial vectors for each of the extracted terms. Then these
+vectors are embedded in the vector space constructed from the structure of the
+ontology. This embedding is carried out by training a linear model. Finally, we
+apply a distance calculation to determine the proximity between vectors of
+terms and vectors of concepts and thus to assign ontology labels to terms. We
+have evaluated the quality of these representations for a normalization task by
+using the concepts of an ontology as semantic labels. Normalization of terms is
+an important step to extract a part of the information containing in texts, but
+the vector space generated might find other applications. The performance of
+this method is comparable to that of the state of the art for this task of
+standardization, opening up encouraging prospects.
+Author{1}{Firstname}#=%=#Arnaud
+Author{1}{Lastname}#=%=#Ferré
+Author{1}{Email}#=%=#arnaud.ferre.pro@gmail.com
+Author{1}{Affiliation}#=%=#Université Paris-Saclay
+Author{2}{Firstname}#=%=#Pierre
+Author{2}{Lastname}#=%=#Zweigenbaum
+Author{2}{Email}#=%=#pz@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI-CNRS
+Author{3}{Firstname}#=%=#Claire
+Author{3}{Lastname}#=%=#Nédellec
+Author{3}{Email}#=%=#claire.nedellec@jouy.inra.fr
+Author{3}{Affiliation}#=%=#INRA
+
+==========

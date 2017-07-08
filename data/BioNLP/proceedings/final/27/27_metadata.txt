@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Role-Preserving Redaction of Medical Records to Enable Ontology-Driven Processing
+ShortPaperTitle#=%=#Role-Preserving Redaction of Medical Records to Enable Ontology-Driven Processing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Seth Polsley
+JobTitle#==#
+Organization#==#Texas A&M University
+400 Bizzell St
+College Station, TX 77843
+Abstract#==#Electronic medical records (EMR) have largely replaced hand-written patient
+files in healthcare. The growing pool of EMR data presents a significant
+resource in medical research, but the U.S. Health Insurance Portability and
+Accountability Act (HIPAA) mandates redacting medical records before performing
+any analysis on the same. This process complicates obtaining medical data and
+can remove much useful information from the record. As part of a larger project
+involving ontology-driven medical processing, we employ a method of recognizing
+protected health information (PHI) that maps to ontological terms. We then use
+the relationships defined in the ontology to redact medical texts so that roles
+and semantics of terms are retained without compromising anonymity. The method
+is evaluated by clinical experts on several hundred medical documents,
+achieving up to a 98.8% f-score, and has already shown promise for retaining
+semantic information in later processing.
+Author{1}{Firstname}#=%=#Seth
+Author{1}{Lastname}#=%=#Polsley
+Author{1}{Email}#=%=#spolsley@tamu.edu
+Author{1}{Affiliation}#=%=#Texas A&M University
+Author{2}{Firstname}#=%=#Atif
+Author{2}{Lastname}#=%=#Tahir
+Author{2}{Email}#=%=#atif.tahir@tamu.edu
+Author{2}{Affiliation}#=%=#Texas A&M University
+Author{3}{Firstname}#=%=#Muppala
+Author{3}{Lastname}#=%=#Raju
+Author{3}{Email}#=%=#mnpr84@tamu.edu
+Author{3}{Affiliation}#=%=#Texas A&M University
+Author{4}{Firstname}#=%=#Akintayo
+Author{4}{Lastname}#=%=#Akinleye
+Author{4}{Email}#=%=#akinleyeakintayo@tamu.edu
+Author{4}{Affiliation}#=%=#Texas A&M University
+Author{5}{Firstname}#=%=#Duane
+Author{5}{Lastname}#=%=#Steward
+Author{5}{Email}#=%=#dsteward@tamu.edu
+Author{5}{Affiliation}#=%=#Texas A&M University
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#Assessing the performance of Olelo, a real-time biomedical question answering application
+ShortPaperTitle#=%=#Assessing the performance of Olelo, a real-time biomedical question answering application
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Mariana Lara Neves
+JobTitle#==#
+Organization#==#Hasso-Plattner-Institute at the University of Potsdam
+August-Bebel-Str. 88 Potsdam, Brandenburg, 14482 Germany
+Abstract#==#Question answering (QA) can support physicians and biomedical researchers to
+find answers to their questions in the scientific literature. Such systems
+process large collections of documents in real time and include many natural
+language processing (NLP) procedures. We recently developed Olelo, a QA system
+for biomedicine which includes various NLP components,
+such as question processing, document and passage retrieval, answer processing
+and multi-document summarization. In this work, we present an evaluation of our
+system on the the fifth BioASQ challenge. We participated with the current
+state of the application and with an extension based on semantic role labeling
+that we are currently investigating. In addition
+to the BioASQ evaluation, we compared our system to other on-line biomedical QA
+systems in terms of the response time and the quality of the answers.
+Author{1}{Firstname}#=%=#Mariana
+Author{1}{Lastname}#=%=#Neves
+Author{1}{Email}#=%=#marianalaraneves@gmail.com
+Author{1}{Affiliation}#=%=#Hasso Plattner Institute
+Author{2}{Firstname}#=%=#Fabian
+Author{2}{Lastname}#=%=#Eckert
+Author{2}{Email}#=%=#Fabian.Eckert@student.hpi.uni-potsdam.de
+Author{2}{Affiliation}#=%=#Hasso Plattner Institute
+Author{3}{Firstname}#=%=#Hendrik
+Author{3}{Lastname}#=%=#Folkerts
+Author{3}{Email}#=%=#Hendrik.Folkerts@student.hpi.uni-potsdam.de
+Author{3}{Affiliation}#=%=#Hasso Plattner Institute
+Author{4}{Firstname}#=%=#Matthias
+Author{4}{Lastname}#=%=#Uflacker
+Author{4}{Email}#=%=#Matthias.Uflacker@hpi.de
+Author{4}{Affiliation}#=%=#Hasso Plattner Institute
+
+==========

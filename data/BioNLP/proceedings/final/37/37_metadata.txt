@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Investigating the Documentation of Electronic Cigarette Use in the Veteran Affairs Electronic Health Record: A Pilot Study
+ShortPaperTitle#=%=#Investigating the Documentation of Electronic Cigarette Use in the Veteran Affairs Electronic Health Record: A Pilot Study
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#MC
+JobTitle#==#
+Organization#==#Department of Biomedical Informatics
+University of Utah
+Salt Lake City, UT 84108
+Abstract#==#In this paper, we present pilot work on characterising the
+documentation of electronic cigarettes (e-cigarettes) in the United
+States Veterans Administration Electronic Health Record.  The Veterans
+Health Administration is the largest health care system in the United States
+with 1,233 health care facilities nationwide, serving 8.9 million
+veterans per year.   We identified a random sample of 2000 Veterans
+Administration patients, coded as current tobacco users, from 2008 to
+2014.                       Using simple keyword matching techniques combined with
+qualitative analysis, we investigated the prevalence and distribution of
+e-cigarette terms in these clinical notes, discovering that for
+current smokers, 11.9\% of  patient records contain an e-cigarette related
+term.
+Author{1}{Firstname}#=%=#Danielle
+Author{1}{Lastname}#=%=#Mowery
+Author{1}{Email}#=%=#danielle.mowery@utah.edu
+Author{1}{Affiliation}#=%=#University of Utah
+Author{2}{Firstname}#=%=#Brett
+Author{2}{Lastname}#=%=#South
+Author{2}{Email}#=%=#brett.south@hsc.utah.edu
+Author{2}{Affiliation}#=%=#University of Utah
+Author{3}{Firstname}#=%=#Olga
+Author{3}{Lastname}#=%=#Patterson
+Author{3}{Email}#=%=#olga.patterson@utah.edu
+Author{3}{Affiliation}#=%=#University of Utah
+Author{4}{Firstname}#=%=#Shu-Hong
+Author{4}{Lastname}#=%=#Zhu
+Author{4}{Email}#=%=#szhu@ucsd.edu
+Author{4}{Affiliation}#=%=#University of California San Diego
+Author{5}{Firstname}#=%=#Mike
+Author{5}{Lastname}#=%=#Conway
+Author{5}{Email}#=%=#michaelambroseconway@gmail.com
+Author{5}{Affiliation}#=%=#University of Utah
+
+==========

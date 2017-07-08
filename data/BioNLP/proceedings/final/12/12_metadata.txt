@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Tagging Funding Agencies and Grants in Scientific Articles using Sequential Learning Models
+ShortPaperTitle#=%=#Tagging Funding Agencies and Grants in Scientific Articles using Sequential Learning Models
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#S Kayal
+JobTitle#==#
+Organization#==#Elsevier B.V.,
+Amsterdam, NL
+Abstract#==#In this paper we present a solution for tagging funding bodies and grants in
+scientific articles using a combination of trained sequential learning models,
+namely conditional random fields (CRF), hidden markov models (HMM) and maximum
+entropy models (MaxEnt), on a benchmark set created in-house. We apply the
+trained models to address the BioASQ challenge 5c, which is a newly introduced
+task that aims to solve the problem of funding information extraction from
+scientific articles. Results in the dry-run data set of BioASQ task 5c show
+that the suggested approach can achieve a micro-recall of more than 85% in
+tagging both funding bodies and grants.
+Author{1}{Firstname}#=%=#Subhradeep
+Author{1}{Lastname}#=%=#Kayal
+Author{1}{Email}#=%=#d.kayal@elsevier.com
+Author{1}{Affiliation}#=%=#Elsevier B.V.
+Author{2}{Firstname}#=%=#Zubair
+Author{2}{Lastname}#=%=#Afzal
+Author{2}{Email}#=%=#m.afzal.1@elsevier.com
+Author{2}{Affiliation}#=%=#Elsevier B.V.
+Author{3}{Firstname}#=%=#George
+Author{3}{Lastname}#=%=#Tsatsaronis
+Author{3}{Email}#=%=#g.tsatsaronis@elsevier.com
+Author{3}{Affiliation}#=%=#Elsevier B.V.
+Author{4}{Firstname}#=%=#Sophia
+Author{4}{Lastname}#=%=#Katrenko
+Author{4}{Email}#=%=#s.katrenko@elsevier.com
+Author{4}{Affiliation}#=%=#Elsevier B.V.
+Author{5}{Firstname}#=%=#Pascal
+Author{5}{Lastname}#=%=#Coupet
+Author{5}{Email}#=%=#p.coupet@elsevier.com
+Author{5}{Affiliation}#=%=#Elsevier B.V.
+Author{6}{Firstname}#=%=#Marius
+Author{6}{Lastname}#=%=#Doornenbal
+Author{6}{Email}#=%=#m.doornenbal@elsevier.com
+Author{6}{Affiliation}#=%=#Elsevier B.V.
+Author{7}{Firstname}#=%=#Michelle
+Author{7}{Lastname}#=%=#Gregory
+Author{7}{Email}#=%=#m.gregory@elsevier.com
+Author{7}{Affiliation}#=%=#Elsevier B.V.
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#Automatic Diagnosis Coding of Radiology Reports: A Comparison of Deep Learning and Conventional Classification Methods
+ShortPaperTitle#=%=#Automatic Diagnosis Coding of Radiology Reports: A Comparison of Deep Learning and Conventional Classification Methods
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sarvnaz Karimi
+JobTitle#==#
+Organization#==#CSIRO, Australia
+Abstract#==#Diagnosis autocoding services and research intend to both improve the
+productivity of clinical coders and the accuracy of the coding. It is an
+important step in data analysis for funding and reimbursement, as well as
+health services planning and resource allocation. We investigate the
+applicability of deep learning at autocoding of radiology reports using
+International Classification of Diseases (ICD). Deep learning methods are known
+to require large training data. Our goal is to explore how to use these methods
+when the training data is sparse, skewed and relatively small, and how their
+effectiveness compares to conventional methods. We identify optimal parameters
+that could be used in setting up a convolutional neural network for autocoding
+with comparable results to that of conventional methods.
+Author{1}{Firstname}#=%=#Sarvnaz
+Author{1}{Lastname}#=%=#Karimi
+Author{1}{Email}#=%=#sarvnaz.karimi@csiro.au
+Author{1}{Affiliation}#=%=#CSIRO
+Author{2}{Firstname}#=%=#Xiang
+Author{2}{Lastname}#=%=#Dai
+Author{2}{Email}#=%=#dai.dai@data61.csiro.au
+Author{2}{Affiliation}#=%=#CSIRO
+Author{3}{Firstname}#=%=#Hamedh
+Author{3}{Lastname}#=%=#Hassanzadeh
+Author{3}{Email}#=%=#hamed.hassanzadeh@csiro.au
+Author{3}{Affiliation}#=%=#CSIRO
+Author{4}{Firstname}#=%=#Anthony
+Author{4}{Lastname}#=%=#Nguyen
+Author{4}{Email}#=%=#anothony.nguyen@csiro.au
+Author{4}{Affiliation}#=%=#CSIRO
+
+==========

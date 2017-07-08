@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Insights into Analogy Completion from the Biomedical Domain
+ShortPaperTitle#=%=#Insights into Analogy Completion from the Biomedical Domain
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#National Institutes of Health, Bethesda, MD and The Ohio State University, Columbus, OH, USA
+Abstract#==#Analogy completion has been a popular task in recent years for evaluating the
+semantic properties of word embeddings, but the standard methodology makes a
+number of assumptions about analogies that do not always hold, either in recent
+benchmark datasets or when expanding into other domains.  Through an analysis
+of analogies in the biomedical domain, we identify three assumptions: that of a
+Single Answer for any given analogy, that the pairs involved describe the Same
+Relationship, and that each pair is Informative with respect to the other. We
+propose modifying the standard methodology to relax these assumptions by
+allowing for multiple correct answers, reporting MAP and MRR in addition to
+accuracy, and using multiple example pairs.  We further present BMASS, a novel
+dataset for evaluating linguistic regularities in biomedical embeddings, and
+demonstrate that the relationships described in the dataset pose significant
+semantic challenges to current word embedding methods.
+Author{1}{Firstname}#=%=#Denis
+Author{1}{Lastname}#=%=#Newman-Griffis
+Author{1}{Email}#=%=#newman-griffis.1@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Albert
+Author{2}{Lastname}#=%=#Lai
+Author{2}{Email}#=%=#amlai@wustl.edu
+Author{2}{Affiliation}#=%=#Washington University in St. Louis
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Fosler-Lussier
+Author{3}{Email}#=%=#fosler@cse.ohio-state.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+
+==========

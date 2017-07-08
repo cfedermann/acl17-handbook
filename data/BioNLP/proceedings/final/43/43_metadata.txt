@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#External Evaluation of Event Extraction Classifiers for Automatic Pathway Curation: An extended study of the mTOR pathway
+ShortPaperTitle#=%=#External Evaluation of Event Extraction Classifiers for Automatic Pathway Curation: An extended study of the mTOR pathway
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Wojciech Kusa
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper evaluates the impact of various event extraction systems on
+automatic pathway curation using the popular mTOR pathway. We quantify the
+impact of training data sets as well as different machine learning classifiers
+and show that some improve the quality of automatically extracted pathways.
+Author{1}{Firstname}#=%=#Wojciech
+Author{1}{Lastname}#=%=#Kusa
+Author{1}{Email}#=%=#wojciech.kusa@gmail.com
+Author{1}{Affiliation}#=%=#AGH University of Science and Technology
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Spranger
+Author{2}{Email}#=%=#michael.spranger@gmail.com
+Author{2}{Affiliation}#=%=#Sony Computer Science Laboratories Inc.
+
+==========

@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#End-to-End System for Bacteria Habitat Extraction
+ShortPaperTitle#=%=#End-to-End System for Bacteria Habitat Extraction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Farrokh Mehryary
+JobTitle#==#PhD researcher
+Organization#==#Department of Future Technologies​, FI-20014 Turun yliopisto, Finland.
+Abstract#==#We introduce an end-to-end system capable of named-entity detection,
+normalization and relation extraction for extracting information about bacteria
+and their habitats from biomedical literature. Our system is based on deep
+learning, CRF classifiers and vector space models. We train and evaluate the
+system on the BioNLP 2016 Shared Task Bacteria Biotope data. The official
+evaluation shows that the joint performance of our entity detection and
+relation extraction models outperforms the winning team of the Shared Task by
+19pp on F1-score, establishing a new top score for the task. We also achieve
+state-of-the-art results in the normalization task. Our system is open source
+and freely available at https://github.com/TurkuNLP/BHE.
+Author{1}{Firstname}#=%=#Farrokh
+Author{1}{Lastname}#=%=#Mehryary
+Author{1}{Email}#=%=#farmeh@utu.fi
+Author{1}{Affiliation}#=%=#University of Turku
+Author{2}{Firstname}#=%=#Kai
+Author{2}{Lastname}#=%=#Hakala
+Author{2}{Email}#=%=#kahaka@utu.fi
+Author{2}{Affiliation}#=%=#Department of Information Technology, University of Turku
+Author{3}{Firstname}#=%=#Suwisa
+Author{3}{Lastname}#=%=#Kaewphan
+Author{3}{Email}#=%=#sukaew@utu.fi
+Author{3}{Affiliation}#=%=#University of Turku
+Author{4}{Firstname}#=%=#Jari
+Author{4}{Lastname}#=%=#Björne
+Author{4}{Email}#=%=#jari.bjorne@utu.fi
+Author{4}{Affiliation}#=%=#University of Turku
+Author{5}{Firstname}#=%=#Tapio
+Author{5}{Lastname}#=%=#Salakoski
+Author{5}{Email}#=%=#tapio.salakoski@utu.fi
+Author{5}{Affiliation}#=%=#University of Turku
+Author{6}{Firstname}#=%=#Filip
+Author{6}{Lastname}#=%=#Ginter
+Author{6}{Email}#=%=#ginter@cs.utu.fi
+Author{6}{Affiliation}#=%=#University of Turku
+
+==========

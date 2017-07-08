@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#Evaluating Feature Extraction Methods for Knowledge-based Biomedical Word Sense Disambiguation
+ShortPaperTitle#=%=#Evaluating Feature Extraction Methods for Knowledge-based Biomedical Word Sense Disambiguation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Sam Henry
+JobTitle#==#
+Organization#==#Virginia Commonwealth University 
+Department of Computer Science 
+Richmond, Virginia 23284
+Abstract#==#In this paper, we present an analysis of feature extraction methods via
+dimensionality reduction for the task of biomedical Word Sense Disambiguation
+(WSD). We modify the vector representations in the 2-MRD WSD algorithm, and
+evaluate four dimensionality reduction methods: Word Embeddings using
+Continuous Bag of Words and Skip Gram, Singular Value Decomposition (SVD), and
+Principal Component Analysis (PCA). We also evaluate the effects of vector size
+on the performance of each of these methods. Results are evaluated on five
+standard evaluation datasets (Abbrev.100, Abbrev.200, Abbrev.300, NLM-WSD, and
+MSH-WSD). We find that vector sizes of 100 are sufficient for all techniques
+except SVD, for which a vector size of 1500 is referred. We also show that SVD
+performs on par with Word Embeddings for all but one dataset.
+Author{1}{Firstname}#=%=#Sam
+Author{1}{Lastname}#=%=#Henry
+Author{1}{Email}#=%=#henryst@vcu.edu
+Author{1}{Affiliation}#=%=#VCU
+Author{2}{Firstname}#=%=#Clint
+Author{2}{Lastname}#=%=#Cuffy
+Author{2}{Email}#=%=#cuffyca@vcu.edu
+Author{2}{Affiliation}#=%=#Virginia Commonwealth University
+Author{3}{Firstname}#=%=#Bridget
+Author{3}{Lastname}#=%=#McInnes
+Author{3}{Email}#=%=#btmcinnes@vcu.edu
+Author{3}{Affiliation}#=%=#Virginia Commonwealth University
+
+==========

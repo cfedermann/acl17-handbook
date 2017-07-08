@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#68
+FinalPaperTitle#=%=#Results of the fifth edition of the BioASQ Challenge
+ShortPaperTitle#=%=#Results of the fifth edition of the BioASQ Challenge
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Anastasios Nentidis
+JobTitle#==#
+Organization#==#National Center for Scientific Research “Demokritos”, Patr. Gregoriou E' & 27, Neapoleos str., Athens, Greece
+Abstract#==#The goal of the BioASQ challenge is to engage researchers into creating
+cuttingedge biomedical information systems. Specifically, it aims at the
+promotion of systems and methodologies that are able to deal with a plethora of
+different tasks in the biomedical domain. This is achieved through the
+organization of challenges. The fifth challenge consisted of three tasks:
+semantic indexing, question answering and a new task on information extraction.
+In total, 29 teams with more than 95 systems participated in the challenge.
+Overall, as in previous years, the best systems were able to outperform the
+strong baselines. This suggests that stateof- the art systems are continuously
+improving, pushing the frontier of research.
+Author{1}{Firstname}#=%=#Anastasios
+Author{1}{Lastname}#=%=#Nentidis
+Author{1}{Email}#=%=#tasosnent@iit.demokritos.gr
+Author{1}{Affiliation}#=%=#NCSR Demokritos
+Author{2}{Firstname}#=%=#Konstantinos
+Author{2}{Lastname}#=%=#Bougiatiotis
+Author{2}{Email}#=%=#bogas.ko@iit.demokritos.gr
+Author{2}{Affiliation}#=%=#National Center for Scientific Research “Demokritos”
+Author{3}{Firstname}#=%=#Anastasia
+Author{3}{Lastname}#=%=#Krithara
+Author{3}{Email}#=%=#akrithara@iit.demokritos.gr
+Author{3}{Affiliation}#=%=#National Center for Scientific Research “Demokritos”
+Author{4}{Firstname}#=%=#Georgios
+Author{4}{Lastname}#=%=#Paliouras
+Author{4}{Email}#=%=#paliourg@iit.demokritos.gr
+Author{4}{Affiliation}#=%=#National Center for Scientific Research “Demokritos”
+Author{5}{Firstname}#=%=#Ioannis
+Author{5}{Lastname}#=%=#Kakadiaris
+Author{5}{Email}#=%=#IKakadia@central.uh.edu
+Author{5}{Affiliation}#=%=#University of Houston
+
+==========

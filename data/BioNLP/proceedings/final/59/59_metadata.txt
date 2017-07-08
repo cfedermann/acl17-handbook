@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#59
+FinalPaperTitle#=%=#Clinical Event Detection with Hybrid Neural Architecture
+ShortPaperTitle#=%=#Clinical Event Detection with Hybrid Neural Architecture
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Adyasha Maharana
+JobTitle#==#
+Organization#==#Biomedical and Health Informatics University of Washington, Seattle
+Abstract#==#Event detection from clinical notes has been traditionally solved with rule
+based and statistical natural language processing (NLP) approaches that
+require extensive domain knowledge and feature engineering. In this paper, we
+have explored the feasibility of approaching this task with recurrent neural
+networks, clinical word embeddings and introduced a hybrid architecture to
+improve detection for entities with smaller representation in the dataset. A
+comparative analysis is also done which reveals the complementary behavior of
+neural networks and conditional random fields in clinical entity detection.
+Author{1}{Firstname}#=%=#Adyasha
+Author{1}{Lastname}#=%=#Maharana
+Author{1}{Email}#=%=#adyasha@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Meliha
+Author{2}{Lastname}#=%=#Yetisgen
+Author{2}{Email}#=%=#melihay@uw.edu
+Author{2}{Affiliation}#=%=#University of Washington
+
+==========

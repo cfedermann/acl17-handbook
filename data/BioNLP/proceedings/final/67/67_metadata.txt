@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#67
+FinalPaperTitle#=%=#BioCreative VI Precision Medicine Track: creating a training corpus for mining protein-protein interactions affected by mutations
+ShortPaperTitle#=%=#BioCreative VI Precision Medicine Track: creating a training corpus for mining protein-protein interactions affected by mutations
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#The Precision Medicine Track in BioCre-ative VI aims to bring together the
+Bi-oNLP community for a novel challenge focused on mining the biomedical
+litera-ture in search of mutations and protein-protein interactions (PPI). In
+order to support this track with an effective train-ing dataset with limited
+curator time, the track organizers carefully reviewed Pub-Med articles from two
+different sources: curated public PPI databases, and the re-sults of
+state-of-the-art public text mining tools. We detail here the data collection,
+manual review and annotation process and describe this training corpus
+charac-teristics. We also describe a corpus per-formance baseline. This
+analysis will provide useful information to developers and researchers for
+comparing and devel-oping innovative text mining approaches for the BioCreative
+VI challenge and other Precision Medicine related applica-tions.
+Author{1}{Firstname}#=%=#Rezarta
+Author{1}{Lastname}#=%=#Islamaj Dogan
+Author{1}{Email}#=%=#rezarta.islamaj@nih.gov
+Author{1}{Affiliation}#=%=#National Center for Biotechnology Information, National Library of Medicine
+Author{2}{Firstname}#=%=#Andrew
+Author{2}{Lastname}#=%=#Chatr-aryamontri
+Author{2}{Email}#=%=#aryamontri@gmail.com
+Author{2}{Affiliation}#=%=#Institute for Research in Immunology and Cancer, Université de Montréal, Montréal, QC H3C 3J7, Canada
+Author{3}{Firstname}#=%=#Sun
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#Sun.Kim@nih.gov
+Author{3}{Affiliation}#=%=#National Center for Biotechnology Information, National Library of Medicine
+Author{4}{Firstname}#=%=#Chih-Hsuan
+Author{4}{Lastname}#=%=#Wei
+Author{4}{Email}#=%=#chih-hsuan.wei@nih.gov
+Author{4}{Affiliation}#=%=#National Center for Biotechnology Information, National Library of Medicine
+Author{5}{Firstname}#=%=#Yifan
+Author{5}{Lastname}#=%=#Peng
+Author{5}{Email}#=%=#yifan.peng@nih.gov
+Author{5}{Affiliation}#=%=#National Center for Biotechnology Information, National Library of Medicine
+Author{6}{Firstname}#=%=#Donald
+Author{6}{Lastname}#=%=#Comeau
+Author{6}{Email}#=%=#comeau@ncbi.nlm.nih.gov
+Author{6}{Affiliation}#=%=#National Center for Biotechnology Information, National Library of Medicine
+Author{7}{Firstname}#=%=#Zhiyong
+Author{7}{Lastname}#=%=#Lu
+Author{7}{Email}#=%=#luzh@ncbi.nlm.nih.gov
+Author{7}{Affiliation}#=%=#NCBI, NLM, NIH
+
+==========

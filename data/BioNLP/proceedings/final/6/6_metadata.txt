@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Deep learning for extracting protein-protein interactions from biomedical literature
+ShortPaperTitle#=%=#Deep learning for extracting protein-protein interactions from biomedical literature
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yifan Peng
+JobTitle#==#
+Organization#==#National Center for Biotechnology Information
+8600 ROCKVILLE PIKE
+BETHESDA MD 20894
+Abstract#==#State-of-the-art methods for protein-protein interaction (PPI) extraction are
+primarily feature-based or kernel-based by leveraging lexical and syntactic
+information. But how to incorporate such knowledge in the recent deep learning
+methods remains an open question. In this paper, we propose a
+multichannel dependency-based convolutional neural network model (McDepCNN). It
+applies one channel to the embedding vector of each word in the sentence, and
+another channel to the embedding vector of the head of the corresponding word.
+Therefore, the model can use richer information obtained from different
+channels. Experiments on two public benchmarking datasets, AIMed and BioInfer,
+demonstrate that McDepCNN provides up to 6% F1-score improvement over rich
+feature-based methods and single-kernel methods. In addition, McDepCNN achieves
+24.4% relative improvement in F1-score over the state-of-the-art methods on
+cross-corpus evaluation and 12% improvement in F1-score over kernel-based
+methods on "difficult" instances. These results suggest that McDepCNN
+generalizes more easily over different corpora, and is capable of capturing
+long distance features in the sentences.
+Author{1}{Firstname}#=%=#Yifan
+Author{1}{Lastname}#=%=#Peng
+Author{1}{Email}#=%=#yifan.peng@nih.gov
+Author{1}{Affiliation}#=%=#National Center for Biotechnology Information
+Author{2}{Firstname}#=%=#Zhiyong
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#luzh@ncbi.nlm.nih.gov
+Author{2}{Affiliation}#=%=#NCBI, NLM, NIH
+
+==========

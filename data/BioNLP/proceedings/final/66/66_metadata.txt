@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#66
+FinalPaperTitle#=%=#Target word prediction and paraphasia classification in spoken discourse
+ShortPaperTitle#=%=#Target word prediction and paraphasia classification in spoken discourse
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Joel Adams
+JobTitle#==#
+Organization#==#Center for Spoken Language Understanding, Oregon Health & Science University, 3181 SW Sam Jackson Park Road, Portland, OR 97239
+Abstract#==#We present a system for automatically detecting and classifying phonologically
+anomalous productions in the speech of individuals with aphasia.
+Working from transcribed discourse samples, our system identifies neologisms,
+and uses a combination of string alignment and language models to produce a
+lattice of plausible words that the speaker may have intended to produce.
+We then score this lattice according to various features, and attempt to
+determine whether the anomalous production represented a phonemic error or a
+genuine neologism.
+This approach has the potential to be expanded to consider other types of
+paraphasic errors, and could be applied to a wide variety of screening and
+therapeutic applications.
+Author{1}{Firstname}#=%=#Joel
+Author{1}{Lastname}#=%=#Adams
+Author{1}{Email}#=%=#adamjo@ohsu.edu
+Author{1}{Affiliation}#=%=#Oregon Health and Science University
+Author{2}{Firstname}#=%=#Steven
+Author{2}{Lastname}#=%=#Bedrick
+Author{2}{Email}#=%=#bedricks@ohsu.edu
+Author{2}{Affiliation}#=%=#Oregon Health and Science University
+Author{3}{Firstname}#=%=#Gerasimos
+Author{3}{Lastname}#=%=#Fergadiotis
+Author{3}{Email}#=%=#gf3@pdx.edu
+Author{3}{Affiliation}#=%=#Speech & Hearing Sciences Department, Portland State University
+Author{4}{Firstname}#=%=#Kyle
+Author{4}{Lastname}#=%=#Gorman
+Author{4}{Email}#=%=#kbg@google.com
+Author{4}{Affiliation}#=%=#Google, Inc.
+Author{5}{Firstname}#=%=#Jan
+Author{5}{Lastname}#=%=#van Santen
+Author{5}{Email}#=%=#vansanten@ohsu.edu
+Author{5}{Affiliation}#=%=#Oregon Health and Science University
+
+==========

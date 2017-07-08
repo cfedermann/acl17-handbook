@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#Identifying Comparative Structures in Biomedical Text
+ShortPaperTitle#=%=#Identifying Comparative Structures in Biomedical Text
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Samir Gupta
+JobTitle#==#
+Organization#==#Samir Gupta
+University of Delaware, Newark, DE, USA
+Abstract#==#Comparison sentences are very commonly used by authors in biomedical literature
+to report results of experiments. In such comparisons, authors typically make
+observations under two different scenarios. In this paper, we present a system
+to automatically identify such comparative sentences and their components i.e.
+the compared entities, the scale of the comparison and the aspect on which the
+entities are being compared. Our methodology is based on dependencies obtained
+by applying a parser to extract a wide range of comparison structures. We
+evaluated our system for its effectiveness in identifying comparisons and their
+components. The system achieved a F-score of 0.87 for comparison sentence
+identification and 0.77-0.81 for identifying its components.
+Author{1}{Firstname}#=%=#Samir
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Email}#=%=#sgupta@udel.edu
+Author{1}{Affiliation}#=%=#Department of Computer and Information Sciences, University of Delaware
+Author{2}{Firstname}#=%=#A.S.M. Ashique
+Author{2}{Lastname}#=%=#Mahmood
+Author{2}{Email}#=%=#ashique@udel.edu
+Author{2}{Affiliation}#=%=#Department of Computer and Information Sciences, University of Delaware
+Author{3}{Firstname}#=%=#Karen
+Author{3}{Lastname}#=%=#Ross
+Author{3}{Email}#=%=#ker25@georgetown.edu
+Author{3}{Affiliation}#=%=#Department of Biochemistry and Molecular Cellular Biology, Georgetown University Medical Center
+Author{4}{Firstname}#=%=#Cathy
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Email}#=%=#wuc@udel.edu
+Author{4}{Affiliation}#=%=#Center for Bioinformatics and Computational Biology, University of Delaware
+Author{5}{Firstname}#=%=#K.
+Author{5}{Lastname}#=%=#Vijay-Shanker
+Author{5}{Email}#=%=#vijay@udel.edu
+Author{5}{Affiliation}#=%=#Department of Computer and Information Sciences, University of Delaware
+
+==========

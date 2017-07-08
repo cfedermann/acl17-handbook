@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#Detecting mentions of pain and acute confusion in Finnish clinical text
+ShortPaperTitle#=%=#Detecting mentions of pain and acute confusion in Finnish clinical text
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Hans Moen
+JobTitle#==#Post-doctoral researcher
+Organization#==#University of Turku, Vesilinnantie 5, 20500 Turku, Finland.
+Abstract#==#We study and compare two different approaches to the task of automatic
+assignment of predefined classes to clinical free-text narratives. In the first
+approach this is treated as a traditional mention-level named-entity
+recognition task, while the second approach treats it as a sentence-level
+multi-label classification task. Performance comparison across these two
+approaches is conducted in the form of sentence-level evaluation and
+state-of-the-art methods for both approaches are evaluated. The experiments are
+done on two data sets consisting of Finnish clinical text, manually annotated
+with respect to the topics pain and acute confusion. Our results suggest that
+the mention-level named-entity recognition approach outperforms sentence-level
+classification overall, but the latter approach still manages to achieve the
+best prediction scores on several annotation classes.
+Author{1}{Firstname}#=%=#Hans
+Author{1}{Lastname}#=%=#Moen
+Author{1}{Email}#=%=#hans.moen@utu.fi
+Author{1}{Affiliation}#=%=#University of Turku
+Author{2}{Firstname}#=%=#Kai
+Author{2}{Lastname}#=%=#Hakala
+Author{2}{Email}#=%=#kahaka@utu.fi
+Author{2}{Affiliation}#=%=#Department of Information Technology, University of Turku
+Author{3}{Firstname}#=%=#Farrokh
+Author{3}{Lastname}#=%=#Mehryary
+Author{3}{Email}#=%=#farmeh@utu.fi
+Author{3}{Affiliation}#=%=#University of Turku
+Author{4}{Firstname}#=%=#Laura-Maria
+Author{4}{Lastname}#=%=#Peltonen
+Author{4}{Email}#=%=#laura-maria.peltonen@utu.fi
+Author{4}{Affiliation}#=%=#University of Turku
+Author{5}{Firstname}#=%=#Tapio
+Author{5}{Lastname}#=%=#Salakoski
+Author{5}{Email}#=%=#tapio.salakoski@utu.fi
+Author{5}{Affiliation}#=%=#University of Turku
+Author{6}{Firstname}#=%=#Filip
+Author{6}{Lastname}#=%=#Ginter
+Author{6}{Email}#=%=#ginter@cs.utu.fi
+Author{6}{Affiliation}#=%=#University of Turku
+Author{7}{Firstname}#=%=#Sanna
+Author{7}{Lastname}#=%=#Salanterä
+Author{7}{Email}#=%=#sansala@utu.fi
+Author{7}{Affiliation}#=%=#University of Turku
+
+==========

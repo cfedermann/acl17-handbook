@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Stacking With Auxiliary Features for Entity Linking in the Medical Domain
+ShortPaperTitle#=%=#SWAF for Entity Linking in the Medical Domain
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Nazneen Rajani
+JobTitle#==#
+Organization#==#University of Texas at Austin, Austin, TX, 78712
+Abstract#==#Linking spans of natural language text to concepts in a structured source is an
+important task for many problems. It allows intelligent systems to leverage
+rich knowledge available in those sources (such as concept properties and
+relations) to enhance the semantics of the mentions of these concepts in text.
+In the medical domain, it is common to link text spans to medical concepts in
+large, curated knowledge repositories such as the Unified Medical Language
+System.
+Different approaches have different strengths: some are precision-oriented,
+some recall-oriented; some better at considering context but more prone to
+hallucination. The variety of techniques suggests that ensembling could
+outperform component technologies at this task.
+In this paper, we describe our process for building a Stacking ensemble using
+additional, auxiliary features for Entity Linking in the medical domain. We
+report experiments that show that naive ensembling does not always outperform
+component Entity Linking systems, that stacking usually outperforms naive
+ensembling, and that auxiliary features added to the stacker further improve
+its performance on three distinct datasets. Our best model produces
+state-of-the-art results on several medical datasets.
+Author{1}{Firstname}#=%=#Nazneen Fatema
+Author{1}{Lastname}#=%=#Rajani
+Author{1}{Email}#=%=#nrajani@cs.utexas.edu
+Author{1}{Affiliation}#=%=#The University of Texas at Austin
+Author{2}{Firstname}#=%=#Mihaela
+Author{2}{Lastname}#=%=#Bornea
+Author{2}{Email}#=%=#mabornea@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research
+Author{3}{Firstname}#=%=#Ken
+Author{3}{Lastname}#=%=#Barker
+Author{3}{Email}#=%=#kjbarker@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Unsupervised Context-Sensitive Spelling Correction of Clinical Free-Text with Word and Character N-Gram Embeddings
+ShortPaperTitle#=%=#Unsupervised Context-Sensitive Spelling Correction of Clinical Free-Text with Word and Character N-Gram Embeddings
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Pieter Fivez
+JobTitle#==#
+Organization#==#Name: CLiPS, University of Antwerp
+Address: Prinsstraat 13, 2000 Antwerp, Belgium
+Abstract#==#We present an unsupervised context-sensitive spelling correction method for
+clinical free-text 
+that uses word and character n-gram embeddings. Our method generates
+misspelling replacement candidates and ranks them 
+according to their semantic fit, by calculating a weighted cosine similarity
+between the vectorized representation of a candidate
+and the misspelling context. We greatly outperform two baseline off-the-shelf
+spelling correction tools on a manually annotated MIMIC-III test set,
+and counter the frequency bias of an optimized noisy channel model,
+showing that neural embeddings can be successfully exploited to include
+context-awareness in a spelling correction model.
+Author{1}{Firstname}#=%=#Pieter
+Author{1}{Lastname}#=%=#Fivez
+Author{1}{Email}#=%=#pieter.fivez@uantwerpen.be
+Author{1}{Affiliation}#=%=#University of Antwerp
+Author{2}{Firstname}#=%=#Simon
+Author{2}{Lastname}#=%=#Suster
+Author{2}{Email}#=%=#simon.suster@uantwerpen.be
+Author{2}{Affiliation}#=%=#University of Antwerp / Antwerp University Hospital
+Author{3}{Firstname}#=%=#Walter
+Author{3}{Lastname}#=%=#Daelemans
+Author{3}{Email}#=%=#walter.daelemans@ua.ac.be
+Author{3}{Affiliation}#=%=#University of Antwerp, CLiPS
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#Automatic classification of doctor-patient questions for a virtual patient record query task
+ShortPaperTitle#=%=#Automatic classification of doctor-patient questions
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Leonardo Campillos Llanos
+JobTitle#==#
+Organization#==#Laboratoire d'informatique pour la mécanique et les sciences de l'ingénieur (LIMSI - CNRS) & SATT Paris Saclay
+Abstract#==#We present the work-in-progress of automating the classification of
+doctor-patient questions in the context of a simulated consultation with a
+virtual patient. We classify questions according to the computational strategy
+(rule-based or other) needed for looking up data in the clinical record. We
+compare ‘traditional’ machine learning methods (Gaussian and Multinomial
+Naive Bayes, and Support Vector Machines) and a neural network classifier
+(FastText). We obtained the best results with the SVM using semantic
+annotations, whereas the neural classifier achieved promising results without
+it.
+Author{1}{Firstname}#=%=#Leonardo
+Author{1}{Lastname}#=%=#Campillos Llanos
+Author{1}{Email}#=%=#leonardo.campillos@limsi.fr
+Author{1}{Affiliation}#=%=#Computer Science Laboratory for Mechanics and Engineering Sciences (LIMSI)
+Author{2}{Firstname}#=%=#Sophie
+Author{2}{Lastname}#=%=#Rosset
+Author{2}{Email}#=%=#rosset@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI, CNRS, Université Paris-Saclay
+Author{3}{Firstname}#=%=#Pierre
+Author{3}{Lastname}#=%=#Zweigenbaum
+Author{3}{Email}#=%=#pz@limsi.fr
+Author{3}{Affiliation}#=%=#LIMSI-CNRS
+
+==========

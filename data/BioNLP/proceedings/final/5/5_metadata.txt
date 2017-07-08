@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#A Biomedical Question Answering System in BioASQ 2017
+ShortPaperTitle#=%=#A Biomedical Question Answering System in BioASQ 2017
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mourad Sarrouti
+JobTitle#==#
+Organization#==#Faculty of Sciences Dhar El Mahraz
+Sidi Mohammed Ben Abdellah University
+Fez, Morocco
+Abstract#==#Question answering, the identification of short accurate answers to users
+questions,
+is a longstanding challenge widely studied over the last decades in the open
+domain. However, it still requires further efforts in the biomedical domain. In
+this paper, we describe our participation in phase B of task 5b in the 2017
+BioASQ
+challenge using our biomedical question answering system. Our system, dealing
+with four types of questions (i.e., yes/no, factoid, list, and summary), is
+based on
+(1) a dictionary-based approach for generating the exact answers of yes/no
+questions, (2) UMLS metathesaurus and term frequency metric for extracting the
+exact answers of factoid and list questions, and (3) the BM25 model and UMLS
+concepts for retrieving the ideal answers (i.e., paragraph-sized summaries).
+Preliminary
+results show that our system achieves good and competitive results in both
+exact and
+ideal answers extraction tasks as compared with the participating systems.
+Author{1}{Firstname}#=%=#Mourad
+Author{1}{Lastname}#=%=#Sarrouti
+Author{1}{Email}#=%=#mourad.sarrouti@usmba.ac.ma
+Author{1}{Affiliation}#=%=#Laboratory of Computer Science and Modeling, FSDM, Sidi Mohammed Ben Abdellah University
+Author{2}{Firstname}#=%=#Said
+Author{2}{Lastname}#=%=#Ouatik El Alaoui
+Author{2}{Email}#=%=#s_ouatik@yahoo.com
+Author{2}{Affiliation}#=%=#Laboratory of Computer Science and Modeling, FSDM, Sidi Mohammed Ben Abdellah University
+
+==========

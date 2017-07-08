@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Biomedical Event Extraction using Abstract Meaning Representation
+ShortPaperTitle#=%=#Biomedical Event Extraction using Abstract Meaning Representation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Sudha Rao
+JobTitle#==#
+Organization#==#University of Maryland, College Park
+Abstract#==#We propose a novel, Abstract Meaning Representation (AMR) based approach to
+identifying molecular events/interactions in biomedical text. Our key
+contributions are: (1) an empirical validation of our hypothesis that an event
+is a subgraph of the AMR graph, (2) a neural network-based model that
+identifies such an event subgraph given an AMR, and (3) a distant supervision
+based approach to gather additional training data. We evaluate our approach on
+the 2013 Genia Event Extraction dataset and show promising results.
+Author{1}{Firstname}#=%=#Sudha
+Author{1}{Lastname}#=%=#Rao
+Author{1}{Email}#=%=#raosudha@cs.umd.edu
+Author{1}{Affiliation}#=%=#University Of Maryland, College Park
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#Marcu
+Author{2}{Email}#=%=#marcu@isi.edu
+Author{2}{Affiliation}#=%=#ISI/USC
+Author{3}{Firstname}#=%=#Kevin
+Author{3}{Lastname}#=%=#Knight
+Author{3}{Email}#=%=#knight@isi.edu
+Author{3}{Affiliation}#=%=#USC/ISI
+Author{4}{Firstname}#=%=#Hal
+Author{4}{Lastname}#=%=#Daumé III
+Author{4}{Email}#=%=#me@hal3.name
+Author{4}{Affiliation}#=%=#UMD
+
+==========

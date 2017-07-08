@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#Deep Learning for Punctuation Restoration in Medical Reports
+ShortPaperTitle#=%=#Deep Learning for Punctuation Restoration in Medical Reports
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#David Suendermann-Oeft
+JobTitle#==#
+Organization#==#EMR.AI Inc
+90 New Montgomery St #400
+San Francisco, CA 94105, USA
+Abstract#==#In clinical dictation, speakers try to be as concise as possible to save time,
+often resulting in utterances without explicit punctuation commands.  Since the
+end product of a dictated report, e.g. an out-patient letter, does require
+correct orthography, including exact punctuation, the latter need to be
+restored, preferably by automated means.  This paper describes a method for
+punctuation restoration based on a state-of-the-art stack of NLP and machine
+learning techniques including B-RNNs with an attention mechanism and late
+fusion, as well as a feature extraction technique tailored to the processing of
+medical terminology using a novel vocabulary reduction model.  To the best of
+our knowledge, the resulting performance is superior to that reported in prior
+art on similar tasks.
+Author{1}{Firstname}#=%=#Wael
+Author{1}{Lastname}#=%=#Salloum
+Author{1}{Email}#=%=#wael.salloum@emr.ai
+Author{1}{Affiliation}#=%=#EMR.AI
+Author{2}{Firstname}#=%=#Greg
+Author{2}{Lastname}#=%=#Finley
+Author{2}{Email}#=%=#greg.finley@emr.ai
+Author{2}{Affiliation}#=%=#EMR.AI
+Author{3}{Firstname}#=%=#Erik
+Author{3}{Lastname}#=%=#Edwards
+Author{3}{Email}#=%=#erik.edwards@emr.ai
+Author{3}{Affiliation}#=%=#EMR.AI
+Author{4}{Firstname}#=%=#Mark
+Author{4}{Lastname}#=%=#Miller
+Author{4}{Email}#=%=#mark.miller@emr.ai
+Author{4}{Affiliation}#=%=#EMR.AI
+Author{5}{Firstname}#=%=#David
+Author{5}{Lastname}#=%=#Suendermann-Oeft
+Author{5}{Email}#=%=#david@emr.ai
+Author{5}{Affiliation}#=%=#EMR.AI
+
+==========

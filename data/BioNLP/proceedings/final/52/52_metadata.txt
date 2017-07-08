@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#52
+FinalPaperTitle#=%=#Improving Correlation with Human Judgments by Integrating Semantic Similarity with Second--Order Vectors
+ShortPaperTitle#=%=#Improving Correlation with Human Judgments by Integrating Semantic Similarity with Second--Order Vectors
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ted Pedersen
+JobTitle#==#
+Organization#==#Department of Commputer Science
+University of Minnesota, Duluth
+1114 Kirby Drive
+Duluth, MN 55812
+Abstract#==#Vector space methods that measure semantic similarity and relatedness often
+rely on distributional information such as co--occurrence frequencies or
+statistical measures of association to weight the importance of particular
+co--occurrences. In this paper, we extend these methods by incorporating a
+measure of semantic similarity based on a human curated taxonomy into a
+second--order vector representation. This results in a measure of semantic
+relatedness that combines both the contextual  information available in a
+corpus--based vector space representation with the semantic knowledge found in
+a biomedical ontology. Our results show that incorporating semantic similarity
+into a second order co-occurrence matrices improves correlation with human
+judgments for both similarity and relatedness, and that our method compares
+favorably to various different word embedding methods that have recently been
+evaluated on the same reference standards we have used.
+Author{1}{Firstname}#=%=#Bridget
+Author{1}{Lastname}#=%=#McInnes
+Author{1}{Email}#=%=#btmcinnes@vcu.edu
+Author{1}{Affiliation}#=%=#Virginia Commonwealth University
+Author{2}{Firstname}#=%=#Ted
+Author{2}{Lastname}#=%=#Pedersen
+Author{2}{Email}#=%=#tpederse@d.umn.edu
+Author{2}{Affiliation}#=%=#University of Minnesota, Duluth
+
+==========

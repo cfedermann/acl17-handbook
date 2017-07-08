@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Initializing neural networks for hierarchical multi-label text classification
+ShortPaperTitle#=%=#Initializing neural networks for hierarchical multi-label text classification
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Simon Baker
+JobTitle#==#
+Organization#==#Computer Laboratory, 15 JJ Thomson Avenue
+University of Cambridge
+Cambridge, United Kingdom
+Abstract#==#Many tasks in the biomedical domain require the assignment of one or more
+predefined labels to input text, where the labels are a part of a hierarchical
+structure (such as a taxonomy). The conventional approach is to use a
+one-vs.-rest (OVR) classification setup, where a binary classifier is trained
+for each label in the taxonomy or ontology where all instances not belonging to
+the class are considered negative examples. The main drawbacks to this approach
+are that dependencies between classes are not leveraged in the training and
+classification process, and the additional computational cost of training
+parallel classifiers. In this paper, we apply a new method for hierarchical
+multi-label text classification that initializes a neural network model final
+hidden layer such that it leverages label co-occurrence relations such as
+hypernymy. This approach elegantly lends itself to hierarchical classification.
+We evaluated this approach using two hierarchical multi-label text
+classification tasks in the biomedical domain using both sentence- and
+document-level classification. Our evaluation shows promising results for this
+approach.
+Author{1}{Firstname}#=%=#Simon
+Author{1}{Lastname}#=%=#Baker
+Author{1}{Email}#=%=#simon.baker.gen@gmail.com
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Korhonen
+Author{2}{Email}#=%=#anna.korhonen@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

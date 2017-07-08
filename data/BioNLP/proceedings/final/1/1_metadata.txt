@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Annotation of pain and anesthesia events for surgery-related processes and outcomes extraction
+ShortPaperTitle#=%=#Annotation of pain and anesthesia events for surgery-related processes and outcomes extraction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#WY
+JobTitle#==#
+Organization#==#
+Abstract#==#Pain and anesthesia information are crucial elements to identifying
+surgery-related processes and outcomes. However pain is not consistently
+recorded in the electronic medical record. Even when recorded, the rich complex
+granularity of the pain experience may be lost. Similarly, anesthesia
+information is recorded using local electronic collection systems; though the
+accuracy and completeness of the information is unknown. We propose an
+annotation schema to capture pain, pain management, and anesthesia event
+information.
+Author{1}{Firstname}#=%=#Wen-wai
+Author{1}{Lastname}#=%=#Yim
+Author{1}{Email}#=%=#wwyim@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Dario
+Author{2}{Lastname}#=%=#Tedesco
+Author{2}{Email}#=%=#dariot@stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Catherine
+Author{3}{Lastname}#=%=#Curtin
+Author{3}{Email}#=%=#ccurtin@stanford.edu
+Author{3}{Affiliation}#=%=#Palo Alto Veterans Affairs
+Author{4}{Firstname}#=%=#Tina
+Author{4}{Lastname}#=%=#Hernandez-Boussard
+Author{4}{Email}#=%=#boussard@stanford.edu
+Author{4}{Affiliation}#=%=#Stanford University
+
+==========

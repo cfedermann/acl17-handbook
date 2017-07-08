@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Biomedical Event Trigger Identification Using Bidirectional Recurrent Neural Network Based Models
+ShortPaperTitle#=%=#Biomedical Event Trigger Identification Using Bidirectional Recurrent Neural Network Based Models
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Patchigolla V S S Rahul
+JobTitle#==#
+Organization#==#Department of Computer Science and Engineering, Indian Institute of Technology Guwahati, Assam, India
+Abstract#==#Biomedical events describe complex interactions between various biomedical
+entities. Event trigger is a word or a phrase which typically signifies the
+occurrence of an event. Event trigger identification is an important first step
+in all event extraction methods. However many of the current approaches either
+rely on complex hand-crafted features or consider features only within a
+window. In this paper we propose a method that takes the advantage of recurrent
+neural network (RNN) to extract higher level features present across the
+sentence. Thus hidden state representation of RNN along with word and entity
+type embedding as features avoid relying on the complex hand-crafted features
+generated using various NLP toolkits. Our experiments have shown to achieve
+state-of-art F1-score on Multi Level Event Extraction (MLEE) corpus. We have
+also performed category-wise analysis of the result and discussed the
+importance of various features in trigger identification task.
+Author{1}{Firstname}#=%=#Rahul
+Author{1}{Lastname}#=%=#V S S Patchigolla
+Author{1}{Email}#=%=#rahul.2015@iitg.ernet.in
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Guwahati
+Author{2}{Firstname}#=%=#Sunil
+Author{2}{Lastname}#=%=#Sahu
+Author{2}{Email}#=%=#sunil.sahu@iitg.ernet.in
+Author{2}{Affiliation}#=%=#IIT Guwahati
+Author{3}{Firstname}#=%=#Ashish
+Author{3}{Lastname}#=%=#Anand
+Author{3}{Email}#=%=#anand.ashish@iitg.ernet.in
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Guwahati
+
+==========

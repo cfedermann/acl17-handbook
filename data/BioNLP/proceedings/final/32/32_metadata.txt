@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#Characterization of Divergence in Impaired Speech of ALS Patients
+ShortPaperTitle#=%=#Characterization of Divergence in Impaired Speech of ALS Patients
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Archna Bhatia
+JobTitle#==#
+Organization#==#Florida Institute for Human and Machine Cognition
+15 SE Osceola Ave
+Ocala, FL 34471
+Abstract#==#Approximately 80% to 95% of patients with Amyotrophic Lateral Sclerosis (ALS)
+eventually develop speech impairments, such as defective articulation, slow
+laborious speech and hypernasality. The relationship between impaired speech
+and asymptomatic speech may be seen as a divergence from a baseline. This
+relationship can be characterized in terms of measurable combinations of
+phonological characteristics that are indicative of the degree to which the two
+diverge. We demonstrate that divergence measurements based on phonological
+characteristics of speech correlate with physiological assessments of ALS.
+Speech-based assessments offer benefits over commonly-used physiological
+assessments in that they are inexpensive, non-intrusive, and do not require
+trained clinical personnel for administering and interpreting the results.
+Author{1}{Firstname}#=%=#Archna
+Author{1}{Lastname}#=%=#Bhatia
+Author{1}{Email}#=%=#abhatia@ihmc.us
+Author{1}{Affiliation}#=%=#Florida Institute for Human and Machine Cognition
+Author{2}{Firstname}#=%=#Bonnie
+Author{2}{Lastname}#=%=#Dorr
+Author{2}{Email}#=%=#bonnie@umiacs.umd.edu
+Author{2}{Affiliation}#=%=#Florida Institute for Human-Machine Cognition
+Author{3}{Firstname}#=%=#Kristy
+Author{3}{Lastname}#=%=#Hollingshead
+Author{3}{Email}#=%=#hollingk@gmail.com
+Author{3}{Affiliation}#=%=#IHMC
+Author{4}{Firstname}#=%=#Samuel L.
+Author{4}{Lastname}#=%=#Phillips
+Author{4}{Email}#=%=#samuel.phillips@va.gov
+Author{4}{Affiliation}#=%=#James A. Haley VA Hospital, Tampa, FL 33637, USA
+Author{5}{Firstname}#=%=#Barbara
+Author{5}{Lastname}#=%=#McKenzie
+Author{5}{Email}#=%=#barbara.mckenzie@va.gov
+Author{5}{Affiliation}#=%=#James A. Haley VA Hospital, Tampa, FL 33637, USA
+
+==========

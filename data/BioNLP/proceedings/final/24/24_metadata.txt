@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Detecting Dementia through Retrospective Analysis of Routine Blog Posts by Bloggers with Dementia
+ShortPaperTitle#=%=#Detecting Dementia through Retrospective Analysis of Routine Blog Posts by Bloggers with Dementia
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Gabriel Murray
+JobTitle#==#
+Organization#==#University of the Fraser Valley
+33844 King Road
+Abbotsford, BC, Canada V2S 7M8
+Abstract#==#We investigate if writers with dementia can be automatically distinguished from
+those without by analyzing linguistic markers in written text, in the form of
+blog posts. We have built a corpus of several thousand blog posts, some by
+people with dementia and others by people with loved ones with dementia. We use
+this dataset to train and test several machine learning methods, and achieve
+prediction performance at a level far above the baseline.
+Author{1}{Firstname}#=%=#Vaden
+Author{1}{Lastname}#=%=#Masrani
+Author{1}{Email}#=%=#vadmas@cs.ubc.ca
+Author{1}{Affiliation}#=%=#University of British Columbia
+Author{2}{Firstname}#=%=#Gabriel
+Author{2}{Lastname}#=%=#Murray
+Author{2}{Email}#=%=#gabriel.murray@ufv.ca
+Author{2}{Affiliation}#=%=#University of the Fraser Valley
+Author{3}{Firstname}#=%=#Thalia
+Author{3}{Lastname}#=%=#Field
+Author{3}{Email}#=%=#thalia.field@ubc.ca
+Author{3}{Affiliation}#=%=#University of British Columbia
+Author{4}{Firstname}#=%=#Giuseppe
+Author{4}{Lastname}#=%=#Carenini
+Author{4}{Email}#=%=#carenini@cs.ubc.ca
+Author{4}{Affiliation}#=%=#University of British Columbia
+
+==========
