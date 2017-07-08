@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#160
+FinalPaperTitle#=%=#A Joint Model for Semantic Sequences: Frames, Entities, Sentiments
+ShortPaperTitle#=%=#A Joint Model for Semantic Sequences: Frames, Entities, Sentiments
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Haoruo Peng
+JobTitle#==#
+Organization#==#University of Illinois, Urbana-Champaign
+Urbana, IL, 61801
+Abstract#==#Understanding stories -- sequences of events -- is a crucial yet challenging
+natural language understanding task. These events typically carry multiple
+aspects of semantics including actions, entities and emotions. Not only does
+each individual aspect contribute to the meaning of the story, so does the
+interaction among these aspects.   
+Building on this intuition, we propose to jointly model important aspects of
+semantic knowledge -- frames, entities and sentiments -- via a semantic
+language model. We achieve this by first representing these aspects' semantic
+units at an appropriate level of abstraction and then using the resulting
+vector representations for each semantic aspect to learn a joint representation
+via a neural language model.
+We show that the joint semantic language model is of high quality and can
+generate better semantic sequences than models that operate on the word level.
+We further demonstrate that our joint model can be applied to story cloze test
+and shallow discourse parsing tasks with improved performance and that each
+semantic aspect contributes to the model.
+Author{1}{Firstname}#=%=#Haoruo
+Author{1}{Lastname}#=%=#Peng
+Author{1}{Email}#=%=#hpeng7@illinois.edu
+Author{1}{Affiliation}#=%=#UIUC
+Author{2}{Firstname}#=%=#Snigdha
+Author{2}{Lastname}#=%=#Chaturvedi
+Author{2}{Email}#=%=#snigdhac@gmail.com
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Roth
+Author{3}{Email}#=%=#danr@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois
+
+==========

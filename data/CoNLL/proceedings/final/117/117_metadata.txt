@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#117
+FinalPaperTitle#=%=#Cross-language Learning with Adversarial Neural Networks
+ShortPaperTitle#=%=#Cross-language Learning with Adversarial Neural Networks
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Shafiq Joty
+JobTitle#==#
+Organization#==#Qatar Computing Research Institute, Doha, Qatar
+Abstract#==#We address the problem of cross-language adaptation for question-question
+similarity reranking in community question answering, with the objective to
+port a system trained on one input language to another input language given
+labeled training data for the first language and only unlabeled data for the
+second language.
+In particular, we propose to use adversarial training of neural networks to
+learn high-level features that are discriminative for the main learning task,
+and at the same time are invariant across the input languages. The evaluation
+results show sizable improvements for our cross-language adversarial neural
+network (CLANN) model over a strong non-adversarial system.
+Author{1}{Firstname}#=%=#Shafiq
+Author{1}{Lastname}#=%=#Joty
+Author{1}{Email}#=%=#sjoty@hbku.edu.qa
+Author{1}{Affiliation}#=%=#QCRI
+Author{2}{Firstname}#=%=#Preslav
+Author{2}{Lastname}#=%=#Nakov
+Author{2}{Email}#=%=#preslav.nakov@gmail.com
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+Author{3}{Firstname}#=%=#Lluís
+Author{3}{Lastname}#=%=#Màrquez
+Author{3}{Email}#=%=#lluism@lsi.upc.edu
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{4}{Firstname}#=%=#Israa
+Author{4}{Lastname}#=%=#Jaradat
+Author{4}{Email}#=%=#ijaradat@hbku.edu.qa
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute
+
+==========

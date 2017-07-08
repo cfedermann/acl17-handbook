@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#45
+FinalPaperTitle#=%=#Encoding of phonology in a recurrent neural model of grounded speech
+ShortPaperTitle#=%=#Encoding of phonology in a recurrent neural model of grounded speech
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Afra Alishahi
+JobTitle#==#
+Organization#==#Tilburg University
+PO Box 90153
+5000 LE Tilburg
+The Netherlands
+Abstract#==#We study the representation and encoding of phonemes in a recurrent
+  neural network model of grounded speech. We use a model which
+  processes images and their spoken descriptions, and projects the
+  visual and auditory representations into the same semantic space. We
+  perform a number of analyses on how information about individual
+  phonemes is encoded in the MFCC features extracted from the speech
+  signal, and the activations of the layers of the model. Via
+  experiments with phoneme decoding and phoneme discrimination we show
+  that phoneme representations are most salient in the lower layers of
+  the model, where low-level signals are processed at a fine-grained
+  level, although a large amount of phonological information is retain at
+  the top recurrent layer. We further find out that the
+  attention mechanism following the top recurrent layer significantly
+  attenuates encoding of phonology and makes the utterance embeddings
+  much more invariant to synonymy. Moreover, a hierarchical clustering
+  of phoneme representations learned by the network shows an
+  organizational structure of phonemes similar to those proposed in
+  linguistics.
+Author{1}{Firstname}#=%=#Afra
+Author{1}{Lastname}#=%=#Alishahi
+Author{1}{Email}#=%=#a.alishahi@uvt.nl
+Author{1}{Affiliation}#=%=#Tilburg University
+Author{2}{Firstname}#=%=#Marie
+Author{2}{Lastname}#=%=#Barking
+Author{2}{Email}#=%=#m.barking@uvt.nl
+Author{2}{Affiliation}#=%=#Tilburg University
+Author{3}{Firstname}#=%=#Grzegorz
+Author{3}{Lastname}#=%=#Chrupała
+Author{3}{Email}#=%=#g.chrupala@uvt.nl
+Author{3}{Affiliation}#=%=#Tilburg University
+
+==========

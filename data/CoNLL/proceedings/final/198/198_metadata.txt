@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#198
+FinalPaperTitle#=%=#Attention-based Recurrent Convolutional Neural Network for Automatic Essay Scoring
+ShortPaperTitle#=%=#Attention-based Recurrent Convolutional Neural Network for Automatic Essay Scoring
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Fei Dong
+JobTitle#==#
+Organization#==#Fei Dong, Singapore University of Technology & Design
+Abstract#==#Neural network models have recently been applied to the task of automatic essay
+scoring, giving promising results. Existing work used recurrent neural networks
+and convolutional neural networks to model input essays, giving grades based on
+a single vector representation of the essay. On the other hand, the relative
+advantages of RNNs and CNNs have not been compared. In addition, different
+parts of the essay can contribute differently for scoring, which is not
+captured by existing models. We ad- dress these issues by building a
+hierarchical sentence-document model to represent essays, using the attention
+mechanism to automatically decide the relative weights of words and sentences.
+Results show that our model outperforms the previous state- of-the-art methods,
+demonstrating the effectiveness of the attention mechanism.
+Author{1}{Firstname}#=%=#Fei
+Author{1}{Lastname}#=%=#Dong
+Author{1}{Email}#=%=#fei_dong@mymail.sutd.edu.sg
+Author{1}{Affiliation}#=%=#Singapore University of Technology & Design
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{3}{Firstname}#=%=#Jie
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Email}#=%=#jie_yang@mymail.sutd.edu.sg
+Author{3}{Affiliation}#=%=#Singapore University of Technology and Design
+
+==========

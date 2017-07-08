@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Embedding Words and Senses Together via Joint Knowledge-Enhanced Training
+ShortPaperTitle#=%=#Embedding Words and Senses Together via Joint Knowledge-Enhanced Training
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Jose Camacho Collados
+JobTitle#==#
+Organization#==#Sapienza University of Rome
+Abstract#==#Word embeddings are widely used in Natural Language Processing, mainly due to
+their success in capturing semantic information from massive corpora. However,
+their creation process does not allow the different meanings of a word to be
+automatically separated, as it conflates them into a single vector. We address
+this issue by proposing a new model which learns word and sense embeddings
+jointly. Our model exploits large corpora and knowledge from semantic networks
+in order to produce a unified vector space of word and sense embeddings. We
+evaluate the main features of our approach both qualitatively and
+quantitatively in a variety of tasks, highlighting the advantages of the
+proposed method in comparison to state-of-the-art word- and sense-based models.
+Author{1}{Firstname}#=%=#Massimiliano
+Author{1}{Lastname}#=%=#Mancini
+Author{1}{Email}#=%=#mancini@dis.uniroma1.it
+Author{1}{Affiliation}#=%=#Sapienza University of Rome
+Author{2}{Firstname}#=%=#Jose
+Author{2}{Lastname}#=%=#Camacho-Collados
+Author{2}{Email}#=%=#collados@di.uniroma1.it
+Author{2}{Affiliation}#=%=#Sapienza University of Rome
+Author{3}{Firstname}#=%=#Ignacio
+Author{3}{Lastname}#=%=#Iacobacci
+Author{3}{Email}#=%=#iacobacci@di.uniroma1.it
+Author{3}{Affiliation}#=%=#Sapienza University of Rome
+Author{4}{Firstname}#=%=#Roberto
+Author{4}{Lastname}#=%=#Navigli
+Author{4}{Email}#=%=#navigli@di.uniroma1.it
+Author{4}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#112
+FinalPaperTitle#=%=#An Artificial Language Evaluation of Distributional Semantic Models
+ShortPaperTitle#=%=#An Artificial Language Evaluation of Distributional Semantic Models
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Fatemeh Torabi Asr
+JobTitle#==#
+Organization#==#Indiana University, Bloomington (IN), USA
+Abstract#==#Recent studies of distributional semantic models have set up a competition
+between word embeddings obtained from predictive neural networks and word
+vectors obtained from abstractive count-based models. This paper is an attempt
+to reveal the underlying contribution of additional training data and
+post-processing steps on each type of model in word similarity and relatedness
+inference tasks. We do so by designing an artificial language framework,
+training a predictive and a count-based model on data sampled from this
+grammar, and evaluating the resulting word vectors in paradigmatic and
+syntagmatic tasks defined with respect to the grammar.
+Author{1}{Firstname}#=%=#Fatemeh
+Author{1}{Lastname}#=%=#Torabi Asr
+Author{1}{Email}#=%=#torabiasr@gmail.com
+Author{1}{Affiliation}#=%=#Indiana University
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Jones
+Author{2}{Email}#=%=#jonesmn@indiana.edu
+Author{2}{Affiliation}#=%=#Indiana Univeristy
+
+==========

@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#209
+FinalPaperTitle#=%=#Top-Rank Enhanced Listwise Optimization for Statistical Machine Translation
+ShortPaperTitle#=%=#Top-Rank Enhanced Listwise Optimization for SMT
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Huadong Chen
+JobTitle#==#
+Organization#==#State Key Laboratory for Novel Software Technology, Nanjing University
+No.163 Xianlin Avenue, Qixia District, Nanjing, P.R.China, 210023
+Abstract#==#Pairwise ranking methods are the most widely used discriminative training
+approaches for structure prediction problems in natural language processing
+(NLP). Decomposing the problem of ranking hypotheses into pairwise comparisons
+enables simple and efficient solutions. However, neglecting the global ordering
+of the hypothesis list may hinder learning. We propose a listwise learning
+framework for structure prediction problems such as machine translation. Our
+framework directly models the entire translation list’s ordering to learn
+parameters which may better fit the given listwise samples. Furthermore, we
+propose top-rank enhanced loss functions, which are more sensitive to ranking
+errors at higher positions. Experiments on a large-scale Chinese-English
+translation task show that both our listwise learning framework and top-rank
+enhanced listwise losses lead to significant improvements in translation
+quality.
+Author{1}{Firstname}#=%=#Huadong
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#chenhd@nlp.nju.edu.cn
+Author{1}{Affiliation}#=%=#Nanjing University
+Author{2}{Firstname}#=%=#Shujian
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#huangshujian@gmail.com
+Author{2}{Affiliation}#=%=#Nanjing University
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Chiang
+Author{3}{Email}#=%=#dchiang@nd.edu
+Author{3}{Affiliation}#=%=#University of Notre Dame
+Author{4}{Firstname}#=%=#XIN-YU
+Author{4}{Lastname}#=%=#DAI
+Author{4}{Email}#=%=#daixinyu@nju.edu.cn
+Author{4}{Affiliation}#=%=#National Key Laboratory for Novel Software Technology, Nanjing University
+Author{5}{Firstname}#=%=#Jiajun
+Author{5}{Lastname}#=%=#CHEN
+Author{5}{Email}#=%=#chenjj@nju.edu.cn
+Author{5}{Affiliation}#=%=#Nanjing University
+
+==========

@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Idea density for predicting Alzheimer's disease from transcribed speech
+ShortPaperTitle#=%=#Idea density for predicting Alzheimer's disease from transcribed speech
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Kairit Sirts
+JobTitle#==#
+Organization#==#
+Abstract#==#Idea Density (ID) measures the rate at which ideas or elementary predications
+are expressed in an utterance or in a text.
+Lower ID is found to be associated with an increased risk of developing
+Alzheimer's disease (AD) (Snowdon et al., 1996; Engelman et al., 2010).
+ID has been used in two different versions: propositional idea density (PID)
+counts the expressed ideas and can be applied to any text while semantic idea
+density (SID) counts pre-defined information content units and is naturally
+more applicable to normative domains, such as picture description tasks.
+In this paper, we develop DEPID, a novel dependency-based method for computing
+PID, and its version DEPID-R that enables to exclude repeating ideas---a
+feature characteristic to AD speech.  We conduct the first comparison of
+automatically extracted PID and SID in the diagnostic classification task on
+two different AD datasets covering both closed-topic and free-recall domains. 
+While SID performs better on the normative dataset, adding PID leads to a small
+but significant improvement (+1.7 F-score). On the free-topic dataset, PID
+performs better than SID as expected (77.6 vs 72.3 in F-score) but adding the
+features derived from the word embedding clustering underlying the automatic
+SID increases the results considerably, leading to an F-score of 84.8.
+Author{1}{Firstname}#=%=#Kairit
+Author{1}{Lastname}#=%=#Sirts
+Author{1}{Email}#=%=#kairit.sirts@ut.ee
+Author{1}{Affiliation}#=%=#University of Tartu
+Author{2}{Firstname}#=%=#Olivier
+Author{2}{Lastname}#=%=#Piguet
+Author{2}{Email}#=%=#olivier.piguet@sydney.edu.au
+Author{2}{Affiliation}#=%=#The University of Sydney
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Johnson
+Author{3}{Email}#=%=#Mark.Johnson@MQ.edu.au
+Author{3}{Affiliation}#=%=#Macquarie University
+
+==========

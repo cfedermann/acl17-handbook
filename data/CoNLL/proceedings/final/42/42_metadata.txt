@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
+ShortPaperTitle#=%=#Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Van-Khanh Tran
+JobTitle#==#
+Organization#==#Japan Advanced Institute of Science and Technology, JAIST
+1-1 Asahidai, Nomi, Ishikawa, 923-1292, Japan
+Abstract#==#Natural language generation (NLG) is a critical component in a spoken dialogue
+system. 
+This paper presents a Recurrent Neural Network based Encoder-Decoder
+architecture, in which an LSTM-based decoder is introduced to select, aggregate
+semantic elements produced by an attention mechanism over the input elements,
+and to produce the required utterances.
+The proposed generator can be jointly trained both sentence planning and
+surface realization to produce natural language sentences.
+The proposed model was extensively evaluated on four different NLG datasets.
+The experimental results showed that the proposed generators not only
+consistently outperform the previous methods across all the NLG domains but
+also show an ability to generalize from a new, unseen domain and learn from
+multi-domain datasets.
+Author{1}{Firstname}#=%=#Van-Khanh
+Author{1}{Lastname}#=%=#Tran
+Author{1}{Email}#=%=#tvkhanh@jaist.ac.jp
+Author{1}{Affiliation}#=%=#Japan Advanced Institute of Science and Technology
+Author{2}{Firstname}#=%=#Le-Minh
+Author{2}{Lastname}#=%=#Nguyen
+Author{2}{Email}#=%=#nguyenml@jaist.ac.jp
+Author{2}{Affiliation}#=%=#Japan Advanced Institute of Science and Technology
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#259
+FinalPaperTitle#=%=#Joint Prediction of Morphosyntactic Categories for Fine-Grained Arabic Part-of-Speech Tagging Exploiting Tag Dictionary Information
+ShortPaperTitle#=%=#Joint Prediction of Morphosyntactic Categories for Fine-Grained Arabic POS Tagging Exploiting Tag Dictionary Information
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Go Inoue
+JobTitle#==#
+Organization#==#Nara Institute of Science and Technology
+8916-5 Takayama, Ikoma, Nara, 630-0192, Japan
+Abstract#==#Part-of-speech (POS) tagging for morphologically rich languages such as Arabic
+is a challenging problem because of their enormous tag sets. One reason for
+this is that in the tagging scheme for such languages, a complete POS tag is
+formed by combining tags from multiple tag sets defined for each
+morphosyntactic category. Previous approaches in Arabic POS tagging applied one
+model for each morphosyntactic tagging task, without utilizing shared
+information between the tasks. In this paper, we propose an approach that
+utilizes this information by jointly modeling multiple morphosyntactic tagging
+tasks with a multi-task learning framework. We also propose a method of
+incorporating tag dictionary information into our neural models by combining
+word representations with representations of the sets of possible tags. Our
+experiments showed that the joint model with tag dictionary information results
+in an accuracy of 91.38% on the Penn Arabic Treebank data set, with an absolute
+improvement of 2.11% over the current state-of-the-art tagger.
+Author{1}{Firstname}#=%=#Go
+Author{1}{Lastname}#=%=#Inoue
+Author{1}{Email}#=%=#inoue.go.ib4@is.naist.jp
+Author{1}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{2}{Firstname}#=%=#Hiroyuki
+Author{2}{Lastname}#=%=#Shindo
+Author{2}{Email}#=%=#hshindo@outlook.com
+Author{2}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{3}{Firstname}#=%=#Yuji
+Author{3}{Lastname}#=%=#Matsumoto
+Author{3}{Email}#=%=#matsu@is.naist.jp
+Author{3}{Affiliation}#=%=#Nara Institute of Science and Technology
+
+==========

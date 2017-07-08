@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Making Neural QA as Simple as Possible but not Simpler
+ShortPaperTitle#=%=#Making Neural QA as Simple as Possible but not Simpler
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Dirk Weissenborn
+JobTitle#==#
+Organization#==#DFKI
+Alt-Moabit 91c
+10559 Berlin
+Abstract#==#Recent development of large-scale question answering (QA) datasets triggered a
+substantial amount of research into end-to-end neural architectures for QA.
+Increasingly complex systems have been conceived without comparison to simpler
+neural baseline systems that would justify their complexity. In this work, we
+propose a simple heuristic that guides the development of neural baseline
+systems for the extractive QA task. We find that there are two ingredients
+necessary for building a high-performing neural QA system: first, the awareness
+of question words while processing the context and second, a composition
+function that goes beyond simple bag-of-words modeling, such as recurrent
+neural networks. Our results show that FastQA, a system that meets these two
+requirements, can achieve very competitive performance compared with existing
+models. We argue that this surprising finding puts results of previous systems
+and the complexity of recent QA datasets into perspective.
+Author{1}{Firstname}#=%=#Dirk
+Author{1}{Lastname}#=%=#Weissenborn
+Author{1}{Email}#=%=#dirk.weissenborn@dfki.de
+Author{1}{Affiliation}#=%=#German Research Center for Artificial Intelligence (DFKI)
+Author{2}{Firstname}#=%=#Georg
+Author{2}{Lastname}#=%=#Wiese
+Author{2}{Email}#=%=#gewi01@dfki.de
+Author{2}{Affiliation}#=%=#German Research Center for Artificial Intelligence (DFKI)
+Author{3}{Firstname}#=%=#Laura
+Author{3}{Lastname}#=%=#Seiffe
+Author{3}{Email}#=%=#lase01@dfki.de
+Author{3}{Affiliation}#=%=#German Research Center for Artificial Intelligence (DFKI)
+
+==========

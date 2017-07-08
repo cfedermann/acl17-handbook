@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#Feature Selection as Causal Inference: Experiments with Text Classification
+ShortPaperTitle#=%=#Feature Selection as Causal Inference: Experiments with Text Classification
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Michael Paul
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper proposes a matching technique for learning causal associations
+between word features and class labels in document classification. The goal is
+to identify more meaningful and generalizable features than with only
+correlational approaches. Experiments with sentiment classification show that
+the proposed method identifies interpretable word associations with sentiment
+and improves classification performance in a majority of cases. The proposed
+feature selection method is particularly effective when applied to
+out-of-domain data.
+Author{1}{Firstname}#=%=#Michael J.
+Author{1}{Lastname}#=%=#Paul
+Author{1}{Email}#=%=#mpaul39@gmail.com
+Author{1}{Affiliation}#=%=#University of Colorado
+
+==========

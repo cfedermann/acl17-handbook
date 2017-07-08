@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#284
+FinalPaperTitle#=%=#Neural Sequence-to-sequence Learning of Internal Word Structure
+ShortPaperTitle#=%=#Neural Sequence-to-sequence Learning of Internal Word Structure
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Tatyana Ruzsics
+JobTitle#==#
+Organization#==#CorpusLab, URPP Language and Space, University of Zurich
+Freiestrasse 16, 8032 Zurich, Switzerland
+Abstract#==#Learning internal word structure has recently been recognized as an important
+step in various multilingual processing tasks and in theoretical language
+comparison. In this paper, we present a neural encoder-decoder model for
+learning canonical morphological segmentation. Our model combines
+character-level sequence-to-sequence transformation with a language model over
+canonical segments. We obtain up to 4% improvement over a strong
+character-level encoder-decoder baseline for three languages. Our model
+outperforms the previous state-of-the-art for two languages, while eliminating
+the need for external resources such as large dictionaries. Finally, by
+comparing the performance of encoder-decoder and classical statistical machine
+translation systems trained with and without corpus counts, we show that
+including corpus counts is beneficial to both approaches.
+Author{1}{Firstname}#=%=#Tatyana
+Author{1}{Lastname}#=%=#Ruzsics
+Author{1}{Email}#=%=#tatiana.ruzsics@uzh.ch
+Author{1}{Affiliation}#=%=#University of Zurich
+Author{2}{Firstname}#=%=#Tanja
+Author{2}{Lastname}#=%=#Samardzic
+Author{2}{Email}#=%=#tanja.samardzic@uzh.ch
+Author{2}{Affiliation}#=%=#University of Zurich
+
+==========

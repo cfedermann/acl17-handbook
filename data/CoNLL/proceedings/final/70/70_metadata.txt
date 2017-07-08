@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#70
+FinalPaperTitle#=%=#The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task
+ShortPaperTitle#=%=#The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Roy Schwartz
+JobTitle#==#
+Organization#==#Paul G. Allen Center for Computer Science & Engineering, University of Washington,
+185 Stevens Way, Seattle, Washington, 98195-2350
+Abstract#==#A writer's style depends not just on personal traits but also on her intent and
+mental state. In this paper, we show how variants of the same writing task can
+lead to measurable differences in writing style. We present a case study based
+on the story cloze task (Mostafazadeh et al., 2016a), where annotators were
+assigned similar writing tasks with different constraints: (1) writing an
+entire story, (2) adding a story ending for a given story context, and (3)
+adding an incoherent ending to a story. We show that a simple linear classifier
+informed by stylistic features is able to successfully distinguish among the
+three cases, without even looking at the story context. In addition, combining
+our stylistic features with language model predictions reaches state of the art
+performance on the story cloze challenge. Our results demonstrate that
+different task framings can dramatically affect the way people write.
+Author{1}{Firstname}#=%=#Roy
+Author{1}{Lastname}#=%=#Schwartz
+Author{1}{Email}#=%=#roysch@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington and The Allen Institute for Artificial Intelligence
+Author{2}{Firstname}#=%=#Maarten
+Author{2}{Lastname}#=%=#Sap
+Author{2}{Email}#=%=#msap@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Ioannis
+Author{3}{Lastname}#=%=#Konstas
+Author{3}{Email}#=%=#ikonstas@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Leila
+Author{4}{Lastname}#=%=#Zilles
+Author{4}{Email}#=%=#lzilles@cs.washingtone.edu
+Author{4}{Affiliation}#=%=#University of Washington
+Author{5}{Firstname}#=%=#Yejin
+Author{5}{Lastname}#=%=#Choi
+Author{5}{Email}#=%=#yejin@cs.washington.edu
+Author{5}{Affiliation}#=%=#University of Washington
+Author{6}{Firstname}#=%=#Noah A.
+Author{6}{Lastname}#=%=#Smith
+Author{6}{Email}#=%=#nasmith@cs.washington.edu
+Author{6}{Affiliation}#=%=#University of Washington
+
+==========

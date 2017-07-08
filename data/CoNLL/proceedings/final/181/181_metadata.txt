@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#181
+FinalPaperTitle#=%=#Leveraging Eventive Information for Better Metaphor Detection and Classification
+ShortPaperTitle#=%=#Leveraging Eventive Information for Better Metaphor Detection and Classification
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#I-Hsuan Chen
+JobTitle#==#
+Organization#==#The Hong Kong Polytechnic University, Hong Kong
+Abstract#==#Metaphor detection has been both challenging and rewarding in natural language
+processing applications. This study offers a new approach based on eventive
+information in detecting metaphors by leveraging the Chinese writing system,
+which is a culturally bound ontological system organized according to the basic
+concepts represented by radicals. As such, the information represented is
+available in all Chinese text without pre-processing. Since metaphor detection
+is another culturally based conceptual representation, we hypothesize that
+sub-textual information can facilitate the identification and classification of
+the types of metaphoric events denoted in Chinese text. We propose a set of
+syntactic conditions crucial to event structures to improve the model based on
+the classification of radical groups. With the proposed syntactic conditions,
+the model achieves a performance of 0.8859 in terms of F-scores, making 1.7% of
+improvement than the same classifier with only Bag-of-word features. Results
+show that eventive information can improve the effectiveness of metaphor
+detection. Event information is rooted in every language, and thus this
+approach has a high potential to be applied to metaphor detection in other
+languages.
+Author{1}{Firstname}#=%=#I-Hsuan
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#ihsuan.chen@polyu.edu.hk
+Author{1}{Affiliation}#=%=#The Hong Kong Polytechnic University
+Author{2}{Firstname}#=%=#Yunfei
+Author{2}{Lastname}#=%=#Long
+Author{2}{Email}#=%=#csylong@comp.polyu.edu.hk
+Author{2}{Affiliation}#=%=#The Hong Kong Polytechnic University
+Author{3}{Firstname}#=%=#Qin
+Author{3}{Lastname}#=%=#Lu
+Author{3}{Email}#=%=#csluqin@comp.polyu.edu.hk
+Author{3}{Affiliation}#=%=#The Hong Kong Polytechnic University
+Author{4}{Firstname}#=%=#Chu-Ren
+Author{4}{Lastname}#=%=#Huang
+Author{4}{Email}#=%=#churen.huang@polyu.edu.hk
+Author{4}{Affiliation}#=%=#The Hong Kong Polytechnic University
+
+==========

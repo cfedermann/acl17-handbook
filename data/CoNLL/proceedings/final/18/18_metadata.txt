@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Neural Structural Correspondence Learning for Domain Adaptation
+ShortPaperTitle#=%=#Neural Structural Correspondence Learning for Domain Adaptation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Roi Reichart
+JobTitle#==#Assistant Professor
+Organization#==#Technion, Israel Institute of Technology, Haifa, 3200003, Israel
+Abstract#==#We introduce a neural network model that marries together ideas from two
+prominent
+strands of research on domain adaptation through representation learning:
+structural correspondence learning (SCL, (Blitzer et al., 2006)) and
+autoencoder neural networks (NNs). Our model is a three-layer NN that learns to
+encode the non-pivot features of an input example into a low dimensional
+representation, so that the existence of pivot features (features that are
+prominent in both domains and convey useful information for the NLP task) in
+the example can be decoded from that representation. The low-dimensional
+representation is then employed in a learning algorithm for the task. Moreover,
+we show how to inject pre-trained word embeddings into our model in order to
+improve
+generalization across examples with similar pivot features. We experiment with
+the
+task of cross-domain sentiment classification on 16 domain pairs and show
+substantial improvements over strong baselines.
+Author{1}{Firstname}#=%=#Yftah
+Author{1}{Lastname}#=%=#Ziser
+Author{1}{Email}#=%=#yftah89@gmail.com
+Author{1}{Affiliation}#=%=#Technion
+Author{2}{Firstname}#=%=#Roi
+Author{2}{Lastname}#=%=#Reichart
+Author{2}{Email}#=%=#roireichart@gmail.com
+Author{2}{Affiliation}#=%=#Technion - Israel Institute of Technology
+
+==========

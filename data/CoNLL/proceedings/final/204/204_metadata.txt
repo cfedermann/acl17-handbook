@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#204
+FinalPaperTitle#=%=#A Probabilistic Generative Grammar for Semantic Parsing
+ShortPaperTitle#=%=#A Probabilistic Generative Grammar for Semantic Parsing
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Abulhair Saparov
+JobTitle#==#
+Organization#==#Machine Learning Department
+Carnegie Mellon University
+5000 Forbes Avenue
+Pittsburgh, PA 15213
+Abstract#==#We present a generative model of natural language sentences and demonstrate its
+application to semantic parsing. In the generative process, a logical form
+sampled from a prior, and conditioned on this logical form, a grammar
+probabilistically generates the output sentence. Grammar induction using MCMC
+is applied to learn the grammar given a set of labeled sentences with
+corresponding logical forms. We develop a semantic parser that finds the
+logical form with the highest posterior probability exactly. We obtain strong
+results on the GeoQuery dataset and achieve state-of-the-art F1 on Jobs.
+Author{1}{Firstname}#=%=#Abulhair
+Author{1}{Lastname}#=%=#Saparov
+Author{1}{Email}#=%=#asaparov@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Vijay
+Author{2}{Lastname}#=%=#Saraswat
+Author{2}{Email}#=%=#vijay@saraswat.org
+Author{2}{Affiliation}#=%=#IBM TJ Watson Research Center
+Author{3}{Firstname}#=%=#Tom
+Author{3}{Lastname}#=%=#Mitchell
+Author{3}{Email}#=%=#tom.mitchell@cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

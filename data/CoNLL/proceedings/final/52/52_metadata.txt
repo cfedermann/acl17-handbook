@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#52
+FinalPaperTitle#=%=#Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text
+ShortPaperTitle#=%=#Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Desh Raj
+JobTitle#==#
+Organization#==#Indian Institute of Technology Guwahati
+Amingaon, Guwahati - 781039
+Assam, India
+Abstract#==#The task of relation classification in the biomedical domain is complex due to
+the presence of samples obtained from heterogeneous sources such as research
+articles, discharge summaries, or electronic health records. It is also a
+constraint for classifiers which employ manual feature engineering. In this
+paper, we propose a convolutional recurrent neural network (CRNN) architecture
+that combines RNNs and CNNs in sequence to solve this problem. The rationale
+behind our approach is that CNNs can effectively identify coarse-grained local
+features in a sentence, while RNNs are more suited for long-term dependencies.
+We compare our CRNN model with several baselines on two biomedical datasets,
+namely the i2b2-2010 clinical relation extraction challenge dataset, and the
+SemEval-2013 DDI extraction dataset. We also evaluate an attentive pooling
+technique and report its performance in comparison with the conventional max
+pooling method. Our results indicate that the proposed model achieves
+state-of-the-art performance on both datasets.
+Author{1}{Firstname}#=%=#Desh
+Author{1}{Lastname}#=%=#Raj
+Author{1}{Email}#=%=#r.desh@iitg.ernet.in
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Guwahati
+Author{2}{Firstname}#=%=#SUNIL
+Author{2}{Lastname}#=%=#SAHU
+Author{2}{Email}#=%=#sunil.sahu@iitg.ernet.in
+Author{2}{Affiliation}#=%=#IIT Guwahati
+Author{3}{Firstname}#=%=#Ashish
+Author{3}{Lastname}#=%=#Anand
+Author{3}{Email}#=%=#anand.ashish@iitg.ernet.in
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Guwahati
+
+==========

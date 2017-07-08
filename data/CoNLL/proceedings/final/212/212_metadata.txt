@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#212
+FinalPaperTitle#=%=#Robust Coreference Resolution and Entity Linking on Dialogues: Character Identification on TV Show Transcripts
+ShortPaperTitle#=%=#Robust Coreference Resolution and Entity Linking on Dialogues: Character Identification on TV Show Transcripts
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Henry Y. Chen
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents a novel approach to character identification, that is an
+entity linking task that maps mentions to characters in dialogues from TV show
+transcripts. We first augment and correct several cases of annotation errors in
+an existing corpus so the corpus is clearer and cleaner for statistical
+learning. We also introduce the agglomerative convolutional neural network that
+takes groups of features and learns mention and mention-pair embeddings for
+coreference resolution. We then propose another neural model that employs the
+embeddings learned and creates cluster embeddings for entity linking. Our
+coreference resolution model shows comparable results to other state-of-the-art
+systems. Our entity linking model significantly outperforms the previous work,
+showing the F1 score of 86.76% and the accuracy of 95.30% for character
+identification.
+Author{1}{Firstname}#=%=#Henry Y.
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#henryyuhsinchen@gmail.com
+Author{1}{Affiliation}#=%=#Emory University
+Author{2}{Firstname}#=%=#Ethan
+Author{2}{Lastname}#=%=#Zhou
+Author{2}{Email}#=%=#ethan.zhou@emory.edu
+Author{2}{Affiliation}#=%=#Emory University at Atlanta
+Author{3}{Firstname}#=%=#Jinho D.
+Author{3}{Lastname}#=%=#Choi
+Author{3}{Email}#=%=#jinho.choi@emory.edu
+Author{3}{Affiliation}#=%=#Emory University
+
+==========

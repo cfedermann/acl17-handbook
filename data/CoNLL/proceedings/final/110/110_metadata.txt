@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#110
+FinalPaperTitle#=%=#A Simple and Accurate Syntax-Agnostic Neural Model for Dependency-based Semantic Role Labeling
+ShortPaperTitle#=%=#A Simple and Accurate Syntax-Agnostic Neural Model for Dependency-based Semantic Role Labeling
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Diego Marcheggiani
+JobTitle#==#
+Organization#==#University of Amsterdam, Institute for Logic, Language and Computation, Science Park 107, 1098 XG Amsterdam
+Abstract#==#We introduce a simple and accurate neural model for dependency-based semantic
+role labeling.
+Our model predicts predicate-argument dependencies relying on states of a
+bidirectional LSTM encoder. 
+The semantic role labeler achieves competitive performance on English, even
+without any kind of syntactic information and only using local inference. 
+However, when automatically predicted part-of-speech tags are provided as
+input, it substantially outperforms all previous local models and approaches
+the best reported results on the English CoNLL-2009 dataset. 
+We also consider Chinese, Czech and Spanish where our approach also achieves
+competitive results.
+Syntactic parsers are unreliable on out-of-domain data, so standard (i.e.,
+syntactically-informed) SRL models are hindered when tested in this setting. 
+Our syntax-agnostic model appears more robust, resulting in the best reported
+results on standard out-of-domain test sets.
+Author{1}{Firstname}#=%=#Diego
+Author{1}{Lastname}#=%=#Marcheggiani
+Author{1}{Email}#=%=#marcheggiani@uva.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Anton
+Author{2}{Lastname}#=%=#Frolov
+Author{2}{Email}#=%=#anton-fr@yandex-team.ru
+Author{2}{Affiliation}#=%=#Machine Intelligence Department, Yandex
+Author{3}{Firstname}#=%=#Ivan
+Author{3}{Lastname}#=%=#Titov
+Author{3}{Email}#=%=#titov@uva.nl
+Author{3}{Affiliation}#=%=#University of Edinburgh / University of Amsterdam
+
+==========

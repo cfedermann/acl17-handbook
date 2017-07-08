@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#148
+FinalPaperTitle#=%=#Modeling Context Words as Regions: An Ordinal Regression Approach to Word Embedding
+ShortPaperTitle#=%=#An Ordinal Regression Approach to Word Embedding
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Shoaib Jameel
+JobTitle#==#
+Organization#==#School of Computer Science & Informatics,
+Cardiff University,
+Queen's Buildings, 5 The Parade, Roath,
+Cardiff CF24 3AA, UK
+Abstract#==#Vector representations of word meaning have found many applications in the
+field of natural language processing. Word vectors intuitively represent the
+average context in which a given word tends to occur, but they cannot
+explicitly model the diversity of these contexts. Although region
+representations of word meaning offer a natural alternative to word vectors,
+only few methods have been proposed that can effectively learn word regions. In
+this paper, we propose a new word embedding model which is based on SVM
+regression. We show that the underlying ranking interpretation of word contexts
+is sufficient to match, and sometimes outperform, the performance of popular
+methods such as Skip-gram. Furthermore, we show that by using a quadratic
+kernel, we can effectively learn word regions, which outperform existing
+unsupervised models for the task of hypernym detection.
+Author{1}{Firstname}#=%=#SHOAIB
+Author{1}{Lastname}#=%=#JAMEEL
+Author{1}{Email}#=%=#jameels1@cardiff.ac.uk
+Author{1}{Affiliation}#=%=#CARDIFF UNIVERSITY
+Author{2}{Firstname}#=%=#STEVEN
+Author{2}{Lastname}#=%=#SCHOCKAERT
+Author{2}{Email}#=%=#schockaertS1@cardiff.ac.uk
+Author{2}{Affiliation}#=%=#CARDIFF UNIVERSITY
+
+==========

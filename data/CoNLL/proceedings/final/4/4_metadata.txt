@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#The Covert Helps Parse the Overt
+ShortPaperTitle#=%=#The Covert Helps Parse the Overt
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Weiwei Sun
+JobTitle#==#
+Organization#==#Institute of Computer Science and Technology, Peking University. Zhongguancun North Street 128. Beijing. China.
+Abstract#==#This paper is concerned with whether
+deep syntactic information can help surface parsing, with a particular focus on
+empty categories. We design new algorithms to produce dependency trees in
+which empty elements are allowed, and
+evaluate the impact of information about
+empty category on parsing overt elements.
+Such information is helpful to reduce the
+approximation error in a structured parsing model, but increases the search
+space
+for inference and accordingly the estimation error. To deal with
+structure-based
+overfitting, we propose to integrate disambiguation models with and without
+empty
+elements, and perform structure regularization via joint decoding. Experiments
+on
+English and Chinese TreeBanks with different parsing models indicate that
+incorporating empty elements consistently improves surface parsing.
+Author{1}{Firstname}#=%=#Xun
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zhangxunah@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Weiwei
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Email}#=%=#ws@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Xiaojun
+Author{3}{Lastname}#=%=#Wan
+Author{3}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

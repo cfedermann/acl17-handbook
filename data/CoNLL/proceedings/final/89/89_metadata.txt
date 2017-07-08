@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#89
+FinalPaperTitle#=%=#Learning What is Essential in Questions
+ShortPaperTitle#=%=#Learning What is Essential in Questions
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Daniel Khashabi
+JobTitle#==#PhD Student
+Organization#==#Allen Institute for Artificial Intelligence, University of Pennsylvania
+Abstract#==#Question answering (QA) systems are easily  distracted by  irrelevant or 
+redundant words in questions, especially when faced with  long                       
+  or 
+multi-sentence                          questions  in difficult  domains. This       
+     
+paper 
+introduces and
+ studies  the  notion  of essential  question  terms with  the goal  of 
+improving such QA  solvers. We                          illustrate the             
+importance            of               
+  essential 
+question  terms  by showing  that  humans’  ability  to  answer questions
+drops significantly when essential  terms  are eliminated  from  questions.We
+then develop a classifier that reliably (90%  mean  average  precision) 
+identifies and ranks essential terms in questions. Finally, we use the
+classifier to demonstrate that                          the  notion  of  question 
+term 
+essentiality 
+allows state-of-the-art  QA  solver for  elementary-level  science  questions 
+to make better and more informed decisions,improving performance by up to 5%.We
+ also  introduce  a  new  dataset  of  over 2,200 crowd-sourced essential terms
+annotated science questions.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Khashabi
+Author{1}{Email}#=%=#danyal.khashabi@gmail.com
+Author{1}{Affiliation}#=%=#University of Illinois, Urbana-Champaign
+Author{2}{Firstname}#=%=#Tushar
+Author{2}{Lastname}#=%=#Khot
+Author{2}{Email}#=%=#tusharkh@allenai.org
+Author{2}{Affiliation}#=%=#Allen Institue for AI
+Author{3}{Firstname}#=%=#Ashish
+Author{3}{Lastname}#=%=#Sabharwal
+Author{3}{Email}#=%=#ashishs@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institue for AI
+Author{4}{Firstname}#=%=#Dan
+Author{4}{Lastname}#=%=#Roth
+Author{4}{Email}#=%=#danr@illinois.edu
+Author{4}{Affiliation}#=%=#University of Illinois, Urbana-Champaign
+
+==========

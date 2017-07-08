@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#152
+FinalPaperTitle#=%=#Learning Word Representations with Regularization from Prior Knowledge
+ShortPaperTitle#=%=#Learning Word Representations with Regularization from Prior Knowledge
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yan Song
+JobTitle#==#Researcher
+Organization#==#Tencent AI Lab, Shenzhen, China
+Abstract#==#Conventional word embeddings are trained with specific criteria (e.g., based on
+language modeling or co-occurrence) inside a single information source,
+disregarding the opportunity for further calibration using external knowledge.
+This paper presents a unified framework that leverages pre-learned or external
+priors, in the form of a regularizer, for enhancing conventional language
+model-based embedding learning. We consider two types of regularizers. The
+first type is derived from topic distribution by running LDA on unlabeled data.
+The second type is based on dictionaries that are created with
+human annotation efforts. To effectively learn with the regularizers, we
+propose a novel data structure, trajectory softmax, in this paper. The
+resulting embeddings are evaluated by word similarity and sentiment
+classification. Experimental results show that our learning framework with
+regularization from prior knowledge improves embedding quality across multiple
+datasets, compared to a diverse collection of baseline methods.
+Author{1}{Firstname}#=%=#Yan
+Author{1}{Lastname}#=%=#Song
+Author{1}{Email}#=%=#mattsure@gmail.com
+Author{1}{Affiliation}#=%=#Microsoft
+Author{2}{Firstname}#=%=#Chia-Jung
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#cjlee@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Fei
+Author{3}{Lastname}#=%=#Xia
+Author{3}{Email}#=%=#fxia@u.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#179
+FinalPaperTitle#=%=#Knowledge Tracing in Sequential Learning of Inflected Vocabulary
+ShortPaperTitle#=%=#Knowledge Tracing in Sequential Learning of Inflected Vocabulary
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a feature-rich knowledge tracing method that captures a student's
+acquisition and retention of knowledge during a foreign language phrase
+learning task. We model the student's behavior as making predictions under a
+log-linear model, and adopt a neural gating mechanism to model how the student
+updates their log-linear parameters in response to feedback.  The gating
+mechanism allows the model to learn complex patterns of retention and
+acquisition for each feature, while the log-linear parameterization results in
+an interpretable knowledge state. We collect human data and evaluate several
+versions of the model.
+Author{1}{Firstname}#=%=#Adithya
+Author{1}{Lastname}#=%=#Renduchintala
+Author{1}{Email}#=%=#adithya.renduchintala@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Philipp
+Author{2}{Lastname}#=%=#Koehn
+Author{2}{Email}#=%=#phi@jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Jason
+Author{3}{Lastname}#=%=#Eisner
+Author{3}{Email}#=%=#jason@cs.jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+
+==========

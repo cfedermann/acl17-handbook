@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Parsing for Grammatical Relations via Graph Merging
+ShortPaperTitle#=%=#Parsing for Grammatical Relations via Graph Merging
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Weiwei Sun
+JobTitle#==#
+Organization#==#Institute of Computer Science and Technology, Peking University. Zhongguancun North Street 128, Haidian, Beijing, China
+Abstract#==#This paper is concerned with building deep grammatical relation (GR) analysis
+using data-driven approach. To deal with this problem, we propose graph
+merging, a new perspective, for building flexible dependency graphs:
+Constructing complex graphs via constructing simple subgraphs. We discuss two
+key problems in this perspective: (1) how to decompose a complex graph into
+simple subgraphs, and (2) how to combine subgraphs into a coherent complex
+graph. Experiments demonstrate the effectiveness of graph merging.
+Our parser reaches state-of-the-art performance and is significantly better
+than two transition-based parsers.
+Author{1}{Firstname}#=%=#Weiwei
+Author{1}{Lastname}#=%=#Sun
+Author{1}{Email}#=%=#ws@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Yantao
+Author{2}{Lastname}#=%=#Du
+Author{2}{Email}#=%=#duyantao@pku.edu.cn
+Author{2}{Affiliation}#=%=#Institute of Computer Science and Technology of Peking University
+Author{3}{Firstname}#=%=#Xiaojun
+Author{3}{Lastname}#=%=#Wan
+Author{3}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

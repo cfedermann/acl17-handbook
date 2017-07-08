@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#80
+FinalPaperTitle#=%=#Graph-based Neural Multi-Document Summarization
+ShortPaperTitle#=%=#Graph-based Neural Multi-Document Summarization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Rui Zhang
+JobTitle#==#
+Organization#==#Yale University
+17 Hillhouse Avenue, New Haven, CT 06511
+Abstract#==#We propose a neural multi-document summarization system that incorporates
+sentence relation graphs.
+We employ a Graph Convolutional Network (GCN) on the relation graphs, with
+sentence embeddings obtained from Recurrent Neural Networks as input node
+features.
+Through multiple layer-wise propagation, the GCN generates high-level hidden
+sentence features for salience estimation.
+We then use a greedy heuristic to extract salient sentences that avoid
+redundancy.
+In our experiments on DUC 2004, we consider three types of sentence relation
+graphs and demonstrate the advantage of combining sentence relations in graphs
+with the representation power of deep neural networks.
+Our model improves upon other traditional graph-based extractive approaches and
+the vanilla GRU sequence model with no graph, and it achieves competitive
+results against other state-of-the-art multi-document summarization systems.
+Author{1}{Firstname}#=%=#Michihiro
+Author{1}{Lastname}#=%=#Yasunaga
+Author{1}{Email}#=%=#michihiro.yasunaga@yale.edu
+Author{1}{Affiliation}#=%=#Yale University
+Author{2}{Firstname}#=%=#Rui
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#ryanzh@umich.edu
+Author{2}{Affiliation}#=%=#University of Michigan
+Author{3}{Firstname}#=%=#Kshitijh
+Author{3}{Lastname}#=%=#Meelu
+Author{3}{Email}#=%=#kshitijh.meelu@yale.edu
+Author{3}{Affiliation}#=%=#Yale University
+Author{4}{Firstname}#=%=#Ayush
+Author{4}{Lastname}#=%=#Pareek
+Author{4}{Email}#=%=#ayush.original@gmail.com
+Author{4}{Affiliation}#=%=#The LNM Institute of Information Technology
+Author{5}{Firstname}#=%=#Krishnan
+Author{5}{Lastname}#=%=#Srinivasan
+Author{5}{Email}#=%=#krishnan.srinivasan@yale.edu
+Author{5}{Affiliation}#=%=#Yale University
+Author{6}{Firstname}#=%=#Dragomir
+Author{6}{Lastname}#=%=#Radev
+Author{6}{Email}#=%=#dragomir.radev@yale.edu
+Author{6}{Affiliation}#=%=#Yale University
+
+==========

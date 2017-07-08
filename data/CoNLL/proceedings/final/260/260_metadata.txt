@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#260
+FinalPaperTitle#=%=#A phoneme clustering algorithm based on the obligatory contour principle
+ShortPaperTitle#=%=#A phoneme clustering algorithm based on the obligatory contour principle
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Mans Hulden
+JobTitle#==#
+Organization#==#Department of Linguistics
+University of Colorado
+Boulder, CO 80305
+USA
+Abstract#==#This paper explores a divisive hierarchical clustering algorithm based on the
+well-known Obligatory Contour Principle in phonology.  The purpose is twofold:
+to see if such an algorithm could be used for unsupervised classification of
+phonemes or graphemes in corpora, and to investigate whether this purported
+universal constraint really holds for several classes of phonological
+distinctive features.  The algorithm achieves very high accuracies in an
+unsupervised setting of inferring a consonant-vowel distinction, and also has a
+strong tendency to detect coronal phonemes in an unsupervised fashion.
+Remaining classes, however, do not correspond as neatly to phonological
+distinctive feature splits.  While the results offer only mixed support for a
+universal Obligatory Contour Principle, the algorithm can be very useful for
+many NLP tasks due to the high accuracy in revealing consonant/vowel/coronal
+distinctions.
+Author{1}{Firstname}#=%=#Mans
+Author{1}{Lastname}#=%=#Hulden
+Author{1}{Email}#=%=#mhulden@email.arizona.edu
+Author{1}{Affiliation}#=%=#University of Colorado Boulder
+
+==========

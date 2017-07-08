@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#157
+FinalPaperTitle#=%=#German in Flux: Detecting Metaphoric Change via Word Entropy
+ShortPaperTitle#=%=#German in Flux
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Dominik Schlechtweg
+JobTitle#==#
+Organization#==#University of Stuttgart
+Institute for Natural Language Processing
+Pfaffenwaldring 5 b
+D-70569 Stuttgart
+Germany
+Abstract#==#This paper explores the information-theoretic measure entropy to detect
+metaphoric change, transferring ideas from hypernym detection to research on
+language change. We build the first diachronic test set for German as a
+standard for metaphoric change annotation. Our model is unsupervised,
+language-independent and generalizable to other processes of semantic change.
+Author{1}{Firstname}#=%=#Dominik
+Author{1}{Lastname}#=%=#Schlechtweg
+Author{1}{Email}#=%=#snicka@gmx.de
+Author{1}{Affiliation}#=%=#University of Stuttgart
+Author{2}{Firstname}#=%=#Stefanie
+Author{2}{Lastname}#=%=#Eckmann
+Author{2}{Email}#=%=#stefanie.eckmann@gmx.de
+Author{2}{Affiliation}#=%=#LMU Munich
+Author{3}{Firstname}#=%=#Enrico
+Author{3}{Lastname}#=%=#Santus
+Author{3}{Email}#=%=#enrico_santus@sutd.edu.sg
+Author{3}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{4}{Firstname}#=%=#Sabine
+Author{4}{Lastname}#=%=#Schulte im Walde
+Author{4}{Email}#=%=#schulte@ims.uni-stuttgart.de
+Author{4}{Affiliation}#=%=#University of Stuttgart
+Author{5}{Firstname}#=%=#Daniel
+Author{5}{Lastname}#=%=#Hole
+Author{5}{Email}#=%=#holedan@gmail.com
+Author{5}{Affiliation}#=%=#University of Stuttgart
+
+==========

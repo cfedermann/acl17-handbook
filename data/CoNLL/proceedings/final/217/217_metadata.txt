@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#217
+FinalPaperTitle#=%=#Learning Stock Market Sentiment Lexicon and Sentiment-Oriented Word Vector from StockTwits
+ShortPaperTitle#=%=#Learning Stock Market Sentiment Lexicon and Sentiment-Oriented Word Vector from StockTwits
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#quanzhi li
+JobTitle#==#
+Organization#==#
+Abstract#==#Previous studies have shown that investor sentiment indicators can predict
+stock market change.  A domain-specific sentiment lexicon and
+sentiment-oriented word embedding model would help the sentiment analysis in
+financial domain and stock market. In this paper, we present a new approach to
+learning stock market lexicon from StockTwits, a popular financial social
+network for investors to share ideas.  It learns word polarity by predicting
+message sentiment, using a neural net-work.  The sentiment-oriented word
+embeddings are learned from tens of millions of StockTwits posts, and this is
+the first study presenting sentiment-oriented word embeddings for stock market.
+ The experiments of predicting investor sentiment show that our lexicon
+outperformed other lexicons built by the state-of-the-art methods, and the
+sentiment-oriented word vector was much better than the general word
+embeddings.
+Author{1}{Firstname}#=%=#Quanzhi
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#quanzhi.li@gmail.com
+Author{1}{Affiliation}#=%=#Thomson Reuters
+Author{2}{Firstname}#=%=#Sameena
+Author{2}{Lastname}#=%=#Shah
+Author{2}{Email}#=%=#sameena.shah@thomsonreuters.com
+Author{2}{Affiliation}#=%=#Thomson Reuters
+
+==========

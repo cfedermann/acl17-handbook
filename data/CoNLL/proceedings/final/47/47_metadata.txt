@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Tell Me Why: Using Question Answering as Distant Supervision for Answer Justification
+ShortPaperTitle#=%=#Tell Me Why: Using Question Answering as Distant Supervision for Answer Justification
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Rebecca Sharp
+JobTitle#==#
+Organization#==#University of Arizona
+Tucson, Arizona 85721
+Abstract#==#For many applications of question answering (QA), being able to explain why a
+given model chose an answer is critical.  However, the lack of labeled data for
+ answer justifications makes learning this difficult and expensive.  Here we
+propose an approach that uses answer ranking as distant supervision for
+learning how to select informative justifications, where justifications serve
+as inferential connections between the question and the correct answer while
+often containing little lexical overlap with either.
+We propose a neural network architecture for QA that reranks answer
+justifications as an intermediate (and human-interpretable) step in answer
+selection. Our approach is informed by a set of features designed to combine
+both learned representations and explicit features to capture the connection
+between questions, answers, and answer justifications.
+ We show that with this end-to-end approach we are able to significantly
+improve upon a strong IR baseline in both justification ranking (+9% rated
+highly relevant) and answer selection (+6% P@1).
+Author{1}{Firstname}#=%=#Rebecca
+Author{1}{Lastname}#=%=#Sharp
+Author{1}{Email}#=%=#bsharp@email.arizona.edu
+Author{1}{Affiliation}#=%=#University of Arizona
+Author{2}{Firstname}#=%=#Mihai
+Author{2}{Lastname}#=%=#Surdeanu
+Author{2}{Email}#=%=#surdeanu@gmail.com
+Author{2}{Affiliation}#=%=#University of Arizona
+Author{3}{Firstname}#=%=#Peter
+Author{3}{Lastname}#=%=#Jansen
+Author{3}{Email}#=%=#pajansen@email.arizona.edu
+Author{3}{Affiliation}#=%=#University of Arizona
+Author{4}{Firstname}#=%=#Marco A.
+Author{4}{Lastname}#=%=#Valenzuela-Escárcega
+Author{4}{Email}#=%=#marcov@email.arizona.edu
+Author{4}{Affiliation}#=%=#University of Arizona
+Author{5}{Firstname}#=%=#Peter
+Author{5}{Lastname}#=%=#Clark
+Author{5}{Email}#=%=#peterc@allenai.org
+Author{5}{Affiliation}#=%=#Allen Institute for AI
+Author{6}{Firstname}#=%=#Michael
+Author{6}{Lastname}#=%=#Hammond
+Author{6}{Email}#=%=#hammond@email.arizona.edu
+Author{6}{Affiliation}#=%=#University of Arizona
+
+==========

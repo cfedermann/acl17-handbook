@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#166
+FinalPaperTitle#=%=#Learning from Relatives: Unified Dialectal Arabic Segmentation
+ShortPaperTitle#=%=#Learning from Relatives: Unified Dialectal Arabic Segmentation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Younes Samih
+JobTitle#==#
+Organization#==#Younes Samih 
+Universitätsstr. 1 
+40225 Düsseldorf Germany
+Abstract#==#Arabic dialects do not just share a common koiné, but there are shared
+pan-dialectal linguistic phenomena that allow computational models for dialects
+to learn from each other. In this paper we build a unified segmentation model
+where the training data for different dialects are combined and a single model
+is trained. The model yields higher accuracies than dialect-specific models,
+eliminating the need for dialect identification before segmentation. We also
+measure the degree of relatedness between four major Arabic dialects by testing
+how a segmentation model trained on one dialect performs on the other dialects.
+We found that linguistic relatedness is contingent with geographical proximity.
+In our experiments we use SVM-based ranking and bi-LSTM-CRF sequence labeling.
+Author{1}{Firstname}#=%=#Younes
+Author{1}{Lastname}#=%=#Samih
+Author{1}{Email}#=%=#samih@phil.hhu.de
+Author{1}{Affiliation}#=%=#University of Düsseldorf
+Author{2}{Firstname}#=%=#Mohamed
+Author{2}{Lastname}#=%=#Eldesouki
+Author{2}{Email}#=%=#mohamohamed@qf.org.qa
+Author{2}{Affiliation}#=%=#QCRI
+Author{3}{Firstname}#=%=#Mohammed
+Author{3}{Lastname}#=%=#Attia
+Author{3}{Email}#=%=#attia@google.com
+Author{3}{Affiliation}#=%=#Google Inc.
+Author{4}{Firstname}#=%=#Kareem
+Author{4}{Lastname}#=%=#Darwish
+Author{4}{Email}#=%=#kdarwish@qf.org.qa
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute, Qatar Foundation
+Author{5}{Firstname}#=%=#Ahmed
+Author{5}{Lastname}#=%=#Abdelali
+Author{5}{Email}#=%=#aabdelali@qf.org.qa
+Author{5}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{6}{Firstname}#=%=#Hamdy
+Author{6}{Lastname}#=%=#Mubarak
+Author{6}{Email}#=%=#hmubarak@qf.org.qa
+Author{6}{Affiliation}#=%=#Qatar Computing Research Institute, Qatar Foundation
+Author{7}{Firstname}#=%=#Laura
+Author{7}{Lastname}#=%=#Kallmeyer
+Author{7}{Email}#=%=#kallmeyer@phil.uni-duesseldorf.de
+Author{7}{Affiliation}#=%=#University of Duesseldorf
+
+==========

@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#164
+FinalPaperTitle#=%=#Collaborative Partitioning for Coreference Resolution
+ShortPaperTitle#=%=#Collaborative Partitioning for Coreference Resolution
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Olga Uryupina
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents a collaborative partitioning algorithm---a novel
+ensemble-based approach to coreference resolution. Starting from the
+all-singleton partition, we search for a solution close to the ensemble's
+outputs in terms of a task-specific similarity measure. Our approach assumes a
+loose integration of individual components of the ensemble and can therefore
+combine arbitrary coreference resolvers, regardless of their models. 
+Our experiments on the CoNLL dataset show that collaborative partitioning
+yields results superior to those attained by the individual components, for
+ensembles of both strong and weak systems. Moreover, by applying the
+collaborative partitioning algorithm on top of three state-of-the-art
+resolvers, we obtain the best coreference performance reported so far in the
+literature (MELA v08 score of 64.47).
+Author{1}{Firstname}#=%=#Olga
+Author{1}{Lastname}#=%=#Uryupina
+Author{1}{Email}#=%=#uryupina@gmail.com
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Alessandro
+Author{2}{Lastname}#=%=#Moschitti
+Author{2}{Email}#=%=#amoschitti@gmail.com
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+
+==========
