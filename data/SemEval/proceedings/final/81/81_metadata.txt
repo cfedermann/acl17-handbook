@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#81
+FinalPaperTitle#=%=#ITNLP-AiKF at SemEval-2017 Task 1: Rich Features Based SVR for Semantic Textual Similarity Computing
+ShortPaperTitle#=%=#Rich Features Based SVR for STS
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Liu wenjie
+JobTitle#==#
+Organization#==#School of Computer Science and Technology
+Harbin Institute of Technology
+No. 92, West Da-zhi Street, Harbin, China 150001
+Abstract#==#Semantic Textual Similarity (STS) devotes to measuring the degree of
+equivalence in the underlying semantic of the sentence pair. We proposed a new
+system, ITNLP-AiKF, which applies in the SemEval 2017 Task1 Semantic Textual
+Similarity track 5 English monolingual pairs. In our system, rich features are
+involved, including Ontology based, word embedding based, Corpus based,
+Alignment based and Literal based feature. We leveraged the features to predict
+sentence pair similarity by a Support Vector Regression (SVR) model. In the
+result, a Pearson Correlation of 0.8231 is achieved by our system, which is a
+competitive result in the contest of this track.
+Author{1}{Firstname}#=%=#Wenjie
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#wjliu@insun.hit.edu.cn
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology of China
+Author{2}{Firstname}#=%=#Chengjie
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Email}#=%=#cjsun@insun.hit.edu.cn
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology Harbin of China
+Author{3}{Firstname}#=%=#Lei
+Author{3}{Lastname}#=%=#Lin
+Author{3}{Email}#=%=#llin@insun.hit.edu.cn
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology Harbin of China
+Author{4}{Firstname}#=%=#Bingquan
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#liubq@insun.hit.edu.cn
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology Harbin of China
+
+==========

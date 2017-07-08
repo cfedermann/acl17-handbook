@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#117
+FinalPaperTitle#=%=#LIMSI-COT at SemEval-2017 Task 12: Neural Architecture for Temporal Information Extraction from Clinical Narratives
+ShortPaperTitle#=%=#LIMSI-COT at SemEval-2017 Task 12: Neural Architecture for Temporal Information Extraction from Clinical Narratives
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Julien Tourille
+JobTitle#==#
+Organization#==#LIMSI-CNRS
+Bâtiments 508 et 502bis
+Université de Paris-Sud
+91403 ORSAY (France)
+Abstract#==#In this paper we present our participation to SemEval 2017 Task 12. We used a
+neural network based approach for entity and temporal relation extraction, and
+experimented with two domain adaptation strategies. We achieved competitive
+performance for both tasks.
+Author{1}{Firstname}#=%=#Julien
+Author{1}{Lastname}#=%=#Tourille
+Author{1}{Email}#=%=#julien.tourille@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI, CNRS, Univ. Paris-Sud, Université Paris-Saclay
+Author{2}{Firstname}#=%=#Olivier
+Author{2}{Lastname}#=%=#Ferret
+Author{2}{Email}#=%=#olivier.ferret@cea.fr
+Author{2}{Affiliation}#=%=#CEA LIST
+Author{3}{Firstname}#=%=#Xavier
+Author{3}{Lastname}#=%=#Tannier
+Author{3}{Email}#=%=#xtannier@limsi.fr
+Author{3}{Affiliation}#=%=#LIMSI, CNRS, Univ. Paris-Sud, Université Paris-Saclay
+Author{4}{Firstname}#=%=#Aurélie
+Author{4}{Lastname}#=%=#Névéol
+Author{4}{Email}#=%=#neveol@limsi.fr
+Author{4}{Affiliation}#=%=#LIMSI-CNRS
+
+==========

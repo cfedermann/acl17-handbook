@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Duluth at SemEval-2017 Task 7 : Puns Upon a Midnight Dreary, Lexical Semantics for the Weak and Weary
+ShortPaperTitle#=%=#Duluth at SemEval-2017 Task 7 : Puns Upon a Midnight Dreary, Lexical Semantics for the Weak and Weary
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ted Pedersen
+JobTitle#==#
+Organization#==#Department of Computer Science
+1114 Kirby Drive
+University of Minnesota
+Duluth,  MN 55812
+Abstract#==#This paper describes the Duluth systems that participated in SemEval-2017 Task
+7 : Detection and Interpretation of English Puns. The Duluth systems
+participated in all three subtasks, and relied on methods that included word
+sense disambiguation and measures of semantic relatedness.
+Author{1}{Firstname}#=%=#Ted
+Author{1}{Lastname}#=%=#Pedersen
+Author{1}{Email}#=%=#tpederse@d.umn.edu
+Author{1}{Affiliation}#=%=#University of Minnesota, Duluth
+
+==========

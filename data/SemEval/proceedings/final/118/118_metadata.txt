@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#118
+FinalPaperTitle#=%=#DataStories at SemEval-2017 Task 6: Siamese LSTM with Attention for Humorous Text Comparison
+ShortPaperTitle#=%=#Siamese LSTM with Attention for Humorous Text Comparison
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Christos Baziotis
+JobTitle#==#
+Organization#==#University of Piraeus,
+126 Grigoriou Lampraki,
+18534 Piraeus, Greece
+Abstract#==#In this paper we present a deep-learning system that competed at SemEval-2017
+Task 6 “#HashtagWars: Learning a Sense of Humor”. We participated in
+Subtask A, in which the goal was, given two Twitter messages, to identify which
+one is funnier. We propose a Siamese architecture with bidirectional Long
+Short-Term Memory (LSTM) networks, augmented with an attention mechanism. Our
+system works on the token-level, leveraging word embeddings trained on a big
+collection of unlabeled Twitter messages. We ranked 2nd in 7 teams. A
+post-completion improvement of our model, achieves state-of-the-art results on
+#HashtagWars dataset.
+Author{1}{Firstname}#=%=#Christos
+Author{1}{Lastname}#=%=#Baziotis
+Author{1}{Email}#=%=#mpsp14057@unipi.gr
+Author{1}{Affiliation}#=%=#University of Piraeus
+Author{2}{Firstname}#=%=#Nikos
+Author{2}{Lastname}#=%=#Pelekis
+Author{2}{Email}#=%=#npelekis@unipi.gr
+Author{2}{Affiliation}#=%=#University of Piraeus
+Author{3}{Firstname}#=%=#Christos
+Author{3}{Lastname}#=%=#Doulkeridis
+Author{3}{Email}#=%=#cdoulk@unipi.gr
+Author{3}{Affiliation}#=%=#University of Piraeus
+
+==========

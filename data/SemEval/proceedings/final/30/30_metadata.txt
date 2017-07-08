@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#SentiME++ at SemEval-2017 Task 4: Stacking State-of-the-Art Classifiers to Enhance Sentiment Classification
+ShortPaperTitle#=%=#SentiME++ at SemEval-2017 Task 4: Stacking State-of-the-Art Classifiers to Enhance Sentiment Classification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Raphael Troncy
+JobTitle#==#
+Organization#==#EURECOM, Data Science Department, 450 route des Chappes, 06410 Biot, France
+Abstract#==#In this paper, we describe the participation of the SentiME++ system to the
+SemEval 2017 Task 4A "Sentiment Analysis in Twitter" that aims to classify
+whether English tweets are of positive, neutral or negative sentiment.
+SentiME++ is an ensemble approach to sentiment analysis that leverages stacked
+generalization to automatically combine the predictions of five
+state-of-the-art sentiment classifiers. SentiME++ achieved officially 61.30%
+F1-score, ranking 12th out of 38 participants.
+Author{1}{Firstname}#=%=#Raphael
+Author{1}{Lastname}#=%=#Troncy
+Author{1}{Email}#=%=#raphael.troncy@eurecom.fr
+Author{1}{Affiliation}#=%=#EURECOM
+Author{2}{Firstname}#=%=#Enrico
+Author{2}{Lastname}#=%=#Palumbo
+Author{2}{Email}#=%=#enrico.palumbo@eurecom.fr
+Author{2}{Affiliation}#=%=#EURECOM
+Author{3}{Firstname}#=%=#Efstratios
+Author{3}{Lastname}#=%=#Sygkounas
+Author{3}{Email}#=%=#Efstratios.Sygkounas@eurecom.fr
+Author{3}{Affiliation}#=%=#EURECOM
+Author{4}{Firstname}#=%=#Giuseppe
+Author{4}{Lastname}#=%=#Rizzo
+Author{4}{Email}#=%=#giuseppe.rizzo@ismb.it
+Author{4}{Affiliation}#=%=#ISMB
+
+==========

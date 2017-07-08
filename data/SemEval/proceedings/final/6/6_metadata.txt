@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#NILC-USP at SemEval-2017 Task 4: A Multi-view Ensemble for Twitter Sentiment Analysis
+ShortPaperTitle#=%=#NILC-USP at SemEval-2017 Task 4: A Multi-view Ensemble for Twitter Sentiment Analysis
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Edilson Anselmo Corrêa Júnior
+JobTitle#==#
+Organization#==#Institute of Mathematics and Computer Science, University of São Paulo (USP), São Carlos, São Paulo, Brazil
+Abstract#==#This paper describes our multi-view ensemble approach to SemEval-2017 Task 4 on
+Sentiment Analysis in Twitter, specifically, the Message Polarity
+Classification subtask for English (subtask A). Our system is a voting
+ensemble, where each base classifier is trained in a different feature space.
+The first space is a bag-of-words model and has a Linear SVM as base
+classifier. The second and third spaces are two different strategies of
+combining word embeddings to represent sentences and use a Linear SVM and a
+Logistic Regressor as base classifiers. The proposed system was ranked 18th out
+of 38 systems considering F1 score and 20th considering recall.
+Author{1}{Firstname}#=%=#Edilson Anselmo
+Author{1}{Lastname}#=%=#Corrêa Júnior
+Author{1}{Email}#=%=#edilsonacjr@usp.br
+Author{1}{Affiliation}#=%=#Institute of Mathematics and Computer Science - University of São Paulo (USP)
+Author{2}{Firstname}#=%=#Vanessa Queiroz
+Author{2}{Lastname}#=%=#Marinho
+Author{2}{Email}#=%=#vanessa.qm.1@gmail.com
+Author{2}{Affiliation}#=%=#Institute of Mathematics and Computer Science - University of São Paulo (USP)
+Author{3}{Firstname}#=%=#Leandro Borges
+Author{3}{Lastname}#=%=#dos Santos
+Author{3}{Email}#=%=#leandrobs@usp.br
+Author{3}{Affiliation}#=%=#Institute of Mathematics and Computer Science - University of São Paulo (USP)
+
+==========

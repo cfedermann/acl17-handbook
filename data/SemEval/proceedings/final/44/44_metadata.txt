@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#NRU-HSE at SemEval-2017 Task 4: Tweet Quantification Using Deep Learning Architecture
+ShortPaperTitle#=%=#NRU-HSE at SemEval-2017 Task 4: Tweet Quantification Using Deep Learning Architecture
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nikolay Karpov
+JobTitle#==#
+Organization#==#National Research University Higher School of Economics, 25/12 Bolshaja Pecherskaja str. 603155 Nizhny Novgorod, Russia
+Abstract#==#In many areas, such as social science, politics or market research, people need
+to deal with dataset shifting over time. Distribution drift phenomenon usually
+appears in the field of sentiment analysis, when proportions of instances are
+changing over time. In this case, the task is to correctly estimate proportions
+of each sentiment expressed in the set of documents (quantification task).
+Basically, our study was aimed to analyze the effectiveness of a mixture of
+quantification technique with one of deep learning architecture. All the
+techniques are evaluated using the SemEval-2017 Task4 dataset and source code,
+mentioned in this paper and available online in the Python programming
+language. The results of an application of the quantification techniques are
+discussed.
+Author{1}{Firstname}#=%=#Nikolay
+Author{1}{Lastname}#=%=#Karpov
+Author{1}{Email}#=%=#nkarpov@hse.ru
+Author{1}{Affiliation}#=%=#National Research University Higher School of Economics
+
+==========

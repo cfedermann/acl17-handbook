@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#The AI2 system at SemEval-2017 Task 10 (ScienceIE): semi-supervised end-to-end entity and relation extraction
+ShortPaperTitle#=%=#Semi-supervised end-to-end entity and relation extraction
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Waleed Ammar
+JobTitle#==#
+Organization#==#Allen Institute for Artificial Intelligence
+2157 N Northlake Way, Seattle, WA 98103
+Abstract#==#This paper describes our submission for
+the ScienceIE shared task (SemEval-
+2017 Task 10) on entity and relation
+extraction from scientific papers. Our
+model is based on the end-to-end relation
+extraction model of Miwa and Bansal
+(2016) with several enhancements such as
+semi-supervised learning via neural language
+models, character-level encoding,
+gazetteers extracted from existing knowledge
+bases, and model ensembles. Our of-
+ficial submission ranked first in end-to-end
+entity and relation extraction (scenario 1),
+and second in the relation-only extraction
+(scenario 3).
+Author{1}{Firstname}#=%=#Waleed
+Author{1}{Lastname}#=%=#Ammar
+Author{1}{Email}#=%=#waleed.ammar@gmail.com
+Author{1}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{2}{Firstname}#=%=#Matthew
+Author{2}{Lastname}#=%=#Peters
+Author{2}{Email}#=%=#matthewp@allenai.org
+Author{2}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{3}{Firstname}#=%=#Chandra
+Author{3}{Lastname}#=%=#Bhagavatula
+Author{3}{Email}#=%=#chandrab@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{4}{Firstname}#=%=#Russell
+Author{4}{Lastname}#=%=#Power
+Author{4}{Email}#=%=#russellp@allenai.org
+Author{4}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+
+==========

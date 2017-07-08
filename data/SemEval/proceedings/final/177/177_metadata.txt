@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#177
+FinalPaperTitle#=%=#FEUP at SemEval-2017 Task 5: Predicting Sentiment Polarity and Intensity with Financial Word Embeddings
+ShortPaperTitle#=%=#FEUP at SemEval-2017 Task 5: Predicting Sentiment Polarity and Intensity with Financial Word Embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Pedro Saleiro
+JobTitle#==#
+Organization#==#Faculdade de Engenharia da Universidade do Porto,
+Rua Dr. Roberto Frias, s/n, Porto, Portugal
+Abstract#==#This paper presents the approach developed at the Faculty of Engineering of
+University of Porto, to participate in SemEval 2017, Task 5: Fine-grained
+Sentiment Analysis on Financial Microblogs and News. 
+The task consisted in predicting a real continuous variable from -1.0 to +1.0
+representing the polarity and intensity of sentiment concerning
+companies/stocks mentioned in short texts. We modeled the task as a regression
+analysis problem and combined traditional techniques such as pre-processing
+short texts, bag-of-words representations and lexical-based features with
+enhanced financial specific bag-of-embeddings. We used an external collection
+of tweets and news headlines mentioning companies/stocks from S\&P 500 to
+create financial word embeddings which are able to capture domain-specific
+syntactic and semantic similarities. The resulting approach obtained a cosine
+similarity score of 0.69 in sub-task 5.1 - Microblogs and 0.68 in sub-task 5.2
+- News Headlines.
+Author{1}{Firstname}#=%=#Pedro
+Author{1}{Lastname}#=%=#Saleiro
+Author{1}{Email}#=%=#pssc@fe.up.pt
+Author{1}{Affiliation}#=%=#University of Porto
+Author{2}{Firstname}#=%=#Eduarda
+Author{2}{Lastname}#=%=#Mendes Rodrigues
+Author{2}{Email}#=%=#eduardamr@acm.org
+Author{2}{Affiliation}#=%=#University of Porto
+Author{3}{Firstname}#=%=#Carlos
+Author{3}{Lastname}#=%=#Soares
+Author{3}{Email}#=%=#csoares@fe.up.pt
+Author{3}{Affiliation}#=%=#University of Porto
+Author{4}{Firstname}#=%=#Eugénio
+Author{4}{Lastname}#=%=#Oliveira
+Author{4}{Email}#=%=#eco@fe.up.pt
+Author{4}{Affiliation}#=%=#University of Porto
+
+==========

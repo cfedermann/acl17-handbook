@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#EICA Team at SemEval-2017 Task 3: Semantic and Metadata-based Features for Community Question Answering
+ShortPaperTitle#=%=#EICA Team at SemEval-2017 Task 3: Semantic and Metadata-based Features for Community Question Answering
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yufei Xie
+JobTitle#==#
+Organization#==#EAST CHINA NORMAL UNIVERSITY 
+North Zhongshan Road Campus: 3663 N. Zhongshan Rd., Shanghai 200062 Tel：86-21-62233333
+Abstract#==#We describe our system for participating in SemEval-2017 Task 3 on Community
+Question Answering. Our approach relies on combining a rich set of various
+types
+of features: semantic and metadata. The most important group turned out to be
+the
+metadata feature and the semantic vectors trained on QatarLiving data. In the
+main
+Subtask C, our primary submission was ranked fourth, with a MAP of 13.48 and
+accuracy of 97.08. In Subtask A, our primary submission get into the top 50%.
+Author{1}{Firstname}#=%=#Yufei
+Author{1}{Lastname}#=%=#Xie
+Author{1}{Email}#=%=#yufeixie@ica.stc.sh.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Maoquan
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#maoquanwang@ica.stc.sh.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Jing
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Email}#=%=#liangma@ica.stc.sh.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+Author{4}{Firstname}#=%=#Jian
+Author{4}{Lastname}#=%=#Jiang
+Author{4}{Email}#=%=#jjiang@ica.stc.sh.cn
+Author{4}{Affiliation}#=%=#East China Normal University
+Author{5}{Firstname}#=%=#Zhao
+Author{5}{Lastname}#=%=#Lu
+Author{5}{Email}#=%=#zlu@cs.ecnu.edu.cn
+Author{5}{Affiliation}#=%=#East China Normal University
+
+==========

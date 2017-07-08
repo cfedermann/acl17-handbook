@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#UWaterloo at SemEval-2017 Task 7: Locating the Pun Using Syntactic Characteristics and Corpus-based Metrics
+ShortPaperTitle#=%=#UWaterloo at SemEval-2017 Task 7: Locating the Pun Using Syntactic Characteristics and Corpus-based Metrics
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Olga Vechtomova
+JobTitle#==#
+Organization#==#University of Waterloo, 200 University Ave. W., Waterloo, ON, N2L 3G1
+Abstract#==#The paper presents a system for locating a pun word. The developed method
+calculates a score for each word in a pun, using a number of components,
+including its Inverse Document Frequency (IDF), Normalized Pointwise Mutual
+Information (NPMI) with other words in the pun text, its position in the text,
+part-of-speech and some syntactic features. The method achieved the best
+performance in the Heterographic category and the second best in the
+Homographic. Further analysis showed that IDF is the most useful
+characteristic, whereas the count of words with which the given word has high
+NPMI has a negative effect on performance.
+Author{1}{Firstname}#=%=#Olga
+Author{1}{Lastname}#=%=#Vechtomova
+Author{1}{Email}#=%=#ovechtom@uwaterloo.ca
+Author{1}{Affiliation}#=%=#University of Waterloo
+
+==========

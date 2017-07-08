@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#102
+FinalPaperTitle#=%=#RUFINO at SemEval-2017 Task 2: Cross-lingual lexical similarity by extending PMI and word embeddings systems with a Swadesh's-like list
+ShortPaperTitle#=%=#RUFINO at SemEval-2017 Task 2: Cross-lingual lexical similarity by extending PMI and word embeddings systems with a Swadesh's-like list
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sergio Jimenez
+JobTitle#==#
+Organization#==#Instituto Caro y Cuervo, Bogotá D.C., Colombia
+Abstract#==#The RUFINO team proposed a non-supervised, conceptually-simple and
+low-cost approach for addressing the Multilingual and Cross-lingual
+Semantic Word Similarity challenge at SemEval 2017. The proposed systems
+were cross-lingual extensions of popular monolingual lexical similarity
+approaches such as PMI and word2vec. The extensions were possible
+by means of a small parallel list of concepts similar to the Swadesh's
+list, which we obtained in a semi-automatic way. In spite of its simplicity,
+our approach showed to be effective obtaining statistically-significant
+and consistent results in all datasets proposed for the task. Besides,
+we provide some research directions for improving this novel and affordable
+approach.
+Author{1}{Firstname}#=%=#Sergio
+Author{1}{Lastname}#=%=#Jimenez
+Author{1}{Email}#=%=#sergio.jimenez.vargas@gmail.com
+Author{1}{Affiliation}#=%=#none
+Author{2}{Firstname}#=%=#George
+Author{2}{Lastname}#=%=#Dueñas
+Author{2}{Email}#=%=#george.duenas@caroycuervo.gov.co
+Author{2}{Affiliation}#=%=#Instituto Caro y Cuervo
+Author{3}{Firstname}#=%=#Lorena
+Author{3}{Lastname}#=%=#Gaitan
+Author{3}{Email}#=%=#lorena.gaitanb@campusucc.edu.co
+Author{3}{Affiliation}#=%=#none
+Author{4}{Firstname}#=%=#Jorge
+Author{4}{Lastname}#=%=#Segura
+Author{4}{Email}#=%=#jaseguran@unal.edu.co
+Author{4}{Affiliation}#=%=#none
+
+==========

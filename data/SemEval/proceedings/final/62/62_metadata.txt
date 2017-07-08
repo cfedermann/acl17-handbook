@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#62
+FinalPaperTitle#=%=#Senti17 at SemEval-2017 Task 4: Ten Convolutional Neural Network Voters for Tweet Polarity Classification
+ShortPaperTitle#=%=#Senti17 at SemEval-2017 Task 4: Ten Convolutional Neural Network Voters for Tweet Polarity Classification
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Hussam Hamdan
+JobTitle#==#Post-doctoral researcher
+Organization#==#UPMC university
+4 place Jussieu, 75005, Paris, France
+Abstract#==#This paper presents Senti17 system which uses ten convolutional neural networks
+(Con- vNet) to assign a sentiment label to a tweet. The network consists of a
+convolutional layer followed by a fully-connected layer and a Soft- max on top.
+Ten instances of this network are initialized with the same word embeddings  as
+inputs but with different initializations for the network weights. We combine
+the results of all instances by selecting the sentiment label given by the
+majority of the ten voters. This system is ranked fourth in SemEval-2017 Task4
+over 38 systems with 67.4\% average recall.
+Author{1}{Firstname}#=%=#Hussam
+Author{1}{Lastname}#=%=#Hamdan
+Author{1}{Email}#=%=#hamdan.hussam@gmail.com
+Author{1}{Affiliation}#=%=#AMU
+
+==========

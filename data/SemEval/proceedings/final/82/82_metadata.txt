@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#82
+FinalPaperTitle#=%=#LSIS at SemEval-2017 Task 4: Using Adapted Sentiment Similarity Seed Words For English and Arabic Tweet Polarity Classification
+ShortPaperTitle#=%=#LSIS at SemEval-2017 Task 4: Using Adapted Sentiment Similarity Seed Words For English and Arabic Tweet Polarity Classification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Amal Htait
+JobTitle#==#
+Organization#==#Aix Marseille University, CNRS, ENSAM, Toulon University, LSIS UMR 7296,13397, Marseille, France.
+Aix-Marseille University, CNRS, CLEO OpenEdition, UMS 3287, 13451, Marseille, France.
+Abstract#==#We present, in this paper, our contribution in SemEval2017 task 4 :
+”Sentiment Analysis in Twitter”, subtask A: ”Message Polarity
+Classification”, for
+English and Arabic languages. Our system is based on a list of sentiment seed
+words
+adapted for tweets. The sentiment relations between seed words and other terms
+are captured by cosine similarity between the word embedding representations
+(word2vec). These seed words are extracted from datasets of annotated tweets
+available online. Our tests, using these seed words, show significant
+improvement in results compared to the use of Turney and Littman’s (2003)
+seed words, on polarity classification of tweet messages.
+Author{1}{Firstname}#=%=#Amal
+Author{1}{Lastname}#=%=#Htait
+Author{1}{Email}#=%=#amal.htait@gmail.com
+Author{1}{Affiliation}#=%=#Aix-Marseille
+Author{2}{Firstname}#=%=#Sébastien
+Author{2}{Lastname}#=%=#Fournier
+Author{2}{Email}#=%=#sebastien.fournier@lsis.org
+Author{2}{Affiliation}#=%=#Aix-Marseille University
+Author{3}{Firstname}#=%=#Patrice
+Author{3}{Lastname}#=%=#Bellot
+Author{3}{Email}#=%=#patrice.bellot@univ-amu.fr
+Author{3}{Affiliation}#=%=#Aix-Marseille Université (AMU-LSIS)
+
+==========

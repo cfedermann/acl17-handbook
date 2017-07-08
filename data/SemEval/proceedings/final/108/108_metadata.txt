@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#108
+FinalPaperTitle#=%=#TopicThunder at SemEval-2017 Task 4: Sentiment Classification Using a Convolutional Neural Network with Distant Supervision
+ShortPaperTitle#=%=#TopicThunder at SemEval-2017 Task 4: Sentiment Classification Using a Convolutional Neural Network with Distant Supervision
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jan Deriu
+JobTitle#==#ZHAW
+Organization#==#Zurich University of Applied Sciences
+
+Steinberggasse 13, TG 104
+8400 Winterthur
+Abstract#==#In this paper, we propose a classifier for
+predicting topic-specific sentiments of English
+Twitter messages. Our method is
+based on a 2-layer CNN.With a distant supervised
+phase we leverage a large amount
+of weakly-labelled training data. Our system
+was evaluated on the data provided
+by the SemEval-2017 competition in the
+Topic-Based Message Polarity Classification
+subtask, where it ranked 4th place.
+Author{1}{Firstname}#=%=#Simon
+Author{1}{Lastname}#=%=#Müller
+Author{1}{Email}#=%=#muellsi3@students.zhaw.ch
+Author{1}{Affiliation}#=%=#Zurich University of Applied Sciences
+Author{2}{Firstname}#=%=#Tobias
+Author{2}{Lastname}#=%=#Huonder
+Author{2}{Email}#=%=#huondtob@students.zhaw.ch
+Author{2}{Affiliation}#=%=#Zurich University of Applied Sciences
+Author{3}{Firstname}#=%=#Jan
+Author{3}{Lastname}#=%=#Deriu
+Author{3}{Email}#=%=#deri@zhaw.ch
+Author{3}{Affiliation}#=%=#Zurich University of Applied Sciences
+Author{4}{Firstname}#=%=#Mark
+Author{4}{Lastname}#=%=#Cieliebak
+Author{4}{Email}#=%=#ciel@zhaw.ch
+Author{4}{Affiliation}#=%=#Zurich University of Applied Sciences
+
+==========

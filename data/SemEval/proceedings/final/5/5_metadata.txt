@@ -1,0 +1,67 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#OMAM at SemEval-2017 Task 4: Evaluation of English State-of-the-Art Sentiment Analysis Models for Arabic and a New Topic-based Model
+ShortPaperTitle#=%=#OMAM at SemEval-2017 Task 4: Evaluation of English State-of-the-Art Sentiment Analysis Models for Arabic and a New Topic-based Model
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ramy Baly
+JobTitle#==#
+Organization#==#Bliss Street, Hamra, Beirut, Lebanon
+Abstract#==#While sentiment analysis in English has achieved significant progress, it
+remains a challenging task in Arabic given the rich morphology of the language.
+It becomes more challenging when applied to Twitter data that comes with
+additional sources of noise including dialects, misspellings, grammatical
+mistakes, code switching and the use of non-textual objects to express
+sentiments. This paper describes the “OMAM” systems that we developed as
+part of SemEval-2017 task 4. We evaluate English state-of-the-art methods on
+Arabic tweets for subtask A. As for the remaining subtasks, we introduce a
+topic-based approach that accounts for topic specificities by predicting topics
+or domains of upcoming tweets, and then using this information to predict their
+sentiment. Results indicate that applying the English state-of-the-art method
+to Arabic has achieved solid results without significant enhancements.
+Furthermore, the topic-based method ranked 1st in subtasks C and E, and 2nd in
+subtask D.
+Author{1}{Firstname}#=%=#Ramy
+Author{1}{Lastname}#=%=#Baly
+Author{1}{Email}#=%=#rgb15@mail.aub.edu
+Author{1}{Affiliation}#=%=#American University of Beirut
+Author{2}{Firstname}#=%=#Gilbert
+Author{2}{Lastname}#=%=#Badaro
+Author{2}{Email}#=%=#ggb05@aub.edu.lb
+Author{2}{Affiliation}#=%=#American University of Beirut
+Author{3}{Firstname}#=%=#Ali
+Author{3}{Lastname}#=%=#Hamdi
+Author{3}{Email}#=%=#alihamdif@gmail.com
+Author{3}{Affiliation}#=%=#Faculty of Computing, Universiti Teknologi Malaysia, Johor, Malaysia
+Author{4}{Firstname}#=%=#Rawan
+Author{4}{Lastname}#=%=#Moukalled
+Author{4}{Email}#=%=#rrm32@mail.aub.edu
+Author{4}{Affiliation}#=%=#American University of Beirut
+Author{5}{Firstname}#=%=#Rita
+Author{5}{Lastname}#=%=#Aoun
+Author{5}{Email}#=%=#rra47@mail.aub.edu
+Author{5}{Affiliation}#=%=#American University of Beirut
+Author{6}{Firstname}#=%=#Georges
+Author{6}{Lastname}#=%=#El-Khoury
+Author{6}{Email}#=%=#gbe03@mail.aub.edu
+Author{6}{Affiliation}#=%=#American University of Beirut
+Author{7}{Firstname}#=%=#Ahmad
+Author{7}{Lastname}#=%=#Al Sallab
+Author{7}{Email}#=%=#ahmad.elsallab@gmail.com
+Author{7}{Affiliation}#=%=#ELC Dept., Cairo University
+Author{8}{Firstname}#=%=#Hazem
+Author{8}{Lastname}#=%=#Hajj
+Author{8}{Email}#=%=#hh63@aub.edu.lb
+Author{8}{Affiliation}#=%=#American University of Beirut
+Author{9}{Firstname}#=%=#Nizar
+Author{9}{Lastname}#=%=#Habash
+Author{9}{Email}#=%=#nizar.habash@nyu.edu
+Author{9}{Affiliation}#=%=#New York University Abu Dhabi
+Author{10}{Firstname}#=%=#Khaled
+Author{10}{Lastname}#=%=#Shaban
+Author{10}{Email}#=%=#khaled.shaban@qu.edu.qa
+Author{10}{Affiliation}#=%=#Qatar University
+Author{11}{Firstname}#=%=#Wassim
+Author{11}{Lastname}#=%=#El-Hajj
+Author{11}{Email}#=%=#we07@aub.edu.lb
+Author{11}{Affiliation}#=%=#American University of Beirut
+
+==========

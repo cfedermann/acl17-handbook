@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#Tw-StAR at SemEval-2017 Task 4: Sentiment Classification of Arabic Tweets
+ShortPaperTitle#=%=#Tw-StAR at SemEval-2017 Task 4: Sentiment Classification of Arabic Tweets
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hala Mulki
+JobTitle#==#
+Organization#==#Selcuk University,  Alaeddin Keykubat Yerleşkesi Selçuklu, Konya, Turkey
+Abstract#==#In this paper, we present our contribution in SemEval 2017 international
+workshop. We have tackled task 4 entitled “Sentiment analysis in Twitter”,
+specifically subtask 4A-Arabic. We propose two Arabic sentiment classification
+models implemented using supervised and unsupervised learning strategies. In
+both models, Arabic tweets were preprocessed first then various schemes of
+bag-of-N-grams were extracted to be used as features.
+The final submission was selected upon the best performance achieved by the
+supervised learning-based model. However, the results obtained by the
+unsupervised learning-based model are considered promising and evolvable if
+more rich lexica are adopted in further work.
+Author{1}{Firstname}#=%=#Hala
+Author{1}{Lastname}#=%=#Mulki
+Author{1}{Email}#=%=#hallamulki@gmail.com
+Author{1}{Affiliation}#=%=#Selcuk University
+Author{2}{Firstname}#=%=#Hatem
+Author{2}{Lastname}#=%=#Haddad
+Author{2}{Email}#=%=#haddad.hatem@gmail.com
+Author{2}{Affiliation}#=%=#ULB University
+Author{3}{Firstname}#=%=#Mourad
+Author{3}{Lastname}#=%=#Gridach
+Author{3}{Email}#=%=#m.gridach@uiz.ac.ma
+Author{3}{Affiliation}#=%=#High Institute of Technology - Agadir
+Author{4}{Firstname}#=%=#Ismail
+Author{4}{Lastname}#=%=#Babaoğlu
+Author{4}{Email}#=%=#ibabaoglu@selcuk.edu.tr
+Author{4}{Affiliation}#=%=#Selcuk University
+
+==========

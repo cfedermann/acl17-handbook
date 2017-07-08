@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#OMAM at SemEval-2017 Task 4: English Sentiment Analysis with Conditional Random Fields
+ShortPaperTitle#=%=#OMAM at SemEval-2017 Task 4: English Sentiment Analysis with Conditional Random Fields
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Nizar Habash
+JobTitle#==#Professor
+Organization#==#New York University Abu Dhabi
+Abstract#==#We describe a supervised system that uses optimized Condition Random Fields and
+lexical features to predict the sentiment of a tweet. The system was submitted
+to the English version of all subtasks in SemEval-2017 Task 4.
+Author{1}{Firstname}#=%=#Chukwuyem
+Author{1}{Lastname}#=%=#Onyibe
+Author{1}{Email}#=%=#cjo258@nyu.edu
+Author{1}{Affiliation}#=%=#New York University Abu Dhabi
+Author{2}{Firstname}#=%=#Nizar
+Author{2}{Lastname}#=%=#Habash
+Author{2}{Email}#=%=#nizar.habash@nyu.edu
+Author{2}{Affiliation}#=%=#New York University Abu Dhabi
+
+==========

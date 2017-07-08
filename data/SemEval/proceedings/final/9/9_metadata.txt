@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#UPC-USMBA at SemEval-2017 Task 3: Combining multiple approaches for CQA for Arabic
+ShortPaperTitle#=%=#UPC-USMBA at SemEval-2017 Task 3: Combining multiple approaches for CQA for Arabic
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Horacio Rodriguez
+JobTitle#==#
+Organization#==#Universitat Politecnica de Catalunya (UPC) Dpt. Computer Science (CS)
+Jordi Girona Salgado 1-3 building Omega, D-316 Campus Nord 08034
+Barcelona (Spain)
+Abstract#==#This paper presents a description of the participation of the UPC-USMBA team in
+the SemEval 2017 Task 3, subtask D, Arabic. 
+Our approach for facing the task is based on a combination of a set of atomic
+classifiers. The atomic classifiers include lexical string based, based on
+vectorial representations and rulebased.
+Several combination approaches have been tried.
+Author{1}{Firstname}#=%=#Yassine
+Author{1}{Lastname}#=%=#El Adlouni
+Author{1}{Email}#=%=#yeladlouni@gmail.com
+Author{1}{Affiliation}#=%=#USMBA
+Author{2}{Firstname}#=%=#Imane
+Author{2}{Lastname}#=%=#Lahbari
+Author{2}{Email}#=%=#imane.lahbari@usmba.ac.ma
+Author{2}{Affiliation}#=%=#USMBA
+Author{3}{Firstname}#=%=#Horacio
+Author{3}{Lastname}#=%=#Rodriguez
+Author{3}{Email}#=%=#horacio@lsi.upc.edu
+Author{3}{Affiliation}#=%=#UPC
+Author{4}{Firstname}#=%=#Mohammed
+Author{4}{Lastname}#=%=#Meknassi
+Author{4}{Email}#=%=#m.meknassi@gmail.com
+Author{4}{Affiliation}#=%=#USMBA
+Author{5}{Firstname}#=%=#Said Ouatik
+Author{5}{Lastname}#=%=#El Alaoui
+Author{5}{Email}#=%=#s_ouatik@yahoo.com
+Author{5}{Affiliation}#=%=#USMBA
+Author{6}{Firstname}#=%=#Noureddine
+Author{6}{Lastname}#=%=#Ennahnahi
+Author{6}{Email}#=%=#nahnnourd@yahoo.fr
+Author{6}{Affiliation}#=%=#USMBA
+
+==========

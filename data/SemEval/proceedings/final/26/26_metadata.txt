@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#ej-sa-2017 at SemEval-2017 Task 4: Experiments for Target oriented Sentiment Analysis in Twitter
+ShortPaperTitle#=%=#ej-sa-2017 at SemEval-2017 Task 4: Experiments for Target oriented Sentiment Analysis in Twitter
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Enkhzol Dovdon and José Saias
+JobTitle#==#
+Organization#==#Enkhzol Dovdon, DI - ECT - Universidade de Évora
+Rua Romão Ramalho, 59, 7000-671 Évora, Portugal
+Abstract#==#This paper describes the system we have used for participating in Subtasks A
+(Message Polarity Classification) and B (Topic-Based Message Polarity
+Classification according to a two-point scale) of SemEval-2017 Task 4 Sentiment
+Analysis in Twitter. We used several features with a sentiment lexicon and NLP
+techniques, Maximum Entropy as a classifier for our system.
+Author{1}{Firstname}#=%=#Enkhzol
+Author{1}{Lastname}#=%=#Dovdon
+Author{1}{Email}#=%=#enkhzol.d@gmail.com
+Author{1}{Affiliation}#=%=#University of Evora at Portugal
+Author{2}{Firstname}#=%=#José
+Author{2}{Lastname}#=%=#Saias
+Author{2}{Email}#=%=#jsaias@uevora.pt
+Author{2}{Affiliation}#=%=#Portugal
+
+==========

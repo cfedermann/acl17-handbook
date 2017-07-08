@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#71
+FinalPaperTitle#=%=#IIT-UHH at SemEval-2017 Task 3: Exploring Multiple Features for Community Question Answering and Implicit Dialogue Identification
+ShortPaperTitle#=%=#Exploring Multiple Features for Community Question Answering and Implicit Dialogue Identification
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Titas Nandi
+JobTitle#==#
+Organization#==#Indian Institute of Technology Patna, Bihta, Patna, Bihar - 801103, India
+Abstract#==#In this paper we present the system for Answer Selection and Ranking in
+Community Question Answering, which we build as part of our participation in
+SemEval-2017 Task 3. We develop a Support Vector Machine (SVM) based system
+that makes use of textual, domain-specific, word-embedding and topic-modeling
+features.
+In addition, we propose a novel method for dialogue chain identification in
+comment threads. Our primary submission won subtask C, outperforming other
+systems in all the primary evaluation metrics. We performed well in other
+English subtasks, ranking third in subtask A and eighth in subtask B. We also
+developed open source toolkits for all the three English subtasks by the name
+cQARank [https://github.com/TitasNandi/cQARank].
+Author{1}{Firstname}#=%=#Titas
+Author{1}{Lastname}#=%=#Nandi
+Author{1}{Email}#=%=#titas.nandi01@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Biemann
+Author{2}{Email}#=%=#biemann@informatik.uni-hamburg.de
+Author{2}{Affiliation}#=%=#University of Hamburg
+Author{3}{Firstname}#=%=#Seid Muhie
+Author{3}{Lastname}#=%=#Yimam
+Author{3}{Email}#=%=#seidymam@gmail.com
+Author{3}{Affiliation}#=%=#Universität Hamburg
+Author{4}{Firstname}#=%=#Deepak
+Author{4}{Lastname}#=%=#Gupta
+Author{4}{Email}#=%=#deepak.gupta651@gmail.com
+Author{4}{Affiliation}#=%=#IIT Patna
+Author{5}{Firstname}#=%=#Sarah
+Author{5}{Lastname}#=%=#Kohail
+Author{5}{Email}#=%=#kohail@informatik.uni-hamburg.de
+Author{5}{Affiliation}#=%=#Universität Hamburg
+Author{6}{Firstname}#=%=#Asif
+Author{6}{Lastname}#=%=#Ekbal
+Author{6}{Email}#=%=#asif.ekbal@gmail.com
+Author{6}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{7}{Firstname}#=%=#Pushpak
+Author{7}{Lastname}#=%=#Bhattacharyya
+Author{7}{Email}#=%=#pushpakbh@gmail.com
+Author{7}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

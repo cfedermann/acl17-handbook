@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#161
+FinalPaperTitle#=%=#Sew-Embed at SemEval-2017 Task 2: Language-Independent Concept Representations from a Semantically Enriched Wikipedia
+ShortPaperTitle#=%=#Sew-Embed at SemEval-2017 Task 2: Language-Independent Concept Representations from a Semantically Enriched Wikipedia
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Claudio Delli Bovi
+JobTitle#==#
+Organization#==#Sapienza University of Rome
+Piazzale Aldo Moro, 5, 00185 Rome (RM), Italy
+Abstract#==#This paper describes Sew-Embed, our language-independent approach to
+multilingual and cross-lingual semantic word similarity as part of the
+SemEval-2017 Task 2. We leverage the Wikipedia-based concept representations
+developed by Raganato et al. (2016), and propose an embedded augmentation of
+their explicit high-dimensional vectors, which we obtain by plugging in an
+arbitrary word (or sense) embedding representation, and computing a weighted
+average in the continuous vector space. We evaluate Sew-Embed with two
+different off-the-shelf embedding representations, and report their
+performances across all monolingual and cross-lingual benchmarks available for
+the task. Despite its simplicity, especially compared with supervised or overly
+tuned approaches, Sew-Embed achieves competitive results in the cross-lingual
+setting (3rd best result in the global ranking of subtask 2, score 0.56).
+Author{1}{Firstname}#=%=#Claudio
+Author{1}{Lastname}#=%=#Delli Bovi
+Author{1}{Email}#=%=#dellibovi@di.uniroma1.it
+Author{1}{Affiliation}#=%=#Sapienza University of Rome
+Author{2}{Firstname}#=%=#Alessandro
+Author{2}{Lastname}#=%=#Raganato
+Author{2}{Email}#=%=#raganato@di.uniroma1.it
+Author{2}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

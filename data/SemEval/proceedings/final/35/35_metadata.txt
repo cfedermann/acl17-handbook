@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Amobee at SemEval-2017 Task 4: Deep Learning System for Sentiment Detection on Twitter
+ShortPaperTitle#=%=#Amobee at SemEval-2017 Task 4: Deep Learning System for Sentiment Detection on Twitter
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Daniel Fleischer
+JobTitle#==#
+Organization#==#Amobee, Israel.
+Abstract#==#This paper describes the Amobee sentiment analysis system, adapted to compete
+in SemEval 2017 task 4. The system consists of two parts: a supervised training
+of RNN models based on a Twitter sentiment treebank, and the use of feedforward
+NN, Naive Bayes and logistic regression classifiers to produce predictions for
+the different sub-tasks. The algorithm reached the 3rd place on the 5-label
+classification task (sub-task C).
+Author{1}{Firstname}#=%=#Alon
+Author{1}{Lastname}#=%=#Rozental
+Author{1}{Email}#=%=#arozental@amobee.com
+Author{1}{Affiliation}#=%=#Amobee
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#Fleischer
+Author{2}{Email}#=%=#danielf@amobee.com
+Author{2}{Affiliation}#=%=#Amobee
+
+==========

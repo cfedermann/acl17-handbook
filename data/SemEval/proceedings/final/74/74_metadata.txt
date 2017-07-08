@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#74
+FinalPaperTitle#=%=#ELiRF-UPV at SemEval-2017 Task 7: Pun Detection and Interpretation
+ShortPaperTitle#=%=#ELiRF-UPV at SemEval-2017 Task 7: Pun Detection and Interpretation
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Lluís F. Hurtado
+JobTitle#==#
+Organization#==#Universitat Politècnica de València
+Camí de Vera, sn
+46022, València
+Abstract#==#This paper describes the participation of ELiRF-UPV team at task
+7 (subtask 2: homographic pun detection and subtask 3: homographic pun
+interpretation) of SemEval2017. Our approach is based on the use of word
+embeddings to find related words in a sentence and a version of the Lesk
+algorithm to establish relationships between synsets.
+The results obtained are in line with those obtained by the other participants
+and they encourage us to continue working on this problem.
+Author{1}{Firstname}#=%=#Lluís-F.
+Author{1}{Lastname}#=%=#Hurtado
+Author{1}{Email}#=%=#lhurtado@dsic.upv.es
+Author{1}{Affiliation}#=%=#Universitat Politècnica de València
+Author{2}{Firstname}#=%=#Encarna
+Author{2}{Lastname}#=%=#Segarra
+Author{2}{Email}#=%=#esegarra@dsic.upv.es
+Author{2}{Affiliation}#=%=#Universitat Politècnica de València
+Author{3}{Firstname}#=%=#Ferran
+Author{3}{Lastname}#=%=#Pla
+Author{3}{Email}#=%=#fpla@dsic.upv.es
+Author{3}{Affiliation}#=%=#Universitat Politècnica de València
+Author{4}{Firstname}#=%=#Pascual
+Author{4}{Lastname}#=%=#Carrasco
+Author{4}{Email}#=%=#pascargo@dsic.upv.es
+Author{4}{Affiliation}#=%=#Universitat Politècnica de València
+Author{5}{Firstname}#=%=#José-Ángel
+Author{5}{Lastname}#=%=#González
+Author{5}{Email}#=%=#jogonba2@dsic.upv.es
+Author{5}{Affiliation}#=%=#Universitat Politècnica de València
+
+==========

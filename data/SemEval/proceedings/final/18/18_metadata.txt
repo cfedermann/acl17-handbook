@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#SINAI at SemEval-2017 Task 4: User based classification
+ShortPaperTitle#=%=#SINAI at SemEval-2017 Task 4: User based classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Salud María Jiménez-Zafra
+JobTitle#==#
+Organization#==#Universidad de Jaén, Campus Las Lagunillas, 23071, Jaén (Spain)
+Abstract#==#This document describes our participation in SemEval-2017 Task 4: Sentiment
+Analysis in Twitter. We have only reported results for subtask B - English,
+determining the polarity towards a topic on a two point scale (positive or
+negative sentiment). Our main contribution is the integration of user
+information in the classification process. A SVM model is trained with Word2Vec
+vectors from user's tweets extracted from his timeline. The obtained results
+show that user-specific classifiers trained on tweets from user timeline can
+introduce noise as they are error prone because they are classified by an
+imperfect system. This encourages us to explore further integration of user
+information for author-based Sentiment Analysis.
+Author{1}{Firstname}#=%=#Salud María
+Author{1}{Lastname}#=%=#Jiménez-Zafra
+Author{1}{Email}#=%=#sjzafra@ujaen.es
+Author{1}{Affiliation}#=%=#Universidad de Jaén
+Author{2}{Firstname}#=%=#Arturo
+Author{2}{Lastname}#=%=#Montejo-Ráez
+Author{2}{Email}#=%=#amontejo@ujaen.es
+Author{2}{Affiliation}#=%=#University of Jaén
+Author{3}{Firstname}#=%=#Maite
+Author{3}{Lastname}#=%=#Martin
+Author{3}{Email}#=%=#maite@ujaen.es
+Author{3}{Affiliation}#=%=#Univeristy of Jaen
+Author{4}{Firstname}#=%=#L. Alfonso
+Author{4}{Lastname}#=%=#Urena Lopez
+Author{4}{Email}#=%=#laurena@ujaen.es
+Author{4}{Affiliation}#=%=#University of Jaen
+
+==========

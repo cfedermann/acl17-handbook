@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#145
+FinalPaperTitle#=%=#GW_QA at SemEval-2017 Task 3: Question Answer Re-ranking on Arabic Fora
+ShortPaperTitle#=%=#GW_QA at SemEval-2017 Task 3: Question Answer Re-ranking on Arabic Fora
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Nada
+JobTitle#==#
+Organization#==#The George Washington university
+Abstract#==#This paper describes our submission to SemEval-2017 Task 3 Subtask D, "Question
+Answer Ranking in Arabic Community Question Answering". In this work, we
+applied a supervised machine learning approach to automatically re-rank a set
+of QA pairs according to their relevance to a given question. We employ
+features based on latent semantic models, namely WTMF, as well as a set of
+lexical features based on string lengths and surface level matching. The
+proposed system ranked first out of 3 submissions, with a MAP score of 61.16\%.
+Author{1}{Firstname}#=%=#Nada
+Author{1}{Lastname}#=%=#Almarwani
+Author{1}{Email}#=%=#nadaoh@gwu.edu
+Author{1}{Affiliation}#=%=#The George Washington University
+Author{2}{Firstname}#=%=#Mona
+Author{2}{Lastname}#=%=#Diab
+Author{2}{Email}#=%=#mtdiab@gwu.edu
+Author{2}{Affiliation}#=%=#GWU
+
+==========

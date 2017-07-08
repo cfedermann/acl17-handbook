@@ -1,0 +1,465 @@
+%
+% File acl2017.tex
+%
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{array}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+
+\usepackage{graphicx}
+\graphicspath{{image/}}
+
+\usepackage{url}
+
+\aclfinalcopy % Uncomment this line for the all SemEval submissions
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+%Title format for system description papers by task participants
+\title{ECNU at SemEval-2017 Task 5: An Ensemble of Regression Algorithms with Effective Features for Fine-Grained Sentiment Analysis in Financial Domain}
+%Title format for task description papers by task organizers
+%\title{SemEval-2017 Task [TaskNumber]:  [Task Name]}
+
+
+\author{Mengxiao Jiang$^{1}$, Man Lan$^{1,2\ast}$, Yuanbin Wu$^{1,2}$\\
+        $^1$Department of Computer Science and Technology, \\
+        East China Normal University, Shanghai 200062, P.R.China \\
+        $^2$Shanghai Key Laboratory of Multidimensional Information Processing \\
+        {\tt 51151201080@stu.ecnu.edu.cn, mlan,ybwu@cs.ecnu.edu.cn} \\
+}
+
+
+
+
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+This paper describes our systems submitted to the Fine-Grained Sentiment Analysis on Financial Microblogs and News task (i.e., Task 5) in SemEval-2017. This task includes two subtasks in microblogs and news headline domain respectively. To settle this problem, we extract four types of effective features, including linguistic features, sentiment lexicon features, domain-specific features and word embedding features. Then we employ these features to construct models by using ensemble regression algorithms. Our submissions rank 1st and rank 5th in subtask 1 and subtask 2 respectively.
+\end{abstract}
+
+
+
+\section{Introduction}
+\label{sect:intro}
+
+
+SemEval-2017 Task 5 is Fine-Grained Sentiment Analysis on Financial Microblogs and News\cite{SemEval-2017:task5}, focusing on identifying positive (bullish; believing that the stock price will increase) and negative (bearish; believing that the stock price will decline) sentiment associated with stocks and companies from microblogs and news domains. Unlike previous sentiment analysis, in this task, the fine-grained sentiment analysis not only contains sentiment orientation (i.e., positive or negative of the sentiment score) but also sentiment strength (i.e., the value of the sentiment score) attached to a particular company or stock explicitly or implicitly expressed in given texts.
+
+
+
+Given a text instance (a microblog message from Twitter or StockTwits in subtask 1, a news statement or a headline in subtask 2), the goal of participants is to predict the sentiment score for each of the stocks and companies mentioned. The sentiment score is a floating value in the range of -1 (very negative) to 1 (very positive), with 0 designating neutral sentiment. Each microblog instance contains the following 5 items: ``id", ``source" (i.e., Twitter or StockTwits), ``cashtag" (i.e., the company stock symbols to be predicted, e.g. \emph{``\$AAPL"}), ``spans" and ``sentiment score". And each news headline instance contains 4 items: ``id", ``company" (i.e., the company to be predicted), ``title" and ``sentiment score".
+
+There are several differences between the spans in subtask 1 and the title in subtask 2: (1) The spans are sentence fragments related to the cashtag to be predicted, whereas the title is a complete sentence; (2) The spans almost regard one cashtag while the title usually contains one or more companies; (3) Due to (1) and (2), the spans contain less words  but more effective information and less noises, which is contrary to the title.
+
+
+
+In this work, the similar method is adopted for two subtasks. We extract a series of elaborately designed features. In addition to linguistic features, sentiment lexicon features and word embedding features, we also extract some domain-specific features for this task. Besides, we examine multiple different regression algorithms and ensemble methods are used to improve the performance of our models.
+
+
+
+The rest of this paper is structured as follows. Section 2 describes our system in details, including data preprocessing, feature engineering, learning
+algorithms and evaluation measure. Section 3 reports datasets, experiments and results discussion. Finally, Section 4 concludes our work.
+
+\section{System Description}
+
+
+
+To solve these two subtasks, we extract lots of traditional NLP features combined with multiple machine learning algorithms to build supervised regression models. Due to the differences of data forms and data sources between the two subtasks, we adopt different features and algorithms for each subtask.
+
+
+Specifically, for subtask $1$, we rebuild the metadata of training and test set respectively with the official API of Twitter and StockTwits. The metadata contains the following information: tweets info or StockTwits info (e.g., ``retweet\_count"), users info (e.g., ``favourites\_count") and entities info (e.g., ``sentiment").  As most of metadata of Twitter in test dataset is missing, we only extract the metadata features for StockTwits.
+
+
+
+\subsection{Data Preprocessing}
+
+Since the differences between the spans and the title described in section \ref{sect:intro}, for subtask 2, we replace the target company with \emph{``TCOMPANY"} and replace other company with \emph{``OCOMPNAY"} in the title.
+
+
+For both subtasks, the subsequent preprocessing is the same. We firstly replace all URLs with ``url" and transform the abbreviations, punctuation with a special format, slangs and elongated words to their normal format. Then, we use \emph{Stanford CoreNLP tools}\cite{manning-EtAl:2014:P14-5} for tokenization, POS tagging, named entity recognizing (NER) and parsing. Finally, the WordNet-based Lemmatizer implemented in NLTK\footnote{http://nltk.org} is adopted to lemmatize words to their base forms with the aid of their POS tags. And the word stemmer based on the Porter stemming algorithm and implemented in NLTK is adopted to remove morphological affixes from lemmatized words.
+%The words produced after this series of processing are denoted as \emph{preprocessed words}.
+
+
+
+
+\subsection{Feature Engineering}
+
+
+We extract the following four types of features to construct supervised regression models for two subtasks, i.e., linguistic features, sentiment lexicon features, domain-specific features and word embedding features.
+
+
+
+\subsubsection{Linguistic Features}
+
+
+\textbf{\emph{N-grams}:}
+We remove the cashtag, punctuation, words that contain numbers and words with a length less than 2 from the sentence, and then extract 3 types of Bag-of-Words features as \emph{N-grams} features, where N = \{1,2,3\} (i.e., \emph{unigram}, \emph{bigram}, and \emph{trigram} features).
+
+
+
+\textbf{\emph{RF N-grams}:}
+
+Differ from the \emph{N-grams} features where each token shares the same weight, we calculate the weight for each token similar to \cite{lan2009supervised}.  We firstly count the number of occurrences of each token in the positive and negative samples in the training data. Then we calculate the weight (i.e., \emph{rf}) for each token in \emph{unigram}, \emph{bigram} and \emph{trigram} as follows:
+
+\begin{small}
+\begin{displaymath}\label{rf}
+  rf = max \left( ln( 2 + \frac{a}{max(1,c)} ), \ ln( 2 + \frac{c}{max(1,a)} ) \right)
+\end{displaymath}
+\end{small}
+
+where \emph{a} is the number of sentences in the positive category that contain this token and \emph{c} is the number of sentences in the negative category that contain this token.
+
+Finally, using a method similar to the \emph{N-grams} features, we extract 3 types of \emph{RF N-grams} features, where N = \{1,2,3\}.
+
+The difference between these two features is that \emph{RF N-grams} features use the corresponding \emph{rf} weight whereas \emph{N-grams} features use 1 to represent the occurrence of words.
+
+
+
+\textbf{\emph{Verb}:}
+Verbs usually contain more subjective tendencies. Thus, we also extract verbs (whose corresponding POS tags are VB, VBD, VBG, VBN, VBP and VBZ) from the sentence as \emph{Verb} features with the Bag-of-Words form.
+
+
+\textbf{\emph{NER}:}
+Considering that the money, number and percent informations might be useful for predicting the sentiment score of stocks in financial domain, we extract $11$ types of named entities (i.e., DATE, DURATION, LOCATION, MONEY, NUMBER, ORDINAL, ORGANIZATION, PERCENT, PERSON, SET, TIME) from the sentence and represent each type of  named entity as a binary feature to check whether it appears in the current sentence.
+
+
+
+
+\textbf{\emph{Word Cluster}:}
+
+Since the high dimension of \emph{N-grams} features, we also extract \emph{word cluster} features to reduce the dimension of sentence representation (compared with \emph{N-grams} features).
+
+The \emph{word cluster} features are extracted as follows: Firstly, we used the publicly available \emph{Google word2vec}\footnote{https://code.google.com/archive/p/word2vec}\footnote{https://drive.google.com/file/d/0B7XkCwpI5KDYNlN
+UTTlSS21pQmM/edit} that were trained on 100 billion words from Google News with the Skip-gram model \cite{mikolov2013distributed} to get a $300$-dimensional vector for each word in sentence.
+
+Then we use the \emph{K}-means algorithm (k = 50) to cluster the words in the 300-dimensional vector space, and the value of k is chosen according to the preliminary experiment. After that, the word in sentence is replaced by its corresponding cluster assignment to get \emph{word cluster} features.
+
+
+
+\subsubsection{Sentiment Lexicon Features}
+
+We also extract sentiment lexicon features (\emph{SentiLexi}) to capture the sentiment information of the given sentence.
+
+ For each word in the sentence, we calculate five sentiment scores for each sentiment lexicon to construct \emph{SentiLexi}: (1) the ratio of positive words, (2) the ratio of negative words, (3) the maximum sentiment score, (4) the minimum sentiment score, (5) the sum of sentiment scores. We transform the sentiment scores in all sentiment lexicons to the range of $[-1,1]$, where ``$-$" denotes negative sentiment. If the word does not exist in one sentiment lexicon, its corresponding score is set to zero. The following $8$ sentiment lexicons are adopted in our systems: \emph{Bing Liu opinion lexicon}\footnote{http://www.cs.uic.edu/liub/FBS/sentiment-analysis.html}, \emph{General Inquirer lexicon}\footnote{http://www.wjh.harvard.edu/inquirer/homecat.htm},
+\emph{IMDB} \cite{zhu2013ecnucs},
+\emph{MPQA}\footnote{http://mpqa.cs.pitt.edu/},
+\emph{AFINN}\footnote{http://www2.imm.dtu.dk/pubdb/views/publication\_details\\.php?id=6010},
+\emph{SentiWordNet}\footnote{http://sentiwordnet.isti.cnr.it/},
+\emph{NRC Hashtag Sentiment Lexicon}\footnote{http://www.umiacs.umd.edu/saif/WebDocs/NRC-
+Hashtag-Sentiment-Lexicon-v0.1.zip},
+\emph{NRC Sentiment140 Lexicon}\footnote{http://help.sentiment140.com/for-students/}.
+
+\subsubsection{Domain-specific Features}
+
+Observing data, we found that the data in financial domain usually contains numbers. These numbers can indicate the degree of bullish or bearish, which has an important impact on the sentiment score of stocks or companies in financial domain. Moreover, we found that ``call" and ``put" are terminologies usually used in microblog domain and related to sentiment score. Therefore, we design the following domain-specific features.
+
+\textbf{\emph{Number}:}
+
+We design 14 binary features to indicate whether there are the following types of numbers in the sentence: (1) \emph{+num} (with a ``$+$" in front of the number, e.g., ``+$5$" ); (2) \emph{-num}; (3) \emph{num\%}; (4) \emph{+num\%}; (5) \emph{-num\%};  (6) \emph{\$num}; (7) \emph{num\_word} (the number mixed with characters, e.g., ``$5$am"); (8) \emph{ordinal number} (e.g., ``2nd"); (9) \emph{num-num}; (10) \emph{num-num\%}; (11) \emph{num-num-num}; (12) \emph{num/num}; (13) \emph{num/num/num}; (14) \emph{only number} (there are no symbols and characters before and after the number).
+
+\textbf{\emph{Keyword+Number}:}
+
+Based on the \emph{Number} features, we defined $4$-dimensional \emph{Keyword+Number} features to indicate whether there is ``call" (or ``calls", ``called") or ``put" (or ``puts") before ``\emph{+num\%}" or ``\emph{-num\%}" in the sentence.
+
+Metadata
+usually contains information on the user who posted this tweet or StockTwits. The user information is useful, because it reflects the degree of authority or confidence of the posed tweet and StockTwits. Moreover, it also includes some extra useful informations about this tweet or StockTwits. Therefore, we extract the following \emph{Metadata} features.
+
+
+
+\textbf{\emph{Metadata}:}
+
+As most of metadata in Twitter is missing in test dataset, we used $8$ items of the metadata in StockTwits to design following three types of features: (1) \emph{Binary features} include the following items corresponding to the key in the metadata (json format): ``source", ``user/official",  `entities/sentiment", ``liked\_by\_self" and ``conversation/parent". (2) \emph{Value features} contain the values of ``conversation/replies" and ``likes/total". And the \emph{Value features} are standardized using [0-1] normalization. (3) \emph{Other features}: ``created\_at" indicates whether the StockTwits is created in [0am, 9am), [9am, 3pm) or [3pm,  24pm). In total, we obtain 12 features from metadata.
+
+
+\textbf{\emph{Punctuation (Punc)}:}
+People often use exclamation mark(!) and question mark(?) to express surprise or emphasis. Therefore, we extract the following 6 features: (1) whether there is ``!" in sentence; (2) whether there is ``?" in sentence; (3) the number of ``!"  in sentence; (4) the number of ``?"  in sentence; (5) the number of ``\$"  in sentence; (6) the number of continuous ``!" and ``?" in sentence, e.g., ``!!!", ``????" or ``!!??".
+
+
+\subsubsection{Word Embedding Features}
+
+The previous work \cite{zhang2016ecnu, jiang2016ecnu} on sentiment analysis task has proved the effectiveness of word embedding features. In this part, we utilize the \emph{Google word2vec} to get the representation of the sentence.
+
+
+\textbf{\emph{GoogleW2V}:}
+Unlike the \emph{word cluster} features, the \emph{Google word2vec} features (\emph{GoogleW2V}) are extracted as follows: We firstly use the \emph{Google word2vec} to get a $300$-dimensional vector for each word in sentence. Then, the simple \emph{min}, \emph{max}, \emph{average} pooling strategies are adopted to concatenate sentence vector representations with dimensionality of $900$.
+
+
+
+
+\subsection{Learning Algorithms}
+
+For both tasks, we explore 7 algorithms as follows: AdaBoost Regressor (ABR), Bagging Regressor (BR), Random Forest (RF), Gradient Boosting Regressor (GBR) and LASSO implemented in scikit-learn toolkit\cite{pedregosa2011scikit}, Support Vector Regression (SVR) implemented in liblinear toolkit\cite{fan2008liblinear} and XGBoost Regressor (XGB)\footnote{https://github.com/dmlc/xgboost} provided in \cite{friedman2001greedy}. All these algorithms are used with default parameters.
+
+\subsection{Evaluation Measure}
+
+To evaluate the performance of different systems, the official evaluation measure \emph{weighted cosine similarity} (WCS) is adopted for two subtasks. Cosine similarity and cosine\_weight will be calculated according the equation \ref{cosine} and \ref{weight} respectively, where $G$ is the vector of gold standard scores and $P$ is the vector of scores predicted by the system. The final score is the product of the cosine and the weight (i.e., $ WCS = cosine\_weight * cosine(G, P) $).
+\begin{equation}\label{cosine}
+cosine(G, P) = \frac{\sum_{i=1}^{n} G_{i} \times P_{i}} {\sqrt{\sum_{i=1}^n G_{i}^{2} } \times  \sqrt{\sum_{i=1}^n P_{i}^{2} }}
+\end{equation}
+
+\begin{equation}\label{weight}
+cosine\_weight =  \frac{|P|} {|G|}
+\end{equation}
+
+
+
+
+\section{Experiment}
+
+\subsection{Datasets}
+
+We conduct the experiments on the official datasets constructed by SSIX project \cite{davis2016social}, which consist of microblog messages (from Twitter or StockTwits) in subtask 1 and news headlines in subtask 2. Table \ref{table:dataset} shows the statistics of the datasets used in our experiments.
+%The json file provided by organizers contains $5$ fields, i.e., ``source", ``cashtag" or ``company", ``spans" or ``title", ``sentiment score" and ``id".
+
+
+\begin{table}[!htbp]
+\addtolength{\tabcolsep}{-5pt}
+\scriptsize
+\begin{center}
+%\begin{tabular}{|p{0.8cm}<{\centering}|p{0.65cm}<{\centering}|p{0.45cm}<{\centering}|p{0.5cm}<{\centering}|p{0.6cm}<{\centering}|p{0.45cm}<{\centering}|p{0.45cm}<{\centering}|p{0.45cm}<{\centering}|}
+\begin{tabular}{c|c|c|c|c|c|c|c}
+  \hline
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  \multicolumn{2}{c|}{Domain}   & Dataset & Instance & Metadata & Positive & Negative & Neutral  \\
+  \hline
+  \multirow{4}{*}{\tabincell{c}{Microblog \\ ( subtask 1) }} & \multirow{2}{*}{\tabincell{c}{Twitter}} & train & 765 & 603 & 246 & 510 & 9  \\
+   &  & test & 371 & 6 & 116 & 243 & 6  \\
+  \cline{2-8}
+   & \multirow{2}{*}{\tabincell{c}{StockTwits}} & train & 934 & 926 & 330 & 586 & 18  \\
+   &  & test & 429 & 423 & 141 & 280 & 8  \\
+  \hline
+  \multicolumn{2}{c|}{\multirow{2}{*}{Headline ( subtask 2) }}  & train & 1156 & - & 658 & 460 & 38  \\
+  \multicolumn{2}{c|}{} & test & 491 & - & 276 & 203 & 12  \\
+  \hline
+  \hline
+\end{tabular}
+\end{center}
+\caption{Statistics of training and test datasets of two subtasks. \emph{Positive, Negative and Neural} stand for the number of corresponding instances whose sentiment score is positive, negative and zero. }
+\label{table:dataset}
+\end{table}
+
+
+\subsection{Experiments on Training Data}
+
+\subsubsection{Comparison of Different Algorithms}
+\label{algorithm}
+
+%In order to compare the performance of these above 7 algorithms, we first perform comparison experiments using all features.
+Table \ref{Table:algorithm-selection} shows the results of different algorithms using all features described before. Note that we did not use the \emph{Metadata} feature in subtask 2 as there is no metadata in news headline domain. The 5-fold cross validation is performed for system development.
+\begin{table}[!htbp]
+\addtolength{\tabcolsep}{-4pt}
+\small
+\begin{tabular}{l|l|cc}
+  \hline
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  Method & Algorithm & Subtask 1 & Subtask 2 \\
+  %\cline{3-4}
+  %\multicolumn{2}{c}{Domain}
+  %&   & Microblog    & Headline \\
+  \hline
+
+  \multirow{7}{*}{Single} & SVR & 0.7450 & 0.7078 \\
+  & XGB & 0.7412 & 0.5875 \\
+  & ABR & 0.7382 & 0.6310 \\
+  & BR & 0.7441 & 0.5655 \\
+  & RF & 0.7373 & 0.5856 \\
+  & GBR & 0.7358 & 0.6763 \\
+  & LASSO & 0.3344 & 0.3297 \\
+  \hline
+  \multirow{2}{*}{Ensemble} & SVR + GBR  & 0.7679 & \textbf{0.7231} \\
+  & SVR + XGB + ABR + BR  & \textbf{0.7827} & 0.6875 \\
+  \hline
+  \hline
+\end{tabular}
+\caption{Results of algorithm selection experiments for two subtasks in terms of \emph{WCS} on training datasets.}
+\label{Table:algorithm-selection}
+\end{table}
+
+
+From Table \ref{Table:algorithm-selection}, we find that for both subtasks, SVR outperforms other algorithms and LASSO performs the worst among all algorithms. Other algorithms perform differently on two subtasks. Therefore, we also perform experiments using an ensemble method. The last two rows in Table \ref{Table:algorithm-selection} list the results of using the top two and top four algorithms to build the ensemble regression models (named EN(2) and EN(4)), which average the output scores of all regression algorithm. From Table \ref{Table:algorithm-selection}, we find that the ensemble classifier greatly increased the performance on both subtasks. Specifically, for subtask 1, the ensemble with top 4 algorithms improve 4\% and for subtask 2, ensemble with top 2 improved 2\% compared with the top score using a single regression algorithm. Therefore, we chose the EN(4) for subtask 1 and EN(2) for subtask 2 as the regression algorithm in following experiments.
+
+%to build supervised regression model
+
+
+\begin{table*}[!htbp]
+\addtolength{\tabcolsep}{-4.5pt}
+\scriptsize
+%\footnotesize
+%\begin{tabular}{p{0.9cm}|p{0.65cm}|p{0.55cm}|p{0.55cm}|p{0.2cm}|p{0.2cm}|p{0.2cm}|p{0.3cm}|p{0.2cm}|c|p{0.8cm}|p{0.25cm}|p{1.2cm}|p{0.7cm}|p{0.3cm}|c|c}
+\begin{tabular}{c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c}
+  \hline
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  \multirow{2}{*}{Features} & \multicolumn{9}{c|}{Linguistic} & SentiLexi & \multicolumn{4}{c|}{Domain-specific} & Word embedding & \multirow{2}{*}{WCS} \\
+  \cline{2-16}
+   & unigram & bigram & trigram & rf\_1 & rf\_2 & rf\_3 & Verb & NER & Word Cluster & SentiLexi & Number & Keyword+Number & Metadata & Punc & GoogleW2V
+    &  \\
+   \hline
+  Subtask 1 & $\surd$ &  &  & $\surd$ &  & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & \textbf{0.7912} \\
+   \hline
+  Subtask 2 &  &  &  & $\surd$ & $\surd$ & $\surd$ & $\surd$ &  & $\surd$ & $\surd$ & $\surd$ &  &  & $\surd$ & $\surd$ &\textbf{ 0.7264} \\
+  \hline
+  \hline
+\end{tabular}
+\caption{Results of feature selection experiments for both subtasks on training datasets. rf\_1, rf\_2 and rf\_3 stand for \emph{rf\_unigram}, \emph{rf\_bigram} and \emph{rf\_trigram} features respectively.}
+\label{table:featureselection}
+\end{table*}
+
+\subsubsection{Feature Selection}
+\label{feature}
+
+\begin{table}[!htbp]
+\addtolength{\tabcolsep}{5pt}
+
+\begin{tabular}{lcc}
+
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  \hline
+  \hline
+  Subtask 1 & & \\
+  Feature set & WCS & \ change (\%) \\
+  \hline
+  Best features & 0.7912 & - \\
+  - rf\_unigram & 0.7643
+ & -3.40 \\
+  - SentiLexi & 0.7664 & -3.10 \\
+  - metadata & 0.7841 & -0.90 \\
+  - number & 0.7869 & -0.54 \\
+   %& & &
+   \\
+  Subtask 2 & & \\
+  Feature set & WCS & \ change (\%) \\
+  \hline
+  Best features & 0.7264 & - \\
+  - GoogleW2V & 0.6951 & -4.31 \\
+  - rf\_unigram & 0.6964 & -4.13 \\
+  - SentiLexi & 0.7144 & -1.65 \\
+  - rf\_bigram & 0.7245 & -0.27 \\
+  \hline
+  \hline
+\end{tabular}
+\caption{Ablation study: the comparison of top 4 most important features.}
+\label{table:ablationstudy}
+\end{table}
+
+Table \ref{table:featureselection} shows the best feature sets for two subtasks. Based on previous ensemble algorithms, we adopt \emph{hill climbing} algorithm to select best features. That is, keep adding one type of feature at a time until no further improvement can be achieved.
+
+From Table \ref{table:featureselection}, we find that: (1) The \emph{RF N-grams}, \emph{Verb}, \emph{Word Cluster}, \emph{SentiLexi}, \emph{Number}, \emph{Punctuation} and \emph{GoogleW2V} features are beneficial for both subtasks; (2) Specially, the \emph{NER} features and \emph{Keyword+Number} features are more effective in subtask 1 than subtask 2.
+
+To further analysis the significance of different features, we conduct the ablation experiments for both systems. Table 4 lists the comparison of top 4 most important features.
+
+From Table \ref{table:featureselection} and the ablation study results in Table \ref{table:ablationstudy}, it is interesting to find that: (1) \emph{rf\_unigram} feature plays a key role in both subtasks and is more effective than \emph{unigram} feature. The reason may be that \emph{RF N-grams} features endow each word with a weight, which can capture how much the word contributes to the sentiment analysis of the sentence. Besides, the weight also contains some sentiment information. (2) \emph{SentiLexi} features also make great contribution to both subtasks, which indicates that \emph{SentiLexi} features are beneficial not only in traditional sentiment analysis tasks, but also in predicting the sentiment score of stocks in financial domain. (3) The \emph{Number} features and \emph{Keyword+Number} features are more effective in subtask 1 than subtask 2. The reason may be that there are plenty of numbers in the data of microblog domain but only a few numbers in news headline domain. (4) Although we only extract the \emph{Metadata} features from the StockTwits, it perform better than most of other features, which indicates that the metadata is indeed significant. (5) The \emph{GoogleW2V} feature is more effective in subtask 2 than subtask 1. The reason may be that the spans in microblog domain contain less words and many word vectors of the spans can not be obtained from the pre-trained \emph{Google word2vec}. (6) The \emph{bigram} feature and \emph{trigram} feature are not beneficial in both subtasks. The possible reason lies in the large dimensions of these two features leading to sparse representation in two domains.
+
+
+
+Overall, the system configurations for two subtasks are: using the optimum feature sets shown in Table \ref{table:featureselection} and the algorithms described in section \ref{algorithm} (i.e., ensemble with top 4 regression algorithm for subtask 1 and ensemble with top 2 regression algorithm for subtask 2) to build supervised regression models.
+
+
+\subsection{Results and Discussion on Test Data}
+\begin{table}[!htbp]
+\addtolength{\tabcolsep}{7pt}
+
+\begin{tabular}{c|c|c}
+\hline
+\hline
+ & Subtask 1 & Subtask 2 \\
+ \hline
+ Our system & 0.7779 & 0.7107 \\
+ Rank 1 & 0.7779 & 0.7452 \\
+ Rank 2 & 0.7600 & 0.7437 \\
+ Rank 3 & 0.7590 & 0.7327 \\
+ \hline
+ \hline
+\end{tabular}
+\caption{Performance of our systems and the top-ranked systems for two subtasks in terms of \emph{WCS} on test datasets.}
+\label{table:result-test}
+\end{table}
+
+Using the system configurations described above, we train separate model for each subtask and evaluate them against the test set in SemEval-2017 Task 5.
+
+
+Table \ref{table:result-test} shows the results on test datasets. From Table \ref{table:result-test}, we find that: (1) Our system achieves lower performance on test data compared with the training data, the possible reason might be the different data distribution held between them.
+ (2) Our results perform best among all submissions in subtask 1 and rank 5th in subtask 2, which proves the effectiveness of the method we proposed.
+
+
+
+
+\section{Conclusion and Future Work}
+
+In this paper, we extract four types of features, i.e.,  linguistic features, sentiment lexicon features, domain-specific features and word embedding features, and employ the ensemble regression models to predict the sentiment score for two subtasks. The results on test and training data show the effectiveness of our method for this task.
+
+For the future work, we would explore domain-specific sentiment lexicons and use the deep learning method (e.g., attention neural networks) to improve the performance.
+Due to the limitation of annotated data, we would like to first pre-train a neural network model on similar tasks (e.g., aspect-level sentiment analysis task), and then fine tune  the  neural network model on the current  fine-grained sentiment analysis task to boost the performance.
+
+\section*{Acknowledgments}
+
+This research is supported by grants from Science and Technology Commission of Shanghai Municipality (14DZ2260800 and 15ZR1410700), Shanghai Collaborative Innovation Center of Trustworthy Software for Internet of Things (ZF1213) and NSFC (61402175).
+
+
+
+% include your own bib file like this:
+%\bibliographystyle{acl}
+%\bibliography{acl2017}
+\bibliography{semeval2017}
+\bibliographystyle{acl_natbib}
+
+\appendix
+
+%\section{Supplemental Material}
+%\label{sec:supplemental}
+%ACL 2017 also encourages the submission of supplementary material
+%to report preprocessing decisions, model parameters, and other details
+%necessary for the replication of the experiments reported in the
+%paper. Seemingly small preprocessing decisions can sometimes make
+%a large difference in performance, so it is crucial to record such
+%decisions to precisely characterize state-of-the-art methods.
+%
+%Nonetheless, supplementary material should be supplementary (rather
+%than central) to the paper. {\bf Submissions that misuse the supplementary
+%material may be rejected without review.}
+%Essentially, supplementary material may include explanations or details
+%of proofs or derivations that do not fit into the paper, lists of
+%features or feature templates, sample inputs and outputs for a system,
+%pseudo-code or source code, and data. (Source code and data should
+%be separate uploads, rather than part of the paper).
+%
+%The paper should not rely on the supplementary material: while the paper
+%may refer to and cite the supplementary material and the supplementary material will be available to the
+%reviewers, they will not be asked to review the
+%supplementary material.
+%
+%Appendices ({\em i.e.} supplementary material in the form of proofs, tables,
+%or pseudo-code) should come after the references, as shown here. Use
+%\verb|\appendix| before any appendix section to switch the section
+%numbering over to letters.
+%
+%\section{Multiple Appendices}
+%\dots can be gotten by using more than one section. We hope you won't
+%need that.
+
+\end{document}

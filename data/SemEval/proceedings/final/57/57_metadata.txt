@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#57
+FinalPaperTitle#=%=#SimBow at SemEval-2017 Task 3: Soft-Cosine Semantic Similarity between Questions for Community Question Answering
+ShortPaperTitle#=%=#SimBow at SemEval-2017 Task 3: Soft-Cosine Semantic Similarity between Questions for Community Question Answering
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#charlet
+JobTitle#==#
+Organization#==#Orange Labs, 2 avenue Pierre Marzin, 22307 Lannion Cedex, France
+Abstract#==#This paper describes the SimBow system submitted at SemEval2017-Task3, for the
+question-question similarity subtask B. The proposed approach is a supervised
+combination of different unsupervised textual similarities. These textual
+similarities rely on the introduction of a relation matrix in the classical
+cosine similarity between bag-of-words, so as to get a soft-cosine that takes
+into account relations between words. According to the type of relation matrix
+embedded in the soft-cosine, semantic or lexical relations can be considered.
+Our system ranked first among the official submissions of subtask B.
+Author{1}{Firstname}#=%=#Delphine
+Author{1}{Lastname}#=%=#Charlet
+Author{1}{Email}#=%=#delphine.charlet@orange.com
+Author{1}{Affiliation}#=%=#Orange
+Author{2}{Firstname}#=%=#Geraldine
+Author{2}{Lastname}#=%=#Damnati
+Author{2}{Email}#=%=#geraldine.damnati@orange.com
+Author{2}{Affiliation}#=%=#Orange Labs
+
+==========

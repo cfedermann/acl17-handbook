@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#SCIR-QA at SemEval-2017 Task 3: CNN Model Based on Similar and Dissimilar Information between Keywords for Question Similarity
+ShortPaperTitle#=%=#SCIR-QA at SemEval-2017 Task 3: CNN Model Based on Similar and Dissimilar Information between Keywords for Question Similarity
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Le Qi
+JobTitle#==#
+Organization#==#Research Center for Social Computing and Information Retrieval Harbin Institute of Technology at No.99, Huayue Street, Nangang District, Harbin，Heilongjiang，China
+Abstract#==#We describe a method of calculating the similarity of questions in community
+QA. Question in cQA are usually very long and there are a lot of useless
+information about calculating the similarity of questions. Therefore,we
+implement a CNN model based on similar and dissimilar information between
+question’s keywords. We extract the keywords of questions, and then model the
+similar and dissimilar information between the keywords, and use the CNN model
+to calculate the similarity.
+Author{1}{Firstname}#=%=#Le
+Author{1}{Lastname}#=%=#Qi
+Author{1}{Email}#=%=#lqi@ir.hit.edu.cn
+Author{1}{Affiliation}#=%=#18644058160
+Author{2}{Firstname}#=%=#Yu
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#zhangyu@ir.hit.edu.cn
+Author{2}{Affiliation}#=%=#Tel: +86-451-86413683 Ext. 815
+Author{3}{Firstname}#=%=#Ting
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#tliu@hit.edu.cn
+Author{3}{Affiliation}#=%=#+86-451-86413683(86402993)-801
+
+==========

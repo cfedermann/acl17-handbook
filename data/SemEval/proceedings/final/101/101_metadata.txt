@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#101
+FinalPaperTitle#=%=#The Meaning Factory at SemEval-2017 Task 9: Producing AMRs with Neural Semantic Parsing
+ShortPaperTitle#=%=#Producing AMRs with Neural Semantic Parsing
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Rik van Noord
+JobTitle#==#
+Organization#==#University of Groningen
+Broerstraat 5 9712 CP Groningen
+Abstract#==#We evaluate a semantic parser based on a character-based sequence-to-sequence
+model in the context of the SemEval-2017 shared task on semantic parsing for
+AMRs. With data augmentation, super characters, and POS-tagging we gain major
+improvements in performance compared to a baseline character-level model.
+Although we improve on previous character-based neural semantic parsing models,
+the overall accuracy is still lower than a state-of-the-art AMR parser. An
+ensemble combining our neural semantic parser with an existing, traditional
+parser, yields a small gain in performance.
+Author{1}{Firstname}#=%=#Rik
+Author{1}{Lastname}#=%=#van Noord
+Author{1}{Email}#=%=#rikvannoord@gmail.com
+Author{1}{Affiliation}#=%=#University of Groningen
+Author{2}{Firstname}#=%=#Johan
+Author{2}{Lastname}#=%=#Bos
+Author{2}{Email}#=%=#johan.bos@rug.nl
+Author{2}{Affiliation}#=%=#University of Groningen
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#143
+FinalPaperTitle#=%=#MITRE at SemEval-2017 Task 1: Simple Semantic Similarity
+ShortPaperTitle#=%=#MITRE at SemEval-2017 Task 1: Simple Semantic Similarity
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Vivian Coyan, 13 April 2017
+JobTitle#==#Corporate Licensing Manager
+Organization#==#The MITRE Corporation, 7515 Colshire Drive, McLean, VA 22102.
+Abstract#==#This paper describes MITRE's participation in the Semantic Textual Similarity
+task (SemEval-2017 Task 1), which evaluated machine learning approaches to the
+identification of similar meaning among text snippets in English, Arabic,
+Spanish, and Turkish. We detail the techniques we explored ranging from simple
+bag-of-ngrams classifiers to neural architectures with varied attention and
+alignment mechanisms. Linear regression is used to tie the
+systems together into an ensemble submitted for evaluation. The resulting
+system is capable of matching human similarity ratings of image captions with
+correlations of 0.73 to 0.83 in monolingual settings and 0.68 to 0.78 in
+cross-lingual conditions, demonstrating the power of relatively simple
+approaches.
+Author{1}{Firstname}#=%=#John
+Author{1}{Lastname}#=%=#Henderson
+Author{1}{Email}#=%=#jhndrsn@mitre.org
+Author{1}{Affiliation}#=%=#MITRE
+Author{2}{Firstname}#=%=#Elizabeth
+Author{2}{Lastname}#=%=#Merkhofer
+Author{2}{Email}#=%=#emerkhofer@mitre.org
+Author{2}{Affiliation}#=%=#MITRE
+Author{3}{Firstname}#=%=#Laura
+Author{3}{Lastname}#=%=#Strickhart
+Author{3}{Email}#=%=#lstrickhart@mitre.org
+Author{3}{Affiliation}#=%=#MITRE
+Author{4}{Firstname}#=%=#Guido
+Author{4}{Lastname}#=%=#Zarrella
+Author{4}{Email}#=%=#jzarrella@mitre.org
+Author{4}{Affiliation}#=%=#The MITRE Corporation
+
+==========

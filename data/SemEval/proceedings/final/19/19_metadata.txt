@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Fortia-FBK at SemEval-2017 Task 5: Bullish or Bearish? Inferring Sentiment towards Brands from Financial News Headlines
+ShortPaperTitle#=%=#Bullish or Bearish? Inferring Sentiment towards Brands from Financial News Headlines
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jacopo Staiano
+JobTitle#==#
+Organization#==#Fortia Financial Solutions
+17 Avenue George V, 75008 Paris (France)
+Abstract#==#In this paper, we describe a methodology to infer Bullish or Bearish sentiment
+towards companies/brands. More specifically, our approach leverages affective
+lexica and word embeddings in combination with convolutional neural networks to
+infer the sentiment of financial news headlines towards a target company. Such
+architecture was used and evaluated in the context of the SemEval 2017
+challenge (task 5, subtask 2), in which it obtained the best performance.
+Author{1}{Firstname}#=%=#Youness
+Author{1}{Lastname}#=%=#Mansar
+Author{1}{Email}#=%=#youness.mansar@fortia.fr
+Author{1}{Affiliation}#=%=#Fortia Financial Solutions
+Author{2}{Firstname}#=%=#Lorenzo
+Author{2}{Lastname}#=%=#Gatti
+Author{2}{Email}#=%=#l.gatti@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Sira
+Author{3}{Lastname}#=%=#Ferradans
+Author{3}{Email}#=%=#sira.ferradans@fortia.fr
+Author{3}{Affiliation}#=%=#Fortia Financial Solutions
+Author{4}{Firstname}#=%=#Marco
+Author{4}{Lastname}#=%=#Guerini
+Author{4}{Email}#=%=#guerini@fbk.eu
+Author{4}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{5}{Firstname}#=%=#Jacopo
+Author{5}{Lastname}#=%=#Staiano
+Author{5}{Email}#=%=#jacopo.staiano@fortia.fr
+Author{5}{Affiliation}#=%=#Fortia Financial Solutions
+
+==========

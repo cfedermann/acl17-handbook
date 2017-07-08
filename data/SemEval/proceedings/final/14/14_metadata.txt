@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#PKU_ICL at SemEval-2017 Task 10: Keyphrase Extraction with Model Ensemble and External Knowledge
+ShortPaperTitle#=%=#PKU_ICL at SemEval-2017 Task 10: Keyphrase Extraction with Model Ensemble and External Knowledge
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Liang Wang
+JobTitle#==#graduate student
+Organization#==#Peking University, Yiheyuan Road, No. 5, Beijing, China
+Abstract#==#This paper presents a system that participated in SemEval 2017 Task 10 (subtask
+A and subtask B): Extracting Keyphrases and Relations from Scientific
+Publications (Augenstein et al., 2017). Our proposed approach utilizes external
+knowledge to enrich feature representation of candidate keyphrase, including
+Wikipedia, IEEE taxonomy and pre-trained word embeddings etc. Ensemble of 
+unsupervised models, random forest and linear models are used for candidate
+keyphrase ranking and keyphrase type classification. Our system achieves the
+3rd place in subtask A and 4th place in subtask B.
+Author{1}{Firstname}#=%=#Liang
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#intfloat@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Sujian
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#lisujian@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+
+==========

@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#176
+FinalPaperTitle#=%=#IITP at SemEval-2017 Task 5: An Ensemble of Deep Learning and Feature Based Models for Financial Sentiment Analysis
+ShortPaperTitle#=%=#An Ensemble of Deep Learning and Feature Based Models for Financial Sentiment Analysis
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#SA
+JobTitle#==#
+Organization#==#Indian Institute of Technology Patna, Bihta, Patna, India.
+Abstract#==#In this  paper we propose an ensemble based model which combines state of the
+art deep learning sentiment analysis algorithms like Convolution Neural Network
+(CNN) and Long Short Term Memory (LSTM) along with feature based models to
+identify optimistic or pessimistic sentiments associated with companies and
+stocks in financial texts. We build our system to participate in a competition
+organized by Semantic Evaluation 2017 International Workshop. We combined
+predictions from various models using an artificial neural network to determine
+the opinion towards an entity in (a) Microblog Messages and (b) News Headlines
+data. Our models achieved a cosine similarity score of 0.751 and 0.697 for the
+above two tracks giving us the rank of 2nd and 7th best team respectively.
+Author{1}{Firstname}#=%=#Deepanway
+Author{1}{Lastname}#=%=#Ghosal
+Author{1}{Email}#=%=#deepanwayedu@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{2}{Firstname}#=%=#Shobhit
+Author{2}{Lastname}#=%=#Bhatnagar
+Author{2}{Email}#=%=#shobhit.bhat@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{3}{Firstname}#=%=#Md Shad
+Author{3}{Lastname}#=%=#Akhtar
+Author{3}{Email}#=%=#shad.akhtar@gmail.com
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{4}{Firstname}#=%=#Asif
+Author{4}{Lastname}#=%=#Ekbal
+Author{4}{Email}#=%=#asif.ekbal@gmail.com
+Author{4}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{5}{Firstname}#=%=#Pushpak
+Author{5}{Lastname}#=%=#Bhattacharyya
+Author{5}{Email}#=%=#pushpakbh@gmail.com
+Author{5}{Affiliation}#=%=#Indian Institute of Technology Patna
+
+==========

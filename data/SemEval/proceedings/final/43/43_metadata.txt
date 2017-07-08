@@ -1,0 +1,53 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#Tweester at SemEval-2017 Task 4: Fusion of Semantic-Affective and pairwise classification models for sentiment analysis in Twitter
+ShortPaperTitle#=%=#Tweester at SemEval-2017 Task 4: Fusion of Semantic-Affective and pairwise classification models for sentiment analysis in Twitter
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Kolovou Athanasia
+JobTitle#==#Instructional Lab. Personnel
+Organization#==#National and Kapodistrian University of Athens, Greece
+Abstract#==#In this paper, we describe our submission to SemEval2017 Task 4: Sentiment
+Analysis in Twitter. Specifically the proposed system participated both to
+tweet polarity classification (two-, three- and five class) and tweet
+quantification (two and five-class) tasks.
+Author{1}{Firstname}#=%=#Athanasia
+Author{1}{Lastname}#=%=#Kolovou
+Author{1}{Email}#=%=#akolovou@di.uoa.gr
+Author{1}{Affiliation}#=%=#National and Kapodistrian University of Athens
+Author{2}{Firstname}#=%=#Filippos
+Author{2}{Lastname}#=%=#Kokkinos
+Author{2}{Email}#=%=#filippoutios@hotmail.com
+Author{2}{Affiliation}#=%=#National Technical University of Athens
+Author{3}{Firstname}#=%=#Aris
+Author{3}{Lastname}#=%=#Fergadis
+Author{3}{Email}#=%=#fergadis.aris@gmail.com
+Author{3}{Affiliation}#=%=#School of ECE, National Technical University of Athens, Zografou 15780, Athens, Greece and ``Athena" Research and Innovation Center, Maroussi 15125, Athens, Greece
+Author{4}{Firstname}#=%=#Pinelopi
+Author{4}{Lastname}#=%=#Papalampidi
+Author{4}{Email}#=%=#nelipapalam@gmail.com
+Author{4}{Affiliation}#=%=#School of ECE, National Technical University of Athens, Zografou 15780, Athens, Greece
+Author{5}{Firstname}#=%=#Elias
+Author{5}{Lastname}#=%=#Iosif
+Author{5}{Email}#=%=#iosife@central.ntua.gr
+Author{5}{Affiliation}#=%=#School of ECE, National Technical University of Athens
+Author{6}{Firstname}#=%=#Nikolaos
+Author{6}{Lastname}#=%=#Malandrakis
+Author{6}{Email}#=%=#malandra@usc.edu
+Author{6}{Affiliation}#=%=#Signal Analysis and Interpretation Laboratory (SAIL), USC, Los Angeles, CA 90089, USA
+Author{7}{Firstname}#=%=#Elisavet
+Author{7}{Lastname}#=%=#Palogiannidi
+Author{7}{Email}#=%=#epalogiannidi@gmail.com
+Author{7}{Affiliation}#=%=#School of ECE, Technical University of Crete
+Author{8}{Firstname}#=%=#Haris
+Author{8}{Lastname}#=%=#Papageorgiou
+Author{8}{Email}#=%=#xaris@ilsp.athena-innovation.gr
+Author{8}{Affiliation}#=%=#Institute for Language and Speech Processing  ILSP/ ATHENA R.C.
+Author{9}{Firstname}#=%=#Shrikanth
+Author{9}{Lastname}#=%=#Narayanan
+Author{9}{Email}#=%=#shri@sipi.usc.edu
+Author{9}{Affiliation}#=%=#University of Southern California
+Author{10}{Firstname}#=%=#Alexandros
+Author{10}{Lastname}#=%=#Potamianos
+Author{10}{Email}#=%=#apotam@gmail.com
+Author{10}{Affiliation}#=%=#National Technical University of Athens
+
+==========

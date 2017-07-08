@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#TrentoTeam at SemEval-2017 Task 3: An application of Grice Maxims in Ranking Community Question Answers
+ShortPaperTitle#=%=#TrentoTeam at SemEval-2017 Task 3: An application of Grice Maxims in Ranking Community Question Answers
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Abed Alhakim Freihat
+JobTitle#==#
+Organization#==#University Of Trento
+38126 Trento
+Italy
+Abstract#==#In   this   paper   we                                 present               the     
+        
+Tren-toTeam  system  which
+
+participated  to  thetask  3  at  SemEval-2017                                (Nakov 
+     
+
+et 
+al.,2017).We 
+concentrated  our  work  onapplying   Grice   Maxims(used   in                       
+     
+
+manystate-of-the-art Machine learning applica-tions(Vogel  et  al.,  2013; 
+Kheirabadiand  Aghagolzadeh,  2012;  Dale  and                               
+Re-iter,     
+
+1995;  Franke, 
+2011))                                to              ranking  an-swers of a question
+by answers
+relevancy.Particularly, 
+we  created  a                                ranker                    systembased on
+relevancy
+scores,
+assigned
+by 3main
+components:  Named entity recogni-tion,  similarity score,  sentiment
+analysis.Our system obtained a comparable resultsto Machine learning systems.
+Author{1}{Firstname}#=%=#Mohammed R. H.
+Author{1}{Lastname}#=%=#Qwaider
+Author{1}{Email}#=%=#qwaider@fbk.eu
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{2}{Firstname}#=%=#Abed Alhakim
+Author{2}{Lastname}#=%=#Freihat
+Author{2}{Email}#=%=#abed.freihat@unitn.it
+Author{2}{Affiliation}#=%=#University of Trento
+Author{3}{Firstname}#=%=#Fausto
+Author{3}{Lastname}#=%=#Giunchiglia
+Author{3}{Email}#=%=#fausto.giunchiglia@unitn.it
+Author{3}{Affiliation}#=%=#University of Trento
+
+==========

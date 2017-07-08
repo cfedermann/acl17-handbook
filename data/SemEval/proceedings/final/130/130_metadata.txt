@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#130
+FinalPaperTitle#=%=#TakeLab at SemEval-2017 Task 5: Linear aggregation of word embeddings for fine-grained sentiment analysis of financial news
+ShortPaperTitle#=%=#TakeLab at SemEval-2017 Task 5: Linear aggregation of word embeddings for fine-grained sentiment analysis of financial news
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Leon Rotim
+JobTitle#==#
+Organization#==#Faculty of Electrical Engineering and Computing (FER), Unska 3, Zagreb, Croatia
+Abstract#==#This paper describes our system for fine-grained sentiment scoring of news
+headlines submitted to SemEval 2017 task 5--subtask 2. Our system uses a
+feature-light method that consists of a Support Vector Regression (SVR) with
+various kernels and word vectors as features. Our best-performing submission
+scored 3rd on the task out of 29 teams and 4th out of 45 submissions with a
+cosine score of 0.733.
+Author{1}{Firstname}#=%=#Leon
+Author{1}{Lastname}#=%=#Rotim
+Author{1}{Email}#=%=#leon.rotim@fer.hr
+Author{1}{Affiliation}#=%=#TakeLab FER, University of Zagreb
+Author{2}{Firstname}#=%=#Martin
+Author{2}{Lastname}#=%=#Tutek
+Author{2}{Email}#=%=#martin.tutek@gmail.com
+Author{2}{Affiliation}#=%=#University of Zagreb
+Author{3}{Firstname}#=%=#Jan
+Author{3}{Lastname}#=%=#Šnajder
+Author{3}{Email}#=%=#jan.snajder@fer.hr
+Author{3}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+
+==========

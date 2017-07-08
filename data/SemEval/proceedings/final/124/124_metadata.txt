@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#124
+FinalPaperTitle#=%=#NTNU-2 at SemEval-2017 Task 10: Identifying Synonym and Hyponym Relations among Keyphrases in Scientific Documents
+ShortPaperTitle#=%=#NTNU-2 at SemEval-2017 Task 10: Identifying Synonym and Hyponym Relations among Keyphrases in Scientific Documents
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Biswanath Barik
+JobTitle#==#
+Organization#==#Department of Computer Science
+Norwegian University of Science and Technology
+Sem Sælandsvei 9, NO-7491 Trondheim,NORWAY
+Abstract#==#This paper presents our relation extraction system for subtask C of
+SemEval-2017 Task 10: ScienceIE. Assuming that the keyphrases are already
+annotated in the input data, our work explores a  wide range of linguistic
+features, applies various feature selection techniques, optimizes the hyper
+parameters and class weights and experiments with different problem
+formulations (single classification model vs individual classifiers for each
+keyphrase type, single-step classifier vs pipeline classifier for hyponym
+relations). Performance of five popular classification algorithms are evaluated
+for each problem formulation along with feature selection. The best setting
+achieved an F1 score of 71.0% for synonym and 30.0% for hyponym relation on the
+test data.
+Author{1}{Firstname}#=%=#Biswanath
+Author{1}{Lastname}#=%=#Barik
+Author{1}{Email}#=%=#bn.barik@gmail.com
+Author{1}{Affiliation}#=%=#Norwegian University of Science and Technology (NTNU)
+Author{2}{Firstname}#=%=#Erwin
+Author{2}{Lastname}#=%=#Marsi
+Author{2}{Email}#=%=#emarsi@idi.ntnu.no
+Author{2}{Affiliation}#=%=#Norwegian University of Science and Technology (NTNU)
+
+==========

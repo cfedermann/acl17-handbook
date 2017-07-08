@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#189
+FinalPaperTitle#=%=#SemEval-2017 Task 6: #HashtagWars: Learning a Sense of Humor
+ShortPaperTitle#=%=#SemEval-2017 Task 6: #HashtagWars: Learning a Sense of Humor
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Peter Potash
+JobTitle#==#
+Organization#==#University of Massachusetts Lowell
+198 Riverside St., Lowell, MA 01854
+Abstract#==#This paper describes a new shared task for humor understanding that attempts to
+eschew the ubiquitous binary approach to humor detection and focus on
+comparative humor ranking instead. The task is based on a new dataset of funny
+tweets posted in response to shared hashtags, collected from the `Hashtag Wars'
+segment of the TV show @midnight. The results are evaluated in two subtasks
+that require the participants to generate either the correct pairwise
+comparisons of tweets (subtask A), or the correct ranking of the tweets
+(subtask B) in terms of how funny they are. 7 teams participated in subtask A,
+and 5 teams participated in subtask B. The best accuracy in subtask A was
+0.675. The best (lowest) rank edit distance for subtask B was 0.872.
+Author{1}{Firstname}#=%=#Peter
+Author{1}{Lastname}#=%=#Potash
+Author{1}{Email}#=%=#ppotash@cs.uml.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts Lowell
+Author{2}{Firstname}#=%=#Alexey
+Author{2}{Lastname}#=%=#Romanov
+Author{2}{Email}#=%=#jgc128@outlook.com
+Author{2}{Affiliation}#=%=#UMass Lowell
+Author{3}{Firstname}#=%=#Anna
+Author{3}{Lastname}#=%=#Rumshisky
+Author{3}{Email}#=%=#arum@cs.uml.edu
+Author{3}{Affiliation}#=%=#University of Massachusetts Lowell
+
+==========

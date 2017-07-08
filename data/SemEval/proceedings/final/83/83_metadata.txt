@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#83
+FinalPaperTitle#=%=#FuRongWang at SemEval-2017 Task 3: Deep Neural Networks for Selecting Relevant Answers in Community Question Answering
+ShortPaperTitle#=%=#FuRongWang at SemEval-2017 Task 3: DNNs for Selecting Relevant Answers in cQA
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sheng Zhang
+JobTitle#==#
+Organization#==#College of Information Systems and Management, National University of Defense Technology, Changsha, P. R. China
+Abstract#==#We describes deep neural networks frameworks in this paper to address the
+community question answering (cQA) ranking task (SemEval-2017 task 3).
+Convolutional neural networks and bi-directional long-short term memory
+networks are applied in our methods to extract semantic information from
+questions and answers (comments). In addition, in order to take the full
+advantage of question-comment semantic relevance, we deploy interaction layer
+and augmented features before calculating the similarity. The results show that
+our methods have the great effectiveness for both subtask A and subtask C.
+Author{1}{Firstname}#=%=#Sheng
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#ssdf93@163.com
+Author{1}{Affiliation}#=%=#National University of Defense Technology
+Author{2}{Firstname}#=%=#Jiajun
+Author{2}{Lastname}#=%=#Cheng
+Author{2}{Email}#=%=#jiajun.cheng@nudt.edu.cn
+Author{2}{Affiliation}#=%=#National University of Defense Technology
+Author{3}{Firstname}#=%=#Hui
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#huiwang@nudt.edu.cn
+Author{3}{Affiliation}#=%=#National University of Defense Technology
+Author{4}{Firstname}#=%=#Xin
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Email}#=%=#zhangxin@nudt.edu.cn
+Author{4}{Affiliation}#=%=#National University of Defense Technology
+Author{5}{Firstname}#=%=#Pei
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#peili@nudt.edu.cn
+Author{5}{Affiliation}#=%=#National University of Defense Technology
+Author{6}{Firstname}#=%=#Zhaoyun
+Author{6}{Lastname}#=%=#Ding
+Author{6}{Email}#=%=#zyding@nudt.edu.cn
+Author{6}{Affiliation}#=%=#National University of Defense Technology
+
+==========

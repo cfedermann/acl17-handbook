@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#178
+FinalPaperTitle#=%=#Talla at SemEval-2017 Task 3: Identifying Similar Questions Through Paraphrase Detection
+ShortPaperTitle#=%=#Talla at SemEval-2017 Task 3: Identifying Similar Questions Through Paraphrase Detection
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Byron Galbraith
+JobTitle#==#Chief Data Scientist
+Organization#==#Talla
+2 Park Plaza, Suite 700
+Boston, MA 02116
+Abstract#==#This paper describes our approach to the SemEval-2017 shared task of
+determining question-question similarity in a community question-answering
+setting (Task 3B). We extracted both syntactic and semantic similarity features
+between candidate questions, performed pairwise-preference learning to optimize
+for ranking order, and then trained a random forest classifier to predict
+whether the candidate questions are paraphrases of each other. This approach
+achieved a MAP of 45.7% out of max achievable 67.0% on the test set.
+Author{1}{Firstname}#=%=#Byron
+Author{1}{Lastname}#=%=#Galbraith
+Author{1}{Email}#=%=#byron@talla.com
+Author{1}{Affiliation}#=%=#Talla
+Author{2}{Firstname}#=%=#Bhanu
+Author{2}{Lastname}#=%=#Pratap
+Author{2}{Email}#=%=#bhanu@talla.com
+Author{2}{Affiliation}#=%=#Talla
+Author{3}{Firstname}#=%=#Daniel
+Author{3}{Lastname}#=%=#Shank
+Author{3}{Email}#=%=#daniel@talla.com
+Author{3}{Affiliation}#=%=#Talla
+
+==========

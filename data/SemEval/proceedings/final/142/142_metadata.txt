@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#142
+FinalPaperTitle#=%=#YNU-HPCC at SemEval 2017 Task 4: Using A Multi-Channel CNN-LSTM Model for Sentiment Classification
+ShortPaperTitle#=%=#YNU-HPCC at SemEval 2017 Task 4: Using A Multi-Channel CNN-LSTM Model for Sentiment Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Haowei Zhang
+JobTitle#==#
+Organization#==#School of Information Science and Engineering, Yunnan University, Kunming, P.R. China
+Abstract#==#In this paper, we propose a multi-channel convolutional neural network-long
+short-term memory (CNN-LSTM) model that consists of two parts: multi-channel
+CNN and LSTM to analyze the sentiments of short English messages from Twitter.
+Un-like a conventional CNN, the proposed model applies a multi-channel strategy
+that uses several filters of different length to extract active local n-gram
+features in different scales. This information is then sequentially composed
+using LSTM. By combining both CNN and LSTM, we can consider both local
+information within tweets and long-distance dependency across tweets in the
+classification process. Officially released results show that our system
+outperforms the baseline algo-rithm.
+Author{1}{Firstname}#=%=#Haowei
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#exzhawk@gmail.com
+Author{1}{Affiliation}#=%=#Yunnan University
+Author{2}{Firstname}#=%=#Jin
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#wangjin@ynu.edu.cn
+Author{2}{Affiliation}#=%=#Yunnan University
+Author{3}{Firstname}#=%=#Jixian
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#denoji@163.com
+Author{3}{Affiliation}#=%=#Yunnan University
+Author{4}{Firstname}#=%=#Xuejie
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Email}#=%=#xjzhang@ynu.edu.cn
+Author{4}{Affiliation}#=%=#Yunnan University
+
+==========

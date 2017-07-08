@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#93
+FinalPaperTitle#=%=#funSentiment at SemEval-2017 Task 4: Topic-Based Message Sentiment Classification by Exploiting  Word  Embeddings, Text Features and Target Contexts
+ShortPaperTitle#=%=#Topic-Based Message Sentiment Classification by Exploiting Word Embeddings, Text Features and Target Context
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Quanzhi Li
+JobTitle#==#
+Organization#==#Thomson Reuters
+3 Times Square
+New York, NY 10036
+Abstract#==#This paper describes the approach we used for SemEval-2017 Task 4: Sentiment
+Analysis in Twitter. Topic-based (target-dependent) sentiment analysis has
+become attractive and been used in some applications recently, but it is still
+a challenging research task. In our approach, we take the left and right
+context of a target into consideration when generating polarity classification
+features.  We use two types of word embeddings in our classifiers: the general
+word embeddings learned from 200 million tweets, and sentiment-specific word
+embeddings learned from 10 million tweets using distance supervision.  We also
+incorporate a text feature model in our algorithm. This model produces features
+based on text negation, tf.idf weighting scheme, and a Rocchio text
+classification method. We participated in four subtasks (B, C, D & E for
+English), all of which are about topic-based message polarity classification.
+Our team is ranked #6 in subtask B, #3 by MAEu and #9 by MAEm in subtask C, #3
+using RAE and #6 using KLD in subtask D, and #3 in subtask E.
+Author{1}{Firstname}#=%=#Quanzhi
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#quanzhi.li@gmail.com
+Author{1}{Affiliation}#=%=#Thomson Reuters
+Author{2}{Firstname}#=%=#Armineh
+Author{2}{Lastname}#=%=#Nourbakhsh
+Author{2}{Email}#=%=#Armineh.Nourbakhsh@thomsonreuters.com
+Author{2}{Affiliation}#=%=#Thomson Reuters
+Author{3}{Firstname}#=%=#Xiaomo
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#xiaomo.liu@thomsonreuters.com
+Author{3}{Affiliation}#=%=#Thomson Reuters
+Author{4}{Firstname}#=%=#Rui
+Author{4}{Lastname}#=%=#Fang
+Author{4}{Email}#=%=#rui.fang@thomsonreuters.com
+Author{4}{Affiliation}#=%=#Thomson Reuters
+Author{5}{Firstname}#=%=#Sameena
+Author{5}{Lastname}#=%=#Shah
+Author{5}{Email}#=%=#sameena.shah@thomsonreuters.com
+Author{5}{Affiliation}#=%=#Thomson Reuters
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#186
+FinalPaperTitle#=%=#SemEval-2017 Task 9: Abstract Meaning Representation Parsing and Generation
+ShortPaperTitle#=%=#SemEval-2017 Task 9: Abstract Meaning Representation Parsing and Generation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jonathan May
+JobTitle#==#
+Organization#==#USC Information Sciences Institute
+4676 Admiralty Way
+Suite 1001
+Marina del Rey, CA 90292
+Abstract#==#In this report we summarize the results of the 2017 AMR SemEval shared task.
+The task consisted of two separate yet related subtasks. In the parsing
+subtask, participants were asked to produce Abstract Meaning Representation
+(AMR) (Banarescu et al., 2013) graphs for a set of English sentences in the
+biomedical domain. In the generation subtask, participants were asked to
+generate English sentences given AMR graphs in the news/forum domain. A total
+of five sites participated in the parsing subtask, and four participated in the
+generation subtask. 
+Along with a description of the task and the participants' systems, we show
+various score ablations and some sample outputs.
+Author{1}{Firstname}#=%=#Jonathan
+Author{1}{Lastname}#=%=#May
+Author{1}{Email}#=%=#jonmay@gmail.com
+Author{1}{Affiliation}#=%=#USC Information Sciences Institute
+Author{2}{Firstname}#=%=#Jay
+Author{2}{Lastname}#=%=#Priyadarshi
+Author{2}{Email}#=%=#jpriyada@usc.edu
+Author{2}{Affiliation}#=%=#University of Southern California
+
+==========

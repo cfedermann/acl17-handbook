@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#157
+FinalPaperTitle#=%=#Mahtab at SemEval-2017 Task 2: Combination of Corpus-based and Knowledge-based Methods to Measure Semantic Word Similarity
+ShortPaperTitle#=%=#Mahtab at SemEval-2017 Task 2: Combination of Corpus-based and Knowledge-based Methods to Measure Semantic Word Similarity
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Niloofar Ranjbar
+JobTitle#==#
+Organization#==#Shahid Beheshti University, Tehran Province, Tehran, District 1, Daneshjou Boulevard, 1983969411
+Abstract#==#In this paper, we describe our proposed method for measuring semantic
+similarity for a given pair of words at SemEval-2017 monolingual semantic word
+similarity task. We use a combination of knowledge-based and corpus-based
+techniques.
+We use FarsNet, the Persian Word Net, besides deep learning techniques to
+extract the similarity of words. We evaluated our proposed approach on Persian
+(Farsi) test data at SemEval-2017. It outperformed the other participants and
+ranked the first in the challenge.
+Author{1}{Firstname}#=%=#Niloofar
+Author{1}{Lastname}#=%=#Ranjbar
+Author{1}{Email}#=%=#n_ranjbar72@yahoo.com
+Author{1}{Affiliation}#=%=#Faculty of Computer Science and Engineering / Shahid Beheshti University
+Author{2}{Firstname}#=%=#Fatemeh
+Author{2}{Lastname}#=%=#Mashhadirajab
+Author{2}{Email}#=%=#fa.mashhadi@gmail.com
+Author{2}{Affiliation}#=%=#Faculty of Computer Science and Engineering / Shahid Beheshti University
+Author{3}{Firstname}#=%=#Mehrnoush
+Author{3}{Lastname}#=%=#Shamsfard
+Author{3}{Email}#=%=#shams@sepehrs.com
+Author{3}{Affiliation}#=%=#Faculty of Computer Science and Engineering, Shahid Beheshti University
+Author{4}{Firstname}#=%=#Rayeheh
+Author{4}{Lastname}#=%=#Hosseini pour
+Author{4}{Email}#=%=#hosseinipour.r1@gmail.com
+Author{4}{Affiliation}#=%=#Faculty of Computer Science and Engineering / Shahid Beheshti University
+Author{5}{Firstname}#=%=#Aryan
+Author{5}{Lastname}#=%=#Vahid pour
+Author{5}{Email}#=%=#aryanvahidpour@gmail.com
+Author{5}{Affiliation}#=%=#Faculty of Computer Science and Engineering / Shahid Beheshti University
+
+==========

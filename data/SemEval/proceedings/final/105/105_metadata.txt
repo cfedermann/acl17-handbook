@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#105
+FinalPaperTitle#=%=#LIA at SemEval-2017 Task 4: An Ensemble of Neural Networks for Sentiment Classification
+ShortPaperTitle#=%=#LIA at SemEval-2017 Task 4: An Ensemble of Neural Networks for Sentiment Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#ROUVIER
+JobTitle#==#
+Organization#==#LIA
+Abstract#==#This paper describes the system developed at LIA for the SemEval-2017
+evaluation campaign. The goal of Task 4.A was to identify sentiment polarity in
+tweets. The system is an ensemble of Deep Neural Network (DNN) models:
+Convolutional Neural Network (CNN) and Recurrent Neural Network Long Short-Term
+Memory (RNN-LSTM). We initialize the input representation of DNN with different
+sets of embeddings trained on large datasets. The ensemble of DNNs are combined
+using a score-level fusion approach. The system ranked 2nd at SemEval-2017 and
+obtained an average recall of 67.6%.
+Author{1}{Firstname}#=%=#Mickael
+Author{1}{Lastname}#=%=#Rouvier
+Author{1}{Email}#=%=#mickael.rouvier@univ-avignon.fr
+Author{1}{Affiliation}#=%=#LIA - Avignon University
+
+==========

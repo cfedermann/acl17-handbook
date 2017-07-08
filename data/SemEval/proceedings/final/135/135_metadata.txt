@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#135
+FinalPaperTitle#=%=#UMDeep at SemEval-2017 Task 1: End-to-End Shared Weight LSTM Model for Semantic Textual Similarity
+ShortPaperTitle#=%=#UMDeep at SemEval-2017 Task 1: Siamese LSTM Model for STS
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Denis Peskov
+JobTitle#==#
+Organization#==#Joseph Barrow/Denis Peskov
+UMD CS Department
+A.V. Williams Bldg, 8223 Paint Branch Dr, College Park, MD 20740
+Abstract#==#We describe a modified shared-LSTM network for the Semantic Textual Similarity
+(STS) task at SemEval-2017. The network builds on previously explored Siamese
+network architectures. We treat max sentence length as an additional
+hyperparameter to be tuned (beyond learning rate, regularization, and dropout).
+Our results demonstrate that hand-tuning max sentence training length
+significantly improves final accuracy. After optimizing hyperparameters, we
+train the network on the multilingual semantic similarity task using
+pre-translated sentences. We achieved a correlation of 0.4792 for all the
+subtasks.  We achieved the fourth highest team correlation for Task 4b, which
+was our best relative placement.
+Author{1}{Firstname}#=%=#Joe
+Author{1}{Lastname}#=%=#Barrow
+Author{1}{Email}#=%=#jdbarrow@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Denis
+Author{2}{Lastname}#=%=#Peskov
+Author{2}{Email}#=%=#dpeskov@cs.umd.edu
+Author{2}{Affiliation}#=%=#University of Maryland
+
+==========

@@ -1,0 +1,202 @@
+* 3 August 2017
++ 09:00--09:15 Welcome / Opening Remarks
+! 09:15--10:30 Invited Talk: From Naive Physics to Connotation: Modeling Commonsense in Frame Semantics %by Yejin Choi
++ 10:30--11:00 Coffee
+= 11:00--12:30 Task Descriptions # %room TBD
+193 11:00--11:15  # SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation
+181 11:15--11:30  # SemEval-2017 Task 2: Multilingual and Cross-lingual Semantic Word Similarity
+192 11:30--11:45  # SemEval-2017 Task 3: Community Question Answering
+189 11:45--12:00  # SemEval-2017 Task 6: #HashtagWars: Learning a Sense of Humor
+184 12:00--12:15  # SemEval-2017 Task 7: Detection and Interpretation of English Puns
+182 12:15--12:30  # SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours
++ 12:30--14:00 Lunch
+= 14:00--15:30 Best Of SemEval # %room TBD
+79 14:00--14:15  # BIT at SemEval-2017 Task 1: Using Semantic Information Space to Evaluate Semantic Textual Similarity
+123 14:15--14:30  # ConceptNet at SemEval-2017 Task 2: Extending Word Embeddings with Multilingual Relational Knowledge
+71 14:30--14:45  # IIT-UHH at SemEval-2017 Task 3: Exploring Multiple Features for Community Question Answering and Implicit Dialogue Identification
+152 14:45--15:00  # HumorHawk at SemEval-2017 Task 6: Mixing Meaning and Sound for Humor Recognition
+113 15:00--15:15  # Idiom Savant at Semeval-2017 Task 7: Detection and Interpretation of English Puns
+! 15:15--15:30 Turing at SemEval-2017 Task 8: Sequential Approach to Rumour Stance Classification with Branch-LSTM %by Elena Kochkina, Maria Liakata and Isabelle Augenstein
++ 15:30--16:00 Coffee
++ 16:00--16:30 Discussion
+= 16:30--17:30 Poster Session # %room TBD
+7 16:30--17:30  # CompiLIG at SemEval-2017 Task 1: Cross-Language Plagiarism Detection Methods for Semantic Textual Similarity
+8 16:30--17:30  # UdL at SemEval-2017 Task 1: Semantic Textual Similarity Estimation of English Sentence Pairs Using Regression Model over Pairwise Features
+50 16:30--17:30  # DT_Team at SemEval-2017 Task 1: Semantic Similarity Using Alignments, Sentence-Level Embeddings and Gaussian Mixture Model Output
+58 16:30--17:30  # FCICU at SemEval-2017 Task 1: Sense-Based Language Independent Semantic Textual Similarity Approach
+59 16:30--17:30  # HCTI at SemEval-2017 Task 1: Use convolutional neural network to evaluate Semantic Textual Similarity
+63 16:30--17:30  # LIM-LIG at SemEval-2017 Task1: Enhancing the Semantic Similarity for Arabic Sentences with Vectors Weighting
+65 16:30--17:30  # OPI-JSA at SemEval-2017 Task 1: Application of Ensemble learning for computing semantic textual similarity
+72 16:30--17:30  # Lump at SemEval-2017 Task 1: Towards an Interlingua Semantic Similarity
+73 16:30--17:30  # QLUT at SemEval-2017 Task 1: Semantic Textual Similarity Based on Word Embeddings
+80 16:30--17:30  # ResSim at SemEval-2017 Task 1: Multilingual Word Representations for Semantic Textual Similarity
+81 16:30--17:30  # ITNLP-AiKF at SemEval-2017 Task 1: Rich Features Based SVR for Semantic Textual Similarity Computing
+89 16:30--17:30  # Neobility at SemEval-2017 Task 1: An Attention-based Sentence Similarity Model
+107 16:30--17:30  # SEF@UHH at SemEval-2017 Task 1: Unsupervised Knowledge-Free Semantic Textual Similarity via Paragraph Vector
+127 16:30--17:30  # STS-UHH at SemEval-2017 Task 1: Scoring Semantic Textual Similarity Using Supervised and Unsupervised Ensemble
+135 16:30--17:30  # UMDeep at SemEval-2017 Task 1: End-to-End Shared Weight LSTM Model for Semantic Textual Similarity
+143 16:30--17:30  # MITRE at SemEval-2017 Task 1: Simple Semantic Similarity
+151 16:30--17:30  # ECNU at SemEval-2017 Task 1: Leverage Kernel-based Traditional NLP features and Neural Networks to Build a Universal Model for Multilingual and Cross-lingual Semantic Textual Similarity
+158 16:30--17:30  # PurdueNLP at SemEval-2017 Task 1: Predicting Semantic Textual Similarity with Paraphrase and Event Embeddings
+172 16:30--17:30  # RTM at SemEval-2017 Task 1: Referential Translation Machines for Predicting Semantic Similarity
+174 16:30--17:30  # LIPN-IIMAS at SemEval-2017 Task 1: Subword Embeddings, Attention Recurrent Neural Networks and Cross Word Alignment for Semantic Textual Similarity
+54 16:30--17:30  # L2F/INESC-ID at SemEval-2017 Tasks 1 and 2: Lexical and semantic features in word and textual similarity
+10 16:30--17:30  # HCCL at SemEval-2017 Task 2: Combining Multilingual Word Embeddings and Transliteration Model for Semantic Similarity
+17 16:30--17:30  # Citius at SemEval-2017 Task 2: Cross-Lingual Similarity from Comparable Corpora and Dependency-Based Contexts
+46 16:30--17:30  # Jmp8 at SemEval-2017 Task 2: A simple and general distributional approach to estimate word similarity
+77 16:30--17:30  # QLUT at SemEval-2017 Task 2: Word Similarity Based on Word Embedding and Knowledge Base
+102 16:30--17:30  # RUFINO at SemEval-2017 Task 2: Cross-lingual lexical similarity by extending PMI and word embeddings systems with a Swadesh's-like list
+114 16:30--17:30  # MERALI at SemEval-2017 Task 2 Subtask 1: a Cognitively Inspired approach
+125 16:30--17:30  # HHU at SemEval-2017 Task 2: Fast Hash-Based Embeddings for Semantic Word Similarity Assessment
+157 16:30--17:30  # Mahtab at SemEval-2017 Task 2: Combination of Corpus-based and Knowledge-based Methods to Measure Semantic Word Similarity
+161 16:30--17:30  # Sew-Embed at SemEval-2017 Task 2: Language-Independent Concept Representations from a Semantically Enriched Wikipedia
+167 16:30--17:30  # Wild Devs' at SemEval-2017 Task 2: Using Neural Networks to Discover Word Similarity
+2 16:30--17:30  # TrentoTeam at SemEval-2017 Task 3: An application of Grice Maxims in Ranking Community Question Answers
+9 16:30--17:30  # UPC-USMBA at SemEval-2017 Task 3: Combining multiple approaches for CQA for Arabic
+16 16:30--17:30  # Beihang-MSRA at SemEval-2017 Task 3: A Ranking System with Neural Matching Features for Community Question Answering
+21 16:30--17:30  # MoRS at SemEval-2017 Task 3: Easy to use SVM in Ranking Tasks
+32 16:30--17:30  # EICA Team at SemEval-2017 Task 3: Semantic and Metadata-based Features for Community Question Answering
+38 16:30--17:30  # FA3L at SemEval-2017 Task 3: A ThRee Embeddings Recurrent Neural Network for Question Answering
+51 16:30--17:30  # SCIR-QA at SemEval-2017 Task 3: CNN Model Based on Similar and Dissimilar Information between Keywords for Question Similarity
+52 16:30--17:30  # LearningToQuestion at SemEval 2017 Task 3: Ranking Similar Questions by Learning to Rank Using Rich Features
+57 16:30--17:30  # SimBow at SemEval-2017 Task 3: Soft-Cosine Semantic Similarity between Questions for Community Question Answering
+83 16:30--17:30  # FuRongWang at SemEval-2017 Task 3: Deep Neural Networks for Selecting Relevant Answers in Community Question Answering
+94 16:30--17:30  # KeLP at SemEval-2017 Task 3: Learning Pairwise Patterns in Community Question Answering
+106 16:30--17:30  # SwissAlps at SemEval-2017 Task 3: Attention-based Convolutional Neural Network for Community Question Answering
+126 16:30--17:30  # TakeLab-QA at SemEval-2017 Task 3: Classification Experiments for Answer Retrieval in Community QA
+145 16:30--17:30  # GW_QA at SemEval-2017 Task 3: Question Answer Re-ranking on Arabic Fora
+146 16:30--17:30  # NLM_NIH at SemEval-2017 Task 3: from Question Entailment to Question Similarity for Community Question Answering
+159 16:30--17:30  # bunji at SemEval-2017 Task 3: Combination of Neural Similarity Features and Comment Plausibility Features
+162 16:30--17:30  # QU-BIGIR at SemEval 2017 Task 3: Using Similarity Features for Arabic Community Question Answering Forums
+163 16:30--17:30  # ECNU at SemEval-2017 Task 3: Using Traditional and Deep Learning Methods to Address Community Question Answering Task
+170 16:30--17:30  # UINSUSKA-TiTech at SemEval-2017 Task 3: Exploiting Word Importance Levels for Similarity Features for CQA
+178 16:30--17:30  # Talla at SemEval-2017 Task 3: Identifying Similar Questions Through Paraphrase Detection
+4 16:30--17:30  # QUB at SemEval-2017 Task 6: Cascaded Imbalanced Classification for Humor Analysis in Twitter
+31 16:30--17:30  # Duluth at SemEval-2017 Task 6: Language Models in Humor Detection
+118 16:30--17:30  # DataStories at SemEval-2017 Task 6: Siamese LSTM with Attention for Humorous Text Comparison
+122 16:30--17:30  # TakeLab at SemEval-2017 Task 6: #RankingHumorIn4Pages
+149 16:30--17:30  # SRHR at SemEval-2017 Task 6: Word Associations for Humour Recognition
+160 16:30--17:30  # #WarTeam at SemEval-2017 Task 6: Using Neural Networks for Discovering Humorous Tweets
+179 16:30--17:30  # SVNIT @ SemEval 2017 Task-6: Learning a Sense of Humor Using Supervised Approach
+1 16:30--17:30  # Duluth at SemEval-2017 Task 7 : Puns Upon a Midnight Dreary, Lexical Semantics for the Weak and Weary
+22 16:30--17:30  # UWaterloo at SemEval-2017 Task 7: Locating the Pun Using Syntactic Characteristics and Corpus-based Metrics
+24 16:30--17:30  # PunFields at SemEval-2017 Task 7: Employing Roget's Thesaurus in Automatic Pun Recognition and Interpretation
+33 16:30--17:30  # JU CSE NLP @ SemEval 2017 Task 7: Employing Rules to Detect and Interpret English Puns
+55 16:30--17:30  # N-Hance at SemEval-2017 Task 7: A Computational Approach using Word Association for Puns
+74 16:30--17:30  # ELiRF-UPV at SemEval-2017 Task 7: Pun Detection and Interpretation
+75 16:30--17:30  # BuzzSaw at SemEval-2017 Task 7: Global vs. Local Context for Interpreting and Locating Homographic English Puns with Sense Embeddings
+111 16:30--17:30  # UWAV at SemEval-2017 Task 7: Automated feature-based system for locating puns
+168 16:30--17:30  # ECNU at SemEval-2017 Task 7: Using Supervised and Unsupervised Methods to Detect and Locate English Puns
+169 16:30--17:30  # Fermi at SemEval-2017 Task 7: Detection and Interpretation of Homographic puns in English Language
+23 16:30--17:30  # UWaterloo at SemEval-2017 Task 8: Detecting Stance towards Rumours with Topic Independent Features
+53 16:30--17:30  # IKM at SemEval-2017 Task 8: Convolutional Neural Networks for stance detection and rumor verification
+132 16:30--17:30  # NileTMRG at SemEval-2017 Task 8: Determining Rumour and Veracity Support for Rumours on Twitter.
+139 16:30--17:30  # Turing at SemEval-2017 Task 8: Sequential Approach to Rumour Stance Classification with Branch-LSTM
+141 16:30--17:30  # Mama Edha at SemEval-2017 Task 8: Stance Classification with CNN and Rules
+148 16:30--17:30  # DFKI-DKT at SemEval-2017 Task 8: Rumour Detection and Classification using Cascading Heuristics
+164 16:30--17:30  # ECNU at SemEval-2017 Task 8: Rumour Evaluation Using Effective Features and Supervised Ensemble Models
+171 16:30--17:30  # IITP at SemEval-2017 Task 8 : A Supervised Approach for Rumour Evaluation
+* 4 Aug 2017
++ 09:00--09:30 SemEval 2018 Tasks
++ 09:30--10:30 State of SemEval Discussion
++ 10:30--11:00 Coffee
+= 11:00--12:30 Task Descriptions # %room TBD
+187 11:00--11:15  # SemEval-2017 Task 4: Sentiment Analysis in Twitter
+185 11:15--11:30  # SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
+186 11:30--11:45  # SemEval-2017 Task 9: Abstract Meaning Representation Parsing and Generation
+183 11:45--12:00  # SemEval 2017 Task 10: ScienceIE - Extracting Keyphrases and Relations from Scientific Publications
+191 12:00--12:15  # SemEval-2017 Task 11: End-User Development using Natural Language
+188 12:15--12:30  # SemEval-2017 Task 12: Clinical TempEval
++ 12:30--14:00 Lunch
+= 14:00--15:30 Best Of SemEval # %room TBD
+29 14:00--14:15  # BB_twtr at SemEval-2017 Task 4: Twitter Sentiment Analysis with CNNs and LSTMs
+103 14:15--14:30  # Lancaster A at SemEval-2017 Task 5: Evaluation metrics matter: predicting sentiment from financial news headlines
+121 14:30--14:45  # Sheffield at SemEval-2017 Task 9: Transition-based language generation from AMR.
+49 14:45--15:00  # The AI2 system at SemEval-2017 Task 10 (ScienceIE): semi-supervised end-to-end entity and relation extraction
+117 15:00--15:15  # LIMSI-COT at SemEval-2017 Task 12: Neural Architecture for Temporal Information Extraction from Clinical Narratives
++ 15:30--16:00 Coffee
++ 16:00--16:30 Discussion
+= 16:30--17:30 Poster Session # %room TBD
+5 16:30--17:30  # OMAM at SemEval-2017 Task 4: Evaluation of English State-of-the-Art Sentiment Analysis Models for Arabic and a New Topic-based Model
+6 16:30--17:30  # NILC-USP at SemEval-2017 Task 4: A Multi-view Ensemble for Twitter Sentiment Analysis
+12 16:30--17:30  # deepSA at SemEval-2017 Task 4: Interpolated Deep Neural Networks for Sentiment Analysis in Twitter
+13 16:30--17:30  # NNEMBs at SemEval-2017 Task 4: Neural Twitter Sentiment Classification: a Simple Ensemble Method with Different Embeddings
+15 16:30--17:30  # CrystalNest at SemEval-2017 Task 4: Using Sarcasm Detection for Enhancing Sentiment Classification and Quantification
+18 16:30--17:30  # SINAI at SemEval-2017 Task 4: User based classification
+20 16:30--17:30  # HLP@UPenn at SemEval-2017 Task 4A: A simple, self-optimizing text classification system combining dense and sparse vectors
+26 16:30--17:30  # ej-sa-2017 at SemEval-2017 Task 4: Experiments for Target oriented Sentiment Analysis in Twitter
+30 16:30--17:30  # SentiME++ at SemEval-2017 Task 4: Stacking State-of-the-Art Classifiers to Enhance Sentiment Classification
+35 16:30--17:30  # Amobee at SemEval-2017 Task 4: Deep Learning System for Sentiment Detection on Twitter
+37 16:30--17:30  # TWINA at SemEval-2017 Task 4: Twitter Sentiment Analysis with Ensemble Gradient Boost Tree Classifier
+39 16:30--17:30  # Tw-StAR at SemEval-2017 Task 4: Sentiment Classification of Arabic Tweets
+40 16:30--17:30  # OMAM at SemEval-2017 Task 4: English Sentiment Analysis with Conditional Random Fields
+43 16:30--17:30  # Tweester at SemEval-2017 Task 4: Fusion of Semantic-Affective and pairwise classification models for sentiment analysis in Twitter
+44 16:30--17:30  # NRU-HSE at SemEval-2017 Task 4: Tweet Quantification Using Deep Learning Architecture
+56 16:30--17:30  # MI&T Lab at SemEval-2017 task 4: An Integrated Training Method of Word Vector for Sentiment Classification
+61 16:30--17:30  # SiTAKA at SemEval-2017 Task 4: Sentiment Analysis in Twitter Based on a Rich Set of Features
+62 16:30--17:30  # Senti17 at SemEval-2017 Task 4: Ten Convolutional Neural Network Voters for Tweet Polarity Classification
+66 16:30--17:30  # DUTH at SemEval-2017 Task 4: A Voting Classification Approach for Twitter Sentiment Analysis
+68 16:30--17:30  # SSN_MLRG1 at SemEval-2017 Task 4: Sentiment Analysis in Twitter Using Multi-Kernel Gaussian Process Classifier
+76 16:30--17:30  # YNUDLG at SemEval-2017 Task 4: A GRU-SVM Model for Sentiment Classification and Quantification in Twitter
+82 16:30--17:30  # LSIS at SemEval-2017 Task 4: Using Adapted Sentiment Similarity Seed Words For English and Arabic Tweet Polarity Classification
+87 16:30--17:30  # ELiRF-UPV at SemEval-2017 Task 4: Sentiment Analysis using Deep Learning
+88 16:30--17:30  # XJSA at SemEval-2017 Task 4: A Deep System for Sentiment Classification in Twitter
+90 16:30--17:30  # Adullam at SemEval-2017 Task 4: Sentiment Analyzer Using Lexicon Integrated Convolutional Neural Networks with Attention
+91 16:30--17:30  # EICA at SemEval-2017 Task 4: A Simple Convolutional Neural Network for Topic-based Sentiment Classification
+93 16:30--17:30  # funSentiment at SemEval-2017 Task 4: Topic-Based Message Sentiment Classification by Exploiting Word Embeddings, Text Features and Target Contexts
+97 16:30--17:30  # DataStories at SemEval-2017 Task 4: Deep LSTM with Attention for Message-level and Topic-based Sentiment Analysis
+100 16:30--17:30  # TwiSe at SemEval-2017 Task 4: Five-point Twitter Sentiment Classification and Quantification
+105 16:30--17:30  # LIA at SemEval-2017 Task 4: An Ensemble of Neural Networks for Sentiment Classification
+108 16:30--17:30  # TopicThunder at SemEval-2017 Task 4: Sentiment Classification Using a Convolutional Neural Network with Distant Supervision
+110 16:30--17:30  # INGEOTEC at SemEval 2017 Task 4: A B4MSA Ensemble based on Genetic Programming for Twitter Sentiment Analysis
+119 16:30--17:30  # BUSEM at SemEval-2017 Task 4A Sentiment Analysis with Word Embedding and Long Short Term Memory RNN Approaches
+120 16:30--17:30  # TakeLab at SemEval-2017 Task 4: Recent Deaths and the Power of Nostalgia in Sentiment Analysis in Twitter
+134 16:30--17:30  # NileTMRG at SemEval-2017 Task 4: Arabic Sentiment Analysis
+142 16:30--17:30  # YNU-HPCC at SemEval 2017 Task 4: Using A Multi-Channel CNN-LSTM Model for Sentiment Classification
+147 16:30--17:30  # TSA-INF at SemEval-2017 Task 4: An Ensemble of Deep Learning Architectures Including Lexicon Features for Twitter Sentiment Analysis
+154 16:30--17:30  # UCSC-NLP at SemEval-2017 Task 4: Sense n-grams for Sentiment Analysis in Twitter
+166 16:30--17:30  # ECNU at SemEval-2017 Task 4: Evaluating Effective Features on Machine Learning Methods for Twitter Message Polarity Classification
+19 16:30--17:30  # Fortia-FBK at SemEval-2017 Task 5: Bullish or Bearish? Inferring Sentiment towards Brands from Financial News Headlines
+25 16:30--17:30  # SSN_MLRG1 at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis Using Multiple Kernel Gaussian Process Regression Model
+28 16:30--17:30  # IBA-Sys at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
+64 16:30--17:30  # HHU at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Data using Machine Learning Methods
+69 16:30--17:30  # INF-UFRGS at SemEval-2017 Task 5: A Supervised Identification of Sentiment Score in Tweets and Headlines
+96 16:30--17:30  # HCS at SemEval-2017 Task 5: Polarity detection in business news using convolutional neural networks
+98 16:30--17:30  # NLG301 at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
+115 16:30--17:30  # funSentiment at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs Using Word Vectors Built from StockTwits and Twitter
+116 16:30--17:30  # SentiHeros at SemEval-2017 Task 5: An application of Sentiment Analysis on Financial Tweets
+129 16:30--17:30  # DUTH at SemEval-2017 Task 5: Sentiment Predictability in Financial Microblogging and News Articles
+130 16:30--17:30  # TakeLab at SemEval-2017 Task 5: Linear aggregation of word embeddings for fine-grained sentiment analysis of financial news
+138 16:30--17:30  # UW-FinSent at SemEval-2017 Task 5: Sentiment Analysis on Financial News Headlines using Training Dataset Augmentation
+144 16:30--17:30  # RiTUAL-UH at SemEval-2017 Task 5: Sentiment Analysis on Financial Data Using Neural Networks
+155 16:30--17:30  # COMMIT at SemEval-2017 Task 5: Ontology-based Method for Sentiment Analysis of Financial Headlines
+165 16:30--17:30  # ECNU at SemEval-2017 Task 5: An Ensemble of Regression Algorithms with Effective Features for Fine-Grained Sentiment Analysis in Financial Domain
+175 16:30--17:30  # IITPB at SemEval-2017 Task 5: Sentiment Prediction in Financial Text
+176 16:30--17:30  # IITP at SemEval-2017 Task 5: An Ensemble of Deep Learning and Feature Based Models for Financial Sentiment Analysis
+177 16:30--17:30  # FEUP at SemEval-2017 Task 5: Predicting Sentiment Polarity and Intensity with Financial Word Embeddings
+34 16:30--17:30  # UIT-DANGNT-CLNLP at SemEval-2017 Task 9: Building Scientific Concept Fixing Patterns for Improving CAMR
+45 16:30--17:30  # Oxford at SemEval-2017 Task 9: Neural AMR Parsing with Pointer-Augmented Attention
+86 16:30--17:30  # FORGe at SemEval-2017 Task 9: Deep sentence generation based on a sequence of graph transducers
+92 16:30--17:30  # RIGOTRIO at SemEval-2017 Task 9: Combining Machine Learning and Grammar Engineering for AMR Parsing and Generation
+101 16:30--17:30  # The Meaning Factory at SemEval-2017 Task 9: Producing AMRs with Neural Semantic Parsing
+14 16:30--17:30  # PKU_ICL at SemEval-2017 Task 10: Keyphrase Extraction with Model Ensemble and External Knowledge
+60 16:30--17:30  # NTNU-1@ScienceIE at SemEval-2017 Task 10: Identifying and Labelling Keyphrases with Conditional Random Fields
+78 16:30--17:30  # EELECTION at SemEval-2017 Task 10: Ensemble of nEural Learners for kEyphrase ClassificaTION
+84 16:30--17:30  # LABDA at SemEval-2017 Task 10: Extracting Keyphrases from Scientific Publications by combining the BANNER tool and the UMLS Semantic Network
+85 16:30--17:30  # The NTNU System at SemEval-2017 Task 10: Extracting Keyphrases and Relations from Scientific Publications Using Multiple Conditional Random Fields
+99 16:30--17:30  # MayoNLP at SemEval 2017 Task 10: Word Embedding Distance Pattern for Keyphrase Classification in Scientific Publications
+109 16:30--17:30  # Know-Center at SemEval-2017 Task 10: Sequence Classification with the CODE Annotator
+124 16:30--17:30  # NTNU-2 at SemEval-2017 Task 10: Identifying Synonym and Hyponym Relations among Keyphrases in Scientific Documents
+133 16:30--17:30  # LABDA at SemEval-2017 Task 10: Relation Classification between keyphrases via Convolutional Neural Network
+137 16:30--17:30  # WING-NUS at SemEval-2017 Task 10: Keyphrase Extraction and Classification as Joint Sequence Labeling
+150 16:30--17:30  # MIT at SemEval-2017 Task 10: Relation Extraction with Convolutional Neural Networks
+153 16:30--17:30  # TTI-COIN at SemEval-2017 Task 10: Investigating Embeddings for End-to-End Relation Extraction from Scientific Papers
+173 16:30--17:30  # SZTE-NLP at SemEval-2017 Task 10: A High Precision Sequence Model for Keyphrase Extraction Utilizing Sparse Coding for Feature Generation
+190 16:30--17:30  # LIPN at SemEval-2017 Task 10: Filtering Candidate Keyphrases from Scientific Publications with Part-of-Speech Tag Sequences to Train a Sequence Labeling Model
+180 16:30--17:30  # EUDAMU at SemEval-2017 Task 11: Action Ranking and Type Matching for End-User Development
+11 16:30--17:30  # Hitachi at SemEval-2017 Task 12: System for temporal information extraction from clinical notes
+27 16:30--17:30  # NTU-1 at SemEval-2017 Task 12: Detection and classification of temporal events in clinical data with domain adaptation
+36 16:30--17:30  # XJNLP at SemEval-2017 Task 12: Clinical temporal information ex-traction with a Hybrid Model
+95 16:30--17:30  # ULISBOA at SemEval-2017 Task 12: Extraction and classification of temporal expressions and events
+128 16:30--17:30  # GUIR at SemEval-2017 Task 12: A Framework for Cross-Domain Clinical Temporal Information Extraction
+156 16:30--17:30  # KULeuven-LIIR at SemEval-2017 Task 12: Cross-Domain Temporal Information Extraction from Clinical Records

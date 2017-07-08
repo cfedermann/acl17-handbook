@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#66
+FinalPaperTitle#=%=#DUTH at SemEval-2017 Task 4: A Voting Classification Approach for Twitter Sentiment Analysis
+ShortPaperTitle#=%=#DUTH at SemEval-2017 Task 4: A Voting Classification Approach for Twitter Sentiment Analysis
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Symeon Symeonidis
+JobTitle#==#
+Organization#==#Department of Electrical & Computer Engineering, Democritus University of Thrace
+Abstract#==#This report describes our participation to SemEval-2017 Task 4: Sentiment
+Analysis in Twitter, specifically in subtasks A, B, and C. The approach for
+text sentiment classification is based on a Majority Vote scheme and combined
+supervised machine learning methods with classical linguistic resources,
+including bag-of-words and sentiment lexicon features.
+Author{1}{Firstname}#=%=#Symeon
+Author{1}{Lastname}#=%=#Symeonidis
+Author{1}{Email}#=%=#ssymeoni@ee.duth.gr
+Author{1}{Affiliation}#=%=#Democritus Univesity of Thrace
+Author{2}{Firstname}#=%=#Dimitrios
+Author{2}{Lastname}#=%=#Effrosynidis
+Author{2}{Email}#=%=#dimievfr@ee.duth.gr
+Author{2}{Affiliation}#=%=#Democritus University of Thrace
+Author{3}{Firstname}#=%=#John
+Author{3}{Lastname}#=%=#Kordonis
+Author{3}{Email}#=%=#ioankord1@ee.duth.gr
+Author{3}{Affiliation}#=%=#Democritus University of Thrace
+Author{4}{Firstname}#=%=#Avi
+Author{4}{Lastname}#=%=#Arampatzis
+Author{4}{Email}#=%=#avi@ee.duth.gr
+Author{4}{Affiliation}#=%=#Democritus University of Thrace
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#88
+FinalPaperTitle#=%=#XJSA at SemEval-2017 Task 4: A Deep System for Sentiment Classification in Twitter
+ShortPaperTitle#=%=#XJSA - A Deep for Sentiment Classification in Twitter.
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Yazhou Hao
+JobTitle#==#
+Organization#==#Xi'an Jiao Tong University
+No.28, Xianning West Road, 710049, Xi'an, China
+Abstract#==#This paper describes the XJSA System submission from XJTU. Our system was
+created for SemEval2017 Task 4 – subtask A which is very popular and
+fundamental. The system is based on convolutional neural network and word
+embedding. We used two pre-trained word vectors and adopt a dynamic strategy
+for k-max pooling.
+Author{1}{Firstname}#=%=#Yazhou
+Author{1}{Lastname}#=%=#Hao
+Author{1}{Email}#=%=#yazhouhao@gmail.com
+Author{1}{Affiliation}#=%=#Xi'an Jiao Tong University
+Author{2}{Firstname}#=%=#YangYang
+Author{2}{Lastname}#=%=#Lan
+Author{2}{Email}#=%=#1564018606@qq.com
+Author{2}{Affiliation}#=%=#parter
+Author{3}{Firstname}#=%=#Yufei
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#490771925@qq.com
+Author{3}{Affiliation}#=%=#parter
+Author{4}{Firstname}#=%=#Chen
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#cli@xjtu.edu.cn
+Author{4}{Affiliation}#=%=#instructor
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#FA3L at SemEval-2017 Task 3: A ThRee Embeddings Recurrent Neural Network for Question Answering
+ShortPaperTitle#=%=#A ThRee Embeddings Recurrent Neural Network for Question Answering
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Andrea Madotto
+JobTitle#==#
+Organization#==#Dipartimento di Informatica, Università di Pisa, Largo B. Pontecorvo, 3
+Abstract#==#In this paper we present ThReeNN, a model for Community Question Answering,
+Task 3, of SemEval-2017. The proposed model exploits both syntactic and
+semantic information to build a single and meaningful embedding space. Using a
+dependency parser in combination with word embeddings, the model creates
+sequences of inputs for a Recurrent Neural Network, which are then used for the
+ranking purposes of the Task. The score obtained on the official test data
+shows promising results.
+Author{1}{Firstname}#=%=#Giuseppe
+Author{1}{Lastname}#=%=#Attardi
+Author{1}{Email}#=%=#attardi@di.unipi.it
+Author{1}{Affiliation}#=%=#University of Pisa
+Author{2}{Firstname}#=%=#Antonio
+Author{2}{Lastname}#=%=#Carta
+Author{2}{Email}#=%=#a.carta@outlook.it
+Author{2}{Affiliation}#=%=#University of Pisa
+Author{3}{Firstname}#=%=#Federico
+Author{3}{Lastname}#=%=#Errica
+Author{3}{Email}#=%=#f.errica@protonmail.com
+Author{3}{Affiliation}#=%=#University of Pisa
+Author{4}{Firstname}#=%=#Andrea
+Author{4}{Lastname}#=%=#Madotto
+Author{4}{Email}#=%=#andreamad8@gmail.com
+Author{4}{Affiliation}#=%=#University of Pisa
+Author{5}{Firstname}#=%=#Ludovica
+Author{5}{Lastname}#=%=#Pannitto
+Author{5}{Email}#=%=#ellepannitto@gmail.com
+Author{5}{Affiliation}#=%=#University of Pisa
+
+==========

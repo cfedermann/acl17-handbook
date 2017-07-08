@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#HLP@UPenn at SemEval-2017 Task 4A: A simple, self-optimizing text classification system combining dense and sparse vectors
+ShortPaperTitle#=%=#HLP@UPenn Self-optimizing text classification system
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Abeed Sarker
+JobTitle#==#
+Organization#==#University of Pennsylvania
+423 Guardian Drive, Philadelphia
+PA 19104
+United States
+Abstract#==#We present a simple supervised text classification system that combines sparse
+and dense vector representations of words, and generalized representations of
+words via clusters. The sparse vectors are generated from word n-gram sequences
+(1-3). The dense vector representations of words (embeddings) are learned by
+training a neural network to predict neighboring words in a large unlabeled
+dataset. To classify a text segment, the different representations of it are
+concatenated, and the classification is performed using Support Vector Machines
+(SVM). Our system is particularly intended for use by non-experts of natural
+language processing and machine learning, and, therefore, the system does not
+require any manual tuning of parameters or weights. Given a training set, the
+system automatically generates the training vectors, optimizes the relevant
+hyper-parameters for the SVM classifier, and trains the classification model.
+We evaluated this system on the SemEval-2017 English sentiment analysis task.
+In terms of average F1-score, our system obtained 8th position out of 39
+submissions (F1-score: 0.632, average recall: 0.637, accuracy: 0.646).
+Author{1}{Firstname}#=%=#Abeed
+Author{1}{Lastname}#=%=#Sarker
+Author{1}{Email}#=%=#abeed@upenn.edu
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Graciela
+Author{2}{Lastname}#=%=#Gonzalez
+Author{2}{Email}#=%=#gragon@upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+
+==========

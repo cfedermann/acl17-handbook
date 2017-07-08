@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#SSN_MLRG1 at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis Using Multiple Kernel Gaussian Process Regression Model
+ShortPaperTitle#=%=#SSN_MLRG1 at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis Using Multiple Kernel Gaussian Process Regression Model
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Angel Deborah S
+JobTitle#==#Assistant Professor
+Organization#==#SSN College of Engineering,
+Old Mahabalipuram Road,
+Kalavakkam-603110, India
+Abstract#==#The system developed by the SSN_MLRG1 team for Semeval-2017 task 5 on
+fine-grained sentiment analysis uses Multiple Kernel Gaussian Process for
+identifying the optimistic and pessimistic sentiments associated with companies
+and stocks. Since the comments made at different times about the same companies
+and stocks may display different emotions, their properties such as smoothness
+and periodicity may vary. Our experiments show that while single kernel
+Gaussian Process can learn certain properties well, Multiple Kernel Gaussian
+Process are effective in learning the presence of different properties
+simultaneously.
+Author{1}{Firstname}#=%=#Angel Deborah
+Author{1}{Lastname}#=%=#S
+Author{1}{Email}#=%=#angeldeborahs@ssn.edu.in
+Author{1}{Affiliation}#=%=#SSN College of Engineering
+Author{2}{Firstname}#=%=#S Milton
+Author{2}{Lastname}#=%=#Rajendram
+Author{2}{Email}#=%=#miltonrs@ssn.edu.in
+Author{2}{Affiliation}#=%=#SSN College of Engineering
+Author{3}{Firstname}#=%=#T T
+Author{3}{Lastname}#=%=#Mirnalinee
+Author{3}{Email}#=%=#MirnalineeTT@ssn.edu.in
+Author{3}{Affiliation}#=%=#SSN College of Engineering
+
+==========

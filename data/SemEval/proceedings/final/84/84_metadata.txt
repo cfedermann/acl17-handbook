@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#84
+FinalPaperTitle#=%=#LABDA at SemEval-2017 Task 10: Extracting Keyphrases from Scientific Publications by combining the BANNER tool and the UMLS Semantic Network
+ShortPaperTitle#=%=#LABDA at SemEval-2017 Task 10: Extracting Keyphrases from Scientific Publications by combining the BANNER tool and the UMLS Semantic Network
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#Universidad Carlos III de Madrid. Avd. Universidad, 30. Legales, 28911, Madrid.
+Abstract#==#This paper describes the system presented by the LABDA group at SemEval 2017
+Task 10 ScienceIE, specifically for the subtasks of identification and
+classification of keyphrases from scientific articles.
+  For the task of identification, we use the BANNER tool, a named entity
+recognition system, which
+  is based on conditional random fields (CRF) and has obtained successful
+results in the biomedical domain. To classify keyphrases, we study the UMLS
+semantic network and propose a possible linking between the keyphrase types and
+the UMLS semantic groups. Based on this semantic linking, we create a
+dictionary for each keyphrase type. Then, a feature indicating if a token is
+found in one of these dictionaries is incorporated to feature set used by the
+BANNER tool. The final results on the test dataset show that our system 
+  still needs to be improved, but the conditional random fields and,
+consequently, 
+  the BANNER system can be used as a first approximation to identify and
+classify 
+  keyphrases.
+Author{1}{Firstname}#=%=#Isabel
+Author{1}{Lastname}#=%=#Segura-Bedmar
+Author{1}{Email}#=%=#isegura@inf.uc3m.es
+Author{1}{Affiliation}#=%=#Universidad Carlos III de Madrid
+Author{2}{Firstname}#=%=#Cristóbal
+Author{2}{Lastname}#=%=#Colón-Ruiz
+Author{2}{Email}#=%=#ccolon@inf.uc3m.es
+Author{2}{Affiliation}#=%=#Universidad Carlos III de Madrid
+Author{3}{Firstname}#=%=#Paloma
+Author{3}{Lastname}#=%=#Martínez
+Author{3}{Email}#=%=#pmf@inf.uc3m.es
+Author{3}{Affiliation}#=%=#Universidad Carlos III de Madrid
+
+==========

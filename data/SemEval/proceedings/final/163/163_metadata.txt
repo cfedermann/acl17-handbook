@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#163
+FinalPaperTitle#=%=#ECNU at SemEval-2017 Task 3: Using Traditional and Deep Learning Methods to Address Community Question Answering Task
+ShortPaperTitle#=%=#ECNU at SemEval-2017 Task 3: Using Traditional and Deep Learning Methods to Address Community Question Answering Task
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Guoshun Wu
+JobTitle#==#
+Organization#==#East China Normal University
+3663 N. Zhongshan Rd., Shanghai
+Abstract#==#This paper describes the systems we submitted to the task 3 (Community Ques-
+tion Answering) in SemEval 2017 which contains three subtasks on English
+corpora,
+i.e., subtask A: Question-Comment Similarity, subtask B: Question-Question
+Similarity, and subtask C: Question-External Comment Similarity. For subtask A,
+we
+combined two different methods to represent question-comment pair, i.e.,
+supervised model using traditional features and Convolutional Neural Network.
+For subtask B, we utilized the information of snippets returned from Search
+Engine with question subject as query. For subtask C, we ranked the comments by
+multiplying the probability of the pair related question comment being Good by
+the reciprocal rank of the related question.
+Author{1}{Firstname}#=%=#Guoshun
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Email}#=%=#51141201064@stu.ecnu.edu.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Yixuan
+Author{2}{Lastname}#=%=#Sheng
+Author{2}{Email}#=%=#51164500026@stu.ecnu.edu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Man
+Author{3}{Lastname}#=%=#Lan
+Author{3}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+Author{4}{Firstname}#=%=#Yuanbin
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Email}#=%=#ybwu@cs.ecnu.edu.cn
+Author{4}{Affiliation}#=%=#East China Normal University
+
+==========

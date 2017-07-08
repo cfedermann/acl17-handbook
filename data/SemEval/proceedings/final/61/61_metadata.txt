@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#61
+FinalPaperTitle#=%=#SiTAKA at SemEval-2017 Task 4: Sentiment Analysis in Twitter Based on a Rich Set of Features
+ShortPaperTitle#=%=#SiTAKA at SemEval-2017 Task 4: Sentiment Analysis in Twitter Based on a Rich Set of Features
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mohammed Jabreel
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes SiTAKA, our system that has been used in task 4A, English
+and Arabic languages, Sentiment Analysis in Twitter of SemEval2017. The system
+proposes the representation of tweets using a novel set of features, which
+include a bag of negated words and the information provided by some lexicons.
+The polarity of tweets is determined by a classifier based on a Support Vector
+Machine. Our system ranks 2nd among 8 systems in the Arabic language tweets and
+ranks 8th among 38 systems in the English-language tweets.
+Author{1}{Firstname}#=%=#Mohammed
+Author{1}{Lastname}#=%=#Jabreel
+Author{1}{Email}#=%=#mhjabreel@gmail.com
+Author{1}{Affiliation}#=%=#ITAKA, URV
+Author{2}{Firstname}#=%=#Antonio
+Author{2}{Lastname}#=%=#Moreno
+Author{2}{Email}#=%=#antonio.moreno@urv.cat
+Author{2}{Affiliation}#=%=#ITAKA, URV
+
+==========

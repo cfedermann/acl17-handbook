@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#85
+FinalPaperTitle#=%=#The NTNU System at SemEval-2017 Task 10: Extracting Keyphrases and Relations from Scientific Publications Using Multiple Conditional Random Fields
+ShortPaperTitle#=%=#The NTNU System at SemEval-2017 Task 10: Extracting Keyphrases and Relations from Scientific Publications Using Multiple Conditional Random Fields
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Lung-Hao Lee
+JobTitle#==#Postdoctoral Fellow
+Organization#==#​Graduate Institute of Library and Information Studies
+National Taiwan Normal University​​
+No. 162, Sec. 1, Heping East Road, Taipei 10610, Taiwan
+Abstract#==#This study describes the design of the NTNU system for the ScienceIE task at
+the SemEval 2017 workshop. We use self-defined feature templates and multiple
+conditional random fields with extracted features to identify keyphrases along
+with categorized labels and their relations from scientific publications. A
+total of 16 teams participated in evaluation scenario 1 (subtasks A, B, and C),
+with only 7 teams competing in all sub-tasks. Our best micro-averaging F1
+across the three subtasks is 0.23, ranking in the middle among all 16
+submissions.
+Author{1}{Firstname}#=%=#Lung-Hao
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#lunghaolee@gmail.com
+Author{1}{Affiliation}#=%=#National Taiwan Normal University
+Author{2}{Firstname}#=%=#Kuei-Ching
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#puremonkey2007@gmail.com
+Author{2}{Affiliation}#=%=#China Development Lab, IBM
+Author{3}{Firstname}#=%=#Yuen-Hsien
+Author{3}{Lastname}#=%=#Tseng
+Author{3}{Email}#=%=#samtseng@ntnu.edu.tw
+Author{3}{Affiliation}#=%=#National Taiwan Normal University
+
+==========

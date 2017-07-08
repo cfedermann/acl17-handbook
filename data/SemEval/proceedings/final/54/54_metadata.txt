@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#54
+FinalPaperTitle#=%=#L2F/INESC-ID at SemEval-2017 Tasks 1 and 2: Lexical and semantic features in word and textual similarity
+ShortPaperTitle#=%=#L2F/INESC-ID at SemEval-2017: Lexical and semantic features in text similarity
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Pedro Fialho
+JobTitle#==#
+Organization#==#Spoken Language Systems Lab (L2F) from INESC-ID, 
+Rua Alves Redol 9, 
+1000-029 Lisbon, 
+Portugal
+Abstract#==#This paper describes our approach to the SemEval-2017 ``Semantic Textual
+Similarity'' and ``Multilingual Word Similarity'' tasks. In the former, we test
+our approach in both English and Spanish, and use a linguistically-rich set of
+features. These move from lexical to semantic features. In particular, we try
+to take advantage of the recent Abstract Meaning Representation and SMATCH
+measure. Although without state of the art results, we introduce semantic
+structures in textual similarity and analyze their impact. Regarding word
+similarity, we target the English language and combine WordNet information with
+Word Embeddings. Without matching the best systems, our approach proved to be
+simple and effective.
+Author{1}{Firstname}#=%=#Pedro
+Author{1}{Lastname}#=%=#Fialho
+Author{1}{Email}#=%=#peter.fialho@gmail.com
+Author{1}{Affiliation}#=%=#L2F/INESC-ID
+Author{2}{Firstname}#=%=#Hugo
+Author{2}{Lastname}#=%=#Patinho Rodrigues
+Author{2}{Email}#=%=#hugo.p.rodrigues@tecnico.ulisboa.pt
+Author{2}{Affiliation}#=%=#IST/CMU
+Author{3}{Firstname}#=%=#Luísa
+Author{3}{Lastname}#=%=#Coheur
+Author{3}{Email}#=%=#luisa.coheur@l2f.inesc-id.pt
+Author{3}{Affiliation}#=%=#INESC-ID/IST
+Author{4}{Firstname}#=%=#Paulo
+Author{4}{Lastname}#=%=#Quaresma
+Author{4}{Email}#=%=#pq@di.uevora.pt
+Author{4}{Affiliation}#=%=#INESC-ID/UEvora
+
+==========

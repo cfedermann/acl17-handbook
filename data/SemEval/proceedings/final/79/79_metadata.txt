@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#79
+FinalPaperTitle#=%=#BIT at SemEval-2017 Task 1: Using Semantic Information Space to Evaluate Semantic Textual Similarity
+ShortPaperTitle#=%=#BIT at SemEval-2017 Task 1: Using Semantic Information Space to Evaluate Semantic Textual Similarity
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Hao Wu
+JobTitle#==#
+Organization#==#Beijing Engineering Research Center of High Volume Language Information Processing   and Cloud Computing Applications, School of Computer Science, Beijing Institute of Technology, Beijing, 100081, China
+Abstract#==#This paper presents three systems for semantic textual similarity (STS)
+evaluation at SemEval-2017 STS task. One is an unsupervised system and the
+other two are supervised systems which simply employ the unsupervised one. All
+our systems mainly depend on the (SIS), which is constructed based on the
+semantic hierarchical taxonomy in WordNet, to compute non-overlapping
+information content (IC) of sentences. Our team ranked 2nd among 31
+participating teams by the primary score of Pearson correlation coefficient
+(PCC) mean of 7 tracks and achieved the best performance on Track 1 (AR-AR)
+dataset.
+Author{1}{Firstname}#=%=#Hao
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Email}#=%=#wuhao123@bit.edu.cn
+Author{1}{Affiliation}#=%=#Beijing Institute of Technology
+Author{2}{Firstname}#=%=#Heyan
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#hhy63@bit.edu.cn
+Author{2}{Affiliation}#=%=#Beijing Institute of Technology
+Author{3}{Firstname}#=%=#Ping
+Author{3}{Lastname}#=%=#Jian
+Author{3}{Email}#=%=#pjian@bit.edu.cn
+Author{3}{Affiliation}#=%=#Beijing Institute of Technology
+Author{4}{Firstname}#=%=#Yuhang
+Author{4}{Lastname}#=%=#Guo
+Author{4}{Email}#=%=#guoyuhang@bit.edu.cn
+Author{4}{Affiliation}#=%=#Beijing Institute of Technology
+Author{5}{Firstname}#=%=#Chao
+Author{5}{Lastname}#=%=#Su
+Author{5}{Email}#=%=#suchao@bit.edu.cn
+Author{5}{Affiliation}#=%=#Beijing Institute of Technology
+
+==========

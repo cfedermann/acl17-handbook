@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#167
+FinalPaperTitle#=%=#Wild Devs' at SemEval-2017 Task 2: Using Neural Networks to Discover Word Similarity
+ShortPaperTitle#=%=#Wild Devs' at SemEval-2017 Task 2: Neural Networks for Word Similarity
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Diana Trandabat
+JobTitle#==#
+Organization#==#University Al. I. Cuza of Iasi, Romania
+Abstract#==#This paper presents Wild Devs’ participation in the SemEval-2017 Task 2
+“Multi-lingual and Cross-lingual Semantic Word Similarity”, which tries to
+automatically measure the semantic similarity between two words. The system was
+build using neural networks, having as input a collection of word pairs,
+whereas the output consists of a list of scores, from 0 to 4, corresponding to
+the degree of similarity between the word pairs.
+Author{1}{Firstname}#=%=#Răzvan-Gabriel
+Author{1}{Lastname}#=%=#Rotari
+Author{1}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{1}{Affiliation}#=%=#UAIC
+Author{2}{Firstname}#=%=#Ionut
+Author{2}{Lastname}#=%=#Hulub
+Author{2}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{2}{Affiliation}#=%=#UAIC
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Oprea
+Author{3}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{3}{Affiliation}#=%=#UAIC
+Author{4}{Firstname}#=%=#Mihaela
+Author{4}{Lastname}#=%=#Plamada-Onofrei
+Author{4}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{4}{Affiliation}#=%=#UAIC
+Author{5}{Firstname}#=%=#Alina Beatrice
+Author{5}{Lastname}#=%=#Lorent
+Author{5}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{5}{Affiliation}#=%=#UAIC
+Author{6}{Firstname}#=%=#Raluca
+Author{6}{Lastname}#=%=#Preisler
+Author{6}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{6}{Affiliation}#=%=#UAIC
+Author{7}{Firstname}#=%=#Adrian
+Author{7}{Lastname}#=%=#Iftene
+Author{7}{Email}#=%=#adiftene@info.uaic.ro
+Author{7}{Affiliation}#=%=#UAIC
+Author{8}{Firstname}#=%=#Diana
+Author{8}{Lastname}#=%=#Trandabat
+Author{8}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{8}{Affiliation}#=%=#University Alexandru Ioan Cuza of Iasi, Romania
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#171
+FinalPaperTitle#=%=#IITP at SemEval-2017 Task 8 : A Supervised Approach for Rumour Evaluation
+ShortPaperTitle#=%=#A Supervised Approach for Rumour Evaluation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#SA
+JobTitle#==#
+Organization#==#Indian Institute of Technology Patna, Bihta, Patna, India.
+Abstract#==#This paper describes our system participation in the SemEval-2017 Task 8
+'RumourEval: Determining rumour veracity and support for rumours'. The
+objective of this task was to predict the stance and veracity of the underlying
+rumour. We propose a supervised classification approach employing several
+lexical, content and twitter specific features for learning. Evaluation shows
+promising results for both the problems.
+Author{1}{Firstname}#=%=#Vikram
+Author{1}{Lastname}#=%=#Singh
+Author{1}{Email}#=%=#vikramsinghiitp@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology,Patna
+Author{2}{Firstname}#=%=#Sunny
+Author{2}{Lastname}#=%=#Narayan
+Author{2}{Email}#=%=#sunnykumar424@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{3}{Firstname}#=%=#Md Shad
+Author{3}{Lastname}#=%=#Akhtar
+Author{3}{Email}#=%=#shad.akhtar@gmail.com
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{4}{Firstname}#=%=#Asif
+Author{4}{Lastname}#=%=#Ekbal
+Author{4}{Email}#=%=#asif.ekbal@gmail.com
+Author{4}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{5}{Firstname}#=%=#Pushpak
+Author{5}{Lastname}#=%=#Bhattacharyya
+Author{5}{Email}#=%=#shad.akhtar@gmail.com
+Author{5}{Affiliation}#=%=#Indian Institute of Technology Patna
+
+==========

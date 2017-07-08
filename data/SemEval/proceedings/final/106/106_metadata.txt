@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#106
+FinalPaperTitle#=%=#SwissAlps at SemEval-2017 Task 3: Attention-based Convolutional Neural Network for Community Question Answering
+ShortPaperTitle#=%=#SwissAlps at SemEval-2017 Task 3: Attention-based Convolutional Neural Network for Community Question Answering
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jan Deriu
+JobTitle#==#
+Organization#==#Zurich University of Applied Sciences
+
+Steinberggasse 13, TG 104
+8400 Winterthur
+Switzerland
+Abstract#==#In this paper we propose a system for reranking
+answers for a given question. Our
+method builds on a siamese CNN architecture
+which is extended by two attention
+mechanisms. The approach was evaluated
+on the datasets of the SemEval-2017 competition
+for Community Question Answering
+(cQA), where it achieved 7th place obtaining
+a MAP score of 86:24 points on the
+Question-Comment Similarity subtask.
+Author{1}{Firstname}#=%=#Jan Milan
+Author{1}{Lastname}#=%=#Deriu
+Author{1}{Email}#=%=#deri@zhaw.ch
+Author{1}{Affiliation}#=%=#ZHAW
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Cieliebak
+Author{2}{Email}#=%=#ciel@zhaw.ch
+Author{2}{Affiliation}#=%=#ZHAW
+
+==========

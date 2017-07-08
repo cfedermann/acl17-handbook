@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#XJNLP at SemEval-2017 Task 12: Clinical temporal information ex-traction with a Hybrid Model
+ShortPaperTitle#=%=#Clinical temporal information extraction by a Hybrid Model
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#龙雨；李质婧；王轩；李辰
+JobTitle#==#student
+Organization#==#XJNLP
+28 Xian Ning West Road, Xi'an, China
+Abstract#==#Temporality is crucial in understanding the course of clinical events from a
+patient’s electronic health recordsand temporal processing is becoming more
+and more important for improving access to content.SemEval 2017 Task 12
+(Clinical TempEval) addressed this challenge using the THYME corpus, a corpus
+of clinical narratives annotated with a schema based on TimeML2 guidelines. We
+developed and evaluated approaches for: extraction of temporal expressions
+(TIMEX3) and EVENTs; EVENT attributes; document-time relations. Our approach is
+a hybrid model which is based on rule based methods, semi-supervised learning,
+and semantic features with addition of manually crafted rules.
+Author{1}{Firstname}#=%=#Yu
+Author{1}{Lastname}#=%=#Long
+Author{1}{Email}#=%=#yulongxbdx@163.com
+Author{1}{Affiliation}#=%=#University of Xi'an Jiaotong
+Author{2}{Firstname}#=%=#Zhijing
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#tokyojackson@126.com
+Author{2}{Affiliation}#=%=#Xi'an Jiaotong University
+Author{3}{Firstname}#=%=#Xuan
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#m18829236255@163.com
+Author{3}{Affiliation}#=%=#University of Xi'an Jiaotong
+Author{4}{Firstname}#=%=#Chen
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#cli@xjtu.edu.cn
+Author{4}{Affiliation}#=%=#University of Xi'an Jiaotong
+
+==========

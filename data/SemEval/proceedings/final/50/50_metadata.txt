@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#DT_Team at SemEval-2017 Task 1: Semantic Similarity Using Alignments, Sentence-Level Embeddings and Gaussian Mixture Model Output
+ShortPaperTitle#=%=#DT_Team at SemEval-2017 Task 1: Semantic Similarity Using Alignments, Sentence-Level Embeddings and Gaussian Mixture Model Output
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Nabin Maharjan
+JobTitle#==#
+Organization#==#The University of Memphis,
+Memphis, TN
+Abstract#==#We describe our system (DT Team) submitted at SemEval-2017 Task 1, Semantic
+Textual Similarity (STS) challenge for English (Track 5). We developed three
+different models with various features including similarity scores calculated
+using word and chunk alignments, word/sentence embeddings, and Gaussian Mixture
+Model(GMM). The correlation between our system’s output and the human
+judgments were up to 0.8536, which is more than 10% above baseline, and almost
+as good as the best performing system which was at 0.8547 correlation (the
+difference is just about 0.1%). Also, our system produced leading results when
+evaluated with a separate STS benchmark dataset. The word alignment and
+sentence embeddings based features were found to be very effective.
+Author{1}{Firstname}#=%=#Nabin
+Author{1}{Lastname}#=%=#Maharjan
+Author{1}{Email}#=%=#nmharjan@memphis.edu
+Author{1}{Affiliation}#=%=#The University of Memphis
+Author{2}{Firstname}#=%=#Rajendra
+Author{2}{Lastname}#=%=#Banjade
+Author{2}{Email}#=%=#rbanjade@memphis.edu
+Author{2}{Affiliation}#=%=#The University of Memphis
+Author{3}{Firstname}#=%=#Dipesh
+Author{3}{Lastname}#=%=#Gautam
+Author{3}{Email}#=%=#dgautam@memphis.edu
+Author{3}{Affiliation}#=%=#The University of Memphis
+Author{4}{Firstname}#=%=#Lasang J.
+Author{4}{Lastname}#=%=#Tamang
+Author{4}{Email}#=%=#lgtamang@memphis.edu
+Author{4}{Affiliation}#=%=#The University of Memphis
+Author{5}{Firstname}#=%=#Vasile
+Author{5}{Lastname}#=%=#Rus
+Author{5}{Email}#=%=#vrus@memphis.edu
+Author{5}{Affiliation}#=%=#The University of Memphis
+
+==========

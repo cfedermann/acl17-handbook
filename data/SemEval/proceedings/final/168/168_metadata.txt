@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#168
+FinalPaperTitle#=%=#ECNU at SemEval-2017 Task 7: Using Supervised and Unsupervised Methods to Detect and Locate English Puns
+ShortPaperTitle#=%=#ECNU at SemEval-2017 Task 7: Using Supervised and Unsupervised Methods to Detect and Locate English Puns
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Yuhuan Xiu
+JobTitle#==#
+Organization#==#EAST CHINA NORMAL UNIVERSITY
+North Zhongshan Road Campus: 3663 N. Zhongshan Rd., Shanghai 200062
+Abstract#==#This paper describes our submissions to task 7 in SemEval 2017, i.e., Detection
+and Interpretation of English Puns. We participated in the first two subtasks,
+which are
+to detect and locate English puns respectively. For subtask 1, we presented a
+supervised system to determine whether or not a sentence contains a pun using
+similarity features calculated on sense vectors or cluster center vectors. For
+subtask 2, we established an unsupervised system to locate the pun by scoring
+each word in the
+sentence and we assumed that the word with the smallest score is the pun.
+Author{1}{Firstname}#=%=#Yuhuan
+Author{1}{Lastname}#=%=#Xiu
+Author{1}{Email}#=%=#51164500032@stu.ecnu.edu.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Man
+Author{2}{Lastname}#=%=#Lan
+Author{2}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Yuanbin
+Author{3}{Lastname}#=%=#Wu
+Author{3}{Email}#=%=#ybwu@cs.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+
+==========

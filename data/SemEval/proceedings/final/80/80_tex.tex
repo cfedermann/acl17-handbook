@@ -1,0 +1,320 @@
+%
+% File acl2017.tex
+%
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2017}
+\usepackage{times}
+\usepackage{latexsym}
+
+\usepackage{url}
+
+\usepackage{mathptmx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{latexsym}
+%\usepackage{todonotes}
+\usepackage{booktabs}
+\usepackage{slashbox}
+
+\aclfinalcopy % Uncomment this line for the all SemEval submissions
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+%Title format for system description papers by task participants
+\title{ResSim at SemEval-2017 Task 1:\\Multilingual Word Representations for Semantic Textual Similarity}
+%Title format for task description papers by task organizers
+%\title{SemEval-2017 Task [TaskNumber]:  [Task Name]}
+
+
+\author{Johannes Bjerva \\
+Center for Language and Cognition Groningen \\
+University of Groningen \\
+The Netherlands \\
+{\tt j.bjerva@rug.nl} \\\And
+Robert {\"O}stling \\
+Department of Linguistics \\
+Stockholm University \\
+Sweden \\
+{\tt robert@ling.su.se} \\}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Shared Task 1 at SemEval-2017 deals with assessing the semantic similarity between sentences, either in the same or in different languages.
+In our system submission, we employ multilingual word representations, in which similar words in different languages are close to one another.
+Using such representations is advantageous, since the increasing amount of available parallel data allows for the application of such methods to many of the languages in the world.
+Hence, semantic similarity can be inferred even for languages for which no annotated data exists.
+Our system is trained and evaluated on all language pairs included in the shared task (English, Spanish, Arabic, and Turkish).
+Although development results are promising, our system does not yield high performance on the shared task test sets.
+\end{abstract}
+
+\section{Introduction}
+
+Semantic Textual Similarity (STS) is the task of assessing the degree to which two sentences are semantically similar.
+Within the SemEval STS shared tasks, this is measured on a scale ranging from 0 (no semantic similarity) to 5 (complete semantic similarity) \cite{semeval17}.
+Monolingual STS is an important task, for instance for evaluation of machine translation (MT) systems, where estimating the semantic similarity between a system's translation and the gold translation can aid both system evaluation and development.
+The task is already a challenging one in a monolingual setting, e.g., when estimating the similarity between two English sentences.
+In this paper, we tackle the more difficult case of cross-lingual STS, e.g., estimating the similarity between an English and an Arabic sentence.
+
+Previous approaches to this problem have focussed on two main approaches.
+On the one hand, MT approaches have been attempted (e.g. \newcite{cnrc:2016}), which allow for monolingual similarity assessment, but suffer from the fact that involving a fully-fledged MT system severely increases system complexity.
+Applying bilingual word representations, on the other hand, bypasses this issue without inducing such complexity (e.g. \newcite{aldarmaki:2016}).
+However, bilingual approaches do not allow for taking advantage of the increasing amount of STS data available for more than one language pair.
+
+Currently, there are several methods available for obtaining high quality multilingual word representations.
+It is therefore interesting to investigate whether language can be ignored entirely in an STS system after mapping words to their respective representations.
+We investigate the utility of multilingual word representations in a cross-lingual STS setting.
+We approach this by combining multilingual word representations with a deep neural network, in which all parameters are shared, regardless of language combinations.
+
+The contributions of this paper can be summed as follows:
+i) we show that multilingual input representations in some cases can be used to train an STS system without access to training data for a given language;
+ii) we show that access to data from other languages in some cases improves system performance for a given language.
+
+
+\section{Multilingual Word Representations}
+
+\subsection{Multilingual Skip-gram}
+The skip-gram model has become one of the most popular manners of learning word representations in NLP \cite{mikolov:2013efficient}.
+This is in part owed to its speed and simplicity, as well as the performance gains observed when incorporating the resulting word embeddings into almost any NLP system.
+The model takes a word $w$ as its input, and predicts the surrounding context $c$.
+Formally, the probability distribution of $c$ given $w$ is defined as
+\begin{equation}
+    p(c|w;\theta) = {\exp(\vec{c}^{T}\vec{w}) \over \Sigma_{c\in V} \exp(\vec{c}^{T}\vec{w})},
+\end{equation}
+where $V$ is the vocabulary, and $\theta$ the parameters of word emeddings ($\vec{w}$) and context embeddings ($\vec{c}$).
+The parameters of this model can then be learned by maximising the log-likelihood over $(w,c)$ pairs in the dataset $D$,
+\begin{equation}
+    J(\theta) = \sum_{(w,c)\in D}\log p(c|w;\theta).
+\end{equation}
+
+\newcite{multisg} provide a multilingual extension for the skip-gram model, by requiring the model to not only learn to predict English contexts, but also multilingual ones.
+This can be seen as a simple adaptation of \newcite[p.11]{firth}, i.e., you shall judge a word by the \textit{multilingual} company it keeps.
+Hence, the vectors for, e.g., \textit{dog} and \textit{perro} ought to be close to each other in such a model.
+This assumes access to multilingual parallel data, as word alignments are used in order to determine which words comprise the multilingual context of a word.
+Whereas \newcite{multisg} only evaluate their approach on the relatively similar languages English, French and Spanish, we explore a more typological diverse case, as we apply this method to English, Spanish and Arabic.
+We use the same parameter settings as \newcite{multisg}.
+
+\subsection{Learning embeddings}
+We train 100-dimensional multilingual embeddings on the Europarl \cite{europarl} and UN corpora \cite{uncorp}.
+%in one data-rich and one data-poor setting.
+%In the data-rich setting, we train embeddings on the Europarl and UN corpora.
+%In the data-poor setting, we rely on a very small amount of parallel data, as we train on a Bible corpus containing 1,000 languages.
+Word alignment, which is required for the training of multilingual embeddings, is performed using the Efmaral word-alignment tool \cite{efmaral}.
+This allows us to extract a large amount of multilingual $(w,c)$ pairs.
+We then use these pairs in order to learn multilingual embeddings, by applying the \textit{word2vecf} tool \cite{word2vecf}.
+%Since \textit{word2vecf} requires more data to learn high-quality representations, we use a simple SVD-based approach to learn word vectors on the Bible corpus.
+
+\section{Method}
+
+\subsection{System architecture}
+
+We use a relatively simple neural network architecture, consisting of an input layer with pre-trained word embeddings and a network of fully connected layers.
+Given word representations for each word in our sentence, we take the simplistic approach of averaging the vectors across each sentence.
+The resulting sentence-level representations are then concatenated and passed through a single fully connected layer, prior to the output layer.
+In order to prevent any shift from occurring in the embeddings, we do not update these during training.
+The intuition here, is that we do not want the representation for, e.g., \textit{dog} to be updated, which might push it further away from that of \textit{perro}.
+We expect this to be especially important in cases where we train on a single language, and evaluate on another.
+%The system architecture is depicted in Figure~\ref{fig:sys_arch}.
+
+We apply dropout ($p=0.5$) between each layer \cite{dropout}.
+All weights are initialised using the approach in \newcite{glorot:init}.
+We use the Adam optimisation algorithm \cite{adam}, monitoring the categorical cross entropy of a one-hot representation of the (rounded) sentence similarity score, while sanity-checking against the scores obtained as measured with Pearson correlation.
+All systems are trained using a batch size of 40 sentence pairs, over a maximum of 50 epochs, using early stopping.
+Hyperparameters are kept constant in all conditions.
+
+\subsection{Data}
+
+We use all available data from previous editions of the SemEval shared tasks on (cross-lingual) STS.
+An overview of the available data is shown in Table~\ref{tab:data}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lr}
+        \toprule
+        \textbf{Language pair} & \textbf{N sentences} \\
+        \midrule
+        English / English   & 3750 \\
+        English / Spanish   & 1000 \\
+        English / Arabic    & 2162 \\
+        Spanish / Spanish   & 1620 \\
+        Arabic \ / Arabic   & 1081 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Available data for (cross-lingual) STS from the SemEval shared task series.\vspace{2pt}}
+    \label{tab:data}
+\end{table}
+
+
+\section{Experiments and Results}
+
+We aim to investigate whether using a multilingual input representation and shared weights allow us to ignore languages in STS.
+We first train and evaluate single-source trained systems (i.e. on a single language pair), and evaluate this both using the same language pair as target, and on all other target language pairs.\footnote{This setting can be seen as a sort of model transfer.}
+Secondly, we investigate the effect of bundling training data together, investigating which language pairings are helpful for each other.
+We measure performance between gold similarities and system output using the Pearson correlation measure, as this is standard in the SemEval STS shared tasks.
+We first present results on the development sets, and finally the official shared task evaluation results.
+
+\subsection{Single-source training}
+
+Results when training on a single source corpus are shown in Table~\ref{tab:single_source}.
+Training on the target language pair generally yields the highest results, except for one case.
+When evaluating on Arabic/Arabic sentence pairs, training on English/Arabic texts yields comparable, or slightly better, performance than when training on Arabic/Arabic.
+
+\setlength{\tabcolsep}{4pt}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lrrrrr}
+        \toprule
+        \backslashbox{\small\textbf{Test}}{\small\textbf{Train}}  & \textbf{en/en} & \textbf{en/es} & \textbf{en/ar} & \textbf{es/es} & \textbf{ar/ar} \\
+        \midrule
+        \textbf{en/en}                                       & \textbf{0.69}  & 0.07           & -0.04           & 0.64           & 0.54           \\
+        \textbf{en/es}                                       & 0.19           & \textbf{0.27}  & 0.00            & 0.18           & -0.04          \\
+        \textbf{en/ar}                                       & -0.44          & 0.37           & \textbf{0.73}   & -0.10          & 0.62           \\
+        \textbf{es/es}                                       & 0.61           & 0.07           & 0.12            & \textbf{0.65}  & 0.50           \\
+        \textbf{ar/ar}                                       & 0.59           & 0.52           & \textbf{0.73}   & 0.59           & 0.71           \\
+        \bottomrule
+    \end{tabular}
+    \caption{Single-source training results (Pearson correlations). Columns indicate training language pairs, and rows indicate testing language pairs. Bold numbers indicate best results per row.\vspace{2pt}}
+    \label{tab:single_source}
+\end{table}
+
+\subsection{Multi-source training}
+
+We combine training corpora in order to investigate how this affects evaluation performance on the language pairs in question.
+In the first condition, we copy the single-source setup, except for that we also add in the data belonging to the source-pair at hand, e.g., training on both English/Arabic and Arabic/Arabic when evaluating on Arabic/Arabic (see Table~\ref{tab:single_source_add}).
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lrrrrr}
+        \toprule
+        \backslashbox{\small\textbf{Test}}{\small\textbf{Train}}  & \textbf{en/en} & \textbf{en/es} & \textbf{en/ar} & \textbf{es/es} & \textbf{ar/ar} \\
+        \midrule
+        \textbf{en/en}                                       & 0.69          &  0.68          &  0.67           & 0.69           & \textbf{0.71}     \\
+        \textbf{en/es}                                       & 0.22          &  0.27          & \textbf{0.30}   & 0.22           &  0.24             \\
+        \textbf{en/ar}                                       & 0.72          &  0.72          & \textbf{0.73}   & 0.71           &  0.72             \\
+        \textbf{es/es}                                       & 0.63          &  0.60          &  0.63           & 0.65           &  \textbf{0.66}    \\
+        \textbf{ar/ar}                                       & 0.71          &  0.72          & \textbf{0.75}   &  0.70          &  0.71             \\
+        \bottomrule
+    \end{tabular}
+    \caption{Training results with one source in addition to in-language data (Pearson correlations). Columns indicate added training language pairs, and rows indicate testing language pairs. Bold numbers indicate best results per row.\vspace{2pt}}
+    \label{tab:single_source_add}
+\end{table}
+
+We observe that the monolingual language pairings (en/en, es/es, ar/ar) appear to be beneficial for one another.
+We therefore run an ablation experiment, in which we train on two out of three of these language pairs, and evaluate on all three.
+Not including any Spanish training data yields comparable performance to including it (Table~\ref{tab:ablation}).
+
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lrrrr}
+        \toprule
+        \backslashbox{\small\textbf{Test}}{\small\textbf{Ablated}}  & \textbf{en/en} & \textbf{es/es} & \textbf{ar/ar}   & \textbf{none} \\
+        \midrule
+        \textbf{en/en}                                       & \textbf{0.60}          &  0.69            & 0.69          & 0.65   \\
+        \textbf{es/es}                                       & 0.64                   &  \textbf{0.64}   & 0.67          & 0.60   \\
+        \textbf{ar/ar}                                       & 0.68                   &  0.66            & \textbf{0.58} & 0.72   \\
+        \bottomrule
+    \end{tabular}
+    \caption{Ablation results (Pearson correlations). Columns indicate ablated language pairs, and rows indicate testing language pairs. The \textit{none} column indicates no ablation, i.e., training on all three monolingual pairs.
+    Bold indicates results when not training on the language pair evaluated on.\vspace{2pt}}
+    \label{tab:ablation}
+\end{table}
+
+\begin{table*}[h]
+\centering
+\begin{tabular}{lrrrrrrrr}
+    \toprule
+   & \textbf{Primary} & \textbf{ar/ar} & \textbf{ar/en}  & \textbf{es/es}  & \textbf{es/en}  & \textbf{es/en (wmt)} & \textbf{en/en} & \textbf{en/tr} \\
+   \midrule
+\textbf{Single-source} & 0.3148 & 0.2892 & 0.1045 & 0.6613 & 0.2389 & 0.0305 & 0.6906 & 0.1884 \\
+\textbf{Multi-source}  & 0.2938 & 0.3120 & 0.1288 & 0.6920 & 0.1002 & 0.0162 & 0.6877 & 0.1195 \\
+\textbf{Ablation}      & 0.2145 & 0.0033 & 0.1098 & 0.5465 & 0.2262 & 0.0199 & 0.5057 & 0.0902 \\
+\bottomrule
+\end{tabular}
+\caption{Results on SemEval-2017 Shared Task Test sets.\vspace{2pt}}
+\label{tab:official_test}
+\end{table*}
+
+% \subsection{Comparison with Monolingual Representations}
+% We compare multilingual embeddings with the performance obtained using the pre-trained monolingual Polyglot embeddings \cite{polyglot}.
+% Training and evaluating on the same language pair yields comparable results regardless of embeddings.
+% However, when using monolingual embeddings, every multilingual language pair combination yields poor results.
+
+\subsection{Shared Task Test Results}
+
+The results from the official SemEval-2017 evaluation are shown in Table~\ref{tab:official_test}.
+Although our results for Spanish/Spanish and English/English are in line with our development results, the results for all other language pairs are far lower than expected.
+This might be explained by overfitting to the training/dev sets we use.
+After the official evaluation period ended, we also attempted to perform a sanity check.
+We allowed our model to tune on the gold data, which surprisingly did not increase performance particularly much.
+We therefore suspect that the poor system performance we observe, may be partially owed to two factors:
+i) overfitting on the tracks involving Arabic, as we did not apply any type of pre-processing, and our vector set was tuned on relatively little Arabic data;
+ii) discrepancies between the mix of training-data (and possibly annotators) from previous editions of the shared task, and test data in this year's edition.
+
+An interesting option to attempt to solve part of this problem, would be to frame this as a multi-task learning problem.
+This could be done by assigning each year's data set a separate output layer.
+Should annotator conventions differ, e.g., if a score of $2.5$ in 2015 is equivalent to a score of $3.5$ in 2016, the network should be able to learn this and compensate for such effects.
+
+
+\section{Discussion}
+
+In all cases, training on the target language pair is beneficial.
+We also observe that using multilingual embeddings is crucial for multilingual approaches, as monolingual embeddings naturally only yield on-par results in monolingual settings.
+This is due to the fact that using the shared language-agnostic input representation allows us to take advantage of linguistic regularities across languages, which we obtain solely from observing distributions between languages in parallel text.
+Using monolingual word representations, however, there is no similarity between, e.g., \textit{dog} and \textit{perro} to rely on to guide learning.
+
+For the single-source training, we in one case observe somewhat better performance using other training sets than the in-language one: training on English/Arabic outperforms training on Arabic/Arabic, when evaluating on Arabic/Arabic.
+We expected this to be due to differing data set sizes (English/Arabic is about twice as big).
+Controlling for this does, indeed, bring the performance of training on English/Arabic close to training on Arabic/Arabic.
+However, combining these datasets increases performance further (Table~\ref{tab:single_source_add}).
+
+In single-source training, we also observe that certain source languages do not offer any generalisation over certain target languages.
+Interestingly, certain combinations of training/testing language pairs yield very poor results.
+For instance, training on English/English yields very poor results when evaluating on English/Arabic, and vice versa.
+The same is observed for the combination Spanish/Spanish and English/Arabic.
+This may be explained by domain differences in training and evaluation data.
+A general trend appears to be that either monolingual training pairs and evaluation pairs, or cross-lingual pairs with some overlap (e.g. English/Arabic, Arabic/Arabic) is beneficial.
+
+The positive results on pairings without any language overlap are particularly promising.
+Training on English/English yields results not too far from training on the source language pairs, for Spanish/Spanish and Arabic/Arabic.
+Similar results are observed when training on Spanish/Spanish and evaluating on English/English and Arabic/Arabic,
+as well as when training on Arabic/Arabic and evaluating on English/English and Spanish/Spanish.
+This indicates that we can estimate STS relatively reliably, even without assuming any existing STS data for a given language.
+
+\section{Conclusions and Future Work}
+
+Multilingual word representations allow us to leverage more available data for multilingual learning of semantic textual similarity.
+We have shown that relatively high STS performance can be achieved for languages without assuming existing STS annotation, and relying solely on parallel texts.
+An interesting direction for future work is to investigate how multilingual character-level representations can be included, perhaps learning morpheme-level representations and mappings between these across languages.
+Leveraging approaches to learning multilingual word representations from smaller data sets would also be interesting.
+For instance, learning such representations from only the New Testament, would allow for STS estimation for more than 1,000 languages.
+
+\section*{Acknowledgments}
+We would like to thank the Center for Information Technology of the University of Groningen for providing access to the Peregrine high performance computing cluster.
+
+
+% include your own bib file like this:
+%\bibliographystyle{acl}
+%\bibliography{acl2017}
+\bibliography{comsem}
+\bibliographystyle{acl_natbib}
+
+
+\end{document}

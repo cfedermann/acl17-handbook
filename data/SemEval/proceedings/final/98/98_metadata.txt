@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#98
+FinalPaperTitle#=%=#NLG301 at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
+ShortPaperTitle#=%=#NLG301 at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Chung-Chi Chen
+JobTitle#==#
+Organization#==#Department of Computer Science and Information Engineering
+National Taiwan University, Taipei, Taiwan
+Abstract#==#Short length, multi-targets, target relation-ship, monetary expressions, and
+outside reference are characteristics of financial tweets. This paper proposes
+methods to extract target spans from a tweet and its referencing web page.
+Total 15 publicly available sentiment dictionaries and one sentiment dictionary
+constructed from training set, containing sentiment scores in binary or real
+numbers, are used to compute the sentiment scores of text spans. Moreover, the
+correlation coeffi-cients of the price return between any two stocks are
+learned with the price data from Bloomberg. They are used to capture the
+relationships between the interesting tar-get and other stocks mentioned in a
+tweet. The best result of our method in both sub-task are 56.68% and 55.43%,
+evaluated by evaluation method 2.
+Author{1}{Firstname}#=%=#Chung-Chi
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#chunji0112@gmail.com
+Author{1}{Affiliation}#=%=#Department of Computer Science and Information Engineering National Taiwan University, Taipei, Taiwan
+Author{2}{Firstname}#=%=#Hen-Hsen
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#hhhuang@nlg.csie.ntu.edu.tw
+Author{2}{Affiliation}#=%=#Department of Computer Science and Information Engineering National Taiwan University, Taipei, Taiwan
+Author{3}{Firstname}#=%=#Hsin-Hsi
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#hhchen@ntu.edu.tw
+Author{3}{Affiliation}#=%=#Department of Computer Science and Information Engineering National Taiwan University, Taipei, Taiwan
+
+==========

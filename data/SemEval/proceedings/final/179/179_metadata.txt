@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#179
+FinalPaperTitle#=%=#SVNIT @ SemEval 2017 Task-6: Learning a Sense of Humor Using Supervised Approach
+ShortPaperTitle#=%=#SVNIT @ SemEval 2017 Task-6: Learning a Sense of Humor Using Supervised Approach
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Rutal Mahajan
+JobTitle#==#
+Organization#==#S.V.National Institute of Technology
+Ichchhanath
+Surat-395007
+Gujarat, India.
+Abstract#==#This paper describes the system devel-oped for SemEval 2017 task 6:
+#HashTagWars -Learning a Sense of Hu-mor. Learning to recognize sense of hu-mor
+is the important task for language understanding applications. Different set of
+features based on frequency of words, structure of tweets and semantics are
+used in this system to identify the presence of humor in tweets. Supervised
+machine learning approaches, Multilayer percep-tron and Naïve Bayes are used
+to classify the tweets in to three level of sense of humor. For given Hashtag,
+the system finds the funniest tweet and predicts the amount of funniness of all
+the other tweets. In official submitted runs, we have achieved 0.506 accuracy
+using mul-tilayer perceptron in subtask-A and 0.938 distance in subtask-B.
+Using Naïve bayes in subtask-B, the system achieved 0.949 distance. Apart from
+official runs, this system have scored 0.751 accuracy in subtask-A using SVM.
+But still there is a wide room for improvement in system.
+Author{1}{Firstname}#=%=#Rutal
+Author{1}{Lastname}#=%=#Mahajan
+Author{1}{Email}#=%=#rutal.mahajan@gmail.com
+Author{1}{Affiliation}#=%=#National Institute of Technology at Surat
+Author{2}{Firstname}#=%=#Mukesh
+Author{2}{Lastname}#=%=#Zaveri
+Author{2}{Email}#=%=#mazaveri@coed.svnit.ac.in
+Author{2}{Affiliation}#=%=#S.V. National Institute of Technology, Surat
+
+==========

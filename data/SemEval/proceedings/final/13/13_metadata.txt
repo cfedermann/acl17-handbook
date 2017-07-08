@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#NNEMBs at SemEval-2017 Task 4: Neural Twitter Sentiment Classification: a Simple Ensemble Method with Different Embeddings
+ShortPaperTitle#=%=#NNEMBs at SemEval-2017 Task 4: Neural Twitter Sentiment Classification: a Simple Ensemble Method with Different Embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yichun Yin
+JobTitle#==#
+Organization#==#Peking University
+Abstract#==#Recently, neural twitter sentiment classification has become one of
+state-of-thearts, which relies less feature engineering work compared with
+traditional methods. In this paper, we propose a simple and effective ensemble
+method to further boost the performances of neural models. We collect several
+word embedding sets which are publicly released (often are learned on different
+corpus) or constructed by running Skip-gram on released large-scale corpus. We
+make an assumption that different word embeddings cover different words and
+encode different semantic knowledge, thus using them together can improve the
+generalizations and performances of neural models. In the SemEval 2017, our
+method ranks 1st in Accuracy, 5th in AverageR. Meanwhile, the additional
+comparisons demonstrate the superiority of our model over these ones based
+on only one word embedding set. We release our code for the method
+duplicability.
+Author{1}{Firstname}#=%=#Yichun
+Author{1}{Lastname}#=%=#Yin
+Author{1}{Email}#=%=#yichunyin@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Yangqiu
+Author{2}{Lastname}#=%=#Song
+Author{2}{Email}#=%=#yqsong@cse.ust.hk
+Author{2}{Affiliation}#=%=#HKUST
+Author{3}{Firstname}#=%=#Ming
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#mzhang_cs@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

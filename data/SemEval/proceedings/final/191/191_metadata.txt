@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#191
+FinalPaperTitle#=%=#SemEval-2017 Task 11: End-User Development using Natural Language
+ShortPaperTitle#=%=#SemEval-2017 Task 11: End-User Development using Natural Language
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Andre Freitas
+JobTitle#==#Researcher
+Organization#==#University of Passau, Innstrasse 43, 94032, Passau, Germany
+Abstract#==#This task proposes a challenge to support the interaction between users and
+applications, micro-services and software APIs using natural language. The task
+aims for supporting the evaluation and evolution of the discussions surrounding
+the natural language processing approaches within the context of end-user
+natural language programming, under scenarios of high semantic
+heterogeneity/gap.
+Author{1}{Firstname}#=%=#Juliano
+Author{1}{Lastname}#=%=#Sales
+Author{1}{Email}#=%=#julianoens@gmail.com
+Author{1}{Affiliation}#=%=#University of Passau
+Author{2}{Firstname}#=%=#Siegfried
+Author{2}{Lastname}#=%=#Handschuh
+Author{2}{Email}#=%=#siegfried.handschuh@gmail.com
+Author{2}{Affiliation}#=%=#University of Passau
+Author{3}{Firstname}#=%=#André
+Author{3}{Lastname}#=%=#Freitas
+Author{3}{Email}#=%=#andre.freitas@uni-passau.de
+Author{3}{Affiliation}#=%=#Universitaet Passau
+
+==========

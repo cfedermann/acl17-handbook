@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#173
+FinalPaperTitle#=%=#SZTE-NLP at SemEval-2017 Task 10: A High Precision Sequence Model for Keyphrase Extraction Utilizing Sparse Coding for Feature Generation
+ShortPaperTitle#=%=#SZTE-NLP at SemEval-2017 Task 10: A High Precision Sequence Model for Keyphrase Extraction Utilizing Sparse Coding for Feature Generation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Gábor Berend
+JobTitle#==#
+Organization#==#Department of Informatics, University of Szeged
+Árpád tér 2, H6720 Szeged, Hungary
+Abstract#==#In this paper we introduce our system participating at the 2017 SemEval shared
+task on keyphrase extraction from scientific documents.
+We aimed at the creation of a keyphrase extraction approach which relies on as
+little external resources as possible. Without applying any hand-crafted
+external resources, and only utilizing a transformed version of word embeddings
+trained at Wikipedia, our proposed system manages to perform among the best
+participating systems in terms of precision.
+Author{1}{Firstname}#=%=#Gábor
+Author{1}{Lastname}#=%=#Berend
+Author{1}{Email}#=%=#berendg@inf.u-szeged.hu
+Author{1}{Affiliation}#=%=#University Of Szeged
+
+==========

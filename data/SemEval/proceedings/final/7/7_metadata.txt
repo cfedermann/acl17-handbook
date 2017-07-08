@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#CompiLIG at SemEval-2017 Task 1: Cross-Language Plagiarism Detection Methods for Semantic Textual Similarity
+ShortPaperTitle#=%=#CompiLIG at SemEval-2017 Task 1: Cross-Language Plagiarism Detection Methods for Semantic Textual Similarity
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jérémy Ferrero
+JobTitle#==#
+Organization#==#Compilatio
+276 rue du Mont Blanc 74540 Saint-Félix, France
+and
+LIG-GETALP
+Univ. Grenoble Alpes, France
+Abstract#==#We present our submitted systems for Semantic Textual Similarity (STS) Track 4
+at SemEval-2017. Given a pair of Spanish-English sentences, each system must
+estimate their semantic similarity by a score between 0 and 5. In our
+submission, we use syntax-based, dictionary-based, context-based, and MT-based
+methods. We also combine these methods in unsupervised and supervised way. Our
+best run ranked 1st on track 4a with a correlation of 83.02% with human
+annotations.
+Author{1}{Firstname}#=%=#Jérémy
+Author{1}{Lastname}#=%=#Ferrero
+Author{1}{Email}#=%=#ferrero.jerem@gmail.com
+Author{1}{Affiliation}#=%=#Université Grenoble Alpes
+Author{2}{Firstname}#=%=#Laurent
+Author{2}{Lastname}#=%=#Besacier
+Author{2}{Email}#=%=#laurent.besacier@imag.fr
+Author{2}{Affiliation}#=%=#LIG
+Author{3}{Firstname}#=%=#Didier
+Author{3}{Lastname}#=%=#Schwab
+Author{3}{Email}#=%=#didier.schwab@imag.fr
+Author{3}{Affiliation}#=%=#Univ. Grenoble Alpes
+Author{4}{Firstname}#=%=#Frédéric
+Author{4}{Lastname}#=%=#Agnès
+Author{4}{Email}#=%=#frederic@compilatio.net
+Author{4}{Affiliation}#=%=#Compilatio
+
+==========

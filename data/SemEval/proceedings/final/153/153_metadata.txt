@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#153
+FinalPaperTitle#=%=#TTI-COIN at SemEval-2017 Task 10: Investigating Embeddings for End-to-End Relation Extraction from Scientific Papers
+ShortPaperTitle#=%=#TTI-COIN at SemEval-2017 Task 10: Investigating Embeddings for End-to-End Relation Extraction from Scientific Papers
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Tomoki Tsujimura
+JobTitle#==#
+Organization#==#Toyota Technological Institute
+2-12-1 Hisakata, Tempaku-ku, Nagoya, Aichi, 468-8511, Japan
+Abstract#==#This paper describes our TTI-COIN system that participated in SemEval-2017 Task
+10. We investigated appropriate embeddings to adapt a neural end-to-end entity
+and relation extraction system LSTM-ER to this task. We participated in the
+full task setting of the entity segmentation, entity classification and
+relation classification (scenario 1) and the setting of relation classification
+only (scenario 3). The system was directly applied to the scenario 1 without
+modifying the codes thanks to its generality and flexibility. Our evaluation
+results show that the choice of appropriate pre-trained embeddings affected the
+performance significantly. With the best embeddings, our system was ranked
+third in the scenario 1 with the micro F1 score of 0.38. We also confirm that
+our system can produce the micro F1 score of 0.48 for the scenario 3 on the
+test data, and this score is close to the score of the 3rd ranked system in the
+task.
+Author{1}{Firstname}#=%=#Tomoki
+Author{1}{Lastname}#=%=#Tsujimura
+Author{1}{Email}#=%=#sd16420@toyota-ti.ac.jp
+Author{1}{Affiliation}#=%=#Computational Intelligence Laboratory, Toyota Technological Institute
+Author{2}{Firstname}#=%=#Makoto
+Author{2}{Lastname}#=%=#Miwa
+Author{2}{Email}#=%=#makoto-miwa@toyota-ti.ac.jp
+Author{2}{Affiliation}#=%=#Toyota Technological Institute
+Author{3}{Firstname}#=%=#Yutaka
+Author{3}{Lastname}#=%=#Sasaki
+Author{3}{Email}#=%=#yutaka.sasaki@toyota-ti.ac.jp
+Author{3}{Affiliation}#=%=#Toyota Technological Institute
+
+==========

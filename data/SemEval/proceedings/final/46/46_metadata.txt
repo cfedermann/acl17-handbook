@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Jmp8 at SemEval-2017 Task 2: A simple and general distributional approach to estimate word similarity
+ShortPaperTitle#=%=#Jmp8 at SemEval-2017 Task 2: A simple and general distributional approach to estimate word similarity
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Josué Melka
+JobTitle#==#
+Organization#==#LIASD - Université Paris 8
+2 Rue de la Liberté, 93526 Saint-Denis, France
+Abstract#==#We have built a simple corpus-based system to estimate words similarity in
+multiple languages with a count-based approach. After training on Wikipedia
+corpora, our system was evaluated on the multilingual subtask of SemEval-2017
+Task 2 and achieved a good level of performance, despite its great simplicity.
+Our results tend to demonstrate the power of the distributional approach in
+semantic similarity tasks, even without knowledge of the underlying language.
+We also show that dimensionality reduction has a considerable impact on the
+results.
+Author{1}{Firstname}#=%=#Josué
+Author{1}{Lastname}#=%=#Melka
+Author{1}{Email}#=%=#jmelka@ai.univ-paris8.fr
+Author{1}{Affiliation}#=%=#Université Paris 8
+Author{2}{Firstname}#=%=#Gilles
+Author{2}{Lastname}#=%=#Bernard
+Author{2}{Email}#=%=#gb@ai.univ-paris8.fr
+Author{2}{Affiliation}#=%=#Université Paris 8
+
+==========

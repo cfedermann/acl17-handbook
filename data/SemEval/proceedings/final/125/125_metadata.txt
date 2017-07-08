@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#125
+FinalPaperTitle#=%=#HHU at SemEval-2017 Task 2: Fast Hash-Based Embeddings for Semantic Word Similarity Assessment
+ShortPaperTitle#=%=#Fast Hash-Based Embeddings
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Behrang QasemiZadeh
+JobTitle#==#
+Organization#==#Heinrich-Heine-University Düsseldorf
+40204 Düsseldorf
+Abstract#==#This paper describes the HHU system that participated in Task 2 of SemEval
+2017, Multilingual and Cross-lingual Semantic Word Similarity. We introduce our
+unsupervised embedding learning technique and describe how it was employed and
+configured to address the problems of monolingual and multilingual word
+similarity measurement. This paper reports from empirical evaluations on the
+benchmark provided by the task's organizers.
+Author{1}{Firstname}#=%=#Behrang
+Author{1}{Lastname}#=%=#QasemiZadeh
+Author{1}{Email}#=%=#zadeh@phil.uni-duesseldorf.de
+Author{1}{Affiliation}#=%=#Computational Linguistics Department, University of Düsseldorf
+Author{2}{Firstname}#=%=#Laura
+Author{2}{Lastname}#=%=#Kallmeyer
+Author{2}{Email}#=%=#kallmeyer@phil.uni-duesseldorf.de
+Author{2}{Affiliation}#=%=#University of Duesseldorf
+
+==========

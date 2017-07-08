@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#PunFields at SemEval-2017 Task 7: Employing Roget's Thesaurus in Automatic Pun Recognition and Interpretation
+ShortPaperTitle#=%=#Employing Roget's Thesaurus in Automatic Pun Recognition
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Elena Mikhalkova
+JobTitle#==#
+Organization#==#Tyumen State University
+625003, Russia, Tyumen Region, Tyumen
+6, Volodarskogo street
+Abstract#==#The article describes a model of automatic interpretation of English puns,
+based on Roget{'}s Thesaurus, and its implementation, PunFields. In a pun, the
+algorithm discovers two groups of words that belong to two main semantic
+fields. The fields become a semantic vector based on which an SVM classifier
+learns to recognize puns. A rule-based model is then applied for recognition of
+intentionally ambiguous (target) words and their definitions. In SemEval Task 7
+PunFields shows a considerably good result in pun classification, but requires
+improvement in searching for the target word and its definition.
+Author{1}{Firstname}#=%=#Elena
+Author{1}{Lastname}#=%=#Mikhalkova
+Author{1}{Email}#=%=#evrog2009@gmail.com
+Author{1}{Affiliation}#=%=#Tyumen State University
+Author{2}{Firstname}#=%=#Yuri
+Author{2}{Lastname}#=%=#Karyakin
+Author{2}{Email}#=%=#karyakin_y@mail.ru
+Author{2}{Affiliation}#=%=#Tyumen State University
+
+==========

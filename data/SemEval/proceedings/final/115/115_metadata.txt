@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#115
+FinalPaperTitle#=%=#funSentiment at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs  Using Word  Vectors Built from StockTwits and Twitter
+ShortPaperTitle#=%=#Fine-Grained Sentiment Anal-ysis on Financial Microblogs  Using Word  Vectors Built from StockTwits and Twitter
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Quanzhi Li
+JobTitle#==#
+Organization#==#Thomson Reuters
+3 Times Square
+New York, NY 10036
+Abstract#==#This paper describes the approach we used for SemEval-2017 Task 5: Fine-Grained
+Sentiment Analysis on Financial Microblogs. We use three types of word
+embeddings in our algorithm: word embeddings learned from 200 million tweets,
+sentiment-specific word embeddings learned from 10 million tweets using
+distance supervision, and word embeddings learned from 20 million StockTwits
+messages.  In our approach, we also take the left and right context of the
+target company into consideration when generating polarity prediction features.
+All the features generated from different word embeddings and contexts are
+integrated together to train our algorithm
+Author{1}{Firstname}#=%=#Quanzhi
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#quanzhi.li@gmail.com
+Author{1}{Affiliation}#=%=#Thomson Reuters
+Author{2}{Firstname}#=%=#Sameena
+Author{2}{Lastname}#=%=#Shah
+Author{2}{Email}#=%=#sameena.shah@thomsonreuters.com
+Author{2}{Affiliation}#=%=#Thomson Reuters
+Author{3}{Firstname}#=%=#Armineh
+Author{3}{Lastname}#=%=#Nourbakhsh
+Author{3}{Email}#=%=#armineh.nourbakhsh@thomsonreuters.com
+Author{3}{Affiliation}#=%=#Thomson Reuters
+Author{4}{Firstname}#=%=#Rui
+Author{4}{Lastname}#=%=#Fang
+Author{4}{Email}#=%=#rui.fang@thomsonreuters.com
+Author{4}{Affiliation}#=%=#Thomson Reuters
+Author{5}{Firstname}#=%=#Xiaomo
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Email}#=%=#xiaomo.liu@thomsonreuters.com
+Author{5}{Affiliation}#=%=#Thomson Reuters
+
+==========

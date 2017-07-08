@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#78
+FinalPaperTitle#=%=#EELECTION at SemEval-2017 Task 10: Ensemble of nEural Learners for kEyphrase ClassificaTION
+ShortPaperTitle#=%=#EELECTION at SemEval-2017 Task 10: Ensemble of nEural Learners for kEyphrase ClassificaTION
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Steffen Eger
+JobTitle#==#
+Organization#==#UKP Darmstadt
+Hochschulstraße 10 
+64289 Darmstadt
+Germany
+Abstract#==#This paper describes our approach to the SemEval 2017 Task 10: Extracting
+Keyphrases and Relations from Scientific Publications, specifically to Subtask
+(B): Classification of identified keyphrases. We explored three different deep
+learning approaches: a character-level convolutional neural network (CNN), a
+stacked learner with an MLP meta-classifier, and an attention based Bi-LSTM.
+From these approaches, we created an ensemble of differently
+hyper-parameterized systems, achieving a micro-$F_1$-score of 0.63 on the test
+data. Our approach ranks 2nd (score of 1st placed system: 0.64) out of four
+according to this official score. However, we erroneously trained 2 out of 3
+neural nets (the stacker and the CNN) on only roughly 15\% of the full data,
+namely, the original development set. When trained on the full data
+(training$+$development), our ensemble has a micro-$F_{1}$-score of 0.69. Our
+code is available from https://github.com/UKPLab/semeval2017-scienceie.
+Author{1}{Firstname}#=%=#Steffen
+Author{1}{Lastname}#=%=#Eger
+Author{1}{Email}#=%=#eger.steffen@gmail.com
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Erik-Lân
+Author{2}{Lastname}#=%=#Do Dinh
+Author{2}{Email}#=%=#dodinh@kdsl.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{3}{Firstname}#=%=#Ilia
+Author{3}{Lastname}#=%=#Kuznetsov
+Author{3}{Email}#=%=#kuznetsov@ukp.informatik.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{4}{Firstname}#=%=#Masoud
+Author{4}{Lastname}#=%=#Kiaeeha
+Author{4}{Email}#=%=#kiaeeha@ukp.informatik.tu-darmstadt.de
+Author{4}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{5}{Firstname}#=%=#Iryna
+Author{5}{Lastname}#=%=#Gurevych
+Author{5}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{5}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

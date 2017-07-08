@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#159
+FinalPaperTitle#=%=#bunji at SemEval-2017 Task 3: Combination of Neural Similarity Features and Comment Plausibility Features
+ShortPaperTitle#=%=#bunji at SemEval-2017 Task 3: Combination of Neural Similarity Features and Comment Plausibility Features
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yuta Koreeda
+JobTitle#==#
+Organization#==#Hitachi, Ltd.
+1-280, Higashi-Koigakubo, Kokubunji-shi, Tokyo 185-8601, Japan
+Abstract#==#This paper describes a text-ranking system developed by bunji team in
+SemEval-2017 Task 3: Community Question Answering, Subtask A and C. The goal of
+the task is to re-rank the comments in a question-and-answer forum such that
+useful comments for answering the question are ranked high. We proposed a
+method that combines neural similarity features and hand-crafted comment
+plausibility features, and we modeled inter-comments relationship using
+conditional random field. Our approach obtained the fifth place in the Subtask
+A and the second place in the Subtask C.
+Author{1}{Firstname}#=%=#Yuta
+Author{1}{Lastname}#=%=#Koreeda
+Author{1}{Email}#=%=#yuta.koreeda.pb@hitachi.com
+Author{1}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{2}{Firstname}#=%=#Takuya
+Author{2}{Lastname}#=%=#Hashito
+Author{2}{Email}#=%=#takuya.hashito.qk@hitachi.com
+Author{2}{Affiliation}#=%=#Industry & Distribution Business Unit, Hitachi, Ltd.
+Author{3}{Firstname}#=%=#Yoshiki
+Author{3}{Lastname}#=%=#Niwa
+Author{3}{Email}#=%=#yoshiki.niwa.tx@hitachi.com
+Author{3}{Affiliation}#=%=#CER, Hitachi, Ltd.
+Author{4}{Firstname}#=%=#Misa
+Author{4}{Lastname}#=%=#Sato
+Author{4}{Email}#=%=#misa.sato.mw@hitachi.com
+Author{4}{Affiliation}#=%=#Hitachi, Ltd.
+Author{5}{Firstname}#=%=#Toshihiko
+Author{5}{Lastname}#=%=#Yanase
+Author{5}{Email}#=%=#toshihiko.yanase.gm@hitachi.com
+Author{5}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{6}{Firstname}#=%=#Kenzo
+Author{6}{Lastname}#=%=#Kurotsuchi
+Author{6}{Email}#=%=#kenzo.kurotsuchi.qa@hitachi.com
+Author{6}{Affiliation}#=%=#Resarch & Development Group, Hitachi, Ltd.
+Author{7}{Firstname}#=%=#Kohsuke
+Author{7}{Lastname}#=%=#Yanai
+Author{7}{Email}#=%=#kohsuke.yanai.cs@hitachi.com
+Author{7}{Affiliation}#=%=#Hitachi
+
+==========

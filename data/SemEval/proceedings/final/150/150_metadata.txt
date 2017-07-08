@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#150
+FinalPaperTitle#=%=#MIT at SemEval-2017 Task 10: Relation Extraction with Convolutional Neural Networks
+ShortPaperTitle#=%=#MIT at SemEval-2017 Task 10: Relation Extraction with Convolutional Neural Networks
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Franck Dernoncourt
+JobTitle#==#
+Organization#==#Massachusetts Institute of Technology
+77 Massachusetts Ave, Cambridge, MA 02139
+Abstract#==#Over 50 million scholarly articles have been published: they constitute a
+unique repository of knowledge. In particular, one may infer from them
+relations between scientific concepts. Artificial neural networks have recently
+been explored for relation extraction. In this work, we continue this line of
+work and present a system based on a convolutional neural network to extract
+relations. Our model ranked first in the SemEval-2017 task 10 (ScienceIE) for
+relation extraction in scientific articles (subtask C).
+Author{1}{Firstname}#=%=#Ji Young
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#jjylee@mit.edu
+Author{1}{Affiliation}#=%=#MIT
+Author{2}{Firstname}#=%=#Franck
+Author{2}{Lastname}#=%=#Dernoncourt
+Author{2}{Email}#=%=#franck.dernoncourt@gmail.com
+Author{2}{Affiliation}#=%=#MIT
+Author{3}{Firstname}#=%=#Peter
+Author{3}{Lastname}#=%=#Szolovits
+Author{3}{Email}#=%=#psz@mit.edu
+Author{3}{Affiliation}#=%=#MIT
+
+==========

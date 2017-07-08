@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#162
+FinalPaperTitle#=%=#QU-BIGIR at SemEval 2017 Task 3: Using Similarity Features for Arabic Community Question Answering Forums
+ShortPaperTitle#=%=#QU-BIGIR at SemEval 2017 Task 3: Using Similarity Features for Arabic Community Question Answering Forums
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marwan Torki
+JobTitle#==#
+Organization#==#Qatar University
+Doha, Qatar
+Abstract#==#In this paper we describe our QU-BIGIR system for the Arabic subtask D of the
+SemEval 2017 Task 3. Our approach builds on our participation in the past
+version of the same subtask. This year, our system uses different similarity
+measures that encodes lexical and semantic pairwise similarity of text pairs.
+In addition to well known similarity measures such as cosine similarity, we use
+other measures based on the summary statistics of word embedding
+representation for a given text. To rank a list of candidate question answer
+pairs for a given question, we learn a linear SVM classifier over our
+similarity features. Our best resulting run came second in subtask D with a
+very competitive performance to the first-ranking system.
+Author{1}{Firstname}#=%=#Marwan
+Author{1}{Lastname}#=%=#Torki
+Author{1}{Email}#=%=#marwantorki@gmail.com
+Author{1}{Affiliation}#=%=#Alexandria University
+Author{2}{Firstname}#=%=#Maram
+Author{2}{Lastname}#=%=#Hasanain
+Author{2}{Email}#=%=#maram.hasanain@qu.edu.qa
+Author{2}{Affiliation}#=%=#Qatar University
+Author{3}{Firstname}#=%=#Tamer
+Author{3}{Lastname}#=%=#Elsayed
+Author{3}{Email}#=%=#telsayed@qu.edu.qa
+Author{3}{Affiliation}#=%=#Qatar University
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#64
+FinalPaperTitle#=%=#HHU at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Data using Machine Learning Methods
+ShortPaperTitle#=%=#HHU at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Data
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Julia Romberg
+JobTitle#==#
+Organization#==#Institute of Computer Science
+Heinrich Heine University Düsseldorf
+D-40225 Düsseldorf, Germany
+Abstract#==#In this Paper a system for solving SemEval-2017 Task 5 is presented. This task
+is divided into two tracks where the sentiment of microblog messages and news
+headlines has to be predicted. Since two submissions were allowed, two
+different machine learning methods were developed to solve this task, a support
+vector machine approach and a recurrent neural network approach. To feed in
+data for these approaches, different feature extraction methods are used,
+mainly word representations and lexica. The best submissions for both tracks
+are provided by the recurrent neural network which achieves a F1-score of 0.729
+in track 1 and 0.702 in track 2.
+Author{1}{Firstname}#=%=#Tobias
+Author{1}{Lastname}#=%=#Cabanski
+Author{1}{Email}#=%=#tobias.cabanski@uni-duesseldorf.de
+Author{1}{Affiliation}#=%=#Heinrich Heine University Düsseldorf
+Author{2}{Firstname}#=%=#Julia
+Author{2}{Lastname}#=%=#Romberg
+Author{2}{Email}#=%=#romberg@cs.uni-duesseldorf.de
+Author{2}{Affiliation}#=%=#Heinrich Heine University Düsseldorf
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Conrad
+Author{3}{Email}#=%=#conrad@cs.uni-duesseldorf.de
+Author{3}{Affiliation}#=%=#Heinrich Heine University Düsseldorf
+
+==========

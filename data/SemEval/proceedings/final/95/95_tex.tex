@@ -1,0 +1,398 @@
+%
+% File acl2017.tex
+%
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{authblk}
+\usepackage[hyperref]{acl2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{url}
+\usepackage{graphics}
+\usepackage[utf8]{inputenc}
+\aclfinalcopy % Uncomment this line for the all SemEval submissions
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+\usepackage{boldline}
+
+%Title format for system description papers by task participants
+\title{ULISBOA at SemEval-2017 Task 12:  Extraction and classification of temporal expressions and events}
+%Title format for task description papers by task organizers
+%\title{SemEval-2017 Task [TaskNumber]:  [Task Name]}
+
+
+%\author{Andre Lamurias, Diana Sousa, Sofia Pereira, Luka A. Clarke \and Francisco M. Couto \\
+%        LaSIGE, Faculdade de Ci\^{e}ncias, Universidade de Lisboa, Portugal}
+
+\author[1]{Andre Lamurias\thanks{ alamurias@lasige.di.fc.ul.pt}}
+\author[1]{Diana Sousa}
+\author[1]{Sofia Pereira}
+\author[2]{Luka A. Clarke}
+\author[1]{Francisco M. Couto}
+\affil[1]{LaSIGE, Faculdade de Ci\^{e}ncias, Universidade de Lisboa, Portugal}
+\affil[2]{BioISI: Biosystems \& Integrative Sciences Institute, \protect \\
+          Faculdade de Ci\^{e}ncias, Universidade de Lisboa, Portugal}
+\renewcommand\Authands{ and }
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+  This paper presents our approach to participate in the SemEval 2017 Task 12: Clinical TempEval challenge, specifically in the event and time expressions span and attribute identification subtasks (ES, EA, TS, TA).
+  Our approach consisted in training Conditional Random Fields (CRF) classifiers using the provided annotations, and in creating manually curated rules to classify the attributes of each event and time expression.
+  We used a set of common features for the event and time CRF classifiers, and a set of features specific to each type of entity, based on domain knowledge.
+  Training only on the source domain data, our best F-scores were 0.683 and 0.485 for event and time span identification subtasks.
+  When adding target domain annotations to the training data, the best F-scores obtained were 0.729 and 0.554, for the same subtasks.
+  We obtained the second highest F-score of the challenge on the event polarity subtask (0.708).
+  The source code of our system, Clinical Timeline Annotation (CiTA), is available at \url{https://github.com/lasigeBioTM/CiTA}.
+  
+  
+\end{abstract}
+
+\
+
+\section{Introduction}
+
+% introduce competition
+This paper presents our system CiTA (Clinical Timeline Annotation) to participate in the SemEval 2017 Task 12: Clinical TempEval challenge.
+Our team participated in the subtasks corresponding to the identification of the following properties: time expression spans, event expression spans, time expression attributes, event expression attributes. 
+Time expressions had only one attribute, type, which could be DATE, TIME, DURATION, QUANTIFIER, PREPOSTEXP or SET.
+Event attribute identification consisted of four attributes: type (N/A, ASPECTUAL or EVIDENTIAL), polarity (POS or NEG), degree (N/A, most or little) and modality (ACTUAL, HEDGED, HYPOTHETICAL or GENERIC).
+% Two corpora were provided to train and evaluate the systems, corresponding to the source and target domain.
+% During the first phase of the challenge, only the source domain annotations were provided, while during the second phase, some target domain annotations were made available.
+
+% introduce our approach
+For this challenge, we developed a system, named Clinical Timeline Annotation CiTA\footnote{\url{http://labs.fc.ul.pt/cita/}}, which uses IBEnt \cite{Lamurias2015} to identify the text spans of time and event entities based on machine learning and semantic techniques. CiTA also incorporates hand-crafted rules to assign the attributes to each entity.
+We trained one classifier for each entity type using Conditional Random Fields (CRF) and developed a set of rules for each attribute, based on the training data available at each phase.
+This paper describes the features and resources used for each subtask, presents our results and discusses the main issues found. CiTA is publicly available in a GitHub repository~\footnote{\url{https://github.com/lasigeBioTM/CiTA}}.
+
+\section{Methods}
+
+% Resources
+
+A corpus of clinical, pathology and radiology notes from the Mayo Clinic was available to the participants.
+This corpus contained notes for the source domain (colon cancer) and for the target domain (brain cancer).
+Each document was manually annotated with time and event expressions, as well as their attributes.
+The annotators and adjudicators followed a set of guidelines which were also available to the participants.
+During Phase 1 only annotated colon cancer reports were available,
+and in Phase 2 thirty annotated brain cancer documents were also released.
+
+%While ???  during phase 1, 
+%no brain cancer annotations were available during phase 1, 
+%while on phase 2, 30 annotated brain cancer documents were released.
+
+The colon cancer dataset was partitioned in 3 sets: train, development and test.
+We trained the system with the train and development set, and optimized with the test set.
+In Phase 2, we enhanced the classifiers by adding the brain cancer annotated documents.
+We ignored sections of the colon cancer documents that were not annotated due to the guidelines.
+
+% ES and TS task
+
+\subsection{Event / Time Entity Span Identification}
+
+For both ES and TS subtasks we trained CRF classifiers on the training data annotations.
+% While IBEnt can work with various CRF implementations, we used CRFSuite \cite{CRFsuite} as it was shown to be more adequate for this challenge.
+%flexible and better computational performance.
+We trained a CRF classifier for events and another for time expressions, using CRFSuite \cite{CRFsuite}.
+These classifiers identified only the spans of the entities so that we can evaluate and improve the results of this subtask before classifying the entity attributes.
+This is justified in the context of the competition since the attribute classification subtasks are dependent on the span identification subtasks, and a poor performance on the span identification subtasks would affect the other subtasks.
+
+We used a set of common features for time and event expressions, based on previous experiments, that explored linguistic, orthographic, morphological and contextual properties of the tokens (Table \ref{table:features}).
+For most features, we considered a contextual window of size one, i.e., the value of the same feature for the previous and next token.
+Lemma and Part-of-Speech tags were obtained using Stanford CoreNLP \cite{Manning2014}.
+
+Furthermore, we selected specific features for time and event expressions.
+For time expressions, we used the NER tags given by SUTime \cite{Chang2012}, part of Stanford CoreNLP.
+SUTime is able to detect general time and date expressions, which is the case of some of the time expressions in the gold standard.
+For the event classifier, we matched each word in the gold standard to a Unified Medical Language System (UMLS) concept and used it as a feature if the confidence level was higher than 0.8.
+The matching was performed using LDPMAP \cite{Ren2014}.
+Many words were matched to UMLS since it is large vocabulary.
+However, by applying a high threshold, we ensure that only high quality matches are considered.
+
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Feature & Context window & Entity\\ 
+\hline
+Prefix sizes 2-4 & -1/1 & All\\ 
+\hline
+Suffix sizes 2-4 & -1/1 & All\\ 
+\hline
+Contains number & 0 & All\\ 
+\hline
+Case & -1/1 & All\\ 
+\hline
+Lemma & -1/1 & All\\ 
+\hline
+POS tag & -1/1 & All\\ 
+\hline
+Word class & -1/1 & All\\ 
+\hline
+SUTIME tag & -1/1 & Time\\ 
+\hline
+POS tag & -2/2 & Event\\ 
+\hline
+UMLS & -1/1 & Event\\ 
+\hline\end{tabular}
+\caption{Features used for TS and ES subtasks.} 
+\label{table:features}
+\end{table}
+
+During Phase 2, we analyzed some errors made by the colon cancer classifiers on the brain cancer training set.
+To overcome these errors, we automatically created a list of common false positives and false negatives for time and event expressions.
+We applied the false positives list to the output of the CRF classifiers as a filter, and performed a dictionary search with the false negatives list to identify missed entities.
+We used these lists only on Run 2 of our Phase 2 submission.
+
+% EA and TA tasks
+\subsection{Event / Time Entity Attribute Classification}
+
+Each event and time entity identified by CiTA was then classified according to the attributes defined by the task.
+To this end, we established a set of rules for each attribute using regular expressions.
+% The rules we developed for this task are available along with the source code of CiTA \footnote{\url{https://github.com/lasigeBioTM/CiTA
+% }}.
+These rules were developed according to the annotation guidelines and training data.
+The rules developed for modality and polarity attributes were based on the context windows of each event.
+Furthermore, we chose the default values of each attribute based on the frequency of each value on the brain cancer annotations.
+
+%We tested various window sizes, both to the left and right of the event.
+We found that several expressions used in the context window of the event affected its modality and polarity.
+For polarity, \textit{avoid}, \textit{absent} and \textit{not} indicated a negative polarity.
+If the context of the event did not include any of the expressions of our list, we classified it as positive (95.9\% of the cases).
+For modality, we selected \textit{ACTUAL} as the default value (84.9\% of the cases), since it is the most
+frequent value.
+
+To choose the size of the context windows, various sizes were tested, both to the left and right of the event.
+We noticed that if we extended the window too much, some expressions that did not affect the event would be matched.
+However, shorter context windows would not include the relevant expressions.
+We fixed the window size of 5 for both polarity and modality.
+If the conjunctions \textit{but} or \textit{with} were found in the context window, we cut the window at that point.
+These conjunctions change the subject of the sentence from the respective event, and all words afterwards were ignored.
+Furthermore, we ignored any expressions that affected the polarity of an event if there was another event between the expression and that event.
+For example, if the expression \textit{not} appears in the left context window of event A, but event B also appeared in the same window, between \textit{not} and event A, then event A was classified as positive.
+
+For the other attributes (event type and time type) we chose a different approach. Although we tried to formulate rules based on the context windows of each event and time entity we realized that it was more efficient to make a direct match between the attribute and the event or time entity. 
+To classify type of events, as it was said on the set of the guidelines available to the participants, we realized that specific groups of verbs indicated a certain modality, for example, \textit{evidence} (EVIDENTIAL) or \textit{starting} (ASPECTUAL), making it easy to recognize which verbs belong to this class. %most of the events were classified for type as N/A. 
+We developed rules based on each modality class, except for the default value (N/A) (94.7\% of the cases).
+The rules used to classify the type of time expressions were slightly different.
+We had to identify which of the six attributes was the default or the one that included the widest amplitude of expressions. 
+We started by making rules for each attribute by identifying the patterns in the gold standard, quickly realizing that the default attribute was DATE (59.3\% of the cases). So we focused our attention on the definition of the other five attributes (PREPOSEXP, SET, TIME, DURATION and QUANTIFIER) by matching the different type of time expressions and possible variations to each appropriated attribute. 
+% ***explicacao das regras e diferenças da phase 1 para a phase 2***
+
+
+\section{Results}
+
+We submitted one run during Phase 1 and two runs during Phase 2.
+While during Phase 1 we only had access to source domain annotations, some target domain annotations were released for Phase 2.
+Hence, we were able to improve the performance of CiTA in relation to the target domain during Phase 2.
+Table \ref{table:results} shows the official results for Phase 1 and Phase 2 Run 1 and 2.
+For each run, we present the precision, recall and F1-score obtained in each subtask.
+
+
+%  \begin{table}
+% \centering
+% \begin{tabular}{|c|c|c|c|}
+% \hline
+%  & P & R & F1\\ 
+% \hline
+% Event span & 0.618 & 0.765 & 0.683\\ 
+% \hline
+% Event modality & 0.548 & 0.679 & 0.607\\ 
+% \hline
+% Event degree & 0.610 & 0.756 & 0.675\\ 
+% \hline
+% Event polarity & 0.600 & 0.744 & 0.664\\ 
+% \hline
+% Event type & 0.598 & 0.741 & 0.662\\ 
+% \hline
+% Time span & 0.441 & 0.538 & 0.485\\ 
+% \hline
+% Time type & 0.393 & 0.479 & 0.432\\ 
+% \hline\end{tabular}
+% \caption{Results of phase 1.} 
+% \label{table:results1}
+% \end{table}
+
+
+\begin{table*}
+\footnotesize
+\centering
+\begin{tabular}{|c|ccc|ccc|ccc|ccc|}
+\hline
+& \multicolumn{3}{c|}{Phase 1} & \multicolumn{3}{c|}{Phase 2 Run 1} & \multicolumn{3}{c|}{Phase 2 Run 2} & \multicolumn{3}{c|}{Phase 2 Top F1} \\
+%\hline
+& P & R & F1 & P & R & F1 & P & R & F1 & P & R & F1 \\
+\hline
+Event span & 0.618 & 0.765 & 0.683 & \textbf{0.649} & \textbf{0.831} & \textbf{0.729} & 0.637 & 0.830 & 0.721 & 0.69 & 0.85 & 0.76\\
+%\hline
+Event modality & 0.548 & 0.679 & 0.607 & \textbf{0.571} & \textbf{0.731} & \textbf{0.641} & 0.561 & 0.730 & 0.634  & 0.63	 & 0.78  & 0.69\\
+%\hline
+Event degree & 0.610 & 0.756 & 0.675 & \textbf{0.642} & \textbf{0.821} & \textbf{0.720} & 0.630 & 0.820 & 0.713 & 0.68 & 	0.84 &  0.75\\
+%\hline
+Event polarity & 0.600 & 0.744 & 0.664 & \textbf{0.630} & \textbf{0.807} & \textbf{0.708} & 0.619 & 0.806 & 0.700  & 0.68	 & 0.83 &  0.75\\	
+%\hline
+Event type & 0.598 & 0.741 & 0.662 & \textbf{0.629} & \textbf{0.805} & \textbf{0.706} & 0.617 & 0.804 & 0.698 & 0.68	 & 0.83  & 0.75 \\	
+\hline
+Time span & 0.441 & 0.538 & 0.485 & 0.517 & \textbf{0.598} & \textbf{0.554} & \textbf{0.520} & 0.588 & 0.552  & 0.57 & 	0.62  & 0.59	\\
+%\hline
+Time type & 0.393 & 0.479 & 0.432 & 0.483 & \textbf{0.559} & \textbf{0.518} & \textbf{0.485} & 0.548 & 0.515  & 0.54 & 	0.59 &  0.56\\	
+\hline\end{tabular}
+\caption{Results of our submission and for each task the results from the top F1 score submission of Phase 2.
+Notice that \emph{Time type} represents \emph{Time span + Class} column of the results table published by the organizers.} 
+\label{table:results}
+\end{table*}
+
+% \begin{table}
+% \centering
+% \begin{tabular}{|c|c|c|c|}
+% \hline
+%  & P & R & F1\\ 
+% \hline
+% Event span & 0.637 & 0.830 & 0.721\\ 
+% \hline
+% Event modality & 0.561 & 0.730 & 0.634\\ 
+% \hline
+% Event degree & 0.630 & 0.820 & 0.713\\ 
+% \hline
+% Event polarity & 0.619 & 0.806 & 0.700\\ 
+% \hline
+% Event type & 0.617 & 0.804 & 0.698\\ 
+% \hline
+% Time span & 0.520 & 0.588 & 0.552\\ 
+% \hline
+% Time type & 0.485 & 0.548 & 0.515\\ 
+% \hline\end{tabular}
+% \caption{Results of phase 2 (run 2)} 
+% \label{table:results3}
+% \end{table}
+
+Compared to the results of Phase 2, Phase 1 results were lower, particularly for Time span identification ($\Delta=$ 0.069).
+The false positive filter applied on Phase 2 Run 2 improved the precision of the time span subtask, although at the expense of a lower recall.
+On the event span subtask it results in a lower precision, with almost no effect on recall.
+In both phases, the results for time expressions were lower than for events.
+
+The results of the time and event attributes are shown in combination with the span identification.
+This means that an entity is considered positive if both the span and attribute are found in the gold standard.
+Hence, we can evaluate the effect of the rules on the test set by comparing the scores of each attribute to the span identification score.
+Furthermore, we evaluated the accuracy of the rules on the colon cancer and brain cancer train sets (Table \ref{table:results4}).
+We assumed that the attribute value was correct if it matched the gold standard.
+Table \ref{table:results4} shows the results obtained using the rules developed for the second phase, which were tuned for the brain cancer data sets.
+
+% fiz esta tabela com as accuracy para as duas partes que tinhas dito Andre (se deixar de haver espaco ou nao interessar depois apaga-se) faltam valores que não sei e a legenda está incompleta - Diana
+
+\begin{table}
+\centering
+\begin{tabular}{|c|cc|}
+\hline
+Gold standard & Colon & Brain\\ 
+\hline
+Event modality & \textbf{0.914} & 0.891\\ 
+%\hline
+Event degree & \textbf{0.995} & 0.993\\ 
+%\hline
+Event polarity & \textbf{0.969} & 0.968\\ 
+%\hline
+Event type & \textbf{0.972} & 0.962\\ 
+%\hline
+Time type & 0.890 & \textbf{0.971}\\ 
+\hline\end{tabular}
+\caption{Accuracy obtained using the rules developed for each attribute, on the colon cancer and brain cancer train sets.} 
+\label{table:results4}
+\end{table}
+
+\section{Discussion}
+
+The main challenge of this task was to adapt a system developed for a specific source domain to a different target domain.
+Systems trained on a specific domain, either using hand-crafted rules or machine learning, are biased for that domain.
+In real world scenarios, information extraction systems need to be able to perform well in multiple domains.
+Although at first it seemed like the only difference between the source and target domains was the type of cancer, we observed that the reports and annotations were also different in terms of form of the documents and terms used.
+These differences contributed to lower scores obtained on the target domain test set, when compared to the source domain test set used in the previous edition of this task \cite{Bethard2016}.
+Even using the brain cancer train set available during Phase 2, our best F1 score on the event span subtask was 0.16 lower than on the colon cancer test set.
+
+Comparing to the other teams that submitted results to this task, our submission performed better on the event expressions subtasks.
+On Phase 1, we are the third best team on all event subtasks in terms of F1 score.
+On Phase 2, we are in second place on the Event polarity subtask, maintaining the third place 
+on all the other event subtasks, except modality. In time span and type we are in third place 
+in terms of recall.
+
+\subsection{Error Analysis}
+
+
+
+% para explicacao dos erros mais comuns na formulacao das regras para a minha parte escrevi este proximo paragrafo - Diana
+Some of the more persistent errors while classifying the type of time entities were that some of the time expressions presented in the gold standard had double attribution.
+For example, \textit{time} sometimes appeared classified as TIME and in others as DURATION, and \textit{daily} was classified as DATE, SET and QUANTIFIER. 
+Although initially we tried to introduce context windows of each time expression to help us solving this systematic error, we realized that there was no explicit difference in the context of most of these words, so introducing context windows only harmed our efforts to achieve better results.
+
+Some event attributes were incorrectly classified due to the developed context window rules.
+For example, in \textit{not limited to loss of appetite}, \textit{appetite} was incorrectly classified with negative polarity since it had \textit{not} in its left context window, and no event in-between.
+In some cases, the rule we implemented to ignore negation expressions between events resulted in incorrect positive polarities.
+In the expression \textit{no second lesion seen in the brain},
+\textit{no} did not affect \textit{seen} because another event, \textit{lesion} appeared in its context window.
+However \textit{seen} was supposed to be classified as negative.
+
+One limitation of a rule-based approach is that it is necessary to take into account every expression that might affect an attribute.
+Since we had a limited amount of target domain training data, we missed some cases where more complex rules could have been applied. 
+We had a rule that assigned the modality of an event as HYPOTHETICAL if the expression \textit{may} appeared in the context window.
+This resulted in some errors, for example,with  \textit{and there may be increased cerebral blood volume}, the modality of \textit{volume} should be HEDGED instead of HYPOTHETICAL.
+
+
+
+% modality errors
+%volume	HEDGED 	+and+there+may+be+increased+cerebral+blood+
+%Tipo de erros em que o evento é classificado erradamente pois existe uma expressão regular que, neste caso, classifica erradamente o evento.
+%Aqui, o evento é "hedged" mas devido à presença da expressão regular 'may' o evento é classificado erradamente como "hypothetical"
+
+%baseline	HYPOTHETICAL
+%O evento é hypothetical mas por falta de uma expressão regular que o identifique como tal vai ser considerado "actual", que é o default. É o tipo de erro mais comum
+
+
+\section{Conclusions and Future Work}
+
+We obtained the second best F1 score on the event polarity subtask and third best on the event span and other event attributes subtasks.
+We made publicly available the source code of CiTA including the rules created to produce our results.
+The rules to classify event and time attributes were efficient, on the other hand  
+the list of common false positive and negative created for Run 2 did not make a significant difference.
+
+CiTA is dependent on training data, which suggests that domain-independent approaches should be explored.
+One approach is to apply semantic similarity measures to automatically identify similar expressions in terms of meaning, even if using different terms \cite{couto2013next}. 
+Another approach is to explore distant supervision~\cite{Lamurias2017} to train a predictive model using a knowledge base, for example by exploring Linked Data~\cite{barros2016knowledge}, instead of annotated text.
+
+%Conclusions:
+%we had the the second best f-score, and third in the others; The source code is available; run 2 did not went very well; and we would improved results if some mistakes were corrected in the test set
+
+%future try to build semantic rules, i.e. find expressions with the same semantic meaning by using semantic similarity, or try to generate these rules automatically and perform distant supervision cite paper plos
+
+
+\section*{Acknowledgments}
+
+This work was supported by the Portuguese Fundação para a Ciência e Tecnologia (https://www.fct.mctes.pt/) through the PhD Grant ref. PD/BD/106083/2015 and UID/CEC/00408/2013 (LaSIGE).
+We thank Mayo Clinic for providing THYME corpus and Sebastião Almeida for his contributions to our participation.
+
+% include your own bib file like this:
+%\bibliographystyle{acl}
+%\bibliography{acl2017}
+\bibliography{semeval2017}
+\bibliographystyle{acl_natbib}
+
+%\appendix
+
+
+
+\end{document}

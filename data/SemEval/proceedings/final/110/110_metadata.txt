@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#110
+FinalPaperTitle#=%=#INGEOTEC at SemEval 2017 Task 4: A B4MSA Ensemble based on Genetic Programming for Twitter Sentiment Analysis
+ShortPaperTitle#=%=#INGEOTEC at SemEval 2017 Task 4: A B4MSA Ensemble based on Genetic Programming for Twitter Sentiment Analysis
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sabino Miranda
+JobTitle#==#
+Organization#==#INFOTEC- Centro de Investigación e Innovación en Tecnologías de la Información y Comunicación
+Circuito Tecnopolo Sur No 112, Tecnopolo Pocitos C.P. 20313, Aguascalientes, México.
+CentroGEO- Centro de Investigación en Geografía y Geomática
+"Ing. Jorge L. Tamayo", A.C.
+Circuito Tecnopolo Norte 117, Tecnopolo Pocitos, 20313, Aguascalientes, México.
+Abstract#==#This paper describes the system used in SemEval-2017 Task 4 (Subtask A):
+Message Polarity Classification for both English and Arabic languages. Our
+proposed system is an ensemble of two layers, the first one uses our generic
+framework for multilingual polarity classification (B4MSA) and the second layer
+combines all the decision function values predicted by B4MSA systems using a
+non-linear function evolved using a Genetic Programming system, EvoDAG. With
+this approach, the best performances reached by our system were macro-recall
+0.68 (English) and 0.477 (Arabic) which set us in sixth and fourth positions in
+the results table, respectively.
+Author{1}{Firstname}#=%=#Sabino
+Author{1}{Lastname}#=%=#Miranda-Jiménez
+Author{1}{Email}#=%=#sabinomiranda@gmail.com
+Author{1}{Affiliation}#=%=#CONACyT - INFOTEC
+Author{2}{Firstname}#=%=#Mario
+Author{2}{Lastname}#=%=#Graff
+Author{2}{Email}#=%=#mario.graff@infotec.mx
+Author{2}{Affiliation}#=%=#CONACYT-INFOTEC
+Author{3}{Firstname}#=%=#Eric Sadit
+Author{3}{Lastname}#=%=#Tellez
+Author{3}{Email}#=%=#eric.tellez@infotec.mx
+Author{3}{Affiliation}#=%=#CONACYT-INFOTEC
+Author{4}{Firstname}#=%=#Daniela
+Author{4}{Lastname}#=%=#Moctezuma
+Author{4}{Email}#=%=#dmoctezuma@centrogeo.edu.mx
+Author{4}{Affiliation}#=%=#CONACYT-CentroGEO
+
+==========

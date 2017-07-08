@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#IBA-Sys at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
+ShortPaperTitle#=%=#IBA-Sys at SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Zarmeen
+JobTitle#==#
+Organization#==#Zarmeen Nasim
+Karachi, Sindh, Pakistan
+Abstract#==#This paper presents the details of our system
+IBA-Sys that participated in SemEval
+Task: Fine-grained sentiment analysis on
+Financial Microblogs and News. Our system
+participated in both tracks. For microblogs
+track, a supervised learning approach
+was adopted and the regressor was
+trained using XgBoost regression algorithm
+on lexicon features. For news headlines
+track, an ensemble of regressors was
+used to predict sentiment score. One regressor
+was trained using TF-IDF features
+and another was trained using the n-gram
+features. The source code is available at
+Github 1.
+Author{1}{Firstname}#=%=#Zarmeen
+Author{1}{Lastname}#=%=#Nasim
+Author{1}{Email}#=%=#zarmeennasim@yahoo.com
+Author{1}{Affiliation}#=%=#Institute of Business Administration IBA
+
+==========

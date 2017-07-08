@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#182
+FinalPaperTitle#=%=#SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours
+ShortPaperTitle#=%=#SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Leon
+JobTitle#==#
+Organization#==#U. Sheffield
+211 Portobello
+Sheffield S1 4DP
+UK
+Abstract#==#Media is full of false claims. Even Oxford Dictionaries named “post-truth”
+as the word of 2016. This makes it more important than ever to build systems
+that can identify the veracity of a story, and the nature of the discourse
+around it. RumourEval is a SemEval shared task that aims to identify and handle
+rumours and reactions to them, in text. We present an annotation scheme, a
+large dataset covering multiple topics – each having their own families of
+claims and replies – and use these to pose two concrete challenges as well as
+the results achieved by participants on these challenges.
+Author{1}{Firstname}#=%=#Leon
+Author{1}{Lastname}#=%=#Derczynski
+Author{1}{Email}#=%=#leon.derczynski@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Kalina
+Author{2}{Lastname}#=%=#Bontcheva
+Author{2}{Email}#=%=#k.bontcheva@dcs.shef.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Maria
+Author{3}{Lastname}#=%=#Liakata
+Author{3}{Email}#=%=#maria.liakata@gmail.com
+Author{3}{Affiliation}#=%=#University of Warwick
+Author{4}{Firstname}#=%=#Rob
+Author{4}{Lastname}#=%=#Procter
+Author{4}{Email}#=%=#robprocter@warwick.ac.uk
+Author{4}{Affiliation}#=%=#University of Warwick
+Author{5}{Firstname}#=%=#Geraldine
+Author{5}{Lastname}#=%=#Wong Sak Hoi
+Author{5}{Email}#=%=#Geraldine.WongSakHoi@swissinfo.ch
+Author{5}{Affiliation}#=%=#swissinfo.ch
+Author{6}{Firstname}#=%=#Arkaitz
+Author{6}{Lastname}#=%=#Zubiaga
+Author{6}{Email}#=%=#arkaitz@zubiaga.org
+Author{6}{Affiliation}#=%=#University of Warwick
+
+==========

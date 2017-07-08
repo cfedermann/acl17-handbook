@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#109
+FinalPaperTitle#=%=#Know-Center at SemEval-2017 Task 10: Sequence Classification with the CODE Annotator
+ShortPaperTitle#=%=#Know-Center at SemEval-2017 Task 10: Sequence Classification with the CODE Annotator
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Andi Rexha
+JobTitle#==#
+Organization#==#Know-Center GmbH.   Inffeldgasse 13, Graz, Austria
+Abstract#==#This paper describes our participation in SemEval-2017 Task 10.
+We competed in Subtask 1 and 2 which consist respectively in identifying all
+the key phrases in scientific publications and label them with one of the three
+categories: Task, Process, and Material.
+These scientific publications are selected from Computer Science, Material
+Sciences, and Physics domains. 
+We followed a supervised approach for both subtasks by using a sequential
+classifier (CRF - Conditional Random Fields).
+For generating our solution we used a web-based application implemented in the
+EU-funded research project, named CODE.
+Our system achieved an F1 score of 0.39 for the Subtask 1 and 0.28 for the
+Subtask 2.
+Author{1}{Firstname}#=%=#Roman
+Author{1}{Lastname}#=%=#Kern
+Author{1}{Email}#=%=#rkern@know-center.at
+Author{1}{Affiliation}#=%=#Researcher
+Author{2}{Firstname}#=%=#Stefan
+Author{2}{Lastname}#=%=#Falk
+Author{2}{Email}#=%=#sfalk@know-center.at
+Author{2}{Affiliation}#=%=#Researcher
+Author{3}{Firstname}#=%=#Andi
+Author{3}{Lastname}#=%=#Rexha
+Author{3}{Email}#=%=#arexha@know-center.at
+Author{3}{Affiliation}#=%=#Researcher
+
+==========

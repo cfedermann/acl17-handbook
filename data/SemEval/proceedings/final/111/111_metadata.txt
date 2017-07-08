@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#111
+FinalPaperTitle#=%=#UWAV at SemEval-2017 Task 7: Automated feature-based system for locating puns
+ShortPaperTitle#=%=#Automated feature-based system for locating puns
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Ankit Vadehra
+JobTitle#==#
+Organization#==#University of Waterloo
+Abstract#==#In this paper we describe our system created for SemEval-2017 Task 7: Detection
+and Interpretation of English Puns. We tackle subtask 1, pun detection, by
+leveraging features selected from sentences to design a classifier that can
+disambiguate between the presence or absence of a pun. We address subtask 2,
+pun location, by utilizing a decision flow structure that uses presence or
+absence of certain features to decide the next action. The results obtained by
+our system are encouraging, considering the simplicity of the system. We
+consider this system as a precursor for deeper exploration on efficient feature
+selection for pun detection.
+Author{1}{Firstname}#=%=#Ankit
+Author{1}{Lastname}#=%=#Vadehra
+Author{1}{Email}#=%=#ankitvad@gmail.com
+Author{1}{Affiliation}#=%=#University of Waterloo
+
+==========

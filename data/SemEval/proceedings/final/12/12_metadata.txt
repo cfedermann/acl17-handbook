@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#deepSA at SemEval-2017 Task 4: Interpolated Deep Neural Networks for Sentiment Analysis in Twitter
+ShortPaperTitle#=%=#deepSA at SemEval-2017 Task 4: Interpolated Deep Neural Networks for Sentiment Analysis in Twitter
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Chia-Ping Chen
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we describe our system implementation for sentiment analysis in
+Twitter. This system combines two models based on deep neural networks, namely
+a convolutional neural network (CNN) and a long short-term memory (LSTM)
+recurrent neural network, through interpolation. Distributed representation of
+words as vectors are input to the system, and the output is a sentiment class.
+The neural network models are trained exclusively with the data sets provided
+by the organizers of SemEval-2017 Task 4 Subtask A. Overall, this system has
+achieved 0.618 for the average recall rate, 0.587 for the average F1 score, and
+0.618 for accuracy.
+Author{1}{Firstname}#=%=#Tzu-Hsuan
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#kr60903@gmail.com
+Author{1}{Affiliation}#=%=#National Sun Yat-sen University
+Author{2}{Firstname}#=%=#Tzu-Hsuan
+Author{2}{Lastname}#=%=#Tseng
+Author{2}{Email}#=%=#fb74123698@gmail.com
+Author{2}{Affiliation}#=%=#National Sun Yat-sen University
+Author{3}{Firstname}#=%=#Chia-Ping
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#cpchen@cse.nsysu.edu.tw
+Author{3}{Affiliation}#=%=#National Sun Yat-sen University
+
+==========

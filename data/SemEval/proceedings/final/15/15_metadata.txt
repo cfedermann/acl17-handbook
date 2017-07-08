@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#CrystalNest at SemEval-2017 Task 4: Using Sarcasm Detection for Enhancing Sentiment Classification and Quantification
+ShortPaperTitle#=%=#CrystalNest at SemEval-2017 Task 4: Using Sarcasm Detection for Enhancing Sentiment Classification and Quantification
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Raj Kumar Gupta
+JobTitle#==#
+Organization#==#Institute of High Performance Computing
+1 Fusionopolis Way, 
+#16-16 Connexis, 
+Singapore - 138632
+Abstract#==#This paper describes a system developed for a shared sentiment analysis task
+and its subtasks organized by SemEval-2017. A key feature of our system is the
+embedded ability to detect sarcasm in order to enhance the performance of
+sentiment classification. We first constructed an
+affect-cognition-sociolinguistics sarcasm features model and trained a
+SVM-based classifier for detecting sarcastic expressions from general tweets.
+For sentiment prediction, we developed CrystalNest-- a two-level cascade
+classification system using features combining sarcasm score derived from our
+sarcasm classifier, sentiment scores from Alchemy, NRC lexicon, n-grams, word
+embedding vectors, and part-of-speech features. We found that the sarcasm
+detection derived features consistently benefited key sentiment analysis
+evaluation metrics, in different degrees, across four subtasks A-D.
+Author{1}{Firstname}#=%=#Raj Kumar
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Email}#=%=#gupta-rk@ihpc.a-star.edu.sg
+Author{1}{Affiliation}#=%=#Institute of High Performance Computing
+Author{2}{Firstname}#=%=#Yinping
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#yangyp@ihpc.a-star.edu.sg
+Author{2}{Affiliation}#=%=#Institute of High Performance Computing (IHPC), A*STAR
+
+==========

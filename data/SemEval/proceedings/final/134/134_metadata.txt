@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#134
+FinalPaperTitle#=%=#NileTMRG at SemEval-2017 Task 4: Arabic Sentiment Analysis
+ShortPaperTitle#=%=#NileTMRG at SemEval-2017 Task 4: Arabic Sentiment Analysis
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Samhaa R. El-Beltagy
+JobTitle#==#
+Organization#==#Nile University
+JSquare, Sheikh Zayed City
+Giza, Egypt
+Abstract#==#This paper describes two systems that were used by the NileTMRG for addressing
+Arabic Sentiment Analysis as part of SemEval-2017, task 4. NileTMRG
+participated in three Arabic related subtasks which are: Subtask A (Message
+Polarity Classification), Subtask B (Topic-Based Message Polarity
+classification) and Subtask D  (Tweet quantification). For subtask A, we
+made use of NU’s sentiment analyzer which we augmented with a scored lexicon.
+For subtasks B and D, we used an ensemble of  three different classifiers. The
+first classifier was a convolutional neural network that used trained
+(word2vec) word embeddings. The second classifier consisted of a  MultiLayer
+Perceptron  while the third classifier was a Logistic regression model that
+takes the same input as the second classifier. Voting between the three
+classifiers was used to determine the final outcome.  In all three Arabic
+related tasks in which NileTMRG participated, the team ranked at number one.
+Author{1}{Firstname}#=%=#Samhaa R.
+Author{1}{Lastname}#=%=#El-Beltagy
+Author{1}{Email}#=%=#samhaa@computer.org
+Author{1}{Affiliation}#=%=#Nile University
+Author{2}{Firstname}#=%=#Mona
+Author{2}{Lastname}#=%=#El kalamawy
+Author{2}{Email}#=%=#mona.elkalamawy@fci-cu.edu.eg
+Author{2}{Affiliation}#=%=#Cairo University
+Author{3}{Firstname}#=%=#Abu Bakr
+Author{3}{Lastname}#=%=#Soliman
+Author{3}{Email}#=%=#bakrianoo@gmail.com
+Author{3}{Affiliation}#=%=#Nile University
+
+==========

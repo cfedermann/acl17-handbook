@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#UdL at SemEval-2017 Task 1: Semantic Textual Similarity Estimation of English Sentence Pairs Using Regression Model over Pairwise Features
+ShortPaperTitle#=%=#UdL at SemEval-2017 Task 1: Semantic Textual Similarity Estimation of English Sentence Pairs Using Regression Model over Pairwise Features
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Hussein T. AL-NATSHEH
+JobTitle#==#
+Organization#==#The French National Center for Scientific Research (CNRS), ISH FRE 3768, 14 Avenue Berthelot, F-69007 Lyon, France
+Abstract#==#This paper describes the model UdL we proposed to solve the semantic textual
+similarity task of SemEval 2017 workshop. The track we participated in was
+estimating the semantics relatedness of a given set of sentence pairs in
+English. The best run out of three submitted runs of our model achieved a
+Pearson correlation score of 0.8004 compared to a hidden human annotation of
+250~pairs. We used random forest ensemble learning to map an expandable set of
+extracted pairwise features into a semantic similarity estimated value bounded
+between 0 and 5. Most of these features were calculated using word embedding
+vectors similarity to align Part of Speech (PoS) and Name Entities (NE) tagged
+tokens of each sentence pair. Among other pairwise features, we experimented a
+classical tf-idf weighted Bag of Words (BoW) vector model but with
+character-based range of n-grams instead of words. This sentence vector
+BoW-based feature gave a relatively high importance value percentage in the
+feature importances analysis of the ensemble learning.
+Author{1}{Firstname}#=%=#Hussein T.
+Author{1}{Lastname}#=%=#Al-Natsheh
+Author{1}{Email}#=%=#hussein.al-natsheh@cnrs.fr
+Author{1}{Affiliation}#=%=#CNRS, ISH FRE 3768, University of Lyon, Laboratory ERIC EA 3083
+Author{2}{Firstname}#=%=#Lucie
+Author{2}{Lastname}#=%=#Martinet
+Author{2}{Email}#=%=#lucie.martinet@ens-lyon.org
+Author{2}{Affiliation}#=%=#CESI EXIA-LINEACT / ERIC Laboratory / Université de Lyon
+Author{3}{Firstname}#=%=#Fabrice
+Author{3}{Lastname}#=%=#Muhlenbach
+Author{3}{Email}#=%=#fabrice.muhlenbach@univ-st-etienne.fr
+Author{3}{Affiliation}#=%=#Univ. Lyon, Lab. Hubert Curien, UJM-St Etienne
+Author{4}{Firstname}#=%=#Djamel Abdelkader
+Author{4}{Lastname}#=%=#ZIGHED
+Author{4}{Email}#=%=#djamel@zighed.com
+Author{4}{Affiliation}#=%=#Université de Lyon, Agence Universitaire de la Francophonie
+
+==========

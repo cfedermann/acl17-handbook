@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Citius at SemEval-2017 Task 2: Cross-Lingual Similarity from Comparable Corpora and Dependency-Based Contexts
+ShortPaperTitle#=%=#Cross-Lingual Similarity from Comparable Corpora and Dependency-Based Contexts
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Pablo Gamall o
+JobTitle#==#Citius at SemEval-2017 Task 2: Cross-Lingual Similarity from Comparable Corpora and Dependency-Based Contexts
+Organization#==#Centro Singular de Investigación en Tecnoloxías da Información (CiTIUS),
+Campus Vida,
+Universidade de Santiago de Compostela,
+15782 Santiago de Compostela
+Galiza / Spain
+Abstract#==#This article describes the distributional strategy submitted by the Citius team
+to the SemEval 2017 Task 2. Even though the team participated in two subtasks,
+namely monolingual and cross-lingual word similarity, the article is mainly
+focused on the cross-lingual subtask. Our method uses comparable corpora and
+syntactic dependencies to extract count-based and transparent bilingual
+distributional contexts. The evaluation of the results show that our method is
+competitive with other cross-lingual strategies, even those using aligned and
+parallel texts.
+Author{1}{Firstname}#=%=#Pablo
+Author{1}{Lastname}#=%=#Gamallo
+Author{1}{Email}#=%=#pablo.gamallo@usc.es
+Author{1}{Affiliation}#=%=#CITIUS, University of Santiago de Compostela
+
+==========

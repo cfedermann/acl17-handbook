@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#151
+FinalPaperTitle#=%=#ECNU at SemEval-2017 Task 1: Leverage Kernel-based Traditional NLP features and Neural Networks to Build a Universal Model for Multilingual and Cross-lingual Semantic Textual Similarity
+ShortPaperTitle#=%=#ECNU at SemEval-2017 Task 1: Leverage Kernel-based Traditional NLP features and Neural Networks to Build a Universal Model for Multilingual and Cross-lingual Semantic Textual Similarity
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Junfeng Tian
+JobTitle#==#
+Organization#==#East China Normal University
+Abstract#==#To address semantic similarity on multilingual and cross-lingual sentences, we
+firstly translate other foreign languages into English, and then
+feed our monolingual English system with various interactive features. Our
+system is further supported by combining with deep learning semantic similarity
+and our best run achieves the mean Pearson correlation 73.16\% in primary
+track.
+Author{1}{Firstname}#=%=#Junfeng
+Author{1}{Lastname}#=%=#Tian
+Author{1}{Email}#=%=#51151201048@stu.ecnu.edu.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Zhiheng
+Author{2}{Lastname}#=%=#Zhou
+Author{2}{Email}#=%=#51164500184@stu.ecnu.edu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Man
+Author{3}{Lastname}#=%=#Lan
+Author{3}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+Author{4}{Firstname}#=%=#Yuanbin
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Email}#=%=#ybwu@cs.ecnu.edu.cn
+Author{4}{Affiliation}#=%=#East China Normal University
+
+==========

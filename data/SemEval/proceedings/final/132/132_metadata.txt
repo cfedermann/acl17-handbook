@@ -1,0 +1,18 @@
+SubmissionNumber#=%=#132
+FinalPaperTitle#=%=#NileTMRG at SemEval-2017 Task 8: Determining Rumour and Veracity Support for Rumours on Twitter.
+ShortPaperTitle#=%=#NileTMRG at SemEval-2017 Task 8: Determining Rumour and Veracity Support for Rumours on Twitter.
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Omar Enayet
+JobTitle#==#
+Organization#==#Nile University - Johaina Square - Giza - Egypt
+Abstract#==#Final submission for NileTMRG on RumourEval 2017.
+Author{1}{Firstname}#=%=#Omar
+Author{1}{Lastname}#=%=#Enayet
+Author{1}{Email}#=%=#omar.enayet@gmail.com
+Author{1}{Affiliation}#=%=#Nile University at Giza - Egypt
+Author{2}{Firstname}#=%=#Samhaa R.
+Author{2}{Lastname}#=%=#El-Beltagy
+Author{2}{Email}#=%=#samhaa@computer.org
+Author{2}{Affiliation}#=%=#Nile University
+
+==========

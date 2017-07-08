@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#120
+FinalPaperTitle#=%=#TakeLab at SemEval-2017 Task 4: Recent Deaths and the Power of Nostalgia in Sentiment Analysis in Twitter
+ShortPaperTitle#=%=#TakeLab at SemEval-2017 Task 4: Recent Deaths and the Power of Nostalgia in Sentiment Analysis in Twitter
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jan Šnajder
+JobTitle#==#
+Organization#==#University of Zagreb, Faculty of Electrical Engineering and Computing
+Unska 3, Zagreb, Croatia
+Abstract#==#This paper describes the system we submitted to SemEval-2017 Task 4 (Sentiment
+Analysis in Twitter), specifically subtasks A, B, and D. Our main focus was
+topic-based message polarity classification on a two-point scale (subtask B).
+The system we submitted uses a Support Vector Machine classifier with rich set
+of features, ranging from standard to more creative, task-specific features,
+including a series of rating-based features as well as features that account
+for sentimental reminiscence of past topics and deceased famous people. Our
+system ranked 14th out of 39 submissions in subtask A, 5th out of 24
+submissions in subtask B, and 3rd out of 16 submissions in subtask D.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Lozić
+Author{1}{Email}#=%=#david.lozic@fer.hr
+Author{1}{Affiliation}#=%=#TakeLab FER
+Author{2}{Firstname}#=%=#Doria
+Author{2}{Lastname}#=%=#Šarić
+Author{2}{Email}#=%=#doria.saric@fer.hr
+Author{2}{Affiliation}#=%=#TakeLab FER
+Author{3}{Firstname}#=%=#Ivan
+Author{3}{Lastname}#=%=#Tokić
+Author{3}{Email}#=%=#ivan.tokic@fer.hr
+Author{3}{Affiliation}#=%=#TakeLab FER
+Author{4}{Firstname}#=%=#Zoran
+Author{4}{Lastname}#=%=#Medić
+Author{4}{Email}#=%=#zoran.medic@fer.hr
+Author{4}{Affiliation}#=%=#TakeLab FER
+Author{5}{Firstname}#=%=#Jan
+Author{5}{Lastname}#=%=#Šnajder
+Author{5}{Email}#=%=#jan.snajder@fer.hr
+Author{5}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+
+==========

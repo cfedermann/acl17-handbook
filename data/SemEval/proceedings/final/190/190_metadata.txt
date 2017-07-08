@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#190
+FinalPaperTitle#=%=#LIPN at SemEval-2017 Task 10:  Filtering Candidate Keyphrases from Scientific Publications with Part-of-Speech Tag Sequences to Train a Sequence Labeling Model
+ShortPaperTitle#=%=#LIPN at SemEval-2017 Task 10:  Filtering Candidate Keyphrases from Scientific Publications with Part-of-Speech Tag Sequences
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Simon David Hernandez Perez
+JobTitle#==#
+Organization#==#Laboratoire d’Informatique de Paris Nord, CNRS (UMR 7030) 
+Université Paris 13, Sorbonne Paris Cité, Villetaneuse, France
+Abstract#==#This paper describes the system used by the team LIPN in SemEval 2017 Task 10:
+Extracting Keyphrases and Relations from Scientific Publications. The team
+participated in Scenario 1, that includes three subtasks, Identification of
+keyphrases (Subtask A), Classification of identified keyphrases (Subtask B) and
+Extraction of relationships between two identified keyphrases (Subtask C). The
+presented system was mainly focused on the use of part-of-speech tag sequences
+to filter candidate keyphrases for Subtask A. Subtasks A and B were addressed
+as a sequence labeling problem using Conditional Random Fields (CRFs) and even
+though Subtask C was out of the scope of this approach, one rule was included
+to identify synonyms.
+Author{1}{Firstname}#=%=#Simon David
+Author{1}{Lastname}#=%=#Hernandez
+Author{1}{Email}#=%=#hernandez-perez@lipn.univ-paris13.fr
+Author{1}{Affiliation}#=%=#LIPN, Université Paris 13
+Author{2}{Firstname}#=%=#Davide
+Author{2}{Lastname}#=%=#Buscaldi
+Author{2}{Email}#=%=#davide.buscaldi@lipn.univ-paris13.fr
+Author{2}{Affiliation}#=%=#LIPN, Université Paris 13
+Author{3}{Firstname}#=%=#Thierry
+Author{3}{Lastname}#=%=#Charnois
+Author{3}{Email}#=%=#thierry.charnois@lipn.univ-paris13.fr
+Author{3}{Affiliation}#=%=#LIPN - CNRS University Paris 13
+
+==========

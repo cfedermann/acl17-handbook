@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#107
+FinalPaperTitle#=%=#SEF@UHH at SemEval-2017 Task 1: Unsupervised Knowledge-Free Semantic Textual Similarity via Paragraph Vector
+ShortPaperTitle#=%=#SEF@UHH at SemEval-2017 Task 1: Unsupervised Knowledge-Free Semantic Textual Similarity via Paragraph Vector
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Duma Mirela-Stefania
+JobTitle#==#
+Organization#==#University of Hamburg
+Vogt-Kölln-Straße 30, D-22527 Hamburg, Germany
+Abstract#==#This paper describes our unsupervised knowledge-free approach to the
+SemEval-2017 Task 1 Competition. The proposed method makes use of Paragraph
+Vector for assessing the semantic similarity between pairs of sentences. We
+experimented with various dimensions of the vector and three state-of-the-art
+similarity metrics. Given a cross-lingual task, we trained models corresponding
+to its two languages and combined the models by averaging the similarity
+scores. The results of our submitted runs are above the median scores for five
+out of seven test sets by means of Pearson Correlation. Moreover, one of our
+system runs performed best on the Spanish-English-WMT test set ranking first
+out of 53 runs submitted in total by all participants.
+Author{1}{Firstname}#=%=#Mirela-Stefania
+Author{1}{Lastname}#=%=#Duma
+Author{1}{Email}#=%=#mduma@informatik.uni-hamburg.de
+Author{1}{Affiliation}#=%=#University of Hamburg
+Author{2}{Firstname}#=%=#Wolfgang
+Author{2}{Lastname}#=%=#Menzel
+Author{2}{Email}#=%=#menzel@informatik.uni-hamburg.de
+Author{2}{Affiliation}#=%=#Hamburg University
+
+==========

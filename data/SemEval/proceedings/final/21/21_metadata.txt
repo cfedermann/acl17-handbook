@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#MoRS at SemEval-2017 Task 3: Easy to use SVM in Ranking Tasks
+ShortPaperTitle#=%=#MoRS at SemEval-2017 Task 3: Easy to use SVM in Ranking Tasks
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Miguel J. Rodrigues
+JobTitle#==#
+Organization#==#- LaSIGE
+- Faculdade de Ciências da Universidade de Lisboa, Departamento de informática, Edifício C6 Piso 3, Campo Grande, 1749 - 016 Lisboa, Portugal
+Abstract#==#This paper describes our system, dubbed MoRS (Modular Ranking System),
+pronounced 'Morse', which participated in Task 3 of SemEval-2017. 
+We used MoRS to perform the Community Question Answering Task 3, which
+consisted on reordering a set of comments according to their usefulness in
+answering the question in the thread. This was made for a large collection of
+questions created by a user community.
+As for this challenge we wanted to go back to simple, easy-to-use, and somewhat
+forgotten technologies that we think, in the hands of non-expert people, could
+be reused in their own data sets. Some of our techniques included the
+annotation of text, the retrieval of meta-data for each comment, POS tagging
+and Named Entity Recognition, among others. These gave place to syntactical
+analysis and semantic measurements. Finally we show and discuss our results and
+the context of our approach, which is part of a more comprehensive system in
+development, named MoQA.
+Author{1}{Firstname}#=%=#Miguel J.
+Author{1}{Lastname}#=%=#Rodrigues
+Author{1}{Email}#=%=#mrodrigues@lasige.di.fc.ul.pt
+Author{1}{Affiliation}#=%=#University of Lisbon
+Author{2}{Firstname}#=%=#Francisco M
+Author{2}{Lastname}#=%=#Couto
+Author{2}{Email}#=%=#fcouto@di.fc.ul.pt
+Author{2}{Affiliation}#=%=#University of Lisbon
+
+==========

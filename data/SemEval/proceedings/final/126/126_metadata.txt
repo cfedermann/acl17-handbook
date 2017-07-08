@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#126
+FinalPaperTitle#=%=#TakeLab-QA at SemEval-2017 Task 3: Classification Experiments for Answer Retrieval in Community QA
+ShortPaperTitle#=%=#TakeLab-QA at SemEval-2017 Task 3: Classification Experiments for Answer Retrieval in Community QA
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Mladen Karan
+JobTitle#==#
+Organization#==#Faculty of Electrical Engineering and Computing, University of Zagreb
+Abstract#==#In this paper we present the TakeLab-QA entry to SemEval 2017 task 3, which is
+a question-comment re-ranking problem. We present a classification based
+approach, including two supervised learning models – Support Vector Machines
+(SVM) and Convolutional Neural Networks (CNN). We use features based on
+different semantic similarity models (e.g., Latent Dirichlet Allocation), as
+well as features based on several types of pre-trained word embeddings.
+Moreover, we also use some hand-crafted task-specific features. For training,
+our system uses no external labeled data apart from that provided by the
+organizers. Our primary submission achieves a MAP-score of 81.14 and F1-score
+of 66.99 – ranking us 10th on the SemEval 2017 task 3, subtask A.
+Author{1}{Firstname}#=%=#Filip
+Author{1}{Lastname}#=%=#Šaina
+Author{1}{Email}#=%=#filip.saina@fer.hr
+Author{1}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing
+Author{2}{Firstname}#=%=#Toni
+Author{2}{Lastname}#=%=#Kukurin
+Author{2}{Email}#=%=#toni.kukurin@fer.hr
+Author{2}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing
+Author{3}{Firstname}#=%=#Lukrecija
+Author{3}{Lastname}#=%=#Puljić
+Author{3}{Email}#=%=#lukrecija.puljic@fer.hr
+Author{3}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing
+Author{4}{Firstname}#=%=#Mladen
+Author{4}{Lastname}#=%=#Karan
+Author{4}{Email}#=%=#mladen.karan@fer.hr
+Author{4}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Zagreb, Croatia
+Author{5}{Firstname}#=%=#Jan
+Author{5}{Lastname}#=%=#Šnajder
+Author{5}{Email}#=%=#jan.snajder@fer.hr
+Author{5}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+
+==========

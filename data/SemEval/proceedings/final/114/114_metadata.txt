@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#114
+FinalPaperTitle#=%=#MERALI at SemEval-2017 Task 2 Subtask 1: a Cognitively Inspired approach
+ShortPaperTitle#=%=#MERALI at SemEval-2017 Task 2 Subtask 1: a Cognitively Inspired approach
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Daniele P. Radicioni
+JobTitle#==#
+Organization#==#University of Turin, ITALY
+Abstract#==#In this paper we report on the participation of the MERALI system to the
+SemEval Task 2 Subtask 1. The MERALI system approaches conceptual similarity
+through a simple, cognitively inspired, heuristics; it builds on a linguistic
+resource, the TTCS-e, that relies on BabelNet, NASARI and ConceptNet. The
+linguistic resource in fact contains a novel mixture of common-sense and
+encyclopedic knowledge. The obtained results point out that there is ample room
+for improvement, so that they are used to elaborate on present limitations and
+on future steps.
+Author{1}{Firstname}#=%=#Enrico
+Author{1}{Lastname}#=%=#Mensa
+Author{1}{Email}#=%=#mensa@di.unito.it
+Author{1}{Affiliation}#=%=#Computer Science Department, University of Turin
+Author{2}{Firstname}#=%=#Daniele P.
+Author{2}{Lastname}#=%=#Radicioni
+Author{2}{Email}#=%=#radicion@di.unito.it
+Author{2}{Affiliation}#=%=#Computer Science Department, University of Turin
+Author{3}{Firstname}#=%=#Antonio
+Author{3}{Lastname}#=%=#Lieto
+Author{3}{Email}#=%=#lieto@di.unito.it
+Author{3}{Affiliation}#=%=#University of Turin, ICAR-CNR, Palermo, Italy
+
+==========

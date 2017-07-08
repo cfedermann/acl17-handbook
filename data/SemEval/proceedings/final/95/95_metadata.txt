@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#95
+FinalPaperTitle#=%=#ULISBOA at SemEval-2017 Task 12: Extraction and classification of temporal expressions and events
+ShortPaperTitle#=%=#ULISBOA at SemEval-2017 Task 12: Extraction and classification of temporal expressions and events
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Andre Lamurias
+JobTitle#==#
+Organization#==#LaSIGE, Departamento de Informática, Faculdade de Ciências, Universidade de Lisboa, 1749-016 Lisboa, Portugal
+Abstract#==#This paper presents our approach to participate in the SemEval 2017 Task 12:
+Clinical TempEval challenge, specifically in the event and time expressions
+span and attribute identification subtasks (ES, EA, TS, TA).
+  Our approach consisted in training Conditional Random Fields (CRF)
+classifiers using the provided annotations, and in creating manually curated
+rules to classify the attributes of each event and time expression.
+  We used a set of common features for the event and time CRF classifiers, and
+a set of features specific to each type of entity, based on domain knowledge.
+  Training only on the source domain data, our best F-scores were 0.683 and
+0.485 for event and time span identification subtasks.
+  When adding target domain annotations to the training data, the best F-scores
+obtained were 0.729 and 0.554, for the same subtasks.
+  We obtained the second highest F-score of the challenge on the event polarity
+subtask (0.708).
+  The source code of our system, Clinical Timeline Annotation (CiTA), is
+available at https://github.com/lasigeBioTM/CiTA.
+Author{1}{Firstname}#=%=#Andre
+Author{1}{Lastname}#=%=#Lamurias
+Author{1}{Email}#=%=#alamurias@lasige.di.fc.ul.pt
+Author{1}{Affiliation}#=%=#LaSIGE, Faculdade de Ciências, Universidade de Lisboa
+Author{2}{Firstname}#=%=#Diana
+Author{2}{Lastname}#=%=#Sousa
+Author{2}{Email}#=%=#dianafranciscosousa@hotmail.com
+Author{2}{Affiliation}#=%=#Faculdade de Ciências, Universidade de Lisboa
+Author{3}{Firstname}#=%=#Sofia
+Author{3}{Lastname}#=%=#Pereira
+Author{3}{Email}#=%=#sofiacardoso.pereira@hotmail.com
+Author{3}{Affiliation}#=%=#University of Lisbon
+Author{4}{Firstname}#=%=#Luka
+Author{4}{Lastname}#=%=#Clarke
+Author{4}{Email}#=%=#laclarke@fc.ul.pt
+Author{4}{Affiliation}#=%=#BioISI: Biosystems & Integrative Sciences Institute, Faculdade de Ciências, Universidade de Lisboa, Portugal
+Author{5}{Firstname}#=%=#Francisco M
+Author{5}{Lastname}#=%=#Couto
+Author{5}{Email}#=%=#fcouto@di.fc.ul.pt
+Author{5}{Affiliation}#=%=#University of Lisbon
+
+==========

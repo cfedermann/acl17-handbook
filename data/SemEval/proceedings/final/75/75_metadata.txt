@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#75
+FinalPaperTitle#=%=#BuzzSaw at SemEval-2017 Task 7: Global vs. Local Context for Interpreting and Locating Homographic English Puns with Sense Embeddings
+ShortPaperTitle#=%=#BuzzSaw at SemEval-2017 Task 7: Global vs. Local Context for Interpreting and Locating Homographic English Puns with Sense Embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Kilian Evang
+JobTitle#==#
+Organization#==#University of Groningen
+CLCG
+Oude Kijk in 't Jatstraat 26
+9712EK Groningen
+The Netherlands
+Abstract#==#This paper describes our system participating in the SemEval-2017 Task 7, for
+the subtasks of homographic pun location and homographic pun interpretation.
+For pun interpretation, we use a knowledge-based Word Sense Disambiguation
+(WSD) method based on sense embeddings. Pun-based jokes can be divided into two
+parts, each containing information about the two distinct senses of the pun. To
+exploit this structure we split the context that is input to the WSD system
+into two local contexts and find the best sense for each of them. We use the
+output of pun interpretation for pun location. As we expect the two meanings of
+a pun to be very dissimilar, we compute sense embedding cosine distances for
+each sense-pair and select the word that has the highest distance. We describe
+experiments on different methods of splitting the context and compare our
+method to several baselines. We find evidence supporting our hypotheses and
+obtain competitive results for pun interpretation.
+Author{1}{Firstname}#=%=#Dieke
+Author{1}{Lastname}#=%=#Oele
+Author{1}{Email}#=%=#d.oele@rug.nl
+Author{1}{Affiliation}#=%=#Rijksuniversiteit Groningen
+Author{2}{Firstname}#=%=#Kilian
+Author{2}{Lastname}#=%=#Evang
+Author{2}{Email}#=%=#k.evang@rug.nl
+Author{2}{Affiliation}#=%=#University of Groningen
+
+==========

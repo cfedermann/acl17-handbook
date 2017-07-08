@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#91
+FinalPaperTitle#=%=#EICA at SemEval-2017 Task 4: A Simple Convolutional Neural Network for Topic-based Sentiment Classification
+ShortPaperTitle#=%=#EICA at SemEval-2017 Task 4: A Simple Convolutional Neural Network for Topic-based Sentiment Classification
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Maoquan Wang
+JobTitle#==#
+Organization#==#East China Normal University
+North Zhongshan Road Campus: 3663 N. Zhongshan Rd., Shanghai, China
+Abstract#==#This paper describes our approach for SemEval-2017 Task 4 - Sentiment Analysis
+in Twitter (SAT). Its five subtasks are divided into two categories: (1)
+sentiment classification, i.e., predicting topic-based tweet sentiment
+polarity, and (2) sentiment quantification, that is, estimating the sentiment
+distributions of a set of given tweets. We build a convolutional sentence
+classification system for the task of SAT. Official results show that the
+experimental results of our system are comparative.
+Author{1}{Firstname}#=%=#wang
+Author{1}{Lastname}#=%=#maoquan
+Author{1}{Email}#=%=#maoquanwang@ica.stc.sh.cn
+Author{1}{Affiliation}#=%=#East China normal University
+Author{2}{Firstname}#=%=#Chen
+Author{2}{Lastname}#=%=#Shiyun
+Author{2}{Email}#=%=#csyecnu@outlook.com
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Xie
+Author{3}{Lastname}#=%=#yufei
+Author{3}{Email}#=%=#yufeixie@ica.stc.sh.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+Author{4}{Firstname}#=%=#Zhao
+Author{4}{Lastname}#=%=#lu
+Author{4}{Email}#=%=#zlu@ica.stc.sh.cn
+Author{4}{Affiliation}#=%=#East China Normal University
+
+==========

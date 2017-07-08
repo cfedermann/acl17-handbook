@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Hitachi at SemEval-2017 Task 12: System for temporal information extraction from clinical notes
+ShortPaperTitle#=%=#Hitachi at SemEval-2017 Task 12: System for temporal information extraction from clinical notes
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Manikandan R
+JobTitle#==#
+Organization#==#Hitachi India Pvt. Ltd.
+Research & Development Centre
+
+Address:
+Unit No. S 704, 7th floor, World Trade Center, Brigade Gateway Campus, No.26/1, Dr.Rajkumar Road, Malleswaram-Rajajinagar, Bangalore 560 055, India
+Abstract#==#This paper describes the system developed for the task of temporal information
+extraction from clinical narratives in the context of the 2017 Clinical
+TempEval challenge. Clinical TempEval 2017 addressed the problem of temporal
+reasoning in the clinical domain by providing annotated clinical notes,
+pathology and radiology reports in line with Clinical TempEval challenges
+2015/16, across two different evaluation phases focusing on cross domain
+adaptation. Our team focused on subtasks involving extractions of temporal
+spans and relations for which the developed systems showed average F-score of
+0.45 and 0.47 across the two phases of evaluations.
+Author{1}{Firstname}#=%=#Sarath
+Author{1}{Lastname}#=%=#P R
+Author{1}{Email}#=%=#sarath@hitachi.co.in
+Author{1}{Affiliation}#=%=#Hitachi India Pvt Ltd
+Author{2}{Firstname}#=%=#Manikandan
+Author{2}{Lastname}#=%=#R
+Author{2}{Email}#=%=#manikandan@hitachi.co.in
+Author{2}{Affiliation}#=%=#R&D Center ,Hitachi India Pvt Ltd
+Author{3}{Firstname}#=%=#Yoshiki
+Author{3}{Lastname}#=%=#Niwa
+Author{3}{Email}#=%=#yoshiki.niwa.tx@hitachi.com
+Author{3}{Affiliation}#=%=#CER, Hitachi, Ltd.
+
+==========

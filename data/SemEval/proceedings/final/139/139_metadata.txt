@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#139
+FinalPaperTitle#=%=#Turing at SemEval-2017 Task 8: Sequential Approach to Rumour Stance Classification with Branch-LSTM
+ShortPaperTitle#=%=#Turing at SemEval-2017 Task 8: Sequential Approach to Rumour Stance Classification with Branch-LSTM
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Elena Kochkina
+JobTitle#==#
+Organization#==#University of Warwick, Gibbet Hill road, Coventry, CV4 7AL
+Abstract#==#This paper describes team Turing's submission to SemEval 2017 RumourEval:
+Determining rumour veracity and support for rumours (SemEval 2017 Task 8,
+Subtask A). Subtask A addresses the challenge of rumour stance classification,
+which involves identifying the attitude of Twitter users towards the
+truthfulness of the rumour they are discussing. Stance classification is
+considered to be an important step towards rumour verification, therefore
+performing well in this task is expected to be useful in debunking false
+rumours. In this work we classify a set of Twitter posts discussing rumours
+into either supporting, denying, questioning or commenting on the underlying
+rumours. We propose a LSTM-based sequential model that, through modelling the
+conversational structure of tweets, which achieves an accuracy of 0.784 on the
+RumourEval test set outperforming all other systems in Subtask A.
+Author{1}{Firstname}#=%=#Elena
+Author{1}{Lastname}#=%=#Kochkina
+Author{1}{Email}#=%=#e.kochkina@warwick.ac.uk
+Author{1}{Affiliation}#=%=#University of Warwick
+Author{2}{Firstname}#=%=#Maria
+Author{2}{Lastname}#=%=#Liakata
+Author{2}{Email}#=%=#maria.liakata@gmail.com
+Author{2}{Affiliation}#=%=#University of Warwick
+Author{3}{Firstname}#=%=#Isabelle
+Author{3}{Lastname}#=%=#Augenstein
+Author{3}{Email}#=%=#i.augenstein@ucl.ac.uk
+Author{3}{Affiliation}#=%=#Department of Computer Science, University College London
+
+==========

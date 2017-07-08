@@ -1,0 +1,18 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#JU CSE NLP @ SemEval 2017 Task 7: Employing Rules to Detect and Interpret English Puns
+ShortPaperTitle#=%=#Task 7 Submission 2
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Aniket Pramanick
+JobTitle#==#Student
+Organization#==#Jadavpur University, Prayukti Bhawan, 188, Raja Subodh Chandra Mallick Rd, Jadavpur University Campus Area, Jadavpur, Kolkata, West Bengal 700032
+Abstract#==#System description. Implementation of HMM and Cyclic Dependency Network.
+Author{1}{Firstname}#=%=#Aniket
+Author{1}{Lastname}#=%=#Pramanick
+Author{1}{Email}#=%=#abcdefgh.abcd65@gmail.com
+Author{1}{Affiliation}#=%=#Student
+Author{2}{Firstname}#=%=#Dipankar
+Author{2}{Lastname}#=%=#Das
+Author{2}{Email}#=%=#dipankar.dipnil2005@gmail.com
+Author{2}{Affiliation}#=%=#Asst. Professor, Jadavpur University
+
+==========

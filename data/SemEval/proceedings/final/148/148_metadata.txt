@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#148
+FinalPaperTitle#=%=#DFKI-DKT at SemEval-2017 Task 8: Rumour Detection and Classification using Cascading Heuristics
+ShortPaperTitle#=%=#DFKI-DKT at SemEval-2017 Task 8
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ankit Kumar Srivastava
+JobTitle#==#
+Organization#==#DFKI GmbH (German Research Centre for Artificial Intelligence), Alt-Moabit 91c, 10559 Berlin, Germany
+Abstract#==#We describe our submissions for SemEval-2017 Task~8, Determining Rumour
+Veracity and Support for Rumours. The Digital Curation Technologies (DKT) team
+at the German Research Center for Artificial Intelligence (DFKI) participated
+in two subtasks: Subtask A (determining the stance of a message) and Subtask B
+(determining veracity of a message, closed variant). In both cases, our
+implementation consisted of a Multivariate Logistic Regression (Maximum
+Entropy) classifier coupled with hand-written patterns and rules (heuristics)
+applied in a post-process cascading fashion. We provide a detailed analysis of
+the system performance and report on variants of our systems that were not part
+of the official submission.
+Author{1}{Firstname}#=%=#Ankit
+Author{1}{Lastname}#=%=#Srivastava
+Author{1}{Email}#=%=#ankit.srivastava@dfki.de
+Author{1}{Affiliation}#=%=#German Research Centre for Artificial Intelligence (DFKI)
+Author{2}{Firstname}#=%=#Georg
+Author{2}{Lastname}#=%=#Rehm
+Author{2}{Email}#=%=#georg.rehm@dfki.de
+Author{2}{Affiliation}#=%=#German Research Centre for Artificial Intelligence (DFKI)
+Author{3}{Firstname}#=%=#Julian
+Author{3}{Lastname}#=%=#Moreno Schneider
+Author{3}{Email}#=%=#julian.moreno_schneider@dfki.de
+Author{3}{Affiliation}#=%=#German Research Centre for Artificial Intelligence (DFKI)
+
+==========

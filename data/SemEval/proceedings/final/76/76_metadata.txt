@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#76
+FinalPaperTitle#=%=#YNUDLG at SemEval-2017 Task 4: A GRU-SVM Model for Sentiment Classification and Quantification in Twitter
+ShortPaperTitle#=%=#A GRU-SVM Model for Sentiment Classification and Quantification in Twitter
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ming Wang
+JobTitle#==#
+Organization#==#School of Information Science and Engineering, Yunnan University, Yunnan, P.R. China
+Abstract#==#Sentiment analysis is one of the central issues in Natural Language Processing
+and has become more and more important in many fields. Typical sentiment
+analysis classifies the sentiment of sentences into several discrete classes
+(e.g.,positive or negative). In this paper we describe our deep learning
+system(combining GRU and SVM) to solve both two-, three- and five- tweet
+polarity classifications. We first trained a gated recurrent neural network
+using pre-trained word embeddings, then we extracted features from GRU layer
+and input these features into support vector machine to fulfill both the
+classification and quantification subtasks. The proposed approach achieved
+37th, 19th, and 14rd places in subtasks A, B and C, respectively.
+Author{1}{Firstname}#=%=#Ming
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#1147192499@qq.com
+Author{1}{Affiliation}#=%=#School of Information Science and Engineering, Yunnan University
+Author{2}{Firstname}#=%=#Biao
+Author{2}{Lastname}#=%=#Chu
+Author{2}{Email}#=%=#372744991@qq.com
+Author{2}{Affiliation}#=%=#School of Information Science and Engineering, Yunnan University
+Author{3}{Firstname}#=%=#Qingxun
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#1243305076@qq.com
+Author{3}{Affiliation}#=%=#School of Information Science and Engineering, Yunnan University
+Author{4}{Firstname}#=%=#Xiaobing
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#zhouxb.yn@qq.com
+Author{4}{Affiliation}#=%=#School of Information Science and Engineering, Yunnan University
+
+==========

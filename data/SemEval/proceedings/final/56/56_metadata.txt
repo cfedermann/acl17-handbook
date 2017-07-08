@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#56
+FinalPaperTitle#=%=#MI&T Lab at SemEval-2017 task 4: An Integrated Training Method of Word Vector for Sentiment Classification
+ShortPaperTitle#=%=#MI&T Lab at SemEval-2017 task 4: An Integrated Training Method of Word Vector for Sentiment Classification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jingjing Zhao
+JobTitle#==#
+Organization#==#Harbin Institute of Technology, Harbin, China
+Abstract#==#A CNN method for sentiment classification task in Task 4A of SemEval 2017 is
+presented. To solve the problem of word2vec training word vector slowly, a
+method of training word vector by integrating word2vec and Convolutional Neural
+Network (CNN) is proposed. This training method not only improves the training
+speed of word2vec, but also makes the word vector more effective for the target
+task. Furthermore, the word2vec adopts a full connection between the input
+layer and the projection layer of the Continuous Bag-of-Words (CBOW) for
+acquiring the semantic information of the original sentence.
+Author{1}{Firstname}#=%=#Jingjing
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#hellozhaojingjing@outlook.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Yan
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#yanyang_hit@163.com
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology
+Author{3}{Firstname}#=%=#Bing
+Author{3}{Lastname}#=%=#Xu
+Author{3}{Email}#=%=#hitxb@hit.edu.cn
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#94
+FinalPaperTitle#=%=#KeLP at SemEval-2017 Task 3: Learning Pairwise Patterns in Community Question Answering
+ShortPaperTitle#=%=#KeLP at SemEval-2017 Task 3: Learning Pairwise Patterns in Community Question Answering
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Simone FIlice
+JobTitle#==#
+Organization#==#Via del politecnico 1, Rome, Italy
+Abstract#==#This paper describes the KeLP system participating in the SemEval-2017
+community Question Answering (cQA) task.
+The system is a refinement of the kernel-based sentence pair modeling we
+proposed for the previous year challenge. It is implemented within the
+Kernel-based Learning Platform called KeLP, from which we inherit the team's
+name. 
+Our primary submission ranked first in subtask A, and third in subtasks B and
+C, being the only systems appearing in the top-3 ranking for all the English
+subtasks. This shows that the proposed framework, which has minor variations
+among the three subtasks, is extremely flexible and effective in tackling
+learning tasks defined on sentence pairs.
+Author{1}{Firstname}#=%=#Simone
+Author{1}{Lastname}#=%=#Filice
+Author{1}{Email}#=%=#filice.simone@gmail.com
+Author{1}{Affiliation}#=%=#University of Roma "Tor Vergata"
+Author{2}{Firstname}#=%=#Giovanni
+Author{2}{Lastname}#=%=#Da San Martino
+Author{2}{Email}#=%=#gmartino@qf.org.qa
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+Author{3}{Firstname}#=%=#Alessandro
+Author{3}{Lastname}#=%=#Moschitti
+Author{3}{Email}#=%=#amoschitti@gmail.com
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+
+==========

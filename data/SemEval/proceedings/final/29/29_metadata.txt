@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#BB_twtr at SemEval-2017 Task 4: Twitter Sentiment Analysis with CNNs and LSTMs
+ShortPaperTitle#=%=#BB_twtr at SemEval-2017 Task 4: Twitter Sentiment Analysis with CNNs and LSTMs
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Mathieu Cliche
+JobTitle#==#
+Organization#==#Bloomberg, 
+731 Lexington Ave, New York, NY 10022.
+Abstract#==#In this paper we describe our attempt at producing a state-of-the-art Twitter
+sentiment classifier using Convolutional Neural Networks (CNNs) and Long Short
+Term Memory (LSTMs) networks.  Our system leverages a large amount of unlabeled
+data to pre-train word embeddings.  We then use a subset of the unlabeled data
+to fine tune the embeddings using distant supervision.                          The
+final
+CNNs
+and
+LSTMs are trained on the SemEval-2017 Twitter dataset where the embeddings are
+fined tuned again.  To boost performances we ensemble several CNNs and LSTMs
+together. Our approach achieved first rank on all of the five English subtasks
+amongst 40 teams.
+Author{1}{Firstname}#=%=#Mathieu
+Author{1}{Lastname}#=%=#Cliche
+Author{1}{Email}#=%=#mcliche@bloomberg.net
+Author{1}{Affiliation}#=%=#Bloomberg
+
+==========

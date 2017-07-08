@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#158
+FinalPaperTitle#=%=#PurdueNLP at SemEval-2017 Task 1: Predicting Semantic Textual Similarity with Paraphrase and Event Embeddings
+ShortPaperTitle#=%=#PurdueNLP at SemEval-2017 Task 1: Predicting Semantic Textual Similarity with Paraphrase and Event Embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#I-Ta Lee
+JobTitle#==#
+Organization#==#Purdue University. 305 N. University Street West Lafayette, IN  47907.
+Abstract#==#This paper describes our proposed solution for SemEval 2017 Task 1: Semantic
+Textual Similarity \cite{semeval2017}. The task aims at measuring the degree of
+equivalence between sentences given in English. Performance is evaluated by
+computing Pearson Correlation scores between the predicted scores and human
+judgements. Our proposed system consists of two subsystems and one regression
+model for predicting STS scores. The two subsystems are designed to learn
+Paraphrase and Event Embeddings that can take the consideration of paraphrasing
+characteristics and sentence structures into our system. The regression model
+associates these embeddings to make the final predictions. The experimental
+result shows that our system acquires 0.8 of Pearson Correlation Scores in this
+task.
+Author{1}{Firstname}#=%=#I-Ta
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#lee2226@purdue.edu
+Author{1}{Affiliation}#=%=#Purdue University
+Author{2}{Firstname}#=%=#Mahak
+Author{2}{Lastname}#=%=#Goindani
+Author{2}{Email}#=%=#mgoindan@purdue.edu
+Author{2}{Affiliation}#=%=#Purdue University
+Author{3}{Firstname}#=%=#Chang
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#li1873@purdue.edu
+Author{3}{Affiliation}#=%=#Purdue University
+Author{4}{Firstname}#=%=#Di
+Author{4}{Lastname}#=%=#Jin
+Author{4}{Email}#=%=#jind@purdue.edu
+Author{4}{Affiliation}#=%=#Purdue University
+Author{5}{Firstname}#=%=#Kristen Marie
+Author{5}{Lastname}#=%=#Johnson
+Author{5}{Email}#=%=#john1187@purdue.edu
+Author{5}{Affiliation}#=%=#Purdue University
+Author{6}{Firstname}#=%=#Xiao
+Author{6}{Lastname}#=%=#Zhang
+Author{6}{Email}#=%=#zhang923@purdue.edu
+Author{6}{Affiliation}#=%=#Purdue University
+Author{7}{Firstname}#=%=#Maria Leonor
+Author{7}{Lastname}#=%=#Pacheco
+Author{7}{Email}#=%=#pachecog@purdue.edu
+Author{7}{Affiliation}#=%=#Purdue University
+Author{8}{Firstname}#=%=#Dan
+Author{8}{Lastname}#=%=#Goldwasser
+Author{8}{Email}#=%=#dgoldwas@purdue.edu
+Author{8}{Affiliation}#=%=#Purdue University
+
+==========

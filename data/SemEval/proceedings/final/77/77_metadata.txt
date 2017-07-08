@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#77
+FinalPaperTitle#=%=#QLUT at SemEval-2017 Task 2: Word Similarity Based on Word Embedding and Knowledge Base
+ShortPaperTitle#=%=#QLUT at SemEval-2017 Task 2: Word Similarity Based on Word Embedding and Knowledge Base
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Wenpeng Lu
+JobTitle#==#
+Organization#==#QiLu University of Technology
+Daxue Rd 3501, Changqing District, Jinan City, Shandong Province, China
+Abstract#==#This paper shows the details of our system submissions in the task 2 of SemEval
+2017. We take part in the subtask 1 of this task, which is an English
+monolingual subtask. This task is designed to evaluate the semantic word
+similarity of two linguistic items. The results of runs are assessed by
+standard Pearson and Spearman correlation, contrast with official gold standard
+set. The best performance of our runs is 0.781 (Final). The techniques of our
+runs mainly make use of the word embeddings and the knowledge-based method. The
+results demonstrate that the combined method is effective for the computation
+of word similarity, while the word embeddings and the knowledge-based
+technique, respectively, needs more deeply improvement in details.
+Author{1}{Firstname}#=%=#Fanqing
+Author{1}{Lastname}#=%=#Meng
+Author{1}{Email}#=%=#mengfanqing678@163.com
+Author{1}{Affiliation}#=%=#QiLu University of Technology
+Author{2}{Firstname}#=%=#Wenpeng
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#lwp@qlu.edu.cn
+Author{2}{Affiliation}#=%=#QiLu University of Technology
+Author{3}{Firstname}#=%=#Yuteng
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#zhangyuteng1029@163.com
+Author{3}{Affiliation}#=%=#QiLu University of Technology
+Author{4}{Firstname}#=%=#Ping
+Author{4}{Lastname}#=%=#Jian
+Author{4}{Email}#=%=#pjian@bit.edu.cn
+Author{4}{Affiliation}#=%=#Beijing Institute of Technology
+Author{5}{Firstname}#=%=#Shumin
+Author{5}{Lastname}#=%=#Shi
+Author{5}{Email}#=%=#bjssm@bit.edu.cn
+Author{5}{Affiliation}#=%=#Beijing Institute of Technology
+Author{6}{Firstname}#=%=#Heyan
+Author{6}{Lastname}#=%=#Huang
+Author{6}{Email}#=%=#hhy63@bit.edu.cn
+Author{6}{Affiliation}#=%=#Beijing Institute of Technology
+
+==========

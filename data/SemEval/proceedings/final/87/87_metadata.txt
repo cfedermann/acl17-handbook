@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#87
+FinalPaperTitle#=%=#ELiRF-UPV at SemEval-2017 Task 4: Sentiment Analysis using Deep Learning
+ShortPaperTitle#=%=#ELiRF-UPV at SemEval-2017 Task 4: Sentiment Analysis using Deep Learning
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Lluís F. Hurtado
+JobTitle#==#
+Organization#==#Universitat Politècnica de València
+Camí de Vera, sn
+46022, València
+Abstract#==#This paper describes the participation of ELiRF-UPV team at task 4 of
+SemEval2017. Our approach is based on the use of convolutional and recurrent
+neural networks and the combination of general and specific word embeddings
+with polarity lexicons. We participated in all of the proposed subtasks both
+for English and Arabic languages using the same system with small variations.
+Author{1}{Firstname}#=%=#José-Ángel
+Author{1}{Lastname}#=%=#González
+Author{1}{Email}#=%=#jogonba2@dsic.upv.es
+Author{1}{Affiliation}#=%=#Universitat Politècnica de València
+Author{2}{Firstname}#=%=#Ferran
+Author{2}{Lastname}#=%=#Pla
+Author{2}{Email}#=%=#fpla@dsic.upv.es
+Author{2}{Affiliation}#=%=#Universitat Politècnica de València
+Author{3}{Firstname}#=%=#Lluís-F.
+Author{3}{Lastname}#=%=#Hurtado
+Author{3}{Email}#=%=#lhurtado@dsic.upv.es
+Author{3}{Affiliation}#=%=#Universitat Politècnica de València
+
+==========

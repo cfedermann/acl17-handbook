@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#96
+FinalPaperTitle#=%=#HCS at SemEval-2017 Task 5: Polarity detection in business news using convolutional neural networks
+ShortPaperTitle#=%=#HCS at SemEval-2017 Task 5: Polarity detection in business news using convolutional neural networks
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Lidia Pivovarova
+JobTitle#==#
+Organization#==#University of Helsinki, Finland
+Abstract#==#Task 5 of SemEval-2017 involves fine-grained sentiment analysis on financial
+microblogs and news.  Our solution for determining the sentiment score extends
+an earlier convolutional neural network for sentiment analysis in several ways.
+ We explicitly encode a focus on a particular company, we apply a data
+augmentation   scheme, and use a larger data collection to complement the small
+training data provided by the task organizers.                          The best
+results
+were
+achieved
+by training a model on an external dataset and then tuning it using the
+provided training dataset.
+Author{1}{Firstname}#=%=#Lidia
+Author{1}{Lastname}#=%=#Pivovarova
+Author{1}{Email}#=%=#lidia.pivovarova@gmail.com
+Author{1}{Affiliation}#=%=#University of Helsinki
+Author{2}{Firstname}#=%=#Llorenç
+Author{2}{Lastname}#=%=#Escoter
+Author{2}{Email}#=%=#escoteri@cs.helsinki.fi
+Author{2}{Affiliation}#=%=#University of Helsinki
+Author{3}{Firstname}#=%=#Arto
+Author{3}{Lastname}#=%=#Klami
+Author{3}{Email}#=%=#arto.klami@cs.helsinki.fi
+Author{3}{Affiliation}#=%=#University of Helsinki
+Author{4}{Firstname}#=%=#Roman
+Author{4}{Lastname}#=%=#Yangarber
+Author{4}{Email}#=%=#roman.yangarber@cs.helsinki.fi
+Author{4}{Affiliation}#=%=#University of Helsinki
+
+==========

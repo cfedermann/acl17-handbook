@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#TWINA at SemEval-2017 Task 4: Twitter Sentiment Analysis with Ensemble Gradient Boost Tree Classifier
+ShortPaperTitle#=%=#TWINA at SemEval-2017 Task 4: Twitter Sentiment Analysis with Ensemble Gradient Boost Tree Classifier
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Naveen Kumar Laskari, Dr. Suresh Kumar Sanampudi
+JobTitle#==#
+Organization#==#Assistant Professor of IT
+BVRIT Hyderabad College of Engineering
+Hyderabad
+
+Head of the Department, IT
+JNTUH College of Engineering Jagitial,
+Karimnagar
+Abstract#==#This paper describes the TWINA system, with which we participated in
+SemEval-2017 Task 4B (Topic Based Message Polarity Classification – Two point
+scale) and 4D (two-point scale Tweet quantification). We implemented ensemble
+based Gradient Boost Trees classification method for both the tasks. Our system
+could perform well for the task 4D and ranked 13th among 15 teams, for the task
+4B our model ranked 23rd position.
+Author{1}{Firstname}#=%=#Naveen Kumar
+Author{1}{Lastname}#=%=#Laskari
+Author{1}{Email}#=%=#naveen.laskari@gmail.com
+Author{1}{Affiliation}#=%=#JNTUH
+Author{2}{Firstname}#=%=#Suresh Kumar
+Author{2}{Lastname}#=%=#Sanampudi
+Author{2}{Email}#=%=#sureshsanampudi@gmail.com
+Author{2}{Affiliation}#=%=#JNTUH
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#127
+FinalPaperTitle#=%=#STS-UHH at SemEval-2017 Task 1: Scoring Semantic Textual Similarity Using Supervised and Unsupervised Ensemble
+ShortPaperTitle#=%=#STS-UHH at SemEval-2017 Task 1: Scoring Semantic Textual Similarity Using Supervised and Unsupervised Ensemble
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#SARAH
+JobTitle#==#
+Organization#==#Universität Hamburg, Computer Science Department,
+Vogt-Kölln-Straße 30, 22527 Hamburg
+Abstract#==#This paper reports the STS-UHH participation in the SemEval 2017 shared
+Task 1 of Semantic Textual Similarity (STS). Overall, we submitted 3 runs
+covering
+monolingual and cross-lingual STS tracks. Our participation involves two
+approaches:
+unsupervised approach, which estimates a word alignment-based similarity
+score, and supervised approach, which combines dependency graph similarity
+and coverage features with lexical similarity measures using regression
+methods. We also present a way on ensembling both models. Out of 84 submitted
+runs, our team best multi-lingual run has been ranked 12th in overall
+performance
+with correlation of 0.61, 7th among 31 participating teams.
+Author{1}{Firstname}#=%=#Sarah
+Author{1}{Lastname}#=%=#Kohail
+Author{1}{Email}#=%=#kohail@informatik.uni-hamburg.de
+Author{1}{Affiliation}#=%=#Universität Hamburg
+Author{2}{Firstname}#=%=#Amr Rekaby
+Author{2}{Lastname}#=%=#Salama
+Author{2}{Email}#=%=#salama@informatik.uni-hamburg.de
+Author{2}{Affiliation}#=%=#Hamburg University
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Biemann
+Author{3}{Email}#=%=#biemann@informatik.uni-hamburg.de
+Author{3}{Affiliation}#=%=#University of Hamburg
+
+==========

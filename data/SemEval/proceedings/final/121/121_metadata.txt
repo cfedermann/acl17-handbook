@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#121
+FinalPaperTitle#=%=#Sheffield at SemEval-2017 Task 9: Transition-based language generation from AMR.
+ShortPaperTitle#=%=#Sheffield at SemEval-2017 Task 9: Transition-based language generation from AMR.
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Gerasimos Lampouras
+JobTitle#==#
+Organization#==#University of Sheffield
+Regent Court, 211 Portobello,
+Sheffield, S1 4DP, UK
+Abstract#==#This paper describes the submission by the University of Sheffield to the
+SemEval 2017 Abstract Meaning Representation Parsing and Generation task
+(SemEval 2017 Task 9, Subtask 2). We cast language generation from AMR as a
+sequence of actions (e.g., insert/remove/rename edges and nodes) that
+progressively transform the AMR  graph into a dependency parse tree. This
+transition-based approach relies on the fact that an AMR graph can be
+considered structurally similar to a dependency tree, with a focus on content
+rather than function words. An added benefit to this approach is the greater
+amount of data we can take advantage of to train the parse-to-text linearizer.
+Our submitted run on the test data achieved a BLEU score of 3.32 and a
+Trueskill score of -22.04 on automatic and human evaluation respectively.
+Author{1}{Firstname}#=%=#Gerasimos
+Author{1}{Lastname}#=%=#Lampouras
+Author{1}{Email}#=%=#gerasimos.lampouras@gmail.com
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Andreas
+Author{2}{Lastname}#=%=#Vlachos
+Author{2}{Email}#=%=#a.vlachos@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+
+==========

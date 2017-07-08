@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#128
+FinalPaperTitle#=%=#GUIR at SemEval-2017 Task 12: A Framework for Cross-Domain Clinical Temporal Information Extraction
+ShortPaperTitle#=%=#GUIR at SemEval-2017 Task 12: A Framework for Cross-Domain Clinical Temporal Information Extraction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sean MacAvaney
+JobTitle#==#
+Organization#==#Georgetown University
+3700 O St NW
+Washington, DC 20057
+Abstract#==#Clinical TempEval 2017 (SemEval 2017 Task 12) addresses the task of
+cross-domain temporal extraction from clinical text. We present a system for
+this task that uses supervised learning for the extraction of temporal
+expression and event spans with corresponding attributes and narrative
+container relations. Approaches include conditional random fields and decision
+tree ensembles, using lexical, syntactic, semantic, distributional, and
+rule-based features. Our system received best or second best scores in TIMEX3
+span, EVENT span, and CONTAINS relation extraction.
+Author{1}{Firstname}#=%=#Sean
+Author{1}{Lastname}#=%=#MacAvaney
+Author{1}{Email}#=%=#sean@ir.cs.georgetown.edu
+Author{1}{Affiliation}#=%=#Georgetown University
+Author{2}{Firstname}#=%=#Arman
+Author{2}{Lastname}#=%=#Cohan
+Author{2}{Email}#=%=#arman@ir.cs.georgetown.edu
+Author{2}{Affiliation}#=%=#Georgetown University
+Author{3}{Firstname}#=%=#Nazli
+Author{3}{Lastname}#=%=#Goharian
+Author{3}{Email}#=%=#nazli@ir.cs.georgetown.edu
+Author{3}{Affiliation}#=%=#Georgetown University
+
+==========

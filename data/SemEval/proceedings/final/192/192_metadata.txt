@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#192
+FinalPaperTitle#=%=#SemEval-2017 Task 3: Community Question Answering
+ShortPaperTitle#=%=#SemEval-2017 Task 3: Community Question Answering
+NumberOfPages#=%=#22
+CopyrightSigned#=%=#Preslav Nakov
+JobTitle#==#
+Organization#==#ALT Research Group, Qatar Computing Research Institute, HBKU
+Abstract#==#We describe SemEval–2017 Task 3 on Community Question Answering. This year,
+we reran the four subtasks from SemEval-2016: (A) Question--Comment Similarity,
+(B) Question--Question Similarity, (C) Question--External Comment Similarity,
+and (D) Rerank the correct answers for a new question in Arabic, providing all
+the data from 2015 and 2016 for training, and fresh data for testing.
+Additionally, we added a new subtask E in order to enable experimentation with
+Multi-domain Question Duplicate Detection in a larger-scale scenario, using
+StackExchange subforums. A total of 23 teams participated in the task, and
+submitted a total of 85 runs (36 primary and 49 contrastive) for subtasks A--D.
+Unfortunately, no teams participated in subtask E. A variety of approaches and
+features were used by the participating systems to address the different
+subtasks. The best systems achieved an official score (MAP) of 88.43, 47.22,
+15.46, and 61.16 in subtasks A, B, C, and D, respectively.  These scores are
+better than the baselines, especially for subtasks A--C.
+Author{1}{Firstname}#=%=#Preslav
+Author{1}{Lastname}#=%=#Nakov
+Author{1}{Email}#=%=#preslav.nakov@gmail.com
+Author{1}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+Author{2}{Firstname}#=%=#Doris
+Author{2}{Lastname}#=%=#Hoogeveen
+Author{2}{Email}#=%=#d1_doris@hotmail.com
+Author{2}{Affiliation}#=%=#University of Melbourne
+Author{3}{Firstname}#=%=#Lluís
+Author{3}{Lastname}#=%=#Màrquez
+Author{3}{Email}#=%=#lluism@lsi.upc.edu
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{4}{Firstname}#=%=#Alessandro
+Author{4}{Lastname}#=%=#Moschitti
+Author{4}{Email}#=%=#amoschitti@gmail.com
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+Author{5}{Firstname}#=%=#Hamdy
+Author{5}{Lastname}#=%=#Mubarak
+Author{5}{Email}#=%=#hmubarak@qf.org.qa
+Author{5}{Affiliation}#=%=#Qatar Computing Research Institute, Qatar Foundation
+Author{6}{Firstname}#=%=#Timothy
+Author{6}{Lastname}#=%=#Baldwin
+Author{6}{Email}#=%=#tb@ldwin.net
+Author{6}{Affiliation}#=%=#The University of Melbourne
+Author{7}{Firstname}#=%=#Karin
+Author{7}{Lastname}#=%=#Verspoor
+Author{7}{Email}#=%=#karin.verspoor@unimelb.edu.au
+Author{7}{Affiliation}#=%=#The University of Melbourne
+
+==========

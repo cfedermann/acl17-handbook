@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#169
+FinalPaperTitle#=%=#Fermi at SemEval-2017 Task 7: Detection and Interpretation of Homographic puns in English Language
+ShortPaperTitle#=%=#Fermi at SemEval-2017 Task 7: Detection and Interpretation of Homographic puns in English Language
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#OOTA SUBBA REDDY
+JobTitle#==#
+Organization#==#IIIT Hyderabad
+Gachibowli, Hyderabad, 500032.
+Abstract#==#This paper describes our system for detection and interpretation of English
+puns. We participated in 2 subtasks related to homographic puns achieve
+comparable results for these tasks.
+  Through the paper we provide detailed description of the approach, as well as
+the results obtained in the task.
+
+Our models achieved a F1-score of 77.65\% for Subtask 1 and 52.15\% for
+Subtask 2.
+Author{1}{Firstname}#=%=#Vijayasaradhi
+Author{1}{Lastname}#=%=#Indurthi
+Author{1}{Email}#=%=#vijaya.saradhi@research.iiit.ac.in
+Author{1}{Affiliation}#=%=#IIIT Hyderabad
+Author{2}{Firstname}#=%=#Subba Reddy
+Author{2}{Lastname}#=%=#Oota
+Author{2}{Email}#=%=#oota.subba@students.iiit.ac.in
+Author{2}{Affiliation}#=%=#IIIT Hyderabad
+
+==========

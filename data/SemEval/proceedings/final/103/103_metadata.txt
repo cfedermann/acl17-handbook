@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#103
+FinalPaperTitle#=%=#Lancaster A at SemEval-2017 Task 5: Evaluation metrics matter: predicting sentiment from financial news headlines
+ShortPaperTitle#=%=#Lancaster A at SemEval-2017 Task 5: Evaluation metrics matter: predicting sentiment from financial news headlines
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Andrew Moore
+JobTitle#==#
+Organization#==#School of Computing and Communications, Lancaster University
+C28 InfoLab21, Lancaster University, Lancaster, LA1 4WA United Kingdom
+Abstract#==#This paper describes our participation in Task 5 track 2 of SemEval 2017 to
+predict the sentiment of financial news headlines for a specific company on a
+continuous scale between -1 and 1. We tackled the problem using a number of
+approaches, utilising a Support Vector Regression (SVR) and a Bidirectional
+Long Short-Term Memory (BLSTM). We found an improvement of 4-6\% using the LSTM
+model over the SVR and came fourth in the track. We report a number of
+different evaluations using a finance specific word embedding model and reflect
+on the effects of using different evaluation metrics.
+Author{1}{Firstname}#=%=#Andrew
+Author{1}{Lastname}#=%=#Moore
+Author{1}{Email}#=%=#a.moore@lancaster.ac.uk
+Author{1}{Affiliation}#=%=#Lancaster University
+Author{2}{Firstname}#=%=#Paul
+Author{2}{Lastname}#=%=#Rayson
+Author{2}{Email}#=%=#p.rayson@lancaster.ac.uk
+Author{2}{Affiliation}#=%=#Lancaster University
+
+==========

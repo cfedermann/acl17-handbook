@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#133
+FinalPaperTitle#=%=#LABDA at SemEval-2017 Task 10: Relation Classification between keyphrases via Convolutional Neural Network
+ShortPaperTitle#=%=#LABDA at SemEval-2017 Task 10: Relation Classification between keyphrases via Convolutional Neural Network
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Víctor Suárez-Paniagua
+JobTitle#==#PhD student
+Organization#==#Avda de la Universidad, 30 28911 Leganés (Madrid) España
+Abstract#==#In this paper, we describe our participation at the subtask of extraction of
+relationships between two identified keyphrases. This task can be very helpful
+in improving search engines for scientific articles. Our approach is based on
+the use of a convolutional neural network (CNN) trained on the training
+dataset. This deep learning model has already achieved successful
+results for the extraction relationships between named entities. Thus, our
+hypothesis is that this model can be also applied to extract relations between
+keyphrases. The official results of the task show that
+our architecture obtained an F1-score of 0.38% for Keyphrases Relation
+Classification. This performance is lower than the expected due to the generic
+preprocessing phase and the basic configuration of the
+CNN model, more complex architectures are proposed as future work to increase
+the classification rate.
+Author{1}{Firstname}#=%=#Víctor
+Author{1}{Lastname}#=%=#Suárez-Paniagua
+Author{1}{Email}#=%=#victor.suarez@uc3m.es
+Author{1}{Affiliation}#=%=#Universidad Carlos III de Madrid
+Author{2}{Firstname}#=%=#Isabel
+Author{2}{Lastname}#=%=#Segura-Bedmar
+Author{2}{Email}#=%=#isegura@inf.uc3m.es
+Author{2}{Affiliation}#=%=#Universidad Carlos III de Madrid
+Author{3}{Firstname}#=%=#Paloma
+Author{3}{Lastname}#=%=#Martínez
+Author{3}{Email}#=%=#pmf@inf.uc3m.es
+Author{3}{Affiliation}#=%=#Universidad Carlos III de Madrid
+
+==========

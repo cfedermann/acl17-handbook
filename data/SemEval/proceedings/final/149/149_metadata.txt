@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#149
+FinalPaperTitle#=%=#SRHR at SemEval-2017 Task 6: Word Associations for Humour Recognition
+ShortPaperTitle#=%=#SRHR at SemEval-2017 Task 6: Word Associations for Humour Recognition
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Andrew Cattle
+JobTitle#==#
+Organization#==#Hong Kong University of Science and Technology
+Department of Computer Science and Engineering
+Clear Water Bay, Kowloon, Hong Kong
+Abstract#==#This paper explores the role of semantic relatedness features, such as word
+associations, in humour recognition. Specifically, we examine the task of
+inferring pairwise humour judgments in Twitter hashtag wars. We examine a
+variety of word association features derived from University of Southern
+Florida Free Association Norms (USF) and the Edinburgh Associative Thesaurus
+(EAT) and find that word association-based features outperform Word2Vec
+similarity, a popular semantic relatedness measure. Our system achieves an
+accuracy of 56.42% using a combination of unigram perplexity, bigram
+perplexity, EAT difference (tweet-avg), USF forward (max), EAT difference
+(word-avg), USF difference (word-avg), EAT forward (min), USF difference
+(tweet-max), and EAT backward (min).
+Author{1}{Firstname}#=%=#Andrew
+Author{1}{Lastname}#=%=#Cattle
+Author{1}{Email}#=%=#acattle@cse.ust.hk
+Author{1}{Affiliation}#=%=#Hong Kong Universirty of Sciene and Technology
+Author{2}{Firstname}#=%=#Xiaojuan
+Author{2}{Lastname}#=%=#Ma
+Author{2}{Email}#=%=#mxj@cse.ust.hk
+Author{2}{Affiliation}#=%=#Hong Kong University of Science and Technology
+
+==========

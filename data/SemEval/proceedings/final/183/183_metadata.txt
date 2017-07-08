@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#183
+FinalPaperTitle#=%=#SemEval 2017 Task 10: ScienceIE - Extracting Keyphrases and Relations from Scientific Publications
+ShortPaperTitle#=%=#SemEval 2017 Task 10: ScienceIE - Extracting Keyphrases and Relations from Scientific Publications
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Isabelle Augenstein
+JobTitle#==#
+Organization#==#Department of Computer Science, University College London
+One Euston Square, 40 Melton Street, 
+London, NW1 2FD, United Kingdom
+Abstract#==#We describe the SemEval task of extracting keyphrases and relations between
+them from scientific documents, which is crucial for understanding which
+publications describe which processes, tasks and materials. Although this was a
+new task, we had a total of 26 submissions across 3 evaluation scenarios. We
+expect the task and the findings reported in this paper to be relevant for
+researchers working on understanding scientific content, as well as the broader
+knowledge base population and information extraction communities.
+Author{1}{Firstname}#=%=#Isabelle
+Author{1}{Lastname}#=%=#Augenstein
+Author{1}{Email}#=%=#i.augenstein@ucl.ac.uk
+Author{1}{Affiliation}#=%=#Department of Computer Science, University College London
+Author{2}{Firstname}#=%=#Mrinal
+Author{2}{Lastname}#=%=#Das
+Author{2}{Email}#=%=#mdas@cs.umass.edu
+Author{2}{Affiliation}#=%=#University of Massachusetts Amherst
+Author{3}{Firstname}#=%=#Sebastian
+Author{3}{Lastname}#=%=#Riedel
+Author{3}{Email}#=%=#sebastian.riedel@gmail.com
+Author{3}{Affiliation}#=%=#UCL
+Author{4}{Firstname}#=%=#Lakshmi
+Author{4}{Lastname}#=%=#Vikraman
+Author{4}{Email}#=%=#lakshmiv.nair01@gmail.com
+Author{4}{Affiliation}#=%=#University of Massachusetts Amherst
+Author{5}{Firstname}#=%=#Andrew
+Author{5}{Lastname}#=%=#McCallum
+Author{5}{Email}#=%=#mccallum@cs.umass.edu
+Author{5}{Affiliation}#=%=#UMass Amherst
+
+==========

@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#NTU-1 at SemEval-2017 Task 12: Detection and classification of temporal events in clinical data with domain adaptation
+ShortPaperTitle#=%=#NTU-1 at SemEval-2017 Task 12: Detection and classification of temporal events in clinical data with domain adaptation
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Po-Yu Huang
+JobTitle#==#
+Organization#==#National Taiwan University
+No. 1, Section 4, Roosevelt Rd, Da’an District, Taipei City, 10617, Taiwan
+Abstract#==#This study proposes a system to participate in the Clinical TempEval 2017
+shared task, a part of the SemEval 2017 Tasks. Domain adaptation was the main
+challenge this year. We took part in the supervised domain adaption where data
+of 591 records of colon cancer patients and 30 records of brain cancer patients
+from Mayo clinic were given and we are asked to analyze the records from brain
+cancer patients. Based on the THYME corpus released by the organizer of
+Clinical TempEval, we propose a framework that automatically analyzes clinical
+temporal events in a fine-grained level. Support vector machine (SVM) and
+conditional random field (CRF) were implemented in our system for different
+subtasks, including detecting clinical relevant events and time expression,
+determining their attributes, and identifying their relations with each other
+within the document. The results showed the capability of domain
+adaptation of our system.
+Author{1}{Firstname}#=%=#Po-Yu
+Author{1}{Lastname}#=%=#Huang
+Author{1}{Email}#=%=#poyu0987@gmail.com
+Author{1}{Affiliation}#=%=#Taipei Medical University
+Author{2}{Firstname}#=%=#Hen-Hsen
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#hhhuang@nlg.csie.ntu.edu.tw
+Author{2}{Affiliation}#=%=#Department of Computer Science and Information Engineering, National Taiwan University
+Author{3}{Firstname}#=%=#Yu-Wun
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#b02902033@ntu.edu.tw
+Author{3}{Affiliation}#=%=#National Taiwan University
+Author{4}{Firstname}#=%=#Ching
+Author{4}{Lastname}#=%=#Huang
+Author{4}{Email}#=%=#b02902042@ntu.edu.tw
+Author{4}{Affiliation}#=%=#National Taiwan University
+Author{5}{Firstname}#=%=#Hsin-Hsi
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Email}#=%=#hhchen@ntu.edu.tw
+Author{5}{Affiliation}#=%=#National Taiwan University
+
+==========

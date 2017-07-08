@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#HCCL at SemEval-2017 Task 2: Combining Multilingual Word Embeddings and Transliteration Model for Semantic Similarity
+ShortPaperTitle#=%=#HCCL at SemEval-2017 Task 2
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Junqing He
+JobTitle#==#
+Organization#==#The Key Laboratory of Speech Acoustics and Content Understanding, Institute of Acoustics, Chinese Academy of Sciences
+Xinjiang Laboratory of Minority Speech and Language Information Processing, Xinjiang Technical Institute of Physics and Chemistry, Chinese Academy of Sciences
+University of Chinese Academy of Sciences
+Abstract#==#In this paper, we introduce an approach to combining word embeddings and
+machine translation for multilingual semantic word similarity, the task2 of
+SemEval-2017. Thanks to the unsupervised transliteration model, our
+cross-lingual word embeddings encounter decreased sums of OOVs. Our results are
+produced using only monolingual Wikipedia corpora and a limited amount of
+sentence-aligned data. Although relatively little resources are utilized, our
+system ranked 3rd in the monolingual subtask and can be the 6th in the
+cross-lingual subtask.
+Author{1}{Firstname}#=%=#Junqing
+Author{1}{Lastname}#=%=#He
+Author{1}{Email}#=%=#hejunqing@hccl.ioa.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Acoustics, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Long
+Author{2}{Lastname}#=%=#Wu
+Author{2}{Email}#=%=#wulong@hccl.ioa.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Acoustics, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Xuemin
+Author{3}{Lastname}#=%=#Zhao
+Author{3}{Email}#=%=#zhaoxuemin@hccl.ioa.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Acoustics, Chinese Acadamy of Sciences
+Author{4}{Firstname}#=%=#Yonghong
+Author{4}{Lastname}#=%=#Yan
+Author{4}{Email}#=%=#yanyonghong@hccl.ioa.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Acoustics, Chinese Academy of Sciences
+
+==========

@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#156
+FinalPaperTitle#=%=#KULeuven-LIIR at SemEval-2017 Task 12: Cross-Domain Temporal Information Extraction from Clinical Records
+ShortPaperTitle#=%=#LIIR at Clinical TempEval: Cross-Domain Temporal Information Extraction from Clinical Records
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Artuur Leeuwenberg
+JobTitle#==#PhD Researcher
+Organization#==#Department of Computer Science, KU Leuven, Celestijnenlaan 200A, 3001 Heverlee, Belgium
+Abstract#==#In this paper, we describe the system of the KULeuven-LIIR submission for
+Clinical TempEval 2017. We participated in all six subtasks, using a
+combination of Support Vector Machines (SVM) for event and temporal expression
+detection, and a structured perceptron for extracting temporal relations.
+Moreover, we present and analyze the results from our submissions, and verify
+the effectiveness of several system components. Our system performed above
+average for all subtasks in both phases.
+Author{1}{Firstname}#=%=#Artuur
+Author{1}{Lastname}#=%=#Leeuwenberg
+Author{1}{Email}#=%=#tuur.leeuwenberg@cs.kuleuven.be
+Author{1}{Affiliation}#=%=#KU Leuven
+Author{2}{Firstname}#=%=#Marie-Francine
+Author{2}{Lastname}#=%=#Moens
+Author{2}{Email}#=%=#sien.moens@cs.kuleuven.be
+Author{2}{Affiliation}#=%=#KU Leuven
+
+==========

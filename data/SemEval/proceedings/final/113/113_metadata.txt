@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#113
+FinalPaperTitle#=%=#Idiom Savant at Semeval-2017 Task 7: Detection and Interpretation of English Puns
+ShortPaperTitle#=%=#Idiom Savant at Semeval-2017 Task 7: Detection and Interpretation of English Puns
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#hanyang chen
+JobTitle#==#
+Organization#==#university college dublin, ireland
+Abstract#==#This paper describes our system, entitled
+Idiom Savant, for the 7th Task of the Se-
+meval 2017 workshop, “Detection and in-
+terpretation of English Puns”. Our sys-
+tem consists of two probabilistic models
+for each type of puns using Google n-
+gram and Word2Vec. Our system achieved
+f-score of calculating, 0.663, and 0.07
+in homographic puns and 0.8439, 0.6631,
+and 0.0806 in heterographic puns in task
+1, task 2, and task 3 respectively.
+Author{1}{Firstname}#=%=#Samuel
+Author{1}{Lastname}#=%=#Doogan
+Author{1}{Email}#=%=#samuel.doogan@ucdconnect.ie
+Author{1}{Affiliation}#=%=#University College Dublin
+Author{2}{Firstname}#=%=#Aniruddha
+Author{2}{Lastname}#=%=#Ghosh
+Author{2}{Email}#=%=#arghyaonline@gmail.com
+Author{2}{Affiliation}#=%=#University College Dublin
+Author{3}{Firstname}#=%=#Hanyang
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#hanyang.chen@ucdconnect.ie
+Author{3}{Affiliation}#=%=#University College Dublin
+Author{4}{Firstname}#=%=#Tony
+Author{4}{Lastname}#=%=#Veale
+Author{4}{Email}#=%=#tony.veale@gmail.com
+Author{4}{Affiliation}#=%=#University College Dublin
+
+==========

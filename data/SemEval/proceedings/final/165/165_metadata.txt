@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#165
+FinalPaperTitle#=%=#ECNU at SemEval-2017 Task 5: An Ensemble of Regression Algorithms with Effective Features for Fine-Grained Sentiment Analysis in Financial Domain
+ShortPaperTitle#=%=#ECNU at SemEval-2017 Task 5: An Ensemble of Regression Algorithms with Effective Features for Fine-Grained Sentiment Analysis in Financial Domain
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mengxiao Jiang
+JobTitle#==#
+Organization#==#EAST CHINA NORMAL UNIVERSITY
+North Zhongshan Road Campus: 3663 N. Zhongshan Rd., Shanghai, China.
+Abstract#==#This paper describes our systems submitted to the Fine-Grained Sentiment
+Analysis on Financial Microblogs and News task (i.e., Task 5) in SemEval-2017.
+This task includes two subtasks in microblogs and news headline domain
+respectively. To settle this problem, we extract four types of effective
+features, including linguistic features, sentiment lexicon features,
+domain-specific features and word embedding features. Then we employ these
+features to construct models by using ensemble regression algorithms. Our
+submissions rank 1st and rank 5th in subtask 1 and subtask 2 respectively.
+Author{1}{Firstname}#=%=#Mengxiao
+Author{1}{Lastname}#=%=#Jiang
+Author{1}{Email}#=%=#51151201080@stu.ecnu.edu.cn
+Author{1}{Affiliation}#=%=#East China Normal university
+Author{2}{Firstname}#=%=#Man
+Author{2}{Lastname}#=%=#Lan
+Author{2}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Yuanbin
+Author{3}{Lastname}#=%=#Wu
+Author{3}{Email}#=%=#ybwu@cs.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+
+==========

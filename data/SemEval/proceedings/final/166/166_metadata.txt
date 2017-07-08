@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#166
+FinalPaperTitle#=%=#ECNU at SemEval-2017 Task 4: Evaluating Effective Features on Machine Learning Methods for Twitter Message Polarity Classification
+ShortPaperTitle#=%=#ECNU at SemEval-2017 Task 4: Evaluating Effective Features on Machine Learning Methods for Twitter Message Polarity Classification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yunxiao Zhou
+JobTitle#==#
+Organization#==#East China Normal University
+3663 N. Zhongshan Rd., Shanghai
+Abstract#==#This paper reports our submission to subtask A of task 4 (Sentiment Analysis in
+Twitter, SAT) in SemEval 2017, i.e., Message Polarity Classification. We
+investigated several traditional Natural Language Processing (NLP) features,
+domain specific features and word embedding features together with supervised
+machine learning methods to address this task. Officially released results
+showed that our system ranked above average.
+Author{1}{Firstname}#=%=#Yunxiao
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Email}#=%=#51164500061@stu.ecnu.edu.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Man
+Author{2}{Lastname}#=%=#Lan
+Author{2}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Yuanbin
+Author{3}{Lastname}#=%=#Wu
+Author{3}{Email}#=%=#ybwu@cs.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+
+==========

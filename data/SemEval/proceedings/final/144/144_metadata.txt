@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#144
+FinalPaperTitle#=%=#RiTUAL-UH at SemEval-2017 Task 5: Sentiment Analysis on Financial Data Using Neural Networks
+ShortPaperTitle#=%=#RiTUAL-UH at SemEval-2017 Task 5: Sentiment Analysis on Financial Data Using Neural Networks
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sudipta Kar
+JobTitle#==#
+Organization#==#University of Houston
+4800 Calhoun Rd, Houston, TX 77004
+Abstract#==#In this paper, we present our systems for the “SemEval-2017 Task-5 on Fine-
+Grained Sentiment Analysis on Financial Microblogs and News”. In our system,
+we combined hand-engineered lexical, sentiment and metadata features, the
+representations learned from Convolutional Neural Networks (CNN) and
+Bidirectional Gated Recurrent Unit (Bi-GRU) with Attention model applied on
+top. With this architecture we obtained weighted cosine similarity scores of
+0.72 and 0.74 for subtask-1 and subtask-2, respectively. Using the official
+scoring system, our system ranked the second place for subtask-2 and eighth
+place for the subtask-1. It ranked first for both of the subtasks by the scores
+achieved by an alternate scoring system.
+Author{1}{Firstname}#=%=#Sudipta
+Author{1}{Lastname}#=%=#Kar
+Author{1}{Email}#=%=#skar3@uh.edu
+Author{1}{Affiliation}#=%=#University of Houston
+Author{2}{Firstname}#=%=#Suraj
+Author{2}{Lastname}#=%=#Maharjan
+Author{2}{Email}#=%=#smaharjan2@uh.edu
+Author{2}{Affiliation}#=%=#University of Houston
+Author{3}{Firstname}#=%=#Thamar
+Author{3}{Lastname}#=%=#Solorio
+Author{3}{Email}#=%=#thamar.solorio@gmail.com
+Author{3}{Affiliation}#=%=#UH
+
+==========

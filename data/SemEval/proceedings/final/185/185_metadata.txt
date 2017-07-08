@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#185
+FinalPaperTitle#=%=#SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
+ShortPaperTitle#=%=#SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
+NumberOfPages#=%=#17
+CopyrightSigned#=%=#Keith Cortis
+JobTitle#==#
+Organization#==#University of Passau
+Abstract#==#This paper discusses the "Fine-Grained Sentiment Analysis on Financial
+Microblogs and News" task as part of SemEval-2017, specifically under the
+"Detecting sentiment, humour, and truth" theme. This task contains two tracks,
+where the first one concerns Microblog messages and the second one covers News
+Statements and Headlines. The main goal behind both tracks was to predict the
+sentiment score for each of the mentioned companies/stocks. The sentiment
+scores for each text instance adopted floating point values in the range of -1
+(very negative/bearish) to 1 (very positive/bullish), with 0 designating
+neutral sentiment. This task attracted a total of 32 participants, with 25
+participating in Track 1 and 29 in Track 2.
+Author{1}{Firstname}#=%=#Keith
+Author{1}{Lastname}#=%=#Cortis
+Author{1}{Email}#=%=#keithcortis@gmail.com
+Author{1}{Affiliation}#=%=#University of Passau
+Author{2}{Firstname}#=%=#André
+Author{2}{Lastname}#=%=#Freitas
+Author{2}{Email}#=%=#andre.freitas@uni-passau.de
+Author{2}{Affiliation}#=%=#Universitaet Passau
+Author{3}{Firstname}#=%=#Tobias
+Author{3}{Lastname}#=%=#Daudert
+Author{3}{Email}#=%=#tobias.daudert@insight-centre.org
+Author{3}{Affiliation}#=%=#Insight Centre
+Author{4}{Firstname}#=%=#Manuela
+Author{4}{Lastname}#=%=#Huerlimann
+Author{4}{Email}#=%=#manuela.huerlimann@insight-centre.org
+Author{4}{Affiliation}#=%=#Insight Centre for Data Analytics
+Author{5}{Firstname}#=%=#Manel
+Author{5}{Lastname}#=%=#Zarrouk
+Author{5}{Email}#=%=#manel.zarouk@insight-centre.org
+Author{5}{Affiliation}#=%=#Insight Centre for Data Analytics
+Author{6}{Firstname}#=%=#Siegfried
+Author{6}{Lastname}#=%=#Handschuh
+Author{6}{Email}#=%=#Siegfried.Handschuh@uni-passau.de
+Author{6}{Affiliation}#=%=#University of Passau
+Author{7}{Firstname}#=%=#Brian
+Author{7}{Lastname}#=%=#Davis
+Author{7}{Email}#=%=#brian.davis@insight-centre.org
+Author{7}{Affiliation}#=%=#Insight Centre for Data Analytics
+
+==========

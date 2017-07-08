@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#152
+FinalPaperTitle#=%=#HumorHawk at SemEval-2017 Task 6: Mixing Meaning and Sound for Humor Recognition
+ShortPaperTitle#=%=#HumorHawk at SemEval-2017 Task 6: Mixing Meaning and Sound for Humor Recognition
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#David Donahue
+JobTitle#==#
+Organization#==#UMass Lowell Text Machine Lab, Olsen Hall
+Abstract#==#This paper describes the winning system for SemEval-2017 Task 6: #HashtagWars:
+Learning a Sense of Humor. Humor detection has up until now been predominantly
+addressed using feature-based approaches. Our system utilizes recurrent deep
+learning methods with dense embeddings to predict humorous tweets from the
+@midnight show #HashtagWars. In order to include both meaning and sound in the
+analysis, GloVe embeddings are combined with a novel phonetic representation to
+serve as input to an LSTM component. The output is combined with a
+character-based CNN model, and an XGBoost component in an ensemble model which
+achieves 0.675 accuracy on the evaluation data.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Donahue
+Author{1}{Email}#=%=#david_donahue@student.uml.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts Lowell
+Author{2}{Firstname}#=%=#Alexey
+Author{2}{Lastname}#=%=#Romanov
+Author{2}{Email}#=%=#jgc128@outlook.com
+Author{2}{Affiliation}#=%=#UMass Lowell
+Author{3}{Firstname}#=%=#Anna
+Author{3}{Lastname}#=%=#Rumshisky
+Author{3}{Email}#=%=#arum@cs.uml.edu
+Author{3}{Affiliation}#=%=#University of Massachusetts Lowell
+
+==========

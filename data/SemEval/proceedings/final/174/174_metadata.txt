@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#174
+FinalPaperTitle#=%=#LIPN-IIMAS at SemEval-2017 Task 1: Subword Embeddings, Attention Recurrent Neural Networks and Cross Word Alignment for Semantic Textual Similarity
+ShortPaperTitle#=%=#Subword embeddings, Attention Neural Models and Word Alignment for Semantic Textual Similarity
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ignacio Arroyo Fernández
+JobTitle#==#
+Organization#==#Universidad Nacional Autónoma de México, Av. Universidad # 3000, Coyoacán, Ciudad de México, México.
+Abstract#==#In this paper we report our attempt to use, on the one hand, state-of-the-art
+neural approaches that are proposed to measure Semantic Textual Similarity
+(STS). On the other hand, we propose an unsupervised cross-word alignment
+approach, which is linguistically motivated. The neural approaches proposed
+herein are divided into two main stages. The first stage deals with
+constructing neural word embeddings, the components of sentence embeddings. The
+second stage deals with constructing a semantic similarity function relating
+pairs of sentence embeddings. Unfortunately our competition results were poor
+in all tracks, therefore we concentrated our research to improve them for Track
+5 (EN-EN).
+Author{1}{Firstname}#=%=#Ignacio
+Author{1}{Lastname}#=%=#Arroyo-Fernández
+Author{1}{Email}#=%=#iarroyof@iingen.unam.mx
+Author{1}{Affiliation}#=%=#Universidad Nacional Autónoma de México
+Author{2}{Firstname}#=%=#Ivan Vladimir
+Author{2}{Lastname}#=%=#Meza Ruiz
+Author{2}{Email}#=%=#ivanvladimir@gmail.com
+Author{2}{Affiliation}#=%=#Insituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS-UNAM)
+
+==========

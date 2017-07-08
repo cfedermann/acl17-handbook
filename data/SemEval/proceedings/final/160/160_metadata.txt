@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#160
+FinalPaperTitle#=%=##WarTeam at SemEval-2017 Task 6: Using Neural Networks for Discovering Humorous Tweets
+ShortPaperTitle#=%=##WarTeam at SemEval-2017 Task 6: Neural Networks for Humorous Tweets
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Diana Trandabat
+JobTitle#==#
+Organization#==#University Al. I. Cuza of Iasi, Romania
+Abstract#==#This paper presents the participation of #WarTeam in Task 6 of SemEval2017 with
+a system classifying humor by comparing and ranking tweets. The training data
+consists of annotated tweets from the @midnight TV show. #WarTeam’s system
+uses a neural network (TensorFlow) having inputs from a Naïve Bayes humor
+classifier and a sentiment analyzer.
+Author{1}{Firstname}#=%=#Iuliana Alexandra
+Author{1}{Lastname}#=%=#Fleșcan-Lovin-Arseni
+Author{1}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{1}{Affiliation}#=%=#UAIC
+Author{2}{Firstname}#=%=#Ramona Andreea
+Author{2}{Lastname}#=%=#Turcu
+Author{2}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{2}{Affiliation}#=%=#UAIC
+Author{3}{Firstname}#=%=#Cristina
+Author{3}{Lastname}#=%=#Sirbu
+Author{3}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{3}{Affiliation}#=%=#UAIC
+Author{4}{Firstname}#=%=#Larisa
+Author{4}{Lastname}#=%=#Alexa
+Author{4}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{4}{Affiliation}#=%=#UAIC
+Author{5}{Firstname}#=%=#Sandra Maria
+Author{5}{Lastname}#=%=#Amarandei
+Author{5}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{5}{Affiliation}#=%=#UAIC
+Author{6}{Firstname}#=%=#Nichita
+Author{6}{Lastname}#=%=#Herciu
+Author{6}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{6}{Affiliation}#=%=#UAIC
+Author{7}{Firstname}#=%=#Constantin
+Author{7}{Lastname}#=%=#Scutaru
+Author{7}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{7}{Affiliation}#=%=#UAIC
+Author{8}{Firstname}#=%=#Diana
+Author{8}{Lastname}#=%=#Trandabat
+Author{8}{Email}#=%=#dtrandabat@info.uaic.ro
+Author{8}{Affiliation}#=%=#University Alexandru Ioan Cuza of Iasi, Romania
+Author{9}{Firstname}#=%=#Adrian
+Author{9}{Lastname}#=%=#Iftene
+Author{9}{Email}#=%=#adiftene@info.uaic.ro
+Author{9}{Affiliation}#=%=#UAIC
+
+==========

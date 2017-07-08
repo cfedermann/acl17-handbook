@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#63
+FinalPaperTitle#=%=#LIM-LIG at SemEval-2017 Task1: Enhancing the Semantic Similarity for Arabic Sentences with Vectors Weighting
+ShortPaperTitle#=%=#LIM-LIG at SemEval-2017 Task1: Enhancing the Semantic Similarity for Arabic Sentences with Vectors Weighting
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#NAGOUDI
+JobTitle#==#
+Organization#==#LIM Laboratoire d’Informatique et de Mathmatiques Laghouat, Algeria and LIG Lab-
+oratoire d’Informatique de Grenoble (GETALP Team), France.
+Abstract#==#This article describes our proposed system  named LIM-LIG. This system is
+designed for SemEval 2017 Task1: Semantic  Textual  Similarity (Track1).
+LIM-LIG  proposes  an  innovative  enhancement to word embedding-based model 
+devoted  to    measure                                            the  semantic 
+similarity
+
+     in 
+
+Arabic 
+sentences.
+The  main  idea  is  to  exploit    the  word representations  as  vectors  in 
+a  multidimensional  space    to    capture  the  semantic  and  syntactic 
+properties  of                                              words.                       
+IDF 
+weighting   
+
+and 
+Part-of-Speech                                tagging            
+    are 
+applied  on  the  examined  sentences  to  support    the  identification  of 
+words  that  are  highly  descriptive  in  each  sentence.  LIM-LIG system
+achieves a Pearson\'s correlation of 0.74633, ranking 2nd among all
+participants in the   Arabic monolingual pairs                                       
+   
+STS
+task
+organized
+within
+the
+SemEval 2017 evaluation campaign
+Author{1}{Firstname}#=%=#El Moatez Billah
+Author{1}{Lastname}#=%=#NAGOUDI
+Author{1}{Email}#=%=#e_nagoudi@esi.dz
+Author{1}{Affiliation}#=%=#Amar Telidji University of Laghouat
+Author{2}{Firstname}#=%=#Jérémy
+Author{2}{Lastname}#=%=#Ferrero
+Author{2}{Email}#=%=#ferrero.jerem@gmail.com
+Author{2}{Affiliation}#=%=#Université Grenoble Alpes
+Author{3}{Firstname}#=%=#Didier
+Author{3}{Lastname}#=%=#Schwab
+Author{3}{Email}#=%=#didier.schwab@imag.fr
+Author{3}{Affiliation}#=%=#Univ. Grenoble Alpes
+
+==========

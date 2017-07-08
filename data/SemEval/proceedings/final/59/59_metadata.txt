@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#59
+FinalPaperTitle#=%=#HCTI at SemEval-2017 Task 1: Use convolutional neural network to evaluate Semantic Textual Similarity
+ShortPaperTitle#=%=#HCTI at SemEval-2017 Task 1: Use CNN to evaluate STS
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Yang SHAO
+JobTitle#==#
+Organization#==#Hitachi, Ltd. in Higashi koigakubo 1-280, Kokubunji-shi, Tokyo, Japan
+Abstract#==#This paper describes our convolutional neural network (CNN) system for Semantic
+Textual Similarity (STS) task. We calculated semantic similarity score between
+two sentences by comparing their semantic vectors. We generated semantic vector
+of every sentence by max pooling every dimension of their word vectors. There
+are mainly two trick points in our system. One is that we trained a CNN to
+transfer GloVe word vectors to a more proper form for STS task before pooling.
+Another is that we trained a fully-connected neural network (FCNN) to transfer
+difference of two semantic vectors to probability of every similarity score. We
+decided all hyper parameters empirically. In spite of the simplicity of our
+neural network system, we achieved a good accuracy and ranked 3rd in primary
+track of SemEval 2017.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Shao
+Author{1}{Email}#=%=#yang.shao.kn@hitachi.com
+Author{1}{Affiliation}#=%=#Hitachi Ltd.,
+
+==========

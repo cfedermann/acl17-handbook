@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#58
+FinalPaperTitle#=%=#FCICU at SemEval-2017 Task 1: Sense-Based Language Independent Semantic Textual Similarity Approach
+ShortPaperTitle#=%=#FCICU at SemEval-2017 Task 1: Sense-Based Language Independent Semantic Textual Similarity Approach
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Basma Hassan
+JobTitle#==#
+Organization#==#Fayoum University, Fayoum - Egypt
+Abstract#==#This paper describes FCICU team systems that participated in SemEval-2017
+Semantic Textual Similarity task (Task1) for monolingual and cross-lingual
+sentence pairs. A sense-based language independent textual similarity approach
+is presented, in which a proposed alignment similarity method coupled with new
+usage of a semantic network (BabelNet) is used. Additionally, a previously
+proposed integration between sense-based and sur-face-based semantic textual
+similarity approach is applied together with our proposed approach. For all the
+tracks in Task1, Run1 is a string kernel with alignments metric and Run2 is a
+sense-based alignment similarity method. The first run is ranked 10th, and the
+second is ranked 12th in the primary track, with correlation 0.619 and 0.617
+respectively
+Author{1}{Firstname}#=%=#Basma
+Author{1}{Lastname}#=%=#Hassan
+Author{1}{Email}#=%=#bhassan@fayoum.edu.eg
+Author{1}{Affiliation}#=%=#Fayoum University
+Author{2}{Firstname}#=%=#Samir
+Author{2}{Lastname}#=%=#AbdelRahman
+Author{2}{Email}#=%=#s.abdelrahman@fci-cu.edu.eg
+Author{2}{Affiliation}#=%=#Cairo University
+Author{3}{Firstname}#=%=#Reem
+Author{3}{Lastname}#=%=#Bahgat
+Author{3}{Email}#=%=#r.bahgat@fci-cu.edu.eg
+Author{3}{Affiliation}#=%=#Cairo University
+Author{4}{Firstname}#=%=#Ibrahim
+Author{4}{Lastname}#=%=#Farag
+Author{4}{Email}#=%=#i.farag@fci-cu.edu.eg
+Author{4}{Affiliation}#=%=#Cairo University
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#90
+FinalPaperTitle#=%=#Adullam at SemEval-2017 Task 4: Sentiment Analyzer Using Lexicon Integrated Convolutional Neural Networks with Attention
+ShortPaperTitle#=%=#Adullam at SemEval-2017 Task 4: Sentiment Analyzer Using Lexicon Integrated Convolutional Neural Networks with Attention
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Joosung Yoon
+JobTitle#==#
+Organization#==#Korea University, 145 Anam-ro, Seongbuk-gu, Seoul, South Korea
+Abstract#==#We propose a sentiment analyzer for the prediction of document-level sentiments
+of English micro-blog messages from Twitter. The proposed method is based on
+lexicon integrated convolutional neural networks with attention (LCA). Its
+performance was evaluated using the datasets provided by SemEval competition
+(Task 4). The proposed sentiment analyzer obtained an average F1 of 55.2%, an
+average recall of 58.9% and an accuracy of 61.4%.
+Author{1}{Firstname}#=%=#Joosung
+Author{1}{Lastname}#=%=#Yoon
+Author{1}{Email}#=%=#xelloss705@naver.com
+Author{1}{Affiliation}#=%=#KoreaUniversity
+Author{2}{Firstname}#=%=#Kigon
+Author{2}{Lastname}#=%=#Lyu
+Author{2}{Email}#=%=#gon0121@korea.ac.kr
+Author{2}{Affiliation}#=%=#Korea University
+Author{3}{Firstname}#=%=#Hyeoncheol
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#hkim64@gmail.com
+Author{3}{Affiliation}#=%=#Korea University
+
+==========

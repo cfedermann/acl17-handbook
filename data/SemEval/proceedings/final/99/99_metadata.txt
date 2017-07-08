@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#99
+FinalPaperTitle#=%=#MayoNLP at SemEval 2017 Task 10: Word Embedding Distance Pattern for Keyphrase Classification in Scientific Publications
+ShortPaperTitle#=%=#MayoNLP at SemEval 2017 Task 10: Word Embedding Distance Pattern for Keyphrase Classification in Scientific Publications
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sijia Liu
+JobTitle#==#
+Organization#==#Mayo Clinic, 200 1st St SW, Rochester, MN, USA
+Abstract#==#In this paper, we present MayoNLP's results from the participation in the
+ScienceIE share task at SemEval 2017. We focused on the keyphrase
+classification task (Subtask B). We explored 
+semantic similarities and patterns of keyphrases in scientific publications
+using pre-trained word embedding models. Word Embedding Distance Pattern, which
+uses the head noun word embedding to generate distance patterns based on
+labeled keyphrases, is proposed as an incremental feature set to enhance the
+conventional Named Entity Recognition feature sets.  Support vector machine is
+used as the supervised classifier for keyphrase classification.
+Our system achieved an overall F1 score of 0.67 for keyphrase classification
+and 0.64 for keyphrase classification and relation detection.
+Author{1}{Firstname}#=%=#Sijia
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#liusijia724@gmail.com
+Author{1}{Affiliation}#=%=#University at Buffalo, SUNY
+Author{2}{Firstname}#=%=#Feichen
+Author{2}{Lastname}#=%=#Shen
+Author{2}{Email}#=%=#shen.feichen@mayo.edu
+Author{2}{Affiliation}#=%=#Mayo Clinic
+Author{3}{Firstname}#=%=#Vipin
+Author{3}{Lastname}#=%=#Chaudhary
+Author{3}{Email}#=%=#vipin@buffalo.edu
+Author{3}{Affiliation}#=%=#University at Buffalo, SUNY
+Author{4}{Firstname}#=%=#Hongfang
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#liu.hongfang@mayo.edu
+Author{4}{Affiliation}#=%=#Mayo Clinic
+
+==========

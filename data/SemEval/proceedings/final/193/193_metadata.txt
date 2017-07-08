@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#193
+FinalPaperTitle#=%=#SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation
+ShortPaperTitle#=%=#SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#DANIEL CER
+JobTitle#==#
+Organization#==#Google
+1600 Amphitheatre parkway
+Mountain View, CA 94041
+Abstract#==#Semantic Textual Similarity (STS) measures the meaning similarity of sentences.
+Applications include machine translation (MT), summarization, generation,
+question answering (QA), short answer grading, semantic search, dialog and
+conversational systems. The STS shared task is a venue for assessing the
+current state-of-the-art. The 2017 task focuses on multilingual and
+cross-lingual pairs with one sub-track exploring MT quality estimation (MTQE)
+data. The task obtained strong participation from 31 teams, with 17
+participating in \emph{all  language tracks}. We summarize performance and
+review a selection of well performing methods. Analysis highlights common
+errors, providing insight into the limitations of existing models. To support
+ongoing work on semantic representations, the {\em STS Benchmark} is introduced
+as a new shared training and evaluation set carefully selected from the corpus
+of English STS shared task data (2012-2017).
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Cer
+Author{1}{Email}#=%=#danielcer@acm.org
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Mona
+Author{2}{Lastname}#=%=#Diab
+Author{2}{Email}#=%=#mtdiab@gwu.edu
+Author{2}{Affiliation}#=%=#GWU
+Author{3}{Firstname}#=%=#Eneko
+Author{3}{Lastname}#=%=#Agirre
+Author{3}{Email}#=%=#e.agirre@ehu.eus
+Author{3}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{4}{Firstname}#=%=#Inigo
+Author{4}{Lastname}#=%=#Lopez-Gazpio
+Author{4}{Email}#=%=#inigo.lopez@ehu.eus
+Author{4}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{5}{Firstname}#=%=#Lucia
+Author{5}{Lastname}#=%=#Specia
+Author{5}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{5}{Affiliation}#=%=#University of Sheffield
+
+==========

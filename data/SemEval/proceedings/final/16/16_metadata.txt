@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Beihang-MSRA at SemEval-2017 Task 3: A Ranking System with Neural Matching Features for Community Question Answering
+ShortPaperTitle#=%=#Beihang-MSRA at SemEval-2017 Task 3: A Ranking System with Neural Matching Features for Community Question Answering
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yu Wu
+JobTitle#==#
+Organization#==#Beihang Univerisity, Beijing, China
+Microsoft Research Asia, Beijing, China
+Abstract#==#This paper presents the system in SemEval-2017 Task 3, Community Question
+Answering (CQA). We develop a ranking system that is capable of capturing
+semantic relations between text pairs with little word overlap.  In addition to
+traditional NLP features, we introduce several neural network based matching
+features which enable our system to measure text similarity beyond lexicons.
+Our system significantly outperforms baseline methods and holds the second
+place in Subtask A and the fifth place in Subtask B, which demonstrates its
+efficacy on answer selection and question retrieval.
+Author{1}{Firstname}#=%=#Wenzheng
+Author{1}{Lastname}#=%=#Feng
+Author{1}{Email}#=%=#wenzhengfeng@buaa.edu.cn
+Author{1}{Affiliation}#=%=#Beihang
+Author{2}{Firstname}#=%=#Yu
+Author{2}{Lastname}#=%=#Wu
+Author{2}{Email}#=%=#wumark@126.com
+Author{2}{Affiliation}#=%=#Beihang
+Author{3}{Firstname}#=%=#Wei
+Author{3}{Lastname}#=%=#Wu
+Author{3}{Email}#=%=#wuwei@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft
+Author{4}{Firstname}#=%=#Zhoujun
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#lizj@buaa.edu.cn
+Author{4}{Affiliation}#=%=#Beihang
+Author{5}{Firstname}#=%=#Ming
+Author{5}{Lastname}#=%=#Zhou
+Author{5}{Email}#=%=#mingzhou@microsoft.com
+Author{5}{Affiliation}#=%=#Microsoft
+
+==========

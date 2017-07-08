@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#N-Hance at SemEval-2017 Task 7: A Computational Approach using Word Association for Puns
+ShortPaperTitle#=%=#N-Hance at SemEval-2017 Task 7: A Computational Approach using Word Association for Puns
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Selma Tekir
+JobTitle#==#
+Organization#==#Izmir Institute of Technology, Dept. of Computer Engineering 35430 Urla, Izmir TURKEY
+Abstract#==#This paper presents a system developed for SemEval-2017 Task 7, Detection and
+Interpretation of English Puns consisting of three subtasks; pun detection, pun
+location, and pun interpretation, respectively. The system stands on
+recognizing a distinctive word which has a high association with the pun in the
+given sentence. The intended humorous meaning of pun is identified through the
+use of this word. Our official results confirm the potential of this approach.
+Author{1}{Firstname}#=%=#Özge
+Author{1}{Lastname}#=%=#Sevgili
+Author{1}{Email}#=%=#ozgeesevgili@gmail.com
+Author{1}{Affiliation}#=%=#İzmir Institute of Technology
+Author{2}{Firstname}#=%=#Nima
+Author{2}{Lastname}#=%=#Ghotbi
+Author{2}{Email}#=%=#ghotbi.nima@gmail.com
+Author{2}{Affiliation}#=%=#İzmir Institute of Technology
+Author{3}{Firstname}#=%=#Selma
+Author{3}{Lastname}#=%=#Tekir
+Author{3}{Email}#=%=#selmatekir@iyte.edu.tr
+Author{3}{Affiliation}#=%=#Izmir Institute of Technology
+
+==========

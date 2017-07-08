@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#180
+FinalPaperTitle#=%=#EUDAMU at SemEval-2017 Task 11: Action Ranking and Type Matching for End-User Development
+ShortPaperTitle#=%=#EUDAMU at SemEval-2017 Task 11: Action Ranking and Type Matching for End-User Development
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marek Kubis
+JobTitle#==#
+Organization#==#Faculty of Mathematics and Computer Science
+Adam Mickiewicz University
+ul. Umultowska 87
+61-614 Poznań, Poland
+Abstract#==#The paper describes a system for end-user development using natural language.
+Our approach uses a ranking model to identify the actions to be executed
+followed by reference and parameter matching models to select parameter values
+that should be set for the given commands. We discuss the results of evaluation
+and possible improvements for future work.
+Author{1}{Firstname}#=%=#Marek
+Author{1}{Lastname}#=%=#Kubis
+Author{1}{Email}#=%=#mkubis@amu.edu.pl
+Author{1}{Affiliation}#=%=#Adam Mickiewicz University
+Author{2}{Firstname}#=%=#Paweł
+Author{2}{Lastname}#=%=#Skórzewski
+Author{2}{Email}#=%=#pawel.skorzewski@amu.edu.pl
+Author{2}{Affiliation}#=%=#Adam Mickiewicz University
+Author{3}{Firstname}#=%=#Tomasz
+Author{3}{Lastname}#=%=#Ziętkiewicz
+Author{3}{Email}#=%=#tomasz.zietkiewicz@amu.edu.pl
+Author{3}{Affiliation}#=%=#Adam Mickiewicz University
+
+==========

@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#175
+FinalPaperTitle#=%=#IITPB at SemEval-2017 Task 5: Sentiment Prediction in Financial Text
+ShortPaperTitle#=%=#Sentiment Prediction in Financial Text
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#SA
+JobTitle#==#
+Organization#==#Indian Institute of Technology Patna, Bihta, Patna, India
+Abstract#==#This paper reports team IITPB's participation in the SemEval 2017 Task 5 on
+`Fine-grained sentiment analysis on financial microblogs and news'. We
+developed 2 systems for the two tracks. One system was based on an ensemble of
+Support Vector Classifier and Logistic Regression. This system relied on
+Distributional Thesaurus (DT), word embeddings and lexicon features to predict
+a floating sentiment value between -1 and +1. The other system was based on
+Support Vector Regression using word embeddings, lexicon features, and PMI
+scores as features. The system was ranked 5th in track 1 and 8th in track 2.
+Author{1}{Firstname}#=%=#Abhishek
+Author{1}{Lastname}#=%=#Kumar
+Author{1}{Email}#=%=#iyamabhishek09@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{2}{Firstname}#=%=#Abhishek
+Author{2}{Lastname}#=%=#Sethi
+Author{2}{Email}#=%=#abhisethi@cse.iitb.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Bombay
+Author{3}{Firstname}#=%=#Md Shad
+Author{3}{Lastname}#=%=#Akhtar
+Author{3}{Email}#=%=#shad.akhtar@gmail.com
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{4}{Firstname}#=%=#Asif
+Author{4}{Lastname}#=%=#Ekbal
+Author{4}{Email}#=%=#asif.ekbal@gmail.com
+Author{4}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{5}{Firstname}#=%=#Chris
+Author{5}{Lastname}#=%=#Biemann
+Author{5}{Email}#=%=#biemann@informatik.uni-hamburg.de
+Author{5}{Affiliation}#=%=#University of Hamburg
+Author{6}{Firstname}#=%=#Pushpak
+Author{6}{Lastname}#=%=#Bhattacharyya
+Author{6}{Email}#=%=#pushpakbh@gmail.com
+Author{6}{Affiliation}#=%=#Indian Institute of Technology Patna
+
+==========

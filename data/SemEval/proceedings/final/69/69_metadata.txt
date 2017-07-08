@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#69
+FinalPaperTitle#=%=#INF-UFRGS at SemEval-2017 Task 5: A Supervised Identification of Sentiment Score in Tweets and Headlines
+ShortPaperTitle#=%=#INF-UFRGS at SemEval-2017 Task 5: A Supervised Identification of Sentiment Score in Tweets and Headlines
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Tiago Zini
+JobTitle#==#
+Organization#==#Instituto de Informática da Universidade Federal do Rio Grande do Sul, Avenida Bento Gonçalves, 9500, Porto Alegre, RS, Brazil
+Abstract#==#This paper describes a supervised solution for detecting the polarity scores of
+tweets or headline news in the financial domain, submitted to the SemEval 2017
+Fine-Grained Sentiment Analysis on Financial Microblogs and News Task. The
+premise is that it is possible to understand market reaction over a company
+stock by measuring the positive/negative sentiment contained in the financial
+tweets and news headlines, where polarity is measured in a continuous scale
+ranging from -1.0 (very bearish) to 1.0 (very bullish). Our system receives as
+input the textual content of tweets or news headlines, together with their ids,
+stock cashtag or name of target company, and the polarity score gold standard
+for the training dataset. Our solution retrieves features from these text
+instances using n-gram, hashtags, sentiment score calculated by a external APIs
+and others features to train a regression model capable to detect continuous
+score of these sentiments with precision.
+Author{1}{Firstname}#=%=#Tiago
+Author{1}{Lastname}#=%=#Zini
+Author{1}{Email}#=%=#tiago.zini@inf.ufrgs.br
+Author{1}{Affiliation}#=%=#UFRGS
+Author{2}{Firstname}#=%=#Karin
+Author{2}{Lastname}#=%=#Becker
+Author{2}{Email}#=%=#karin.becker@inf.ufrgs.br
+Author{2}{Affiliation}#=%=#UFRGS
+Author{3}{Firstname}#=%=#Marcelo
+Author{3}{Lastname}#=%=#Dias
+Author{3}{Email}#=%=#marcelo.dias@inf.ufrgs.br
+Author{3}{Affiliation}#=%=#UFRGS
+
+==========

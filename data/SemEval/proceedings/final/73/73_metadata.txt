@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#73
+FinalPaperTitle#=%=#QLUT at SemEval-2017 Task 1: Semantic Textual Similarity Based on Word Embeddings
+ShortPaperTitle#=%=#QLUT at SemEval-2017 Task 1: Semantic Textual Similarity Based on Word Embeddings
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Wenpeng Lu
+JobTitle#==#
+Organization#==#QiLu University of Technology
+Daxue Rd 3501, Changqing District, Jinan City, Shandong Province, China
+Abstract#==#This paper reports the details of our submissions in the task 1 of SemEval
+2017. This task aims at assessing the semantic textual similarity of two
+sentences or texts. We submit three unsupervised systems based on word
+embeddings. The differences between these runs are the various preprocessing on
+evaluation data. The best performance of these systems on the evaluation of
+Pearson correlation is 0.6887. Unsurprisingly, results of our runs demonstrate
+that data preprocessing, such as tokenization, lemmatization, extraction of
+content words and removing stop words, is helpful and plays a significant role
+in improving the performance of models.
+Author{1}{Firstname}#=%=#Fanqing
+Author{1}{Lastname}#=%=#Meng
+Author{1}{Email}#=%=#mengfanqing678@163.com
+Author{1}{Affiliation}#=%=#QiLu University of Technology
+Author{2}{Firstname}#=%=#Wenpeng
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#lwp@qlu.edu.cn
+Author{2}{Affiliation}#=%=#QiLu University of Technology
+Author{3}{Firstname}#=%=#Yuteng
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#zhangyuteng1029@163.com
+Author{3}{Affiliation}#=%=#QiLu University of Technology
+Author{4}{Firstname}#=%=#Jinyong
+Author{4}{Lastname}#=%=#Cheng
+Author{4}{Email}#=%=#cjy@qlu.edu.cn
+Author{4}{Affiliation}#=%=#QiLu University of Technology
+Author{5}{Firstname}#=%=#Yuehan
+Author{5}{Lastname}#=%=#Du
+Author{5}{Email}#=%=#amaris_du@163.com
+Author{5}{Affiliation}#=%=#QiLu University of Technology
+Author{6}{Firstname}#=%=#Shuwang
+Author{6}{Lastname}#=%=#Han
+Author{6}{Email}#=%=#hanshuwang0909@163.com
+Author{6}{Affiliation}#=%=#QiLu University of Technology
+
+==========

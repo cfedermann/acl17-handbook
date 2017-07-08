@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#89
+FinalPaperTitle#=%=#Neobility at SemEval-2017 Task 1: An Attention-based Sentence Similarity Model
+ShortPaperTitle#=%=#Neobility at SemEval-2017 Task 1: An Attention-based Sentence Similarity Model
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#WenLiZhuang
+JobTitle#==#Substitute Services Draftees
+Organization#==#No.261, Fanhua Rd., Xiushui Township, Changhua County 504, Taiwan (R.O.C.)
+Abstract#==#This paper describes a neural-network model which performed competitively (top
+6) at the SemEval 2017 cross-lingual Semantic Textual Similarity (STS) task.
+Our system employs an attention-based recurrent neural network model that
+optimizes the sentence similarity. In this paper, we describe our participation
+in the multilingual STS task which measures similarity across English, Spanish,
+and Arabic.
+Author{1}{Firstname}#=%=#WenLi
+Author{1}{Lastname}#=%=#Zhuang
+Author{1}{Email}#=%=#bibo9901@gmail.com
+Author{1}{Affiliation}#=%=#ShanSi Elementary School
+Author{2}{Firstname}#=%=#Ernie
+Author{2}{Lastname}#=%=#Chang
+Author{2}{Email}#=%=#cyc025@uw.edu
+Author{2}{Affiliation}#=%=#University of Washington
+
+==========

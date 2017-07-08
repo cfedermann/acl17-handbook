@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#141
+FinalPaperTitle#=%=#Mama Edha at SemEval-2017 Task 8: Stance Classification with CNN and Rules
+ShortPaperTitle#=%=#Stance Classification with CNN and Rules
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marianela García Lozano
+JobTitle#==#Senior scientist
+Organization#==#FOI 
+Swedish Defence Research Agency
+164 90 Stockholm
+Abstract#==#For the competition SemEval-2017 we investigated the possibility of performing
+stance classification (support, deny, query or comment) for messages in Twitter
+conversation threads related to rumours. Stance classification is interesting
+since it can provide a basis for rumour veracity assessment. Our ensemble
+classification approach of combining convolutional neural networks with both
+automatic rule mining and manually written rules achieved a final accuracy of
+74.9% on the competition’s test data set for Task 8A. To improve
+classification we also experimented with data relabeling and using the
+grammatical structure of the tweet contents for classification.
+Author{1}{Firstname}#=%=#Marianela
+Author{1}{Lastname}#=%=#García Lozano
+Author{1}{Email}#=%=#marianela4711@gmail.com
+Author{1}{Affiliation}#=%=#KTH, FOI
+Author{2}{Firstname}#=%=#Hanna
+Author{2}{Lastname}#=%=#Lilja
+Author{2}{Email}#=%=#hanna.lilja@foi.se
+Author{2}{Affiliation}#=%=#FOI
+Author{3}{Firstname}#=%=#Edward
+Author{3}{Lastname}#=%=#Tjörnhammar
+Author{3}{Email}#=%=#edwardt@kth.se
+Author{3}{Affiliation}#=%=#KTH
+Author{4}{Firstname}#=%=#Maja
+Author{4}{Lastname}#=%=#Karasalo
+Author{4}{Email}#=%=#maja.karasalo@foi.se
+Author{4}{Affiliation}#=%=#FOI
+
+==========

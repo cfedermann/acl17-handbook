@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#QUB at SemEval-2017 Task 6: Cascaded Imbalanced Classification for Humor Analysis in Twitter
+ShortPaperTitle#=%=#QUB Humor
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Xiwu Han
+JobTitle#==#
+Organization#==#Queen's University Belfast, Belfast, Northern Ireland, BT7 1NN
+Abstract#==#This paper presents our submission to SemEval-2017 Task 6: #HashtagWars:
+Learning a Sense of Humor. There are two subtasks: A. Pairwise Comparison, and
+B. Semi-Ranking. Our assumption is that the distribution of humorous and
+non-humorous texts in real life language is naturally imbalanced. Using Naïve
+Bayes Multinomial with standard text-representation features, we approached
+Subtask B as a sequence of imbalanced classification problems, and optimized
+our system per the macro-average recall. Subtask A was then solved via the
+Semi-Ranking results. On the final test, our system was ranked 10th for Subtask
+A, and 3rd for Subtask B.
+Author{1}{Firstname}#=%=#Xiwu
+Author{1}{Lastname}#=%=#Han
+Author{1}{Email}#=%=#x.han@qub.ac.uk
+Author{1}{Affiliation}#=%=#Queen's University Belfast
+Author{2}{Firstname}#=%=#Gregory
+Author{2}{Lastname}#=%=#Toner
+Author{2}{Email}#=%=#g.toner@qub.ac.uk
+Author{2}{Affiliation}#=%=#Queen's University Belfast
+
+==========

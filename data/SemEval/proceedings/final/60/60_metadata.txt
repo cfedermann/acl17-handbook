@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#NTNU-1@ScienceIE at SemEval-2017 Task 10: Identifying and Labelling Keyphrases with Conditional Random Fields
+ShortPaperTitle#=%=#NTNU-1@ScienceIE at SemEval-2017 Task 10: Identifying and Labelling Keyphrases with Conditional Random Fields
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Erwin marsi
+JobTitle#==#
+Organization#==#NTNU
+Department of Computer Science
+Sem Sælandsvei 9
+NO-7491 Trondheim
+NORWAY
+Abstract#==#We present NTNU's systems for Task A (prediction of keyphrases) and Task B
+(labelling as Material, Process or Task) at SemEval 2017 Task 10: Extracting
+Keyphrases and Relations from Scientific Publications
+\cite{augenstein2017scienceie}. Our approach relies on supervised machine
+learning using Conditional Random Fields. Our system yields a micro F-score of
+0.34 for Tasks A and B combined on the test data. For Task C (relation
+extraction), we relied on an independently developed system described in
+\cite{Barik:2017}. For the full Scenario 1 (including relations), our approach
+reaches a micro F-score of 0.33 (5th place). Here we describe our systems,
+report results and discuss errors.
+Author{1}{Firstname}#=%=#Erwin
+Author{1}{Lastname}#=%=#Marsi
+Author{1}{Email}#=%=#emarsi@idi.ntnu.no
+Author{1}{Affiliation}#=%=#Norwegian University of Science and Technology (NTNU)
+Author{2}{Firstname}#=%=#Utpal Kumar
+Author{2}{Lastname}#=%=#Sikdar
+Author{2}{Email}#=%=#sikdar.utpal@idi.ntnu.no
+Author{2}{Affiliation}#=%=#Norwegian University of Science and Technology (NTNU)
+Author{3}{Firstname}#=%=#Cristina
+Author{3}{Lastname}#=%=#Marco
+Author{3}{Email}#=%=#cristina.marco@ntnu.no
+Author{3}{Affiliation}#=%=#Norwegian University of Science and Technology (NTNU)
+Author{4}{Firstname}#=%=#Biswanath
+Author{4}{Lastname}#=%=#Barik
+Author{4}{Email}#=%=#bn.barik@gmail.com
+Author{4}{Affiliation}#=%=#Norwegian University of Science and Technology (NTNU)
+Author{5}{Firstname}#=%=#Rune
+Author{5}{Lastname}#=%=#Sætre
+Author{5}{Email}#=%=#satre@ntnu.no
+Author{5}{Affiliation}#=%=#NTNU
+
+==========

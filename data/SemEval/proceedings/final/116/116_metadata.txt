@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#116
+FinalPaperTitle#=%=#SentiHeros at SemEval-2017 Task 5: An application of Sentiment Analysis on Financial Tweets
+ShortPaperTitle#=%=#SentiHeros at SemEval-2017 Task 5: An application of Sentiment Analysis on Financial Tweets
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Narjessadat Seyeditabari
+JobTitle#==#PhD Student
+Organization#==#UNC Charlotte
+Abstract#==#Sentiment analysis is the process of identifying the opinion expressed in text.
+Recently it has been used to study behavioral finance, and in particular the
+effect of opinions and emotions on economic or financial decisions.
+SemEval-2017 task 5 focuses on the financial market as the do- main for
+sentiment analysis of text; specifically, task 5, subtask 1 focuses on
+financial tweets about stock symbols. In this paper, we describe a machine
+learning classifier for binary classification of financial tweets. We used
+natural language processing techniques and the random forest algorithm to train
+our model, and tuned it for the training dataset of Task 5, subtask 1. Our
+system achieves the 7th rank on the leaderboard of the task.
+Author{1}{Firstname}#=%=#Narges
+Author{1}{Lastname}#=%=#Tabari
+Author{1}{Email}#=%=#nseyedit@uncc.edu
+Author{1}{Affiliation}#=%=#UNCC
+Author{2}{Firstname}#=%=#Armin
+Author{2}{Lastname}#=%=#Seyeditabari
+Author{2}{Email}#=%=#sseyedi1@uncc.edu
+Author{2}{Affiliation}#=%=#UNCC
+Author{3}{Firstname}#=%=#Wlodek
+Author{3}{Lastname}#=%=#Zadrozny
+Author{3}{Email}#=%=#wzadrozn@uncc.edu
+Author{3}{Affiliation}#=%=#UNCC
+
+==========

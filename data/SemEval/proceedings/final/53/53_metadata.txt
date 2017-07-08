@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#53
+FinalPaperTitle#=%=#IKM at SemEval-2017 Task 8: Convolutional Neural Networks for stance detection and rumor verification
+ShortPaperTitle#=%=#IKM at SemEval-2017 Task 8: Convolutional Neural Networks for stance detection and rumor verification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#yi chin, chen
+JobTitle#==#
+Organization#==#Department of Computer Science and Information Engineering
+National Cheng Kung University
+Tainan, Taiwan, ROC
+Abstract#==#This paper describes our approach for SemEval-2017 Task 8. We aim at detecting
+the stance of tweets and determining the veracity of the given rumor. We
+utilize a convolutional neural network for short text categorization using
+multiple filter sizes. Our approach beats the baseline classifiers on different
+event data with good F1 scores. The best of our submitted runs achieves rank
+1st among all scores on subtask B.
+Author{1}{Firstname}#=%=#Yi-Chin
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#kimberycc@gmail.com
+Author{1}{Affiliation}#=%=#National Cheng Kung University
+Author{2}{Firstname}#=%=#Zhao-Yang
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#kjes89011@gmail.com
+Author{2}{Affiliation}#=%=#National Cheng Kung University
+Author{3}{Firstname}#=%=#Hung-Yu
+Author{3}{Lastname}#=%=#Kao
+Author{3}{Email}#=%=#hykao@mail.ncku.edu.tw
+Author{3}{Affiliation}#=%=#National Cheng Kung University
+
+==========

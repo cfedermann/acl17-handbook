@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#123
+FinalPaperTitle#=%=#ConceptNet at SemEval-2017 Task 2: Extending Word Embeddings with Multilingual Relational Knowledge
+ShortPaperTitle#=%=#ConceptNet at SemEval-2017 Task 2: Extending Word Embeddings with Multilingual Relational Knowledge
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Robert Speer
+JobTitle#==#
+Organization#==#Luminoso Technologies, Inc.
+675 Massachusetts Ave
+Cambridge, MA 02139
+Abstract#==#This paper describes Luminoso's participation in SemEval 2017 Task 2,
+``Multilingual and Cross-lingual Semantic Word Similarity'', with a system
+based on ConceptNet. ConceptNet is an open, multilingual knowledge graph that
+focuses on general knowledge that relates the meanings of words and phrases.
+Our submission to SemEval was an update of previous work that builds
+high-quality, multilingual word embeddings from a combination of ConceptNet and
+distributional semantics. Our system took first place in both subtasks. It
+ranked first in 4 out of 5 of the separate languages, and also ranked first in
+all 10 of the cross-lingual language pairs.
+Author{1}{Firstname}#=%=#Robert
+Author{1}{Lastname}#=%=#Speer
+Author{1}{Email}#=%=#rspeer@luminoso.com
+Author{1}{Affiliation}#=%=#Luminoso Technologies, Inc.
+Author{2}{Firstname}#=%=#Joanna
+Author{2}{Lastname}#=%=#Lowry-Duda
+Author{2}{Email}#=%=#jlowry-duda@luminoso.com
+Author{2}{Affiliation}#=%=#Luminoso Technologies, Inc.
+
+==========

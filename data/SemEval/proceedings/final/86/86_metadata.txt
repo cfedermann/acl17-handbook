@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#86
+FinalPaperTitle#=%=#FORGe at SemEval-2017 Task 9: Deep sentence generation based on a sequence of graph transducers
+ShortPaperTitle#=%=#FORGe at SemEval-2017 Task 9: Deep sentence generation based on a sequence of graph transducers
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Simon Mille
+JobTitle#==#
+Organization#==#Universitat Pompeu Fabra, Roc Boronat 138, 08018 Barcelona, Spain
+Abstract#==#We present the contribution of Universitat Pompeu Fabra's NLP group to the
+SemEval Task 9.2 (AMR-to-English Generation). The proposed generation pipeline
+comprises: (i) a series of rule-based graph-transducers for the
+syntacticization of the input graphs and the resolution of morphological
+agreements, and (ii) an off-the-shelf statistical linearization component.
+Author{1}{Firstname}#=%=#Simon
+Author{1}{Lastname}#=%=#Mille
+Author{1}{Email}#=%=#simon.mille@upf.edu
+Author{1}{Affiliation}#=%=#Pompeu Fabra University
+Author{2}{Firstname}#=%=#Roberto
+Author{2}{Lastname}#=%=#Carlini
+Author{2}{Email}#=%=#roberto.carlini@upf.edu
+Author{2}{Affiliation}#=%=#Pompeu Fabra University
+Author{3}{Firstname}#=%=#Alicia
+Author{3}{Lastname}#=%=#Burga
+Author{3}{Email}#=%=#alicia.burga@upf.edu
+Author{3}{Affiliation}#=%=#Pompeu Fabra University
+Author{4}{Firstname}#=%=#Leo
+Author{4}{Lastname}#=%=#Wanner
+Author{4}{Email}#=%=#leo.wanner@upf.edu
+Author{4}{Affiliation}#=%=#ICREA and Pompeu Fabra University
+
+==========

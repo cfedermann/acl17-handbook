@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#52
+FinalPaperTitle#=%=#LearningToQuestion at SemEval 2017 Task 3: Ranking Similar Questions by Learning to Rank Using Rich Features
+ShortPaperTitle#=%=#LearningToQuestion at SemEval 2017 Task 3: Ranking Similar Questions by Learning to Rank Using Rich Features
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Naman Goyal
+JobTitle#==#
+Organization#==#Georgia Institute of Technology,
+North Ave NW, Atlanta, GA 30332
+Abstract#==#This paper describes our official entry LearningToQuestion for SemEval 2017
+task 3 community question answer, subtask B. The objective is to rerank
+questions obtained in web forum as per their similarity to original question.
+Our system uses pairwise learning to rank methods on rich set of hand designed
+and representation learning features. We use various semantic features that
+help our system to achieve promising results on the task. The system achieved
+second highest results on official metrics MAP and good results on other search
+metrics.
+Author{1}{Firstname}#=%=#Naman
+Author{1}{Lastname}#=%=#Goyal
+Author{1}{Email}#=%=#naman.goyal21@gmail.com
+Author{1}{Affiliation}#=%=#Georgia Institute of Technology
+
+==========

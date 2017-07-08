@@ -1,0 +1,196 @@
+%
+% File acl2017.tex
+%
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{graphicx} 
+\usepackage{url}
+
+\aclfinalcopy % Uncomment this line for the all SemEval submissions
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+%Title format for system description papers by task participants
+\title{SCIR-QA at SemEval-2017 Task 3: CNN Model Based on Similar and Dissimilar Information between Keywords for Question Similarity}
+%Title format for task description papers by task organizers
+%\title{SemEval-2017 Task [TaskNumber]:  [Task Name]}
+
+
+\author{Le Qi, Yu Zhang, Ting Liu\\
+  Research Center for Social Computing\\
+  and Information Retrieval \\
+  Harbin Institute of Technology\\
+  {\tt lqi,zhangyu,tliu@ir.hit.edu.cn} \\}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+  We describe a method of calculating the similarity between questions in community QA. Questions in cQA are usually very long and there are a lot of useless information about calculating the similarity between questions. Therefore, we implement a CNN model based on similar and dissimilar information on question’s keywords. We extract the keywords of questions, and then model the similar and dissimilar information between the keywords, and use the CNN model to calculate the similarity.
+\end{abstract}
+
+\section{Introduction}
+
+We participate in SemEval-2017 Task 3 Subtask B \cite{SemEval-2017:task3} on Community Question Answering. In this task, we are given a question from community forum (named original question) and 10 related questions. We need to re-rank the related questions according to their similarity between the origin question. 
+
+Both the original question and the related question have question subject and question body. The subject is short. The body is long and contains a lot of useless information. In our system, we try to use keywords to replace questions to locate more important information on the question, so we use a keyword extraction algorithm that combines syntactic information to get more accurate keywords. Then we use a CNN model based on similar and dissimilar information between questions to calculate the similarity of questions. The model can make good use of similar information and dissimilar information between questions to get better results.
+
+The paper is organized as follows: Section 2 introduces our system. Section 3 introduces the experiment. And in section 4, there are the conclusions.
+
+
+\section{Model}
+
+In this section we describe our system in detail. In Section 2.1 we show how we extract keywords from the subject and body, and then in Section 2.2 we describe how to construct the CNN model based on similar and dissimilar information on question keywords.
+
+\subsection{Keyword extraction}
+First, we cut the question subject and question body. Then, we extract keywords from each sub-sentence. We combine all the extracted keywords together as a result.
+
+We use an unsupervised keyword extraction method based on dependency analysis. The method uses syntactic dependency relations between words as clues. For the given question, we not only use the statistical information and word vector information, but also construct the dependency graph to calculate the correlation intensity between words, and then construct the weighted graph according to the dependency degree, and use the TextRank algorithm \cite{Mihalcea2004TextRank} to iterate to calculate the word importance score. The main steps include preprocessing, the construction of the non-directional weighted graph, graph ranking, and the selection of the t words with the highest score as keywords of the question, as shown in Figure 1.
+
+\begin{figure}[h]
+	\begin{center}		
+		\includegraphics[width=8cm]{image/2}
+		\caption{Keywords extraction}	
+	\end{center} 
+\end{figure}
+
+{\bf Preprocess}: The preprocessing process includes word segmentation and removing the stop words. We use the remaining words as the candidate words of the keywords.
+
+{\bf Construct the undirected weighted graph}: After preprocessing, all candidate words are represented as vertices of the graph. If two words co-occur in a sentence, there is an edge to the two vertices. The weight of the edge is calculated by the statistical information on words, the word vector information and the dependent syntax analysis information.
+
+The methods that can be used to calculate the correlation between two words are: Pointwise Mutual Information (PMI), Average Mutual Information(AMI) \cite{Terra2004Frequency}, etc. However, these methods only consider the statistical information between words, and do not consider the syntactic dependencies. The syntactic dependency between words has a positive effect on measuring the importance of words.
+
+The result of the dependency syntax analysis is analogous to the tree structure. If we remove its root node, and ignore the arc of the point, we can get an undirected dependency diagram $G'=(V', E'), V'=w_{1}, w_{2}, ..., w_{n}, E'=e_{1}, e_{2}, ..., e_{m}$, where $w_{i}$ denotes a word and $e_{j}$ denotes an undirected relationship between two words. The undirected dependency graph guarantees that there is a dependency path between any two words in the question, and the length of the dependency path reflects the intensity of the dependency relationship. Therefore, we introduce the concept of dependency degree according to the length of the dependent path \cite{zhang2012use}, as shown in Equation(1), where  $dr\_path\_len(w_{i}, w_{j})$ represents the dependency path length between words $w_{i}$ and $w_{j}$, b is the superparameter.
+\begin{equation}Dep(w_{i},w_{j})=\frac{1}{b^{dr\_path\_len(w_{i},w_{j})}}\end{equation}
+
+The degree of correlation between two words, that is, the weight of the edge is multiplied by the gravitational value of the two words by the length of the dependent path, as shown in Equation(2).
+\begin{equation}weight(w_{i},w_{j})=Dep(w_{i},w_{j})*f(w_{i},w_{j})\end{equation}
+
+Among them, the concept of gravitational values proposed by \cite{Wang2015CorpusindependentGK}, inspired by gravitation. The word frequency is regarded as the object mass, and the distance between the words is taken as the distance of the object. The gravitational value $f(w_{i}, w_{j})$ of the two words is given by the Equation(3).
+\begin{equation}f(w_{i},w_{j})=\frac{freq(w_{i})*freq(w_{j})}{d^{2}}\end{equation}
+
+{\bf Graph ranking}: We use the weighted TextRank algorithm to sort the graph. In the undirected graph $G=(V, E)$, V is the set of vertices, E is the set of edges, and $C(v_{i})$ is the set of vertices connected to the vertex $v_{i}$. The score of the vertex  $v_{i}$ is calculated from the Equation(4), where $weight(w_{i}, w_{j})$ is calculated from the Equation(3), d is the damping coefficient.
+
+\begin{equation}
+ws(v_{i})=(1-d)+d*\sum_{v_{j}\in C(v_{i})}\frac{weight(v_{i},v_{j})}{\sum_{v_{k}\in C(v_{j})}weight(v_{j},v_{k})}\end{equation}
+
+Then we select the t words with the highest score as the keywords.
+\subsection{CNN model based on similar and dissimilar information}
+
+We use a CNN model based on similar parts and dissimilar parts between two sentences to get sentence similarity. This model is proposed by \cite{Wang2016SentenceSL}, now we will introduce the model briefly. Figure 2 shows the structure of the model.
+
+Given a sentence pair, the model represents each keyword as a vector, and calculates a semantic matching vector for each keyword based on part of keywords in the other sentence. Then each word vector is decomposed into two components  based on the semantic matching vector: a similar component and a dissimilar component. After this, we use a two-channel CNN to compose the similar and dissimilar components into a feature vector. Finally, a fully connected neural network is used to predict the sentence similarity through the composed feature vector.
+
+\begin{center}
+\includegraphics[width=8cm]{image/screenshot001}
+\end{center}
+
+First, with word embedding pre-trained by Stanford using GloVe's model \cite{pennington2014glove}, we transform keywords of question S and T into matrix $S=[s_{1},s_{2},...,s_{m}]$ and $T=[t_{1},t_{2},...,t_{n}]$, where $s_{i}$ and $t_{j}$ are 300-dimention vectors of corresponding keywords, and m and n are the length of keywords of S and T.
+Second, for judging the similarity between two sentences, we check whether each keyword in one sentence can be covered by the other sentence. For a sentence pair S and T, we first calculate a similarity matrix $A_{(m\times
+	n)}$, where each element $a_{(i,j)}\in
+A_{(m\times
+	n)}$ computes cosine similarity between words $s_{i}$ and $t_{j}$ as
+\begin{equation}a_{(i,j)}=\frac{s_{i}^{T}t_{j}}{||s_{i}||\cdot||t_{j}||}\quad\forall
+s_{i}\in
+S,\forall
+t_{j}\in
+T \end{equation}
+
+We calculate a semantic matching vector $\hat{s_{i}}$ for each word $s_{i}$ by composing part of word vectors in the other sentence T. In this way, we can match a keyword $s_{i}$ to some keywords in T. Similarly, we also calculate all semantic matching vectors $\hat{t_{i}}$ in T. We define a semantic matching functions over $A_{(m\times
+	n)}$
+\begin{equation}f_{match}(s_{i},T)=\frac{\sum_{j=k-w}^{k+w}a_{i,j}t_{j}}{\sum_{j=k-w}^{k+w}a_{i,j}}\end{equation}
+
+where \[k=argmax_{j}a_{i,j}\]
+
+w indicates the size of the window to consider centered at k (the most similar word position). So the semantic matchisng vector is a weighted average vector from $t_{k-w}$ to $t_{k+w}$.
+
+Third, after semantic matching, we have the semantic matching vectors of $\hat{s_{i}}$ and $\hat{t_{j}}$. Take s as an example. We interpret $\hat{s_{i}}$ as a semantic coverage of word $s_{i}$ by the sentence T. However, there must be some difference between $s_{i}$ and $\hat{s_{i}}$. So based on its semantic matching vector $\hat{s_{i}}$, our model further decomposes word $s_{i}$ into two components: similar component $\hat{s_{i}}^{+}$ and dissimilar component $\hat{s_{i}}^{-}$. Then we choose a linear decomposition method. The motivation for the linear decomposition is that the more similar between $s_{i}$ and $\hat{s_{i}}$, the higher proportion of $s_{i}$ should be assigned to the similar component. First, we calculate the cosine similarity α between $s_{i}$ and $\hat{s_{i}}$. Then, we decompose $s_{i}$ linearly based on $\alpha$. Eq.(7) gives the corresponding definition:
+
+\[a_{(i,j)}=\frac{s_{i}^{T}\hat{s_{i}}}{||s_{i}||\cdot||\hat{s_{i}}||} \]  
+\[\hat{t_{j}}^{+} = \alpha
+s_{i}\]
+\begin{equation}
+\hat{s_{i}}^{-} = (1-\alpha)s_{i}
+\end{equation}
+
+Finally, due to the dissimilar and similar components have strong connections, we use a two-channel CNN model \cite{Kim2014ConvolutionalNN} to compose them together. In the CNN model, we have three layers. The first is a convolution layer. We define a list of filters ${w_{o}}$. The shape of each filter is d × h, where d is the dimension of word vectors and h is the window size. Each filter is applied to two patches (a window size h of vectors) from both similar and dissimilar channels, and generates a feature. Eq.(8) expresses this process:
+\begin{equation}
+c_{o,i}=f(w_{o}*S_{[i:i+h]}^{+}+w_{o}*S_{[i:i+h]}^{-}+b_{o})
+\end{equation}
+
+The second layer is a pooling layer. We choose max-pooling method to deal with variable feature size. And the last layer is a full-connected layer. We use a sigmoid function to constrain the result within the range [0,1].
+
+\section{Experiment}
+
+We experimented with the corpus provided by SemEval-2017 task3. Training set has 267 questions, each question has 10 related questions, a total of 2670 question pairs. Development set has 50 questions, 500 question pairs. The test set has 88 questions, 880 question pairs. We do the experiment without preprocessing. We use Stanfod Parser \cite{de2008stanford} to parse sentences. And we use the keyword extraction algorithm described in 2.1, for each sub-sentence we extract 1/3 of the words as keywords and set b = 1.4, d = 0.8. In the CNN model, we set up the filter shape is 3*300. The number of filters is 500. We set the similarity threshold of 0.5, that is, a score greater than 0.5 is considered a positive case. And we set the learning rate as 0.001. After 20 rounds of training, we got the result in devlopment set and test set.
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+			\hline \bf Team & \bf MAP & \bf AvgRec & \bf MRR \\ 
+			\hline Baseline(IR) & 41.85 & 77.59 & 46.42 \\
+			\hline Baseline(Random) &29.81  &62.65 & 33.02 \\
+			\hline simbow & 47.22 & 82.60 & 50.07 \\
+			\hline LearningToQuestion & 46.93 & 81.29 & 53.01 \\
+			\hline SCIR-QA &42.72 & 78.24 & 46.65\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{\label{Test} Test Result }
+\end{table}
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+			\hline \bf User or Team Name & \bf MAP & \bf AvgRec & \bf MRR \\ 
+			\hline Sagustian & 79.6 & 94.3 & 86.0 \\
+			\hline BeiHang &76.9  &91.2 &83.5 \\
+			\hline naman & 75.1 & 90.8 & 81.33 \\
+			\hline LS2NSEMEVAL &74.4 & 88.3 & 79.5 \\
+			\hline NLMNIH &73.7 & 88.2 & 79.33\\
+			\hline IIT-UHH &73.6 & 89.0 & 79.33\\
+			\hline Organizers &71.4 & 86.1 & 76.67\\
+			\hline MIT-QCRI &71.4 & 86.1 & 76.67\\
+			\hline SCIR-QA &70.8 & 87.5 & 77.25\\
+			\hline preslav &55.9 & 73.2 & 62.23\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{\label{Develop} Develop Result }
+\end{table}
+
+The results in test set are shown in Table 1, the first two lines are the baseline, the next two lines are the best results, the last line is our result. And results in development set are shown in Table 2. In test set, our results are better than the baseline, but there is still some distance from the best results. In development set, our result is all not so good. 
+
+We think that because we do the experiment without preprocessing, there exists too many unknown words in word embeddings, which results in poor system performance. On the other hand, because the training corpus is too small, the neural network can not be well trained and can not find meaningful features. Therefore, in the future work, we will add features of artificial extraction into neural network to improve performance. And we will add features of artificial extraction into neural network to improve performance.
+
+\section{Result and Future Work}
+We implement a CNN model based on similar and dissimilar information between question’s keywords, and experiment on SemEval-2017 corpus. The experimental results show that our method is better than baseline, we can extract the key information from the long sentence to model the question better, which helps us to calculate the similarity of the question. We think that keyword extraction is important in this task, and in the future we will try other keyword extraction methods to achieve better results.
+
+\section*{Acknowledgments}
+This work was supported by the National High Technology Development 863 Program of China (No.2015AA015407), National Natural Science Foundation of China (No.61472105 and No.61472107). And I am grateful to Professor Zhang Yu for his guidance to my work. And I also appreciate the support of SCIR laboratory.
+% include your own bib file like this:
+%\bibliographystyle{acl}
+%\bibliography{acl2017}
+\bibliography{semeval2017}
+\bibliographystyle{acl_natbib}
+
+\appendix
+\end{document}

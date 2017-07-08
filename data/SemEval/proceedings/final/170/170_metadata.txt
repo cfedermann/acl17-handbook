@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#170
+FinalPaperTitle#=%=#UINSUSKA-TiTech at SemEval-2017 Task 3: Exploiting Word Importance Levels for Similarity Features for CQA
+ShortPaperTitle#=%=#UINSUSKA-TiTech at SemEval-2017 Task 3: Exploiting Word Importance Levels for Similarity Features for CQA
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Surya Agustian
+JobTitle#==#
+Organization#==#Name : 
+Computational Intelligence and System Science, Tokyo Institute of Technology, Japan
+Address : 
+〒226-8503
+R2-728, Laboratory for Future Interdisciplinary Research of Science and Technology,
+Tokyo Institute of Technology,
+4259 Nagatsuta Midori-ku Yokohama, JAPAN
+Abstract#==#The majority of core techniques to solve many problems in Community Question
+Answering (CQA) task rely on similarity computation. This work focuses on
+similarity between two sentences (or questions in subtask B) based on word
+embeddings. We exploit words importance levels in sentences or questions for
+similarity features, for classification and ranking with machine learning.
+Using only 2 types of similarity metric, our proposed method has shown
+comparable results with other complex systems. This method on subtask B 2017
+dataset is ranked on position 7 out of 13 participants. Evaluation on 2016
+dataset is on position 8 of 12, outperforms some complex systems. Further, this
+finding is explorable and potential to be used as baseline and extensible for
+many tasks in CQA and other textual similarity based system.
+Author{1}{Firstname}#=%=#Surya
+Author{1}{Lastname}#=%=#Agustian
+Author{1}{Email}#=%=#sagustian@lr.pi.titech.ac.jp
+Author{1}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{2}{Firstname}#=%=#Hiroya
+Author{2}{Lastname}#=%=#Takamura
+Author{2}{Email}#=%=#takamura@pi.titech.ac.jp
+Author{2}{Affiliation}#=%=#Tokyo Institute of Technology
+
+==========
