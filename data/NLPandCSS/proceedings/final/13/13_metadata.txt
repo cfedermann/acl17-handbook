@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#When does a compliment become sexist? Analysis and classification of ambivalent sexism using twitter data
+ShortPaperTitle#=%=#When does a compliment become sexist? Analysis and classification of ambivalent sexism using twitter data
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Akshita Jha
+JobTitle#==#
+Organization#==#Kohli Center on Intelligent Systems (KCIS),
+International Institute of Information Technology, Hyderabad (IIIT Hyderabad)
+Abstract#==#Sexism is prevalent in today’s society, both offline and online, and poses a
+credible threat to social equality with respect to gender. According to
+ambivalent sexism theory (Glick and Fiske, 1996), it comes in two forms:
+Hostile and Benevolent. While hostile sexism is characterized by an explicitly
+negative attitude, benevolent sexism is more subtle. Previous works on
+computationally detecting sexism present online are restricted to identifying
+the hostile form. Our objective is to investigate the less pronounced form of
+sexism demonstrated online. We achieve this by creating and analyzing a dataset
+of tweets that exhibit benevolent sexism. By using Support Vector Machines
+(SVM), sequence-to-sequence models and FastText classifier, we classify tweets
+into ‘Hostile’, ‘Benevolent’ or ‘Others’ class depending on the
+kind of sexism they exhibit. We have been able to achieve an F1-score of 87.22%
+using FastText classifier. Our work helps analyze and understand the much
+prevalent ambivalent sexism in social media.
+Author{1}{Firstname}#=%=#Akshita
+Author{1}{Lastname}#=%=#Jha
+Author{1}{Email}#=%=#zenith158@gmail.com
+Author{1}{Affiliation}#=%=#KCIS, IIIT
+Author{2}{Firstname}#=%=#Radhika
+Author{2}{Lastname}#=%=#Mamidi
+Author{2}{Email}#=%=#radhika.mamidi@iiit.ac.in
+Author{2}{Affiliation}#=%=#KCIS, IIIT
+
+==========

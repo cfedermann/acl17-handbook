@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Telling Apart Tweets Associated with Controversial versus Non-Controversial Topics
+ShortPaperTitle#=%=#Telling Apart Tweets Associated with Controversial versus Non-Controversial Topics
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Aseel Addawood
+JobTitle#==#
+Organization#==#UIUC
+Abstract#==#In this paper, we evaluate the predictability of tweets associated with
+controversial versus non-controversial topics. As a first step, we
+crowd-sourced the scoring of a predefined set of topics on a Likert scale from
+non-controversial to controversial. Our feature set entails and goes beyond
+sentiment features, e.g., by leveraging empathic language and other features
+that have been previously used but are new for this particular study. We find
+focusing on the structural characteristics of tweets to be beneficial for this
+task. Using a combination of emphatic, language-specific, and Twitter-specific
+features for supervised learning resulted in 87% accuracy (F1) for
+cross-validation of the training set and 63.4% accuracy when using the test
+set. Our analysis shows that features specific to Twitter or social media, in
+general, are more prevalent in tweets on controversial topics than in
+non-controversial ones. To test the premise of the paper, we conducted two
+additional sets of experiments, which led to mixed results. This finding will
+inform our future investigations into the relationship between language use on
+social media and the perceived controversiality of topics.
+Author{1}{Firstname}#=%=#Aseel
+Author{1}{Lastname}#=%=#Addawood
+Author{1}{Email}#=%=#aaddaw2@illinois.edu
+Author{1}{Affiliation}#=%=#UIUC
+Author{2}{Firstname}#=%=#Rezvaneh
+Author{2}{Lastname}#=%=#Rezapour
+Author{2}{Email}#=%=#rezapou2@illinois.edu
+Author{2}{Affiliation}#=%=#UIUC
+Author{3}{Firstname}#=%=#Omid
+Author{3}{Lastname}#=%=#Abdar
+Author{3}{Email}#=%=#abdar2@illinois.edu
+Author{3}{Affiliation}#=%=#UIUC
+Author{4}{Firstname}#=%=#Jana
+Author{4}{Lastname}#=%=#Diesner
+Author{4}{Email}#=%=#jdiesner@illinois.edu
+Author{4}{Affiliation}#=%=#UIUC
+
+==========

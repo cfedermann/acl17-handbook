@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Personality Driven Differences in Paraphrase Preference
+ShortPaperTitle#=%=#Personality Driven Differences in Paraphrase Preference
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Daniel Preotiuc-Pietro
+JobTitle#==#
+Organization#==#Positive Psychology Center, University of Pennsylvania
+3701 Market St, Philadelphia, PA, USA
+Abstract#==#Personality plays a decisive role in how people behave in different scenarios,
+including online social media. Researchers have used such data to study how
+personality can be predicted from language use. In this paper, we study phrase
+choice as a particular stylistic linguistic difference, as opposed to the
+mostly topical differences identified previously. Building on previous work on
+demographic preferences, we quantify differences in paraphrase choice from a
+massive Facebook data set with posts from over 115,000 users. We quantify the
+predictive power of phrase choice in user profiling and use phrase choice to
+study psycholinguistic hypotheses. This work is relevant to future applications
+that aim to personalize text generation to specific personality types.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Preoţiuc-Pietro
+Author{1}{Email}#=%=#danielpr@gmail.com
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Jordan
+Author{2}{Lastname}#=%=#Carpenter
+Author{2}{Email}#=%=#jmc51@duke.edu
+Author{2}{Affiliation}#=%=#Duke University
+Author{3}{Firstname}#=%=#Lyle
+Author{3}{Lastname}#=%=#Ungar
+Author{3}{Email}#=%=#ungar@cis.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+
+==========

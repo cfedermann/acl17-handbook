@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Language-independent Gender Prediction on Twitter
+ShortPaperTitle#=%=#Language-independent Gender Prediction on Twitter
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nikola Ljubešić
+JobTitle#==#researcher
+Organization#==#Jožef Stefan Institute
+Jamova cesta 39
+1000-Ljubljana, Slovenia
+Abstract#==#In this paper we present a set of experiments and analyses on predicting gender
+of Twitter users based on language-independent features extracted either from
+the text or the metadata of users' tweets. We perform our experiments on the
+TwiSty dataset containing manual gender annotations for users speaking six
+different languages. Our classification results show that, while the prediction
+model based on language-independent features performs worse than the
+bag-of-words model when training and testing on the same language, it regularly
+outperforms the bag-of-words model when applied to different languages, showing
+very stable results across various languages. Finally we perform a comparative
+analysis of feature effect sizes across the six languages and show that
+differences in our features correspond to cultural distances.
+Author{1}{Firstname}#=%=#Nikola
+Author{1}{Lastname}#=%=#Ljubešić
+Author{1}{Email}#=%=#nljubesi@ffzg.hr
+Author{1}{Affiliation}#=%=#Jožef Stefan Institute
+Author{2}{Firstname}#=%=#Darja
+Author{2}{Lastname}#=%=#Fišer
+Author{2}{Email}#=%=#darja.fiser@ff.uni-lj.si
+Author{2}{Affiliation}#=%=#University of Ljubljana
+Author{3}{Firstname}#=%=#Tomaž
+Author{3}{Lastname}#=%=#Erjavec
+Author{3}{Email}#=%=#tomaz.erjavec@ijs.si
+Author{3}{Affiliation}#=%=#Dept. of Knowledge Technologies, Jožef Stefan Institute
+
+==========

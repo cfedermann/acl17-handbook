@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Linguistic Markers of Influence in Informal Interactions
+ShortPaperTitle#=%=#Linguistic Markers of Influence in Informal Interactions
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Shrimai Prabhumoye
+JobTitle#==#
+Organization#==#Language Technologies Institute, Carnegie Mellon University, 500 Forbes Avenue, Pittsburgh PA 15213
+Abstract#==#There has been a long standing interest in understanding `Social Influence'
+both in Social Sciences and in Computational Linguistics. In this paper, we
+present a novel approach to study and measure interpersonal influence in daily
+interactions. Motivated by the basic principles of influence, we attempt to
+identify indicative linguistic features of the posts in an online knitting
+community. We present the scheme used to operationalize and label the posts as
+influential or non-influential. Experiments with the identified features show
+an improvement in the classification accuracy of influence by 3.15\%. Our
+results illustrate the important correlation between the structure of the
+language and its potential to influence others.
+Author{1}{Firstname}#=%=#Shrimai
+Author{1}{Lastname}#=%=#Prabhumoye
+Author{1}{Email}#=%=#sprabhum@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Samridhi
+Author{2}{Lastname}#=%=#Choudhary
+Author{2}{Email}#=%=#sschoudh@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Evangelia
+Author{3}{Lastname}#=%=#Spiliopoulou
+Author{3}{Email}#=%=#espiliop@andrew.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Christopher
+Author{4}{Lastname}#=%=#Bogart
+Author{4}{Email}#=%=#cbogart@andrew.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Carolyn
+Author{5}{Lastname}#=%=#Rose
+Author{5}{Email}#=%=#cprose@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+Author{6}{Firstname}#=%=#Alan W
+Author{6}{Lastname}#=%=#Black
+Author{6}{Email}#=%=#awb@cs.cmu.edu
+Author{6}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

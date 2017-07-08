@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Ideological Phrase Indicators for Classification of Political Discourse Framing on Twitter
+ShortPaperTitle#=%=#Ideological Phrase Indicators for Classification of Political Discourse Framing on Twitter
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kristen Johnson
+JobTitle#==#
+Organization#==#Purdue University, West Lafayette, IN 47907
+Abstract#==#Politicians carefully word their statements in order to influence how others
+view an issue, a political strategy called framing. Simultaneously, these
+frames may also reveal the beliefs or positions on an issue of the politician.
+Simple language features such as unigrams, bigrams, and trigrams are important
+indicators for identifying the general frame of a text, for both longer
+congressional speeches and shorter tweets of politicians. However, tweets may
+contain multiple unigrams across different frames which limits the
+effectiveness of this approach. In this paper, we present a joint model which
+uses both linguistic features of tweets and ideological phrase indicators
+extracted from a state-of-the-art embedding-based model to predict the general
+frame of political tweets.
+Author{1}{Firstname}#=%=#Kristen
+Author{1}{Lastname}#=%=#Johnson
+Author{1}{Email}#=%=#john1187@purdue.edu
+Author{1}{Affiliation}#=%=#Purdue University
+Author{2}{Firstname}#=%=#I-Ta
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#lee2226@purdue.edu
+Author{2}{Affiliation}#=%=#Purdue University
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Goldwasser
+Author{3}{Email}#=%=#goldan55@gmail.com
+Author{3}{Affiliation}#=%=#Purdue University
+
+==========

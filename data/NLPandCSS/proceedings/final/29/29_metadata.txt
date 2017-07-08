@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Non-lexical Features Encode Political Affiliation on Twitter
+ShortPaperTitle#=%=#Non-lexical Features Encode Political Affiliation on Twitter
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Rachael Tatman
+JobTitle#==#
+Organization#==#
+Abstract#==#Previous work on classifying Twitter users' political alignment has mainly
+focused on lexical and social network features. This study provides evidence
+that political affiliation is also reflected in features which have been
+previously overlooked: users' discourse patterns (proportion of Tweets that are
+retweets or replies) and their rate of use of capitalization and punctuation.
+We find robust differences between politically left- and right-leaning
+communities with respect to these discourse and sub-lexical features, although
+they are not enough to train a high-accuracy classifier.
+Author{1}{Firstname}#=%=#Rachael
+Author{1}{Lastname}#=%=#Tatman
+Author{1}{Email}#=%=#rachael.tatman@gmail.com
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Leo
+Author{2}{Lastname}#=%=#Stewart
+Author{2}{Email}#=%=#lgs17@uw.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Amandalynne
+Author{3}{Lastname}#=%=#Paullada
+Author{3}{Email}#=%=#paullada@uw.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Emma
+Author{4}{Lastname}#=%=#Spiro
+Author{4}{Email}#=%=#espiro@uw.edu
+Author{4}{Affiliation}#=%=#University of Washington
+
+==========

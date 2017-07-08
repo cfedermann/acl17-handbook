@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Cross-Lingual Classification of Topics in Political Texts
+ShortPaperTitle#=%=#Cross-Lingual Classification of Topics in Political Texts
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Goran Glavaš
+JobTitle#==#
+Organization#==#University of Mannheim, Faculty of Business Informatics and Mathematics
+B6 26, 68161 Mannheim
+Abstract#==#In this paper, we propose an approach for cross-lingual topical coding of
+sentences from electoral manifestos of political parties in different
+languages. To this end, we exploit continuous semantic text representations and
+induce a joint multilingual semantic vector spaces to enable supervised
+learning using manually-coded sentences across different languages. Our
+experimental results show that classifiers trained on multilingual data yield
+performance boosts over monolingual topic classification.
+Author{1}{Firstname}#=%=#Goran
+Author{1}{Lastname}#=%=#Glavaš
+Author{1}{Email}#=%=#goran@informatik.uni-mannheim.de
+Author{1}{Affiliation}#=%=#University of Mannheim
+Author{2}{Firstname}#=%=#Federico
+Author{2}{Lastname}#=%=#Nanni
+Author{2}{Email}#=%=#federico@informatik.uni-mannheim.de
+Author{2}{Affiliation}#=%=#University of Mannheim
+Author{3}{Firstname}#=%=#Simone Paolo
+Author{3}{Lastname}#=%=#Ponzetto
+Author{3}{Email}#=%=#simone@informatik.uni-mannheim.de
+Author{3}{Affiliation}#=%=#University of Mannheim
+
+==========

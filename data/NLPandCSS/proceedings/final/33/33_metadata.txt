@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Code-Switching as a Social Act: The Case of Arabic Wikipedia Talk Pages
+ShortPaperTitle#=%=#Code-Switching as a Social Act
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Michael Miller Yoder
+JobTitle#==#
+Organization#==#Language Technologies Institute
+Carnegie Mellon University
+5000 Forbes Ave
+Pittsburgh PA 15213
+Abstract#==#Code-switching has been found to have social motivations in addition to
+syntactic constraints.
+In this work, we explore the social effect of code-switching in an online
+community.
+We present a task from the Arabic Wikipedia to capture language choice, in this
+case code-switching between Arabic and other languages, as a predictor of
+social influence in collaborative editing.
+We find that code-switching is positively associated with Wikipedia editor
+success, particularly borrowing technical language on pages with topics less
+directly related to Arabic-speaking regions.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Yoder
+Author{1}{Email}#=%=#michaelmilleryoder@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Shruti
+Author{2}{Lastname}#=%=#Rijhwani
+Author{2}{Email}#=%=#srijhwan@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Carolyn
+Author{3}{Lastname}#=%=#Rosé
+Author{3}{Email}#=%=#cprose@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Lori
+Author{4}{Lastname}#=%=#Levin
+Author{4}{Email}#=%=#lsl@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

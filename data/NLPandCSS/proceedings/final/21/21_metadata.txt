@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Mining Social Science Publications for Survey Variables
+ShortPaperTitle#=%=#Mining Social Science Publications for Survey Variables
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zielinski, Mutschke
+JobTitle#==#
+Organization#==#GESIS - Leibniz Institute for the Social Sciences 
+Unter Sachsenhausen 6-8 
+50667 Cologne, Germany
+Abstract#==#Research in Social Science is usually based on survey data where individual
+research questions relate to observable concepts (variables). However, due to a
+lack of standards for data citations a reliable identification of the variables
+used is often difficult. In this paper, we present a work-in-progress study
+that seeks to provide a solution to the variable detection task based on
+supervised machine learning algorithms, using a linguistic analysis pipeline to
+extract a rich feature set, including terminological concepts and similarity
+metric scores.
+Further, we present preliminary results on a small dataset that has been
+specifically designed for this task, yielding
+a significant increase in performance over the random baseline.
+Author{1}{Firstname}#=%=#Andrea
+Author{1}{Lastname}#=%=#Zielinski
+Author{1}{Email}#=%=#dr.andrea.zielinski@gmail.com
+Author{1}{Affiliation}#=%=#GESIS
+Author{2}{Firstname}#=%=#Peter
+Author{2}{Lastname}#=%=#Mutschke
+Author{2}{Email}#=%=#peter.mutschke@gesis.org
+Author{2}{Affiliation}#=%=#GESIS
+
+==========
