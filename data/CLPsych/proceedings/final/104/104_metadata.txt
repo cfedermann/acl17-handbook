@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#104
+FinalPaperTitle#=%=#Detecting Anxiety through Reddit
+ShortPaperTitle#=%=#Detecting Anxiety through Reddit
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Judy Hanwen Shen
+JobTitle#==#
+Organization#==#
+Abstract#==#Previous investigations into detecting mental illnesses through social media
+have predominately focused on detecting depression through Twitter corpora. In
+this paper, we study anxiety disorders through personal narratives collected
+through the popular social media website, Reddit. We build a substantial data
+set of typical and anxiety-related posts, and we apply N-gram language
+modeling, vector embeddings, topic analysis, and emotional norms to generate
+features that accurately classify posts related to binary levels of anxiety. We
+achieve an accuracy of 91% with vector-space word embeddings, and an accuracy
+of 98% when combined with lexicon-based features.
+Author{1}{Firstname}#=%=#Judy Hanwen
+Author{1}{Lastname}#=%=#Shen
+Author{1}{Email}#=%=#judyhanwen.shen@mail.utoronto.ca
+Author{1}{Affiliation}#=%=#University of Toronto
+Author{2}{Firstname}#=%=#Frank
+Author{2}{Lastname}#=%=#Rudzicz
+Author{2}{Email}#=%=#frank@cs.toronto.edu
+Author{2}{Affiliation}#=%=#Toronto Rehabilitation Institute; University of Toronto, Department of Computer Science
+
+==========

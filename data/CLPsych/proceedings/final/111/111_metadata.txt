@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#111
+FinalPaperTitle#=%=#A Corpus Analysis of Social Connections and Social Isolation in Adolescents Suffering from Depressive Disorders
+ShortPaperTitle#=%=#A Corpus Analysis of Social Connections and Social Isolation in Adolescents Suffering from Depressive Disorders
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jia-Wen Guo
+JobTitle#==#
+Organization#==#College of Nursing University of Utah
+10 S 2000 E, Salt Lake City,Utah
+UT 84112
+Abstract#==#Social connection and social isolation are associated with depressive symptoms,
+particularly in adolescents and young adults, but how these concepts are
+documented in clinical notes is unknown. This pilot study aimed to identify the
+topics relevant to social connection and isolation by analyzing 145 clinical
+notes from patients with depression diagnosis. We found that providers,
+including physicians, nurses, social workers, and psychologists, document
+descriptions of both social connection and social isolation.
+Author{1}{Firstname}#=%=#Jia-Wen
+Author{1}{Lastname}#=%=#Guo
+Author{1}{Email}#=%=#jia-wen.guo@nurs.utah.edu
+Author{1}{Affiliation}#=%=#University of Utah
+Author{2}{Firstname}#=%=#Danielle L
+Author{2}{Lastname}#=%=#Mowery
+Author{2}{Email}#=%=#danielle.mowery@utah.edu
+Author{2}{Affiliation}#=%=#University of Utah at Salt Lake City
+Author{3}{Firstname}#=%=#Djin
+Author{3}{Lastname}#=%=#Lai
+Author{3}{Email}#=%=#djin.lai@utah.edu
+Author{3}{Affiliation}#=%=#University of Utah
+Author{4}{Firstname}#=%=#Katherine
+Author{4}{Lastname}#=%=#Sward
+Author{4}{Email}#=%=#kathy.sward@nurs.utah.edu
+Author{4}{Affiliation}#=%=#University of Utah
+Author{5}{Firstname}#=%=#Mike
+Author{5}{Lastname}#=%=#Conway
+Author{5}{Email}#=%=#michaelambroseconway@gmail.com
+Author{5}{Affiliation}#=%=#University of Utah
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#119
+FinalPaperTitle#=%=#In your wildest dreams: the language and psychological features of dreams
+ShortPaperTitle#=%=#In your wildest dreams: the language and psychological features of dreams
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Kate Loveys
+JobTitle#==#
+Organization#==#Qntfy
+1100 Wilson Boulevard
+Arlington, Virginia 22209
+Abstract#==#In this paper, we provide the first quantified exploration of the structure of
+the language of dreams, their linguistic style and emotional content. We
+present a collection of digital dream logs as a viable corpus for the growing
+study of mental health through the lens of language, complementary to the work
+done examining more traditional social media. This paper is largely
+exploratory in nature to lay the groundwork for subsequent research in mental
+health, rather than optimizing a particular text classification task.
+Author{1}{Firstname}#=%=#Kate
+Author{1}{Lastname}#=%=#Niederhoffer
+Author{1}{Email}#=%=#kniederhoffer@dreamscloud.com
+Author{1}{Affiliation}#=%=#Circadia Labs
+Author{2}{Firstname}#=%=#Jonathan
+Author{2}{Lastname}#=%=#Schler
+Author{2}{Email}#=%=#schler@gmail.com
+Author{2}{Affiliation}#=%=#Circadia Labs
+Author{3}{Firstname}#=%=#Patrick
+Author{3}{Lastname}#=%=#Crutchley
+Author{3}{Email}#=%=#patrick@qntfy.com
+Author{3}{Affiliation}#=%=#Qntfy
+Author{4}{Firstname}#=%=#Kate
+Author{4}{Lastname}#=%=#Loveys
+Author{4}{Email}#=%=#kate@qntfy.com
+Author{4}{Affiliation}#=%=#Qntfy
+Author{5}{Firstname}#=%=#Glen
+Author{5}{Lastname}#=%=#Coppersmith
+Author{5}{Email}#=%=#glen@qntfy.com
+Author{5}{Affiliation}#=%=#Qntfy
+
+==========

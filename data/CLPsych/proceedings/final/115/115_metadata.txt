@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#115
+FinalPaperTitle#=%=#Small but Mighty: Affective Micropatterns for Quantifying Mental Health from Social Media Language
+ShortPaperTitle#=%=#Small but Mighty: Affective Micropatterns for Quantifying Mental Health from Social Media Language
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Kate Loveys
+JobTitle#==#
+Organization#==#Qntfy,
+1100 Wilson Boulevard,
+Arlington, Virginia 22209
+Abstract#==#Many psychological phenomena occur in small time windows, measured in minutes
+or hours. However, most computational linguistic techniques look at data on the
+order of weeks, months, or years. We explore micropatterns in sequences of
+messages occurring over a short time window for their prevalence and power for
+quantifying psychological phenomena, specifically, patterns in affect. We
+examine affective micropatterns in social media posts from users with anxiety,
+eating disorders, panic attacks, schizophrenia, suicidality, and matched
+controls.
+Author{1}{Firstname}#=%=#Kate
+Author{1}{Lastname}#=%=#Loveys
+Author{1}{Email}#=%=#kate@qntfy.com
+Author{1}{Affiliation}#=%=#Qntfy
+Author{2}{Firstname}#=%=#Patrick
+Author{2}{Lastname}#=%=#Crutchley
+Author{2}{Email}#=%=#patrick@qntfy.com
+Author{2}{Affiliation}#=%=#Qntfy
+Author{3}{Firstname}#=%=#Emily
+Author{3}{Lastname}#=%=#Wyatt
+Author{3}{Email}#=%=#emily@qntfy.com
+Author{3}{Affiliation}#=%=#Qntfy
+Author{4}{Firstname}#=%=#Glen
+Author{4}{Lastname}#=%=#Coppersmith
+Author{4}{Email}#=%=#glen@qntfy.com
+Author{4}{Affiliation}#=%=#Qntfy
+
+==========

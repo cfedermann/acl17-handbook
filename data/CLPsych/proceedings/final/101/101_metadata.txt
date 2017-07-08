@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#101
+FinalPaperTitle#=%=#Investigating Patient Attitudes Towards the use of Social Media Data to Augment Depression Diagnosis and Treatment: a Qualitative Study
+ShortPaperTitle#=%=#Investigating Patient Attitudes Towards the use of Social Media Data to Augment Depression Diagnosis and Treatment: a Qualitative Study
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Michael Conway
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we use qualitative research methods to investigate the attitudes
+of social media users towards the (opt-in) integration of social media data
+with routine mental health care and diagnosis. Our investigation was based on
+secondary analysis of a series of five focus groups with Twitter users,
+including three groups consisting of participants with a self-reported history
+of depression, and two groups consisting of participants without a self
+reported history of depression. Our results indicate that, overall, research
+participants were enthusiastic about the possibility of using social media (in
+conjunction with automated Natural Language Processing algorithms) for mood
+tracking under the supervision of a mental health practitioner. However, for at
+least some participants, there was skepticism related to how well social media
+represents the mental health of users, and hence its usefulness in the clinical
+context.
+Author{1}{Firstname}#=%=#Jude
+Author{1}{Lastname}#=%=#Mikal
+Author{1}{Email}#=%=#jpmikal@umn.edu
+Author{1}{Affiliation}#=%=#University of Minnesota
+Author{2}{Firstname}#=%=#Samantha
+Author{2}{Lastname}#=%=#Hurst
+Author{2}{Email}#=%=#shurst@ucsd.edu
+Author{2}{Affiliation}#=%=#University of California San Diego
+Author{3}{Firstname}#=%=#Mike
+Author{3}{Lastname}#=%=#Conway
+Author{3}{Email}#=%=#michaelambroseconway@gmail.com
+Author{3}{Affiliation}#=%=#University of Utah
+
+==========

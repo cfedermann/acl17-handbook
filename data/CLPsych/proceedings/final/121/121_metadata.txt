@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#121
+FinalPaperTitle#=%=#Detecting and Explaining Crisis
+ShortPaperTitle#=%=#Detecting and Explaining Crisis
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Rohan Kshirsagar
+JobTitle#==#
+Organization#==#Columbia University
+116th St & Broadway, New York, NY 10027
+Abstract#==#Individuals on social media may reveal themselves to be in various states of
+crisis (e.g. suicide, self-harm, abuse, or eating disorders). Detecting crisis
+from social media text automatically and accurately can have profound
+consequences. However, detecting a general state of crisis without explaining
+why has limited applications. An explanation in this context is a coherent,
+concise subset of the text that rationalizes the crisis detection. We explore
+several methods to detect and explain crisis using a combination of neural and
+non-neural techniques. We evaluate these techniques on a unique data set
+obtained from Koko, an anonymous emotional support network available through
+various messaging applications. We annotate a small subset of the samples
+labeled with crisis with corresponding explanations. Our best technique
+significantly outperforms the baseline for detection and explanation.
+Author{1}{Firstname}#=%=#Rohan
+Author{1}{Lastname}#=%=#Kshirsagar
+Author{1}{Email}#=%=#rohan.kshirsagar@columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Robert
+Author{2}{Lastname}#=%=#Morris
+Author{2}{Email}#=%=#rob@itskoko.com
+Author{2}{Affiliation}#=%=#Koko
+Author{3}{Firstname}#=%=#Samuel
+Author{3}{Lastname}#=%=#Bowman
+Author{3}{Email}#=%=#bowman@nyu.edu
+Author{3}{Affiliation}#=%=#New York University
+
+==========

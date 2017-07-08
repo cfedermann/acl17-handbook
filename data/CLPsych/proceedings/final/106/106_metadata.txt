@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#106
+FinalPaperTitle#=%=#A Cross-modal Review of Indicators for Depression Detection Systems
+ShortPaperTitle#=%=#A Cross-modal Review of Indicators for Depression Detection Systems
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Michelle Morales
+JobTitle#==#
+Organization#==#
+Abstract#==#Automatic detection of depression has attracted increasing attention from
+researchers in psychology, computer science, linguistics, and related
+disciplines. As a result, promising depression detection systems have been
+reported. This paper surveys these efforts by presenting the first cross-modal
+review of depression detection systems and discusses best practices and most
+promising approaches to this task.
+Author{1}{Firstname}#=%=#Michelle
+Author{1}{Lastname}#=%=#Morales
+Author{1}{Email}#=%=#mmorales@gradcenter.cuny.edu
+Author{1}{Affiliation}#=%=#CUNY Graduate Center
+Author{2}{Firstname}#=%=#Stefan
+Author{2}{Lastname}#=%=#Scherer
+Author{2}{Email}#=%=#scherer@ict.usc.edu
+Author{2}{Affiliation}#=%=#University of Southern California
+Author{3}{Firstname}#=%=#Rivka
+Author{3}{Lastname}#=%=#Levitan
+Author{3}{Email}#=%=#levitan@sci.brooklyn.cuny.edu
+Author{3}{Affiliation}#=%=#Brooklyn College CUNY
+
+==========

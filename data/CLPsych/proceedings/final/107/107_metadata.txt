@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#107
+FinalPaperTitle#=%=#Natural-language Interactive Narratives in Imaginal Exposure Therapy for Obsessive-Compulsive Disorder
+ShortPaperTitle#=%=#Natural-language Interactive Narratives in Imaginal Exposure Therapy for Obsessive-Compulsive Disorder
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Melissa Roemmele
+JobTitle#==#
+Organization#==#Institute for Creative Technologies, University of Southern California
+12015 Waterfront Dr.
+Los Angeles, CA 90094
+Abstract#==#Obsessive-compulsive disorder (OCD) is an anxiety-based disorder that affects
+around 2.5% of the population. A common treatment for OCD is exposure therapy,
+where the patient repeatedly confronts a feared experience, which has the
+long-term effect of decreasing their anxiety. Some exposures consist of reading
+and writing stories about an imagined anxiety-provoking scenario. In this
+paper, we present a technology that enables patients to interactively
+contribute to exposure stories by supplying natural language input (typed or
+spoken) that advances a scenario. This interactivity could potentially increase
+the patient's sense of immersion in an exposure and contribute to its success.
+We introduce the NLP task behind processing inputs to predict new events in the
+scenario, and describe our initial approach. We then illustrate the future
+possibility of this work with an example of an exposure scenario authored with
+our application.
+Author{1}{Firstname}#=%=#Melissa
+Author{1}{Lastname}#=%=#Roemmele
+Author{1}{Email}#=%=#roemmele@ict.usc.edu
+Author{1}{Affiliation}#=%=#University of Southern California
+Author{2}{Firstname}#=%=#Paola
+Author{2}{Lastname}#=%=#Mardo
+Author{2}{Email}#=%=#pmardo@ict.usc.edu
+Author{2}{Affiliation}#=%=#University of Southern California
+Author{3}{Firstname}#=%=#Andrew
+Author{3}{Lastname}#=%=#Gordon
+Author{3}{Email}#=%=#gordon@ict.usc.edu
+Author{3}{Affiliation}#=%=#Univeristy of Southern California
+
+==========

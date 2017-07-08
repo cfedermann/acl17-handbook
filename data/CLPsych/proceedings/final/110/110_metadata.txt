@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#110
+FinalPaperTitle#=%=#Monitoring Tweets for Depression to Detect At-risk Users
+ShortPaperTitle#=%=#Monitoring Tweets for Depression to Detect At-risk Users
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Diana Inkpen
+JobTitle#==#
+Organization#==#University of Ottawa
+Abstract#==#We propose an automated system that can identify at-risk users from their
+public social media activity, more specifically, from Twitter. The data that we
+collected is from the #BellLetsTalk campaign, which is a wide-reaching,
+multi-year program designed to break the silence around mental illness and
+support mental health across Canada. To achieve our goal, we trained a
+user-level classifier that can detect at-risk users that achieves a reasonable
+precision and recall. We also trained a tweet-level classifier that predicts if
+a tweet indicates depression. This task was much more difficult due to the
+imbalanced data. In the dataset that we labeled, we came across 5% depression
+tweets and 95% non-depression tweets. To handle this class imbalance, we used
+undersampling methods. The resulting classifier had high recall, but low
+precision. Therefore, we only use this classifier to compute the estimated
+percentage of depressed tweets and to add this value as a feature for the
+user-level classifier.
+Author{1}{Firstname}#=%=#Zunaira
+Author{1}{Lastname}#=%=#Jamil
+Author{1}{Email}#=%=#zjami096@uottawa.ca
+Author{1}{Affiliation}#=%=#University of Ottawa
+Author{2}{Firstname}#=%=#Diana
+Author{2}{Lastname}#=%=#Inkpen
+Author{2}{Email}#=%=#diana.inkpen@uottawa.ca
+Author{2}{Affiliation}#=%=#University of Ottawa
+Author{3}{Firstname}#=%=#Prasadith
+Author{3}{Lastname}#=%=#Buddhitha
+Author{3}{Email}#=%=#pkiri056@uottawa.ca
+Author{3}{Affiliation}#=%=#University of Ottawa
+Author{4}{Firstname}#=%=#Kenton
+Author{4}{Lastname}#=%=#White
+Author{4}{Email}#=%=#kenton.white@advancedsymbolics.com
+Author{4}{Affiliation}#=%=#Advanced Symbolics
+
+==========

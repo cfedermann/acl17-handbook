@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#125
+FinalPaperTitle#=%=#A Dictionary-Based Comparison of Autobiographies by People and Murderous Monsters
+ShortPaperTitle#=%=#A Dictionary-Based Comparison of Autobiographies by People and Murderous Monsters
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Micah Iserman
+JobTitle#==#
+Organization#==#Texas Tech University, Department of Psychological Sciences, Lubbock, TX 79409
+Abstract#==#People typically assume that killers are mentally ill or fundamentally
+different from the rest of humanity. Similarly, people often associate mental
+health conditions (such as schizophrenia or autism) with violence and otherness
+- treatable perhaps, but not empathically understandable. We take a dictionary
+approach to explore word use in a set of autobiographies, comparing the
+narratives of 2 killers (Adolf Hitler and Elliot Rodger) and 39 non-killers.
+Although results suggest several dimensions that differentiate these
+autobiographies - such as sentiment, temporal orientation, and references to
+death - they appear to reflect subject matter rather than psychology per se.
+Additionally, the Rodger text shows roughly typical developmental arcs in its
+use of words relating to friends, family, sex, and affect. From these data, we
+discuss the challenges of understanding killers and people in general.
+Author{1}{Firstname}#=%=#Micah
+Author{1}{Lastname}#=%=#Iserman
+Author{1}{Email}#=%=#micah.iserman@ttu.edu
+Author{1}{Affiliation}#=%=#Texas Tech University
+Author{2}{Firstname}#=%=#Molly
+Author{2}{Lastname}#=%=#Ireland
+Author{2}{Email}#=%=#molly.ireland@gmail.com
+Author{2}{Affiliation}#=%=#Texas Tech University
+
+==========
