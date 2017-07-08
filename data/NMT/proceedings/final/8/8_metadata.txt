@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Graph Convolutional Encoders for Syntax-aware Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a simple and effective approach to incorporating syntactic structure
+into NMT  using graph-convolutional networks (GCNs). GCNs can produce
+representations of words that are sensitive to their syntactic neighborhoods.
+We evaluate the effectiveness of our approach on English-German and
+English-Czech translation tasks for different types of encoders and observe
++1.2 and +0.7 BLEU point improvements, respectively, from using syntactic GCNs
+on top of BiRNNs.
+
+This is a submission to the extended abstract track.
+Author{1}{Firstname}#=%=#Joost
+Author{1}{Lastname}#=%=#Bastings
+Author{1}{Email}#=%=#joost.bastings@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Ivan
+Author{2}{Lastname}#=%=#Titov
+Author{2}{Email}#=%=#titov@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+Author{3}{Firstname}#=%=#Wilker
+Author{3}{Lastname}#=%=#Aziz
+Author{3}{Email}#=%=#will.aziz@gmail.com
+Author{3}{Affiliation}#=%=#University of Amsterdam
+Author{4}{Firstname}#=%=#Diego
+Author{4}{Lastname}#=%=#Marcheggiani
+Author{4}{Email}#=%=#marcheggiani@uva.nl
+Author{4}{Affiliation}#=%=#University of Amsterdam
+Author{5}{Firstname}#=%=#Khalil
+Author{5}{Lastname}#=%=#Sima'an
+Author{5}{Email}#=%=#k.simaan@uva.nl
+Author{5}{Affiliation}#=%=#ILLC, University of Amsterdam
+
+==========

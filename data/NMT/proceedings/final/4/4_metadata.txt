@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#An Empirical Study of Adequate Vision Span for Attention-Based Neural Machine Translation
+ShortPaperTitle#=%=#An Empirical Study of Adequate Vision Span for Attention-Based Neural Machine Translation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Raphael Shu
+JobTitle#==#
+Organization#==#University of Tokyo
+7 Chome−３−1, Hongo, Bunkyo, Tokyo, Japan
+Abstract#==#Recently, the attention mechanism plays a key role to achieve high performance
+for Neural Machine Translation models. However, as it computes a score function
+for the encoder states in all positions at each decoding step, the attention
+model greatly increases the computational complexity. In this paper, we
+investigate the adequate vision span of attention models in the context of
+machine translation, by proposing a novel attention framework that is capable
+of reducing redundant score computation dynamically. The term "vision span"'
+means a window of the encoder states considered by the attention model in one
+step. In our experiments, we found that the average window size of vision span
+can be reduced by over 50% with modest loss in accuracy on English-Japanese and
+German-English translation tasks.
+Author{1}{Firstname}#=%=#Raphael
+Author{1}{Lastname}#=%=#Shu
+Author{1}{Email}#=%=#shu@nlab.ci.i.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Hideki
+Author{2}{Lastname}#=%=#Nakayama
+Author{2}{Email}#=%=#nakayama@nlab.ci.i.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#The University of Tokyo
+
+==========

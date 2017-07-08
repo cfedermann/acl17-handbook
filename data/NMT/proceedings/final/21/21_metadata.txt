@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Six Challenges for Neural Machine Translation
+ShortPaperTitle#=%=#Six Challenges for Neural Machine Translation
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Rebecca Knowles
+JobTitle#==#
+Organization#==#Johns Hopkins University
+Abstract#==#We explore six challenges for neural machine translation: domain mismatch,
+amount of training data, rare words, long sentences, word alignment, and beam
+search. We show both deficiencies and improvements over the quality of
+phrase-based statistical machine translation.
+Author{1}{Firstname}#=%=#Philipp
+Author{1}{Lastname}#=%=#Koehn
+Author{1}{Email}#=%=#phi@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Rebecca
+Author{2}{Lastname}#=%=#Knowles
+Author{2}{Email}#=%=#rknowles@jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Domain Aware Neural Dialogue System
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Chat systems have increasingly grown in importance with the widespread use of
+technology. This has spurred the development of open-domain dialog systems
+through neural models. These focus on generating long, relevant and informative
+responses to user queries. We present a novel approach to build a domain-aware
+neural dialog system to achieve the same. Our approach is based on the
+observation that each utterance in a conversation lies in a specific domain,
+the shift in domains is smooth and that the context in a conversation plays a
+vital role in deciding the response. To incorporate this observation, we
+propose two domain-aware models : a non-neural ensemble and a recurrent neural
+network based model that together with domain-specific sequence-to-sequence
+models generate pertinent responses. We evaluate these models on automatic
+metrics and compare the results to that of the Seq2Seq model. This is a
+submission to the extended abstract track.
+Author{1}{Firstname}#=%=#Sajal
+Author{1}{Lastname}#=%=#Choudhary
+Author{1}{Email}#=%=#sajal@seas.upenn.edu
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Prerna
+Author{2}{Lastname}#=%=#Srivastava
+Author{2}{Email}#=%=#prernasr@seas.upenn.edu
+Author{2}{Affiliation}#=%=#University Of Pennsylvania
+Author{3}{Firstname}#=%=#Joao
+Author{3}{Lastname}#=%=#Sedoc
+Author{3}{Email}#=%=#joao@cis.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylviania
+Author{4}{Firstname}#=%=#Lyle
+Author{4}{Lastname}#=%=#Ungar
+Author{4}{Email}#=%=#ungar@cis.upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+
+==========

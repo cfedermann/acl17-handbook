@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Interactive Beam Search for Visualizing Neural Machine Translation (extended abstract)
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#While neural machine translation has been
+successful due to significantly better translation
+quality, it is hard to understand how
+and why such translation has been generated.
+To help the analysis, we propose an
+interactive beam search decoder, a webbased
+tool for visualizing and analyzing
+decoder behavior. We also propose methods
+and tool interfaces to modify attention
+layer of decoder and to observe its corresponding
+change. Finally, we show preliminary
+analysis of NMT behavior found
+with the tool we propose.
+
+This is a submission to the extended abstract track.
+Author{1}{Firstname}#=%=#Jaesong
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#jaesong.lee@navercorp.com
+Author{1}{Affiliation}#=%=#Naver Corp.
+Author{2}{Firstname}#=%=#JoongHwi
+Author{2}{Lastname}#=%=#Shin
+Author{2}{Email}#=%=#joonghwi.shin@navercorp.com
+Author{2}{Affiliation}#=%=#Naver Corp.
+Author{3}{Firstname}#=%=#Jun-Seok
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#jun.seok@navercorp.com
+Author{3}{Affiliation}#=%=#Naver Corp.
+
+==========

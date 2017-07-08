@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Analyzing Neural MT Search and Model Performance
+ShortPaperTitle#=%=#Analyzing Neural MT Search and Model Performance
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Jan Niehues
+JobTitle#==#
+Organization#==#Karlsruhe Institute of Technology
+Abstract#==#In this paper, we offer an in-depth analysis about the modeling and search
+performance. We address the question if a more complex search algorithm is
+necessary. Furthermore, we investigate the question if more complex models
+which might only be applicable during rescoring are promising.
+
+By separating the search space and the modeling using n-best list reranking, we
+analyze the influence of both parts of an NMT system independently. By
+comparing differently performing NMT systems, we show that the better
+translation is already in the search space of the translation systems with less
+performance. This results indicate that the current search algorithms are
+sufficient for the NMT systems. Furthermore, we could show that even a
+relatively small $n$-best list of $50$ hypotheses already contain notably
+better translations.
+Author{1}{Firstname}#=%=#Jan
+Author{1}{Lastname}#=%=#Niehues
+Author{1}{Email}#=%=#jan.niehues@kit.edu
+Author{1}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{2}{Firstname}#=%=#Eunah
+Author{2}{Lastname}#=%=#Cho
+Author{2}{Email}#=%=#eunah.cho@kit.edu
+Author{2}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{3}{Firstname}#=%=#Thanh-Le
+Author{3}{Lastname}#=%=#Ha
+Author{3}{Email}#=%=#thanh-le.ha@kit.edu
+Author{3}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{4}{Firstname}#=%=#Alex
+Author{4}{Lastname}#=%=#Waibel
+Author{4}{Email}#=%=#alex.waibel@kit.edu
+Author{4}{Affiliation}#=%=#Karlsruhe Institute of Technology
+
+==========

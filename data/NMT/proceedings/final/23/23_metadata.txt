@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Detecting Cross-Lingual Semantic Divergence for Neural Machine Translation
+ShortPaperTitle#=%=#Detecting Cross-Lingual Semantic Divergence for Neural Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Marine Carpuat
+JobTitle#==#
+Organization#==#University of Maryland
+Department of Computer Science
+College Park, MD
+Abstract#==#Parallel corpora are often not as parallel as one might assume: non-literal
+translations and noisy translations abound, even in curated corpora routinely
+used for training and evaluation. We use a cross-lingual textual entailment
+system to distinguish sentence pairs that are parallel in meaning from those
+that are not, and show that filtering out divergent examples from training
+improves translation quality.
+Author{1}{Firstname}#=%=#Marine
+Author{1}{Lastname}#=%=#Carpuat
+Author{1}{Email}#=%=#marine@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Yogarshi
+Author{2}{Lastname}#=%=#Vyas
+Author{2}{Email}#=%=#yogarshi@cs.umd.edu
+Author{2}{Affiliation}#=%=#University of Maryland
+Author{3}{Firstname}#=%=#Xing
+Author{3}{Lastname}#=%=#Niu
+Author{3}{Email}#=%=#xingniu@cs.umd.edu
+Author{3}{Affiliation}#=%=#University of Maryland, College Park
+
+==========

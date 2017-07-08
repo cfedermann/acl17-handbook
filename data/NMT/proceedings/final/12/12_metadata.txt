@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Cost Weighting for Neural Machine Translation Domain Adaptation
+ShortPaperTitle#=%=#Cost Weighting for NMT Domain Adaptation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we propose a new domain adaptation technique for neural machine
+translation called cost weighting, which is appropriate for adaptation
+scenarios in which a small in-domain data set and a large general-domain data
+set are available. Cost weighting incorporates a domain classifier into the
+neural machine translation training algorithm, using features derived from the
+encoder representation in order to distinguish in-domain from out-of-domain
+data. Classifier probabilities are used to weight sentences according to their
+domain similarity when updating the parameters of the neural translation model.
+We compare cost weighting to two traditional domain adaptation techniques
+developed for statistical machine translation: data selection and sub-corpus
+weighting. Experiments on two large-data tasks show that both the traditional
+techniques and our novel proposal lead to significant gains, with cost
+weighting outperforming the traditional methods.
+Author{1}{Firstname}#=%=#Boxing
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#boxing.chen@cnrc-nrc.gc.ca
+Author{1}{Affiliation}#=%=#NRC
+Author{2}{Firstname}#=%=#Colin
+Author{2}{Lastname}#=%=#Cherry
+Author{2}{Email}#=%=#colin.a.cherry@gmail.com
+Author{2}{Affiliation}#=%=#NRC
+Author{3}{Firstname}#=%=#George
+Author{3}{Lastname}#=%=#Foster
+Author{3}{Email}#=%=#geord.foster@gmail.com
+Author{3}{Affiliation}#=%=#National Research Council
+Author{4}{Firstname}#=%=#Samuel
+Author{4}{Lastname}#=%=#Larkin
+Author{4}{Email}#=%=#Samuel.Larkin@nrc-cnrc.gc.ca
+Author{4}{Affiliation}#=%=#NRC
+
+==========

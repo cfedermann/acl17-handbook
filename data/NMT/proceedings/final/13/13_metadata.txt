@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Detecting Untranslated Content for Neural Machine Translation
+ShortPaperTitle#=%=#Detecting Untranslated Content for Neural Machine Translation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Isao Goto
+JobTitle#==#
+Organization#==#Isao Goto
+1-10-11 Kinuta, Setagaya-ku, Tokyo 157-8510, Japan
+Abstract#==#Despite its promise, neural machine translation (NMT) has a serious problem in
+that source content may be mistakenly left untranslated. The ability to detect
+untranslated content is important for the practical use of NMT. We evaluate two
+types of probability with which to detect untranslated content: the cumulative
+attention (ATN) probability and back translation (BT) probability from the
+target sentence to the source sentence. Experiments on detecting untranslated
+content in Japanese-English patent translations show that ATN and BT are each
+more effective than random choice, BT is more effective than ATN, and the
+combination of the two provides further improvements. We also confirmed the
+effectiveness of using ATN and BT to rerank the n-best NMT outputs.
+Author{1}{Firstname}#=%=#Isao
+Author{1}{Lastname}#=%=#Goto
+Author{1}{Email}#=%=#goto.i-es@nhk.or.jp
+Author{1}{Affiliation}#=%=#NHK
+Author{2}{Firstname}#=%=#Hideki
+Author{2}{Lastname}#=%=#Tanaka
+Author{2}{Email}#=%=#tanaka.h-ja@nhk.or.jp
+Author{2}{Affiliation}#=%=#NHK
+
+==========
