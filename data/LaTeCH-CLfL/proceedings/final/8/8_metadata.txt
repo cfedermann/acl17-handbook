@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Phonological Soundscapes in Medieval Poetry
+ShortPaperTitle#=%=#Phonological Soundscapes in Medieval Poetry
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Christopher Hench
+JobTitle#==#Author
+Organization#==#UC Berkeley
+Berkeley, CA 94720, USA
+Abstract#==#The oral component of medieval poetry was integral to its performance and
+reception. Yet many believe that the medieval voice has been forever lost, and
+any attempts at rediscovering it are doomed to failure due to scribal
+practices, manuscript mouvance, and linguistic normalization in editing
+practices. This paper offers a method to abstract from this noise and better
+understand relative differences in phonological soundscapes by considering
+syllable qualities. The presented syllabification method and soundscape
+analysis offer themselves as cross-disciplinary tools for low-resource
+languages. As a case study, we examine medieval German lyric and argue that the
+heavily debated lyrical ‘I’ follows a unique trajectory through
+soundscapes, shedding light on the performance and practice of these poets.
+Author{1}{Firstname}#=%=#Christopher
+Author{1}{Lastname}#=%=#Hench
+Author{1}{Email}#=%=#chench@berkeley.edu
+Author{1}{Affiliation}#=%=#University of California Berkeley
+
+==========

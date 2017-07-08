@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Investigating the Relationship between Literary Genres and Emotional Plot Development
+ShortPaperTitle#=%=#Investigating the Relationship between Literary Genres and Emotional Plot Development
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Roman Klinger
+JobTitle#==#
+Organization#==#Institute für Maschinelle Sprachverarbeitung, Universität Stuttgart, Pfaffenwaldring 5b, 70569 Stuttgart
+Abstract#==#Literary genres are commonly viewed as being defined in terms of content and
+stylistic features. In this paper, we focus on one particular class of lexical
+features, namely emotion information, and investigate the hypothesis that
+emotion-related information correlates with particular genres. Us- ing genre
+classification as a testbed, we compare a model that computes lexicon- based
+emotion scores globally for complete stories with a model that tracks emotion
+arcs through stories on a subset of Project Gutenberg with five genres.
+Our main findings are: (a), the global emotion model is competitive with a
+large-vocabulary bag-of-words genre classifier (80%F1); (b), the emotion arc
+model shows a lower performance (59 % F1) but shows complementary behavior to
+the global model, as indicated by a very good performance of an oracle model
+(94 % F1) and an improved performance of an ensemble model (84 % F1); (c),
+genres differ in the extent to which stories follow the same emotional arcs,
+with particularly uniform behavior for anger (mystery) and fear (ad- ventures,
+romance, humor, science fiction).
+Author{1}{Firstname}#=%=#Evgeny
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#evgeny.kim@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#Stuttgart University
+Author{2}{Firstname}#=%=#Sebastian
+Author{2}{Lastname}#=%=#Padó
+Author{2}{Email}#=%=#pado@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#Stuttgart University
+Author{3}{Firstname}#=%=#Roman
+Author{3}{Lastname}#=%=#Klinger
+Author{3}{Email}#=%=#roman.klinger@ims.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#University of Stuttgart
+
+==========

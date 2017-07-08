@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#An Ontology-Based Method for Extracting and Classifying Domain-Specific Compositional Nominal Compounds
+ShortPaperTitle#=%=#An Ontology-Based Method for Extracting and Classifying Domain-Specific Compositional Nominal Compounds
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Maria Pia di Buono
+JobTitle#==#
+Organization#==#Faculty of Electrical Engineering and Computing - University of Zagreb, Croatia - Unska 3, 10000 Zagreb, Croatia
+Abstract#==#In this paper, we present our preliminary
+study on an ontology-based method to extract
+and classify compositional nominal
+compounds in specific domains of knowledge.
+This method is based on the assumption
+that, applying a conceptual model to
+represent knowledge domain, it is possible
+to improve the extraction and classification
+of lexicon occurrences for that domain
+in a semi-automatic way. We explore
+the possibility of extracting and classifying
+a specific construction type (nominal
+compounds) spanning a specific domain
+(Cultural Heritage) and a specific
+language (Italian).
+Author{1}{Firstname}#=%=#Maria Pia
+Author{1}{Lastname}#=%=#di Buono
+Author{1}{Email}#=%=#mariapia.dibuono@fer.hr
+Author{1}{Affiliation}#=%=#University of Zagreb
+
+==========

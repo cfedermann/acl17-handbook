@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Annotation Challenges for Reconstructing the Structural Elaboration of Middle Low German
+ShortPaperTitle#=%=#Annotation Challenges for Reconstructing the Structural Elaboration of Middle Low German
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Michaela Geierhos
+JobTitle#==#
+Organization#==#Paderborn University, Warburger Str. 100, D-33098 Paderborn, Germany
+Abstract#==#In this paper, we present the annotation challenges we have encountered when
+working on a historical language that was undergoing elaboration processes. We
+especially focus on syntactic ambiguity and gradience in Middle Low German,
+which causes uncertainty to some extent. Since current annotation tools
+consider construction contexts and the dynamics of the grammaticalization only
+partially, we plan to extend CorA - a web-based annotation tool for historical
+and other non-standard language data - to capture elaboration phenomena and
+annotator unsureness. Moreover, we seek to interactively learn morphological as
+well as syntactic annotations.
+Author{1}{Firstname}#=%=#Nina
+Author{1}{Lastname}#=%=#Seemann
+Author{1}{Email}#=%=#seemann@hni.uni-paderborn.de
+Author{1}{Affiliation}#=%=#University of Paderborn
+Author{2}{Firstname}#=%=#Marie-Luis
+Author{2}{Lastname}#=%=#Merten
+Author{2}{Email}#=%=#mlmerten@mail.upb.de
+Author{2}{Affiliation}#=%=#University of Paderborn
+Author{3}{Firstname}#=%=#Michaela
+Author{3}{Lastname}#=%=#Geierhos
+Author{3}{Email}#=%=#geierhos@hni.upb.de
+Author{3}{Affiliation}#=%=#University of Paderborn, Heinz Nixdorf Institute
+Author{4}{Firstname}#=%=#Doris
+Author{4}{Lastname}#=%=#Tophinke
+Author{4}{Email}#=%=#doris.tophinke@upb.de
+Author{4}{Affiliation}#=%=#University of Paderborn
+Author{5}{Firstname}#=%=#Eyke
+Author{5}{Lastname}#=%=#Hüllermeier
+Author{5}{Email}#=%=#eyke@upb.de
+Author{5}{Affiliation}#=%=#University of Paderborn
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Machine Translation and Automated Analysis of the Sumerian Language
+ShortPaperTitle#=%=#Machine Translation and Automated Analysis of the Sumerian Language
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Émilie Pagé-Perron
+JobTitle#==#
+Organization#==#University of Toronto
+27 King's College Cir,
+Toronto, ON M5S, Canada
+Abstract#==#This paper presents a newly funded international project for machine
+translation and automated analysis of ancient cuneiform languages where NLP
+specialists and Assyriologists collaborate to create an information retrieval
+system for Sumerian. This research is conceived in response to the need to
+translate large numbers of administrative texts that are only available in
+transcription, in order to make them accessible to a wider audience. The
+methodology includes creation of a specialized NLP pipeline and also the use of
+linguistic linked open data to increase access to the results.
+Author{1}{Firstname}#=%=#Émilie
+Author{1}{Lastname}#=%=#Pagé-Perron
+Author{1}{Email}#=%=#epageperron@gmail.com
+Author{1}{Affiliation}#=%=#University of Toronto
+Author{2}{Firstname}#=%=#Maria
+Author{2}{Lastname}#=%=#Sukhareva
+Author{2}{Email}#=%=#sukhareva@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{3}{Firstname}#=%=#Ilya
+Author{3}{Lastname}#=%=#Khait
+Author{3}{Email}#=%=#ekh.itd@gmail.com
+Author{3}{Affiliation}#=%=#Leipzig University
+Author{4}{Firstname}#=%=#Christian
+Author{4}{Lastname}#=%=#Chiarcos
+Author{4}{Email}#=%=#christian.chiarcos@web.de
+Author{4}{Affiliation}#=%=#Goethe-Universität Frankfurt am Main
+
+==========

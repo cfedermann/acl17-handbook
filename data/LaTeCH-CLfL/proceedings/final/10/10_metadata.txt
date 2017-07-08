@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#A Dataset for Sanskrit Word Segmentation
+ShortPaperTitle#=%=#A Dataset for Sanskrit Word Segmentation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Amrith Krishna
+JobTitle#==#
+Organization#==#IIT Kharagpur, West Bengal, India
+Abstract#==#The last decade saw a surge in digitisation efforts for ancient manuscripts in
+Sanskrit. Due to various linguistic peculiarities inherent to the language,
+even the preliminary tasks such as word segmentation are non-trivial in
+Sanskrit. Elegant models for Word Segmentation in Sanskrit are indispensable
+for further syntactic and semantic processing of the manuscripts. Current works
+in word segmentation for Sanskrit, though commendable in their novelty, often
+have variations in their objective and evaluation criteria. In this work, we
+set the record straight. We formally define the objectives and the requirements
+for the word segmentation task. In order to encourage research in the field and
+to alleviate the time and effort required in pre-processing, we release a
+dataset of 115,000 sentences for word segmentation. For each sentence in the
+dataset we include the input character sequence, ground truth segmentation, and
+additionally lexical and morphological information about all the phonetically
+possible segments for the given sentence. In this work, we also discuss the
+linguistic considerations made while generating the candidate space of the
+possible segments.
+Author{1}{Firstname}#=%=#Amrith
+Author{1}{Lastname}#=%=#Krishna
+Author{1}{Email}#=%=#amrith@iitkgp.ac.in
+Author{1}{Affiliation}#=%=#IIT Kharagpur
+Author{2}{Firstname}#=%=#Pavan Kumar
+Author{2}{Lastname}#=%=#Satuluri
+Author{2}{Email}#=%=#pavankumarsatuluri@gmail.com
+Author{2}{Affiliation}#=%=#IIT Kharagpur
+Author{3}{Firstname}#=%=#Pawan
+Author{3}{Lastname}#=%=#Goyal
+Author{3}{Email}#=%=#pawang.iitk@gmail.com
+Author{3}{Affiliation}#=%=#IIT Kharagpur
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#An End-to-end Environment for Research Question-Driven Entity Extraction and Network Analysis
+ShortPaperTitle#=%=#An End-to-end Environment for Research Question-Driven Entity Extraction and Network Analysis
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Nils Reiter
+JobTitle#==#
+Organization#==#Institut für Maschinelle Sprachverarbeitung
+Pfaffenwaldring 5b
+70569 Stuttgart
+Germany
+Abstract#==#This paper presents an approach to extract co-occurrence networks from literary
+texts. It is a deliberate decision not to aim for a fully automatic pipeline,
+as the literary research questions need to guide both the definition of the
+nature of the things that co-occur as well as how to decide co-occurrence. We
+showcase the approach on a Middle High German romance, \parz. Manual inspection
+and discussion shows the huge impact various choices  have.
+Author{1}{Firstname}#=%=#Andre
+Author{1}{Lastname}#=%=#Blessing
+Author{1}{Email}#=%=#andre.blessing@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#Stuttgart University
+Author{2}{Firstname}#=%=#Nora
+Author{2}{Lastname}#=%=#Echelmeyer
+Author{2}{Email}#=%=#nora.echelmeyer@ilw.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#Stuttgart University
+Author{3}{Firstname}#=%=#Markus
+Author{3}{Lastname}#=%=#John
+Author{3}{Email}#=%=#markus.john@vis.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#Stuttgart University
+Author{4}{Firstname}#=%=#Nils
+Author{4}{Lastname}#=%=#Reiter
+Author{4}{Email}#=%=#nils.reiter@ims.uni-stuttgart.de
+Author{4}{Affiliation}#=%=#Stuttgart University
+
+==========

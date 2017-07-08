@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Finding a Character’s Voice: Stylome Classification on Literary Characters
+ShortPaperTitle#=%=#Finding a Character’s Voice: Stylome Classification on Literary Characters
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ana-Sabina Uban
+JobTitle#==#
+Organization#==#Faculty of Mathematics and Computer Science, University of Bucharest,
+Str. Academiei nr. 14, sector 1, C.P. 010014, Bucuresti, Romania
+Abstract#==#We investigate in this paper the problem of classifying the stylome of
+characters in a literary work. Previous research in the field of authorship
+attribution has shown that the writing style of an author can be characterized
+and distinguished from that of other authors automatically. In this paper we
+take a look at the less approached problem of how the styles of different
+characters can be distinguished, trying to verify if an author managed to
+create believable characters with individual styles. We present the results of
+some initial experiments developed on the novel "Liaisons Dangereuses", showing
+that a
+simple bag of words model can be used to classify the characters.
+Author{1}{Firstname}#=%=#Liviu P.
+Author{1}{Lastname}#=%=#Dinu
+Author{1}{Email}#=%=#liviu.p.dinu@gmail.com
+Author{1}{Affiliation}#=%=#University of Bucharest
+Author{2}{Firstname}#=%=#Ana Sabina
+Author{2}{Lastname}#=%=#Uban
+Author{2}{Email}#=%=#ana.uban@gmail.com
+Author{2}{Affiliation}#=%=#University of Bucharest
+
+==========

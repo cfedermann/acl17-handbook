@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Distantly Supervised POS Tagging of Low-Resource Languages under Extreme Data Sparsity: The Case of Hittite
+ShortPaperTitle#=%=#Distantly Supervised POS Tagging of Low-Resource Languages under Extreme Data Sparsity: The Case of Hittite
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents a statistical approach to automatic morphosyntactic
+annotation of Hittite transcripts. Hittite is an extinct Indo-European language
+using the cuneiform script. There are currently no morphosyntactic annotations
+available for Hittite, so we explored methods of distant supervision. The
+annotations were projected from parallel German translations of the Hittite
+texts. In order to reduce data sparsity, we applied stemming of German and
+Hittite texts. As there is no off-the-shelf Hittite stemmer, a stemmer for
+Hittite was developed for this purpose. The resulting annotation projections
+were used to train a POS tagger, achieving an accuracy of 69% on a test sample.
+To our knowledge, this is the first attempt of statistical POS tagging of a
+cuneiform language.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Sukhareva
+Author{1}{Email}#=%=#sukhareva@ukp.informatik.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Francesco
+Author{2}{Lastname}#=%=#Fuscagni
+Author{2}{Email}#=%=#Francesco.Fuscagni@adwmainz.de
+Author{2}{Affiliation}#=%=#The Institute of Ancient Studies, Johannes Gutenberg University Mainz
+Author{3}{Firstname}#=%=#Johannes
+Author{3}{Lastname}#=%=#Daxenberger
+Author{3}{Email}#=%=#daxenberger@ukp.informatik.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{4}{Firstname}#=%=#Susanne
+Author{4}{Lastname}#=%=#Görke
+Author{4}{Email}#=%=#susanne.goerke@adwmainz.de
+Author{4}{Affiliation}#=%=#Akademie der Wissenschaften und der Literatur Mainz, Philipps-Universität Marburg
+Author{5}{Firstname}#=%=#Doris
+Author{5}{Lastname}#=%=#Prechel
+Author{5}{Email}#=%=#prechel@uni-mainz.de
+Author{5}{Affiliation}#=%=#The Institute of Ancient Studies, Johannes Gutenberg University Mainz
+Author{6}{Firstname}#=%=#Iryna
+Author{6}{Lastname}#=%=#Gurevych
+Author{6}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{6}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

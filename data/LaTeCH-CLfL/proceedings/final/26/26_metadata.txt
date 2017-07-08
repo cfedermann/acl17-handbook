@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Speeding up corpus development for linguistic research: language documentation and acquisition in Romansh Tuatschin
+ShortPaperTitle#=%=#Corpus development for linguistic research (Romansh Tuatschin)
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Géraldine Walther
+JobTitle#==#
+Organization#==#University of Zurich
+Department of Comparative Linguistics
+Plattenstrasse 54
+8037 Zurich
+Switzerland
+Abstract#==#In this paper, we present ongoing work for developing language resources and
+basic NLP tools for an undocumented variety of Romansh, in the context of a
+language documentation and language acquisition project. Our tools are meant to
+improve the speed and reliability of corpus annotations for noisy data
+involving large amounts of code-switching, occurrences of child-speech and
+orthographic noise. Being able to increase the efficiency of language resource
+development for language documentation and acquisition research also
+constitutes a step towards solving the data sparsity issues with which
+researchers have been struggling.
+Author{1}{Firstname}#=%=#Géraldine
+Author{1}{Lastname}#=%=#Walther
+Author{1}{Email}#=%=#geraldine.walther@uzh.ch
+Author{1}{Affiliation}#=%=#University of Zurich
+Author{2}{Firstname}#=%=#Benoît
+Author{2}{Lastname}#=%=#Sagot
+Author{2}{Email}#=%=#benoit.sagot@inria.fr
+Author{2}{Affiliation}#=%=#Inria
+
+==========

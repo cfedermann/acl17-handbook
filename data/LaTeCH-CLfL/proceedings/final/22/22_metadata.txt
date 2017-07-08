@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Enjambment Detection in a Large Diachronic Corpus of Spanish Sonnets
+ShortPaperTitle#=%=#Enjambment Detection in a Large Diachronic Corpus of Spanish Sonnets
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Pablo Ruiz
+JobTitle#==#
+Organization#==#Lattice Lab
+1 rue Maurice Arnoux, 92120 Montrouge
+Abstract#==#Enjambment takes place when a syntactic unit is broken up across two lines of
+poetry, giving rise to different stylistic effects. In Spanish literary
+studies, there are unclear points about the types of stylistic effects that can
+arise, and under which linguistic conditions. To systematically gather evidence
+about this, we developed a system to automatically identify enjambment (and its
+type) in Spanish. For evaluation, we manually annotated a reference corpus
+covering different periods. As a scholarly corpus to apply the tool, from
+public HTML sources we created a diachronic corpus covering four centuries of
+sonnets (3750 poems), and we analyzed the occurrence of enjambment across
+stanzaic boundaries in different periods. Besides, we found examples that
+highlight limitations in current definitions of enjambment.
+Author{1}{Firstname}#=%=#Pablo
+Author{1}{Lastname}#=%=#Ruiz
+Author{1}{Email}#=%=#pabloruizfabo@gmail.com
+Author{1}{Affiliation}#=%=#LATTICE Lab, ENS
+Author{2}{Firstname}#=%=#Clara
+Author{2}{Lastname}#=%=#Martínez Cantón
+Author{2}{Email}#=%=#cimartinez@flog.uned.es
+Author{2}{Affiliation}#=%=#Dept. of Spanish Literature and Literary Theory, UNED
+Author{3}{Firstname}#=%=#Thierry
+Author{3}{Lastname}#=%=#Poibeau
+Author{3}{Email}#=%=#thierry.poibeau@ens.fr
+Author{3}{Affiliation}#=%=#LATTICE-CNRS
+Author{4}{Firstname}#=%=#Elena
+Author{4}{Lastname}#=%=#González-Blanco
+Author{4}{Email}#=%=#elenagbg@gmail.com
+Author{4}{Affiliation}#=%=#UNED
+
+==========

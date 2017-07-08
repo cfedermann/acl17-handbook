@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Lexical Correction of Polish Twitter Political Data
+ShortPaperTitle#=%=#Lexical Correction of Polish Twitter Political Data
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Maciej Ogrodniczuk
+JobTitle#==#Assistant Professor
+Organization#==#Institute of Computer Science, Polish Academy of Sciences
+Abstract#==#Language processing architectures are often evaluated in near-to-perfect
+conditions with respect to processed content. The tools which perform
+sufficiently well on electronic press, books and other type of non-interactive
+content may poorly handle littered, colloquial and multilingual textual data
+which make the majority of communication today. This paper aims at
+investigating how Polish Twitter data (in a slightly controlled `political'
+flavour) differs from expectation of linguistic tools and how they could be
+corrected to be ready for processing by standard language processing chains
+available for Polish. The setting includes specialised components for spelling
+correction of tweets as well as hashtag and username decoding.
+Author{1}{Firstname}#=%=#Maciej
+Author{1}{Lastname}#=%=#Ogrodniczuk
+Author{1}{Email}#=%=#maciej.ogrodniczuk@gmail.com
+Author{1}{Affiliation}#=%=#Institute of Computer Science, Polish Academy of Sciences
+Author{2}{Firstname}#=%=#Mateusz
+Author{2}{Lastname}#=%=#Kopeć
+Author{2}{Email}#=%=#m.kopec@ipipan.waw.pl
+Author{2}{Affiliation}#=%=#Institute of Computer Science, Polish Academy of Sciences
+
+==========

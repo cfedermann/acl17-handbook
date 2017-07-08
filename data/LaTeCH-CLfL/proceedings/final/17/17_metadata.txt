@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Modeling intra-textual variation with entropy and surprisal: topical vs. stylistic patterns
+ShortPaperTitle#=%=#Modeling intra-textual variation with entropy and surprisal: topical vs. stylistic patterns
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Stefania Degaetano-Ortlieb
+JobTitle#==#
+Organization#==#Saarland University
+Campus A2.2
+66123 Saarbrücken
+Abstract#==#We present a data-driven approach to investigate
+intra-textual variation by combining
+entropy and surprisal. With this
+approach we detect linguistic variation
+based on phrasal lexico-grammatical patterns
+across sections of research articles.
+Entropy is used to detect patterns typical
+of specific sections. Surprisal is used
+to differentiate between more and less
+informationally-loaded patterns as well as
+type of information (topical vs. stylistic).
+While we here focus on research articles in
+biology/genetics, the methodology is especially
+interesting for digital humanities
+scholars, as it can be applied to any text
+type or domain and combined with additional
+variables (e.g. time, author or social
+group).
+Author{1}{Firstname}#=%=#Stefania
+Author{1}{Lastname}#=%=#Degaetano-Ortlieb
+Author{1}{Email}#=%=#s.degaetano@mx.uni-saarland.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Elke
+Author{2}{Lastname}#=%=#Teich
+Author{2}{Email}#=%=#e.teich@mx.uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+
+==========

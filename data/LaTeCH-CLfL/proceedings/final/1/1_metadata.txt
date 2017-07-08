@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Plotting Markson's "Mistress"
+ShortPaperTitle#=%=#Plotting Markson's "Mistress"
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Mark Keane
+JobTitle#==#
+Organization#==#School of Computer Science
+University College Dublin
+Dublin, Ireland
+Abstract#==#The post-modern novel “Wittgenstein’s Mistress” by David Markson (1988)
+presents the reader with a very challenging non-linear narrative, that itself
+appears to one of the novel’s themes. We present a distant reading of this
+work designed to complement a close reading of it by David Foster Wallace
+(1990).   Using a combination of text analysis, entity recognition and
+networks, we plot repetitive structures in the novel’s narrative relating
+them to its critical analysis.
+Author{1}{Firstname}#=%=#Conor
+Author{1}{Lastname}#=%=#Kelleher
+Author{1}{Email}#=%=#conor.kelleher.1@ucdconnect.ie
+Author{1}{Affiliation}#=%=#University College Dublin
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Keane
+Author{2}{Email}#=%=#mark.keane@ucd.ie
+Author{2}{Affiliation}#=%=#University College Dublin
+
+==========

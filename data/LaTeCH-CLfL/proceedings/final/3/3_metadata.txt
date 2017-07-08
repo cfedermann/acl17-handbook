@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Metaphor Detection in a Poetry Corpus
+ShortPaperTitle#=%=#Metaphor Detection in a Poetry Corpus
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Stan Szpakowicz
+JobTitle#==#
+Organization#==#School of Electrical Engineering and Computer Science
+University of Ottawa
+Ottawa, Ontario, Canada
+Abstract#==#Metaphor is indispensable in poetry. It showcases the poet's creativity, and
+contributes to the overall emotional pertinence of the poem while honing its
+specific rhetorical impact. Previous work on metaphor detection relies on
+either rule-based or statistical models, none of them applied to poetry. Our
+method focuses on metaphor detection in a poetry corpus. It combines rule-based
+and statistical models (word embeddings) to develop a new classification
+system. Our system has achieved a precision of 0.759 and a recall of 0.804 in
+identifying one type of metaphor in poetry.
+Author{1}{Firstname}#=%=#Vaibhav
+Author{1}{Lastname}#=%=#Kesarwani
+Author{1}{Email}#=%=#vkesa079@uottawa.ca
+Author{1}{Affiliation}#=%=#University of Ottawa
+Author{2}{Firstname}#=%=#Diana
+Author{2}{Lastname}#=%=#Inkpen
+Author{2}{Email}#=%=#diana.inkpen@uottawa.ca
+Author{2}{Affiliation}#=%=#University of Ottawa
+Author{3}{Firstname}#=%=#Stan
+Author{3}{Lastname}#=%=#Szpakowicz
+Author{3}{Email}#=%=#szpak@eecs.uottawa.ca
+Author{3}{Affiliation}#=%=#EECS, University of Ottawa
+Author{4}{Firstname}#=%=#Chris
+Author{4}{Lastname}#=%=#Tanasescu
+Author{4}{Email}#=%=#margento.official@gmail.com
+Author{4}{Affiliation}#=%=#EECS, University o Ottawa
+
+==========
