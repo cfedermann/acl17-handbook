@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#67
+FinalPaperTitle#=%=#Learning when to skim and when to read
+ShortPaperTitle#=%=#Learning when to skim and when to read
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Alexander Rosenberg Johansen
+JobTitle#==#
+Organization#==#172 University Ave, Palo Alto, CA 94301
+Abstract#==#Many recent advances in deep learning for natural language processing have come
+at increasing computational cost, but the power of these state-of-the-art
+models is not needed for every example in a dataset. We demonstrate two
+approaches to reducing unnecessary computation in cases where a fast but weak
+baseline classier and a stronger, slower model are both available. Applying an
+AUC-based metric to the task of sentiment classification, we find significant
+efficiency gains with both a probability-threshold method for reducing
+computational cost and one that uses a secondary decision network.
+Author{1}{Firstname}#=%=#Alexander
+Author{1}{Lastname}#=%=#Johansen
+Author{1}{Email}#=%=#ajohansen@salesforce.com
+Author{1}{Affiliation}#=%=#Salesforce
+Author{2}{Firstname}#=%=#Richard
+Author{2}{Lastname}#=%=#Socher
+Author{2}{Email}#=%=#richard@socher.org
+Author{2}{Affiliation}#=%=#Stanford University
+
+==========

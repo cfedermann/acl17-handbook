@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#57
+FinalPaperTitle#=%=#Rethinking Skip-thought: A Neighborhood based Approach
+ShortPaperTitle#=%=#Rethinking Skip-thought: A Neighborhood based Approach
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Shuai Tang
+JobTitle#==#
+Organization#==#University of California, San Diego
+9500 Gilman Dr., La Jolla, CA, USA
+Abstract#==#We study the skip-thought model with neighborhood information as weak
+supervision. More specifically, we propose a skip-thought neighbor model to
+consider the adjacent sentences as a neighborhood. We train our skip-thought
+neighbor model on a large corpus with continuous sentences, and then evaluate
+the trained model on 7 tasks, which include semantic relatedness, paraphrase
+detection, and classification benchmarks. Both quantitative comparison and
+qualitative investigation are conducted. We empirically show that, our
+skip-thought neighbor model performs as well as the skip-thought model on
+evaluation tasks. In addition, we found that, incorporating an autoencoder path
+in our model didn't aid our model to perform better, while it hurts the
+performance of the skip-thought model.
+Author{1}{Firstname}#=%=#Shuai
+Author{1}{Lastname}#=%=#Tang
+Author{1}{Email}#=%=#shuaitang93@ucsd.edu
+Author{1}{Affiliation}#=%=#UC San Diego
+Author{2}{Firstname}#=%=#Hailin
+Author{2}{Lastname}#=%=#Jin
+Author{2}{Email}#=%=#hljin@adobe.com
+Author{2}{Affiliation}#=%=#Adobe Research Lab
+Author{3}{Firstname}#=%=#Chen
+Author{3}{Lastname}#=%=#Fang
+Author{3}{Email}#=%=#cfang@adobe.com
+Author{3}{Affiliation}#=%=#Adobe Research Lab
+Author{4}{Firstname}#=%=#Zhaowen
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#zhawang@adobe.com
+Author{4}{Affiliation}#=%=#Adobe Research Lab
+Author{5}{Firstname}#=%=#Virginia
+Author{5}{Lastname}#=%=#de Sa
+Author{5}{Email}#=%=#desa@ucsd.edu
+Author{5}{Affiliation}#=%=#UC San Diego
+
+==========

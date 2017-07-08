@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Machine Comprehension by Text-to-Text Neural Question Generation
+ShortPaperTitle#=%=#Machine Comprehension by Text-to-Text Neural Question Generation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Adam Trischler
+JobTitle#==#
+Organization#==#Microsoft Maluuba
+2000 Rue Peel, Montreal, QC, Canada
+Abstract#==#We propose a recurrent neural model that generates natural-language questions
+from documents, conditioned on answers. We show how to train the model using a
+combination of supervised and reinforcement learning. After teacher forcing for
+standard maximum likelihood training, we fine-tune the model using policy
+gradient techniques to maximize several rewards that measure question quality.
+Most notably, one of these rewards is the performance of a question-answering
+system. We motivate question generation as a means to improve the performance
+of question answering systems. Our model is trained and evaluated on the
+recent question-answering dataset SQuAD.
+Author{1}{Firstname}#=%=#Xingdi
+Author{1}{Lastname}#=%=#Yuan
+Author{1}{Email}#=%=#eric.yuan@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft Maluuba
+Author{2}{Firstname}#=%=#Tong
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#tong.wang@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Maluuba
+Author{3}{Firstname}#=%=#Caglar
+Author{3}{Lastname}#=%=#Gulcehre
+Author{3}{Email}#=%=#gulcehrc@iro.umontreal.ca
+Author{3}{Affiliation}#=%=#University of Montreal
+Author{4}{Firstname}#=%=#Alessandro
+Author{4}{Lastname}#=%=#Sordoni
+Author{4}{Email}#=%=#alsordon@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Maluuba
+Author{5}{Firstname}#=%=#Philip
+Author{5}{Lastname}#=%=#Bachman
+Author{5}{Email}#=%=#phbachma@microsoft.com
+Author{5}{Affiliation}#=%=#Microsoft Maluuba
+Author{6}{Firstname}#=%=#Saizheng
+Author{6}{Lastname}#=%=#Zhang
+Author{6}{Email}#=%=#saizheng.zhang@umontreal.ca
+Author{6}{Affiliation}#=%=#University of Montreal
+Author{7}{Firstname}#=%=#Sandeep
+Author{7}{Lastname}#=%=#Subramanian
+Author{7}{Email}#=%=#sandeep.subramanian@gmail.com
+Author{7}{Affiliation}#=%=#University of Montreal
+Author{8}{Firstname}#=%=#Adam
+Author{8}{Lastname}#=%=#Trischler
+Author{8}{Email}#=%=#adam.trischler@microsoft.com
+Author{8}{Affiliation}#=%=#Maluuba - Microsoft
+
+==========

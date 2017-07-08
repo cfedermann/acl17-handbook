@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Learning Bilingual Projections of Embeddings for Vocabulary Expansion in Machine Translation
+ShortPaperTitle#=%=#Learning Bilingual Projections of Embeddings for Vocabulary Expansion in Machine Translation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Pranava Swaroop Madhyasha
+JobTitle#==#
+Organization#==#Department of Computer Science
+University of Sheffield
+Sheffield, S1 4DP, UK
+Abstract#==#We propose a simple log-bilinear softmax-based model to deal with vocabulary
+expansion in machine translation. Our model uses word embeddings trained on
+significantly large unlabelled monolingual
+corpora and learns over a fairly small, word-to-word bilingual dictionary.
+Given an out-of-vocabulary source word, the model generates a probabilistic
+list of possible translations in the target language using the trained
+bilingual embeddings. We integrate these translation options into a standard
+phrase-based statistical machine translation system and obtain consistent
+improvements in translation quality on the English--Spanish language pair. When
+tested over an out-of-domain testset, we get a significant improvement of 3.9
+BLEU points.
+Author{1}{Firstname}#=%=#Pranava Swaroop
+Author{1}{Lastname}#=%=#Madhyastha
+Author{1}{Email}#=%=#pranava@cs.upc.edu
+Author{1}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{2}{Firstname}#=%=#Cristina
+Author{2}{Lastname}#=%=#España-Bonet
+Author{2}{Email}#=%=#cristinae.uni@gmail.com
+Author{2}{Affiliation}#=%=#University of Saarland | DFKI
+
+==========

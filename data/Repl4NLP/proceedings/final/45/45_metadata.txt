@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#45
+FinalPaperTitle#=%=#Representing Compositionality based on Multiple Timescales Gated Recurrent Neural Networks with Adaptive Temporal Hierarchy for Character-Level Language Models
+ShortPaperTitle#=%=#Representing Compositionality based on Multiple Timescales Gated RNNs with Adaptive Temporal Hierarchy for Character-Level LMs
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Dennis Singh Moirangthem
+JobTitle#==#
+Organization#==#School of Electronics Engineering, IT1-309, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, South Korea, 41566
+Abstract#==#A novel character-level neural language model is proposed in this paper. The
+proposed model incorporates a biologically inspired temporal hierarchy in the
+architecture for representing multiple compositions of language in order to
+handle longer sequences for the character-level language model. The temporal
+hierarchy is introduced in the language model by utilizing a Gated Recurrent
+Neural Network with multiple timescales. The proposed model incorporates a
+timescale adaptation mechanism for enhancing the performance of the language
+model. We evaluate our proposed model using the popular Penn Treebank and Text8
+corpora. The experiments show that the use of multiple timescales in a Neural
+Language Model (NLM) enables improved performance despite having fewer
+parameters and with no additional computation requirements. Our experiments
+also demonstrate the ability of the adaptive temporal hierarchies to represent
+multiple compositonality without the help of complex hierarchical architectures
+and shows that better representation of the longer sequences lead to enhanced
+performance of the probabilistic language model.
+Author{1}{Firstname}#=%=#Dennis Singh
+Author{1}{Lastname}#=%=#Moirangthem
+Author{1}{Email}#=%=#mdennissingh@gmail.com
+Author{1}{Affiliation}#=%=#Kyungpook National University
+Author{2}{Firstname}#=%=#Jegyung
+Author{2}{Lastname}#=%=#Son
+Author{2}{Email}#=%=#wprud4@gmail.com
+Author{2}{Affiliation}#=%=#Kyungpook National University
+Author{3}{Firstname}#=%=#Minho
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Email}#=%=#mholee@gmail.com
+Author{3}{Affiliation}#=%=#Kyungpook National University
+
+==========

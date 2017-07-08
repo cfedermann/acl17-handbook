@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Active Discriminative Text Representation Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#
+Author{1}{Firstname}#=%=#Ye
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#yezhang@utexas.edu
+Author{1}{Affiliation}#=%=#University of Texas at Austin
+Author{2}{Firstname}#=%=#Matthew
+Author{2}{Lastname}#=%=#Lease
+Author{2}{Email}#=%=#ml@utexas.edu
+Author{2}{Affiliation}#=%=#University of Texas at Austin
+Author{3}{Firstname}#=%=#Byron
+Author{3}{Lastname}#=%=#Wallace
+Author{3}{Email}#=%=#byron.wallace@gmail.com
+Author{3}{Affiliation}#=%=#Northeastern
+
+==========

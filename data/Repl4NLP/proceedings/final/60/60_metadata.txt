@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#Plan, Attend, Generate: Character-Level Neural Machine Translation with Planning
+ShortPaperTitle#=%=#Plan, Attend, Generate: Character-Level Neural Machine Translation with Planning
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Caglar GULCEHRE
+JobTitle#==#Student
+Organization#==#University of Montreal, MILA, Pavillon André-Aisenstadt 2920 Chemin de la Tour, office 3353 Montreal, QC H3T 1J4
+Abstract#==#We investigate the integration of a planning mechanism into an encoder-decoder
+architecture with attention. We develop a model that can plan ahead when it
+computes alignments between the source and target sequences not only for a
+single time-step but for the next k time-steps as well by constructing a matrix
+of proposed future alignments and a commitment vector that governs whether to
+follow or recompute the plan. This mechanism is inspired by strategic attentive
+reader and writer (STRAW) model, a recent neural architecture for planning with
+hierarchical reinforcement learning that can also learn higher level temporal
+abstractions. Our proposed model is end-to-end trainable with differentiable
+operations. We show that our model outperforms strong baselines on
+character-level translation task from WMT'15 with fewer parameters and computes
+alignments that are qualitatively intuitive.
+Author{1}{Firstname}#=%=#Caglar
+Author{1}{Lastname}#=%=#Gulcehre
+Author{1}{Email}#=%=#gulcehrc@iro.umontreal.ca
+Author{1}{Affiliation}#=%=#Universite de Montreal
+Author{2}{Firstname}#=%=#Francis
+Author{2}{Lastname}#=%=#Dutil
+Author{2}{Email}#=%=#frdutil@gmail.com
+Author{2}{Affiliation}#=%=#Universite de Montreal
+Author{3}{Firstname}#=%=#Adam
+Author{3}{Lastname}#=%=#Trischler
+Author{3}{Email}#=%=#adam.trischler@microsoft.com
+Author{3}{Affiliation}#=%=#Maluuba - Microsoft
+Author{4}{Firstname}#=%=#Yoshua
+Author{4}{Lastname}#=%=#Bengio
+Author{4}{Email}#=%=#yoshua.bengio@umontreal.ca
+Author{4}{Affiliation}#=%=#U. Montreal
+
+==========

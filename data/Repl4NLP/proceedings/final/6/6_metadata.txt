@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Sense Contextualization in a Dependency-Based Compositional Distributional Model
+ShortPaperTitle#=%=#Dependency-Based Compositional Distributional Model
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Pablo Gamallo
+JobTitle#==#
+Organization#==#University of Santiago de Compostela
+Abstract#==#Little attention has been paid to distributional compositional methods which
+employ syntactically structured vector models. As word vectors belonging to
+different syntactic categories                                      have incompatible
+syntactic
+distributions, no
+trivial compositional operation can be applied to combine them into a new
+compositional vector. 
+In this article, we generalize the method described by                               
+     
+Erk
+and
+Padó
+(2009) by
+proposing a dependency-base framework that contextualize not only lemmas but
+also selectional preferences.  The main contribution of the article is to
+expand their model to a fully compositional framework in which syntactic
+dependencies are put at the core of semantic composition.
+ We claim that semantic composition is mainly driven by syntactic dependencies.
+Each syntactic dependency generates two new compositional vectors representing
+the contextualized sense of the two related lemmas.  The sequential 
+application of the compositional operations associated to the dependencies
+results in as many contextualized vectors as lemmas the composite expression
+contains. At the end of the semantic process, we do not obtain a single
+compositional vector representing the semantic denotation of the whole
+composite expression, but one contextualized vector for each lemma of the whole
+expression. Our method avoids the troublesome high-order tensor representations
+by defining lemmas and selectional restrictions as first-order tensors (i.e.
+standard vectors). 
+A corpus-based experiment is performed to both evaluate the quality of the
+compositional vectors built with our strategy, and to compare them to other
+approaches on distributional compositional semantics. The experiments show that
+our dependency-based compositional method performs as  (or even better than)
+the state-of-the-art.
+Author{1}{Firstname}#=%=#Pablo
+Author{1}{Lastname}#=%=#Gamallo
+Author{1}{Email}#=%=#pablo.gamallo@usc.es
+Author{1}{Affiliation}#=%=#CITIUS, University of Santiago de Compostela
+
+==========

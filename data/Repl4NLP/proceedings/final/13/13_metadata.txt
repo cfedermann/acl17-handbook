@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Using millions of emoji occurrences to pretrain any-domain models for detecting emotion, sentiment and sarcasm
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#NLP tasks are often limited by the scarcity of manually annotated data. In
+social media sentiment analysis and related tasks, researchers have therefore
+used binarized emoticons and specific hashtags as forms of distant supervision.
+Our paper shows that by extending the distant supervision to a more diverse set
+of noisy labels, the models can learn a richer emotional representations.
+Through emoji prediction on a dataset of 634 million tweets containing one of
+64 common emojis we obtain state-of-the-art performance on 8 benchmark datasets
+within emotion, sentiment and sarcasm detection using a single pretrained
+model. Our analysis shows that the diversity of our noisy labels is important
+for the performance of our model. We release our pretrained model.
+Author{1}{Firstname}#=%=#Bjarke
+Author{1}{Lastname}#=%=#Felbo
+Author{1}{Email}#=%=#felbo@mit.edu
+Author{1}{Affiliation}#=%=#Massachusetts Institute of Technology
+Author{2}{Firstname}#=%=#Alan
+Author{2}{Lastname}#=%=#Mislove
+Author{2}{Email}#=%=#amislove@ccs.neu.edu
+Author{2}{Affiliation}#=%=#Northeastern University
+Author{3}{Firstname}#=%=#Anders
+Author{3}{Lastname}#=%=#Søgaard
+Author{3}{Email}#=%=#soegaard@di.ku.dk
+Author{3}{Affiliation}#=%=#University of Copenhagen
+Author{4}{Firstname}#=%=#Iyad
+Author{4}{Lastname}#=%=#Rahwan
+Author{4}{Email}#=%=#irahwan@mit.edu
+Author{4}{Affiliation}#=%=#Massachusetts Institute of Technology
+Author{5}{Firstname}#=%=#Sune
+Author{5}{Lastname}#=%=#Lehmann
+Author{5}{Email}#=%=#sune.lehmann@gmail.com
+Author{5}{Affiliation}#=%=#Technical University of Denmark
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#Knowledge Base Completion: Baselines Strike Back
+ShortPaperTitle#=%=#Knowledge Base Completion: Baselines Strike Back
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Rudolf Kadlec
+JobTitle#==#
+Organization#==#IBM s.r.o.
+V Parku 2294/4, 148 00 Praha 4, Czech Republic
+Abstract#==#Many papers have been published on the knowledge base completion task in the
+past few years. Most of these introduce novel architectures for relation
+learning that are evaluated on standard datasets like FB15k and WN18. This
+paper shows that the accuracy of almost all models published on the FB15k can
+be outperformed by an appropriately tuned baseline --- our reimplementation of
+the DistMult model. 
+Our findings cast doubt on the claim that the performance improvements of
+recent models are due to architectural changes as opposed to hyper-parameter
+tuning or different training objectives.
+This should prompt future research to re-consider how the performance of models
+is evaluated and reported.
+Author{1}{Firstname}#=%=#Rudolf
+Author{1}{Lastname}#=%=#Kadlec
+Author{1}{Email}#=%=#rudolf_kadlec@cz.ibm.com
+Author{1}{Affiliation}#=%=#IBM
+Author{2}{Firstname}#=%=#Ondrej
+Author{2}{Lastname}#=%=#Bajgar
+Author{2}{Email}#=%=#obajgar@cz.ibm.com
+Author{2}{Affiliation}#=%=#IBM Watson
+Author{3}{Firstname}#=%=#Jan
+Author{3}{Lastname}#=%=#Kleindienst
+Author{3}{Email}#=%=#jan.kleindienst@gmail.com
+Author{3}{Affiliation}#=%=#IBM Research
+
+==========

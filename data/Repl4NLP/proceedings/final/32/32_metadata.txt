@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#MUSE: Modularizing Unsupervised Sense Embeddings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper proposes to address the word sense ambiguity issue in an
+unsupervised manner, where word sense representations are learned along a word
+sense selection mechanism given contexts. Prior work about learning multi-sense
+embeddings suffered from either ambiguity of different-level embeddings or
+inefficient sense selection. The proposed modular framework, MUSE, implements
+flexible modules to optimize distinct mechanisms, achieving the first purely
+sense-level representation learning system with linear-time sense selection.
+Further, joint training on the proposed modules is achieved. The experiments on
+benchmark data show that the proposed approach achieves the state-of-the-art
+performance on synonym selection as well as on contextual word similarities in
+terms of MaxSimC.
+Author{1}{Firstname}#=%=#Guang-He
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#guanghe.lee0304@gmail.com
+Author{1}{Affiliation}#=%=#National Taiwan University
+Author{2}{Firstname}#=%=#Yun-Nung
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#y.v.chen@ieee.org
+Author{2}{Affiliation}#=%=#National Taiwan University
+
+==========

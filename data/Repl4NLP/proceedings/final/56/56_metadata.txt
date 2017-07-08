@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#56
+FinalPaperTitle#=%=#Intrinsic and Extrinsic Evaluation of Spatiotemporal Text Representations in Twitter Streams
+ShortPaperTitle#=%=#Intrinsic and Extrinsic Evaluation of Spatiotemporal Text Representations in Twitter Streams
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lawrence Phillips
+JobTitle#==#
+Organization#==#Pacific Northwest National Laboratory
+902 Battelle Blvd, Richland, WA 99354
+Abstract#==#Language in social media is a dynamic system, constantly evolving and adapting,
+with words and concepts rapidly emerging, disappearing, and changing their
+meaning. These changes can be estimated using word representations in context,
+over time and across locations. A number of methods have been proposed to track
+these spatiotemporal changes but no general method exists to evaluate the
+quality of these representations. Previous work largely focused on qualitative
+evaluation, which we improve by proposing a set of visualizations that
+highlight changes in text representation over both space and time. We
+demonstrate usefulness of novel spatiotemporal representations to explore and
+characterize specific aspects of the corpus of tweets collected from European
+countries over a two-week period centered around the terrorist attacks in
+Brussels in March 2016. In addition, we quantitatively evaluate spatiotemporal
+representations by feeding them into a downstream classification task -- event
+type prediction. Thus, our work is the first to provide both intrinsic
+(qualitative) and extrinsic (quantitative) evaluation of text representations
+for spatiotemporal trends.
+Author{1}{Firstname}#=%=#Lawrence
+Author{1}{Lastname}#=%=#Phillips
+Author{1}{Email}#=%=#lawrence.phillips@pnnl.gov
+Author{1}{Affiliation}#=%=#PNNL
+Author{2}{Firstname}#=%=#Kyle
+Author{2}{Lastname}#=%=#Shaffer
+Author{2}{Email}#=%=#kyle.shaffer@pnnl.gov
+Author{2}{Affiliation}#=%=#PNNL
+Author{3}{Firstname}#=%=#Dustin
+Author{3}{Lastname}#=%=#Arendt
+Author{3}{Email}#=%=#dustin.arendt@pnnl.gov
+Author{3}{Affiliation}#=%=#PNNL
+Author{4}{Firstname}#=%=#Nathan
+Author{4}{Lastname}#=%=#Hodas
+Author{4}{Email}#=%=#nathan.hodas@pnnl.gov
+Author{4}{Affiliation}#=%=#PNNL
+Author{5}{Firstname}#=%=#Svitlana
+Author{5}{Lastname}#=%=#Volkova
+Author{5}{Email}#=%=#svitlana.volkova@pnnl.gov
+Author{5}{Affiliation}#=%=#Pacific Northwest National Laboratory
+
+==========

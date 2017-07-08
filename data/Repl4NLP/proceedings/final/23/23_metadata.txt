@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Combining Word-Level and Character-Level Representations for Relation Classification of Informal Text
+ShortPaperTitle#=%=#Combining Word-Level and Character-Level Representations for Relation Classification of Informal Text
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Dongyun Liang
+JobTitle#==#
+Organization#==#PRIS, Beijing University of Posts and Telecommunications, China
+Abstract#==#Word representation models have achieved great success in natural language
+processing tasks, such as relation classification. However, it does not always
+work on informal text, and the morphemes of some misspelling  words may carry
+important short-distance semantic information.
+We propose a hybrid model, combining the merits of word-level and
+character-level representations to learn better representations on informal
+text. 
+Experiments on two dataset of relation classification, SemEval-2010 Task8 and a
+large-scale one we compile from informal text, show that our model achieves a
+competitive result in the former and state-of-the-art with the other.
+Author{1}{Firstname}#=%=#Dongyun
+Author{1}{Lastname}#=%=#Liang
+Author{1}{Email}#=%=#dongyunliang@bupt.edu.cn
+Author{1}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+Author{2}{Firstname}#=%=#Weiran
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#xuweiran@bupt.edu.cn
+Author{2}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+Author{3}{Firstname}#=%=#Yinge
+Author{3}{Lastname}#=%=#Zhao
+Author{3}{Email}#=%=#yingezhao@outlook.com
+Author{3}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+
+==========

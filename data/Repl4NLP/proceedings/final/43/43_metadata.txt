@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#Binary Paragraph Vectors
+ShortPaperTitle#=%=#Binary Paragraph Vectors
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Karol Grzegorczyk
+JobTitle#==#
+Organization#==#Department of Computer Science
+AGH University of Science and Technology
+Mickiewicza 30
+30-059 Kraków, Poland
+Abstract#==#Recently Le & Mikolov described two log-linear models, called Paragraph Vector,
+that can be used to learn state-of-the-art distributed representations of
+documents. Inspired by this work, we present Binary Paragraph Vector models:
+simple neural networks that learn short binary codes for fast information
+retrieval. We show that binary paragraph vectors outperform autoencoder-based
+binary codes, despite using fewer bits. We also evaluate their precision in
+transfer learning settings, where binary codes are inferred for documents
+unrelated to the training corpus. Results from these experiments indicate that
+binary paragraph vectors can capture semantics relevant for various
+domain-specific documents. Finally, we present a model that simultaneously
+learns short binary codes and longer, real-valued representations. This model
+can be used to rapidly retrieve a short list of highly relevant documents from
+a large document collection.
+Author{1}{Firstname}#=%=#Karol
+Author{1}{Lastname}#=%=#Grzegorczyk
+Author{1}{Email}#=%=#kgr@agh.edu.pl
+Author{1}{Affiliation}#=%=#AGH University of Science and Technology
+Author{2}{Firstname}#=%=#Marcin
+Author{2}{Lastname}#=%=#Kurdziel
+Author{2}{Email}#=%=#kurdziel@agh.edu.pl
+Author{2}{Affiliation}#=%=#AGH University of Science and Technology
+
+==========

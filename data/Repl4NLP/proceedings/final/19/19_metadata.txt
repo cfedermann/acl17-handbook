@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Emergent Predication Structure in Hidden State Vectors of Neural Readers
+ShortPaperTitle#=%=#Emergent Predication Structure in Hidden State Vectors of Neural Readers
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Hai Wang
+JobTitle#==#student
+Organization#==#Toyota Technological Institute at Chicago
+6045 S. Kenwood Ave.
+Chicago, Illinois 60637
+USA
+Abstract#==#A significant number of neural architectures for reading comprehension have
+recently been developed and evaluated on large cloze-style datasets.
+  We present experiments supporting the emergence of "predication structure" in
+the hidden state vectors of these readers.  More specifically, we provide
+evidence that the hidden state vectors represent atomic formulas $\Phi[c]$
+where $\Phi$ is a semantic property (predicate) and $c$ is a constant symbol
+entity identifier.
+Author{1}{Firstname}#=%=#Hai
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#haiwang@ttic.edu
+Author{1}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{2}{Firstname}#=%=#Takeshi
+Author{2}{Lastname}#=%=#Onishi
+Author{2}{Email}#=%=#tonishi@ttic.edu
+Author{2}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{3}{Firstname}#=%=#Kevin
+Author{3}{Lastname}#=%=#Gimpel
+Author{3}{Email}#=%=#kgimpel@ttic.edu
+Author{3}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{4}{Firstname}#=%=#David
+Author{4}{Lastname}#=%=#McAllester
+Author{4}{Email}#=%=#mcallester@ttic.edu
+Author{4}{Affiliation}#=%=#TTI-Chicago
+
+==========

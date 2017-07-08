@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Multi-task Domain Adaptation for Sequence Tagging
+ShortPaperTitle#=%=#Multi-task Domain Adaptation for Sequence Tagging
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Nanyun Peng
+JobTitle#==#
+Organization#==#Johns Hopkins University,
+Baltimore, MD 21218
+Abstract#==#Many domain adaptation approaches rely
+on learning cross domain shared representations
+to transfer the knowledge learned
+in one domain to other domains. Traditional
+domain adaptation only considers
+adapting for one task. In this paper, we
+explore multi-task representation learning
+under the domain adaptation scenario. We
+propose a neural network framework that
+supports domain adaptation for multiple
+tasks simultaneously, and learns shared
+representations that better generalize for
+domain adaptation. We apply the proposed
+framework to domain adaptation
+for sequence tagging problems considering
+two tasks: Chinese word segmentation
+and named entity recognition. Experiments
+show that multi-task domain adaptation
+works better than disjoint domain
+adaptation for each task, and achieves the
+state-of-the-art results for both tasks in the
+social media domain.
+Author{1}{Firstname}#=%=#Nanyun
+Author{1}{Lastname}#=%=#Peng
+Author{1}{Email}#=%=#pengnanyun@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dredze
+Author{2}{Email}#=%=#mdredze@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+
+==========

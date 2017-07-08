@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Modeling Large-Scale Structured Relationships with Shared Memory for Knowledge Base Completion
+ShortPaperTitle#=%=#Modeling Large-Scale Structured Relationships with Shared Memory for Knowledge Base Completion
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Po-Sen Huang
+JobTitle#==#
+Organization#==#Po-Sen Huang
+1 Microsoft Way, Redmond, WA 98052
+Abstract#==#Recent studies on knowledge base completion, the task of recovering missing
+relationships based on recorded relations, demonstrate the importance of
+learning embeddings from multi-step relations. However, due to the size of
+knowledge bases, learning multi-step relations directly on top of observed
+triplets could be costly. Hence, a manually designed procedure is often used
+when training the models. In this paper, we propose Implicit ReasoNets (IRNs),
+which is designed to perform multi-step inference implicitly through a
+controller and shared memory. Without a human-designed inference procedure,
+IRNs use training data to learn to perform multi-step inference in an embedding
+neural space through the shared memory and controller. While the inference
+procedure does not explicitly operate on top of observed triplets, our proposed
+model outperforms all previous approaches on the popular FB15k benchmark by
+more than 5.7%.
+Author{1}{Firstname}#=%=#Yelong
+Author{1}{Lastname}#=%=#Shen
+Author{1}{Email}#=%=#yeshen@microsoft.com
+Author{1}{Affiliation}#=%=#microsoft.com
+Author{2}{Firstname}#=%=#Po-Sen
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#huang146@illinois.edu
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Ming-Wei
+Author{3}{Lastname}#=%=#Chang
+Author{3}{Email}#=%=#minchang@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Jianfeng
+Author{4}{Lastname}#=%=#Gao
+Author{4}{Email}#=%=#jfgao@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research, Redmond
+
+==========

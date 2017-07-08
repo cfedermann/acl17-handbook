@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Semantic Vector Encoding and Similarity Search Using Fulltext Search Engines
+ShortPaperTitle#=%=#Semantic Vector Encoding and Similarity Search Using Fulltext Search Engines
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Michal Růžička
+JobTitle#==#
+Organization#==#Masaryk University
+Faculty of Informatics
+Botanická 68a
+602 00 Brno
+Czech Republic
+Abstract#==#Vector representations and vector space modeling (VSM) play a central role in
+modern machine learning. We propose a novel approach to ‘vector similarity
+searching’ over dense semantic representations of words and documents that
+can be deployed on top of traditional inverted-index-based fulltext engines,
+taking advantage of their robustness, stability, scalability and ubiquity.
+
+We show that this approach allows the indexing and querying of dense vectors in
+text domains. This opens up exciting avenues for major efficiency gains, along
+with simpler deployment, scaling and monitoring.
+
+The end result is a fast and scalable vector database with a tunable trade-off
+between vector search performance and quality, backed by a standard fulltext
+engine such as Elasticsearch.
+
+We empirically demonstrate its querying performance and quality by applying
+this solution to the task of semantic searching over a dense vector
+representation of the entire English Wikipedia.
+Author{1}{Firstname}#=%=#Jan
+Author{1}{Lastname}#=%=#Rygl
+Author{1}{Email}#=%=#jimmy@rare-technologies.com
+Author{1}{Affiliation}#=%=#RaRe Technologies
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Pomikálek
+Author{2}{Email}#=%=#honza@rare-technologies.com
+Author{2}{Affiliation}#=%=#RaRe Technologies
+Author{3}{Firstname}#=%=#Radim
+Author{3}{Lastname}#=%=#Řehůřek
+Author{3}{Email}#=%=#radim@rare-technologies.com
+Author{3}{Affiliation}#=%=#RaRe Technologies
+Author{4}{Firstname}#=%=#Michal
+Author{4}{Lastname}#=%=#Růžička
+Author{4}{Email}#=%=#mruzicka@mail.muni.cz
+Author{4}{Affiliation}#=%=#Faculty of Informatics, Masaryk University
+Author{5}{Firstname}#=%=#Vít
+Author{5}{Lastname}#=%=#Novotný
+Author{5}{Email}#=%=#witiko@mail.muni.cz
+Author{5}{Affiliation}#=%=#Faculty of Informatics, Masaryk University
+Author{6}{Firstname}#=%=#Petr
+Author{6}{Lastname}#=%=#Sojka
+Author{6}{Email}#=%=#sojka@fi.muni.cz
+Author{6}{Affiliation}#=%=#Faculty of Informatics, Masaryk University
+
+==========

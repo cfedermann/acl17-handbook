@@ -1,0 +1,55 @@
+* Thursday, August 3, 2017
+= 09:30--09:45 Welcome and Opening Remarks
+= 09:45--10:30 Keynote Session
+! 09:45--10:30 Learning Joint Embeddings of Vision and Language %by Sanja Fidler
+= 10:30--11:00 Coffee Break
+= 11:00--12:30 Keynote Session
+! 11:00--11:45 Learning Representations of Social Meaning %by Jacob Eisenstein
+! 11:45--12:30 Representations in the Brain %by Alona Fyshe
+= 12:30--14:00 Lunch
+= 14:00--14:45 Keynote Session
+! 14:00--14:45 "A million ways to say I love you" or Learning to Paraphrase with Neural Machine Translation %by Mirella Lapata
+= 14:45--15:00 Best Paper Session
+= 15:00--16:30 Poster Session, including Coffee Break
+6   # Sense Contextualization in a Dependency-Based Compositional Distributional Model
+8   # Context encoders as a simple but powerful extension of word2vec
+11   # Active Discriminative Text Representation Learning
+13   # Using millions of emoji occurrences to pretrain any-domain models for detecting emotion, sentiment and sarcasm
+17   # Evaluating Layers of Representation in Neural Machine Translation on Syntactic and Semantic Tagging
+18   # Machine Comprehension by Text-to-Text Neural Question Generation
+19   # Emergent Predication Structure in Hidden State Vectors of Neural Readers
+22   # Towards Harnessing Memory Networks for Coreference Resolution
+23   # Combining Word-Level and Character-Level Representations for Relation Classification of Informal Text
+26   # Regularized Topic Models for Sparse Interpretable Word Embeddings
+27   # Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings
+30   # Transfer Learning for Neural Semantic Parsing
+32   # MUSE: Modularizing Unsupervised Sense Embeddings
+33   # Modeling Large-Scale Structured Relationships with Shared Memory for Knowledge Base Completion
+34   # Knowledge Base Completion: Baselines Strike Back
+35   # Sequential Attention: A Context-Aware Alignment Function for Machine Reading
+36   # Semantic Vector Encoding and Similarity Search Using Fulltext Search Engines
+37   # Multi-task Domain Adaptation for Sequence Tagging
+41   # Beyond Bilingual: Multi-sense Word Embeddings using Multilingual Context
+42   # DocTag2Vec: An Embedding Based Multi-label Learning Approach for Document Tagging
+43   # Binary Paragraph Vectors
+45   # Representing Compositionality based on Multiple Timescales Gated Recurrent Neural Networks with Adaptive Temporal Hierarchy for Character-Level Language Models
+46   # Learning Bilingual Projections of Embeddings for Vocabulary Expansion in Machine Translation
+47   # Learning to Compose Words into Sentences with Reinforcement Learning
+48   # Prediction of Frame-to-Frame Relations in the FrameNet Hierarchy with Frame Embeddings
+49   # Learning Joint Multilingual Sentence Representations with Neural Machine Translation
+50   # Transfer Learning for Speech Recognition on a Budget
+53   # Gradual Learning of Matrix-Space Models of Language for Sentiment Analysis
+54   # Improving Language Modeling using Densely Connected Recurrent Neural Networks
+55   # NewsQA: A Machine Comprehension Dataset
+56   # Intrinsic and Extrinsic Evaluation of Spatiotemporal Text Representations in Twitter Streams
+57   # Rethinking Skip-thought: A Neighborhood based Approach
+59   # A Frame Tracking Model for Memory-Enhanced Dialogue Systems
+60   # Plan, Attend, Generate: Character-Level Neural Machine Translation with Planning
+61   # Does the Geometry of Word Embeddings Help Document Classification? A Case Study on Persistent Homology-Based Representations
+62   # Adversarial Generation of Natural Language
+64   # Deep Active Learning for Named Entity Recognition
+65   # The Coadaptation Problem when Learning How and What to Compose
+67   # Learning when to skim and when to read
+66   # Learning to Embed Words in Context for Syntactic Tasks
+= 16:30--17:30 Panel Discussion
+= 17:30--17:40 Closing Remarks

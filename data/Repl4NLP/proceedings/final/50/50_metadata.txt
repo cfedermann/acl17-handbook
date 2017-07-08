@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#Transfer Learning for Speech Recognition on a Budget
+ShortPaperTitle#=%=#Transfer Learning for Speech Recognition on a Budget
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Andreas Krug
+JobTitle#==#
+Organization#==#Andreas Krug
+University of Potsdam
+Karl-Liebknecht-Str. 24/25
+14476 Potsdam, Germany
+Abstract#==#End-to-end training of automated speech recognition (ASR) systems requires
+massive data and compute resources. We explore transfer learning based on model
+adaptation as an approach for training ASR models under constrained GPU memory,
+throughput and training data. We conduct several systematic experiments
+adapting a Wav2Letter convolutional neural network originally trained for
+English ASR to the German language. We show that this technique allows faster
+training on consumer-grade resources while requiring less training data in
+order to achieve the same accuracy, thereby lowering the cost of training ASR
+models in other languages. Model introspection revealed that small adaptations
+to the network's weights were sufficient for good performance, especially for
+inner layers.
+Author{1}{Firstname}#=%=#Julius
+Author{1}{Lastname}#=%=#Kunze
+Author{1}{Email}#=%=#juliuskunze@gmail.com
+Author{1}{Affiliation}#=%=#Hasso Plattner Institute, Potsdam, Germany
+Author{2}{Firstname}#=%=#Louis
+Author{2}{Lastname}#=%=#Kirsch
+Author{2}{Email}#=%=#mail@louiskirsch.com
+Author{2}{Affiliation}#=%=#Hasso Plattner Institute, Potsdam, Germany
+Author{3}{Firstname}#=%=#Ilia
+Author{3}{Lastname}#=%=#Kurenkov
+Author{3}{Email}#=%=#kurenkov@uni-potsdam.de
+Author{3}{Affiliation}#=%=#University of Potsdam, Germany
+Author{4}{Firstname}#=%=#Andreas
+Author{4}{Lastname}#=%=#Krug
+Author{4}{Email}#=%=#ankrug@uni-potsdam.de
+Author{4}{Affiliation}#=%=#University of Potsdam, Germany
+Author{5}{Firstname}#=%=#Jens
+Author{5}{Lastname}#=%=#Johannsmeier
+Author{5}{Email}#=%=#johannsmeier@uni-potsdam.de
+Author{5}{Affiliation}#=%=#University of Potsdam, Germany
+Author{6}{Firstname}#=%=#Sebastian
+Author{6}{Lastname}#=%=#Stober
+Author{6}{Email}#=%=#sstober@uni-potsdam.de
+Author{6}{Affiliation}#=%=#University of Potsdam
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Sequential Attention: A Context-Aware Alignment Function for Machine Reading
+ShortPaperTitle#=%=#Sequential Attention: A Context-Aware Alignment Function for Machine Reading
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sebastian Brarda
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper we  propose a neural network model with a novel Sequential
+Attention layer that extends soft attention by assigning weights to words in an
+input sequence in a way that takes into account not just how well that word
+matches a query, but how well surrounding words match. We evaluate this
+approach on the task of reading comprehension (on the Who did What and CNN
+datasets) and show that it dramatically improves a strong baseline---the
+Stanford Reader---and is competitive with the state of the art.
+Author{1}{Firstname}#=%=#Sebastian
+Author{1}{Lastname}#=%=#Brarda
+Author{1}{Email}#=%=#sb5518@nyu.edu
+Author{1}{Affiliation}#=%=#NYU
+Author{2}{Firstname}#=%=#Philip
+Author{2}{Lastname}#=%=#Yeres
+Author{2}{Email}#=%=#pcy214@nyu.edu
+Author{2}{Affiliation}#=%=#New York University
+Author{3}{Firstname}#=%=#Samuel
+Author{3}{Lastname}#=%=#Bowman
+Author{3}{Email}#=%=#bowman@nyu.edu
+Author{3}{Affiliation}#=%=#New York University
+
+==========

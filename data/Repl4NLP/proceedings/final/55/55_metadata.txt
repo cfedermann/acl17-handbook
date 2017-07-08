@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#NewsQA: A Machine Comprehension Dataset
+ShortPaperTitle#=%=#NewsQA: A Machine Comprehension Dataset
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Adam Trischler
+JobTitle#==#
+Organization#==#Microsoft Maluuba
+2000 Rue Peel, Montreal, QC
+Abstract#==#We present NewsQA, a challenging machine comprehension dataset of over 100,000
+human-generated question-answer pairs. Crowdworkers supply questions and
+answers based on a set of over 10,000 news articles from CNN, with answers
+consisting of spans of text in the articles. We collect this dataset through a
+four-stage process designed to solicit exploratory questions that require
+reasoning. Analysis confirms that NewsQA demands abilities beyond simple
+word matching and recognizing textual entailment. We measure human performance
+on the dataset and compare it to several strong neural models. The performance
+gap between humans and machines (13.3% F1) indicates that significant progress
+can be made on NewsQA through future research. The dataset is freely available
+online.
+Author{1}{Firstname}#=%=#Adam
+Author{1}{Lastname}#=%=#Trischler
+Author{1}{Email}#=%=#adam.trischler@microsoft.com
+Author{1}{Affiliation}#=%=#Maluuba - Microsoft
+Author{2}{Firstname}#=%=#Tong
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#tong.wang@microsoft.com
+Author{2}{Affiliation}#=%=#Maluuba - Microsoft
+Author{3}{Firstname}#=%=#Xingdi
+Author{3}{Lastname}#=%=#Yuan
+Author{3}{Email}#=%=#eric.yuan@microsoft.com
+Author{3}{Affiliation}#=%=#Maluuba - Microsoft
+Author{4}{Firstname}#=%=#Justin
+Author{4}{Lastname}#=%=#Harris
+Author{4}{Email}#=%=#justin.harris@microsoft.com
+Author{4}{Affiliation}#=%=#Maluuba - Microsoft
+Author{5}{Firstname}#=%=#Alessandro
+Author{5}{Lastname}#=%=#Sordoni
+Author{5}{Email}#=%=#alsordon@microsoft.com
+Author{5}{Affiliation}#=%=#Maluuba - Microsoft
+Author{6}{Firstname}#=%=#Philip
+Author{6}{Lastname}#=%=#Bachman
+Author{6}{Email}#=%=#phbachma@microsoft.com
+Author{6}{Affiliation}#=%=#Maluuba - Microsoft
+Author{7}{Firstname}#=%=#Kaheer
+Author{7}{Lastname}#=%=#Suleman
+Author{7}{Email}#=%=#kasulema@microsoft.com
+Author{7}{Affiliation}#=%=#Maluuba - Microsoft
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#54
+FinalPaperTitle#=%=#Improving Language Modeling using Densely Connected Recurrent Neural Networks
+ShortPaperTitle#=%=#Improving Language Modeling using Densely Connected Recurrent Neural Networks
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Frederic Godin
+JobTitle#==#
+Organization#==#Ghent University
+Sint-Pietersnieuwstraat 25
+B-9000 Ghent
+Belgium
+Abstract#==#In this paper, we introduce the novel concept of densely connected layers into
+recurrent neural networks. We evaluate our proposed architecture on the Penn
+Treebank language modeling task. We show that we can obtain similar perplexity
+scores with six times fewer parameters compared to a standard stacked 2-
+layer LSTM model trained with dropout (Zaremba et al., 2014). In contrast with
+the current usage of skip connections, we show that densely connecting only a
+few
+stacked layers with skip connections already yields significant perplexity
+reductions.
+Author{1}{Firstname}#=%=#Fréderic
+Author{1}{Lastname}#=%=#Godin
+Author{1}{Email}#=%=#frederic.godin@ugent.be
+Author{1}{Affiliation}#=%=#ELIS - IDLab, Ghent University - imec
+Author{2}{Firstname}#=%=#Joni
+Author{2}{Lastname}#=%=#Dambre
+Author{2}{Email}#=%=#joni.dambre@ugent.be
+Author{2}{Affiliation}#=%=#ELIS - IDLab, Ghent University - imec
+Author{3}{Firstname}#=%=#Wesley
+Author{3}{Lastname}#=%=#De Neve
+Author{3}{Email}#=%=#wesley.deneve@ugent.be
+Author{3}{Affiliation}#=%=#ELIS - IDLab, Ghent University - imec
+
+==========

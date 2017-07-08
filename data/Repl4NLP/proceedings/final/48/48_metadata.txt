@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#48
+FinalPaperTitle#=%=#Prediction of Frame-to-Frame Relations in the FrameNet Hierarchy with Frame Embeddings
+ShortPaperTitle#=%=#Frame-to-Frame Relations in the FrameNet Hierarchy
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Teresa Botschen
+JobTitle#==#
+Organization#==#Ubiquitous Knowledge Processing (UKP) Lab
+Hochschulstraße 10 
+64289 Darmstadt
+Germany
+Abstract#==#Automatic completion of frame-to-frame (F2F) relations in the FrameNet (FN)
+hierarchy has received little attention, although they incorporate meta-level
+commonsense knowledge and are used in downstream approaches. We address the
+problem of sparsely annotated F2F relations. First, we examine whether the
+manually defined F2F relations emerge from text by learning text-based frame
+embeddings. Our analysis reveals insights about the difficulty of
+reconstructing F2F relations purely from text. Second, we present different
+systems for predicting F2F relations; our best-performing one uses the FN
+hierarchy to train on and to ground embeddings in. A comparison of systems and
+embeddings exposes the crucial influence of knowledge-based embeddings to a
+system’s performance in predicting F2F relations.
+Author{1}{Firstname}#=%=#Teresa
+Author{1}{Lastname}#=%=#Botschen
+Author{1}{Email}#=%=#teresa.botschen@gmail.com
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Hatem
+Author{2}{Lastname}#=%=#Mousselly Sergieh
+Author{2}{Email}#=%=#mousselly-sergieh@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#Technischen Universität Darmstadt
+Author{3}{Firstname}#=%=#Iryna
+Author{3}{Lastname}#=%=#Gurevych
+Author{3}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

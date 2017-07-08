@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#DocTag2Vec: An Embedding Based Multi-label Learning Approach for Document Tagging
+ShortPaperTitle#=%=#DocTag2Vec: An Embedding Based Multi-label Learning Approach for Document Tagging
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Sheng Chen
+JobTitle#==#
+Organization#==#Department of Computer Science & Engineering, University of Minnesota, Twin Cities
+Kenneth H. Keller Hall, 200 Union St SE, Minneapolis, MN 55455
+Abstract#==#Tagging news articles or blog posts with relevant tags from a collection of
+predefined ones is coined as document tagging in this work. Accurate tagging of
+articles can benefit several downstream applications such as recommendation and
+search. In this work, we propose a novel yet simple approach called DocTag2Vec
+to accomplish this task. We substantially extend Word2Vec and Doc2Vec -- two
+popular models for learning  distributed representation of words and documents.
+In DocTag2Vec, we simultaneously learn the representation of words, documents,
+and tags in a joint vector space during training, and employ the simple
+k-nearest neighbor search to predict tags for unseen documents. In contrast to
+previous multi-label learning methods, DocTag2Vec directly deals with raw text
+instead of provided feature vector, and in addition, enjoys advantages like the
+learning of tag representation, and the ability of handling newly created tags.
+To demonstrate the effectiveness of our approach, we conduct experiments on
+several datasets and show promising results against state-of-the-art methods.
+Author{1}{Firstname}#=%=#Sheng
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#chen2832@umn.edu
+Author{1}{Affiliation}#=%=#University of Minnesota, Twin Cities
+Author{2}{Firstname}#=%=#Akshay
+Author{2}{Lastname}#=%=#Soni
+Author{2}{Email}#=%=#sonix022@umn.edu
+Author{2}{Affiliation}#=%=#Yahoo
+Author{3}{Firstname}#=%=#Aasish
+Author{3}{Lastname}#=%=#Pappu
+Author{3}{Email}#=%=#aasishkp@yahoo-inc.com
+Author{3}{Affiliation}#=%=#Yahoo! Labs
+Author{4}{Firstname}#=%=#Yashar
+Author{4}{Lastname}#=%=#Mehdad
+Author{4}{Email}#=%=#ymahdad@gmail.com
+Author{4}{Affiliation}#=%=#Airbnb
+
+==========

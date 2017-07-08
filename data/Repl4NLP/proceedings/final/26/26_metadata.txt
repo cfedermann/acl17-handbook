@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Regularized Topic Models for Sparse Interpretable Word Embeddings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Probabilistic topic modeling is a tool for semantic analysis of texts widely
+used during the last decades. Word embeddings have gained their popularity more
+recently being inspired by achievements in neural networks. In this paper we
+consider both approaches from the perspective of learning hidden semantic
+representations of words via matrix factorization techniques. We show that a
+topic modeling performed over word co-occurrence data is capable of producing
+state-of-the-art results for word similarity task. Unlike SGNS, the components
+of obtained word embeddings are interpretable and highly sparse. We impose
+further requirements by additive regularization approach thus bridging the gap
+between word embeddings and extensions of topic models.
+Author{1}{Firstname}#=%=#Anna
+Author{1}{Lastname}#=%=#Potapenko
+Author{1}{Email}#=%=#anna.a.potapenko@gmail.com
+Author{1}{Affiliation}#=%=#National Research University Higher School of Economics
+Author{2}{Firstname}#=%=#Artem
+Author{2}{Lastname}#=%=#Popov
+Author{2}{Email}#=%=#artems-07@mail.ru
+Author{2}{Affiliation}#=%=#Moscow State University
+
+==========

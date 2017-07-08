@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#65
+FinalPaperTitle#=%=#The Coadaptation Problem when Learning How and What to Compose
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper discusses a potential problem with tree-sequence models that induce
+syntax, in that there exists a failure mode when naively treating the
+relationship between composition and parsing. The first section presents a
+tree-sequence model that induces syntax. The second section proposes a strategy
+that attempts to prevent coadaptation between composition and parsing. The
+third section covers a method for randomly sampling binary trees in a
+transition-based setting, a simple and useful technique for transition-based
+parsing models.
+Author{1}{Firstname}#=%=#Andrew
+Author{1}{Lastname}#=%=#Drozdov
+Author{1}{Email}#=%=#apd283@nyu.edu
+Author{1}{Affiliation}#=%=#New York University
+Author{2}{Firstname}#=%=#Samuel
+Author{2}{Lastname}#=%=#Bowman
+Author{2}{Email}#=%=#bowman@nyu.edu
+Author{2}{Affiliation}#=%=#New York University
+
+==========

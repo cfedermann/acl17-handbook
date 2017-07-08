@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#61
+FinalPaperTitle#=%=#Does the Geometry of Word Embeddings Help Document Classification? A Case Study on Persistent Homology-Based Representations
+ShortPaperTitle#=%=#Does the Geometry of Word Embeddings Help Document Classification? A Case Study on Persistent Homology-Based Representations
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shruti Rijhwani
+JobTitle#==#
+Organization#==#
+Abstract#==#We investigate the pertinence of methods from algebraic topology for text data
+analysis. These methods enable the development of mathematically-principled
+isometric-invariant mappings from a set of vectors to a document embedding,
+which is stable with respect to the geometry of the document in the selected
+metric space. 
+In this work, we evaluate the utility of these topology-based document
+representations in traditional NLP tasks, specifically document clustering and
+sentiment classification.
+We find that the embeddings do not benefit text analysis. In fact, performance
+is worse than simple techniques like tf-idf, indicating that the geometry of
+the document does not provide enough variability for classification on the
+basis of topic or sentiment in the chosen datasets.
+Author{1}{Firstname}#=%=#Paul
+Author{1}{Lastname}#=%=#Michel
+Author{1}{Email}#=%=#pmichel1@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Abhilasha
+Author{2}{Lastname}#=%=#Ravichander
+Author{2}{Email}#=%=#aravicha@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Shruti
+Author{3}{Lastname}#=%=#Rijhwani
+Author{3}{Email}#=%=#srijhwan@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

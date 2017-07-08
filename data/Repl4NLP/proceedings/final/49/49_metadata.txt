@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#Learning Joint Multilingual Sentence Representations with Neural Machine Translation
+ShortPaperTitle#=%=#Learning Joint Multilingual Sentence Representations with Neural Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Schwenk
+JobTitle#==#
+Organization#==#Facebook AI Research
+Abstract#==#In this paper, we use the framework of neural machine translation to learn
+joint sentence representations across six very different languages. Our aim is
+that a representation which is independent of the language, is likely to
+capture the underlying semantics.  We define a new cross-lingual similarity
+measure, compare up to 1.4M sentence representations and study the
+characteristics of close sentences.
+We provide experimental evidence that sentences that are close in embedding
+space are indeed semantically highly related, but often have quite different
+structure and syntax.  These relations also hold when comparing sentences in
+different languages.
+Author{1}{Firstname}#=%=#Holger
+Author{1}{Lastname}#=%=#Schwenk
+Author{1}{Email}#=%=#schwenk@fb.com
+Author{1}{Affiliation}#=%=#Facebook AI Research
+Author{2}{Firstname}#=%=#Matthijs
+Author{2}{Lastname}#=%=#Douze
+Author{2}{Email}#=%=#matthijs@fb.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+
+==========

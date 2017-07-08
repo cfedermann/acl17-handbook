@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#64
+FinalPaperTitle#=%=#Deep Active Learning for Named Entity Recognition
+ShortPaperTitle#=%=#Deep Active Learning for Named Entity Recognition
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Hyokun Yun
+JobTitle#==#
+Organization#==#Hyokun Yun
+Amazon Web Services
+P.O. Box 81226
+Seattle, WA 98108-1226
+Abstract#==#Deep neural networks 
+have advanced the state of the art 
+in named entity recognition. 
+However, under typical training procedures,
+advantages over classical methods
+emerge only with large datasets. 
+As a result,  deep learning is employed
+only when large public datasets or a large budget 
+for manually labeling data is available. 
+In this work, we show otherwise: 
+by combining deep learning with active learning,
+we can outperform classical methods 
+even with a significantly smaller amount of training data.
+Author{1}{Firstname}#=%=#Yanyao
+Author{1}{Lastname}#=%=#Shen
+Author{1}{Email}#=%=#shenyanyao@utexas.edu
+Author{1}{Affiliation}#=%=#University of Texas at Austin
+Author{2}{Firstname}#=%=#Hyokun
+Author{2}{Lastname}#=%=#Yun
+Author{2}{Email}#=%=#yunhyoku@amazon.com
+Author{2}{Affiliation}#=%=#Amazon
+Author{3}{Firstname}#=%=#Zachary
+Author{3}{Lastname}#=%=#Lipton
+Author{3}{Email}#=%=#zachary.chase@gmail.com
+Author{3}{Affiliation}#=%=#UCSD
+Author{4}{Firstname}#=%=#Yakov
+Author{4}{Lastname}#=%=#Kronrod
+Author{4}{Email}#=%=#kronrod@amazon.com
+Author{4}{Affiliation}#=%=#Amazon
+Author{5}{Firstname}#=%=#Animashree
+Author{5}{Lastname}#=%=#Anandkumar
+Author{5}{Email}#=%=#anima@amazon.com
+Author{5}{Affiliation}#=%=#Amazon
+
+==========

@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#62
+FinalPaperTitle#=%=#Adversarial Generation of Natural Language
+ShortPaperTitle#=%=#Adversarial Generation of Natural Language
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#sai rajeshwar
+JobTitle#==#
+Organization#==#university of montreal
+Abstract#==#Generative Adversarial Networks (GANs) have gathered a lot of attention from
+the computer vision community, yielding impressive results for image
+generation. Advances in the adversarial generation of natural language from
+noise however are not commensurate with the progress made in generating images,
+and still lag far behind likelihood based methods. In this paper, we take a
+step towards generating natural language  with a GAN objective alone. We
+introduce a simple baseline that addresses the discrete output space problem
+without relying on gradient estimators and show that it is able to achieve
+state-of-the-art results on a Chinese poem generation dataset. We present
+quantitative results on generating sentences from context-free and
+probabilistic context-free grammars, and qualitative language modeling results.
+A conditional version is also described that can generate sequences conditioned
+on sentence characteristics.
+Author{1}{Firstname}#=%=#Sandeep
+Author{1}{Lastname}#=%=#Subramanian
+Author{1}{Email}#=%=#sandeep.subramanian@gmail.com
+Author{1}{Affiliation}#=%=#MILA, Université de Montréal
+Author{2}{Firstname}#=%=#Sai
+Author{2}{Lastname}#=%=#Rajeswar
+Author{2}{Email}#=%=#rajsai24@gmail.com
+Author{2}{Affiliation}#=%=#MILA, Université de Montréal
+Author{3}{Firstname}#=%=#Francis
+Author{3}{Lastname}#=%=#Dutil
+Author{3}{Email}#=%=#frdutil@gmail.com
+Author{3}{Affiliation}#=%=#Université de Montréal
+Author{4}{Firstname}#=%=#Chris
+Author{4}{Lastname}#=%=#Pal
+Author{4}{Email}#=%=#christopher.pal@polymtl.ca
+Author{4}{Affiliation}#=%=#Polytechnique Montreal & the Montreal Institute for Learning Algorithms
+Author{5}{Firstname}#=%=#Aaron
+Author{5}{Lastname}#=%=#Courville
+Author{5}{Email}#=%=#aaron.courville@gmail.com
+Author{5}{Affiliation}#=%=#University of Montreal
+
+==========

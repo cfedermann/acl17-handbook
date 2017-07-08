@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Learning to Compose Words into Sentences with Reinforcement Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We use reinforcement learning to learn tree-structured neural networks for
+computing
+representations of natural language sentences. In contrast with prior work
+on tree-structured models, in which the trees are either provided as input or
+predicted
+using supervision from explicit treebank annotations, the tree structures
+in this work are optimized to improve performance on a downstream task.
+Experiments
+demonstrate the benefit of learning task-specific composition orders,
+outperforming both sequential encoders and recursive encoders based on treebank
+annotations. We analyze the induced trees and show that while they discover
+some linguistically intuitive structures (e.g., noun phrases, simple verb
+phrases),
+they are different than conventional English syntactic structures.
+Author{1}{Firstname}#=%=#Dani
+Author{1}{Lastname}#=%=#Yogatama
+Author{1}{Email}#=%=#dyogatama@google.com
+Author{1}{Affiliation}#=%=#DeepMind
+Author{2}{Firstname}#=%=#Phil
+Author{2}{Lastname}#=%=#Blunsom
+Author{2}{Email}#=%=#phil.blunsom@cs.ox.ac.uk
+Author{2}{Affiliation}#=%=#University of Oxford
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Dyer
+Author{3}{Email}#=%=#cdyer@google.com
+Author{3}{Affiliation}#=%=#Google DeepMind
+Author{4}{Firstname}#=%=#Edward
+Author{4}{Lastname}#=%=#Grefenstette
+Author{4}{Email}#=%=#egrefen@gmail.com
+Author{4}{Affiliation}#=%=#Google DeepMind
+Author{5}{Firstname}#=%=#Wang
+Author{5}{Lastname}#=%=#Ling
+Author{5}{Email}#=%=#wanglin1122@gmail.com
+Author{5}{Affiliation}#=%=#Google DeepMind
+
+==========

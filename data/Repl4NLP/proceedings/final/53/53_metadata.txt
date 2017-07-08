@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#53
+FinalPaperTitle#=%=#Gradual Learning of Matrix-Space Models of Language for Sentiment Analysis
+ShortPaperTitle#=%=#Gradual Learning of Matrix-Space Models of Language for Sentiment Analysis
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Shima Asaadi
+JobTitle#==#
+Organization#==#Technische Universität Dresden,
+Faculty of Computer Science,
+Artificial Intelligence Institute,
+Computational Logic Group,
+01062, Dresden, Germany
+Abstract#==#Learning word representations to capture the semantics and compositionality of
+language has received much research interest in natural language processing.
+Beyond the popular vector space models, matrix representations for words have
+been proposed, since then, matrix multiplication can serve as natural
+composition operation. In this work, we investigate the problem of learning
+matrix representations of words. We present a learning approach for
+compositional matrix-space models for the task of sentiment analysis. We show
+that our approach, which learns the matrices gradually in two steps,
+outperforms other approaches and a gradient-descent baseline in terms of
+quality and computational cost.
+Author{1}{Firstname}#=%=#Shima
+Author{1}{Lastname}#=%=#Asaadi
+Author{1}{Email}#=%=#shima.asaadi@tu-dresden.de
+Author{1}{Affiliation}#=%=#Technische Universität Dresden (Technical University of Dresden)
+Author{2}{Firstname}#=%=#Sebastian
+Author{2}{Lastname}#=%=#Rudolph
+Author{2}{Email}#=%=#sebastian.rudolph@tu-dresden.de
+Author{2}{Affiliation}#=%=#Technische Universität Dresden (Technical University of Dresden)
+
+==========

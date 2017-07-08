@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Transfer Learning for Neural Semantic Parsing
+ShortPaperTitle#=%=#Transfer Learning for Neural Semantic Parsing
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Xing Fan
+JobTitle#==#
+Organization#==#Amazon.com
+Abstract#==#The goal of semantic parsing is to map natural language to a machine
+interpretable meaning representation language (MRL). One of the constraints
+that limits full exploration of deep learning technologies for semantic parsing
+is the lack of sufficient annotation training data. In this paper, we propose
+using sequence-to-sequence in a multi-task setup for semantic parsing with
+focus on transfer learning. We explore three multi-task architectures for
+sequence-to-sequence model and compare their performance with the independently
+trained model. Our experiments show that the multi-task setup aids transfer
+learning from an auxiliary task with large labeled data to the target task with
+smaller labeled data. We see an absolute accuracy gain ranging from 1.0% to
+4.4% in in our in-house data set and we also see good gains ranging from 2.5%
+to 7.0% on the ATIS semantic parsing tasks with syntactic and semantic
+auxiliary tasks.
+Author{1}{Firstname}#=%=#Xing
+Author{1}{Lastname}#=%=#Fan
+Author{1}{Email}#=%=#fanxing1219@gmail.com
+Author{1}{Affiliation}#=%=#Amazon Corporation
+Author{2}{Firstname}#=%=#Emilio
+Author{2}{Lastname}#=%=#Monti
+Author{2}{Email}#=%=#monti@amazon.co.uk
+Author{2}{Affiliation}#=%=#Amazon  Corporation
+Author{3}{Firstname}#=%=#Lambert
+Author{3}{Lastname}#=%=#Mathias
+Author{3}{Email}#=%=#mathiasl@amazon.com
+Author{3}{Affiliation}#=%=#Amazon Corporation
+Author{4}{Firstname}#=%=#Markus
+Author{4}{Lastname}#=%=#Dreyer
+Author{4}{Email}#=%=#mddreyer@amazon.com
+Author{4}{Affiliation}#=%=#Amazon Corporation
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Towards Harnessing Memory Networks for Coreference Resolution
+ShortPaperTitle#=%=#Memory Networks for Coreference Resolution
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Joe Cheri Ross
+JobTitle#==#
+Organization#==#Dept. of CSE, IIT Bombay, Mumbai, India. 400076
+Abstract#==#Coreference resolution task demands comprehending a discourse, especially for
+anaphoric mentions which require semantic information for resolving
+antecedents. We investigate into how memory networks can be helpful for
+coreference resolution when posed as question answering problem. The
+comprehension capability of memory networks assists coreference resolution,
+particularly for the mentions that require semantic and context information. We
+experiment memory networks for coreference resolution, with 4 synthetic
+datasets generated for coreference resolu- tion with varying difficulty levels.
+Our system’s performance is compared with a traditional coreference
+resolution system to show why memory network can be promising for coreference
+resolution.
+Author{1}{Firstname}#=%=#Joe
+Author{1}{Lastname}#=%=#Cheri
+Author{1}{Email}#=%=#joe@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#IIT Bombay
+Author{2}{Firstname}#=%=#Pushpak
+Author{2}{Lastname}#=%=#Bhattacharyya
+Author{2}{Email}#=%=#pushpakbh@gmail.com
+Author{2}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

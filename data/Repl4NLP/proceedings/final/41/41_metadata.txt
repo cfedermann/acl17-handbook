@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Beyond Bilingual: Multi-sense Word Embeddings using Multilingual Context
+ShortPaperTitle#=%=#Beyond Bilingual: Multi-sense Word Embeddings using Multilingual Context
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Shyam Upadhyay
+JobTitle#==#
+Organization#==#
+Abstract#==#Word embeddings, which represent a word as a point in a vector space, have
+become ubiquitous to several NLP tasks.
+A recent line of work uses bilingual (two languages) corpora to learn a
+different vector
+ for each sense of a word, by exploiting crosslingual signals to aid sense
+identification.
+We present a multi-view Bayesian non-parametric algorithm which improves
+multi-sense wor
+d embeddings by
+(a) using multilingual (i.e., more than two languages) corpora to significantly
+improve
+sense embeddings beyond what one achieves with bilingual information, and (b)
+uses a principled approach to learn a variable number of senses per word, in a
+data-driven manner.
+Ours is the first approach with the ability to leverage multilingual corpora
+efficiently
+ for multi-sense representation learning.
+Experiments show that multilingual training significantly improves performance
+over monolingual and bilingual training, by allowing us to combine different
+parallel corpora to
+leverage multilingual context. Multilingual training yields comparable
+performance to a
+state of the art monolingual model trained on five times more training data.
+Author{1}{Firstname}#=%=#Shyam
+Author{1}{Lastname}#=%=#Upadhyay
+Author{1}{Email}#=%=#shyamupa@gmail.com
+Author{1}{Affiliation}#=%=#UIUC
+Author{2}{Firstname}#=%=#Kai-Wei
+Author{2}{Lastname}#=%=#Chang
+Author{2}{Email}#=%=#kw@kwchang.net
+Author{2}{Affiliation}#=%=#University of Virginia
+Author{3}{Firstname}#=%=#Matt
+Author{3}{Lastname}#=%=#Taddy
+Author{3}{Email}#=%=#mataddy@gmail.com
+Author{3}{Affiliation}#=%=#University of Chicago Booth School of Business
+Author{4}{Firstname}#=%=#Adam
+Author{4}{Lastname}#=%=#Kalai
+Author{4}{Email}#=%=#adum@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research
+Author{5}{Firstname}#=%=#James
+Author{5}{Lastname}#=%=#Zou
+Author{5}{Email}#=%=#jamesyzou@gmail.com
+Author{5}{Affiliation}#=%=#Stanford University
+
+==========

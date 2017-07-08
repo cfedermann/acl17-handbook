@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Evaluating Layers of Representation in Neural Machine Translation on Syntactic and Semantic Tagging
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#While neural machine translation (NMT) models provide improved translation
+quality in an elegant framework, it is less clear what they learn about
+language. Recent work has started evaluating the quality of vector
+representations learned by NMT models on morphological and semantic tasks. In
+this paper, we investigate the representations learned at different layers of 
+NMT encoders. We train NMT systems on parallel data and use the models to
+extract features for training a classifier on two tasks: part-of-speech (POS)
+and semantic tagging. We then measure the performance of the classifier as a
+proxy to the quality of the original NMT model for the given task. Our
+quantitative analysis yields interesting insights regarding representation
+learning in NMT models. For instance, we find that higher layers are better at
+learning semantics while lower layers are better for POS tagging.
+Author{1}{Firstname}#=%=#Yonatan
+Author{1}{Lastname}#=%=#Belinkov
+Author{1}{Email}#=%=#belinkov@mit.edu
+Author{1}{Affiliation}#=%=#MIT CSAIL
+Author{2}{Firstname}#=%=#Lluís
+Author{2}{Lastname}#=%=#Màrquez
+Author{2}{Email}#=%=#lluism@lsi.upc.edu
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{3}{Firstname}#=%=#Hassan
+Author{3}{Lastname}#=%=#Sajjad
+Author{3}{Email}#=%=#hsajjad@qf.org.qa
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{4}{Firstname}#=%=#Nadir
+Author{4}{Lastname}#=%=#Durrani
+Author{4}{Email}#=%=#ndurrani@qf.org.qa
+Author{4}{Affiliation}#=%=#QCRI
+Author{5}{Firstname}#=%=#Fahim
+Author{5}{Lastname}#=%=#Dalvi
+Author{5}{Email}#=%=#faimaduddin@qf.org.qa
+Author{5}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{6}{Firstname}#=%=#James
+Author{6}{Lastname}#=%=#Glass
+Author{6}{Email}#=%=#glass@mit.edu
+Author{6}{Affiliation}#=%=#Massachusetts Institute of Technology
+
+==========
