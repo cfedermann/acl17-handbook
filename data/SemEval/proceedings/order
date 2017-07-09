@@ -2,7 +2,7 @@
 + 09:00--09:15 Welcome / Opening Remarks
 ! 09:15--10:30 Invited Talk: From Naive Physics to Connotation: Modeling Commonsense in Frame Semantics %by Yejin Choi
 + 10:30--11:00 Coffee
-= 11:00--12:30 Task Descriptions # %room TBD
+= 11:00--12:30 Task Descriptions %room TBD
 193 11:00--11:15  # SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation
 181 11:15--11:30  # SemEval-2017 Task 2: Multilingual and Cross-lingual Semantic Word Similarity
 192 11:30--11:45  # SemEval-2017 Task 3: Community Question Answering
@@ -10,7 +10,7 @@
 184 12:00--12:15  # SemEval-2017 Task 7: Detection and Interpretation of English Puns
 182 12:15--12:30  # SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours
 + 12:30--14:00 Lunch
-= 14:00--15:30 Best Of SemEval # %room TBD
+= 14:00--15:30 Best Of SemEval %room TBD
 79 14:00--14:15  # BIT at SemEval-2017 Task 1: Using Semantic Information Space to Evaluate Semantic Textual Similarity
 123 14:15--14:30  # ConceptNet at SemEval-2017 Task 2: Extending Word Embeddings with Multilingual Relational Knowledge
 71 14:30--14:45  # IIT-UHH at SemEval-2017 Task 3: Exploring Multiple Features for Community Question Answering and Implicit Dialogue Identification
@@ -19,7 +19,7 @@
 ! 15:15--15:30 Turing at SemEval-2017 Task 8: Sequential Approach to Rumour Stance Classification with Branch-LSTM %by Elena Kochkina, Maria Liakata and Isabelle Augenstein
 + 15:30--16:00 Coffee
 + 16:00--16:30 Discussion
-= 16:30--17:30 Poster Session # %room TBD
+= 16:30--17:30 Poster Session %room TBD
 7 16:30--17:30  # CompiLIG at SemEval-2017 Task 1: Cross-Language Plagiarism Detection Methods for Semantic Textual Similarity
 8 16:30--17:30  # UdL at SemEval-2017 Task 1: Semantic Textual Similarity Estimation of English Sentence Pairs Using Regression Model over Pairwise Features
 50 16:30--17:30  # DT_Team at SemEval-2017 Task 1: Semantic Similarity Using Alignments, Sentence-Level Embeddings and Gaussian Mixture Model Output
@@ -100,7 +100,7 @@
 + 09:00--09:30 SemEval 2018 Tasks
 + 09:30--10:30 State of SemEval Discussion
 + 10:30--11:00 Coffee
-= 11:00--12:30 Task Descriptions # %room TBD
+= 11:00--12:30 Task Descriptions %room TBD
 187 11:00--11:15  # SemEval-2017 Task 4: Sentiment Analysis in Twitter
 185 11:15--11:30  # SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News
 186 11:30--11:45  # SemEval-2017 Task 9: Abstract Meaning Representation Parsing and Generation
@@ -108,7 +108,7 @@
 191 12:00--12:15  # SemEval-2017 Task 11: End-User Development using Natural Language
 188 12:15--12:30  # SemEval-2017 Task 12: Clinical TempEval
 + 12:30--14:00 Lunch
-= 14:00--15:30 Best Of SemEval # %room TBD
+= 14:00--15:30 Best Of SemEval %room TBD
 29 14:00--14:15  # BB_twtr at SemEval-2017 Task 4: Twitter Sentiment Analysis with CNNs and LSTMs
 103 14:15--14:30  # Lancaster A at SemEval-2017 Task 5: Evaluation metrics matter: predicting sentiment from financial news headlines
 121 14:30--14:45  # Sheffield at SemEval-2017 Task 9: Transition-based language generation from AMR.
@@ -116,7 +116,7 @@
 117 15:00--15:15  # LIMSI-COT at SemEval-2017 Task 12: Neural Architecture for Temporal Information Extraction from Clinical Narratives
 + 15:30--16:00 Coffee
 + 16:00--16:30 Discussion
-= 16:30--17:30 Poster Session # %room TBD
+= 16:30--17:30 Poster Session %room TBD
 5 16:30--17:30  # OMAM at SemEval-2017 Task 4: Evaluation of English State-of-the-Art Sentiment Analysis Models for Arabic and a New Topic-based Model
 6 16:30--17:30  # NILC-USP at SemEval-2017 Task 4: A Multi-view Ensemble for Twitter Sentiment Analysis
 12 16:30--17:30  # deepSA at SemEval-2017 Task 4: Interpolated Deep Neural Networks for Sentiment Analysis in Twitter
