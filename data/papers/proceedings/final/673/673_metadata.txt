@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#673
+FinalPaperTitle#=%=#Coarse-to-Fine Question Answering for Long Documents
+ShortPaperTitle#=%=#Coarse-to-Fine Question Answering for Long Documents
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Eunsol Choi
+JobTitle#==#
+Organization#==#Eunsol Choi University of Washington
+Abstract#==#We present a framework for question answering that can efficiently scale to
+longer documents while maintaining or even improving performance of
+state-of-the-art models. While most successful approaches for reading
+comprehension rely on recurrent neural networks (RNNs), running them over long
+documents is prohibitively slow because it is difficult to parallelize over
+sequences. Inspired by how people first skim the document, identify relevant
+parts, and carefully read these parts to produce an answer, we combine a
+coarse, fast model for selecting relevant sentences and a more expensive RNN
+for producing the answer from those sentences.
+We treat sentence selection as a latent variable trained jointly from the
+answer only using reinforcement learning. Experiments demonstrate
+state-of-the-art performance on a challenging subset of the WikiReading dataset
+and on a new dataset, while speeding up the model by 3.5x-6.7x.
+Author{1}{Firstname}#=%=#Eunsol
+Author{1}{Lastname}#=%=#Choi
+Author{1}{Email}#=%=#eunsol@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#Hewlett
+Author{2}{Email}#=%=#dhewlett@google.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Jakob
+Author{3}{Lastname}#=%=#Uszkoreit
+Author{3}{Email}#=%=#jakob@uszkoreit.net
+Author{3}{Affiliation}#=%=#Google, Inc.
+Author{4}{Firstname}#=%=#Illia
+Author{4}{Lastname}#=%=#Polosukhin
+Author{4}{Email}#=%=#ipolosukhin@google.com
+Author{4}{Affiliation}#=%=#Google
+Author{5}{Firstname}#=%=#Alexandre
+Author{5}{Lastname}#=%=#Lacoste
+Author{5}{Email}#=%=#allac@google.com
+Author{5}{Affiliation}#=%=#Google
+Author{6}{Firstname}#=%=#Jonathan
+Author{6}{Lastname}#=%=#Berant
+Author{6}{Email}#=%=#joberant@cs.tau.ac.il
+Author{6}{Affiliation}#=%=#Tel Aviv University
+
+==========

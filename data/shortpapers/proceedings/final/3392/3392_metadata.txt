@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#3392
+FinalPaperTitle#=%=#Arc-swift: A Novel Transition System for Dependency Parsing
+ShortPaperTitle#=%=#Arc-swift: A Novel Transition System for Dependency Parsing
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Peng Qi
+JobTitle#==#
+Organization#==#
+Abstract#==#Transition-based dependency parsers often need sequences of local shift and
+reduce operations to produce certain attachments. Correct individual decisions
+hence require global information about the sentence context and mistakes
+cause error propagation. This paper proposes a novel transition system,
+arc-swift, that enables direct attachments between tokens farther apart with a
+single transition. This allows the parser to leverage lexical information more
+directly in transition decisions. Hence, arc-swift can achieve significantly
+better performance with a very small beam size. Our parsers reduce error by
+3.7--7.6% relative to those using existing transition systems on the Penn
+Treebank dependency parsing task and English Universal Dependencies.
+Author{1}{Firstname}#=%=#Peng
+Author{1}{Lastname}#=%=#Qi
+Author{1}{Email}#=%=#pengqi@cs.stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Christopher D.
+Author{2}{Lastname}#=%=#Manning
+Author{2}{Email}#=%=#manning@cs.stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+
+==========

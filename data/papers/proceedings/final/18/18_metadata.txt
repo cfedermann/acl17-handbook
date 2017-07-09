@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Attention-over-Attention Neural Networks for Reading Comprehension
+ShortPaperTitle#=%=#Attention-over-Attention Neural Networks for Reading Comprehension
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yiming Cui
+JobTitle#==#
+Organization#==#iFLYTEK Research. Floor 5, Xinzonghe Building, No.15 Xueyuan Road, Haidian District, Beijing, China
+Abstract#==#Cloze-style reading comprehension is a representative problem in mining
+relationship between document and query.
+In this paper, we present a simple but novel model called
+attention-over-attention reader for better solving cloze-style reading
+comprehension task.
+The proposed model aims to place another attention mechanism over the
+document-level attention and induces ``attended attention'' for final answer
+predictions.
+One advantage of our model is that it is simpler than related works while
+giving excellent performance.
+In addition to the primary model, we also propose an N-best re-ranking strategy
+to double check the validity of the candidates and further improve the
+performance.
+Experimental results show that the proposed methods significantly outperform
+various state-of-the-art systems by a large margin in public datasets, such as
+CNN and Children's Book Test.
+Author{1}{Firstname}#=%=#Yiming
+Author{1}{Lastname}#=%=#Cui
+Author{1}{Email}#=%=#ymcui@iflytek.com
+Author{1}{Affiliation}#=%=#iFLYTEK Research
+Author{2}{Firstname}#=%=#Zhipeng
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#zpchen@iflytek.com
+Author{2}{Affiliation}#=%=#iFLYTEK Research
+Author{3}{Firstname}#=%=#si
+Author{3}{Lastname}#=%=#wei
+Author{3}{Email}#=%=#siwei@iflytek.com
+Author{3}{Affiliation}#=%=#
+Author{4}{Firstname}#=%=#Shijin
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#sjwang3@iflytek.com
+Author{4}{Affiliation}#=%=#iFLYTEK Research
+Author{5}{Firstname}#=%=#Ting
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Email}#=%=#tliu72@vip.126.com
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology
+Author{6}{Firstname}#=%=#Guoping
+Author{6}{Lastname}#=%=#Hu
+Author{6}{Email}#=%=#gphu@iflytek.com
+Author{6}{Affiliation}#=%=#iFlyTEK Research
+
+==========

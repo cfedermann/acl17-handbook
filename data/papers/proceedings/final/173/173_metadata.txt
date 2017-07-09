@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#173
+FinalPaperTitle#=%=#Determining Gains Acquired from Word Embedding Quantitatively Using Discrete Distribution Clustering
+ShortPaperTitle#=%=#Determining Gains Acquired from Word Embedding Quantitatively Using D2-Clustering
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jianbo Ye
+JobTitle#==#
+Organization#==#Penn State University, University Park, PA 16802
+Abstract#==#Word embeddings have become widely-used in document analysis. While a large
+number of models for mapping words to vector spaces have been developed, it
+remains undetermined how much net gain can be achieved over traditional
+approaches based on bag-of-words. In this paper, we propose a new document
+clustering approach by combining any word embedding with a state-of-the-art
+algorithm for clustering empirical distributions. By using the Wasserstein
+distance between distributions, the word-to-word semantic relationship is taken
+into account in a principled way. The new clustering method is easy to use and
+consistently outperforms other methods on a variety of data sets. More
+importantly, the method provides an effective framework for determining when
+and how much word embeddings contribute to document analysis. Experimental
+results with multiple embedding models are reported.
+Author{1}{Firstname}#=%=#Jianbo
+Author{1}{Lastname}#=%=#Ye
+Author{1}{Email}#=%=#jxy198@ist.psu.edu
+Author{1}{Affiliation}#=%=#Penn State University
+Author{2}{Firstname}#=%=#Yanran
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#yanranli.summer@gmail.com
+Author{2}{Affiliation}#=%=#The Hong Kong Polytechnic University
+Author{3}{Firstname}#=%=#Zhaohui
+Author{3}{Lastname}#=%=#Wu
+Author{3}{Email}#=%=#laowuz@gmail.com
+Author{3}{Affiliation}#=%=#Microsoft
+Author{4}{Firstname}#=%=#James Z.
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#jwang@ist.psu.edu
+Author{4}{Affiliation}#=%=#Penn State University
+Author{5}{Firstname}#=%=#Wenjie
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#cswjli@comp.polyu.edu.hk
+Author{5}{Affiliation}#=%=#The Hong Kong Polytechnic University
+Author{6}{Firstname}#=%=#Jia
+Author{6}{Lastname}#=%=#Li
+Author{6}{Email}#=%=#jiali@stat.psu.edu
+Author{6}{Affiliation}#=%=#Penn State University
+
+==========

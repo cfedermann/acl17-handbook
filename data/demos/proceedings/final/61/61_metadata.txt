@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#61
+FinalPaperTitle#=%=#ESTEEM: A Novel Framework for Qualitatively Evaluating and Visualizing Spatiotemporal Embeddings in Social Media
+ShortPaperTitle#=%=#ESTEEM: A Novel Framework for Qualitatively Evaluating and Visualizing Spatiotemporal Embeddings in Social Media
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Svitlana Volkova
+JobTitle#==#
+Organization#==#Pacific Northwest National Laboratory
+902 Battelle Blvd, Richland, WA 99354
+Abstract#==#Analyzing and visualizing large amounts of social media communications and
+contrasting short-term conversation changes over time and geolocations is
+extremely important for commercial and government applications. Earlier
+approaches for large-scale text stream summarization used dynamic topic models
+and trending words. Instead, we rely on text embeddings -- low-dimensional word
+representations in a continuous vector space where similar words are embedded
+nearby each other. 
+
+This paper presents ESTEEM, a novel tool for visualizing and evaluating
+spatiotemporal embeddings learned from streaming social media texts. Our tool
+allows users to monitor and analyze query words and their closest neighbors
+with an interactive interface. We used state-of-the-art techniques to learn
+embeddings and developed a visualization to represent dynamically changing
+relations between words in social media over time and other dimensions.
+This is the first interactive visualization of streaming text representations
+learned from social media texts that also allows users to contrast differences
+across multiple dimensions of the data.
+Author{1}{Firstname}#=%=#Dustin
+Author{1}{Lastname}#=%=#Arendt
+Author{1}{Email}#=%=#dustin.arendt@pnnl.gov
+Author{1}{Affiliation}#=%=#PNNL
+Author{2}{Firstname}#=%=#Svitlana
+Author{2}{Lastname}#=%=#Volkova
+Author{2}{Email}#=%=#svitlana.volkova@pnnl.gov
+Author{2}{Affiliation}#=%=#Pacific Northwest National Laboratory
+
+==========

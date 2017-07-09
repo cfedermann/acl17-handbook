@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Hafez: an Interactive Poetry Generation System
+ShortPaperTitle#=%=#Hafez: an Interactive Poetry Generation System
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Xing Shi
+JobTitle#==#
+Organization#==#Information Sciences Institute
+4676 Admiralty Way #1001, Marina Del Rey, CA 90292
+Abstract#==#Hafez is an automatic poetry generation system that integrates a Recurrent
+Neural Network (RNN) with a Finite State Acceptor (FSA). It generates sonnets
+given arbitrary topics. Furthermore, Hafez enables users to revise and polish
+generated poems by adjusting various style configurations. Experiments
+demonstrate that such ``polish'' mechanisms consider the user's intention and
+lead to a better poem. For evaluation, we build a web interface where users can
+rate the quality of each poem from 1 to 5 stars. We also speed up the whole
+system by a factor of 10, via vocabulary pruning and GPU computation, so that
+adequate feedback can be collected at a fast pace. Based on such feedback, the
+system learns to adjust its parameters to improve poetry quality. .
+Author{1}{Firstname}#=%=#Marjan
+Author{1}{Lastname}#=%=#Ghazvininejad
+Author{1}{Email}#=%=#ghazvini@isi.edu
+Author{1}{Affiliation}#=%=#USC
+Author{2}{Firstname}#=%=#Xing
+Author{2}{Lastname}#=%=#Shi
+Author{2}{Email}#=%=#xingshi@usc.edu
+Author{2}{Affiliation}#=%=#University of Southern California
+Author{3}{Firstname}#=%=#Jay
+Author{3}{Lastname}#=%=#Priyadarshi
+Author{3}{Email}#=%=#jpriyada@isi.edu
+Author{3}{Affiliation}#=%=#USC
+Author{4}{Firstname}#=%=#Kevin
+Author{4}{Lastname}#=%=#Knight
+Author{4}{Email}#=%=#knight@isi.edu
+Author{4}{Affiliation}#=%=#USC/ISI
+
+==========

@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Sequence-to-Dependency Neural Machine Translation
+ShortPaperTitle#=%=#Sequence-to-Dependency Neural Machine Translation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Shuangzhi Wu
+JobTitle#==#
+Organization#==#Harbin Institute of Technology, No.92, Xidazhi Street, Nangang District, Harbin City, Heilongjiang Province, China
+Abstract#==#Nowadays a typical Neural Machine Translation (NMT) model generates
+translations from left to right as a linear sequence, during which latent
+syntactic structures of the target sentences are not explicitly concerned.
+Inspired by the success of using syntactic knowledge of target language for
+improving statistical machine translation,
+in this paper we propose a novel Sequence-to-Dependency Neural Machine
+Translation (SD-NMT) method, in which the target word sequence and its
+corresponding dependency structure are jointly constructed and modeled, and
+this structure is used as context to facilitate word generations. Experimental
+results show that the proposed method significantly outperforms
+state-of-the-art baselines on Chinese-English and Japanese-English translation
+tasks.
+Author{1}{Firstname}#=%=#Shuangzhi
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Email}#=%=#v-shuawu@microsoft.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Dongdong
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#dozhang@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Nan
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Email}#=%=#nanya@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Asia
+Author{4}{Firstname}#=%=#Mu
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#muli@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research Asia
+Author{5}{Firstname}#=%=#Ming
+Author{5}{Lastname}#=%=#Zhou
+Author{5}{Email}#=%=#mingzhou@microsoft.com
+Author{5}{Affiliation}#=%=#microsoft research asia
+
+==========

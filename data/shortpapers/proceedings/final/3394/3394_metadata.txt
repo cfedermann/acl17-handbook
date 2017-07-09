@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#3394
+FinalPaperTitle#=%=#Model Transfer for Tagging Low-resource Languages using a Bilingual Dictionary
+ShortPaperTitle#=%=#Model Transfer for Tagging Low-resource Languages using a Bilingual Dictionary
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Meng Fang
+JobTitle#==#
+Organization#==#Meng Fang
+Computing and Information Systems, The University of Melbourne , VIC 3010 Australia
+Abstract#==#Cross-lingual model transfer is a compelling and popular method for predicting
+annotations in a low-resource language, whereby parallel corpora provide a
+bridge to a high-resource language, and its associated annotated corpora.
+However, parallel data is not readily available for many languages, limiting
+the applicability of these approaches. We address these drawbacks in our
+framework which takes advantage of cross-lingual word embeddings trained solely
+on a high coverage dictionary. We propose a novel neural network model for
+joint training from both sources of data based on cross-lingual word
+embeddings, and show substantial empirical improvements over baseline
+techniques. We also propose several active learning heuristics, which result in
+improvements over competitive benchmark methods.
+Author{1}{Firstname}#=%=#Meng
+Author{1}{Lastname}#=%=#Fang
+Author{1}{Email}#=%=#meng.fang@unimelb.edu.au
+Author{1}{Affiliation}#=%=#The University of Melbourne
+Author{2}{Firstname}#=%=#Trevor
+Author{2}{Lastname}#=%=#Cohn
+Author{2}{Email}#=%=#tcohn@unimelb.edu.au
+Author{2}{Affiliation}#=%=#University of Melbourne
+
+==========

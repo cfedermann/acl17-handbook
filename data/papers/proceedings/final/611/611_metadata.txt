@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#611
+FinalPaperTitle#=%=#Using Global Constraints and Reranking to Improve Cognates Detection
+ShortPaperTitle#=%=#Using Global Constraints and Reranking to Improve Cognates Detection
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Michael Bloodgood
+JobTitle#==#
+Organization#==#
+Abstract#==#Global constraints and reranking have not been used in cognates detection
+research to date. We propose methods for using global constraints by performing
+rescoring of the score matrices produced by state of the art cognates detection
+systems. Using global constraints to perform rescoring is complementary to
+state of the art methods for performing cognates detection and results in
+significant performance improvements beyond current state of the art
+performance on publicly available datasets with different language pairs and
+various conditions such as different levels of baseline state of the art
+performance and different data size conditions, including with more realistic
+large data size conditions than have been evaluated with in the past.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Bloodgood
+Author{1}{Email}#=%=#mbloodgood@tcnj.edu
+Author{1}{Affiliation}#=%=#The College of New Jersey
+Author{2}{Firstname}#=%=#Benjamin
+Author{2}{Lastname}#=%=#Strauss
+Author{2}{Email}#=%=#strauss.105@osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+
+==========

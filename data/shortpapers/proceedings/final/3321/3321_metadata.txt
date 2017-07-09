@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3321
+FinalPaperTitle#=%=#A Principled Framework for Evaluating Summarizers: Comparing Models of Summary Quality against Human Judgments
+ShortPaperTitle#=%=#A Principled Framework for Evaluating Summarizers: Comparing Models of Summary Quality against Human Judgments
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Maxime Peyrard
+JobTitle#==#
+Organization#==#Ubiquitous Knowledge Processing Lab
+Hochschulstraße 10 
+64289 Darmstadt
+Germany
+Abstract#==#We present a new framework for evaluating extractive summarizers, which is
+based on a principled representation as optimization problem. We prove that
+every extractive summarizer can be decomposed into an objective function  and
+an optimization technique. We perform a comparative analysis and evaluation of
+several objective functions embedded in well-known summarizers regarding their
+correlation with human judgments. Our comparison of these correlations across
+two datasets yields surprising insights into the role and performance of
+objective functions in the different  summarizers.
+Author{1}{Firstname}#=%=#Maxime
+Author{1}{Lastname}#=%=#Peyrard
+Author{1}{Email}#=%=#peyrard@aiphes.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Judith
+Author{2}{Lastname}#=%=#Eckle-Kohler
+Author{2}{Email}#=%=#eckle-kohler@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#Technische Universität Darmstadt
+
+==========

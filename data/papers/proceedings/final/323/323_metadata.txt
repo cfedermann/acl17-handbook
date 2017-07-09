@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#323
+FinalPaperTitle#=%=#A Neural Local Coherence Model
+ShortPaperTitle#=%=#A Neural Local Coherence Model
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Dat
+JobTitle#==#
+Organization#==#Informatics Institute, University of Amsterdam
+Abstract#==#We propose a local coherence model based on a convolutional neural network that
+operates over the entity grid representation of a text. The model captures long
+range en- tity transitions along with entity-specific features without loosing
+generalization, thanks to the power of distributed representation. We present a
+pairwise ranking method to train the model in an end-to-end fashion on a task
+and learn task-specific high level features. Our evaluation on three different
+coherence assessment tasks demonstrates that our model achieves state of the
+art results outperforming existing models by a good margin.
+Author{1}{Firstname}#=%=#Dat
+Author{1}{Lastname}#=%=#Tien Nguyen
+Author{1}{Email}#=%=#t.d.nguyen@uva.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Shafiq
+Author{2}{Lastname}#=%=#Joty
+Author{2}{Email}#=%=#sjoty@hbku.edu.qa
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute
+
+==========

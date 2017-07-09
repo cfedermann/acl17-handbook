@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#417
+FinalPaperTitle#=%=#Friendships, Rivalries, and Trysts: Characterizing Relations between Ideas in Texts
+ShortPaperTitle#=%=#Friendships, Rivalries, and Trysts: Characterizing Relations between Ideas in Texts
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#CT
+JobTitle#==#
+Organization#==#Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA, 98195, USA
+Abstract#==#Understanding how ideas relate to each other is a fundamental question in many
+domains, ranging from intellectual history to public communication. Because
+ideas are naturally embedded in texts, we propose the first framework to
+systematically characterize the relations between ideas based on their
+occurrence in a corpus of documents, independent of how these ideas are
+represented. Combining two statistics—cooccurrence within documents and
+prevalence correlation over time—our approach reveals a number of different
+ways in which ideas can cooperate and compete. For instance, two ideas can
+closely track each other’s prevalence over time, and yet rarely cooccur,
+almost like a “cold war” scenario. We observe that pairwise cooccurrence
+and prevalence correlation exhibit different distributions. We further
+demonstrate that our approach is able to uncover intriguing relations between
+ideas through in-depth case studies on news articles and research papers.
+Author{1}{Firstname}#=%=#Chenhao
+Author{1}{Lastname}#=%=#Tan
+Author{1}{Email}#=%=#chenhao@chenhaot.com
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Dallas
+Author{2}{Lastname}#=%=#Card
+Author{2}{Email}#=%=#dcard@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Noah A.
+Author{3}{Lastname}#=%=#Smith
+Author{3}{Email}#=%=#nasmith@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+
+==========

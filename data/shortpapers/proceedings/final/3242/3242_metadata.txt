@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#3242
+FinalPaperTitle#=%=#Hybrid Neural Network Alignment and Lexicon Model in Direct HMM for Statistical Machine Translation
+ShortPaperTitle#=%=#Hybrid NN Alignment and Lexicon Model in Direct HMM for SMT
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Weiyue Wang
+JobTitle#==#
+Organization#==#Human Language Technology and Pattern Recognition Group
+Computer Science Department
+RWTH Aachen University
+Ahornstr. 55
+52056 Aachen, Germany
+Abstract#==#Recently, the neural machine translation systems showed their promising
+performance and surpassed the phrase-based systems for most translation tasks.
+Retreating into conventional concepts machine translation while utilizing
+effective neural models is vital for comprehending the leap accomplished by
+neural machine translation over phrase-based methods. This work proposes a
+direct HMM with neural network-based lexicon and alignment models, which are
+trained jointly using the Baum-Welch algorithm. The direct HMM is applied to
+rerank the n-best list created by a state-of-the-art phrase-based translation
+system and it provides improvements by up to 1.0% Bleu scores on two different
+translation tasks.
+Author{1}{Firstname}#=%=#Weiyue
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#weiyue.wang@rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Tamer
+Author{2}{Lastname}#=%=#Alkhouli
+Author{2}{Email}#=%=#alkhouli@cs.rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+Author{3}{Firstname}#=%=#Derui
+Author{3}{Lastname}#=%=#Zhu
+Author{3}{Email}#=%=#derui.zhu@rwth-aachen.de
+Author{3}{Affiliation}#=%=#RWTH Aachen University
+Author{4}{Firstname}#=%=#Hermann
+Author{4}{Lastname}#=%=#Ney
+Author{4}{Email}#=%=#ney@cs.rwth-aachen.de
+Author{4}{Affiliation}#=%=#RWTH Aachen University
+
+==========

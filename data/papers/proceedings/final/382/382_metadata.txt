@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#382
+FinalPaperTitle#=%=#Creating Training Corpora for NLG Micro-Planners
+ShortPaperTitle#=%=#Creating Training Corpora for NLG Micro-Planners
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Claire Gardent
+JobTitle#==#
+Organization#==#CNRS/LORIA Nancy
+Abstract#==#In this paper, we present a novel framework for semi-automatically
+creating linguistically challenging micro-planning data-to-text
+corpora from existing Knowledge Bases. Because our method pairs data
+of varying size and shape with texts ranging from simple clauses to
+short texts, a dataset created using this framework provides a
+challenging benchmark for microplanning. Another feature of this
+framework is that it can be applied to any large scale knowledge base
+and can therefore be used to train and learn KB verbalisers.  We apply
+our framework to DBpedia data and compare the resulting dataset with
+Wen et al. 2016's. We show that while Wen et al.'s dataset is
+more than twice larger than ours, it is less diverse both in terms of
+input and in terms of text. We thus propose our corpus generation
+framework as a novel method for creating challenging data sets from
+which NLG models can be learned which are capable of handling the
+complex interactions occurring during in micro-planning between
+lexicalisation, aggregation, surface realisation, referring expression
+generation and sentence segmentation. To encourage researchers to take
+up this challenge, we made available a dataset of 21,855 data/text
+pairs created using this framework in the context of the
+WebNLG shared task.
+Author{1}{Firstname}#=%=#Claire
+Author{1}{Lastname}#=%=#Gardent
+Author{1}{Email}#=%=#claire.gardent@loria.fr
+Author{1}{Affiliation}#=%=#CNRS/LORIA, Nancy
+Author{2}{Firstname}#=%=#Anastasia
+Author{2}{Lastname}#=%=#Shimorina
+Author{2}{Email}#=%=#anastasia.shimorina@loria.fr
+Author{2}{Affiliation}#=%=#CNRS/LORIA Nancy (France)
+Author{3}{Firstname}#=%=#Shashi
+Author{3}{Lastname}#=%=#Narayan
+Author{3}{Email}#=%=#Shashi.Narayan@ed.ac.uk
+Author{3}{Affiliation}#=%=#School of Informatics,The University of Edinburgh
+Author{4}{Firstname}#=%=#Laura
+Author{4}{Lastname}#=%=#Perez-Beltrachini
+Author{4}{Email}#=%=#lperez@exseed.ed.ac.uk
+Author{4}{Affiliation}#=%=#School of Informatics,The University of Edinburgh
+
+==========

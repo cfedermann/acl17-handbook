@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3528
+FinalPaperTitle#=%=#A Neural Architecture for Generating Natural Language Descriptions from Source Code Changes
+ShortPaperTitle#=%=#A Neural Architecture for Generating Natural Language Descriptions from Source Code Changes
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Edison Marrese-Taylor
+JobTitle#==#
+Organization#==#The University of Tokyo
+7-3-1 Hongo, Bunkyo, Tokyo 113-8654
+Japan
+Abstract#==#We propose a model to automatically describe changes introduced in the source
+code of a program using natural language. Our method receives as input a set of
+code commits, which contains both the modifications and  message introduced by
+an user. These two modalities are used to train  an encoder-decoder
+architecture. We evaluated our approach on twelve real world open source
+projects from four different programming languages. Quantitative and
+qualitative results showed that the proposed approach can generate feasible and
+semantically sound descriptions not only in standard in-project settings, but
+also in a cross-project setting.
+Author{1}{Firstname}#=%=#Pablo
+Author{1}{Lastname}#=%=#Loyola
+Author{1}{Email}#=%=#pablo.loyola.h@gmail.com
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Edison
+Author{2}{Lastname}#=%=#Marrese-Taylor
+Author{2}{Email}#=%=#edison_marrese@hotmail.com
+Author{2}{Affiliation}#=%=#The University of Tokyo
+Author{3}{Firstname}#=%=#Yutaka
+Author{3}{Lastname}#=%=#Matsuo
+Author{3}{Email}#=%=#matsuo@weblab.t.u-tokyo.ac.jp
+Author{3}{Affiliation}#=%=#University of Tokyo
+
+==========

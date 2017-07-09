@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#3318
+FinalPaperTitle#=%=#Information-Theory Interpretation of the Skip-Gram Negative-Sampling Objective Function
+ShortPaperTitle#=%=#Information-Theory Interpretation of the Skip-Gram Negative-Sampling Objective Function
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jacob Goldberger
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper we define a measure of dependency between two random variables,
+based on the Jensen-Shannon (JS) divergence between their joint distribution
+and the product of their marginal distributions. Then, we show that word2vec's
+skip-gram with negative sampling embedding algorithm finds the optimal
+low-dimensional approximation of this JS dependency measure between the words
+and their contexts. The gap between the optimal score and the low-dimensional
+approximation is demonstrated on a standard text corpus.
+Author{1}{Firstname}#=%=#Oren
+Author{1}{Lastname}#=%=#Melamud
+Author{1}{Email}#=%=#oren@melamuds.com
+Author{1}{Affiliation}#=%=#IBM
+Author{2}{Firstname}#=%=#Jacob
+Author{2}{Lastname}#=%=#Goldberger
+Author{2}{Email}#=%=#jacob.goldberger@biu.ac.il
+Author{2}{Affiliation}#=%=#Bar-Ilan University
+
+==========

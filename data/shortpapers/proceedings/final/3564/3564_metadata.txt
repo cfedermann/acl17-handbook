@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#3564
+FinalPaperTitle#=%=#Towards String-To-Tree Neural Machine Translation
+ShortPaperTitle#=%=#Towards String-To-Tree Neural Machine Translation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Roee Aharoni
+JobTitle#==#
+Organization#==#Bar Ilan University, Ramat Gan, Israel
+Abstract#==#We present a simple method to incorporate syntactic information about the
+target language in a neural machine translation system by translating into
+linearized, lexicalized constituency trees. An experiment on the WMT16
+German-English news translation task resulted in an improved BLEU score when
+compared to a syntax-agnostic NMT baseline trained on the same dataset. An
+analysis of the translations from the syntax-aware system shows that it
+performs more reordering during translation in comparison to the baseline. A
+small-scale human evaluation also showed an advantage to the syntax-aware
+system.
+Author{1}{Firstname}#=%=#Roee
+Author{1}{Lastname}#=%=#Aharoni
+Author{1}{Email}#=%=#roee.aharoni@gmail.com
+Author{1}{Affiliation}#=%=#Bar Ilan University
+Author{2}{Firstname}#=%=#Yoav
+Author{2}{Lastname}#=%=#Goldberg
+Author{2}{Email}#=%=#yoav.goldberg@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+
+==========

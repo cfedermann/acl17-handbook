@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#528
+FinalPaperTitle#=%=#Hybrid Code Networks: practical and efficient end-to-end dialog control with supervised and reinforcement learning
+ShortPaperTitle#=%=#Hybrid Code Networks: practical and efficient end-to-end dialog control with supervised and reinforcement learning
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Jason D Williams
+JobTitle#==#
+Organization#==#Microsoft Corp
+One Microsoft Way
+Redmond, WA  98052
+Abstract#==#End-to-end learning of recurrent neural networks (RNNs) is an attractive
+solution for dialog systems; however, current techniques are data-intensive and
+require thousands of dialogs to learn simple behaviors.  We introduce Hybrid
+Code Networks (HCNs), which combine an RNN with domain-specific knowledge
+encoded as software and system action templates. Compared to existing
+end-to-end approaches, HCNs considerably reduce the amount of training data
+required, while retaining the key benefit of inferring a latent representation
+of dialog state. In addition, HCNs can be optimized with supervised learning,
+reinforcement learning, or a mixture of both. HCNs attain state-of-the-art
+performance on the bAbI dialog dataset (Bordes and Weston, 2016), and
+outperform two commercially deployed customer-facing dialog systems at our
+company.
+Author{1}{Firstname}#=%=#Jason D
+Author{1}{Lastname}#=%=#Williams
+Author{1}{Email}#=%=#jason.williams@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft Research
+Author{2}{Firstname}#=%=#Kavosh
+Author{2}{Lastname}#=%=#Asadi
+Author{2}{Email}#=%=#kavosh@brown.edu
+Author{2}{Affiliation}#=%=#Brown University
+Author{3}{Firstname}#=%=#Geoffrey
+Author{3}{Lastname}#=%=#Zweig
+Author{3}{Email}#=%=#g2zweig@gmail.com
+Author{3}{Affiliation}#=%=#JPMorgan Chase
+
+==========

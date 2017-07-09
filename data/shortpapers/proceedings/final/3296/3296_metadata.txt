@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#3296
+FinalPaperTitle#=%=#Understanding Task Design Trade-offs in Crowdsourced Paraphrase Collection
+ShortPaperTitle#=%=#Understanding Task Design Trade-offs in Crowdsourced Paraphrase Collection
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Youxuan
+JobTitle#==#
+Organization#==#University of Michigan
+Ann Arbor, MI 48105
+Abstract#==#Linguistically diverse datasets are critical for training and evaluating robust
+machine learning systems, but data collection is a costly process that often
+requires experts. Crowdsourcing the process of paraphrase generation is an
+effective means of expanding natural language datasets, but there has been
+limited analysis of the trade-offs that arise when designing tasks. In this
+paper, we present the first systematic study of the key factors in
+crowdsourcing paraphrase collection. We consider variations in instructions,
+incentives, data domains, and workflows. We manually analyzed paraphrases for
+correctness, grammaticality, and linguistic diversity. Our observations provide
+new insight into the trade-offs between accuracy and diversity in crowd
+responses that arise as a result of task design, providing guidance for future
+paraphrase generation procedures.
+Author{1}{Firstname}#=%=#Youxuan
+Author{1}{Lastname}#=%=#Jiang
+Author{1}{Email}#=%=#lyjiang@umich.edu
+Author{1}{Affiliation}#=%=#Ms
+Author{2}{Firstname}#=%=#Jonathan K.
+Author{2}{Lastname}#=%=#Kummerfeld
+Author{2}{Email}#=%=#jkummerf@umich.edu
+Author{2}{Affiliation}#=%=#University of Michigan
+Author{3}{Firstname}#=%=#Walter S.
+Author{3}{Lastname}#=%=#Lasecki
+Author{3}{Email}#=%=#wlasecki@umich.edu
+Author{3}{Affiliation}#=%=#University of Michigan
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#558
+FinalPaperTitle#=%=#Abstractive Document Summarization with a Graph-Based Attentional Neural Model
+ShortPaperTitle#=%=#Abstractive Document Summarization with a Graph-Based Attentional Neural Model
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jiwei Tan
+JobTitle#==#
+Organization#==#Jiwei Tan, Peking University, No. 128 Zhongguancun North Street, Haidian District, Beijing, China.
+Abstract#==#Abstractive summarization is the ultimate goal of document summarization
+research, but previously it is less investigated due to the immaturity of text
+generation techniques. Recently impressive progress has been made to
+abstractive sentence summarization using neural models. Unfortunately, attempts
+on abstractive document summarization are still in a primitive stage, and the
+evaluation results are worse than extractive methods on benchmark datasets. In
+this paper, we review the difficulties of neural abstractive document
+summarization, and propose a novel graph-based attention mechanism in the
+sequence-to-sequence framework. The intuition is to address the saliency factor
+of summarization, which has been overlooked by prior works. Experimental
+results demonstrate our model is able to achieve considerable improvement over
+previous neural abstractive models. The data-driven neural abstractive method
+is also competitive with state-of-the-art extractive methods.
+Author{1}{Firstname}#=%=#Jiwei
+Author{1}{Lastname}#=%=#Tan
+Author{1}{Email}#=%=#tanjiwei@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Xiaojun
+Author{2}{Lastname}#=%=#Wan
+Author{2}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Jianguo
+Author{3}{Lastname}#=%=#Xiao
+Author{3}{Email}#=%=#xiaojianguo@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

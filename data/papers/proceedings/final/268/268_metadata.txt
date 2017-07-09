@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#268
+FinalPaperTitle#=%=#A Local Detection Approach for Named Entity Recognition and Mention Detection
+ShortPaperTitle#=%=#A Local Detection Approach for Named Entity Recognition and Mention Detection
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Mingbin Xu
+JobTitle#==#Research Assistant
+Organization#==#Lassonde School of Engineering, York University. 
+4700 Keele Street, Toronto, Ontario, Canada
+Abstract#==#In this paper, we study a novel approach for named entity recognition (NER) and
+mention detection (MD) in natural language processing. Instead of treating NER
+as a sequence labeling problem, we propose a new local detection approach,
+which relies on the recent fixed-size ordinally forgetting encoding (FOFE)
+method to fully encode each sentence fragment and its left/right contexts into
+a fixed-size representation. Subsequently, a simple feedforward neural network
+(FFNN) is learned to either reject or predict entity label for each individual
+text fragment. The proposed method has been evaluated in several popular NER
+and MD tasks, including CoNLL 2003 NER task and  TAC-KBP2015 and TAC-KBP2016
+Tri-lingual Entity Discovery and Linking (EDL) tasks. Our method has yielded
+pretty strong performance in all of these examined tasks. This local detection
+approach has shown many advantages over the traditional sequence labeling
+methods.
+Author{1}{Firstname}#=%=#Mingbin
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#mingbin.xu@gmail.com
+Author{1}{Affiliation}#=%=#York University
+Author{2}{Firstname}#=%=#Hui
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Email}#=%=#hj@cse.yorku.ca
+Author{2}{Affiliation}#=%=#York University
+Author{3}{Firstname}#=%=#Sedtawut
+Author{3}{Lastname}#=%=#Watcharawittayakul
+Author{3}{Email}#=%=#watchara@cse.yorku.ca
+Author{3}{Affiliation}#=%=#York University
+
+==========

@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#375
+FinalPaperTitle#=%=#CANE: Context-Aware Network Embedding for Relation Modeling
+ShortPaperTitle#=%=#CANE: Context-Aware Network Embedding for Relation Modeling
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Cunchao Tu
+JobTitle#==#
+Organization#==#Tsinghua University, Haidian District, Beijing, 100084, China
+Abstract#==#Network embedding (NE) is playing a critical role in network analysis, due to
+its ability to represent vertices with efficient low-dimensional embedding
+vectors. However, existing NE models aim to learn a fixed context-free
+embedding for each vertex and neglect the diverse roles when interacting with
+other vertices. In this paper, we assume that one vertex usually shows
+different aspects when interacting with different neighbor vertices, and should
+own different embeddings respectively. Therefore, we present Context-Aware
+Network Embedding (CANE), a novel NE model to address this issue. CANE learns
+context-aware embeddings for vertices with mutual attention mechanism and is
+expected to model the semantic relationships between vertices more precisely.
+In experiments, we compare our model with existing NE models on three
+real-world datasets. Experimental results show that CANE achieves significant
+improvement than state-of-the-art methods on link prediction and comparable
+performance on vertex classification. The source code and datasets can be
+obtained from \url{https://github.com/thunlp/CANE}.
+Author{1}{Firstname}#=%=#Cunchao
+Author{1}{Lastname}#=%=#Tu
+Author{1}{Email}#=%=#tucunchao@gmail.com
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Han
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#spiritliu@stumail.neu.edu.cn
+Author{2}{Affiliation}#=%=#Northeastern University
+Author{3}{Firstname}#=%=#Zhiyuan
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#liuzy@tsinghua.edu.cn
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#Maosong
+Author{4}{Lastname}#=%=#Sun
+Author{4}{Email}#=%=#sms@tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#
+
+==========

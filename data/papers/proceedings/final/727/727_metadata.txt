@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#727
+FinalPaperTitle#=%=#Leveraging Behavioral and Social Information for Weakly Supervised Collective Classification of Political Discourse on Twitter
+ShortPaperTitle#=%=#Leveraging Behavioral and Social Information for Weakly Supervised Collective Classification of Political Discourse on Twitter
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Kristen M Johnson
+JobTitle#==#
+Organization#==#Purdue University
+610 Purdue Mall, West Lafayette, IN 47907
+Abstract#==#Framing is a political strategy in which politicians carefully word their
+statements in order to control public perception of issues. Previous works
+exploring political framing typically analyze frame usage in longer texts, such
+as congressional speeches. We present a collection of weakly supervised models
+which harness collective classification to predict the frames used in political
+discourse on the microblogging platform, Twitter. Our global probabilistic
+models show that by combining both lexical features of tweets and network-based
+behavioral features of Twitter, we are able to increase the average,
+unsupervised F1 score by 21.52 points over a lexical baseline alone.
+Author{1}{Firstname}#=%=#Kristen
+Author{1}{Lastname}#=%=#Johnson
+Author{1}{Email}#=%=#john1187@purdue.edu
+Author{1}{Affiliation}#=%=#Purdue University
+Author{2}{Firstname}#=%=#Di
+Author{2}{Lastname}#=%=#Jin
+Author{2}{Email}#=%=#jind@purdue.edu
+Author{2}{Affiliation}#=%=#Purdue University
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Goldwasser
+Author{3}{Email}#=%=#goldan55@gmail.com
+Author{3}{Affiliation}#=%=#Purdue University
+
+==========

@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#3013
+FinalPaperTitle#=%=#AliMe Chat: A Sequence to Sequence and Rerank based Chatbot Engine
+ShortPaperTitle#=%=#AliMe Chat: Seq2Seq and Rerank based Chatbot
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Minghui Qiu
+JobTitle#==#
+Organization#==#Alibaba Group
+969 West Wen Yi Road, Yu Hang District, Hangzhou 311121, China
+Abstract#==#We propose AliMe Chat, an open-domain chatbot engine that integrates the joint
+results of Information Retrieval (IR) and Sequence to Sequence (Seq2Seq) based
+generation models. AliMe Chat uses an attentive Seq2Seq based rerank model to
+optimize the joint results. Extensive experiments show our engine outperforms
+both IR and generation based models. We launch AliMe Chat for a real-world
+industrial application and observe better results than another public chatbot.
+Author{1}{Firstname}#=%=#Minghui
+Author{1}{Lastname}#=%=#Qiu
+Author{1}{Email}#=%=#minghuiqiu@gmail.com
+Author{1}{Affiliation}#=%=#Alibaba Group
+Author{2}{Firstname}#=%=#Feng-Lin
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#fenglin.lfl@alibaba-inc.com
+Author{2}{Affiliation}#=%=#Alibaba Group
+Author{3}{Firstname}#=%=#Siyu
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#siyu.wsy@alibaba-inc.com
+Author{3}{Affiliation}#=%=#Alibaba Group
+Author{4}{Firstname}#=%=#Xing
+Author{4}{Lastname}#=%=#Gao
+Author{4}{Email}#=%=#gaoxing.gx@alibaba-inc.com
+Author{4}{Affiliation}#=%=#Alibaba Group
+Author{5}{Firstname}#=%=#Yan
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Email}#=%=#chenyan.cy@alibaba-inc.com
+Author{5}{Affiliation}#=%=#Alibaba Group
+Author{6}{Firstname}#=%=#Weipeng
+Author{6}{Lastname}#=%=#Zhao
+Author{6}{Email}#=%=#weipengzhao.zwp@alibaba-inc.com
+Author{6}{Affiliation}#=%=#Alibaba Group
+Author{7}{Firstname}#=%=#Haiqing
+Author{7}{Lastname}#=%=#Chen
+Author{7}{Email}#=%=#haiqing.chenhq@alibaba-inc.com
+Author{7}{Affiliation}#=%=#Alibaba Group
+Author{8}{Firstname}#=%=#Jun
+Author{8}{Lastname}#=%=#Huang
+Author{8}{Email}#=%=#huangjun.hj@alibaba-inc.com
+Author{8}{Affiliation}#=%=#Alibaba Group
+Author{9}{Firstname}#=%=#Wei
+Author{9}{Lastname}#=%=#Chu
+Author{9}{Email}#=%=#weichu.cw@alibaba-inc.com
+Author{9}{Affiliation}#=%=#Alibaba Group
+
+==========

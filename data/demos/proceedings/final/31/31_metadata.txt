@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Semedico: A Comprehensive Semantic Search Engine for the Life Sciences
+ShortPaperTitle#=%=#Semedico: A Comprehensive Semantic Search Engine for the Life Sciences
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Erik Fäßler
+JobTitle#==#
+Organization#==#Friedrich-Schiller-University Jena, Fuerstengraben 27, 07743 Jena
+Abstract#==#Semedico is a semantic search engine designed to support literature search in
+the life sciences by integrating the semantics of the domain at all stages of
+the search process - from query formulation via query processing up to the
+presentation of results. Semedico excels with an ad-hoc search approach which
+directly reflects relevance in terms of information density of entities and
+relations among them (events) and, a truly unique feature, ranks interaction
+events by certainty information reflecting the degree of factuality of the
+encountered event.
+Author{1}{Firstname}#=%=#Erik
+Author{1}{Lastname}#=%=#Faessler
+Author{1}{Email}#=%=#erik.faessler@uni-jena.de
+Author{1}{Affiliation}#=%=#Friedrich-Schiller-Universität Jena
+Author{2}{Firstname}#=%=#Udo
+Author{2}{Lastname}#=%=#Hahn
+Author{2}{Email}#=%=#udo.hahn@uni-jena.de
+Author{2}{Affiliation}#=%=#Friedrich-Schiller-Universität Jena
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#3238
+FinalPaperTitle#=%=#Cross-lingual and cross-domain discourse segmentation of entire documents
+ShortPaperTitle#=%=#Cross-lingual and cross-domain discourse segmentation of entire documents
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Chloé Braud
+JobTitle#==#
+Organization#==#DIKU, University of Copenhagen, University Park 5, 2100 Copenhagen
+Abstract#==#Discourse segmentation is a crucial step in building end-to-end discourse
+parsers. However, discourse segmenters only exist for a few languages and
+domains. Typically they only  detect intra-sentential segment boundaries,
+assuming gold standard sentence and token segmentation, and relying on
+high-quality syntactic parses and rich heuristics that are not generally
+available across languages and domains. In this paper, we propose statistical
+discourse segmenters for five languages and three domains that do not rely on
+gold pre-annotations.  We also consider the problem of learning discourse
+segmenters when no labeled data is available for a language. Our fully
+supervised system obtains 89.5% F1 for English newswire, with slight drops in
+performance on other domains, and we report supervised and unsupervised
+(cross-lingual) results for five languages in total.
+Author{1}{Firstname}#=%=#Chloé
+Author{1}{Lastname}#=%=#Braud
+Author{1}{Email}#=%=#chloe.braud@gmail.com
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Ophélie
+Author{2}{Lastname}#=%=#Lacroix
+Author{2}{Email}#=%=#lacroix@di.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Anders
+Author{3}{Lastname}#=%=#Søgaard
+Author{3}{Email}#=%=#soegaard@di.ku.dk
+Author{3}{Affiliation}#=%=#University of Copenhagen
+
+==========

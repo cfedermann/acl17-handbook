@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#222
+FinalPaperTitle#=%=#Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme
+ShortPaperTitle#=%=#Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Suncong Zheng
+JobTitle#==#
+Organization#==#Institute of Automation, Chinese Academy of Sciences, 100190, Beijing, P.R. China
+Abstract#==#Joint extraction of entities and relations is an important task in information
+extraction. To tackle this problem, we firstly propose a novel tagging scheme
+that can convert the joint extraction task to a tagging problem.. Then, based
+on our tagging scheme, we study different end-to-end models to extract entities
+and their relations directly, without identifying entities and relations
+separately. We conduct experiments on a public dataset produced by distant
+supervision method and the experimental results show that the tagging based
+methods are better than most of the existing pipelined and joint learning
+methods. What’s more, the end-to-end model proposed in this paper, achieves
+the best results on the public dataset.
+Author{1}{Firstname}#=%=#Suncong
+Author{1}{Lastname}#=%=#Zheng
+Author{1}{Email}#=%=#suncong.zheng@ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Feng
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#feng.wang@ia.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Hongyun
+Author{3}{Lastname}#=%=#Bao
+Author{3}{Email}#=%=#hongyun.bao@ia.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Yuexing
+Author{4}{Lastname}#=%=#Hao
+Author{4}{Email}#=%=#haoyuexing2014@ia.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Peng
+Author{5}{Lastname}#=%=#Zhou
+Author{5}{Email}#=%=#peng.zhou@ia.ac.cn
+Author{5}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{6}{Firstname}#=%=#Bo
+Author{6}{Lastname}#=%=#Xu
+Author{6}{Email}#=%=#xubo@ia.ac.cn
+Author{6}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+
+==========

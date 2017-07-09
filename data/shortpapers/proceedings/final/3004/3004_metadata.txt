@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#3004
+FinalPaperTitle#=%=#Improving Implicit Discourse Relation Recognition with Discourse-specific Word Embeddings
+ShortPaperTitle#=%=#Improving Implicit Discourse Relation Recognition with Discourse-specific Word Embeddings
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Changxing Wu
+JobTitle#==#
+Organization#==#Xiamen University
+No.422 South Siming Road, Xiamen City, Fujian Province, China
+Abstract#==#We introduce a simple and effective method to learn discourse-specific word
+embeddings (DSWE) for implicit discourse relation recognition. Specifically,
+DSWE is learned by performing connective classification on massive explicit
+discourse data, and capable of capturing discourse relationships between words.
+On the PDTB data set, using DSWE as features achieves significant improvements
+over baselines.
+Author{1}{Firstname}#=%=#Changxing
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Email}#=%=#wcxnlp@163.com
+Author{1}{Affiliation}#=%=#Xiamen University
+Author{2}{Firstname}#=%=#xiaodong
+Author{2}{Lastname}#=%=#shi
+Author{2}{Email}#=%=#mandel@xmu.edu.cn
+Author{2}{Affiliation}#=%=#Xiamen University
+Author{3}{Firstname}#=%=#Yidong
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#ydchen@xmu.edu.cn
+Author{3}{Affiliation}#=%=#Department of Cognitive Science, School of Information Science and Technology, Xiamen University
+Author{4}{Firstname}#=%=#jinsong
+Author{4}{Lastname}#=%=#su
+Author{4}{Email}#=%=#jssu@xmu.edu.cn
+Author{4}{Affiliation}#=%=#Xiamen university
+Author{5}{Firstname}#=%=#Boli
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Email}#=%=#me@bo-li.wang
+Author{5}{Affiliation}#=%=#Xiamen University
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#3263
+FinalPaperTitle#=%=#A Two-Stage Parsing Method for Text-Level Discourse Analysis
+ShortPaperTitle#=%=#A Two-Stage Parsing Method for Text-Level Discourse Analysis
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yizhong Wang
+JobTitle#==#
+Organization#==#Key Laboratory of Computational Linguistics, Peking University, MOE, China
+Abstract#==#Previous work introduced transition-based algorithms to form a unified
+architecture
+of parsing rhetorical structures (including span, nuclearity and relation), but
+did not achieve satisfactory performance. In this paper, we propose that
+transition-based model is more appropriate for parsing the naked discourse tree
+(i.e., identifying span and nuclearity) due to data sparsity. At the same time,
+we argue that relation labeling can benefit from naked tree structure and
+should be treated elaborately with consideration of three kinds of relations
+including within-sentence, across-sentence and across-paragraph relations.
+Thus, we design a pipelined two-stage parsing method for generating an RST tree
+from text. Experimental results show that our method achieves state-of-the-art
+performance, especially on span and nuclearity identification.
+Author{1}{Firstname}#=%=#Yizhong
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#yizhong@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Sujian
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#lisujian@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Houfeng
+Author{3}{Lastname}#=%=#WANG
+Author{3}{Email}#=%=#wanghf@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

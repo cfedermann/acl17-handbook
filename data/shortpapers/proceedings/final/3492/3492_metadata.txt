@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#3492
+FinalPaperTitle#=%=#Twitter Demographic Classification Using Deep Multi-modal Multi-task Learning
+ShortPaperTitle#=%=#Twitter Demographic Classification Using Deep Multi-modal Multi-task Learning
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Prashanth Vijayaraghavan
+JobTitle#==#
+Organization#==#
+Abstract#==#Twitter should be an ideal place to get a fresh read on how different issues
+are playing with the public, one that's potentially more reflective of
+democracy in this new media age than traditional polls. Pollsters typically ask
+people a fixed set of questions, while in social media people use their own
+voices to speak about whatever is on their minds. However, the demographic
+distribution of users on Twitter is not representative of the general
+population. In this paper, we present a demographic classifier for gender, age,
+political orientation and location on Twitter. We collected and curated a
+robust Twitter demographic dataset for this task. Our classifier uses a deep
+multi-modal multi-task learning architecture to reach a state-of-the-art
+performance, achieving an F1-score of 0.89, 0.82, 0.86, and 0.68 for gender,
+age, political orientation, and location respectively.
+Author{1}{Firstname}#=%=#Prashanth
+Author{1}{Lastname}#=%=#Vijayaraghavan
+Author{1}{Email}#=%=#pralav@medi.mit.edu
+Author{1}{Affiliation}#=%=#MIT
+Author{2}{Firstname}#=%=#Soroush
+Author{2}{Lastname}#=%=#Vosoughi
+Author{2}{Email}#=%=#soroush@media.mit.edu
+Author{2}{Affiliation}#=%=#MIT
+Author{3}{Firstname}#=%=#Deb
+Author{3}{Lastname}#=%=#Roy
+Author{3}{Email}#=%=#dkroy@medi.mit.edu
+Author{3}{Affiliation}#=%=#MIT
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Automating Biomedical Evidence Synthesis: RobotReviewer
+ShortPaperTitle#=%=#Automating Biomedical Evidence Synthesis: RobotReviewer
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Iain Marshall
+JobTitle#==#
+Organization#==#
+Abstract#==#We present RobotReviewer, an open-source web-based system that uses machine
+learning and NLP to semi-automate biomedical evidence synthesis, to aid the
+practice of Evidence-Based Medicine. RobotReviewer processes full-text journal
+articles (PDFs) describing randomized controlled trials (RCTs). It appraises
+the reliability of RCTs and extracts text describing key trial characteristics
+(e.g., descriptions of the population) using novel NLP methods. RobotReviewer
+then automatically generates a report synthesising this information. Our goal
+is for RobotReviewer to automatically extract and synthesise the full-range of
+structured data needed to inform evidence-based practice.
+Author{1}{Firstname}#=%=#Iain
+Author{1}{Lastname}#=%=#Marshall
+Author{1}{Email}#=%=#iainjmarshall@gmail.com
+Author{1}{Affiliation}#=%=#King's College London
+Author{2}{Firstname}#=%=#Joël
+Author{2}{Lastname}#=%=#Kuiper
+Author{2}{Email}#=%=#me@joelkuiper.eu
+Author{2}{Affiliation}#=%=#Doctor Evidence
+Author{3}{Firstname}#=%=#Edward
+Author{3}{Lastname}#=%=#Banner
+Author{3}{Email}#=%=#banner.ed@husky.neu.edu
+Author{3}{Affiliation}#=%=#Northeastern University
+Author{4}{Firstname}#=%=#Byron C.
+Author{4}{Lastname}#=%=#Wallace
+Author{4}{Email}#=%=#byron@ccs.neu.edu
+Author{4}{Affiliation}#=%=#Northeastern University
+
+==========

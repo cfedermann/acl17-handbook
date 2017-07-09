@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#3128
+FinalPaperTitle#=%=#Learning Lexico-Functional Patterns for First-Person Affect
+ShortPaperTitle#=%=#Learning Patterns for First-Person Affect
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Lena Reed
+JobTitle#==#
+Organization#==#University of California Santa Cruz
+1156 High St, Santa Cruz, CA 95064
+Abstract#==#Informal first-person narratives are a unique resource for computational mod-
+els of everyday events and people’s affective reactions to them. People
+blogging about their day tend not to explicitly say I am happy. Instead they
+describe situations from which other humans can readily infer their affective
+reactions. However current sentiment dictionaries are missing much of the
+information needed to make similar inferences. We build on recent work that
+models affect in terms of lexical predicate functions and affect on the
+predicate’s arguments. We present a method to learn proxies for these
+functions from first- person narratives. We construct a novel fine-grained test
+set, and show that the pat- terns we learn improve our ability to pre- dict
+first-person affective reactions to everyday events, from a Stanford sentiment
+baseline of .67F to .75F.
+Author{1}{Firstname}#=%=#Lena
+Author{1}{Lastname}#=%=#Reed
+Author{1}{Email}#=%=#lireed@ucsc.edu
+Author{1}{Affiliation}#=%=#University of California, Santa Cruz
+Author{2}{Firstname}#=%=#Jiaqi
+Author{2}{Lastname}#=%=#Wu
+Author{2}{Email}#=%=#jwu64@ucsc.edu
+Author{2}{Affiliation}#=%=#University of California, Santa Cruz
+Author{3}{Firstname}#=%=#Shereen
+Author{3}{Lastname}#=%=#Oraby
+Author{3}{Email}#=%=#soraby@ucsc.edu
+Author{3}{Affiliation}#=%=#University of California Santa Cruz
+Author{4}{Firstname}#=%=#Pranav
+Author{4}{Lastname}#=%=#Anand
+Author{4}{Email}#=%=#panand@ucsc.edu
+Author{4}{Affiliation}#=%=#University of California, Santa Cruz
+Author{5}{Firstname}#=%=#Marilyn
+Author{5}{Lastname}#=%=#Walker
+Author{5}{Email}#=%=#maw@soe.ucsc.edu
+Author{5}{Affiliation}#=%=#University of California Santa Cruz
+
+==========

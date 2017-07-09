@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3335
+FinalPaperTitle#=%=#Temporal Orientation of Tweets for Predicting Income of Users
+ShortPaperTitle#=%=#Temporal Orientation of Tweets for Predicting Income of Users
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sabyasachi Kamila
+JobTitle#==#
+Organization#==#
+Abstract#==#Automatically estimating a user's socio-economic profile from their language
+use in social media can significantly help social science research and various
+downstream applications ranging from business to politics. The current paper
+presents the first study where user cognitive structure is used to build a
+predictive model of income. In particular, we first develop a classifier using
+a weakly supervised learning framework to automatically time-tag tweets as
+past, present, or future. We quantify a user's overall temporal orientation
+based on their distribution of tweets, and use it to build a predictive model
+of income. Our analysis uncovers a correlation between future temporal
+orientation and income. Finally, we measure the predictive power of future
+temporal orientation on income by performing regression.
+Author{1}{Firstname}#=%=#Mohammed
+Author{1}{Lastname}#=%=#Hasanuzzaman
+Author{1}{Email}#=%=#hasanuzzaman.im@gmail.com
+Author{1}{Affiliation}#=%=#ADAPT Center, Dublin
+Author{2}{Firstname}#=%=#Sabyasachi
+Author{2}{Lastname}#=%=#Kamila
+Author{2}{Email}#=%=#sabyasachi.kamila@gmail.com
+Author{2}{Affiliation}#=%=#IIT Patna
+Author{3}{Firstname}#=%=#Mandeep
+Author{3}{Lastname}#=%=#Kaur
+Author{3}{Email}#=%=#mandeepkr033@gmail.com
+Author{3}{Affiliation}#=%=#IIT Patna
+Author{4}{Firstname}#=%=#Sriparna
+Author{4}{Lastname}#=%=#Saha
+Author{4}{Email}#=%=#sriparna.saha@gmail.com
+Author{4}{Affiliation}#=%=#IIT Patna
+Author{5}{Firstname}#=%=#Asif
+Author{5}{Lastname}#=%=#Ekbal
+Author{5}{Email}#=%=#asif.ekbal@gmail.com
+Author{5}{Affiliation}#=%=#IIT Patna
+
+==========

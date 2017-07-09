@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#723
+FinalPaperTitle#=%=#MORSE: Semantic-ally Drive-n MORpheme SEgment-er
+ShortPaperTitle#=%=#MORSE: Semantic-ally Drive-n MORpheme SEgment-er
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Tarek Sakakini
+JobTitle#==#
+Organization#==#University of Illinois at Urbana-Champaign
+1308 W Main St,
+Urbana, IL
+61801
+Abstract#==#We present in this paper a novel framework for morpheme segmentation which uses
+the morpho-syntactic regularities preserved by word representations, in
+addition to orthographic features, to segment words into morphemes. This
+framework is the first to consider vocabulary-wide syntactico-semantic 
+information for this task. We also analyze the deficiencies  of  available
+benchmarking datasets and introduce our own dataset that was created on the
+basis of compositionality.  We validate our algorithm across datasets and
+present state-of-the-art results.
+Author{1}{Firstname}#=%=#Tarek
+Author{1}{Lastname}#=%=#Sakakini
+Author{1}{Email}#=%=#tarek.sakakini@gmail.com
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{2}{Firstname}#=%=#Suma
+Author{2}{Lastname}#=%=#Bhat
+Author{2}{Email}#=%=#spbhat2@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#Pramod
+Author{3}{Lastname}#=%=#Viswanath
+Author{3}{Email}#=%=#pramodv@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+
+==========

@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#726
+FinalPaperTitle#=%=#Learning a Neural Semantic Parser from User Feedback
+ShortPaperTitle#=%=#Learning a Neural Semantic Parser from User Feedback
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Srinivasan Iyer
+JobTitle#==#
+Organization#==#Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA
+Abstract#==#We present an approach to rapidly and easily build natural language interfaces
+to databases for new domains, whose performance improves over time based on
+user feedback, and requires minimal intervention. To achieve this, we adapt
+neural sequence models to map utterances directly to SQL with its full
+expressivity, bypassing any intermediate meaning representations. These models
+are immediately deployed online to solicit feedback from real users to flag
+incorrect queries. Finally, the popularity of SQL facilitates gathering
+annotations for incorrect predictions using the crowd, which is directly used
+to improve our models. This complete feedback loop, without intermediate
+representations or database specific engineering, opens up new ways of building
+high quality semantic parsers. Experiments suggest that this approach can be
+deployed quickly for any new target domain, as we show by learning a semantic
+parser for an online academic database from scratch.
+Author{1}{Firstname}#=%=#Srinivasan
+Author{1}{Lastname}#=%=#Iyer
+Author{1}{Email}#=%=#sviyer@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Ioannis
+Author{2}{Lastname}#=%=#Konstas
+Author{2}{Email}#=%=#ikonstas@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Alvin
+Author{3}{Lastname}#=%=#Cheung
+Author{3}{Email}#=%=#akcheung@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Jayant
+Author{4}{Lastname}#=%=#Krishnamurthy
+Author{4}{Email}#=%=#jayantkrishnamurthy@gmail.com
+Author{4}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{5}{Firstname}#=%=#Luke
+Author{5}{Lastname}#=%=#Zettlemoyer
+Author{5}{Email}#=%=#lsz@cs.washington.edu
+Author{5}{Affiliation}#=%=#University of Washington
+
+==========

@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#251
+FinalPaperTitle#=%=#Skip-Gram - Zipf + Uniform = Vector Additivity
+ShortPaperTitle#=%=#Skip-Gram - Zipf + Uniform = Vector Additivity
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Alex Gittens
+JobTitle#==#
+Organization#==#Rensselaer Polytechnic Institute
+CS Department
+110 8th St, Troy, NY 12180
+Abstract#==#In recent years word-embedding models have gained great popularity due to their
+remarkable performance on several tasks, including word analogy questions and
+caption generation. An unexpected "side-effect" of such models is that their
+vectors often exhibit compositionality, i.e., \emph{adding} two word-vectors
+results in a vector that is only a small angle away from the vector of a word
+representing the semantic composite of the original words, e.g., "man" +
+"royal" = "king".
+
+This work provides a theoretical justification for the presence of additive
+compositionality in word vectors learned using the Skip-Gram model. In
+particular, it shows that additive compositionality holds in an even stricter
+sense (small distance rather than small angle) under certain assumptions on the
+process generating the corpus. As a corollary, it explains the success of
+vector calculus in solving word analogies. When these assumptions do not hold,
+this work describes the correct non-linear composition operator. 
+
+Finally, this work establishes a connection between the Skip-Gram model and the
+Sufficient Dimensionality Reduction (SDR) framework of Globerson and Tishby:
+the parameters of SDR models can be obtained from those of Skip-Gram models
+simply by adding information on symbol frequencies. This shows that Skip-Gram
+embeddings are optimal in the sense of Globerson and Tishby and, further,
+implies that the heuristics commonly used to approximately fit Skip-Gram models
+can be used to fit SDR models.
+Author{1}{Firstname}#=%=#Alex
+Author{1}{Lastname}#=%=#Gittens
+Author{1}{Email}#=%=#gittea@rpi.edu
+Author{1}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{2}{Firstname}#=%=#Dimitris
+Author{2}{Lastname}#=%=#Achlioptas
+Author{2}{Email}#=%=#optas@soe.ucsc.edu
+Author{2}{Affiliation}#=%=#Department of Computer Science, UC Santa Cruz
+Author{3}{Firstname}#=%=#Michael W.
+Author{3}{Lastname}#=%=#Mahoney
+Author{3}{Email}#=%=#mmahoney@stat.berkeley.edu
+Author{3}{Affiliation}#=%=#International Computer Science Institute and University of California at Berkeley, Department of Statistics
+
+==========

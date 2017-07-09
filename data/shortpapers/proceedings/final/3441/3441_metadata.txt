@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#3441
+FinalPaperTitle#=%=#Multilingual Connotation Frames: A Case Study on Social Media for Targeted Sentiment Analysis and Forecast
+ShortPaperTitle#=%=#Multilingual Connotation Frames
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hannah Rashkin
+JobTitle#==#author (graduate student)
+Organization#==#University of Washington, 
+185 E Stevens Way NE, 
+Seattle, WA 98195
+USA
+Abstract#==#People around the globe respond to major real world events through social
+media.              To study targeted public sentiments across many languages and
+geographic locations, we introduce multilingual connotation frames: an
+extension from English connotation frames of Rashkin et al. (2016) with 10
+additional European languages, focusing on the implied sentiments among event
+participants engaged in a frame. As a case study, we present large scale
+analysis on targeted public sentiments toward salient events and entities using
+1.2 million multilingual connotation frames extracted from Twitter.
+Author{1}{Firstname}#=%=#Hannah
+Author{1}{Lastname}#=%=#Rashkin
+Author{1}{Email}#=%=#hrashkin@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Eric
+Author{2}{Lastname}#=%=#Bell
+Author{2}{Email}#=%=#eric.bell@pnnl.gov
+Author{2}{Affiliation}#=%=#Pacific Northwest National Labratory
+Author{3}{Firstname}#=%=#Yejin
+Author{3}{Lastname}#=%=#Choi
+Author{3}{Email}#=%=#yejin@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Svitlana
+Author{4}{Lastname}#=%=#Volkova
+Author{4}{Email}#=%=#svitlana.volkova@pnnl.gov
+Author{4}{Affiliation}#=%=#Pacific Northwest National Laboratory
+
+==========

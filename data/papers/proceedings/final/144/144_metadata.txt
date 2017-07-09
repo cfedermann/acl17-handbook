@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#144
+FinalPaperTitle#=%=#Semantic Dependency Parsing via Book Embedding
+ShortPaperTitle#=%=#Semantic Dependency Parsing via Book Embedding
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Weiwei Sun
+JobTitle#==#
+Organization#==#Institute of Computer Science and Technology, Peking University.
+Zhongguancun North Street 128, Haidian District, Beijing, P. R. China
+Abstract#==#We model a dependency graph as a book, a particular kind of topological space,
+for
+semantic dependency parsing. The spine of the book is made up of a sequence of
+words, and each page contains a subset of noncrossing arcs. To build a semantic
+graph for a given sentence, we design new Maximum Subgraph algorithms to
+generate noncrossing graphs on each page, and a Lagrangian Relaxation-based
+algorithm tocombine pages into a book. Experiments demonstrate the
+effectiveness of the bookembedding framework across a wide range of conditions.
+Our parser obtains
+comparable results with a state-of-the-art
+transition-based parser.
+Author{1}{Firstname}#=%=#Weiwei
+Author{1}{Lastname}#=%=#Sun
+Author{1}{Email}#=%=#ws@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Junjie
+Author{2}{Lastname}#=%=#Cao
+Author{2}{Email}#=%=#junjie.cao@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Xiaojun
+Author{3}{Lastname}#=%=#Wan
+Author{3}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

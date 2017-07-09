@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#652
+FinalPaperTitle#=%=#Spectral Analysis of Information Density in Dialogue Predicts Collaborative Task Performance
+ShortPaperTitle#=%=#Spectral Analysis of Information Density in Dialogue Predicts Collaborative Task Performance
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yang Xu
+JobTitle#==#
+Organization#==#College of Information Sciences and Technology
+The Pennsylvania State University 
+University Park, PA 16802, USA
+Abstract#==#We propose a perspective on dialogue that focuses on relative information
+contributions of conversation partners as a key to successful communication. We
+predict the success of collaborative task in English and Danish corpora of
+task-oriented dialogue. Two features are extracted from the frequency domain
+representations of  the lexical entropy series of each interlocutor, power
+spectrum overlap (PSO) and relative phase (RP). We find that PSO is a negative
+predictor of task success, while RP is a positive one. An SVM with these
+features significantly improved on previous task success prediction models. Our
+findings suggest that the strategic distribution of information density between
+interlocutors  is relevant to task success.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#yang.xu@psu.edu
+Author{1}{Affiliation}#=%=#The Pennsylvania State University
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Reitter
+Author{2}{Email}#=%=#reitter@psu.edu
+Author{2}{Affiliation}#=%=#Penn State University
+
+==========

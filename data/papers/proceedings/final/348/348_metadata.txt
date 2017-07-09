@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#348
+FinalPaperTitle#=%=#Neural Relation Extraction with Multi-lingual Attention
+ShortPaperTitle#=%=#Neural Relation Extraction with Multi-lingual Attention
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lin Yankai
+JobTitle#==#
+Organization#==#Tsinghua University, Haidian District, Beijing, China
+Abstract#==#Relation extraction has been widely used for finding unknown relational facts
+from plain text. Most existing methods focus on exploiting mono-lingual data
+for relation extraction, ignoring massive information from the texts in various
+languages. To address this issue, we introduce a multi-lingual neural relation
+extraction framework, which employs mono-lingual attention to utilize the
+information within mono-lingual texts and further proposes cross-lingual
+attention to consider the information consistency and complementarity among
+cross-lingual texts. Experimental results on real-world datasets show that, our
+model can take advantage of multi-lingual texts and consistently achieve
+significant improvements on relation extraction as compared with baselines.
+Author{1}{Firstname}#=%=#Yankai
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Email}#=%=#linyk14@mails.tsinghua.edu.cn
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Zhiyuan
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#liuzy@tsinghua.edu.cn
+Author{2}{Affiliation}#=%=#Tsinghua University
+Author{3}{Firstname}#=%=#Maosong
+Author{3}{Lastname}#=%=#Sun
+Author{3}{Email}#=%=#sms@tsinghua.edu.cn
+Author{3}{Affiliation}#=%=#
+
+==========

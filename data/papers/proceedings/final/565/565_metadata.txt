@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#565
+FinalPaperTitle#=%=#Semantic Word Clusters Using Signed Spectral Clustering
+ShortPaperTitle#=%=#Semantic Word Clusters Using Signed Spectral Clustering
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Vector space representations of words capture many aspects of word similarity,
+but such methods tend to produce vector spaces in which antonyms (as well as
+synonyms) are close to each other. For spectral clustering using such word
+embeddings, words are points in a vector space where synonyms are linked with
+positive weights, while antonyms are linked with negative weights. We present a
+new signed spectral normalized graph cut algorithm, {\em signed clustering},
+that overlays existing thesauri upon distributionally derived vector
+representations of words, so that antonym relationships between word pairs are
+represented by negative weights. Our signed clustering algorithm produces
+clusters of words that simultaneously capture distributional and synonym
+relations.  
+By using randomized spectral decomposition (Halko et al., 2011) and sparse
+matrices, our method is both fast and scalable. We validate our clusters using
+datasets containing human judgments of word pair similarities and show the
+benefit of using our word clusters for sentiment prediction.
+Author{1}{Firstname}#=%=#Joao
+Author{1}{Lastname}#=%=#Sedoc
+Author{1}{Email}#=%=#joao@cis.upenn.edu
+Author{1}{Affiliation}#=%=#University of Pennsylviania
+Author{2}{Firstname}#=%=#Jean
+Author{2}{Lastname}#=%=#Gallier
+Author{2}{Email}#=%=#jean@cis.upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Dean
+Author{3}{Lastname}#=%=#Foster
+Author{3}{Email}#=%=#dean@foster.net
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Lyle
+Author{4}{Lastname}#=%=#Ungar
+Author{4}{Email}#=%=#ungar@cis.upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+
+==========

@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#798
+FinalPaperTitle#=%=#Learning with Noise: Enhance Distantly Supervised Relation Extraction with Dynamic Transition Matrix
+ShortPaperTitle#=%=#Learning with Noise: Enhance Distantly Supervised Relation Extraction with Dynamic Transition Matrix
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Bingfeng Luo
+JobTitle#==#
+Organization#==#Institute of Computer Science and Technology, Peking University
+Abstract#==#Distant supervision significantly reduces human efforts in building training
+data for many classification tasks. While promising, this technique often
+introduces noise to the generated training data, which can severely affect the
+model performance. In this paper, we take a deep look at the application of
+distant supervision in relation extraction. We show that the dynamic transition
+matrix can effectively characterize the noise in the training data built by
+distant supervision. The transition matrix can be effectively trained using a
+novel curriculum learning based method without any direct supervision about the
+noise. We thoroughly evaluate our approach under a wide range of extraction
+scenarios. Experimental results show that our approach consistently improves
+the extraction results and outperforms the state-of-the-art in various
+evaluation scenarios.
+Author{1}{Firstname}#=%=#Bingfeng
+Author{1}{Lastname}#=%=#Luo
+Author{1}{Email}#=%=#bingfeng_luo@pku.edu.cn
+Author{1}{Affiliation}#=%=#Institute of Computer Science and Technology, Peking University
+Author{2}{Firstname}#=%=#Yansong
+Author{2}{Lastname}#=%=#Feng
+Author{2}{Email}#=%=#fengyansong@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Zheng
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#z.wang@lancaster.ac.uk
+Author{3}{Affiliation}#=%=#Lancaster University
+Author{4}{Firstname}#=%=#Zhanxing
+Author{4}{Lastname}#=%=#Zhu
+Author{4}{Email}#=%=#zhanxing.zhu@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+Author{5}{Firstname}#=%=#Songfang
+Author{5}{Lastname}#=%=#Huang
+Author{5}{Email}#=%=#leinine@gmail.com
+Author{5}{Affiliation}#=%=#IBM China Research Lab
+Author{6}{Firstname}#=%=#Rui
+Author{6}{Lastname}#=%=#Yan
+Author{6}{Email}#=%=#rui.yan.pku@gmail.com
+Author{6}{Affiliation}#=%=#Peking University
+Author{7}{Firstname}#=%=#Dongyan
+Author{7}{Lastname}#=%=#Zhao
+Author{7}{Email}#=%=#zhaodongyan@pku.edu.cn
+Author{7}{Affiliation}#=%=#Peking University
+
+==========

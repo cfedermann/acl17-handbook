@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3322
+FinalPaperTitle#=%=#Error-repair Dependency Parsing for Ungrammatical Texts
+ShortPaperTitle#=%=#Error-repair Dependency Parsing for Ungrammatical Texts
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Keisuke Sakaguchi
+JobTitle#==#
+Organization#==#Center for Language and Speech Processing, Johns Hopkins University
+Hackerman Hall 226, 3400 North Charles Street Baltimore, MD, 21218
+Abstract#==#We propose a new dependency parsing scheme which jointly parses a sentence and
+repairs grammatical errors by extending the non-directional transition-based
+formalism of Goldberg and Elhadad (2010) with three additional actions:
+SUBSTITUTE, DELETE, INSERT. Because these actions may cause an infinite loop in
+derivation, we also introduce simple constraints that ensure the parser
+termination. We evaluate our model with respect to dependency accuracy and
+grammaticality improvements for ungrammatical sentences, demonstrating the
+robustness and applicability of our scheme.
+Author{1}{Firstname}#=%=#Keisuke
+Author{1}{Lastname}#=%=#Sakaguchi
+Author{1}{Email}#=%=#keisuke@cs.jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Matt
+Author{2}{Lastname}#=%=#Post
+Author{2}{Email}#=%=#post@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Benjamin
+Author{3}{Lastname}#=%=#Van Durme
+Author{3}{Email}#=%=#vandurme@cs.jhu.edu
+Author{3}{Affiliation}#=%=#JHU
+
+==========

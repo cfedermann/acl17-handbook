@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#3224
+FinalPaperTitle#=%=#Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization
+ShortPaperTitle#=%=#Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shuming Ma
+JobTitle#==#
+Organization#==#School of Electronics Engineering and Computer Science, Peking University
+Abstract#==#Current Chinese social media text summarization models are based on an
+encoder-decoder framework. Although its generated summaries are similar to
+source texts literally, they have low semantic relevance. In this work, our
+goal is to improve semantic relevance between source texts and summaries for
+Chinese social media summarization. We introduce a Semantic Relevance Based
+neural model to encourage high semantic similarity between texts and summaries.
+In our model, the source text is represented by a gated attention encoder,
+while the summary representation is produced by a decoder. Besides, the
+similarity score between the representations is maximized during training. Our
+experiments show that the proposed model outperforms baseline systems on a
+social media corpus.
+Author{1}{Firstname}#=%=#Shuming
+Author{1}{Lastname}#=%=#Ma
+Author{1}{Email}#=%=#shumingma@pku.edu.cn
+Author{1}{Affiliation}#=%=#Department of Computer Science, School of EECS, Peking University
+Author{2}{Firstname}#=%=#Xu
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Email}#=%=#xusun@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Jingjing
+Author{3}{Lastname}#=%=#Xu
+Author{3}{Email}#=%=#jingjingxu@pku.edu.cn
+Author{3}{Affiliation}#=%=#Department of Computer Science, School of EECS, Peking University
+Author{4}{Firstname}#=%=#Houfeng
+Author{4}{Lastname}#=%=#WANG
+Author{4}{Email}#=%=#wanghf@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+Author{5}{Firstname}#=%=#Wenjie
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#cswjli@comp.polyu.edu.hk
+Author{5}{Affiliation}#=%=#The Hong Kong Polytechnic University
+Author{6}{Firstname}#=%=#Qi
+Author{6}{Lastname}#=%=#Su
+Author{6}{Email}#=%=#sukia@pku.edu.cn
+Author{6}{Affiliation}#=%=#Peking University
+
+==========

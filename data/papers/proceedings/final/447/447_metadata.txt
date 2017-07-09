@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#447
+FinalPaperTitle#=%=#Neural Discourse Structure for Text Categorization
+ShortPaperTitle#=%=#Neural Discourse Structure for Text Categorization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yangfeng Ji
+JobTitle#==#Research Associate
+Organization#==#University of Washington
+Abstract#==#We show that discourse structure, as defined by Rhetorical Structure Theory and
+provided by an existing discourse parser, benefits text categorization.  Our
+approach uses a recursive neural network and a newly proposed attention
+mechanism to compute a representation of the text that focuses on salient
+content, from the perspective of both RST and the task.  Experiments consider
+variants of the approach and illustrate its strengths and weaknesses.
+Author{1}{Firstname}#=%=#Yangfeng
+Author{1}{Lastname}#=%=#Ji
+Author{1}{Email}#=%=#jiyfeng@gmail.com
+Author{1}{Affiliation}#=%=#CSE, University of Washington
+Author{2}{Firstname}#=%=#Noah A.
+Author{2}{Lastname}#=%=#Smith
+Author{2}{Email}#=%=#nasmith@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+
+==========

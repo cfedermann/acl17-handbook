@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#3331
+FinalPaperTitle#=%=#Multi-Task Learning of Keyphrase Boundary Classification
+ShortPaperTitle#=%=#Multi-Task Learning of Keyphrase Boundary Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Isabelle Augenstein
+JobTitle#==#
+Organization#==#
+Abstract#==#Keyphrase boundary classification (KBC) is the task of detecting keyphrases in
+scientific articles and labelling them with respect to predefined types.
+Although important in practice, this task is so far underexplored, partly due
+to the lack of labelled data. 
+To overcome this, we explore several auxiliary tasks, including semantic
+super-sense tagging and identification of multi-word expressions, and cast the
+task as a multi-task learning problem with deep recurrent neural networks. Our
+multi-task models perform significantly better than previous state of the art
+approaches on two scientific KBC datasets, particularly for long keyphrases.
+Author{1}{Firstname}#=%=#Isabelle
+Author{1}{Lastname}#=%=#Augenstein
+Author{1}{Email}#=%=#i.augenstein@ucl.ac.uk
+Author{1}{Affiliation}#=%=#Department of Computer Science, University College London
+Author{2}{Firstname}#=%=#Anders
+Author{2}{Lastname}#=%=#Søgaard
+Author{2}{Email}#=%=#soegaard@di.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+
+==========

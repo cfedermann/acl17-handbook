@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Domain Specific Automatic Question Generation from Text
+ShortPaperTitle#=%=#Domain Specific Automatic Question Generation from Text
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Katira Soleymanzadeh
+JobTitle#==#
+Organization#==#International Computer Institute, Ege University, Izmir, Turkey
+Abstract#==#The goal of my doctoral thesis is to automatically generate interrogative
+sentences from descriptive sentences of Turkish biology text. We employ
+syntactic and semantic approaches to parse descriptive sentences. Syntactic and
+semantic approaches utilize syntactic (constituent or dependency) parsing and
+semantic role labeling systems respectively. After parsing step, question
+statements whose answers are embedded in the descriptive sentences are going to
+be formulated by using some predefined rules and templates. Syntactic parsing
+is done using an open source dependency parser called MaltParser (Nivre et al.
+2007). Whereas to accomplish semantic parsing, we will construct a biological
+proposition bank (BioPropBank) and a corpus annotated with semantic roles. Then
+we will employ supervised methods to automatic label the semantic roles of a
+sentence.
+Author{1}{Firstname}#=%=#Katira
+Author{1}{Lastname}#=%=#Soleymanzadeh
+Author{1}{Email}#=%=#katirasole@gmail.com
+Author{1}{Affiliation}#=%=#Ege University
+
+==========

@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#429
+FinalPaperTitle#=%=#Affect-LM: A Neural Language Model for Customizable Affective Text Generation
+ShortPaperTitle#=%=#Affect-LM: A Neural Language Model for Customizable Affective Text Generation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Sayan Ghosh
+JobTitle#==#
+Organization#==#USC Institute for Creative Technologies
+12015 E Waterfront Drive
+Playa Vista, Los Angeles
+California 90094
+Abstract#==#Human verbal communication includes affective messages which are conveyed
+through use of emotionally colored words. There has been a lot of research
+effort in this direction but the problem of integrating state-of-the-art neural
+language models with affective information remains an area ripe for
+exploration. In this paper, we propose an extension to an LSTM (Long Short-Term
+Memory) language model for generation of conversational text, conditioned on
+affect categories. Our proposed model, Affect-LM enables us to customize the
+degree of emotional content in generated sentences through an additional design
+parameter. Perception studies conducted using Amazon Mechanical Turk show that
+Affect-LM can generate naturally looking emotional sentences without
+sacrificing grammatical correctness. Affect-LM also learns
+affect-discriminative word representations, and perplexity experiments show
+that additional affective information in conversational text can improve
+language model prediction.
+Author{1}{Firstname}#=%=#Sayan
+Author{1}{Lastname}#=%=#Ghosh
+Author{1}{Email}#=%=#sghosh@ict.usc.edu
+Author{1}{Affiliation}#=%=#USC Institute for Creative Technologies
+Author{2}{Firstname}#=%=#Mathieu
+Author{2}{Lastname}#=%=#Chollet
+Author{2}{Email}#=%=#mchollet@ict.usc.edu
+Author{2}{Affiliation}#=%=#USC Institute for Creative Technologies
+Author{3}{Firstname}#=%=#Eugene
+Author{3}{Lastname}#=%=#Laksana
+Author{3}{Email}#=%=#elaksana@ict.usc.edu
+Author{3}{Affiliation}#=%=#USC Instute for Creative Technologies
+Author{4}{Firstname}#=%=#Louis-Philippe
+Author{4}{Lastname}#=%=#Morency
+Author{4}{Email}#=%=#morency@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Stefan
+Author{5}{Lastname}#=%=#Scherer
+Author{5}{Email}#=%=#scherer@ict.usc.edu
+Author{5}{Affiliation}#=%=#University of Southern California
+
+==========

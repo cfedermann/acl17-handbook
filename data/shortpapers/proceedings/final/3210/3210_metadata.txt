@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3210
+FinalPaperTitle#=%=#Methodical Evaluation of Arabic Word Embeddings
+ShortPaperTitle#=%=#Methodical Evaluation of Arabic Word Embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Shady Elbassuoni
+JobTitle#==#
+Organization#==#American University of Beirut
+P.O.Box 11-0236
+Riad El-Solh
+Beirut 1107 2020 
+Lebanon
+Abstract#==#Many unsupervised learning techniques have been proposed to obtain meaningful
+representations of words from text. In this study, we evaluate these various
+techniques when used to generate Arabic word embeddings. We first build a
+benchmark for the Arabic language that can be utilized to perform intrinsic
+evaluation of different word embeddings. We then perform additional extrinsic
+evaluations of the embeddings based on two NLP tasks.
+Author{1}{Firstname}#=%=#Mohammed
+Author{1}{Lastname}#=%=#Elrazzaz
+Author{1}{Email}#=%=#mohammed.elrazzaz@qu.edu.qa
+Author{1}{Affiliation}#=%=#Qatar University
+Author{2}{Firstname}#=%=#Shady
+Author{2}{Lastname}#=%=#Elbassuoni
+Author{2}{Email}#=%=#se58@aub.edu.lb
+Author{2}{Affiliation}#=%=#American University of Beirut
+Author{3}{Firstname}#=%=#Khaled
+Author{3}{Lastname}#=%=#Shaban
+Author{3}{Email}#=%=#khaled.shaban@qu.edu.qa
+Author{3}{Affiliation}#=%=#Qatar University
+Author{4}{Firstname}#=%=#Chadi
+Author{4}{Lastname}#=%=#Helwe
+Author{4}{Email}#=%=#cth05@mail.aub.edu
+Author{4}{Affiliation}#=%=#American University of Beirut
+
+==========

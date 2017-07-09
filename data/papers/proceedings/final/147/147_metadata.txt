@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#147
+FinalPaperTitle#=%=#Adversarial Connective-exploiting Networks for Implicit Discourse Relation Classification
+ShortPaperTitle#=%=#Adversarial Connective-exploiting Networks for Implicit Discourse Relation Classification
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Zhiting Hu
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave, Pittsburgh, PA 15213
+Abstract#==#Implicit discourse relation classification is of great challenge due to the
+lack of connectives as strong linguistic cues, which motivates the use of
+annotated implicit connectives to improve the recognition. We propose a feature
+imitation framework in which an implicit relation network is driven to learn
+from another neural network with access to connectives, and thus encouraged to
+extract similarly salient features for accurate classification. We develop an
+adversarial model to enable an adaptive imitation scheme through competition
+between the implicit network and a rival feature discriminator. Our method
+effectively transfers discriminability of connectives to the implicit features,
+and achieves state-of-the-art performance on the PDTB benchmark.
+Author{1}{Firstname}#=%=#Lianhui
+Author{1}{Lastname}#=%=#Qin
+Author{1}{Email}#=%=#qinlianhui@sjtu.edu.cn
+Author{1}{Affiliation}#=%=#Department of Computer Science and Engineering, Shanghai Jiao Tong University
+Author{2}{Firstname}#=%=#Zhisong
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#zzs2011@sjtu.edu.cn
+Author{2}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{3}{Firstname}#=%=#Hai
+Author{3}{Lastname}#=%=#Zhao
+Author{3}{Email}#=%=#zhaohai@cs.sjtu.edu.cn
+Author{3}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{4}{Firstname}#=%=#Zhiting
+Author{4}{Lastname}#=%=#Hu
+Author{4}{Email}#=%=#zhitingh@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Eric
+Author{5}{Lastname}#=%=#Xing
+Author{5}{Email}#=%=#epxing@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

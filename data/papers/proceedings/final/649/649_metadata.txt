@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#649
+FinalPaperTitle#=%=#Towards an Automatic Turing Test: Learning to Evaluate Dialogue Responses
+ShortPaperTitle#=%=#Learning to Evaluate Dialogue Responses
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ryan Lowe
+JobTitle#==#
+Organization#==#McGill University, 845 rue Sherbrooke, Montreal, QC
+Abstract#==#Automatically evaluating the quality of dialogue responses for unstructured
+domains is a challenging problem.  Unfortunately, existing automatic evaluation
+metrics are biased and correlate very poorly with human judgements of response
+quality (Liu et al., 2016). Yet having an accurate automatic evaluation
+procedure is crucial for dialogue research, as it allows rapid prototyping and
+testing of new models with fewer expensive human evaluations. In response to
+this challenge, we formulate automatic dialogue evaluation as a learning
+problem.We present an evaluation model (ADEM)that learns to predict human-like
+scores to input responses, using a new dataset of human response scores.   We
+show that the ADEM model’s predictions correlate significantly,  and at a
+level much higher than word-overlap metrics such as BLEU, with human judgements
+at both the utterance and system-level. We also show that ADEM can generalize
+to evaluating dialogue mod-els unseen during training,                    an
+important step
+for
+automatic dialogue evaluation.
+Author{1}{Firstname}#=%=#Ryan
+Author{1}{Lastname}#=%=#Lowe
+Author{1}{Email}#=%=#ryan.lowe@mail.mcgill.ca
+Author{1}{Affiliation}#=%=#McGill University
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Noseworthy
+Author{2}{Email}#=%=#michael.noseworthy@mail.mcgill.ca
+Author{2}{Affiliation}#=%=#McGill University
+Author{3}{Firstname}#=%=#Iulian Vlad
+Author{3}{Lastname}#=%=#Serban
+Author{3}{Email}#=%=#julianserban@gmail.com
+Author{3}{Affiliation}#=%=#University of Montreal
+Author{4}{Firstname}#=%=#Nicolas
+Author{4}{Lastname}#=%=#Angelard-Gontier
+Author{4}{Email}#=%=#nicolas.angelard-gontier@mail.mcgill.ca
+Author{4}{Affiliation}#=%=#McGill University
+Author{5}{Firstname}#=%=#Yoshua
+Author{5}{Lastname}#=%=#Bengio
+Author{5}{Email}#=%=#yoshua.bengio@umontreal.ca
+Author{5}{Affiliation}#=%=#U. Montreal
+Author{6}{Firstname}#=%=#Joelle
+Author{6}{Lastname}#=%=#Pineau
+Author{6}{Email}#=%=#jpineau@cs.mcgill.ca
+Author{6}{Affiliation}#=%=#McGill University
+
+==========

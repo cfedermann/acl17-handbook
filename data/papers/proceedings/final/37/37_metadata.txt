@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots
+ShortPaperTitle#=%=#Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yu Wu
+JobTitle#==#
+Organization#==#Beihang Univeristy
+Microsoft Research Asia
+Abstract#==#We study response selection for multi-turn conversation in retrieval based
+chatbots. Existing work either concatenates utterances in context or matches a
+response with a highly abstract context vector finally, which may lose
+relationships among the utterances or important information in the context. We
+propose a sequential matching network (SMN) to address both problems. SMN first
+matches a response with each utterance in the context on multiple levels of
+granularity, and distills important matching information from each pair as a
+vector with convolution and pooling operations. The vectors are then
+accumulated in a chronological order through a recurrent neural network (RNN)
+which models relationships among the utterances. The final matching score is
+calculated with the hidden states of the RNN. Empirical study on two public
+data sets shows that SMN can significantly outperform state-of-the-art methods
+for response selection in multi-turn conversation.
+Author{1}{Firstname}#=%=#Yu
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Email}#=%=#wumark@126.com
+Author{1}{Affiliation}#=%=#Beihang
+Author{2}{Firstname}#=%=#wei
+Author{2}{Lastname}#=%=#wu
+Author{2}{Email}#=%=#wuwei@microsoft.com
+Author{2}{Affiliation}#=%=#
+Author{3}{Firstname}#=%=#Chen
+Author{3}{Lastname}#=%=#Xing
+Author{3}{Email}#=%=#v-chxing@microsoft.com
+Author{3}{Affiliation}#=%=#Nankai University
+Author{4}{Firstname}#=%=#Ming
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#mingzhou@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research
+Author{5}{Firstname}#=%=#Zhoujun
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#lizj@buaa.edu.cn
+Author{5}{Affiliation}#=%=#Beihang University
+
+==========

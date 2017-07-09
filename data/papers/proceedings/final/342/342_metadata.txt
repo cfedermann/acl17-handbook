@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#342
+FinalPaperTitle#=%=#Jointly Extracting Relations with Class Ties via Effective Deep Ranking
+ShortPaperTitle#=%=#Jointly Extracting Relations with Class Ties via Effective Deep Ranking
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Hai Ye
+JobTitle#==#
+Organization#==#School of Computer Science and Engineering, Beihang University, 
+Beijing 100191, China
+Abstract#==#Connections between relations in relation extraction, which we call class ties,
+are common. In distantly supervised scenario, one entity tuple may have
+multiple relation facts. Exploiting class ties between relations of one entity
+tuple will be promising for distantly supervised relation extraction. However,
+previous models are not effective or ignore to model this property. In this
+work, to effectively leverage class ties, we propose to make joint relation
+extraction with a unified model that integrates convolutional neural network
+(CNN) with a general pairwise ranking framework, in which three novel ranking
+loss functions are introduced. Additionally, an effective method is presented
+to relieve the severe class imbalance problem from NR (not relation) for model
+training. Experiments on a widely used dataset show that leveraging class ties
+will enhance extraction and demonstrate the effectiveness of our model to learn
+class ties. Our model outperforms the baselines significantly, achieving
+state-of-the-art performance.
+Author{1}{Firstname}#=%=#Hai
+Author{1}{Lastname}#=%=#Ye
+Author{1}{Email}#=%=#yehai@buaa.edu.cn
+Author{1}{Affiliation}#=%=#Beihang University
+Author{2}{Firstname}#=%=#Wenhan
+Author{2}{Lastname}#=%=#Chao
+Author{2}{Email}#=%=#chaowenhan@buaa.edu.cn
+Author{2}{Affiliation}#=%=#Beihang University
+Author{3}{Firstname}#=%=#Zhunchen
+Author{3}{Lastname}#=%=#Luo
+Author{3}{Email}#=%=#zhunchenluo@gmail.com
+Author{3}{Affiliation}#=%=#China Defense Science and Technology Information Center
+Author{4}{Firstname}#=%=#Zhoujun
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#lizj@buaa.edu.cn
+Author{4}{Affiliation}#=%=#Beihang University
+
+==========

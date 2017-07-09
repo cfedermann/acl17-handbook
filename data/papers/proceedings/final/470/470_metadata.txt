@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#470
+FinalPaperTitle#=%=#Joint Optimization of User-desired Content in Multi-document Summaries by Learning from User Feedback
+ShortPaperTitle#=%=#Joint Optimization of User-desired Content in Multi-document Summaries by Learning from User Feedback
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we propose an extractive multi-document summarization (MDS)
+system using joint optimization and active learning for content selection
+grounded in user feedback. Our method interactively obtains user feedback to
+gradually improve the results of a state-of-the-art integer linear programming
+(ILP) framework for MDS. Our methods complement fully automatic methods in
+producing high-quality summaries with a minimum number of iterations and
+feedbacks.
+We conduct multiple simulation-based experiments and analyze the effect of
+feedback-based concept selection in the ILP setup in order to maximize the
+user-desired content in the summary.
+Author{1}{Firstname}#=%=#Avinesh
+Author{1}{Lastname}#=%=#PVS
+Author{1}{Email}#=%=#avinesh@aiphes.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Christian M.
+Author{2}{Lastname}#=%=#Meyer
+Author{2}{Email}#=%=#meyer@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3282
+FinalPaperTitle#=%=#Fine-Grained Entity Typing with High-Multiplicity Assignments
+ShortPaperTitle#=%=#Fine-Grained Entity Typing with High-Multiplicity Assignments
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Maxim Rabinovich
+JobTitle#==#
+Organization#==#Computer Science Division
+UC Berkeley
+Soda Hall
+Berkeley, CA 94720
+Abstract#==#As entity type systems become richer and more fine-grained, we expect the
+number of types assigned to a given entity to increase. However, most
+fine-grained typing work has focused on datasets that exhibit a low degree of
+type multiplicity. In this paper, we consider the high-multiplicity regime
+inherent in data sources such as Wikipedia that have semi-open type systems. We
+introduce a set-prediction approach to this problem and show that our model
+outperforms unstructured baselines on a new Wikipedia-based fine-grained typing
+corpus.
+Author{1}{Firstname}#=%=#Maxim
+Author{1}{Lastname}#=%=#Rabinovich
+Author{1}{Email}#=%=#rabinovich@eecs.berkeley.edu
+Author{1}{Affiliation}#=%=#UC Berkeley
+Author{2}{Firstname}#=%=#Dan
+Author{2}{Lastname}#=%=#Klein
+Author{2}{Email}#=%=#klein@cs.berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+
+==========

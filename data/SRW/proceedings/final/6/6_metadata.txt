@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Improving Distributed Representations of Tweets - Present and Future
+ShortPaperTitle#=%=#Improving Distributed Representations of Tweets - Present and Future
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Ganesh Jawahar
+JobTitle#==#
+Organization#==#IIIT Hyderabad, Telangana, India
+Abstract#==#Unsupervised representation learning for tweets is an important research field
+which helps in solving several business applications such as sentiment
+analysis, hashtag prediction, paraphrase detection and microblog ranking. A
+good tweet representation learning model must handle the idiosyncratic nature
+of tweets which poses several challenges such as short length, informal words,
+unusual grammar and misspellings. However, there is a lack of prior work which
+surveys the representation learning models with a focus on tweets. In this
+work, we organize the models based on its objective function which aids the
+understanding of the literature. We also provide interesting future directions,
+which we believe are fruitful in advancing this field by building high-quality
+tweet representation learning models.
+Author{1}{Firstname}#=%=#Ganesh
+Author{1}{Lastname}#=%=#Jawahar
+Author{1}{Email}#=%=#ganesh.j@research.iiit.ac.in
+Author{1}{Affiliation}#=%=#IIIT Hyderabad
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#713
+FinalPaperTitle#=%=#Combating Human Trafficking with Multimodal Deep Models
+ShortPaperTitle#=%=#Combating Human Trafficking with Multimodal Deep Models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Amir Zadeh
+JobTitle#==#
+Organization#==#LTI, CMU, 5000 Forbest Avenue Pittsburgh PA 15213
+Abstract#==#Human trafficking is a global epidemic affecting millions of people across the
+planet. Sex trafficking, the dominant form of human trafficking, has seen a
+significant rise mostly due to the abundance of escort websites, where human
+traffickers can openly advertise among at-will escort advertisements. In this
+paper, we take a major step in the automatic detection of advertisements
+suspected to pertain to human trafficking. We present a novel dataset called
+Trafficking-10k, with more than 10,000~advertisements annotated for this task.
+The dataset contains two sources of information per advertisement: text and
+images. For the accurate detection of trafficking advertisements, we designed
+and trained a deep multimodal model called the Human Trafficking Deep Network
+(HTDN).
+Author{1}{Firstname}#=%=#Edmund
+Author{1}{Lastname}#=%=#Tong
+Author{1}{Email}#=%=#edtong@cmu.edu
+Author{1}{Affiliation}#=%=#CMU LTI
+Author{2}{Firstname}#=%=#Amir
+Author{2}{Lastname}#=%=#Zadeh
+Author{2}{Email}#=%=#abagherz@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#CMU
+Author{3}{Firstname}#=%=#Cara
+Author{3}{Lastname}#=%=#Jones
+Author{3}{Email}#=%=#cara@marinusanalytics.com
+Author{3}{Affiliation}#=%=#Marinus Analytics
+Author{4}{Firstname}#=%=#Louis-Philippe
+Author{4}{Lastname}#=%=#Morency
+Author{4}{Email}#=%=#morency@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

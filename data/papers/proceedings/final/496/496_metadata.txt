@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#496
+FinalPaperTitle#=%=#What do Neural Machine Translation Models Learn about Morphology?
+ShortPaperTitle#=%=#What do Neural Machine Translation Models Learn about Morphology?
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Yonatan Belinkov
+JobTitle#==#
+Organization#==#MIT Computer Science and Artificial Intelligence Laboratory
+32 Vassar Street
+Cambridge, MA 02139
+USA
+Abstract#==#Neural machine translation (MT) models obtain state-of-the-art performance
+while maintaining a simple, end-to-end architecture. However, little is known
+about what these models learn about source and target languages during the
+training process. In this work, we analyze the representations learned by
+neural MT models at various levels of granularity and empirically evaluate the
+quality of the representations for learning morphology through extrinsic
+part-of-speech and morphological tagging tasks. We conduct a thorough
+investigation along several parameters: word-based vs. character-based
+representations, depth of the encoding layer, the identity of the target
+language, and encoder vs. decoder representations. Our data-driven,
+quantitative evaluation sheds light on important aspects in the neural MT
+system and its ability to capture word structure.
+Author{1}{Firstname}#=%=#Yonatan
+Author{1}{Lastname}#=%=#Belinkov
+Author{1}{Email}#=%=#belinkov@mit.edu
+Author{1}{Affiliation}#=%=#MIT CSAIL
+Author{2}{Firstname}#=%=#Nadir
+Author{2}{Lastname}#=%=#Durrani
+Author{2}{Email}#=%=#ndurrani@qf.org.qa
+Author{2}{Affiliation}#=%=#QCRI
+Author{3}{Firstname}#=%=#Fahim
+Author{3}{Lastname}#=%=#Dalvi
+Author{3}{Email}#=%=#faimaduddin@qf.org.qa
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{4}{Firstname}#=%=#Hassan
+Author{4}{Lastname}#=%=#Sajjad
+Author{4}{Email}#=%=#hsajjad@qf.org.qa
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{5}{Firstname}#=%=#James
+Author{5}{Lastname}#=%=#Glass
+Author{5}{Email}#=%=#glass@mit.edu
+Author{5}{Affiliation}#=%=#Massachusetts Institute of Technology
+
+==========

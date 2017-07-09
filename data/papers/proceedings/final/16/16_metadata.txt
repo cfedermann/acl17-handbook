@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Exploiting Argument Information to Improve Event Detection via Supervised Attention Mechanisms
+ShortPaperTitle#=%=#Exploiting Argument Information to Improve Event Detection
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Shulin Liu
+JobTitle#==#
+Organization#==#Institute of Automation Chinese Academy of Sciences
+Address: 95 Zhongguancun East Road, 100190, BEIJING, CHINA
+Abstract#==#This paper tackles the task of event detection (ED), which involves identifying
+and categorizing events. We argue that arguments provide significant clues to
+this task, but they are either completely ignored or exploited in an indirect
+manner in existing detection approaches. In this work, we propose to exploit
+argument information explicitly for ED via supervised attention mechanisms. In
+specific, we systematically investigate the proposed model under the
+supervision of different attention strategies. Experimental results show that
+our approach advances state-of-the-arts and achieves the best F1 score on
+ACE 2005 dataset.
+Author{1}{Firstname}#=%=#Shulin
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#shulin.liu@nlpr.ia.ac.cn
+Author{1}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Yubo
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#yubo.chen@nlpr.ia.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Kang
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#kliu@nlpr.ia.ac.cn
+Author{3}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Jun
+Author{4}{Lastname}#=%=#Zhao
+Author{4}{Email}#=%=#jzhao@nlpr.ia.ac.cn
+Author{4}{Affiliation}#=%=#Chinese Academy of Sciences
+
+==========

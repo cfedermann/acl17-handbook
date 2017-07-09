@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#686
+FinalPaperTitle#=%=#Estimating Code-Switching on Twitter with a Novel Generalized Word-Level Language Detection Technique
+ShortPaperTitle#=%=#Estimating Code-Switching on Twitter with a Novel Generalized Word-Level Language Detection Technique
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Shruti Rijhwani
+JobTitle#==#
+Organization#==#
+Abstract#==#Word-level language detection is necessary for analyzing code-switched text,
+where multiple languages could be mixed within a sentence. Existing models are
+restricted to code-switching between two specific languages and fail in
+real-world scenarios as text input rarely has a priori information on the
+languages used. We present a novel unsupervised word-level language detection
+technique for code-switched text for an arbitrarily large number of languages,
+which does not require any manually annotated training data. Our experiments
+with tweets in seven languages show a 74% relative error reduction in
+word-level labeling with respect to competitive baselines. We then use this
+system to conduct a large-scale quantitative analysis of code-switching
+patterns on Twitter, both global as well as region-specific, with 58M tweets.
+Author{1}{Firstname}#=%=#Shruti
+Author{1}{Lastname}#=%=#Rijhwani
+Author{1}{Email}#=%=#srijhwan@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Royal
+Author{2}{Lastname}#=%=#Sequiera
+Author{2}{Email}#=%=#rdsequie@uwaterloo.ca
+Author{2}{Affiliation}#=%=#University of Waterloo
+Author{3}{Firstname}#=%=#Monojit
+Author{3}{Lastname}#=%=#Choudhury
+Author{3}{Email}#=%=#monojitc@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Kalika
+Author{4}{Lastname}#=%=#Bali
+Author{4}{Email}#=%=#kalikab@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research Labs
+Author{5}{Firstname}#=%=#Chandra Shekhar
+Author{5}{Lastname}#=%=#Maddila
+Author{5}{Email}#=%=#chmaddil@microsoft.com
+Author{5}{Affiliation}#=%=#Microsoft Research
+
+==========

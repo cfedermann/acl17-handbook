@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#616
+FinalPaperTitle#=%=#Beyond Binary Labels: Political Ideology Prediction of Twitter Users
+ShortPaperTitle#=%=#Beyond Binary Labels: Political Ideology Prediction of Twitter Users
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Daniel Preotiuc-Pietro
+JobTitle#==#
+Organization#==#
+Abstract#==#Automatic political orientation prediction from social media posts has to date
+proven successful only in distinguishing between publicly declared liberals and
+conservatives in the US. This study examines users’ political ideology using
+a seven-point scale which enables us to identify politically moderate and
+neutral users – groups which are of particular interest to political
+scientists and pollsters. Using a novel data set with political ideology labels
+self-reported through surveys, our goal is two-fold: a) to characterize the
+groups of politically engaged users through language use on Twitter; b) to
+build a fine-grained model that predicts political ideology of unseen users.
+Our results identify differences in both political leaning and engagement and
+the extent to which each group tweets using political keywords. Finally, we
+demonstrate how to improve ideology prediction accuracy by exploiting the
+relationships between the user groups.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Preoţiuc-Pietro
+Author{1}{Email}#=%=#danielpr@gmail.com
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Ye
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#liuye.cis@gmail.com
+Author{2}{Affiliation}#=%=#National University of Singapore
+Author{3}{Firstname}#=%=#Daniel
+Author{3}{Lastname}#=%=#Hopkins
+Author{3}{Email}#=%=#danhop@sas.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Lyle
+Author{4}{Lastname}#=%=#Ungar
+Author{4}{Email}#=%=#ungar@cis.upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+
+==========

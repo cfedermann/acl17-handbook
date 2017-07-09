@@ -367,7 +367,7 @@
   %%   {\itshape    \citefullauthornames{#5}}%\vspace{.5em}\linebreak	% Reduce space between header and abstract - B
   %%   %#1 #2 --- #4\linebreak 						% Redundant info? - B
   \end{minipage}\vspace{1mm}\\\nopagebreak%
-  \noindent{\small\input{auto/abstracts/#5}}\par}
+  \noindent{\footnotesize\input{auto/abstracts/#5}}\par}
 
 \newcommand{\TutorialCoverPage}[4]{%
 \vspace*{.25in}
@@ -543,6 +543,7 @@ Human Language Technologies}\par
   \paperauthor{\citefullauthornames{#1}}}
 
 \newcommand{\papertableentry}[1]{
+  \scriptsize
   {\papertitle{#1}}\newline
   {\paperauthor{\citeauthorslastnamesonly{#1}}}}
 

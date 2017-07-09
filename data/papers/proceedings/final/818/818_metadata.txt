@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#818
+FinalPaperTitle#=%=#Verb Physics: Relative Physical Knowledge of Actions and Objects
+ShortPaperTitle#=%=#Verb Physics: Relative Physical Knowledge of Actions and Objects
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Maxwell Forbes
+JobTitle#==#Graduate student
+Organization#==#Paul G. Allen School of Computer Science & Engineering
+University of Washington
+Box 352350
+185 E Stevens Way NE
+Seattle, WA 98195
+Abstract#==#Learning commonsense knowledge from natural language text is nontrivial due to
+reporting bias: people rarely state the obvious, e.g., “My house is bigger
+than me.” However, while rarely stated explicitly, this trivial everyday
+knowledge does influence the way people talk about the world, which provides
+indirect clues to reason about the world. For example, a statement like,
+“Tyler entered his house” implies that his house is bigger than Tyler.
+
+In this paper, we present an approach to infer relative physical knowledge of
+actions and objects along five dimensions (e.g., size, weight, and strength)
+from unstructured natural language text. We frame knowledge acquisition as
+joint inference over two closely related problems: learning (1) relative
+physical knowledge of object pairs and (2) physical implications of actions
+when applied to those object pairs. Empirical results demonstrate that it is
+possible to extract knowledge of actions and objects from language and that
+joint inference over different types of knowledge improves performance.
+Author{1}{Firstname}#=%=#Maxwell
+Author{1}{Lastname}#=%=#Forbes
+Author{1}{Email}#=%=#mbforbes@cs.uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Yejin
+Author{2}{Lastname}#=%=#Choi
+Author{2}{Email}#=%=#yejin@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+
+==========

@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#252
+FinalPaperTitle#=%=#A Nested Attention Neural Hybrid Model for Grammatical Error Correction
+ShortPaperTitle#=%=#A Nested Attention Neural Hybrid Model for Grammatical Error Correction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jianshu Ji
+JobTitle#==#
+Organization#==#Name : Microsoft AI & Research
+Address : B25 Microsoft, No. 328 Xinghu Street, SIP, Suzhou, China
+Abstract#==#Grammatical error correction (GEC) systems strive to correct both global errors
+inword order and usage, and local errors inspelling and inflection. Further
+developing upon recent work on neural machine translation, we propose a new
+hybrid neural model with nested attention layers for GEC.Experiments show that
+the new model can effectively correct errors of both types by incorporating
+word and character-level information, and that the model significantly
+outperforms previous  neural models for GEC as measured on the standard
+CoNLL-14 benchmark dataset.Further analysis also shows that the superiority of
+the proposed model can be largely attributed to the use of the nested attention
+mechanism, which has proven particularly effective incorrecting local errors
+that involve small edits in orthography.
+Author{1}{Firstname}#=%=#Jianshu
+Author{1}{Lastname}#=%=#Ji
+Author{1}{Email}#=%=#jianshuj@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft AI & Research
+Author{2}{Firstname}#=%=#Qinlong
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#qinlwang@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft AI & Research
+Author{3}{Firstname}#=%=#Kristina
+Author{3}{Lastname}#=%=#Toutanova
+Author{3}{Email}#=%=#kristout@google.com
+Author{3}{Affiliation}#=%=#Google Research
+Author{4}{Firstname}#=%=#Yongen
+Author{4}{Lastname}#=%=#Gong
+Author{4}{Email}#=%=#yongeg@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft AI & Research
+Author{5}{Firstname}#=%=#Steven
+Author{5}{Lastname}#=%=#Truong
+Author{5}{Email}#=%=#stevetr@microsoft.com
+Author{5}{Affiliation}#=%=#Microsoft AI & Research
+Author{6}{Firstname}#=%=#Jianfeng
+Author{6}{Lastname}#=%=#Gao
+Author{6}{Email}#=%=#jfgao@microsoft.com
+Author{6}{Affiliation}#=%=#Microsoft Research, Redmond
+
+==========

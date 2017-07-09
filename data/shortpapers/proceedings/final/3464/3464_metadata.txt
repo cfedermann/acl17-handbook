@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#3464
+FinalPaperTitle#=%=#Vector space models for evaluating semantic fluency in autism
+ShortPaperTitle#=%=#Vector space models for semantic fluency in autism
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Emily Prudhommeaux
+JobTitle#==#
+Organization#==#92 Lomb Memorial Drive
+Rochester NY 14623
+Abstract#==#A common test administered during neurological examination is the semantic
+fluency test, in which the patient must list as many examples of a given
+semantic category as possible under timed conditions. Poor performance 
+is associated with neurological conditions characterized
+by impairments in executive function, such as dementia, schizophrenia, and
+autism
+spectrum disorder (ASD). Methods for analyzing semantic fluency responses at 
+the level of detail necessary to uncover these differences have typically
+relied on subjective manual annotation.
+In this paper, we explore automated approaches for scoring semantic fluency 
+responses that leverage ontological resources and distributional semantic
+models to characterize the semantic fluency responses 
+produced by young children with and without ASD. Using these methods, we find
+significant differences
+in the semantic fluency responses of children with ASD, demonstrating
+the utility of using objective methods for clinical language analysis.
+\end{abstract}
+Author{1}{Firstname}#=%=#Emily
+Author{1}{Lastname}#=%=#Prud'hommeaux
+Author{1}{Email}#=%=#emilypx@gmail.com
+Author{1}{Affiliation}#=%=#Rochester Institute of Technology
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#van Santen
+Author{2}{Email}#=%=#janphvansanten@gmail.com
+Author{2}{Affiliation}#=%=#Oregon Health & Science University
+Author{3}{Firstname}#=%=#Douglas
+Author{3}{Lastname}#=%=#Gliner
+Author{3}{Email}#=%=#dgg5503@rit.edu
+Author{3}{Affiliation}#=%=#Rochester Institute of Technology
+
+==========

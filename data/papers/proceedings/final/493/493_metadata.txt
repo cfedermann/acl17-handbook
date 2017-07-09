@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#493
+FinalPaperTitle#=%=#Representations of language in a model of visually grounded speech signal
+ShortPaperTitle#=%=#Model of visually grounded speech
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Grzegorz Chrupała
+JobTitle#==#
+Organization#==#Communication and Information Sciences
+Tilburg University
+PO Box 90153
+5000 LE Tilburg
+The Netherlands
+Abstract#==#We present a visually grounded model of speech perception which projects spoken
+utterances and images to a joint semantic space. We use a multi-layer recurrent
+highway network to model the temporal nature of spoken speech, and show that it
+learns to extract both form and meaning-based linguistic knowledge from the
+input signal. We carry out an in-depth analysis of the representations used by
+different components of the trained model and show that encoding of semantic
+aspects tends to become richer as we go up the hierarchy of layers, whereas
+encoding of form-related aspects of the language input tends to initially
+increase and then plateau or decrease.
+Author{1}{Firstname}#=%=#Grzegorz
+Author{1}{Lastname}#=%=#Chrupała
+Author{1}{Email}#=%=#g.chrupala@uvt.nl
+Author{1}{Affiliation}#=%=#Tilburg University
+Author{2}{Firstname}#=%=#Lieke
+Author{2}{Lastname}#=%=#Gelderloos
+Author{2}{Email}#=%=#liekegelderloos@gmail.com
+Author{2}{Affiliation}#=%=#Tilburg University
+Author{3}{Firstname}#=%=#Afra
+Author{3}{Lastname}#=%=#Alishahi
+Author{3}{Email}#=%=#a.alishahi@uvt.nl
+Author{3}{Affiliation}#=%=#Tilburg University
+
+==========

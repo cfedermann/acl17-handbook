@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#3424
+FinalPaperTitle#=%=#Detection of Chinese Word Usage Errors for Non-Native Chinese Learners with Bidirectional LSTM
+ShortPaperTitle#=%=#Detection of Chinese Word Usage Errors for Non-Native Chinese Learners with Bidirectional LSTM
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yow-Ting Shiue
+JobTitle#==#
+Organization#==#National Taiwan University
+No. 1, Sec. 4, Roosevelt Road, Taipei, 10617 Taiwan
+Abstract#==#Selecting appropriate words to compose a sentence is one common problem faced
+by non-native Chinese learners. In this paper, we propose (bidirectional) LSTM
+sequence labeling models and explore various features to detect word usage
+errors in Chinese sentences. By combining CWINDOW word embedding features and
+POS information, the best bidirectional LSTM model achieves accuracy 0.5138 and
+MRR 0.6789 on the HSK dataset. For 80.79% of the test data, the model ranks the
+ground-truth within the top two at position level.
+Author{1}{Firstname}#=%=#Yow-Ting
+Author{1}{Lastname}#=%=#Shiue
+Author{1}{Email}#=%=#orina1123@gmail.com
+Author{1}{Affiliation}#=%=#National Taiwan University
+Author{2}{Firstname}#=%=#Hen-Hsen
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#hhhuang@nlg.csie.ntu.edu.tw
+Author{2}{Affiliation}#=%=#Department of Computer Science and Information Engineering, National Taiwan University
+Author{3}{Firstname}#=%=#Hsin-Hsi
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#hhchen@ntu.edu.tw
+Author{3}{Affiliation}#=%=#National Taiwan University
+
+==========

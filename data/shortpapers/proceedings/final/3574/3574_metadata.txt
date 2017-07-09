@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#3574
+FinalPaperTitle#=%=#Demographic Inference on Twitter using Recursive Neural Networks
+ShortPaperTitle#=%=#Demographic Inference on Twitter using Recursive Neural Networks
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sunghwan Mac Kim
+JobTitle#==#
+Organization#==#Sunghwan Mac Kim, Data61, CSIRO, Australia
+Abstract#==#In social media, demographic inference is a critical task in order to gain a
+better understanding of a cohort and to facilitate interacting with one's
+audience. Most previous work has made independence assumptions over
+topological, textual and label information on social networks. In this work, we
+employ recursive neural networks to break down these independence assumptions
+to obtain inference about demographic characteristics on Twitter. We show that
+our model performs better than existing models including the state-of-the-art.
+Author{1}{Firstname}#=%=#Sunghwan Mac
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#mac.kim@csiro.au
+Author{1}{Affiliation}#=%=#CSIRO
+Author{2}{Firstname}#=%=#Qiongkai
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#Qiongkai.Xu@csiro.au
+Author{2}{Affiliation}#=%=#CSIRO
+Author{3}{Firstname}#=%=#Lizhen
+Author{3}{Lastname}#=%=#Qu
+Author{3}{Email}#=%=#Lizhen.Qu@csiro.au
+Author{3}{Affiliation}#=%=#CSIRO
+Author{4}{Firstname}#=%=#Stephen
+Author{4}{Lastname}#=%=#Wan
+Author{4}{Email}#=%=#Stephen.Wan@csiro.au
+Author{4}{Affiliation}#=%=#CSIRO
+Author{5}{Firstname}#=%=#Cecile
+Author{5}{Lastname}#=%=#Paris
+Author{5}{Email}#=%=#Cecile.Paris@csiro.au
+Author{5}{Affiliation}#=%=#CSIRO
+
+==========

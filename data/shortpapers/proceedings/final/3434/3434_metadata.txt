@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3434
+FinalPaperTitle#=%=#On the Equivalence of Holographic and Complex Embeddings for Link Prediction
+ShortPaperTitle#=%=#On the Equivalence of Holographic and Complex Embeddings for Link Prediction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Masashi Shimbo
+JobTitle#==#
+Organization#==#Nara Institute of Science and Technology
+8916-5 Takayama, Ikoma, Nara 630 0192, Japan
+Abstract#==#We show the equivalence of two state-of-the-art models for 
+link prediction/knowledge graph completion:
+Nickel et al's holographic embeddings and Trouillon et al.'s complex
+embeddings.
+We first consider a spectral version of the holographic embeddings,
+exploiting the frequency domain in the Fourier transform for efficient
+computation.
+The analysis of the resulting model reveals that it can be viewed as
+an instance of the complex embeddings
+with a certain constraint imposed on the initial vectors upon training.
+Conversely, any set of complex embeddings can be converted to a set of
+equivalent holographic embeddings.
+Author{1}{Firstname}#=%=#Katsuhiko
+Author{1}{Lastname}#=%=#Hayashi
+Author{1}{Email}#=%=#katsuhiko-h@is.naist.jp
+Author{1}{Affiliation}#=%=#NTT CS Lab
+Author{2}{Firstname}#=%=#Masashi
+Author{2}{Lastname}#=%=#Shimbo
+Author{2}{Email}#=%=#shimbo@is.naist.jp
+Author{2}{Affiliation}#=%=#NAIST
+
+==========

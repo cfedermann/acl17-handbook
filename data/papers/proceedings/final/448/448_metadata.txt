@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#448
+FinalPaperTitle#=%=#Abstract Meaning Representation Parsing using LSTM Recurrent Neural Networks
+ShortPaperTitle#=%=#Abstract Meaning Representation Parsing using LSTM Recurrent Neural Networks
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#william r foland jr.
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a system which parses sentences into Abstract Meaning
+Representations, improving state-of-the-art results for this task by more than
+5%.  AMR graphs represent semantic content using linguistic properties such
+as semantic roles, coreference, negation, and more.  The AMR parser does not
+rely on a syntactic pre-parse, or heavily engineered features, and uses five
+recurrent neural networks as the key architectural components for inferring AMR
+graphs.
+Author{1}{Firstname}#=%=#William
+Author{1}{Lastname}#=%=#Foland
+Author{1}{Email}#=%=#william.foland@colorado.edu
+Author{1}{Affiliation}#=%=#University of Colorado
+Author{2}{Firstname}#=%=#James H.
+Author{2}{Lastname}#=%=#Martin
+Author{2}{Email}#=%=#james.martin@colorado.edu
+Author{2}{Affiliation}#=%=#University of Colorado Boulder
+
+==========

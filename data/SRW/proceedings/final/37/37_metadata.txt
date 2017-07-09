@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Word Embedding for Response-To-Text Assessment of Evidence
+ShortPaperTitle#=%=#Word Embedding for Response-To-Text Assessment of Evidence
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Haoran Zhang
+JobTitle#==#Student
+Organization#==#University of Pittsburgh, Pittsburgh, PA 15260
+Abstract#==#Manually grading the Response to Text Assessment (RTA) is labor intensive.
+Therefore, an automatic method is being developed for scoring analytical
+writing when the RTA is administered in large numbers of classrooms. Our
+long-term goal is to also use this scoring method to provide formative feedback
+to students and teachers about students' writing quality.  As a first step
+towards this goal, interpretable features for automatically scoring the
+evidence rubric of the RTA have been developed. In this paper, we present a
+simple but promising method for improving evidence scoring by employing the
+word embedding model. We evaluate our method on corpora of responses written by
+upper elementary students.
+Author{1}{Firstname}#=%=#Haoran
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#colinzhang@cs.pitt.edu
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Diane
+Author{2}{Lastname}#=%=#Litman
+Author{2}{Email}#=%=#litman@cs.pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+
+==========

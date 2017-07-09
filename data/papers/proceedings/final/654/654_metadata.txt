@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#654
+FinalPaperTitle#=%=#Deep Semantic Role Labeling: What Works and What’s Next
+ShortPaperTitle#=%=#Deep Semantic Role Labeling: What Works and What’s Next
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Luheng He
+JobTitle#==#
+Organization#==#Computer Science & Engineering
+University of Washington
+AC101 Paul G. Allen Center for
+     Computer Science & Engineering
+Box 352350
+185 Stevens Way
+Seattle WA 98195-2350Computer Science & Engineering
+University of Washington
+AC101 Paul G. Allen Center for
+     Computer Science & Engineering
+Box 352350
+185 Stevens Way
+Seattle WA 98195-2350
+Abstract#==#We introduce a new deep learning model for semantic role labeling (SRL) that
+significantly improves the state of the art, along with detailed analyses to
+reveal its strengths and limitations. We use a deep highway BiLSTM architecture
+with constrained decoding, while observing a number of recent best practices
+for initialization and regularization. Our 8-layer ensemble model achieves 83.2
+F1 on theCoNLL 2005 test set and 83.4 F1 on CoNLL 2012, roughly a 10% relative
+error reduction over the previous state of the art. Extensive empirical
+analysis of these gains show that (1) deep models excel at recovering
+long-distance dependencies but can still make surprisingly obvious errors, and
+(2) that there is still room for syntactic parsers to improve these results.
+Author{1}{Firstname}#=%=#Luheng
+Author{1}{Lastname}#=%=#He
+Author{1}{Email}#=%=#luheng@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Kenton
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#kentonl@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Mike
+Author{3}{Lastname}#=%=#Lewis
+Author{3}{Email}#=%=#mikelewis0@gmail.com
+Author{3}{Affiliation}#=%=#Facebook AI Research
+Author{4}{Firstname}#=%=#Luke
+Author{4}{Lastname}#=%=#Zettlemoyer
+Author{4}{Email}#=%=#lsz@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+
+==========

@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#45
+FinalPaperTitle#=%=#Predicting Depression for Japanese Blog Text
+ShortPaperTitle#=%=#Predicting Depression for Japanese Blog Text
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Misato Hiraga
+JobTitle#==#
+Organization#==#Indiana University Bloomington
+107 S. Indiana Avenue
+Bloomington, IN
+47405-7000
+Abstract#==#This study aims to predict clinical depression, a prevalent mental disorder,
+from
+blog posts written in Japanese by using machine learning approaches. The study
+focuses on how data quality and various types of linguistic features
+(characters, tokens, and lemmas) affect prediction outcome. Depression
+prediction achieved
+95.5% accuracy using selected lemmas as features.
+Author{1}{Firstname}#=%=#Misato
+Author{1}{Lastname}#=%=#Hiraga
+Author{1}{Email}#=%=#mhiraga@indiana.edu
+Author{1}{Affiliation}#=%=#Indiana University
+
+==========

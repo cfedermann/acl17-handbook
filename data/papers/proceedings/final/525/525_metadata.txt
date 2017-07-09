@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#525
+FinalPaperTitle#=%=#EmoNet: Fine-Grained Emotion Detection with Gated Recurrent Neural Networks
+ShortPaperTitle#=%=#EmoNet: Fine-Grained Emotion Detection with Gated Recurrent Neural Networks
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Muhammad Abdul-Mageed
+JobTitle#==#
+Organization#==#
+Abstract#==#Accurate detection of emotion from natural language has applications ranging
+from building emotional chatbots to better understanding individuals and their
+lives. However, progress on emotion detection has been hampered by the absence
+of large labeled datasets.  In this work, we build a very large dataset for
+fine-grained emotions and develop deep learning models on it. We achieve a new
+state-of-the-art on 24 fine-grained types of emotions (with an average accuracy
+of 87.58%). We also extend the task beyond emotion types to model Robert
+Plutick's 8 primary emotion dimensions, acquiring a superior accuracy of
+95.68%.
+Author{1}{Firstname}#=%=#Muhammad
+Author{1}{Lastname}#=%=#Abdul-Mageed
+Author{1}{Email}#=%=#muhammad.mageed@ubc.ca
+Author{1}{Affiliation}#=%=#The University of British Columbia
+Author{2}{Firstname}#=%=#Lyle
+Author{2}{Lastname}#=%=#Ungar
+Author{2}{Email}#=%=#ungar@cis.upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+
+==========

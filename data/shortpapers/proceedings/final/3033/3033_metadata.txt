@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#3033
+FinalPaperTitle#=%=#Neural Architectures for Multilingual Semantic Parsing
+ShortPaperTitle#=%=#Neural Architectures for Multilingual Semantic Parsing
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Raymond Hendy Susanto
+JobTitle#==#
+Organization#==#Singapore University of Technology and Design
+8 Somapah Rd, Singapore 487372
+Abstract#==#In this paper, we address semantic parsing in a multilingual context. We train
+one multilingual model that is capable of parsing natural language sentences
+from multiple different languages into their corresponding formal semantic
+representations. We extend an existing sequence-to-tree model to a multi-task
+learning framework which shares the decoder for generating semantic
+representations. We report evaluation results on the multilingual GeoQuery
+corpus and introduce a new multilingual version of the ATIS corpus.
+Author{1}{Firstname}#=%=#Raymond Hendy
+Author{1}{Lastname}#=%=#Susanto
+Author{1}{Email}#=%=#raymond_susanto@sutd.edu.sg
+Author{1}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{2}{Firstname}#=%=#Wei
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#wei_lu@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+
+==========

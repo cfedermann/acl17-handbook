@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3480
+FinalPaperTitle#=%=#Oracle Summaries of Compressive Summarization
+ShortPaperTitle#=%=#Oracle Summaries of Compressive Summarization
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tsutomu Hirao
+JobTitle#==#
+Organization#==#NTT Communication Science Labs.
+2-4, Seika-cho, Hikaidai, Soraku-gun, Kyoto, Japan, 619-0237
+Abstract#==#This paper derives an Integer Linear Programming (ILP) formulation to obtain an
+oracle summary of the compressive summarization paradigm in terms of ROUGE. The
+oracle summary is essential to reveal the upper bound performance of the
+paradigm. Experimental results on the DUC dataset showed that ROUGE scores of
+compressive oracles are significantly higher than those of extractive oracles
+and state-of-the-art summarization systems. These results reveal that
+compressive summarization is a promising  paradigm and encourage us to continue
+with the research to produce informative summaries.
+Author{1}{Firstname}#=%=#Tsutomu
+Author{1}{Lastname}#=%=#Hirao
+Author{1}{Email}#=%=#hirao.tsutomu@lab.ntt.co.jp
+Author{1}{Affiliation}#=%=#NTT Communication Science Labs.
+Author{2}{Firstname}#=%=#Masaaki
+Author{2}{Lastname}#=%=#Nishino
+Author{2}{Email}#=%=#nishino.masaaki@lab.ntt.co.jp
+Author{2}{Affiliation}#=%=#NTT Communication Science Labs.
+Author{3}{Firstname}#=%=#Masaaki
+Author{3}{Lastname}#=%=#Nagata
+Author{3}{Email}#=%=#nagata.masaaki@lab.ntt.co.jp
+Author{3}{Affiliation}#=%=#NTT Communication Science Labs.
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#3260
+FinalPaperTitle#=%=#Cardinal Virtues: Extracting Relation Cardinalities from Text
+ShortPaperTitle#=%=#Cardinal Virtues: Extracting Relation Cardinalities from Text
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Paramita Mirza
+JobTitle#==#Postdoctoral researcher
+Organization#==#Max Planck Institute for Informatics, Saarbruecken, Germany
+Abstract#==#Information extraction (IE) from text has largely focused on relations between
+individual entities, such as who has won which award. However, some facts are
+never fully mentioned, and no IE method has perfect recall. Thus, it is
+beneficial to also tap contents about the cardinalities of these relations, for
+example, how many awards someone has won. We introduce this novel problem of
+extracting cardinalities and discusses the specific challenges that set it
+apart from standard IE. We present a distant supervision method using
+conditional random fields. A preliminary evaluation results in precision
+between 3% and 55%, depending on the difficulty of relations.
+Author{1}{Firstname}#=%=#Paramita
+Author{1}{Lastname}#=%=#Mirza
+Author{1}{Email}#=%=#paramita135@gmail.com
+Author{1}{Affiliation}#=%=#Max Planck Institute for Informatics
+Author{2}{Firstname}#=%=#Simon
+Author{2}{Lastname}#=%=#Razniewski
+Author{2}{Email}#=%=#srazniew@gmail.com
+Author{2}{Affiliation}#=%=#Free University of Bozen-Bolzano
+Author{3}{Firstname}#=%=#Fariz
+Author{3}{Lastname}#=%=#Darari
+Author{3}{Email}#=%=#fadirra@gmail.com
+Author{3}{Affiliation}#=%=#Free University of Bozen-Bolzano
+Author{4}{Firstname}#=%=#Gerhard
+Author{4}{Lastname}#=%=#Weikum
+Author{4}{Email}#=%=#weikum@mpi-inf.mpg.de
+Author{4}{Affiliation}#=%=#Max Planck Institute for Informatics
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#617
+FinalPaperTitle#=%=#MalwareTextDB: A Database for Annotated Malware Articles
+ShortPaperTitle#=%=#MalwareTextDB: A Database for Annotated Malware Articles
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Lim Swee Kiat
+JobTitle#==#
+Organization#==#Singapore University of Technology and Design, 8 Somapah Road, Singapore, 487372
+Abstract#==#Cybersecurity risks and malware threats are becoming increasingly dangerous and
+common. Despite the severity of the problem, there has been few NLP efforts
+focused on tackling cybersecurity.
+
+In this paper, we discuss the construction of a new database for annotated
+malware texts. An annotation framework is introduced based on the MAEC
+vocabulary for defining malware characteristics, along with a database
+consisting of 39 annotated APT reports with a total of 6,819 sentences. We also
+use the database to construct models that can potentially help cybersecurity
+researchers in their data collection and analytics efforts.
+Author{1}{Firstname}#=%=#Swee Kiat
+Author{1}{Lastname}#=%=#Lim
+Author{1}{Email}#=%=#limsweekiat@gmail.com
+Author{1}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{2}{Firstname}#=%=#Aldrian Obaja
+Author{2}{Lastname}#=%=#Muis
+Author{2}{Email}#=%=#aldrian_muis@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{3}{Firstname}#=%=#Wei
+Author{3}{Lastname}#=%=#Lu
+Author{3}{Email}#=%=#luwei@sutd.edu.sg
+Author{3}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{4}{Firstname}#=%=#Chen Hui
+Author{4}{Lastname}#=%=#Ong
+Author{4}{Email}#=%=#ochenhui@dso.org.sg
+Author{4}{Affiliation}#=%=#DSO National Laboratories
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Time Expression Analysis and Recognition Using Syntactic Token Types and General Heuristic Rules
+ShortPaperTitle#=%=#Time Expression Analysis and Recognition Using Syntactic Token Types and General Heuristic Rules
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Xiaoshi Zhong
+JobTitle#==#PhD student
+Organization#==#Nanyang Technological University. Singapore
+Abstract#==#Extracting time expressions from free text is a fundamental task for many
+applications. We analyze the time expressions from four datasets and find that
+only a small group of words are used to express time information, and the words
+in time expressions demonstrate similar syntactic behaviour. Based on the
+findings, we propose a type-based approach, named SynTime, to recognize time
+expressions. Specifically, we define three main syntactic token types, namely
+time token, modifier, and numeral, to group time-related regular expressions
+over tokens. On the types we design general heuristic rules to
+recognize time expressions. In recognition, SynTime first identifies the time
+tokens from raw text, then searches their surroundings for modifiers and
+numerals to form time segments, and finally merges the time segments to time
+expressions. As a light-weight rule-based tagger, SynTime runs in real time,
+and can be easily expanded by simply adding keywords for the text of different
+types and of different domains. Experiment on benchmark datasets and tweets
+data shows that SynTime outperforms state-of-the-art methods.
+Author{1}{Firstname}#=%=#Xiaoshi
+Author{1}{Lastname}#=%=#Zhong
+Author{1}{Email}#=%=#zhongxiaoshi@gmail.com
+Author{1}{Affiliation}#=%=#Nanyang Technological University
+Author{2}{Firstname}#=%=#Aixin
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Email}#=%=#axsun@ntu.edu.sg
+Author{2}{Affiliation}#=%=#Nanyang Technological University
+Author{3}{Firstname}#=%=#Erik
+Author{3}{Lastname}#=%=#Cambria
+Author{3}{Email}#=%=#cambria@media.mit.edu
+Author{3}{Affiliation}#=%=#Nanyang Technological University
+
+==========

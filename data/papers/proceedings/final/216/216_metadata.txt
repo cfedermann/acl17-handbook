@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#216
+FinalPaperTitle#=%=#Topical Coherence in LDA-based Models through Induced Segmentation
+ShortPaperTitle#=%=#Topical Coherence in LDA-based Models through Induced Segmentation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Hesam Amoualian
+JobTitle#==#
+Organization#==#University of Grenoble Alps
+Address: Bâtiment IMAG - 700 Avenue des Résidences
+Domaine universitaire de Saint Martin d’Hères - BP53 - 38041 Grenoble Cedex 9, France
+Abstract#==#This paper presents an LDA-based model that generates topically coherent
+segments within documents by jointly segmenting documents and assigning topics
+to their words. The coherence between topics is ensured through a copula,
+binding the topics associated to the words of a segment. In addition, this
+model relies on both document and segment specific topic distributions so as to
+capture fine grained differences in topic assignments. We show that the
+proposed model naturally encompasses other state-of-the-art LDA-based models
+designed for similar tasks. Furthermore, our experiments, conducted on six
+different publicly available datasets, show the effectiveness of our model in
+terms of perplexity, Normalized Pointwise Mutual Information, which captures
+the coherence between the generated topics, and the Micro F1 measure for text
+classification.
+Author{1}{Firstname}#=%=#Hesam
+Author{1}{Lastname}#=%=#Amoualian
+Author{1}{Email}#=%=#hesam.amoualian@imag.fr
+Author{1}{Affiliation}#=%=#University of Grenoble Alpes
+Author{2}{Firstname}#=%=#Wei
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#wei_lu@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Gaussier
+Author{3}{Email}#=%=#eric.gaussier@imag.fr
+Author{3}{Affiliation}#=%=#Univ. Grenoble 1
+Author{4}{Firstname}#=%=#Georgios
+Author{4}{Lastname}#=%=#Balikas
+Author{4}{Email}#=%=#georgios.balikas@imag.fr
+Author{4}{Affiliation}#=%=#University Grenoble-Alpes
+Author{5}{Firstname}#=%=#Massih R
+Author{5}{Lastname}#=%=#Amini
+Author{5}{Email}#=%=#massih-reza.amini@imag.fr
+Author{5}{Affiliation}#=%=#University Grenoble Alps
+Author{6}{Firstname}#=%=#Marianne
+Author{6}{Lastname}#=%=#Clausel
+Author{6}{Email}#=%=#Marianne.clausel@imag.fr
+Author{6}{Affiliation}#=%=#University of Grenoble Alpes
+
+==========

@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Benben: A Chinese Intelligent Conversational Robot
+ShortPaperTitle#=%=#Benben: A Chinese Intelligent Conversational Robot
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Wei-Nan Zhang
+JobTitle#==#
+Organization#==#Research Center for Social Computing and Information Retrieval
+No.29 Jiaohua Street, Nangang District, Harbin, China, 150001
+Abstract#==#Recently, conversational robot is widely used in mobile terminals as the
+virtual assistant or companion. The goals of prevalent conversational robots
+mainly focus on four categories, namely chit-chat, task completion, question
+answering and recommendation. In this paper, we present a Chinese intelligent
+conversational robot, Benben, which is designed to achieve these goals in a
+unified architecture. Moreover, it also has some featured functions such as
+diet map, implicit feedback based conversation, interactive machine reading,
+news recommendation, etc. Since the release of Benben at June 6, 2016, there
+are 2,505 users (till Feb 22, 2017) and 11,107 complete human-robot
+conversations, which totally contain 198,998 single turn conversation pairs.
+Author{1}{Firstname}#=%=#Wei-Nan
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#wnzhang@ir.hit.edu.cn
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Ting
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#tliu@ir.hit.edu.cn
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology
+Author{3}{Firstname}#=%=#Bing
+Author{3}{Lastname}#=%=#Qin
+Author{3}{Email}#=%=#qinb@ir.hit.edu.cn
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology
+Author{4}{Firstname}#=%=#Yu
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Email}#=%=#zhangyu@ir.hit.edu.cn
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology
+Author{5}{Firstname}#=%=#Wanxiang
+Author{5}{Lastname}#=%=#Che
+Author{5}{Email}#=%=#car@ir.hit.edu.cn
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology
+Author{6}{Firstname}#=%=#Yanyan
+Author{6}{Lastname}#=%=#Zhao
+Author{6}{Email}#=%=#yyzhao@ir.hit.edu.cn
+Author{6}{Affiliation}#=%=#Harbin Institute of Technology
+Author{7}{Firstname}#=%=#Xiao
+Author{7}{Lastname}#=%=#Ding
+Author{7}{Email}#=%=#xding@ir.hit.edu.cn
+Author{7}{Affiliation}#=%=#Harbin Institute of Technology
+
+==========

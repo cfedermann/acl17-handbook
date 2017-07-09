@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#733
+FinalPaperTitle#=%=#Visualizing and Understanding Neural Machine Translation
+ShortPaperTitle#=%=#Visualizing and Understanding Neural Machine Translation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yanzhuo Ding
+JobTitle#==#
+Organization#==#Tsinghua University, Beijing, China
+Abstract#==#While neural machine translation (NMT) has made remarkable progress in recent
+years, it is hard to interpret its internal workings due to the continuous
+representations and non-linearity of neural networks. In this work, we propose
+to use layer-wise relevance propagation (LRP) to compute the contribution of
+each contextual word to arbitrary hidden states in the attention-based
+encoder-decoder framework. We show that visualization with LRP helps to
+interpret the internal workings of NMT and analyze translation errors.
+Author{1}{Firstname}#=%=#Yanzhuo
+Author{1}{Lastname}#=%=#Ding
+Author{1}{Email}#=%=#djx133@yeah.net
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Yang
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#liuyang2011@tsinghua.edu.cn
+Author{2}{Affiliation}#=%=#Tsinghua University
+Author{3}{Firstname}#=%=#Huanbo
+Author{3}{Lastname}#=%=#Luan
+Author{3}{Email}#=%=#luanhuanbo@gmail.com
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#Maosong
+Author{4}{Lastname}#=%=#Sun
+Author{4}{Email}#=%=#sms@tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#Tsinghua University
+
+==========

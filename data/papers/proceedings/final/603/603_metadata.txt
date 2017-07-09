@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#603
+FinalPaperTitle#=%=#Improved Neural Machine Translation with a Syntax-Aware Encoder and Decoder
+ShortPaperTitle#=%=#Improved NMT with a Syntax-Aware Encoder and Decoder
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Huadong Chen
+JobTitle#==#
+Organization#==#State Key Laboratory for Novel Software Technology, Nanjing University, No. 163 Xianlin Avenue, Qixia District, Nanjing 210023, China
+Abstract#==#Most neural machine translation (NMT) models are based on the sequential
+encoder-decoder framework, which makes no use of syntactic information. In this
+paper, we improve this model by explicitly incorporating source-side syntactic
+trees. More specifically, we propose (1) a bidirectional tree
+encoder which learns both sequential and tree structured representations; (2) a
+tree-coverage model that lets the attention depend on the source-side syntax.
+Experiments on Chinese-English translation demonstrate that our proposed models
+outperform the sequential attentional model as well as a stronger baseline with
+a bottom-up tree encoder and word coverage.
+Author{1}{Firstname}#=%=#Huadong
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#chenhd@nlp.nju.edu.cn
+Author{1}{Affiliation}#=%=#Nanjing University
+Author{2}{Firstname}#=%=#Shujian
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#huangshujian@gmail.com
+Author{2}{Affiliation}#=%=#Nanjing University
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Chiang
+Author{3}{Email}#=%=#dchiang@nd.edu
+Author{3}{Affiliation}#=%=#University of Notre Dame
+Author{4}{Firstname}#=%=#Jiajun
+Author{4}{Lastname}#=%=#Chen
+Author{4}{Email}#=%=#chenjj@nju.edu.cn
+Author{4}{Affiliation}#=%=#Nanjing University
+
+==========

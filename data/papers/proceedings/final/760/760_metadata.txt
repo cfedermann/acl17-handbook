@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#760
+FinalPaperTitle#=%=#Learning to Skim Text
+ShortPaperTitle#=%=#Learning to Skim Text
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Adams Wei Yu
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA, 15213.
+Abstract#==#Recurrent Neural Networks are showing much promise in many sub-areas of natural
+language processing, ranging from document classification to machine
+translation to automatic question answering. Despite their promise, many
+recurrent models have to read the whole text word by word, making it slow to
+handle long documents. For example, it is difficult to use a recurrent network
+to read a book and answer questions about it. In this paper, we present an
+approach of reading text while skipping irrelevant information if needed. The
+underlying model is a recurrent network that learns how far to jump after
+reading a few words of the input text. We employ a standard policy gradient
+method to train the model to make discrete jumping decisions. In our benchmarks
+on four different tasks, including number prediction, sentiment analysis, news
+article classification and automatic Q\&A, our proposed model, a modified LSTM
+with jumping, is up to 6 times faster than the standard sequential LSTM, while
+maintaining the same or even better accuracy.
+Author{1}{Firstname}#=%=#Adams Wei
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Email}#=%=#weiyu@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Hongrae
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#hrlee@google.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Quoc
+Author{3}{Lastname}#=%=#Le
+Author{3}{Email}#=%=#qvl@google.com
+Author{3}{Affiliation}#=%=#Google
+
+==========

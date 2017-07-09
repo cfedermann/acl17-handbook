@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#219
+FinalPaperTitle#=%=#Learning Structured Natural Language Representations for Semantic Parsing
+ShortPaperTitle#=%=#Learning Structured Natural Language Representations for Semantic Parsing
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We introduce a neural semantic parser which is interpretable and scalable. Our
+model converts natural language utterances to intermediate, domain-general
+natural language representations in the form of predicate-argument structures,
+which are induced with a transition system and subsequently mapped to target
+domains. The semantic parser is trained end-to-end using annotated logical
+forms or their denotations. We achieve the state of the art on SPADES and
+GRAPHQUESTIONS and obtain competitive results on GEOQUERY and WEBQUESTIONS. The
+induced predicate-argument structures shed light on the types of
+representations useful for semantic parsing and how these are dif- ferent from
+linguistically motivated ones.
+Author{1}{Firstname}#=%=#Jianpeng
+Author{1}{Lastname}#=%=#Cheng
+Author{1}{Email}#=%=#jianpeng.cheng@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Siva
+Author{2}{Lastname}#=%=#Reddy
+Author{2}{Email}#=%=#sivar@stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Vijay
+Author{3}{Lastname}#=%=#Saraswat
+Author{3}{Email}#=%=#vsaraswa@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM
+Author{4}{Firstname}#=%=#Mirella
+Author{4}{Lastname}#=%=#Lapata
+Author{4}{Email}#=%=#mlap@inf.ed.ac.uk
+Author{4}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+
+==========

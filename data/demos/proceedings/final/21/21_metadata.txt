@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#End-to-End Non-Factoid Question Answering with an Interactive Visualization of Neural Attention Weights
+ShortPaperTitle#=%=#End-to-End Non-Factoid Question Answering with an Interactive Visualization of Neural Attention Weights
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Andreas Rücklé
+JobTitle#==#
+Organization#==#UKP Lab
+Technische Universität Darmstadt
+Hochschulstrasse 10
+64283 Darmstadt
+Abstract#==#Advanced attention mechanisms are an important part of successful neural
+network approaches for non-factoid answer selection because they allow the
+models to focus on few important segments within rather long answer texts.
+Analyzing attention mechanisms is thus crucial for understanding strengths and
+weaknesses of particular models. We present an extensible, highly modular
+service architecture that enables to transform neural network models for
+non-factoid answer selection into fully featured end-to-end question answering
+systems. The primary objective of our system is to enable researchers a way to
+interactively explore and compare attention-based neural networks for answer
+selection. Our interactive user interface helps researchers to better
+understand the capabilities of the different approaches and can aid qualitative
+analyses. The source-code of our system is publicly available.
+Author{1}{Firstname}#=%=#Andreas
+Author{1}{Lastname}#=%=#Rücklé
+Author{1}{Email}#=%=#rueckle@ukp.informatik.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Iryna
+Author{2}{Lastname}#=%=#Gurevych
+Author{2}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

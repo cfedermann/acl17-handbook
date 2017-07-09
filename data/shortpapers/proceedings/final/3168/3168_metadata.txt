@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#3168
+FinalPaperTitle#=%=#English Multiword Expression-aware Dependency Parsing Including Named Entities
+ShortPaperTitle#=%=#English Multiword Expression-aware Dependency Parsing Including Named Entities
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Akihiko Kato
+JobTitle#==#
+Organization#==#Computational Linguistics Laboratory
+Graduate School of Information Science
+Nara Institute of Science and Technology
+8916-5 Takayama, Ikoma, Nara 630-0192, Japan
+Abstract#==#Because syntactic structures and spans of multiword expressions (MWEs) are
+independently annotated in many English syntactic corpora, they are generally
+inconsistent with respect to one another, which is harmful to the
+implementation of an aggregate system. In this work, we construct a corpus that
+ensures consistency between dependency structures and MWEs, including named
+entities. Further, we explore models that predict both MWE-spans and an
+MWE-aware dependency structure. Experimental results show that our joint model
+using additional MWE-span features achieves an MWE recognition improvement of
+1.35 points over a pipeline model.
+Author{1}{Firstname}#=%=#Akihiko
+Author{1}{Lastname}#=%=#Kato
+Author{1}{Email}#=%=#kato.akihiko.ju6@is.naist.jp
+Author{1}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{2}{Firstname}#=%=#Hiroyuki
+Author{2}{Lastname}#=%=#Shindo
+Author{2}{Email}#=%=#hshindo@outlook.com
+Author{2}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{3}{Firstname}#=%=#Yuji
+Author{3}{Lastname}#=%=#Matsumoto
+Author{3}{Email}#=%=#matsu@is.naist.jp
+Author{3}{Affiliation}#=%=#Nara Institute of Science and Technology
+
+==========

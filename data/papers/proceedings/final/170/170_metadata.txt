@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#170
+FinalPaperTitle#=%=#A Progressive Learning Approach to Chinese SRL Using Heterogeneous Data
+ShortPaperTitle#=%=#A Progressive Learning Approach to Chinese SRL Using Heterogeneous Data
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Qiaolin Xia
+JobTitle#==#
+Organization#==#Key Laboratory of Computational Linguistics (Ministry of Education), EECS, Peking University, 100871, Beijing, China
+Abstract#==#Previous studies on Chinese semantic role labeling (SRL) have concentrated on a
+single semantically annotated corpus. But the training data of single corpus is
+often limited. Whereas the other existing semantically annotated corpora for
+Chinese SRL are scattered across different annotation frameworks. But still,
+Data sparsity remains a bottleneck. This situation calls for larger training
+datasets, or effective approaches which can take advantage of highly
+heterogeneous data. In this paper, we focus mainly on the latter, that is, to
+improve Chinese SRL by using heterogeneous corpora together. We propose a novel
+progressive learning model which augments the Progressive Neural Network with
+Gated Recurrent Adapters. The model can accommodate heterogeneous inputs and
+effectively transfer knowledge between them. We also release a new corpus,
+Chinese SemBank, for Chinese SRL. Experiments on CPB 1.0 show that our model
+outperforms state-of-the-art methods.
+Author{1}{Firstname}#=%=#Qiaolin
+Author{1}{Lastname}#=%=#Xia
+Author{1}{Email}#=%=#xql@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Lei
+Author{2}{Lastname}#=%=#Sha
+Author{2}{Email}#=%=#shalei120@sina.com
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Baobao
+Author{3}{Lastname}#=%=#Chang
+Author{3}{Email}#=%=#chbb@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Zhifang
+Author{4}{Lastname}#=%=#Sui
+Author{4}{Email}#=%=#szf@pku.edu.cn
+Author{4}{Affiliation}#=%=#
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#326
+FinalPaperTitle#=%=#Adversarial Multi-Criteria Learning for Chinese Word Segmentation
+ShortPaperTitle#=%=#Adversarial Multi-Criteria Learning for Chinese Word Segmentation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xinchi Chen
+JobTitle#==#
+Organization#==#Shanghai Key Laboratory of Intelligent Information Processing, Fudan University
+Abstract#==#Different linguistic perspectives causes many diverse segmentation criteria for
+Chinese word segmentation (CWS). Most existing methods focus on improve the
+performance for each single criterion. However, it is interesting to exploit
+these different criteria and mining their common underlying knowledge. In this
+paper, we propose adversarial multi-criteria learning for CWS by integrating
+shared knowledge from multiple heterogeneous segmentation criteria. 
+Experiments on eight corpora with heterogeneous segmentation criteria show that
+the performance of each corpus obtains a significant improvement, compared to
+single-criterion learning. Source codes of this paper are available on Github.
+Author{1}{Firstname}#=%=#Xinchi
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#dalstonchen@gmail.com
+Author{1}{Affiliation}#=%=#Fudan University
+Author{2}{Firstname}#=%=#Zhan
+Author{2}{Lastname}#=%=#Shi
+Author{2}{Email}#=%=#shizhanszh@163.com
+Author{2}{Affiliation}#=%=#Fudan University
+Author{3}{Firstname}#=%=#Xipeng
+Author{3}{Lastname}#=%=#Qiu
+Author{3}{Email}#=%=#xpqiu@fudan.edu.cn
+Author{3}{Affiliation}#=%=#Fudan University
+Author{4}{Firstname}#=%=#Xuanjing
+Author{4}{Lastname}#=%=#Huang
+Author{4}{Email}#=%=#xjhuang@fudan.edu.cn
+Author{4}{Affiliation}#=%=#Fudan University
+
+==========

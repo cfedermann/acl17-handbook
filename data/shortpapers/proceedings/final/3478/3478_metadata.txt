@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#3478
+FinalPaperTitle#=%=#Question Answering on Knowledge Bases and Text using Universal Schema and Memory Networks
+ShortPaperTitle#=%=#Question Answering on Knowledge Bases and Text using Universal Schema and Memory Networks
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Rajarshi Das
+JobTitle#==#
+Organization#==#UMass, Amherst
+Abstract#==#Existing question answering methods infer answers either from a knowledge base
+or from raw text. 
+While knowledge base (KB) methods are good at answering compositional
+questions, their performance is often affected by the incompleteness of the KB.
+Au contraire, 
+web text contains millions of facts that are absent in the KB, however in an
+unstructured form. Universal schema can support reasoning on the union of
+both structured KBs and unstructured text by aligning them in a common embedded
+space. In this paper we extend universal schema to natural language question
+answering, employing Memory networks to attend to the large body of
+facts in the combination of text and KB.
+Our models can be trained in an end-to-end fashion on question-answer pairs.
+Evaluation results on Spades fill-in-the-blank question answering dataset show
+that exploiting universal schema for question answering is better than using
+either a KB or text alone. 
+This model also outperforms the current state-of-the-art by 8.5 F1 points.
+Author{1}{Firstname}#=%=#Rajarshi
+Author{1}{Lastname}#=%=#Das
+Author{1}{Email}#=%=#rajarshi@cs.umass.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts, Amherst
+Author{2}{Firstname}#=%=#Manzil
+Author{2}{Lastname}#=%=#Zaheer
+Author{2}{Email}#=%=#manzil@cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Siva
+Author{3}{Lastname}#=%=#Reddy
+Author{3}{Email}#=%=#sivar@stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+Author{4}{Firstname}#=%=#Andrew
+Author{4}{Lastname}#=%=#McCallum
+Author{4}{Email}#=%=#mccallum@cs.umass.edu
+Author{4}{Affiliation}#=%=#UMass Amherst
+
+==========

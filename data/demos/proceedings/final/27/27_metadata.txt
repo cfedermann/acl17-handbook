@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Interactive Visual Analysis of Transcribed Multi-Party Discourse
+ShortPaperTitle#=%=#Interactive Visual Analysis of Transcribed Multi-Party Discourse
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Annette Hautli-Janisz
+JobTitle#==#
+Organization#==#University of Konstanz
+Germany
+Abstract#==#We present a first web-based Visual Analytics framework for the analysis of
+multiparty discourse data using verbatim text transcripts. Our framework
+supports a broad range of server-based processing steps, ranging from data
+mining and statistical analysis to deep linguistic parsing of English and
+German. On the client-side, browser-based Visual Analytics components enable
+multiple perspectives on the analyzed data. These interactive visualizations
+allow exploratory content
+analysis, argumentation pattern review, and speaker interaction modeling.
+Author{1}{Firstname}#=%=#Mennatallah
+Author{1}{Lastname}#=%=#El-Assady
+Author{1}{Email}#=%=#mennatallah.el-assady@uni-konstanz.de
+Author{1}{Affiliation}#=%=#University of Konstanz
+Author{2}{Firstname}#=%=#Annette
+Author{2}{Lastname}#=%=#Hautli-Janisz
+Author{2}{Email}#=%=#annette.hautli@uni-konstanz.de
+Author{2}{Affiliation}#=%=#University of Konstanz
+Author{3}{Firstname}#=%=#Valentin
+Author{3}{Lastname}#=%=#Gold
+Author{3}{Email}#=%=#valentin.gold@sowi.uni-goettingen.de
+Author{3}{Affiliation}#=%=#University of Göttingen
+Author{4}{Firstname}#=%=#Miriam
+Author{4}{Lastname}#=%=#Butt
+Author{4}{Email}#=%=#miriam.butt@uni-konstanz.de
+Author{4}{Affiliation}#=%=#University of Konstanz
+Author{5}{Firstname}#=%=#Katharina
+Author{5}{Lastname}#=%=#Holzinger
+Author{5}{Email}#=%=#katharina.holzinger@uni-konstanz.de
+Author{5}{Affiliation}#=%=#University of Konstanz
+Author{6}{Firstname}#=%=#Daniel
+Author{6}{Lastname}#=%=#Keim
+Author{6}{Email}#=%=#daniel.keim@uni-konstanz.de
+Author{6}{Affiliation}#=%=#University of Konstanz
+
+==========

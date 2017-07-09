@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3255
+FinalPaperTitle#=%=#Integrating Deep Linguistic Features in Factuality Prediction over Unified Datasets
+ShortPaperTitle#=%=#Integrating Deep Linguistic Features in Factuality Prediction over Unified Datasets
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Gabriel Stanovsky
+JobTitle#==#
+Organization#==#Bar-Ilan University Computer Science Department, Ramat Gan, Israel.
+Abstract#==#Previous models for the assessment of commitment towards a predicate in a
+sentence (also known as factuality prediction) were trained and tested against
+a specific annotated dataset, subsequently limiting the generality of their
+results. In this work we propose an intuitive method for mapping three
+previously annotated corpora onto a single factuality scale, thereby enabling
+models to be tested across these corpora. In addition, we design a novel model
+for factuality prediction by first extending a previous rule-based factuality
+prediction system and applying it over an abstraction of dependency trees, and
+then using the output of this system in a supervised classifier. We show that
+this model outperforms previous methods on all three datasets. We make both the
+unified factuality corpus and our new model publicly available.
+Author{1}{Firstname}#=%=#Gabriel
+Author{1}{Lastname}#=%=#Stanovsky
+Author{1}{Email}#=%=#gabriel.satanovsky@gmail.com
+Author{1}{Affiliation}#=%=#Bar Ilan University
+Author{2}{Firstname}#=%=#Judith
+Author{2}{Lastname}#=%=#Eckle-Kohler
+Author{2}{Email}#=%=#eckle-kohler@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#Technische Universität Darmstadt
+Author{3}{Firstname}#=%=#Yevgeniy
+Author{3}{Lastname}#=%=#Puzikov
+Author{3}{Email}#=%=#puzikov@ukp.informatik.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{4}{Firstname}#=%=#Ido
+Author{4}{Lastname}#=%=#Dagan
+Author{4}{Email}#=%=#dagan@cs.biu.ac.il
+Author{4}{Affiliation}#=%=#Bar-Ilan University
+Author{5}{Firstname}#=%=#Iryna
+Author{5}{Lastname}#=%=#Gurevych
+Author{5}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{5}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

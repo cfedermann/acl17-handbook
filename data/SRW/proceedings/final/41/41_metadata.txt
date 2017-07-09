@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Generating Steganographic Text with LSTMs
+ShortPaperTitle#=%=#Generating Steganographic Text with LSTMs
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Tina Fang
+JobTitle#==#
+Organization#==#
+Abstract#==#Motivated by concerns for user privacy, we design a steganographic system
+("stegosystem") that enables two users to exchange encrypted messages without
+an adversary detecting that such an exchange is taking place. In this paper, we
+propose a novel linguistic stegosystem based on a Long-Short Term Memory (LSTM)
+neural network. We demonstrate our approach on the Twitter and Enron email
+datasets and show that it yields high-quality steganographic text while
+significantly improving capacity (encrypted bits per word) relative to the
+state-of-the-art.
+Author{1}{Firstname}#=%=#Tina
+Author{1}{Lastname}#=%=#Fang
+Author{1}{Email}#=%=#fang.tina1@gmail.com
+Author{1}{Affiliation}#=%=#University of Waterloo
+Author{2}{Firstname}#=%=#Martin
+Author{2}{Lastname}#=%=#Jaggi
+Author{2}{Email}#=%=#martin.jaggi@epfl.ch
+Author{2}{Affiliation}#=%=#EPFL
+Author{3}{Firstname}#=%=#Katerina
+Author{3}{Lastname}#=%=#Argyraki
+Author{3}{Email}#=%=#katerina.argyraki@epfl.ch
+Author{3}{Affiliation}#=%=#EPFL
+
+==========

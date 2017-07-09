@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#699
+FinalPaperTitle#=%=#Deep Keyphrase Generation
+ShortPaperTitle#=%=#Deep Keyphrase Generation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Rui Meng
+JobTitle#==#
+Organization#==#School of Computing and Information, University of Pittsburgh, 135 N Bellefield Ave, Pittsburgh, PA 15260
+Abstract#==#Keyphrase provides highly-summative information that can be effectively used
+for understanding, organizing and retrieving text content. Though previous
+studies have provided many workable solutions for automated keyphrase
+extraction, they commonly divided the to-be-summarized content into multiple
+text chunks, then ranked and selected the most meaningful ones. These
+approaches could neither identify keyphrases that do not appear in the text,
+nor capture the real semantic meaning behind the text. We propose a generative
+model for keyphrase prediction with an encoder-decoder framework, which can
+effectively overcome the above drawbacks.  We name it as \textit{deep keyphrase
+generation} since it attempts to capture the deep semantic meaning of the
+content with a deep learning method. Empirical analysis on six datasets
+demonstrates that our proposed model not only achieves a significant
+performance boost on extracting keyphrases that appear in the source text, but
+also can generate absent keyphrases based on the semantic meaning of the text.
+Code and dataset are available at https://github.com/memray/seq2seq-keyphrase.
+Author{1}{Firstname}#=%=#Rui
+Author{1}{Lastname}#=%=#Meng
+Author{1}{Email}#=%=#memray0@gmail.com
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Sanqiang
+Author{2}{Lastname}#=%=#Zhao
+Author{2}{Email}#=%=#saz31@pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+Author{3}{Firstname}#=%=#Shuguang
+Author{3}{Lastname}#=%=#Han
+Author{3}{Email}#=%=#hanshuguang@gmail.com
+Author{3}{Affiliation}#=%=#University of Pittsburgh
+Author{4}{Firstname}#=%=#Daqing
+Author{4}{Lastname}#=%=#He
+Author{4}{Email}#=%=#daqing@sis.pitt.edu
+Author{4}{Affiliation}#=%=#University of Pittsburgh
+Author{5}{Firstname}#=%=#Peter
+Author{5}{Lastname}#=%=#Brusilovsky
+Author{5}{Email}#=%=#peterb@sis.pitt.edu
+Author{5}{Affiliation}#=%=#University of Pittsburgh
+Author{6}{Firstname}#=%=#Yu
+Author{6}{Lastname}#=%=#Chi
+Author{6}{Email}#=%=#yuc73@pitt.edu
+Author{6}{Affiliation}#=%=#University of Pittsburgh
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Transductive Non-linear Learning for Chinese Hypernym Prediction
+ShortPaperTitle#=%=#Transductive Non-linear Learning for Chinese Hypernym Prediction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chengyu Wang
+JobTitle#==#
+Organization#==#East China Normal University
+3663 North Zhongshan Road, Shanghai, China
+Abstract#==#Finding the correct hypernyms for entities is essential for taxonomy learning,
+fine-grained entity categorization, query understanding, etc. Due to the
+flexibility of the Chinese language, it is challenging to identify hypernyms
+in Chinese accurately. Rather than extracting hypernyms from texts, in this
+paper, we present a transductive learning approach to establish mappings from
+entities to hypernyms in the embedding space directly. It combines linear and
+non-linear embedding projection models, with the capacity of
+encoding arbitrary language-specific rules. Experiments on real-world datasets
+illustrate that our approach outperforms previous methods for Chinese hypernym
+prediction.
+Author{1}{Firstname}#=%=#Chengyu
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#chywang2013@gmail.com
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Junchi
+Author{2}{Lastname}#=%=#Yan
+Author{2}{Email}#=%=#yanesta13@163.com
+Author{2}{Affiliation}#=%=#IBM Research - China
+Author{3}{Firstname}#=%=#Aoying
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Email}#=%=#ayzhou@sei.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+Author{4}{Firstname}#=%=#Xiaofeng
+Author{4}{Lastname}#=%=#He
+Author{4}{Email}#=%=#xfhe@sei.ecnu.edu.cn
+Author{4}{Affiliation}#=%=#East China Normal University
+
+==========

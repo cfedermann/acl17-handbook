@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#573
+FinalPaperTitle#=%=#Learning Word-Like Units from Joint Audio-Visual Analysis
+ShortPaperTitle#=%=#Learning Word-Like Units from Joint Audio-Visual Analysis
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#David Harwath
+JobTitle#==#Graduate Student
+Organization#==#Massachusetts Institute of Technology
+77 Massachusetts Avenue
+Cambridge, MA 02139
+Abstract#==#Given a collection of images and spoken audio captions, we present a method for
+discovering word-like acoustic units in the continuous speech signal and
+grounding them to semantically relevant image regions. For example, our model
+is able to detect spoken instances of the word 'lighthouse' within an utterance
+and associate them with image regions containing lighthouses. We do not use any
+form of conventional automatic speech recognition, nor do we use any text
+transcriptions or conventional linguistic annotations. Our model effectively
+implements a form of spoken language acquisition, in which the computer learns
+not only to recognize word categories by sound, but also to enrich the words it
+learns with semantics by grounding them in images.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Harwath
+Author{1}{Email}#=%=#dharwath@csail.mit.edu
+Author{1}{Affiliation}#=%=#Massachusetts Institute of Technology
+Author{2}{Firstname}#=%=#James
+Author{2}{Lastname}#=%=#Glass
+Author{2}{Email}#=%=#glass@mit.edu
+Author{2}{Affiliation}#=%=#Massachusetts Institute of Technology
+
+==========

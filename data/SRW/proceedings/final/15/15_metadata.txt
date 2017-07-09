@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Are You Asking the Right Questions? Teaching Machines to Ask Clarification Questions
+ShortPaperTitle#=%=#Teaching Machines to Ask Clarification Questions
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sudha Rao
+JobTitle#==#
+Organization#==#University of Maryland, College Park
+Abstract#==#Inquiry is fundamental to communication, and machines cannot effectively
+collaborate with humans unless they can ask questions. In this thesis work, we
+explore how can we teach machines to ask clarification questions when faced
+with uncertainty, a goal of increasing importance in today's automated society.
+We do a preliminary study using data from StackExchange, a plentiful online
+resource where people routinely ask clarifying questions to posts so that they
+can better offer assistance to the original poster. We build neural network
+models inspired by the idea of the expected value of perfect information: a
+good question is one whose expected answer is going to be most useful. To build
+generalizable systems, we propose two future research directions: a
+template-based model and a sequence-to-sequence based neural generative model.
+Author{1}{Firstname}#=%=#Sudha
+Author{1}{Lastname}#=%=#Rao
+Author{1}{Email}#=%=#raosudha@cs.umd.edu
+Author{1}{Affiliation}#=%=#University Of Maryland, College Park
+
+==========

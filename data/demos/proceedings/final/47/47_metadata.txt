@@ -1,0 +1,79 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Life-iNet: A Structured Network-Based Knowledge Exploration and Analytics System for Life Sciences
+ShortPaperTitle#=%=#Life-iNet: A Structured Network-Based Knowledge Exploration and Analytics System for Life Sciences
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Xiang Ren, Jiaming Shen, Meng Qu, Xuan Wang, Zeqiu Wu, Qi Zhu, Meng Jiang, Fangbo Tao, Saurabh Sinha, David Liem, Peipei Ping, Richard Weinshilboum, Jiawei Han
+JobTitle#==#
+Organization#==#Department of Computer Science, University of Illinois Urbana-Champaign, IL, USA 
+Institute of Genomic Biology, University of Illinois at Urbana-Champaign, IL, USA 
+School of Medicine, University of California, Los Angeles, CA, USA 
+Department of Pharmacology, Mayo Clinic, MN, USA 
+Abstract#==#Search engines running on scientific literature have been widely used by life
+scientists to find publications related to their research. However, existing
+search engines in life-science domain, such as PubMed, have limitations when
+applied to exploring and analyzing factual knowledge (e.g., disease-gene
+associations) in massive text corpora. These limitations are mainly due to the
+problems that factual information exists as an unstructured form in text, and
+also keyword and MeSH term-based queries cannot effectively imply semantic
+relations between entities. This demo paper presents the LifeNet system to
+address the limitations in existing search engines on facilitating life
+sciences research. LifeNet automatically constructs structured networks of
+factual knowledge from large amounts of background documents, to support
+efficient exploration of structured factual knowledge in the unstructured
+literature. It also provides functionalities for finding distinctive entities
+for given entity types, and generating hypothetical facts to assist
+literature-based knowledge discovery (e.g., drug target prediction).
+Author{1}{Firstname}#=%=#Xiang
+Author{1}{Lastname}#=%=#Ren
+Author{1}{Email}#=%=#xren7@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{2}{Firstname}#=%=#Jiaming
+Author{2}{Lastname}#=%=#Shen
+Author{2}{Email}#=%=#mickeysjm@gmail.com
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champagin
+Author{3}{Firstname}#=%=#Meng
+Author{3}{Lastname}#=%=#Qu
+Author{3}{Email}#=%=#mengqu2@illionis.edu
+Author{3}{Affiliation}#=%=#University of Illinois at Urbana-Champagin
+Author{4}{Firstname}#=%=#Xuan
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#xwang174@illinois.edu
+Author{4}{Affiliation}#=%=#University of Illinois at Urbana-Champagin
+Author{5}{Firstname}#=%=#Zeqiu
+Author{5}{Lastname}#=%=#Wu
+Author{5}{Email}#=%=#zeqiuwu1@illinois.edu
+Author{5}{Affiliation}#=%=#University of Illinois at Urbana-Champagin
+Author{6}{Firstname}#=%=#Qi
+Author{6}{Lastname}#=%=#Zhu
+Author{6}{Email}#=%=#qiz3@illinois.edu
+Author{6}{Affiliation}#=%=#University of Illinois at Urbana-Champagin
+Author{7}{Firstname}#=%=#Meng
+Author{7}{Lastname}#=%=#Jiang
+Author{7}{Email}#=%=#mjiang89@illinois.edu
+Author{7}{Affiliation}#=%=#University of Illinois at Urbana-Champagin
+Author{8}{Firstname}#=%=#Fangbo
+Author{8}{Lastname}#=%=#Tao
+Author{8}{Email}#=%=#ftao2@illinois.edu
+Author{8}{Affiliation}#=%=#University of Illinois at Urbana-Champagin
+Author{9}{Firstname}#=%=#Saurabh
+Author{9}{Lastname}#=%=#Sinha
+Author{9}{Email}#=%=#sinhas@illinois.edu
+Author{9}{Affiliation}#=%=#University of Illinois at Urbana-Champagin
+Author{10}{Firstname}#=%=#David
+Author{10}{Lastname}#=%=#Liem
+Author{10}{Email}#=%=#dliem@mednet.ucla.edu
+Author{10}{Affiliation}#=%=#University of California, Los Angeles
+Author{11}{Firstname}#=%=#Peipei
+Author{11}{Lastname}#=%=#Ping
+Author{11}{Email}#=%=#pping@mednet.ucla.edu
+Author{11}{Affiliation}#=%=#University of California, Los Angeles
+Author{12}{Firstname}#=%=#Richard
+Author{12}{Lastname}#=%=#Weinshilboum
+Author{12}{Email}#=%=#weinshilboum.richard@mayo.edu
+Author{12}{Affiliation}#=%=#Department of Pharmacology, Mayo Clinic
+Author{13}{Firstname}#=%=#Jiawei
+Author{13}{Lastname}#=%=#Han
+Author{13}{Email}#=%=#hanj@illinois.edu
+Author{13}{Affiliation}#=%=#University of Illinois Urbana-Champaign
+
+==========

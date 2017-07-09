@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#3313
+FinalPaperTitle#=%=#Challenging Language-Dependent Segmentation for Arabic: An Application to Machine Translation and Part-of-Speech Tagging
+ShortPaperTitle#=%=#Challenging Language-Dependent Segmentation for Arabic: An Application to Machine Translation and Part-of-Speech Tagging
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Hassan Sajjad
+JobTitle#==#
+Organization#==#QCRI-HBKU, Research Complex, Qatar Foundation 5825, Doha, Qatar
+Abstract#==#Word segmentation plays a pivotal role in improving any Arabic NLP application.
+Therefore, a lot of research has been spent in improving its accuracy.
+Off-the-shelf tools, however, are: i) complicated to use and ii) domain/dialect
+dependent. We explore three language-independent alternatives to morphological
+segmentation us- ing: i) data-driven sub-word units, ii) characters as a unit
+of learning, and iii) word embeddings learned using a character CNN
+(Convolution Neural Network). On the tasks of Machine Translation and POS
+tagging, we found these methods to achieve close to, and occasionally surpass
+state-of-the-art performance. In our analysis, we show that a neural machine
+translation system is sensitive to the ratio of source and target tokens, and a
+ratio close to 1 or greater, gives optimal performance.
+Author{1}{Firstname}#=%=#Hassan
+Author{1}{Lastname}#=%=#Sajjad
+Author{1}{Email}#=%=#hsajjad@qf.org.qa
+Author{1}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{2}{Firstname}#=%=#Fahim
+Author{2}{Lastname}#=%=#Dalvi
+Author{2}{Email}#=%=#faimaduddin@qf.org.qa
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{3}{Firstname}#=%=#Nadir
+Author{3}{Lastname}#=%=#Durrani
+Author{3}{Email}#=%=#ndurrani@qf.org.qa
+Author{3}{Affiliation}#=%=#QCRI
+Author{4}{Firstname}#=%=#Ahmed
+Author{4}{Lastname}#=%=#Abdelali
+Author{4}{Email}#=%=#aabdelali@qf.org.qa
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{5}{Firstname}#=%=#Yonatan
+Author{5}{Lastname}#=%=#Belinkov
+Author{5}{Email}#=%=#belinkov@mit.edu
+Author{5}{Affiliation}#=%=#MIT CSAIL
+Author{6}{Firstname}#=%=#Stephan
+Author{6}{Lastname}#=%=#Vogel
+Author{6}{Email}#=%=#svogel@qf.org.qa
+Author{6}{Affiliation}#=%=#Qatar Computing Research Institute
+
+==========

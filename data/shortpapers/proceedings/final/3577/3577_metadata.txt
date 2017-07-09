@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#3577
+FinalPaperTitle#=%=#Feature-Rich Networks for Knowledge Base Completion
+ShortPaperTitle#=%=#Feature-Rich Networks for Knowledge Base Completion
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#ALEXANDROS KOMNINOS
+JobTitle#==#
+Organization#==#University of York, Department of Computer Science,  York, YO10 5GH, United Kingdom
+Abstract#==#We propose jointly modelling Knowledge Bases and aligned text with Feature-Rich
+Networks. Our models perform Knowledge Base Completion by learning to represent
+and compose diverse feature types from partially aligned and noisy resources.
+We perform experiments on Freebase utilizing additional entity type information
+and syntactic textual relations. Our evaluation suggests that the proposed
+models can better incorporate side information than previously proposed
+combinations of bilinear models with convolutional neural networks, showing
+large improvements when scoring the plausibility of unobserved facts with
+associated textual mentions.
+Author{1}{Firstname}#=%=#Alexandros
+Author{1}{Lastname}#=%=#Komninos
+Author{1}{Email}#=%=#ak1153@york.ac.uk
+Author{1}{Affiliation}#=%=#University of York
+Author{2}{Firstname}#=%=#Suresh
+Author{2}{Lastname}#=%=#Manandhar
+Author{2}{Email}#=%=#suresh@cs.york.ac.uk
+Author{2}{Affiliation}#=%=#University of York
+
+==========

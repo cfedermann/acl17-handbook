@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#270
+FinalPaperTitle#=%=#Enhanced LSTM for Natural Language Inference
+ShortPaperTitle#=%=#Enhanced LSTM for Natural Language Inference
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Qian Chen
+JobTitle#==#
+Organization#==#University of Science and Technology of China, 443 Huangshan Road, Hefei, Anhui, China 230027
+Abstract#==#Reasoning and inference are central to human and artificial intelligence.
+Modeling inference in human language is very challenging. With the availability
+of large annotated data (Bowman et al., 2015), it has recently become feasible
+to train neural network based inference models, which have shown to be very
+effective. In this paper, we present a new state-of-the-art result, achieving
+the accuracy of 88.6% on the Stanford Natural Language Inference Dataset.
+Unlike the previous top models that use very complicated network architectures,
+we first demonstrate that carefully designing sequential inference models based
+on chain LSTMs can outperform all previous models. Based on this, we further
+show that by explicitly considering recursive architectures in both local
+inference modeling and inference composition, we achieve additional
+improvement. Particularly, incorporating syntactic parsing information
+contributes to our best result---it further improves the performance even when
+added to the already very strong model.
+Author{1}{Firstname}#=%=#Qian
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#cq1231@mail.ustc.edu.cn
+Author{1}{Affiliation}#=%=#University of Science and Technology of China
+Author{2}{Firstname}#=%=#Xiaodan
+Author{2}{Lastname}#=%=#Zhu
+Author{2}{Email}#=%=#zhu2048@gmail.com
+Author{2}{Affiliation}#=%=#National Research Council Canada
+Author{3}{Firstname}#=%=#Zhen-Hua
+Author{3}{Lastname}#=%=#Ling
+Author{3}{Email}#=%=#zhling@ustc.edu.cn
+Author{3}{Affiliation}#=%=#University of Science and Technology of China
+Author{4}{Firstname}#=%=#Si
+Author{4}{Lastname}#=%=#Wei
+Author{4}{Email}#=%=#siwei@iflytek.com
+Author{4}{Affiliation}#=%=#iFLYTEK Research
+Author{5}{Firstname}#=%=#Hui
+Author{5}{Lastname}#=%=#Jiang
+Author{5}{Email}#=%=#hj@cse.yorku.ca
+Author{5}{Affiliation}#=%=#York University
+Author{6}{Firstname}#=%=#Diana
+Author{6}{Lastname}#=%=#Inkpen
+Author{6}{Email}#=%=#diana@site.uottawa.ca
+Author{6}{Affiliation}#=%=#University of Ottawa
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#355
+FinalPaperTitle#=%=#Neural Modeling of Multi-Predicate Interactions for Japanese Predicate Argument Structure Analysis
+ShortPaperTitle#=%=#Neural Modeling of Multi-Predicate Interactions for Japanese Predicate Argument Structure Analysis
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Hiroki Ouchi
+JobTitle#==#
+Organization#==#Nara Institute of Science and Technology
+Abstract#==#The performance of Japanese predicate argument structure (PAS) analysis has
+improved in recent years thanks to the joint modeling of interactions between
+multiple predicates. However, this approach relies heavily on syntactic
+information predicted by parsers, and suffers from errorpropagation. To remedy
+this problem, we
+introduce a model that uses grid-type recurrent neural networks. The proposed
+model automatically induces features sensitive to multi-predicate interactions
+from
+the word sequence information of a sentence. Experiments on the NAIST Text
+Corpus demonstrate that without syntactic information, our model outperforms
+previous syntax-dependent models.
+Author{1}{Firstname}#=%=#Hiroki
+Author{1}{Lastname}#=%=#Ouchi
+Author{1}{Email}#=%=#ouchi.hiroki.nt6@is.naist.jp
+Author{1}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{2}{Firstname}#=%=#Hiroyuki
+Author{2}{Lastname}#=%=#Shindo
+Author{2}{Email}#=%=#shindo@is.naist.jp
+Author{2}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{3}{Firstname}#=%=#Yuji
+Author{3}{Lastname}#=%=#Matsumoto
+Author{3}{Email}#=%=#matsu@is.naist.jp
+Author{3}{Affiliation}#=%=#Nara Institute of Science and Technology
+
+==========

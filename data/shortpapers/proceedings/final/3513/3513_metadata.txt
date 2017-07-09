@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#3513
+FinalPaperTitle#=%=#On the Challenges of Translating NLP Research into Commercial Products
+ShortPaperTitle#=%=#On the Challenges of Translating NLP Research into Commercial Products
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Daniel Dahlmeier
+JobTitle#==#
+Organization#==#SAP
+30 Pasir Panjang Road, #03-32 Mapletree Business City, Singapore 117440
+Republic of Singapore
+Abstract#==#This paper highlights challenges in industrial research related to translating
+research in natural language processing into commercial products.
+While the interest in natural language processing from industry is
+significant, the transfer of research to commercial products is
+non-trivial and its challenges are often unknown to or underestimated
+by many researchers. I discuss current obstacles and provide
+suggestions for increasing the chances for translating research to commercial
+success based on my experience in industrial research.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Dahlmeier
+Author{1}{Email}#=%=#ddahlmeier@googlemail.com
+Author{1}{Affiliation}#=%=#SAP
+
+==========

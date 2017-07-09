@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#104
+FinalPaperTitle#=%=#Bridge Text and Knowledge by Learning Multi-Prototype Entity Mention Embedding
+ShortPaperTitle#=%=#Bridge Text and Knowledge by Learning Multi-Prototype Entity Mention Embedding
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#yixin cao
+JobTitle#==#
+Organization#==#Tsinghua University, Beijing, China
+Abstract#==#Integrating text and knowledge into a unified semantic space has attracted
+significant research interests recently. However, the ambiguity in the common
+space remains a challenge, namely that the same mention phrase usually refers
+to various entities. In this paper, to deal with the ambiguity of entity
+mentions, we propose a novel Multi-Prototype Mention Embedding model, which
+learns multiple sense embeddings for each mention by jointly modeling words
+from textual contexts and entities derived from a knowledge base. In addition,
+we further design an efficient language model based approach to disambiguate
+each mention to a specific sense. In experiments, both qualitative and
+quantitative analysis demonstrate the high quality of the word, entity and
+multi-prototype mention embeddings. Using entity linking as a study case, we
+apply our disambiguation method as well as the multi-prototype mention
+embeddings on the benchmark dataset, and achieve state-of-the-art performance.
+Author{1}{Firstname}#=%=#Yixin
+Author{1}{Lastname}#=%=#Cao
+Author{1}{Email}#=%=#caoyixin2009@163.com
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Lifu
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#warrior.fu@gmail.com
+Author{2}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{3}{Firstname}#=%=#Heng
+Author{3}{Lastname}#=%=#Ji
+Author{3}{Email}#=%=#jih@rpi.edu
+Author{3}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{4}{Firstname}#=%=#Xu
+Author{4}{Lastname}#=%=#Chen
+Author{4}{Email}#=%=#successcx@gmail.com
+Author{4}{Affiliation}#=%=#Tsinghua University
+Author{5}{Firstname}#=%=#Juanzi
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#lijuanzi2008@gmail.com
+Author{5}{Affiliation}#=%=#Tsinghua University
+
+==========

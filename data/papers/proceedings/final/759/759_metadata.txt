@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#759
+FinalPaperTitle#=%=#Joint Modeling of Content and Discourse Relations in Dialogues
+ShortPaperTitle#=%=#Joint Modeling of Content and Discourse Relations in Dialogues
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Lu Wang
+JobTitle#==#
+Organization#==#Northeastern University
+360 Huntington Ave., Boston, MA 02115, USA
+Abstract#==#We present a joint modeling approach to identify salient discussion points in
+spoken meetings as well as to label the discourse relations between speaker
+turns. A variation of our model is also discussed when discourse relations are
+treated as latent variables. Experimental results on two popular meeting
+corpora show that our joint model can outperform state-of-the-art approaches
+for both phrase-based content selection and discourse relation prediction
+tasks. We also evaluate our model on predicting the consistency among team
+members' understanding of their group decisions. Classifiers trained with
+features constructed from our model achieve significant better predictive
+performance than the state-of-the-art.
+Author{1}{Firstname}#=%=#Kechen
+Author{1}{Lastname}#=%=#Qin
+Author{1}{Email}#=%=#crowln1992@gmail.com
+Author{1}{Affiliation}#=%=#Northeastern University
+Author{2}{Firstname}#=%=#Lu
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#luwang@ccs.neu.edu
+Author{2}{Affiliation}#=%=#Northeastern University
+Author{3}{Firstname}#=%=#Joseph
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#jokim@mit.edu
+Author{3}{Affiliation}#=%=#Massachusetts Institute of Technology
+
+==========

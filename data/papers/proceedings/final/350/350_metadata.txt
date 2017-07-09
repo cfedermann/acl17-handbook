@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#350
+FinalPaperTitle#=%=#Automatically Labeled Data Generation for Large Scale Event Extraction
+ShortPaperTitle#=%=#Automatically Labeled Data Generation for Large Scale Event Extraction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yubo Chen
+JobTitle#==#
+Organization#==#Institute of Automation Chinese Academy of Sciences 
+95 Zhongguancun East Road, 100190, BEIJING, CHINA
+Abstract#==#Modern models of event extraction for tasks like ACE are based on supervised
+learning of events from small hand-labeled data. However, hand-labeled training
+data is expensive to produce, in low coverage of event types, and limited in
+size, which makes supervised methods hard to extract large scale of events for
+knowledge base population. To solve the data labeling problem, we propose to
+automatically label training data for event extraction via world knowledge and
+linguistic knowledge, which can detect key arguments and trigger words for each
+event type and employ them to label events in texts automatically. The
+experimental results show that the quality of our large scale automatically
+labeled data is competitive with elaborately human-labeled data. And our
+automatically labeled data can incorporate with human-labeled data, then
+improve the performance of models learned from these data.
+Author{1}{Firstname}#=%=#Yubo
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#yubo.chen@nlpr.ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Shulin
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#shulin.liu@nlpr.ia.ac.cn
+Author{2}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Xiang
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#zxteloiv@outlook.com
+Author{3}{Affiliation}#=%=#University of Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Kang
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#kliu@nlpr.ia.ac.cn
+Author{4}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Jun
+Author{5}{Lastname}#=%=#Zhao
+Author{5}{Email}#=%=#junzhao123@163.com
+Author{5}{Affiliation}#=%=#NLPR, Institute of Automation, Chinese Academy of Sciences
+
+==========

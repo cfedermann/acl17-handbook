@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#419
+FinalPaperTitle#=%=#One-Shot Neural Cross-Lingual Transfer for Paradigm Completion
+ShortPaperTitle#=%=#One-Shot Neural Cross-Lingual Transfer for Paradigm Completion
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Katharina Kann
+JobTitle#==#PhD student/researcher
+Organization#==#CIS, LMU Munich
+Oettingenstraße 67, 80538 Munich, Germany
+Abstract#==#We present a novel cross-lingual transfer method for paradigm completion, the
+task of mapping a lemma to its inflected forms, using a neural encoder-decoder
+model, the state of the art for the monolingual task. We use labeled data from
+a high-resource language to increase performance on a low-resource language. In
+experiments on 21 language pairs from four different language families, we
+obtain up to 58% higher accuracy than without transfer and show that even
+zero-shot and one-shot learning are possible. We further find that the degree
+of language relatedness strongly influences the ability to transfer
+morphological knowledge.
+Author{1}{Firstname}#=%=#Katharina
+Author{1}{Lastname}#=%=#Kann
+Author{1}{Email}#=%=#kann@cis.lmu.de
+Author{1}{Affiliation}#=%=#LMU Munich
+Author{2}{Firstname}#=%=#Ryan
+Author{2}{Lastname}#=%=#Cotterell
+Author{2}{Email}#=%=#ryan.cotterell@gmail.com
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Hinrich
+Author{3}{Lastname}#=%=#Schütze
+Author{3}{Email}#=%=#inquiries@cislmu.org
+Author{3}{Affiliation}#=%=#Center for Information and Language Processing, University of Munich
+
+==========

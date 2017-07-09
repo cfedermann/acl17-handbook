@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#Varying Linguistic Purposes of Emoji in (Twitter) Context
+ShortPaperTitle#=%=#Varying Linguistic Purposes of Emoji in (Twitter) Context
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hannah Provenza
+JobTitle#==#
+Organization#==#
+Abstract#==#Research into emoji in textual communication has, thus far, focused on
+high-frequency usages and the ambiguity of interpretations. Investigation of
+emoji uses across a wide range of uses can divide them into different
+linguistic functions: function and content words, or multimodal affective
+markers. Identifying where an emoji is merely replacing part of the text allows
+NLP tools the possibility of parsing them as any other word or phrase. Smiling
+emoticons are usually left out of data sets, but if they are used as the noun
+”smile” or the verb ”smiling”, we should be able to predict their part
+of speech. We report on an annotation task on English Twitter data with the
+goal of classifying emoji usage by these categories, and on the effectiveness
+of a classifier trained on these annotations. We find that it is possible to
+train a classifier to tell the difference between those emoji used as
+linguistic content words and those used as paralinguistic or affective
+multimodal markers even with a small amount of training data, but that accurate
+sub-classification of these multimodal emoji into specific classes like
+attitude, topic, or gesture will require more data and more feature
+engineering.
+Author{1}{Firstname}#=%=#Noa
+Author{1}{Lastname}#=%=#Naaman
+Author{1}{Email}#=%=#naaman.noa@gmail.com
+Author{1}{Affiliation}#=%=#Brandeis University
+Author{2}{Firstname}#=%=#Hannah
+Author{2}{Lastname}#=%=#Provenza
+Author{2}{Email}#=%=#hprovenza@gmail.com
+Author{2}{Affiliation}#=%=#Brandeis University
+Author{3}{Firstname}#=%=#Orion
+Author{3}{Lastname}#=%=#Montoya
+Author{3}{Email}#=%=#orion@mdcclv.com
+Author{3}{Affiliation}#=%=#Brandeis University
+
+==========

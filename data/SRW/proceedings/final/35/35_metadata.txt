@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Automatic Generation of Jokes in Hindi
+ShortPaperTitle#=%=#Automatic Generation of Jokes in Hindi
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Srishti Aggarwal
+JobTitle#==#
+Organization#==#Language Technology Research Center, Kohli Center for Intelligent Systems, International Institute of Information Technology, Hyderabad, India
+Abstract#==#When it comes to computational language processing systems, humour is a
+relatively unexplored domain, especially more so for Hindi (or rather, most
+languages other than English). Most researchers agree that a joke consists of
+two main parts - the setup and the punchline, which the humour being encoded in
+the incongruity between the two. In this paper, we look at Dur se Dekha jokes,
+a restricted domain of humorous three liner poetry in Hindi. We analyze their
+structure to understand how humour is encoded in them and formalize it. We then
+develop a system which is successfully able to generate a basic form of these
+jokes.
+Author{1}{Firstname}#=%=#Srishti
+Author{1}{Lastname}#=%=#Aggarwal
+Author{1}{Email}#=%=#srishti.aggarwal@research.iiit.ac.in
+Author{1}{Affiliation}#=%=#LTRC, KCIS, IIIT, Hyderabad
+Author{2}{Firstname}#=%=#Radhika
+Author{2}{Lastname}#=%=#Mamidi
+Author{2}{Email}#=%=#radhika.mamidi@iiit.ac.in
+Author{2}{Affiliation}#=%=#LTRC, KCIS, IIIT, Hyderabad
+
+==========

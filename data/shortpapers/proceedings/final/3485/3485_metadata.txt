@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#3485
+FinalPaperTitle#=%=#Determining Whether and When People Participate in the Events They Tweet About
+ShortPaperTitle#=%=#Determining Whether and When People Participate in the Events They Tweet About
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Eduardo Blanco
+JobTitle#==#
+Organization#==#University of North Texas
+1155 Union Circle #311366
+Denton, TX 76203-5017
+Abstract#==#This paper describes an approach to determine whether people participate in the
+events they tweet about. Specifically, we determine whether people are
+participants in events with respect to the tweet timestamp. We target all
+events expressed by verbs in tweets, including past, present and events that
+may occur in the future. We present new annotations using 1,096 event mentions,
+and experimental results showing that the task is challenging.
+Author{1}{Firstname}#=%=#Krishna Chaitanya
+Author{1}{Lastname}#=%=#Sanagavarapu
+Author{1}{Email}#=%=#krishnasanagavarapu@my.unt.edu
+Author{1}{Affiliation}#=%=#University of North Texas
+Author{2}{Firstname}#=%=#Alakananda
+Author{2}{Lastname}#=%=#Vempala
+Author{2}{Email}#=%=#alakanandavempala@my.unt.edu
+Author{2}{Affiliation}#=%=#University Of North Texas
+Author{3}{Firstname}#=%=#Eduardo
+Author{3}{Lastname}#=%=#Blanco
+Author{3}{Email}#=%=#eduardo.blanco@unt.edu
+Author{3}{Affiliation}#=%=#University of North Texas
+
+==========

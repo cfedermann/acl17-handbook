@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#223
+FinalPaperTitle#=%=#Data-Driven Broad-Coverage Grammars for Opinionated Natural Language Generation (ONLG)
+ShortPaperTitle#=%=#Data-Driven Broad-Coverage Grammars for Opinionated Natural Language Generation (ONLG)
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Tomer Cagan
+JobTitle#==#
+Organization#==#Interdisciplinary Center (IDC)
+PO Box 167, 1 Kanfei Nesharim Street
+Herzliya, Israel 4610101
+Abstract#==#Opinionated Natural Language Generation (ONLG) is a new, challenging, task that
+aims to automatically generate human-like, subjective, responses to opinionated
+articles online. 
+
+We present a data-driven architecture for ONLG that generates subjective
+responses triggered by users’ agendas, consisting of topics and sentiments,
+and based on wide-coverage automatically-acquired generative grammars.
+We compare three types of grammatical representations that we design for ONLG,
+which interleave different layers of linguistic information and are induced
+from a new, enriched dataset we developed.
+
+Our evaluation shows that generation with Relational-Realizational (Tsarfaty
+and Sima’an, 2008) inspired grammar gets better language model scores than
+lexicalized grammars `a la Collins (2003), and that the latter gets better
+human-evaluation scores. 
+
+We also show that conditioning the generation on topic models makes generated
+responses more relevant to the document content.
+Author{1}{Firstname}#=%=#Tomer
+Author{1}{Lastname}#=%=#Cagan
+Author{1}{Email}#=%=#cagan.tomer@post.idc.ac.il
+Author{1}{Affiliation}#=%=#The Interdisciplinary Center, Herzlia
+Author{2}{Firstname}#=%=#Stefan L.
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#s.frank@let.ru.nl
+Author{2}{Affiliation}#=%=#Radboud University Nijmegen
+Author{3}{Firstname}#=%=#Reut
+Author{3}{Lastname}#=%=#Tsarfaty
+Author{3}{Email}#=%=#reutts@openu.ac.il
+Author{3}{Affiliation}#=%=#Open University of Israel
+
+==========

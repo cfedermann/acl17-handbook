@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#3383
+FinalPaperTitle#=%=#Separating Facts from Fiction: Linguistic Models to Classify Suspicious and Trusted News Posts on Twitter
+ShortPaperTitle#=%=#Separating Facts from Fiction: Linguistic Models to Classify Suspicious and Trusted News Posts on Twitter
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Svitlana Volkova
+JobTitle#==#
+Organization#==#Pacific Northwest National Laboratory
+902 Battelle Blvd, Richland, WA 99354
+Abstract#==#Pew research polls report 62 percent of U.S. adults get news on social media
+(Gottfried and Shearer, 2016). In a December poll, 64 percent of U.S. adults
+said that “made-up news” has caused a “great deal of confusion” about
+the facts of current events (Barthel et al., 2016). Fabricated stories in
+social media, ranging from deliberate propaganda to hoaxes and satire,
+contributes to this confusion in addition to having serious effects on global
+stability.
+In this work we build predictive models to classify 130 thousand news posts as
+suspicious or verified, and predict four sub-types of suspicious news –
+satire, hoaxes, clickbait and propaganda. We show that neural network models
+trained on tweet content and social network interactions outperform lexical
+models. Unlike previous work on deception detection, we find that adding syntax
+and grammar features to our models does not improve performance. Incorporating
+linguistic features improves classification results, however, social
+interaction features are most in- formative for finer-grained separation be-
+tween four types of suspicious news posts.
+Author{1}{Firstname}#=%=#Svitlana
+Author{1}{Lastname}#=%=#Volkova
+Author{1}{Email}#=%=#svitlana.volkova@pnnl.gov
+Author{1}{Affiliation}#=%=#Pacific Northwest National Laboratory
+Author{2}{Firstname}#=%=#Kyle
+Author{2}{Lastname}#=%=#Shaffer
+Author{2}{Email}#=%=#kyle.shaffer@pnnl.gov
+Author{2}{Affiliation}#=%=#PNNL
+Author{3}{Firstname}#=%=#Jin Yea
+Author{3}{Lastname}#=%=#Jang
+Author{3}{Email}#=%=#jinyea.jang@pnnl.gov
+Author{3}{Affiliation}#=%=#PNNL
+Author{4}{Firstname}#=%=#Nathan
+Author{4}{Lastname}#=%=#Hodas
+Author{4}{Email}#=%=#nathan.hodas@pnnl.gov
+Author{4}{Affiliation}#=%=#PNNL
+
+==========

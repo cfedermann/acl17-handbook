@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3407
+FinalPaperTitle#=%=#Alternative Objective Functions for Training MT Evaluation Metrics
+ShortPaperTitle#=%=#Alternative Objective Functions for Training MT Evaluation Metrics
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Milos Stanojevic
+JobTitle#==#PhD student
+Organization#==#ILLC, University of Amsterdam
+Abstract#==#MT evaluation metrics are tested for correlation with human judgments either at
+the sentence- or the corpus-level. Trained metrics ignore corpus-level
+judgments and are trained for high sentence-level correlation only. We show
+that training only for one objective (sentence or corpus level), can not only
+harm the performance on the other objective, but it can also be suboptimal for
+the objective being optimized. To this end we present a metric trained for
+corpus-level and show empirical comparison against a metric trained for
+sentence-level exemplifying how their performance may vary per language pair,
+type and level of judgment. Subsequently we propose a model trained to optimize
+both objectives simultaneously and show that it is far more stable than--and on
+average outperforms--both models on both objectives.
+Author{1}{Firstname}#=%=#Miloš
+Author{1}{Lastname}#=%=#Stanojević
+Author{1}{Email}#=%=#milosh.stanojevic@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam, ILLC
+Author{2}{Firstname}#=%=#Khalil
+Author{2}{Lastname}#=%=#Sima'an
+Author{2}{Email}#=%=#k.simaan@uva.nl
+Author{2}{Affiliation}#=%=#ILLC, University of Amsterdam
+
+==========

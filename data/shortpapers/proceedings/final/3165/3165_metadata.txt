@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#3165
+FinalPaperTitle#=%=#Feature Hashing for Language and Dialect Identification
+ShortPaperTitle#=%=#Feature Hashing for Language and Dialect Identification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Shervin Malmasi
+JobTitle#==#Author
+Organization#==#Macquarie University, Sydney, Australia
+Abstract#==#We evaluate feature hashing for language identification (LID), a method not
+previously used for this task. Using a standard dataset, we first show that
+while feature performance is high, LID data is highly dimensional and mostly
+sparse (>99.5%) as it includes large vocabularies for many languages; memory
+requirements grow as languages are added. Next we apply hashing using various
+hash sizes, demonstrating that there is no performance loss with dimensionality
+reductions of up to 86%. We also show that using an ensemble of low-dimension
+hash-based classifiers further boosts performance. Feature hashing is highly
+useful for LID and holds great promise for future work in this area.
+Author{1}{Firstname}#=%=#Shervin
+Author{1}{Lastname}#=%=#Malmasi
+Author{1}{Email}#=%=#shervin.malmasi@students.mq.edu.au
+Author{1}{Affiliation}#=%=#Harvard Medical School
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dras
+Author{2}{Email}#=%=#mark.dras@mq.edu.au
+Author{2}{Affiliation}#=%=#Macquarie University
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#578
+FinalPaperTitle#=%=#Robust Incremental Neural Semantic Graph Parsing
+ShortPaperTitle#=%=#Robust Incremental Neural Semantic Graph Parsing
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Jan Buys
+JobTitle#==#
+Organization#==#
+Abstract#==#Parsing sentences to linguistically-expressive semantic representations is a
+key goal of Natural Language Processing. Yet statistical parsing has focussed
+almost exclusively on bilexical dependencies or domain-specific logical forms.
+We propose a neural encoder-decoder transition-based parser which is the first
+full-coverage semantic graph parser for Minimal Recursion Semantics (MRS).
+The model architecture uses stack-based embedding features, predicting graphs
+jointly with unlexicalized predicates and their token alignments. Our parser
+is more accurate than attention-based baselines on MRS, and on an additional
+Abstract Meaning Representation (AMR) benchmark, and GPU batch processing
+makes it an order of magnitude faster than a high-precision grammar-based
+parser. Further, the 86.69% Smatch score of our MRS parser is higher than the
+upper-bound on AMR parsing, making MRS an attractive choice as a semantic
+representation.
+Author{1}{Firstname}#=%=#Jan
+Author{1}{Lastname}#=%=#Buys
+Author{1}{Email}#=%=#jan.buys@cs.ox.ac.uk
+Author{1}{Affiliation}#=%=#Department of Computer Science, University of Oxford
+Author{2}{Firstname}#=%=#Phil
+Author{2}{Lastname}#=%=#Blunsom
+Author{2}{Email}#=%=#phil.blunsom@cs.ox.ac.uk
+Author{2}{Affiliation}#=%=#University of Oxford
+
+==========

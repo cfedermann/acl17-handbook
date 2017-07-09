@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#777
+FinalPaperTitle#=%=#Other Topics You May Also Agree or Disagree: Modeling Inter-Topic Preferences using Tweets and Matrix Factorization
+ShortPaperTitle#=%=#Other Topics You May Also Agree or Disagree: Modeling Inter-Topic Preferences using Tweets and Matrix Factorization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Akira Sasaki
+JobTitle#==#
+Organization#==#Graduate School of Information Sciences, Tohoku University
+6-3-09 Aoba, Aramaki-aza Aoba-ku, Sendai, 980-8579, Japan
+Abstract#==#We presents in this paper our approach for modeling inter-topic preferences of
+Twitter
+users: for example, "those who agree with the Trans-Pacific Partnership (TPP)
+also agree
+with free trade". This kind of knowledge is useful not only for stance
+detection across multiple topics but also for various real-world applications
+including public opinion survey,
+electoral prediction, electoral campaigns, and online debates. In order to
+extract
+users' preferences on Twitter, we design linguistic patterns in which people
+agree
+and disagree about specific topics (e.g., "A is completely wrong'').
+By applying these linguistic patterns to a collection of tweets, we extract
+statements agreeing and disagreeing with various topics. Inspired by previous
+work on
+item recommendation, we formalize the task of modeling inter-topic preferences
+as matrix factorization: representing users' preference as a user-topic matrix
+and mapping both users and topics onto a latent feature space that abstracts
+the preferences. Our experimental results demonstrate both that our presented
+approach is useful in predicting missing preferences of users and that the
+latent vector representations of topics successfully encode inter-topic
+preferences.
+Author{1}{Firstname}#=%=#Akira
+Author{1}{Lastname}#=%=#Sasaki
+Author{1}{Email}#=%=#aki-s@ecei.tohoku.ac.jp
+Author{1}{Affiliation}#=%=#Tohoku University
+Author{2}{Firstname}#=%=#Kazuaki
+Author{2}{Lastname}#=%=#Hanawa
+Author{2}{Email}#=%=#hanawa@ecei.tohoku.ac.jp
+Author{2}{Affiliation}#=%=#Tohoku University
+Author{3}{Firstname}#=%=#Naoaki
+Author{3}{Lastname}#=%=#Okazaki
+Author{3}{Email}#=%=#okazaki@ecei.tohoku.ac.jp
+Author{3}{Affiliation}#=%=#Tohoku University
+Author{4}{Firstname}#=%=#Kentaro
+Author{4}{Lastname}#=%=#Inui
+Author{4}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{4}{Affiliation}#=%=#Tohoku University
+
+==========

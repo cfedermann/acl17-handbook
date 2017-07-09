@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3125
+FinalPaperTitle#=%=#Lifelong Learning CRF for Supervised Aspect Extraction
+ShortPaperTitle#=%=#Lifelong Learning CRF for Supervised Aspect Extraction
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Lei Shu
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper makes a focused contribution to supervised aspect extraction. It
+shows that if the system has performed aspect extraction from many past domains
+and retained their results as knowledge, Conditional Random Fields (CRF) can
+leverage this knowledge in a lifelong learning manner to extract in a new
+domain markedly better than the traditional CRF without using this prior
+knowledge. The key innovation is that even after CRF training, the model can
+still improve its extraction with experiences in its applications.
+Author{1}{Firstname}#=%=#Lei
+Author{1}{Lastname}#=%=#Shu
+Author{1}{Email}#=%=#lshu3@uic.edu
+Author{1}{Affiliation}#=%=#Department of Computer Science, University of Illinois at Chicago
+Author{2}{Firstname}#=%=#Hu
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#hxu48@uic.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Chicago
+Author{3}{Firstname}#=%=#Bing
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#liub@cs.uic.edu
+Author{3}{Affiliation}#=%=#Department of Computer Science, University of Illinois at Chicago
+
+==========

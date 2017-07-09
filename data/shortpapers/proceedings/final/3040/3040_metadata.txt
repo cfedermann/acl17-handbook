@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#3040
+FinalPaperTitle#=%=#List-only Entity Linking
+ShortPaperTitle#=%=#List-only Entity Linking
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ying Lin
+JobTitle#==#
+Organization#==#Rensselaer Polytechnic Institute
+110 Eighth Street, Troy, NY 12180, USA
+Abstract#==#Traditional Entity Linking (EL) technologies rely on rich structures and
+properties in the target knowledge base (KB). However, in many applications,
+the KB may be as simple and sparse as lists of names of the same type (e.g.,
+lists of products). We call it as List-only Entity Linking problem. 
+Fortunately, some mentions may have more cues for linking, which can be used as
+seed mentions to bridge other mentions and the uninformative entities. 
+In this work, we select most linkable mentions as seed mentions and
+disambiguate other mentions by comparing them with the seed mentions rather
+than directly with the entities.
+Our experiments on linking mentions to seven automatically mined lists show
+promising results and demonstrate the effectiveness of our approach.
+Author{1}{Firstname}#=%=#Ying
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Email}#=%=#liny9@rpi.edu
+Author{1}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{2}{Firstname}#=%=#Chin-Yew
+Author{2}{Lastname}#=%=#Lin
+Author{2}{Email}#=%=#cyl@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Heng
+Author{3}{Lastname}#=%=#Ji
+Author{3}{Email}#=%=#jih@rpi.edu
+Author{3}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+
+==========

@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#3360
+FinalPaperTitle#=%=#On the Distribution of Lexical Features at Multiple Levels of Analysis
+ShortPaperTitle#=%=#On the Distribution of Lexical Features at Multiple Levels of Analysis
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#fatemeh almodaresi
+JobTitle#==#
+Organization#==#Stony Brook University
+Abstract#==#Natural language processing has increasingly moved from modeling documents and
+words toward studying the people behind the language. This move to working with
+data at the user or community level has presented the field with different
+characteristics of linguistic data. In this paper, we empirically characterize
+various lexical distributions at different levels of analysis, showing that,
+while most features are decidedly sparse and non-normal at the message-level
+(as with traditional NLP), they follow the central limit theorem to become much
+more Log-normal or even Normal at the user- and county-levels. Finally, we
+demonstrate that modeling lexical features for the correct level of analysis
+leads to marked improvements in common social scientific prediction tasks.
+Author{1}{Firstname}#=%=#Fatemeh
+Author{1}{Lastname}#=%=#Almodaresi
+Author{1}{Email}#=%=#falmodaresit@cs.stonybrook.edu
+Author{1}{Affiliation}#=%=#Stony Brook University
+Author{2}{Firstname}#=%=#Lyle
+Author{2}{Lastname}#=%=#Ungar
+Author{2}{Email}#=%=#ungar@cis.upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Vivek
+Author{3}{Lastname}#=%=#Kulkarni
+Author{3}{Email}#=%=#viveksck@gmail.com
+Author{3}{Affiliation}#=%=#Stony Brook University
+Author{4}{Firstname}#=%=#Mohsen
+Author{4}{Lastname}#=%=#Zakeri
+Author{4}{Email}#=%=#mzakeri@cs.stonybrook.edu
+Author{4}{Affiliation}#=%=#Stony Brook University
+Author{5}{Firstname}#=%=#Salvatore
+Author{5}{Lastname}#=%=#Giorgi
+Author{5}{Email}#=%=#sal.giorgi@gmail.com
+Author{5}{Affiliation}#=%=#University of Pennsylvania
+Author{6}{Firstname}#=%=#H. Andrew
+Author{6}{Lastname}#=%=#Schwartz
+Author{6}{Email}#=%=#has@cs.stonybrook.edu
+Author{6}{Affiliation}#=%=#Stony Brook University
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#779
+FinalPaperTitle#=%=#A Teacher-Student Framework for Zero-Resource Neural Machine Translation
+ShortPaperTitle#=%=#A Teacher-Student Framework for Zero-Resource Neural Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yun Chen
+JobTitle#==#
+Organization#==#The University of Hong Kong, Pokfolam Road, Hong Kong
+Abstract#==#While end-to-end neural machine translation (NMT) has made remarkable progress
+recently, it still suffers from the data scarcity problem for low-resource
+language pairs and domains. In this paper, we propose a method for
+zero-resource NMT by assuming that parallel sentences have close probabilities
+of generating a sentence in a third language. Based on the assumption, our
+method is able to train a source-to-target NMT model (``student'') without
+parallel corpora available guided by an existing pivot-to-target NMT model
+(``teacher'') on a source-pivot parallel corpus. Experimental results show that
+the proposed method significantly improves over a baseline pivot-based model by
++3.0 BLEU points across various language pairs.
+Author{1}{Firstname}#=%=#Yun
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#yun.chencreek@gmail.com
+Author{1}{Affiliation}#=%=#The University of Hong Kong
+Author{2}{Firstname}#=%=#Yang
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#liuyang2011@tsinghua.edu.cn
+Author{2}{Affiliation}#=%=#Tsinghua University
+Author{3}{Firstname}#=%=#Yong
+Author{3}{Lastname}#=%=#Cheng
+Author{3}{Email}#=%=#chengyong3001@gmail.com
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#Victor O.K.
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#vli@eee.hku.hk
+Author{4}{Affiliation}#=%=#The University of Hong Kong
+
+==========

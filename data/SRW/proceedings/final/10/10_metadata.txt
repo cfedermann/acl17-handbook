@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#nQuery - A Natural Language Statement to SQL Query Generator
+ShortPaperTitle#=%=#nQuery - A Natural Language Statement to SQL Query Generator
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Nandan Sukthankar
+JobTitle#==#
+Organization#==#College of Engineering Pune
+Wellesley Road, Shivajinagar, Pune - 411 005, Maharashtra, India
+Abstract#==#In this research, an intelligent system is designed between the user and the
+database system which accepts natural language input and then converts it into
+an SQL query. The research focuses on incorporating complex queries along with
+simple queries irrespective of the database. The system accommodates aggregate
+functions, multiple conditions in WHERE clause, advanced clauses like ORDER BY,
+GROUP BY and HAVING. The system handles single sentence natural language
+inputs, which are with respect to selected database. The research currently
+concentrates on MySQL database system. The natural language statement goes
+through various stages of Natural Language Processing like morphological,
+lexical, syntactic and semantic analysis resulting in SQL query formation.
+Author{1}{Firstname}#=%=#Nandan
+Author{1}{Lastname}#=%=#Sukthankar
+Author{1}{Email}#=%=#nandans16@gmail.com
+Author{1}{Affiliation}#=%=#College of Engineering, Pune, India
+Author{2}{Firstname}#=%=#Sanket
+Author{2}{Lastname}#=%=#Maharnawar
+Author{2}{Email}#=%=#sanketmaharnawar@gmail.com
+Author{2}{Affiliation}#=%=#College of Engineering, Pune
+Author{3}{Firstname}#=%=#Pranay
+Author{3}{Lastname}#=%=#Deshmukh
+Author{3}{Email}#=%=#pranay.s.deshmukh@gmail.com
+Author{3}{Affiliation}#=%=#College of Engineering Pune
+Author{4}{Firstname}#=%=#Yashodhara
+Author{4}{Lastname}#=%=#Haribhakta
+Author{4}{Email}#=%=#ybl.comp@coep.ac.in
+Author{4}{Affiliation}#=%=#College of Engineering Pune
+Author{5}{Firstname}#=%=#Vibhavari
+Author{5}{Lastname}#=%=#Kamble
+Author{5}{Email}#=%=#vvk.comp@coep.ac.in
+Author{5}{Affiliation}#=%=#College of Engineering Pune
+
+==========

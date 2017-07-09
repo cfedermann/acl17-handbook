@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#336
+FinalPaperTitle#=%=#Neural Joint Model for Transition-based Chinese Syntactic Analysis
+ShortPaperTitle#=%=#Neural Joint Model for Transition-based Chinese Syntactic Analysis
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Shuhei Kurita
+JobTitle#==#
+Organization#==#Kyoto University
+Abstract#==#We present neural network-based joint models for Chinese word segmentation, POS
+tagging and dependency parsing. Our models are the first neural approaches for
+fully joint Chinese analysis that is known to prevent the error propagation
+problem of pipeline models. Although word embeddings play a key role in
+dependency parsing, they cannot be applied directly to the joint task in the
+previous work. To address this problem, we propose embeddings of character
+strings, in addition to words. Experiments show that our models outperform
+existing systems in Chinese word segmentation and POS tagging, and perform
+preferable accuracies in dependency parsing. We also explore bi-LSTM models
+with fewer features.
+Author{1}{Firstname}#=%=#Shuhei
+Author{1}{Lastname}#=%=#Kurita
+Author{1}{Email}#=%=#kurita@nlp.ist.i.kyoto-u.ac.jp
+Author{1}{Affiliation}#=%=#Kyoto University
+Author{2}{Firstname}#=%=#Daisuke
+Author{2}{Lastname}#=%=#Kawahara
+Author{2}{Email}#=%=#dk@i.kyoto-u.ac.jp
+Author{2}{Affiliation}#=%=#Kyoto University
+Author{3}{Firstname}#=%=#Sadao
+Author{3}{Lastname}#=%=#Kurohashi
+Author{3}{Email}#=%=#kuro@i.kyoto-u.ac.jp
+Author{3}{Affiliation}#=%=#Kyoto University
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Scattertext: a Browser-Based Tool for Visualizing how Corpora Differ
+ShortPaperTitle#=%=#Scattertext: a Browser-Based Tool for Visualizing how Corpora Differ
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jason Kessler
+JobTitle#==#
+Organization#==#Jason Kessler
+CDK Global
+605 5th Ave S #800
+Seattle, WA 98104
+Abstract#==#Scattertext is an open source tool for visualizing linguistic variation between
+document categories in a language-independent way. The tool presents a
+scatterplot, where each axis corresponds to the rank-frequency a term occurs in
+a category of documents.  Through a tie-breaking strategy, the tool is able to
+display thousands of visible term-representing points and find space to legibly
+label hundreds of them.   Scattertext also lends itself to a query-based
+visualization of how the use of terms with similar embeddings differs between
+document categories, as well as a visualization for comparing the importance
+scores of bag-of-words features to univariate metrics.
+Author{1}{Firstname}#=%=#Jason
+Author{1}{Lastname}#=%=#Kessler
+Author{1}{Email}#=%=#jason.kessler@gmail.com
+Author{1}{Affiliation}#=%=#CDK Global
+
+==========

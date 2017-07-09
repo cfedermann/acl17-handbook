@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#3039
+FinalPaperTitle#=%=#Salience Rank: Efficient Keyphrase Extraction with Topic Modeling
+ShortPaperTitle#=%=#Salience Rank: Efficient Keyphrase Extraction with Topic Modeling
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Weiwei Cheng
+JobTitle#==#
+Organization#==#Weiwei Cheng, c/o Amazon Development Center Germany, Krausenstr. 38, 10117 Berlin, Germany
+Abstract#==#Topical PageRank (TPR) uses latent topic distribution inferred by Latent
+Dirichlet Allocation (LDA) to perform ranking of noun phrases extracted from
+documents. The ranking procedure consists of running PageRank K times, where K
+is the number of topics used in the LDA model. In this paper, we propose a
+modification of TPR, called Salience Rank. Salience Rank only needs to run
+PageRank once and extracts comparable or better keyphrases on benchmark
+datasets. In addition to quality and efficiency benefit, our method has the
+flexibility to extract keyphrases with varying tradeoffs between topic
+specificity and corpus specificity.
+Author{1}{Firstname}#=%=#Nedelina
+Author{1}{Lastname}#=%=#Teneva
+Author{1}{Email}#=%=#nteneva@uchicago.edu
+Author{1}{Affiliation}#=%=#The University of Chicago
+Author{2}{Firstname}#=%=#Weiwei
+Author{2}{Lastname}#=%=#Cheng
+Author{2}{Email}#=%=#roywwcheng@gmail.com
+Author{2}{Affiliation}#=%=#Amazon
+
+==========

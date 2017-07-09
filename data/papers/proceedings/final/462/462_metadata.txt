@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#462
+FinalPaperTitle#=%=#Volatility Prediction using Financial Disclosures Sentiments with Word Embedding-based IR Models
+ShortPaperTitle#=%=#Volatility Prediction using Financial Disclosures Sentiments with Word Embedding-based IR Models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Navid Rekabsaz
+JobTitle#==#
+Organization#==#
+Abstract#==#Volatility prediction—an essential concept in financial markets—has
+recently been addressed using sentiment analysis methods. We investigate the
+sentiment of annual disclosures of companies in stock markets to forecast
+volatility. We specifically explore the use of recent Information Retrieval
+(IR) term weighting models that are effectively extended by related terms using
+word embeddings. In parallel to textual information, factual market data have
+been widely used as the mainstream approach to forecast market risk. We
+therefore study different fusion methods to combine text and market data
+resources. Our word embedding-based approach significantly outperforms
+state-of-the-art methods. In addition, we investigate the characteristics of
+the reports of the companies in different financial sectors.
+Author{1}{Firstname}#=%=#Navid
+Author{1}{Lastname}#=%=#Rekabsaz
+Author{1}{Email}#=%=#rekabsaz@ifs.tuwien.ac.at
+Author{1}{Affiliation}#=%=#TU WIEN
+Author{2}{Firstname}#=%=#Mihai
+Author{2}{Lastname}#=%=#Lupu
+Author{2}{Email}#=%=#lupu@ifs.tuwien.ac.at
+Author{2}{Affiliation}#=%=#Vienna University of Technology
+Author{3}{Firstname}#=%=#Artem
+Author{3}{Lastname}#=%=#Baklanov
+Author{3}{Email}#=%=#baklanov@iiasa.ac.at
+Author{3}{Affiliation}#=%=#International Institute for Applied Systems Analysis (IIASA)
+Author{4}{Firstname}#=%=#Alexander
+Author{4}{Lastname}#=%=#Dür
+Author{4}{Email}#=%=#alexander.duer@tuwien.ac.at
+Author{4}{Affiliation}#=%=#TU WIEN
+Author{5}{Firstname}#=%=#Linda
+Author{5}{Lastname}#=%=#Andersson
+Author{5}{Email}#=%=#andersson@ifs.tuwien.ac.at
+Author{5}{Affiliation}#=%=#Vienna University of Technology
+Author{6}{Firstname}#=%=#Allan
+Author{6}{Lastname}#=%=#Hanbury
+Author{6}{Email}#=%=#hanbury@ifs.tuwien.ac.at
+Author{6}{Affiliation}#=%=#TU Wien
+
+==========

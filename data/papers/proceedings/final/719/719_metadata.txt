@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#719
+FinalPaperTitle#=%=#Can Syntax Help? Improving an LSTM-based Sentence Compression Model for New Domains
+ShortPaperTitle#=%=#Can Syntax Help? Improving an LSTM-based Sentence Compression Model for New Domains
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#wangliangguo
+JobTitle#==#
+Organization#==#School of Computer Science and Technology, Beijing Institute of Technology, Beijing, China
+Abstract#==#In this paper, we study how to improve the
+domain adaptability of a deletion-based
+Long Short-Term Memory (LSTM) neural network model for sentence compression. We
+hypothesize that syntactic information helps in making such models
+more robust across domains. We propose two major changes to the model: using
+explicit syntactic features and introducing syntactic constraints through
+Integer Linear Programming (ILP). Our evaluation
+shows that the proposed model works better than the original model as well as a
+traditional non-neural-network-based model
+in a cross-domain setting.
+Author{1}{Firstname}#=%=#Liangguo
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#chenwangliangguo@bit.edu.cn
+Author{1}{Affiliation}#=%=#Beijing Institute of Technology
+Author{2}{Firstname}#=%=#Jing
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Email}#=%=#jingjiang@smu.edu.sg
+Author{2}{Affiliation}#=%=#Singapore Management University
+Author{3}{Firstname}#=%=#Hai Leong
+Author{3}{Lastname}#=%=#Chieu
+Author{3}{Email}#=%=#chaileon@dso.org.sg
+Author{3}{Affiliation}#=%=#DSO National Laboratories
+Author{4}{Firstname}#=%=#Chen Hui
+Author{4}{Lastname}#=%=#Ong
+Author{4}{Email}#=%=#ochenhui@dso.org.sg
+Author{4}{Affiliation}#=%=#DSO National Laboratories
+Author{5}{Firstname}#=%=#Dandan
+Author{5}{Lastname}#=%=#Song
+Author{5}{Email}#=%=#sdd@bit.edu.cn
+Author{5}{Affiliation}#=%=#Beijing Institute of Technology
+Author{6}{Firstname}#=%=#Lejian
+Author{6}{Lastname}#=%=#Liao
+Author{6}{Email}#=%=#liaolj@bit.edu.cn
+Author{6}{Affiliation}#=%=#Beijing Institute of Technology
+
+==========

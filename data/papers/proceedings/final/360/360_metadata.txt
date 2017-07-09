@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#360
+FinalPaperTitle#=%=#Discourse Mode Identification in Essays
+ShortPaperTitle#=%=#Discourse Mode Identification in Essays
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Wei Song
+JobTitle#==#
+Organization#==#
+Abstract#==#Discourse modes play an important role in writing composition and evaluation.
+This paper presents a study on the manual and automatic identification of
+narration,exposition, description, argument and emotion expressing sentences in
+narrative essays. We annotate a corpus to study the characteristics of
+discourse modes
+and describe a neural sequence labeling model for identification. Evaluation
+results show that discourse modes can be identified automatically with an
+average F1-score of 0.7. We further demonstrate that discourse modes can be
+used as features that improve automatic essay scoring (AES). The impacts of
+discourse modes for AES are also discussed.
+Author{1}{Firstname}#=%=#Wei
+Author{1}{Lastname}#=%=#Song
+Author{1}{Email}#=%=#wsong@cnu.edu.cn
+Author{1}{Affiliation}#=%=#Capital Normal University
+Author{2}{Firstname}#=%=#Dong
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#dongwang4@iflytek.com
+Author{2}{Affiliation}#=%=#iFlytek Research
+Author{3}{Firstname}#=%=#Ruiji
+Author{3}{Lastname}#=%=#Fu
+Author{3}{Email}#=%=#rjfu@iflytek.com
+Author{3}{Affiliation}#=%=#iFlytek Research
+Author{4}{Firstname}#=%=#Lizhen
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#lzliu@cnu.edu.cn
+Author{4}{Affiliation}#=%=#Capital Normal University
+Author{5}{Firstname}#=%=#Ting
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Email}#=%=#tliu@ir.hit.edu.cn
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology
+Author{6}{Firstname}#=%=#Guoping
+Author{6}{Lastname}#=%=#Hu
+Author{6}{Email}#=%=#gphu@iflytek.com
+Author{6}{Affiliation}#=%=#iFlytek Research
+
+==========

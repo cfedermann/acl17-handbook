@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#3312
+FinalPaperTitle#=%=#Best-Worst Scaling More Reliable than Rating Scales: A Case Study on Sentiment Intensity Annotation
+ShortPaperTitle#=%=#Best-Worst Scaling More Reliable than Rating Scales: A Case Study on Sentiment Intensity Annotation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#
+Abstract#==#Rating scales are a widely used method for data annotation; however, they
+present several challenges, such as difficulty in maintaining inter- and
+intra-annotator consistency. Best–worst scaling (BWS) is an alternative
+method of annotation that is claimed to produce high-quality annotations while
+keeping the required number of annotations similar to that of rating scales.
+However, the veracity of this claim has never been systematically established.
+Here for the first time, we set up an experiment that directly compares the
+rating scale method with BWS. We show that with the same total number of
+annotations, BWS produces significantly more reliable results than the rating
+scale.
+Author{1}{Firstname}#=%=#Svetlana
+Author{1}{Lastname}#=%=#Kiritchenko
+Author{1}{Email}#=%=#svetlana.kiritchenko@nrc-cnrc.gc.ca
+Author{1}{Affiliation}#=%=#NRC
+Author{2}{Firstname}#=%=#Saif
+Author{2}{Lastname}#=%=#Mohammad
+Author{2}{Email}#=%=#saif.mohammad@nrc-cnrc.gc.ca
+Author{2}{Affiliation}#=%=#NRC
+
+==========

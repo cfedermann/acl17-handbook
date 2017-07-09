@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#732
+FinalPaperTitle#=%=#Probabilistic Typology: Deep Generative Models of Vowel Inventories
+ShortPaperTitle#=%=#Probabilistic Typology: Deep Generative Models of Vowel Inventories
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jason Eisner
+JobTitle#==#
+Organization#==#
+Abstract#==#Linguistic typology studies the range of structures present in human language.
+The main goal of the field is to discover which sets of possible phenomena are
+universal, and which are merely frequent. For example, all languages have
+vowels, while most---but not all---languages have an /u/ sound. In this paper
+we present the first probabilistic treatment of a basic question in
+phonological typology: What makes a natural vowel inventory?  We introduce a
+series of deep stochastic point processes, and contrast them with previous
+computational, simulation-based approaches.  We provide a comprehensive suite
+of experiments on over 200 distinct languages.
+Author{1}{Firstname}#=%=#Ryan
+Author{1}{Lastname}#=%=#Cotterell
+Author{1}{Email}#=%=#ryan.cotterell@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Jason
+Author{2}{Lastname}#=%=#Eisner
+Author{2}{Email}#=%=#jason@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+
+==========

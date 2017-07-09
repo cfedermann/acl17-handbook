@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Exploring Diachronic Lexical Semantics with JeSemE
+ShortPaperTitle#=%=#Exploring Diachronic Lexical Semantics with JeSemE
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Johannes Hellrich
+JobTitle#==#
+Organization#==#DFG-Graduiertenkolleg Modell Romantik
+Friedrich Schiller-Universität Jena
+Bachstraße 18k
+07743 Jena
+Abstract#==#Recent advances in distributional semantics combined with the availability of
+large-scale diachronic corpora offer new research avenues for the Digital
+Humanities. JeSemE, the Jena Semantic Explorer, renders assistance to a
+non-technical audience to investigate diachronic semantic topics. JeSemE runs
+as a website with query options and interactive visualizations of results, as
+well as a REST API for access to the underlying diachronic data sets.
+Author{1}{Firstname}#=%=#Johannes
+Author{1}{Lastname}#=%=#Hellrich
+Author{1}{Email}#=%=#johannes.hellrich@uni-jena.de
+Author{1}{Affiliation}#=%=#Research Training Group “The Romantic Model", Friedrich Schiller Universität Jena
+Author{2}{Firstname}#=%=#Udo
+Author{2}{Lastname}#=%=#Hahn
+Author{2}{Email}#=%=#udo.hahn@uni-jena.de
+Author{2}{Affiliation}#=%=#Friedrich-Schiller-Universität Jena
+
+==========

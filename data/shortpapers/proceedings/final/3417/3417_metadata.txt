@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3417
+FinalPaperTitle#=%=#A Neural Model for User Geolocation and Lexical Dialectology
+ShortPaperTitle#=%=#A Neural Model for User Geolocation and Lexical Dialectology
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Afshin Rahimi
+JobTitle#==#
+Organization#==#The University of Melbourne, Parkville 3000, Melbourne, Australia
+Abstract#==#We propose a simple yet effective text-based user geolocation model based on a
+neural network with one hidden layer, which achieves state of the art
+performance over three Twitter benchmark geolocation datasets, in addition to
+producing word                                and phrase embeddings in the hidden
+layer
+that we
+show to
+be
+useful for detecting dialectal terms. As part of our analysis of dialectal
+terms, we release DAREDS, a dataset for evaluating dialect term detection
+methods.
+Author{1}{Firstname}#=%=#Afshin
+Author{1}{Lastname}#=%=#Rahimi
+Author{1}{Email}#=%=#afshinrahimi@gmail.com
+Author{1}{Affiliation}#=%=#The University of Melbourne
+Author{2}{Firstname}#=%=#Trevor
+Author{2}{Lastname}#=%=#Cohn
+Author{2}{Email}#=%=#tcohn@unimelb.edu.au
+Author{2}{Affiliation}#=%=#University of Melbourne
+Author{3}{Firstname}#=%=#Timothy
+Author{3}{Lastname}#=%=#Baldwin
+Author{3}{Email}#=%=#tb@ldwin.net
+Author{3}{Affiliation}#=%=#The University of Melbourne
+
+==========

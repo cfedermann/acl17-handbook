@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3214
+FinalPaperTitle#=%=#AMR-to-text Generation with Synchronous Node Replacement Grammar
+ShortPaperTitle#=%=#AMR-to-text Generation with Synchronous Node Replacement Grammar
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Linfeng Song
+JobTitle#==#
+Organization#==#Department of Computer Science, University of Rochester, Rochester, NY 14627
+Abstract#==#This paper addresses the task of AMR-to-text generation by leveraging
+synchronous
+node replacement grammar. During training, graph-to-string rules are learned
+using a heuristic extraction algorithm. At test time, a graph transducer is
+applied to collapse input AMRs and generate output sentences. Evaluated on a
+standard benchmark, our method gives the state-of-the-art result.
+Author{1}{Firstname}#=%=#Linfeng
+Author{1}{Lastname}#=%=#Song
+Author{1}{Email}#=%=#freesunshine0316@gmail.com
+Author{1}{Affiliation}#=%=#University of Rochester
+Author{2}{Firstname}#=%=#Xiaochang
+Author{2}{Lastname}#=%=#Peng
+Author{2}{Email}#=%=#pxc.pku@gmail.com
+Author{2}{Affiliation}#=%=#University of Rochester
+Author{3}{Firstname}#=%=#Yue
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{3}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{4}{Firstname}#=%=#Zhiguo
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#zgw.tomorrow@gmail.com
+Author{4}{Affiliation}#=%=#IBM Watson Research Center
+Author{5}{Firstname}#=%=#Daniel
+Author{5}{Lastname}#=%=#Gildea
+Author{5}{Email}#=%=#gildea@cs.rochester.edu
+Author{5}{Affiliation}#=%=#University of Rochester
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#366
+FinalPaperTitle#=%=#Argument Mining with Structured SVMs and RNNs
+ShortPaperTitle#=%=#Argument Mining with Structured SVMs and RNNs
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Vlad Niculae
+JobTitle#==#
+Organization#==#Cornell University
+Department of Computer Science
+Ithaca, NY 14853-7501
+Abstract#==#We propose a novel factor graph model for argument mining, designed for
+settings in which the argumentative relations in a document do not necessarily
+form a tree structure. (This is the case in over 20% of the web comments
+dataset we release.) Our model jointly learns elementary unit type
+classification and argumentative relation prediction. Moreover, our model
+supports SVM and RNN parametrizations, can enforce structure constraints (e.g.,
+transitivity), and can express dependencies between adjacent relations and
+propositions. Our approaches outperform unstructured baselines in both web
+comments and argumentative essay datasets.
+Author{1}{Firstname}#=%=#Vlad
+Author{1}{Lastname}#=%=#Niculae
+Author{1}{Email}#=%=#vlad@cs.cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Joonsuk
+Author{2}{Lastname}#=%=#Park
+Author{2}{Email}#=%=#jpark@cs.williams.edu
+Author{2}{Affiliation}#=%=#Williams College
+Author{3}{Firstname}#=%=#Claire
+Author{3}{Lastname}#=%=#Cardie
+Author{3}{Email}#=%=#cardie@cs.cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+
+==========

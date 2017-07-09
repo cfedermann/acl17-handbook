@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#658
+FinalPaperTitle#=%=#Context Sensitive Lemmatization Using Two Successive Bidirectional Gated Recurrent Networks
+ShortPaperTitle#=%=#Context Sensitive Lemmatization Using Two Successive Bidirectional Gated Recurrent Networks
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Abhisek Chakrabarty
+JobTitle#==#
+Organization#==#Indian Statistical Institute, 203 B.T. Road, Kolkata 700108, India
+Abstract#==#We introduce a composite deep neural network architecture for supervised and
+language independent context sensitive lemmatization. The proposed method
+considers the task as to identify the correct edit tree representing the
+transformation between a word-lemma pair. To find the lemma of a surface word,
+we exploit two successive bidirectional gated recurrent structures - the first
+one is used to extract the character level dependencies and the next one
+captures the contextual information of the given word. The key advantages of
+our model compared to the state-of-the-art lemmatizers such as Lemming and
+Morfette are - (i) it is independent of human decided features (ii) except the
+gold lemma, no other expensive morphological attribute is required for joint
+learning. We evaluate the lemmatizer on nine languages - Bengali, Catalan,
+Dutch, Hindi, Hungarian, Italian, Latin, Romanian and Spanish. It is found that
+except Bengali, the proposed method outperforms Lemming and Morfette on the
+other languages. To train the model on Bengali, we develop a gold lemma
+annotated dataset (having 1,702 sentences with a total of 20,257 word tokens),
+which is an additional contribution of this work.
+Author{1}{Firstname}#=%=#Abhisek
+Author{1}{Lastname}#=%=#Chakrabarty
+Author{1}{Email}#=%=#abhisek0842@gmail.com
+Author{1}{Affiliation}#=%=#Indian Statistical Institute, Kolkata
+Author{2}{Firstname}#=%=#Onkar Arun
+Author{2}{Lastname}#=%=#Pandit
+Author{2}{Email}#=%=#oapandit@gmail.com
+Author{2}{Affiliation}#=%=#Indian Statistical Institute, Kolkata
+Author{3}{Firstname}#=%=#Utpal
+Author{3}{Lastname}#=%=#Garain
+Author{3}{Email}#=%=#utpal.garain@gmail.com
+Author{3}{Affiliation}#=%=#Indian Statistical Institute
+
+==========

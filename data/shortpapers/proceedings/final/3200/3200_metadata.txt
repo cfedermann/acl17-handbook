@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3200
+FinalPaperTitle#=%=#A Generative Attentional Neural Network Model for Dialogue Act Classification
+ShortPaperTitle#=%=#A Generative Attentional Neural Network Model for Dialogue Act Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Quan Hung Tran
+JobTitle#==#
+Organization#==#Monash University, 1-131 Wellington Road, Clayton VIC 3800, Australia.
+Abstract#==#We propose a novel generative neural network architecture for Dialogue Act
+classification. Building upon the Recurrent Neural Network framework, our model
+incorporates a novel attentional technique and a label to label connection for
+sequence learning, akin to Hidden Markov Models. The experiments show that both
+of these innovations lead  our model to outperform strong baselines for
+dialogue act classification on MapTask and Switchboard corpora. We further
+empirically analyse the effectiveness of each of the new innovations.
+Author{1}{Firstname}#=%=#Quan Hung
+Author{1}{Lastname}#=%=#Tran
+Author{1}{Email}#=%=#quanthdhcn@gmail.com
+Author{1}{Affiliation}#=%=#Monash University
+Author{2}{Firstname}#=%=#Gholamreza
+Author{2}{Lastname}#=%=#Haffari
+Author{2}{Email}#=%=#reza.haffari@gmail.com
+Author{2}{Affiliation}#=%=#Monash University
+Author{3}{Firstname}#=%=#Ingrid
+Author{3}{Lastname}#=%=#Zukerman
+Author{3}{Email}#=%=#Ingrid.Zukerman@monash.edu
+Author{3}{Affiliation}#=%=#Monash University
+
+==========

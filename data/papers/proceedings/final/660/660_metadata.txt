@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#660
+FinalPaperTitle#=%=#Automatically Generating Rhythmic Verse with Neural Networks
+ShortPaperTitle#=%=#Automatically Generating Rhythmic Verse with Neural Networks
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#DOUWE KIELA
+JobTitle#==#
+Organization#==#
+Abstract#==#We propose two novel methodologies for the automatic generation of rhythmic
+poetry in a variety of forms. The first approach uses a neural language model
+trained on a phonetic encoding to learn an implicit representation of both the
+form and content of English poetry. This model can effectively learn common
+poetic devices such as rhyme, rhythm and alliteration. The second approach
+considers poetry generation as a constraint satisfaction problem where a
+generative neural language model is tasked with learning a representation of
+content, and a discriminative weighted finite state machine constrains it on
+the basis of form. By manipulating the constraints of the latter model, we can
+generate coherent poetry with arbitrary forms and themes. A large-scale
+extrinsic evaluation demonstrated that participants consider machine-generated
+poems to be written by humans 54% of the time. In addition, participants rated
+a machine-generated poem to be the best amongst all evaluated.
+Author{1}{Firstname}#=%=#Jack
+Author{1}{Lastname}#=%=#Hopkins
+Author{1}{Email}#=%=#jack.hopkins@me.com
+Author{1}{Affiliation}#=%=#Cambridge University
+Author{2}{Firstname}#=%=#Douwe
+Author{2}{Lastname}#=%=#Kiela
+Author{2}{Email}#=%=#douwe.kiela@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#Facebook
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#794
+FinalPaperTitle#=%=#Domain Attention with an Ensemble of Experts
+ShortPaperTitle#=%=#Domain Attention with an Ensemble of Experts
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#An important problem in domain adaptation is to quickly generalize to a new
+domain with limited supervision given K existing domains. One approach is to
+retrain a global model across all K + 1 domains using standard techniques, for
+instance Daum´e III (2009). However, it is desirable to adapt without having
+to re-estimate a global model from scratch each time a new domain with
+potentially new intents and slots is added. We describe a solution based on
+attending an ensemble of domain experts. We assume K domain specific intent and
+slot models trained on respective domains. When given domain K + 1, our model
+uses a weighted combination of the K domain experts’ feedback along with its
+own opinion to make predictions on the new domain. In experiments,
+the model significantly outperforms baselines that do not use domain adaptation
+and also performs better than the full retraining approach.
+Author{1}{Firstname}#=%=#Young-Bum
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#stylebbum@gmail.com
+Author{1}{Affiliation}#=%=#Microsoft
+Author{2}{Firstname}#=%=#Karl
+Author{2}{Lastname}#=%=#Stratos
+Author{2}{Email}#=%=#me@karlstratos.com
+Author{2}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{3}{Firstname}#=%=#Dongchan
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#dongchan.kim@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft AI and Research
+
+==========

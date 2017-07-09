@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#3083
+FinalPaperTitle#=%=#Speeding Up Neural Machine Translation Decoding by Shrinking Run-time Vocabulary
+ShortPaperTitle#=%=#Speeding Up Neural Machine Translation Decoding by Shrinking Run-time Vocabulary
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Xing Shi
+JobTitle#==#
+Organization#==#Information Sciences Institute
+4676 Admiralty Way #1001, Marina Del Rey, CA 90292
+Abstract#==#We speed up Neural Machine Translation (NMT) decoding by shrinking run-time
+target vocabulary. We experiment with two shrinking approaches: Locality
+Sensitive Hashing (LSH) and word alignments. Using the latter method, we get a
+2x overall speed-up over a highly-optimized GPU implementation, without hurting
+BLEU. On certain low-resource language pairs, the same methods improve BLEU by
+0.5 points. We also report a negative result for LSH on GPUs, due to relatively
+large overhead, though it was successful on CPUs. Compared with Locality
+Sensitive Hashing (LSH), decoding with word alignments is GPU-friendly,
+orthogonal to existing speedup methods and more robust across language pairs.
+Author{1}{Firstname}#=%=#Xing
+Author{1}{Lastname}#=%=#Shi
+Author{1}{Email}#=%=#xingshi@usc.edu
+Author{1}{Affiliation}#=%=#University of Southern California
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#Knight
+Author{2}{Email}#=%=#knight@isi.edu
+Author{2}{Affiliation}#=%=#USC/ISI
+
+==========

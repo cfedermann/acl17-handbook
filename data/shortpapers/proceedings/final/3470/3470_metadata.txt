@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3470
+FinalPaperTitle#=%=#Differentiable Scheduled Sampling for Credit Assignment
+ShortPaperTitle#=%=#Differentiable Scheduled Sampling for Credit Assignment
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kartik Goyal
+JobTitle#==#
+Organization#==#Carnegie Mellon University, Pittsburgh, PA -15213, USA
+Abstract#==#We demonstrate that a continuous relaxation of the argmax operation can be used
+to create a differentiable approximation to greedy decoding in
+sequence-to-sequence (seq2seq) models. By incorporating this approximation into
+the scheduled sampling training procedure--a well-known technique for
+correcting exposure bias--we introduce a new training objective that is
+continuous and differentiable everywhere and can provide informative gradients
+near points where previous decoding decisions change their value. By using a
+related approximation, we also demonstrate  a similar approach to sampled-based
+training. We show that our approach outperforms both standard cross-entropy
+training and scheduled sampling procedures in two sequence prediction tasks:
+named entity recognition and machine translation.
+Author{1}{Firstname}#=%=#Kartik
+Author{1}{Lastname}#=%=#Goyal
+Author{1}{Email}#=%=#kartik.g.2789@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Dyer
+Author{2}{Email}#=%=#cdyer@google.com
+Author{2}{Affiliation}#=%=#Google DeepMind
+Author{3}{Firstname}#=%=#Taylor
+Author{3}{Lastname}#=%=#Berg-Kirkpatrick
+Author{3}{Email}#=%=#tberg@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

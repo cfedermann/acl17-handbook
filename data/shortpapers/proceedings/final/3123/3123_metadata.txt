@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#3123
+FinalPaperTitle#=%=#Evaluating Compound Splitters Extrinsically with Textual Entailment
+ShortPaperTitle#=%=#Evaluating Compound Splitters Extrinsically with Textual Entailment
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Glorianna Jagfeld
+JobTitle#==#
+Organization#==#Institute for Natural Language Processing
+Universität Stuttgart
+Pfaffenwaldring 5b
+70569 Stuttgart
+Abstract#==#Traditionally, compound splitters are evaluated intrinsically on gold-standard
+data or extrinsically on the task of statistical machine translation. We
+explore a novel way for the extrinsic evaluation of compound splitters, namely
+recognizing textual entailment. Compound splitting has great potential for this
+novel task that is both transparent and well-defined. Moreover, we show that it
+addresses certain aspects that are either ignored in intrinsic evaluations or
+compensated for by taskinternal mechanisms in statistical machine translation.
+We show significant improvements using different compound splitting methods on
+a German textual entailment dataset.
+Author{1}{Firstname}#=%=#Glorianna
+Author{1}{Lastname}#=%=#Jagfeld
+Author{1}{Email}#=%=#glorianna.jagfeld@gmail.com
+Author{1}{Affiliation}#=%=#Institute for Natural Language Processing, University of Stuttgart
+Author{2}{Firstname}#=%=#Patrick
+Author{2}{Lastname}#=%=#Ziering
+Author{2}{Email}#=%=#patrick.ziering@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#Institute for Natural Language Processing, University of Stuttgart
+Author{3}{Firstname}#=%=#Lonneke
+Author{3}{Lastname}#=%=#van der Plas
+Author{3}{Email}#=%=#lonneke.vanderplas@um.edu.mt
+Author{3}{Affiliation}#=%=#University of Malta
+
+==========

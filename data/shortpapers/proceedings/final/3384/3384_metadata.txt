@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3384
+FinalPaperTitle#=%=#Improving Native Language Identification by Using Spelling Errors
+ShortPaperTitle#=%=#Improving Native Language Identification by Using Spelling Errors
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Lingzhen Chen
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we explore spelling errors as a source of information for
+detecting the native language of a writer, a previously under-explored area.
+ We note that character n-grams from misspelled words are very indicative of
+the native language of the author. In combination with other lexical features,
+spelling error features lead to 1.2\% improvement in accuracy on classifying
+texts in the TOEFL11 corpus by the author's native language, compared to
+systems participating in the NLI shared task.
+Author{1}{Firstname}#=%=#Lingzhen
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#lzchen.cs@gmail.com
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{2}{Firstname}#=%=#Carlo
+Author{2}{Lastname}#=%=#Strapparava
+Author{2}{Email}#=%=#strappa@fbk.eu
+Author{2}{Affiliation}#=%=#FBK-irst
+Author{3}{Firstname}#=%=#Vivi
+Author{3}{Lastname}#=%=#Nastase
+Author{3}{Email}#=%=#vivi.a.nastase@gmail.com
+Author{3}{Affiliation}#=%=#University of Heidelberg
+
+==========

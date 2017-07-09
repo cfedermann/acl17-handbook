@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#3085
+FinalPaperTitle#=%=#Fast and Accurate Neural Word Segmentation for Chinese
+ShortPaperTitle#=%=#Fast and Accurate Neural Word Segmentation for Chinese
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Deng Cai
+JobTitle#==#
+Organization#==#Shanghai Jiao Tong University, Shanghai, China
+Abstract#==#Neural models with minimal feature engineering have achieved competitive
+performance against traditional methods for the task of Chinese word
+segmentation. However, both training and working procedures of the current
+neural models are computationally inefficient. In this paper, we propose a
+greedy neural word segmenter with balanced word and character embedding inputs
+to alleviate the existing drawbacks. Our segmenter is truly end-to-end, capable
+of performing segmentation much faster and even more accurate than
+state-of-the-art neural models on Chinese benchmark datasets.
+Author{1}{Firstname}#=%=#Deng
+Author{1}{Lastname}#=%=#Cai
+Author{1}{Email}#=%=#thisisjcykcd@gmail.com
+Author{1}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{2}{Firstname}#=%=#Hai
+Author{2}{Lastname}#=%=#Zhao
+Author{2}{Email}#=%=#zhaohai@cs.sjtu.edu.cn
+Author{2}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{3}{Firstname}#=%=#Zhisong
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#zzs2011@sjtu.edu.cn
+Author{3}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{4}{Firstname}#=%=#Yuan
+Author{4}{Lastname}#=%=#Xin
+Author{4}{Email}#=%=#macxin@tencent.com
+Author{4}{Affiliation}#=%=#Tencent Youtu Lab
+Author{5}{Firstname}#=%=#Yongjian
+Author{5}{Lastname}#=%=#Wu
+Author{5}{Email}#=%=#littlekenwu@tencent.com
+Author{5}{Affiliation}#=%=#Tencent Youtu Lab
+Author{6}{Firstname}#=%=#Feiyue
+Author{6}{Lastname}#=%=#Huang
+Author{6}{Email}#=%=#garyhuang@tencent.com
+Author{6}{Affiliation}#=%=#Tencent Youtu Lab
+
+==========

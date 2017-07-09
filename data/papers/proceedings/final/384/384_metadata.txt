@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#384
+FinalPaperTitle#=%=#Identifying 1950s American Jazz Musicians: Fine-Grained IsA Extraction via Modifier Composition
+ShortPaperTitle#=%=#Identifying 1950s American Jazz Musicians: Fine-Grained IsA Extraction via Modifier Composition
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Marius Pasca
+JobTitle#==#
+Organization#==#Google Inc.,
+1600 Amphitheatre Parkway,
+Mountain View, CA 94043
+Abstract#==#We present a method for populating fine-grained classes (e.g., “1950s
+American jazz musicians”) with instances (e.g., Charles Mingus ). While
+state-of-the-art methods tend to treat class labels as single lexical units,
+the proposed method considers each of the individual modifiers in the class
+label relative to the head. An evaluation on the task of reconstructing
+Wikipedia category pages demonstrates a >10 point increase in AUC, over a
+strong baseline relying on widely-used Hearst patterns.
+Author{1}{Firstname}#=%=#Ellie
+Author{1}{Lastname}#=%=#Pavlick
+Author{1}{Email}#=%=#elliepavlick@gmail.com
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Marius
+Author{2}{Lastname}#=%=#Pasca
+Author{2}{Email}#=%=#mars@google.com
+Author{2}{Affiliation}#=%=#Google Inc.
+
+==========

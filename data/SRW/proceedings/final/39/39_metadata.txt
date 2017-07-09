@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#SoccEval: An Annotation Schema for Rating Soccer Players
+ShortPaperTitle#=%=#SoccEval: An Annotation Schema for Rating Soccer Players
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jose Ramirez
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes the SoccEval Annotation Project, an annotation schema
+designed to support machine-learning classification efforts to evaluate the
+performance of soccer players based on match reports taken from online news
+sources. In addition to factual information about player attributes and
+actions, the schema annotates subjective opinions about them. After explaining
+the annotation schema and annotation process, we describe a machine learning
+experiment. Classifiers trained on features derived from annotated data
+performed better than a baseline trained on unigram features. Initial results
+suggest that improvements can be made to the annotation scheme and guidelines
+as well as the amount of data annotated. We believe our schema could be
+potentially expanded to extract more information about soccer players and
+teams.
+Author{1}{Firstname}#=%=#Jose
+Author{1}{Lastname}#=%=#Ramirez
+Author{1}{Email}#=%=#jramirez@brandeis.edu
+Author{1}{Affiliation}#=%=#Brandeis University
+Author{2}{Firstname}#=%=#Matthew
+Author{2}{Lastname}#=%=#Garber
+Author{2}{Email}#=%=#mgarber@brandeis.edu
+Author{2}{Affiliation}#=%=#Brandeis University
+Author{3}{Firstname}#=%=#Xinhao
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#xinhao@brandeis.edu
+Author{3}{Affiliation}#=%=#Brandeis University
+
+==========

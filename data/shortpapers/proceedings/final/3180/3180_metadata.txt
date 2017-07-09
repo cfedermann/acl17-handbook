@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#3180
+FinalPaperTitle#=%=#Disfluency Detection using a Noisy Channel Model and a Deep Neural Language Model
+ShortPaperTitle#=%=#Disfluency Detection using a Noisy Channel Model and a Deep Neural Language Model
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Paria Jamshid Lou
+JobTitle#==#
+Organization#==#Macquarie University
+Sydney, Australia
+Abstract#==#This paper presents a model for disfluency detection in spontaneous speech
+transcripts called LSTM Noisy Channel Model. The model uses a Noisy Channel
+Model (NCM) to generate n-best candidate disfluency analyses and a Long
+Short-Term Memory (LSTM) language model to score the underlying fluent
+sentences of each analysis. The LSTM language model scores, along with other
+features, are used in a MaxEnt reranker to identify the most plausible
+analysis. We show that using an LSTM language model in the reranking process of
+noisy channel disfluency model improves the state-of-the-art in disfluency
+detection.
+Author{1}{Firstname}#=%=#Paria
+Author{1}{Lastname}#=%=#Jamshid Lou
+Author{1}{Email}#=%=#paria.jamshid-lou@hdr.mq.edu.au
+Author{1}{Affiliation}#=%=#Master of Research Student
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Johnson
+Author{2}{Email}#=%=#mark.johnson@mq.edu.au
+Author{2}{Affiliation}#=%=#Professor at Macquarie University
+
+==========

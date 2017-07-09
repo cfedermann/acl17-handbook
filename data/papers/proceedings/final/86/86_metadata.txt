@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#86
+FinalPaperTitle#=%=#A Syntactic Neural Model for General-Purpose Code Generation
+ShortPaperTitle#=%=#A Syntactic Neural Model for General-Purpose Code Generation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#YIN Pengcheng
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+Abstract#==#We consider the problem of parsing natural language descriptions into source
+code written in a general-purpose programming language like Python. Existing
+data-driven methods treat this problem as a language generation task without
+considering the underlying syntax of the target programming language. Informed
+by previous work in semantic parsing, in this paper we propose a novel neural
+architecture powered by a grammar model to explicitly capture the target syntax
+as prior knowledge. Experiments find this an effective way to scale up to
+generation of complex programs from natural language descriptions, achieving
+state-of-the-art results that well outperform previous code generation and
+semantic parsing approaches.
+Author{1}{Firstname}#=%=#Pengcheng
+Author{1}{Lastname}#=%=#Yin
+Author{1}{Email}#=%=#pcyin@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Graham
+Author{2}{Lastname}#=%=#Neubig
+Author{2}{Email}#=%=#gneubig@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

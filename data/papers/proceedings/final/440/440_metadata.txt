@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#440
+FinalPaperTitle#=%=#A* CCG Parsing with a Supertag and Dependency Factored Model
+ShortPaperTitle#=%=#A* CCG Parsing with a Supertag and Dependency Factored Model
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Masashi Yoshikawa
+JobTitle#==#
+Organization#==#Nara Institute of Science and Technology
+8916-5, Takayama, Ikoma, Nara, 630-0192, Japan
+Abstract#==#We propose a new A* CCG parsing model in which the probability of a tree is
+decomposed into factors of CCG categories and its syntactic dependencies both
+defined on bi-directional LSTMs. Our factored model allows the precomputation
+of all probabilities and runs very efficiently, while modeling sentence
+structures explicitly via dependencies. Our model achieves the state-of-the-art
+results on English and Japanese CCG parsing.
+Author{1}{Firstname}#=%=#Masashi
+Author{1}{Lastname}#=%=#Yoshikawa
+Author{1}{Email}#=%=#yoshikawa.masashi.yh8@is.naist.jp
+Author{1}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{2}{Firstname}#=%=#Hiroshi
+Author{2}{Lastname}#=%=#Noji
+Author{2}{Email}#=%=#noji@is.naist.jp
+Author{2}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{3}{Firstname}#=%=#Yuji
+Author{3}{Lastname}#=%=#Matsumoto
+Author{3}{Email}#=%=#matsu@is.naist.jp
+Author{3}{Affiliation}#=%=#Nara Institute of Science and Technology
+
+==========

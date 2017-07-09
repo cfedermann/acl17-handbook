@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#3510
+FinalPaperTitle#=%=#Exploring Neural Text Simplification Models
+ShortPaperTitle#=%=#Exploring Neural Text Simplification Models
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sergiu Nisioi
+JobTitle#==#
+Organization#==#University of Bucharest, Bulevardul Regina Elisabeta 4-12, București 030018, România
+Abstract#==#We present the first attempt at using sequence to sequence neural networks to
+model text simplification (TS). Unlike the previously proposed automated TS
+systems, our neural text simplification (NTS) systems are able to
+simultaneously perform lexical simplification and content reduction. An
+extensive human evaluation of the output has shown that NTS systems achieve
+almost perfect                          grammaticality and meaning preservation of
+output
+sentences and
+higher level of simplification than the state-of-the-art automated TS systems
+Author{1}{Firstname}#=%=#Sergiu
+Author{1}{Lastname}#=%=#Nisioi
+Author{1}{Email}#=%=#sergiu.nisioi@gmail.com
+Author{1}{Affiliation}#=%=#Solomon Marcus Center for Computational Linguistics, University of Bucharest
+Author{2}{Firstname}#=%=#Sanja
+Author{2}{Lastname}#=%=#Štajner
+Author{2}{Email}#=%=#stajner.sanja@gmail.com
+Author{2}{Affiliation}#=%=#University of Mannheim
+Author{3}{Firstname}#=%=#Simone Paolo
+Author{3}{Lastname}#=%=#Ponzetto
+Author{3}{Email}#=%=#simone@informatik.uni-mannheim.de
+Author{3}{Affiliation}#=%=#University of Mannheim
+Author{4}{Firstname}#=%=#Liviu P.
+Author{4}{Lastname}#=%=#Dinu
+Author{4}{Email}#=%=#liviu.p.dinu@gmail.com
+Author{4}{Affiliation}#=%=#University of Bucharest
+
+==========

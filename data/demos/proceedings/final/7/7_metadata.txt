@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#OpenNMT: Open-Source Toolkit for Neural Machine Translation
+ShortPaperTitle#=%=#OpenNMT: Open-Source Toolkit for Neural Machine Translation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Alexander Rush
+JobTitle#==#
+Organization#==#Harvard University
+Abstract#==#We describe an open-source toolkit for neural machine translation (NMT). The
+toolkit prioritizes efficiency, modularity, and extensibility with the goal of
+supporting NMT research into model architectures, feature representations, and
+source modalities, while maintaining competitive performance and reasonable
+training requirements. The toolkit consists of modeling and translation
+support, as well as detailed pedagogical documentation about the underlying
+techniques.
+Author{1}{Firstname}#=%=#Guillaume
+Author{1}{Lastname}#=%=#Klein
+Author{1}{Email}#=%=#guillaume.klein@systrangroup.com
+Author{1}{Affiliation}#=%=#Systran
+Author{2}{Firstname}#=%=#Yoon
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Email}#=%=#yoonkim@seas.harvard.edu
+Author{2}{Affiliation}#=%=#Harvard University
+Author{3}{Firstname}#=%=#Yuntian
+Author{3}{Lastname}#=%=#Deng
+Author{3}{Email}#=%=#yuntiand@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Jean
+Author{4}{Lastname}#=%=#Senellart
+Author{4}{Email}#=%=#senellart@systran.fr
+Author{4}{Affiliation}#=%=#SYSTRAN
+Author{5}{Firstname}#=%=#Alexander
+Author{5}{Lastname}#=%=#Rush
+Author{5}{Email}#=%=#srush@seas.harvard.edu
+Author{5}{Affiliation}#=%=#Harvard University
+
+==========

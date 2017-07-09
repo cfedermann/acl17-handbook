@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#433
+FinalPaperTitle#=%=#Universal Dependencies Parsing for Colloquial Singaporean English
+ShortPaperTitle#=%=#Universal Dependencies Parsing for Colloquial Singaporean English
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#HONGMIN WANG
+JobTitle#==#
+Organization#==#Hongmin Wang, Singapore University of Technology and Design, 8 Somapah Rd, Singapore 487372
+Abstract#==#Singlish can be interesting to the ACL community both linguistically as a major
+creole based on English, and computationally for information extraction and
+sentiment analysis of regional social media. We investigate dependency parsing
+of Singlish by constructing a dependency treebank under the Universal
+Dependencies scheme, and then training a neural network model by integrating
+English syntactic knowledge into a state-of-the-art parser trained on the
+Singlish treebank. Results show that English knowledge can lead to 25% relative
+error reduction, resulting in a parser of 84.47% accuracies. To the best of our
+knowledge, we are the first to use neural stacking to improve cross-lingual
+dependency parsing on low-resource languages. We make both our annotation and
+parser available for further research.
+Author{1}{Firstname}#=%=#Hongmin
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#whm.nus.ee@gmail.com
+Author{1}{Affiliation}#=%=#Singapore University of Design and Technology
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{3}{Firstname}#=%=#GuangYong Leonard
+Author{3}{Lastname}#=%=#Chan
+Author{3}{Email}#=%=#cguangyo@dso.org.sg
+Author{3}{Affiliation}#=%=#DSO National Laboratories
+Author{4}{Firstname}#=%=#Jie
+Author{4}{Lastname}#=%=#Yang
+Author{4}{Email}#=%=#jie_yang@mymail.sutd.edu.sg
+Author{4}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{5}{Firstname}#=%=#Hai Leong
+Author{5}{Lastname}#=%=#Chieu
+Author{5}{Email}#=%=#chaileon@dso.org.sg
+Author{5}{Affiliation}#=%=#DSO National Laboratories
+
+==========

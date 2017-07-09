@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#312
+FinalPaperTitle#=%=#Parsing to 1-Endpoint-Crossing, Pagenumber-2 Graphs
+ShortPaperTitle#=%=#Parsing to 1-Endpoint-Crossing, Pagenumber-2 Graphs
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Weiwei Sun
+JobTitle#==#
+Organization#==#Institute of Computer Science and Technology, Peking University. Zhongguancun North Street 128, Haidian District, Beijing, China.
+Abstract#==#We study the Maximum Subgraph problem in deep dependency parsing. We consider
+two restrictions to deep dependency graphs: (a) 1-endpoint-crossing and (b)
+pagenumber-2. Our main contribution is an exact algorithm that ob-
+tains maximum subgraphs satisfying both restrictions simultaneously in time
+O(n5).
+Moreover, ignoring one linguistically-rare structure descreases the complexity
+to
+O(n4). We
+also extend our quartic-time algorithm into
+a practical parser with a discriminative disambiguation model and evaluate its
+performance on four linguistic data sets used in
+semantic dependency parsing.
+Author{1}{Firstname}#=%=#Junjie
+Author{1}{Lastname}#=%=#Cao
+Author{1}{Email}#=%=#junjie.cao@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Sheng
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#huangsheng@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Weiwei
+Author{3}{Lastname}#=%=#Sun
+Author{3}{Email}#=%=#ws@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Xiaojun
+Author{4}{Lastname}#=%=#Wan
+Author{4}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+
+==========

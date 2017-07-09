@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#59
+FinalPaperTitle#=%=#Negotiation of Antibiotic Treatment in Medical Consultations: A Corpus Based Study
+ShortPaperTitle#=%=#Negotiation of Antibiotic Treatment in Medical Consultations: A Corpus Based Study
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Nan Wang
+JobTitle#==#
+Organization#==#University of California, Los Angeles
+Abstract#==#Doctor-patient conversation is considered a contributing factor to antibiotic
+over-prescription.
+Some language practices have been identified as parent pressuring doctors for
+prescribing; 
+other practices are considered as likely to engender parent resistance to
+non-antibiotic treatment recommendations. In social science studies, approaches
+such as conversation analysis have been applied to identify those language
+practices. Current research for dialogue systems offer an alternative approach.
+Past research proved that corpus-based approaches have been effectively used
+for research involving modeling dialogue acts and sequential relations. In this
+proposal, we propose a corpus-based study of doctor-patient conversations of
+antibiotic treatment negotiation in pediatric consultations. Based on findings
+from conversation analysis studies, we use a computational linguistic approach
+to assist annotating and modeling of doctor-patient language practices, and
+analyzing their influence on antibiotic over-prescribing.
+Author{1}{Firstname}#=%=#Nan
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#nwang3@ucla.edu
+Author{1}{Affiliation}#=%=#UCLA
+
+==========

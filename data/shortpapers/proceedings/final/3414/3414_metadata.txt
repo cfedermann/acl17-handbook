@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3414
+FinalPaperTitle#=%=#Pocket Knowledge Base Population
+ShortPaperTitle#=%=#Pocket Knowledge Base Population
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Travis Wolfe
+JobTitle#==#
+Organization#==#Johns Hopkins University
+Abstract#==#Existing Knowledge Base Population methods extract relations from a closed
+relational schema with limited coverage leading to sparse KBs. We propose
+Pocket Knowledge Base Population (PKBP), the task of dynamically constructing a
+KB of entities related to a query and finding the best characterization of
+relationships between entities. We describe novel Open Information Extraction
+methods which leverage the PKB to find informative trigger words. We evaluate
+using existing KBP shared-task data as well anew annotations collected for this
+work. Our methods produce high quality KB from just text with many more
+entities and relationships than existing KBP systems.
+Author{1}{Firstname}#=%=#Travis
+Author{1}{Lastname}#=%=#Wolfe
+Author{1}{Email}#=%=#twolfe18@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dredze
+Author{2}{Email}#=%=#mdredze@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Benjamin
+Author{3}{Lastname}#=%=#Van Durme
+Author{3}{Email}#=%=#vandurme@cs.jhu.edu
+Author{3}{Affiliation}#=%=#JHU
+
+==========

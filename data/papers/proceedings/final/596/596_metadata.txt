@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#596
+FinalPaperTitle#=%=#Deep Multitask Learning for Semantic Dependency Parsing
+ShortPaperTitle#=%=#Deep Multitask Learning for Semantic Dependency Parsing
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Hao Peng
+JobTitle#==#
+Organization#==#Name: Paul G. Allen School of Computer Science & Engineering, University of Washington.
+Address: Box 352350, 185 Stevens Way, Seattle WA 98195, USA
+Abstract#==#We present a deep neural architecture that parses sentences into three semantic
+dependency graph formalisms. By using efficient, nearly arc-factored inference
+and a bidirectional-LSTM composed with a multi-layer perceptron,  our base
+system is able to significantly improve the state of the art for semantic
+dependency parsing, without using hand-engineered features or syntax. We then
+explore two multitask learning approaches---one that shares parameters across
+formalisms, and one that uses higher-order structures to predict the graphs
+jointly. We find that both approaches improve performance across formalisms on
+average, achieving a new state of the art. Our code is open-source and
+available at https://github.com/Noahs-ARK/NeurboParser.
+Author{1}{Firstname}#=%=#Hao
+Author{1}{Lastname}#=%=#Peng
+Author{1}{Email}#=%=#hapeng@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Sam
+Author{2}{Lastname}#=%=#Thomson
+Author{2}{Email}#=%=#sthomson@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Noah A.
+Author{3}{Lastname}#=%=#Smith
+Author{3}{Email}#=%=#nasmith@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+
+==========

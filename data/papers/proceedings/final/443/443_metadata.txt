@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#443
+FinalPaperTitle#=%=#Generating Contrastive Referring Expressions
+ShortPaperTitle#=%=#Generating Contrastive Referring Expressions
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Christoph Teichmann
+JobTitle#==#
+Organization#==#Universität des Saarlandes
+Fachrichtung 4.7 Allgemeine Linguistik
+Building C 7.2
+Postfach 15 11 50
+66041 Saarbrücken
+Germany
+Abstract#==#The referring expressions (REs) produced by a natural language generation (NLG)
+system can be misunderstood by the hearer, even when they are semantically
+correct. In an interactive setting, the NLG system can try to recognize such
+misunderstandings and correct them. We present an algorithm for generating
+corrective REs that use contrastive focus (“no, the BLUE button”) to
+emphasize the information the hearer most likely misunderstood. We show
+empirically that these contrastive REs are preferred over REs without contrast
+marking.
+Author{1}{Firstname}#=%=#Martin
+Author{1}{Lastname}#=%=#Villalba
+Author{1}{Email}#=%=#villalba@coli.uni-saarland.de
+Author{1}{Affiliation}#=%=#Universität des Saarlandes
+Author{2}{Firstname}#=%=#Christoph
+Author{2}{Lastname}#=%=#Teichmann
+Author{2}{Email}#=%=#rightlinear@googlemail.com
+Author{2}{Affiliation}#=%=#Saarland University
+Author{3}{Firstname}#=%=#Alexander
+Author{3}{Lastname}#=%=#Koller
+Author{3}{Email}#=%=#koller@coli.uni-saarland.de
+Author{3}{Affiliation}#=%=#Saarland University
+
+==========

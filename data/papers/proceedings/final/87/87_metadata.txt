@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#87
+FinalPaperTitle#=%=#PositionRank: An Unsupervised Approach to Keyphrase Extraction from Scholarly Documents
+ShortPaperTitle#=%=#PositionRank: An Unsupervised Approach to Keyphrase Extraction from Scholarly Documents
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Corina Florescu
+JobTitle#==#
+Organization#==#Corina Florescu, University of North Texas
+Abstract#==#The large and growing amounts of online scholarly data present both challenges
+and opportunities to enhance knowledge discovery. One such challenge is to
+automatically extract a small set of keyphrases from a document that can
+accurately describe the document's content and can facilitate fast information
+processing. In this paper, we propose PositionRank, an unsupervised 
+model for keyphrase extraction from scholarly documents that incorporates
+information from all positions of a word's occurrences into a biased PageRank.
+Our model obtains remarkable improvements in performance over PageRank models
+that do not take into account word positions as well as over strong baselines
+for this task. 
+Specifically, on several datasets of research papers, PositionRank achieves
+improvements as high as $29.09\%$.
+Author{1}{Firstname}#=%=#Corina
+Author{1}{Lastname}#=%=#Florescu
+Author{1}{Email}#=%=#corinaflorescu@my.unt.edu
+Author{1}{Affiliation}#=%=#University of North Texas
+Author{2}{Firstname}#=%=#Cornelia
+Author{2}{Lastname}#=%=#Caragea
+Author{2}{Email}#=%=#ccaragea@unt.edu
+Author{2}{Affiliation}#=%=#University of North Texas
+
+==========

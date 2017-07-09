@@ -1,0 +1,65 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#PyDial: A Multi-domain Statistical Dialogue System Toolkit
+ShortPaperTitle#=%=#PyDial: A Multi-domain Statistical Dialogue System Toolkit
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Stefan Ultes
+JobTitle#==#
+Organization#==#Cambridge Universit Engineering Department
+Trumpington Street
+Cambridge, UK
+CB2 1PZ
+Abstract#==#Statistical Spoken Dialogue Systems have been around for many years. However,
+access to these systems has always been difficult as there is still no publicly
+available end-to-end system implementation. To alleviate this, we present
+CU-PyDial, an open-source end-to-end statistical spoken dialogue system toolkit
+which provides implementations of statistical approaches for all dialogue
+system modules. Moreover, it has been extended to provide multi-domain
+conversational functionality. It offers easy configuration, easy extensibility,
+and domain-independent implementations of the respective dialogue system
+modules. The toolkit is available for download under the Apache 2.0 license.
+Author{1}{Firstname}#=%=#Stefan
+Author{1}{Lastname}#=%=#Ultes
+Author{1}{Email}#=%=#su259@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Lina M.
+Author{2}{Lastname}#=%=#Rojas Barahona
+Author{2}{Email}#=%=#lina.rojas@eng.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge.
+Author{3}{Firstname}#=%=#Pei-Hao
+Author{3}{Lastname}#=%=#Su
+Author{3}{Email}#=%=#phs26@cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#David
+Author{4}{Lastname}#=%=#Vandyke
+Author{4}{Email}#=%=#vandyke.d@gmail.com
+Author{4}{Affiliation}#=%=#Apple
+Author{5}{Firstname}#=%=#Dongho
+Author{5}{Lastname}#=%=#Kim
+Author{5}{Email}#=%=#dongho.kim@gmail.com
+Author{5}{Affiliation}#=%=#Prowler.io
+Author{6}{Firstname}#=%=#Iñigo
+Author{6}{Lastname}#=%=#Casanueva
+Author{6}{Email}#=%=#ic340@cam.ac.uk
+Author{6}{Affiliation}#=%=#University of Cambridge
+Author{7}{Firstname}#=%=#Paweł
+Author{7}{Lastname}#=%=#Budzianowski
+Author{7}{Email}#=%=#pfb30@cam.ac.uk
+Author{7}{Affiliation}#=%=#University of Cambridge
+Author{8}{Firstname}#=%=#Nikola
+Author{8}{Lastname}#=%=#Mrkšić
+Author{8}{Email}#=%=#nikola.mrksic@gmail.com
+Author{8}{Affiliation}#=%=#University of Cambridge
+Author{9}{Firstname}#=%=#Tsung-Hsien
+Author{9}{Lastname}#=%=#Wen
+Author{9}{Email}#=%=#thw28@cam.ac.uk
+Author{9}{Affiliation}#=%=#University of Cambridge
+Author{10}{Firstname}#=%=#Milica
+Author{10}{Lastname}#=%=#Gasic
+Author{10}{Email}#=%=#mg436@cam.ac.uk
+Author{10}{Affiliation}#=%=#University of Cambridge
+Author{11}{Firstname}#=%=#Steve
+Author{11}{Lastname}#=%=#Young
+Author{11}{Email}#=%=#sjy@eng.cam.ac.uk
+Author{11}{Affiliation}#=%=#Cambridge University
+
+==========

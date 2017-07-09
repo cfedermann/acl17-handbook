@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#729
+FinalPaperTitle#=%=#Detect Rumors in Microblog Posts Using Propagation Structure via Kernel Learning
+ShortPaperTitle#=%=#Detect Rumors in Microblog Posts Using Propagation Structure via Kernel Learning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Wei Gao
+JobTitle#==#
+Organization#==#Qatar Computing Research Institute
+Abstract#==#How fake news goes viral via social media? How does its propagation pattern
+differ from real stories? In this paper, we attempt to address the problem of
+identifying rumors, i.e., fake information, out of microblog posts based on
+their propagation structure. We firstly model microblog posts diffusion with
+propagation trees, which provide valuable clues on how an original message is
+transmitted and developed over time. We then propose a kernel-based method
+called Propagation Tree Kernel, which captures high-order patterns
+differentiating different types of rumors by evaluating the similarities
+between their propagation tree structures. Experimental results on two
+real-world datasets demonstrate that the proposed kernel-based approach can
+detect rumors more quickly and accurately than state-of-the-art rumor detection
+models.
+Author{1}{Firstname}#=%=#Jing
+Author{1}{Lastname}#=%=#Ma
+Author{1}{Email}#=%=#majing@se.cuhk.edu.hk
+Author{1}{Affiliation}#=%=#the Chinese University of Hong Kong
+Author{2}{Firstname}#=%=#Wei
+Author{2}{Lastname}#=%=#Gao
+Author{2}{Email}#=%=#wgao@qf.org.qa
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{3}{Firstname}#=%=#Kam-Fai
+Author{3}{Lastname}#=%=#Wong
+Author{3}{Email}#=%=#kfwong@se.cuhk.edu.hk
+Author{3}{Affiliation}#=%=#Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong, Hong Kong
+
+==========

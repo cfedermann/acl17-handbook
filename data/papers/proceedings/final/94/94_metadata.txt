@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#94
+FinalPaperTitle#=%=#A Full Non-Monotonic Transition System for Unrestricted Non-Projective Parsing
+ShortPaperTitle#=%=#A Full Non-Monotonic Transition System for Unrestricted Non-Projective Parsing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Carlos Gómez-Rodríguez
+JobTitle#==#
+Organization#==#Universidade da Coruña. Rúa da Maestranza, 9, 15001 A Coruña (Spain)
+Abstract#==#Restricted non-monotonicity has been shown beneficial for the projective
+arc-eager dependency parser in previous research, as posterior decisions can
+repair mistakes made in previous states due to the lack of information. In this
+paper, we propose a novel, fully non-monotonic transition system based on the
+non-projective Covington algorithm. As a non-monotonic system requires
+exploration of erroneous actions during the training process, we develop
+several non-monotonic variants of the recently defined dynamic oracle for the
+Covington parser, based on tight approximations of the loss. Experiments on
+datasets from the CoNLL-X and CoNLL-XI shared tasks show that a non-monotonic
+dynamic oracle outperforms the monotonic version in the majority of languages.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Fernández-González
+Author{1}{Email}#=%=#danifg@uvigo.es
+Author{1}{Affiliation}#=%=#Universidade de Vigo
+Author{2}{Firstname}#=%=#Carlos
+Author{2}{Lastname}#=%=#Gómez-Rodríguez
+Author{2}{Email}#=%=#cgomezr@udc.es
+Author{2}{Affiliation}#=%=#Universidade da Coruña
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#169
+FinalPaperTitle#=%=#Automatic Annotation and Evaluation of Error Types for Grammatical Error Correction
+ShortPaperTitle#=%=#Automatic Annotation and Evaluation of Error Types for Grammatical Error Correction
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Christopher Bryant
+JobTitle#==#
+Organization#==#ALTA Institute, Computer Laboratory, University of Cambridge, Cambridge, UK
+Abstract#==#Until now, error type performance for Grammatical Error Correction (GEC)
+systems could only be measured in terms of recall because system output is not
+annotated. To overcome this problem, we introduce ERRANT, a grammatical ERRor
+ANnotation Toolkit designed to automatically extract edits from parallel
+original and corrected sentences and classify them according to a new,
+dataset-agnostic, rule-based framework. This not only facilitates error type
+evaluation at different levels of granularity, but can also be used to reduce
+annotator workload and standardise existing GEC datasets. Human experts rated
+the automatic edits as ``Good'' or ``Acceptable'' in at least 95\% of cases, so
+we applied ERRANT to the system output of the CoNLL-2014 shared task to carry
+out a detailed error type analysis for the first time.
+Author{1}{Firstname}#=%=#Christopher
+Author{1}{Lastname}#=%=#Bryant
+Author{1}{Email}#=%=#cjb255@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Mariano
+Author{2}{Lastname}#=%=#Felice
+Author{2}{Email}#=%=#mariano.felice@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Ted
+Author{3}{Lastname}#=%=#Briscoe
+Author{3}{Email}#=%=#ejb@cl.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

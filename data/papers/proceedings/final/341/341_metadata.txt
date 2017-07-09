@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#341
+FinalPaperTitle#=%=#Modeling Source Syntax for Neural Machine Translation
+ShortPaperTitle#=%=#Modeling Source Syntax for Neural Machine Translation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Junhui Li
+JobTitle#==#
+Organization#==#
+Abstract#==#Even though a linguistics-free sequence to sequence model in neural machine
+translation (NMT) has certain capability of implicitly learning syntactic
+information of source sentences, this paper shows that source syntax can be
+explicitly incorporated into NMT effectively to provide further improvements.
+Specifically, we linearize parse trees of source sentences to obtain structural
+label sequences. On the basis, we propose three different sorts of encoders to
+incorporate source syntax into NMT: 1) Parallel RNN encoder that learns word
+and label annotation vectors parallelly; 2) Hierarchical RNN encoder that
+learns word and label annotation vectors in a two-level hierarchy; and 3) Mixed
+RNN encoder that stitchingly learns word and label annotation vectors over
+sequences where words and labels are mixed. Experimentation on
+Chinese-to-English translation demonstrates that all the three proposed
+syntactic encoders are able to improve translation accuracy. It is interesting
+to note that the simplest RNN encoder, i.e., Mixed RNN encoder yields the best
+performance with an significant improvement of 1.4 BLEU points. Moreover, an
+in-depth analysis from several perspectives is provided to reveal how source
+syntax benefits NMT.
+Author{1}{Firstname}#=%=#Junhui
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#lijunhui26@gmail.com
+Author{1}{Affiliation}#=%=#Soochow University, Suzhou
+Author{2}{Firstname}#=%=#Deyi
+Author{2}{Lastname}#=%=#Xiong
+Author{2}{Email}#=%=#deyi.xiong@gmail.com
+Author{2}{Affiliation}#=%=#Soochow University
+Author{3}{Firstname}#=%=#Zhaopeng
+Author{3}{Lastname}#=%=#Tu
+Author{3}{Email}#=%=#tuzhaopeng@gmail.com
+Author{3}{Affiliation}#=%=#Tencent AI Lab
+Author{4}{Firstname}#=%=#Muhua
+Author{4}{Lastname}#=%=#Zhu
+Author{4}{Email}#=%=#zhumuhua@gmail.com
+Author{4}{Affiliation}#=%=#Tencent Co., Ltd
+Author{5}{Firstname}#=%=#Min
+Author{5}{Lastname}#=%=#Zhang
+Author{5}{Email}#=%=#minzhang@suda.edu.cn
+Author{5}{Affiliation}#=%=#Suda
+Author{6}{Firstname}#=%=#Guodong
+Author{6}{Lastname}#=%=#Zhou
+Author{6}{Email}#=%=#gdzhou@suda.edu.cn
+Author{6}{Affiliation}#=%=#Soochow University
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#265
+FinalPaperTitle#=%=#Topically Driven Neural Language Model
+ShortPaperTitle#=%=#Topically Driven Neural Language Model
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jey Han Lau
+JobTitle#==#
+Organization#==#IBM Research
+Abstract#==#Language models are typically applied at the sentence level, without
+  access to the broader document context.  We present a neural language
+  model that incorporates document context in the form of a topic
+  model-like architecture, thus providing a succinct representation of the
+  broader document context outside of the current sentence.  Experiments
+  over a range of datasets demonstrate that our model outperforms a pure
+  sentence-based model in terms of language model perplexity, and leads
+  to topics that are potentially more coherent than those produced by a
+  standard LDA topic model.  Our model also has the ability to generate
+  related sentences for a topic, providing another way to interpret topics.
+Author{1}{Firstname}#=%=#Jey Han
+Author{1}{Lastname}#=%=#Lau
+Author{1}{Email}#=%=#jeyhan.lau@gmail.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Timothy
+Author{2}{Lastname}#=%=#Baldwin
+Author{2}{Email}#=%=#tb@ldwin.net
+Author{2}{Affiliation}#=%=#The University of Melbourne
+Author{3}{Firstname}#=%=#Trevor
+Author{3}{Lastname}#=%=#Cohn
+Author{3}{Email}#=%=#tcohn@unimelb.edu.au
+Author{3}{Affiliation}#=%=#University of Melbourne
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3285
+FinalPaperTitle#=%=#Learning to Parse and Translate Improves Neural Machine Translation
+ShortPaperTitle#=%=#Learning to Parse and Translate Improves Neural Machine Translation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Akiko Eriguchi
+JobTitle#==#
+Organization#==#Akiko Eriguchi, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan
+Abstract#==#There has been relatively little attention to incorporating linguistic prior to
+neural machine translation. Much of the previous work was further constrained
+to considering linguistic prior on the source side. In this paper, we propose a
+hybrid model, called NMT+RNNG, that learns to parse and translate by combining
+the recurrent neural network grammar into the attention-based neural machine
+translation. Our approach encourages the neural machine translation model to
+incorporate linguistic prior during training, and lets it translate on its own
+afterward. Extensive experiments with four language pairs show the
+effectiveness of the proposed NMT+RNNG.
+Author{1}{Firstname}#=%=#Akiko
+Author{1}{Lastname}#=%=#Eriguchi
+Author{1}{Email}#=%=#eriguchi@logos.t.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#University of Tokyo
+Author{2}{Firstname}#=%=#Yoshimasa
+Author{2}{Lastname}#=%=#Tsuruoka
+Author{2}{Email}#=%=#tsuruoka@logos.t.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#University of Tokyo
+Author{3}{Firstname}#=%=#Kyunghyun
+Author{3}{Lastname}#=%=#Cho
+Author{3}{Email}#=%=#kyunghyun.cho@nyu.edu
+Author{3}{Affiliation}#=%=#New York University
+
+==========

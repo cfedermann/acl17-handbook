@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#71
+FinalPaperTitle#=%=#Cross-lingual Name Tagging and Linking for 282 Languages
+ShortPaperTitle#=%=#Cross-lingual Name Tagging and Linking for 282 Languages
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Xiaoman Pan
+JobTitle#==#
+Organization#==#Computer Science Department, Rensselaer Polytechnic Institute
+110 8th Street
+Troy, NY 12180-3590
+Abstract#==#The ambitious goal of this work is to develop a cross-lingual name tagging and
+linking framework for 282 languages that exist in Wikipedia. Given a document
+in any of these languages, our framework is able to identify name mentions,
+assign a coarse-grained or fine-grained type to each mention, and link it to an
+English Knowledge Base (KB) if it is linkable. We achieve this goal by
+performing a series of new KB mining methods: generating ``silver-standard''
+annotations by transferring annotations from English to other languages through
+cross-lingual links and KB properties, refining annotations through
+self-training and topic selection, deriving language-specific morphology
+features from anchor links, and mining word translation pairs from
+cross-lingual links. Both name tagging and linking results for 282 languages
+are promising on Wikipedia data and on-Wikipedia data.
+Author{1}{Firstname}#=%=#Xiaoman
+Author{1}{Lastname}#=%=#Pan
+Author{1}{Email}#=%=#panx2@rpi.edu
+Author{1}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{2}{Firstname}#=%=#Boliang
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#boliangzhang85@gmail.com
+Author{2}{Affiliation}#=%=#Rensselaer Polytechnic Institue
+Author{3}{Firstname}#=%=#Jonathan
+Author{3}{Lastname}#=%=#May
+Author{3}{Email}#=%=#jonmay@gmail.com
+Author{3}{Affiliation}#=%=#USC Information Sciences Institute
+Author{4}{Firstname}#=%=#Joel
+Author{4}{Lastname}#=%=#Nothman
+Author{4}{Email}#=%=#joel.nothman@gmail.com
+Author{4}{Affiliation}#=%=#University of Melbourne
+Author{5}{Firstname}#=%=#Kevin
+Author{5}{Lastname}#=%=#Knight
+Author{5}{Email}#=%=#knight@isi.edu
+Author{5}{Affiliation}#=%=#USC/ISI
+Author{6}{Firstname}#=%=#Heng
+Author{6}{Lastname}#=%=#Ji
+Author{6}{Email}#=%=#jih@rpi.edu
+Author{6}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+
+==========

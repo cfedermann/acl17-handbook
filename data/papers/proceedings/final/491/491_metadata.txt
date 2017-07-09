@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#491
+FinalPaperTitle#=%=#Understanding and Predicting Empathic Behavior in Counseling Therapy
+ShortPaperTitle#=%=#Understanding and Predicting Empathic Behavior in Counseling Therapy
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Veronica Perez-Rosas
+JobTitle#==#
+Organization#==#University of Michigan. 500 S State St, Ann Arbor, MI 48109
+Abstract#==#Counselor empathy is associated with better outcomes in psychology and
+behavioral counseling. In this paper, we explore several aspects pertaining to
+counseling interaction dynamics and their relation to counselor empathy during
+motivational interviewing encounters. Particularly, we analyze aspects such as
+participants' engagement, participants' verbal and nonverbal accommodation, as
+well as topics being discussed during the conversation, with the final goal of
+identifying linguistic and acoustic markers of counselor empathy. We also show
+how we can use these findings alongside other raw linguistic and acoustic
+features to  build accurate counselor empathy classifiers with accuracies of up
+to 80%.
+Author{1}{Firstname}#=%=#Verónica
+Author{1}{Lastname}#=%=#Pérez-Rosas
+Author{1}{Email}#=%=#vrncapr@umich.edu
+Author{1}{Affiliation}#=%=#University of Michigan
+Author{2}{Firstname}#=%=#Rada
+Author{2}{Lastname}#=%=#Mihalcea
+Author{2}{Email}#=%=#mihalcea@umich.edu
+Author{2}{Affiliation}#=%=#University of Michigan
+Author{3}{Firstname}#=%=#Kenneth
+Author{3}{Lastname}#=%=#Resnicow
+Author{3}{Email}#=%=#kresnic@umich.edu
+Author{3}{Affiliation}#=%=#University of Michigan
+Author{4}{Firstname}#=%=#Satinder
+Author{4}{Lastname}#=%=#Singh
+Author{4}{Email}#=%=#baveja@umich.edu
+Author{4}{Affiliation}#=%=#University of Michigan
+Author{5}{Firstname}#=%=#Lawrence
+Author{5}{Lastname}#=%=#An
+Author{5}{Email}#=%=#lcan@umich.edu
+Author{5}{Affiliation}#=%=#University of Michigan
+
+==========

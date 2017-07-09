@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution
+ShortPaperTitle#=%=#Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yiming Cui
+JobTitle#==#
+Organization#==#Research Center for Social Computing and Information Retrieval, Harbin Institute of Technology, Harbin City, Heilongjiang Province, China
+Abstract#==#Most existing approaches for zero pronoun resolution are heavily relying on
+annotated data, which is often released by shared task organizers.
+Therefore, the lack of annotated data becomes a major obstacle in the progress
+of zero pronoun resolution task. 
+Also, it is expensive to spend manpower on labeling the data for better
+performance.
+To alleviate the problem above, in this paper, we propose a simple but novel
+approach to automatically generate large-scale pseudo training data for zero
+pronoun resolution.
+Furthermore, we successfully transfer the cloze-style reading comprehension
+neural network model into zero pronoun resolution task and propose a two-step
+training mechanism to overcome the gap between the pseudo training data and the
+real one.
+Experimental results show that the proposed approach significantly outperforms
+the state-of-the-art systems with an absolute improvements of 3.1\% F-score on
+OntoNotes 5.0 data.
+Author{1}{Firstname}#=%=#Ting
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#tliu72@vip.126.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Yiming
+Author{2}{Lastname}#=%=#Cui
+Author{2}{Email}#=%=#ymcui@iflytek.com
+Author{2}{Affiliation}#=%=#iFLYTEK Research
+Author{3}{Firstname}#=%=#Qingyu
+Author{3}{Lastname}#=%=#Yin
+Author{3}{Email}#=%=#qyyin@qq.com
+Author{3}{Affiliation}#=%=#Research Center for Social Computing and Information Retrieval, Harbin Institute of Technology, China
+Author{4}{Firstname}#=%=#Wei-Nan
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Email}#=%=#wnzhang@ir.hit.edu.cn
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology
+Author{5}{Firstname}#=%=#Shijin
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Email}#=%=#sjwang3@iflytek.com
+Author{5}{Affiliation}#=%=#iFLYTEK Research
+Author{6}{Firstname}#=%=#Guoping
+Author{6}{Lastname}#=%=#Hu
+Author{6}{Email}#=%=#gphu@iflytek.com
+Author{6}{Affiliation}#=%=#iFlyTEK Research
+
+==========

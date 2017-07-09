@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#585
+FinalPaperTitle#=%=#Semi-Supervised QA with Generative Domain-Adaptive Nets
+ShortPaperTitle#=%=#Semi-Supervised QA with Generative Domain-Adaptive Nets
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Zhilin Yang
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbe Ave, 15213, Pittsburgh, PA
+Abstract#==#We study the problem of semi-supervised question answering----utilizing
+unlabeled text to boost the performance of question answering models. We
+propose a novel training framework, the \textit{Generative Domain-Adaptive
+Nets}. In this framework, we train a generative model to generate questions
+based on the unlabeled text, and combine model-generated questions with
+human-generated questions for training question answering models. We develop
+novel domain adaptation algorithms, based on reinforcement learning, to
+alleviate the discrepancy between the model-generated data distribution and the
+human-generated data distribution. Experiments show that our proposed framework
+obtains substantial improvement from unlabeled text.
+Author{1}{Firstname}#=%=#Zhilin
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#zhiliny@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Junjie
+Author{2}{Lastname}#=%=#Hu
+Author{2}{Email}#=%=#junjieh@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Ruslan
+Author{3}{Lastname}#=%=#Salakhutdinov
+Author{3}{Email}#=%=#rsalakhu@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#William
+Author{4}{Lastname}#=%=#Cohen
+Author{4}{Email}#=%=#wcohen@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

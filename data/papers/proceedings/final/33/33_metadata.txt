@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Linguistically Regularized LSTM for Sentiment Classification
+ShortPaperTitle#=%=#Linguistically Regularized LSTM
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#qianqiao
+JobTitle#==#
+Organization#==#State Key Laboratory of Intelligent Technology and Systems
+Tsinghua National Laboratory for Information Science and Technology
+Dept. of Computer Science and Technology, Tsinghua University, Beijing 100084, PR China
+Abstract#==#This paper deals with sentence-level sentiment classification. Though a variety
+of neural network models have been proposed recently, however, previous models
+either depend on expensive phrase-level annotation, most of which has
+remarkably degraded performance when trained with only sentence-level
+annotation; or do not fully employ linguistic resources (e.g., sentiment
+lexicons, negation words, intensity words). In this paper, we propose simple
+models trained with sentence-level annotation, but also attempt to model the
+linguistic role of sentiment lexicons, negation words, and intensity words.
+Results show that our models are able to capture the linguistic role of
+sentiment words, negation words, and intensity words in sentiment expression.
+Author{1}{Firstname}#=%=#Qiao
+Author{1}{Lastname}#=%=#Qian
+Author{1}{Email}#=%=#qianqiaodecember29@126.com
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Minlie
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#aihuang@tsinghua.edu.cn
+Author{2}{Affiliation}#=%=#Tsinghua University
+Author{3}{Firstname}#=%=#Jinhao
+Author{3}{Lastname}#=%=#Lei
+Author{3}{Email}#=%=#leijh14@gmail.com
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#xiaoyan
+Author{4}{Lastname}#=%=#zhu
+Author{4}{Email}#=%=#zxy-dcs@tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#
+
+==========

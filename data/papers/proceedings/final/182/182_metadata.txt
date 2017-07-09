@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#182
+FinalPaperTitle#=%=#Context-Dependent Sentiment Analysis in User-Generated Videos
+ShortPaperTitle#=%=#Context-Dependent Sentiment Analysis in User-Generated Videos
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Soujanya Poria
+JobTitle#==#
+Organization#==#Temasek Laboratories, 
+Nanyang Technological University, Nanyang Avenue 5, Singapore
+Abstract#==#Multimodal sentiment analysis is a developing
+area of research, which involves
+the identification of sentiments in videos.
+Current research considers utterances as
+independent entities, i.e., ignores the interdependencies
+and relations among the utterances
+of a video. In this paper, we propose
+a LSTM-based model that enables
+utterances to capture contextual information
+from their surroundings in the same
+video, thus aiding the classification process.
+Our method shows 5-10% performance
+improvement over the state of the
+art and high robustness to generalizability.
+Author{1}{Firstname}#=%=#Soujanya
+Author{1}{Lastname}#=%=#Poria
+Author{1}{Email}#=%=#soujanya.poria@gmail.com
+Author{1}{Affiliation}#=%=#Researcher
+Author{2}{Firstname}#=%=#Erik
+Author{2}{Lastname}#=%=#Cambria
+Author{2}{Email}#=%=#cambria@media.mit.edu
+Author{2}{Affiliation}#=%=#Nanyang Technological University
+Author{3}{Firstname}#=%=#Devamanyu
+Author{3}{Lastname}#=%=#Hazarika
+Author{3}{Email}#=%=#devamanyu@sentic.net
+Author{3}{Affiliation}#=%=#National Institute of Technology, Warangal, India
+Author{4}{Firstname}#=%=#Navonil
+Author{4}{Lastname}#=%=#Majumder
+Author{4}{Email}#=%=#n.majumder.2009@gmail.com
+Author{4}{Affiliation}#=%=#CIC
+Author{5}{Firstname}#=%=#Amir
+Author{5}{Lastname}#=%=#Zadeh
+Author{5}{Email}#=%=#abagherz@andrew.cmu.edu
+Author{5}{Affiliation}#=%=#CMU
+Author{6}{Firstname}#=%=#Louis-Philippe
+Author{6}{Lastname}#=%=#Morency
+Author{6}{Email}#=%=#morency@cs.cmu.edu
+Author{6}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

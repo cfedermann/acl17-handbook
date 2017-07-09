@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#Annotating tense, mood and voice for English, French and German
+ShortPaperTitle#=%=#Annotating tense, mood and voice for English, French and German
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Anita Ramm
+JobTitle#==#
+Organization#==#IMS, Universität Stuttgart
+Pfaffenwaldring 5b
+70569 Stuttgart
+Germany
+Abstract#==#We present the first open-source tool for annotating morphosyntactic tense,
+mood and voice for English, French and German verbal complexes. The annotation
+is based on a set of language-specific rules, which are applied on dependency
+trees and leverage information about lemmas, morphological properties and
+POS-tags of the verbs. Our tool has an average accuracy of about 76%. The
+tense, mood and voice features are useful both as features in computational
+modeling and for corpus-linguistic research.
+Author{1}{Firstname}#=%=#Anita
+Author{1}{Lastname}#=%=#Ramm
+Author{1}{Email}#=%=#ramm@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#IMS, University of Stuttgart
+Author{2}{Firstname}#=%=#Sharid
+Author{2}{Lastname}#=%=#Loáiciga
+Author{2}{Email}#=%=#sharid.loaiciga@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala University
+Author{3}{Firstname}#=%=#Annemarie
+Author{3}{Lastname}#=%=#Friedrich
+Author{3}{Email}#=%=#anne@cis.uni-muenchen.de
+Author{3}{Affiliation}#=%=#Ludwig-Maximilians-Universität München
+Author{4}{Firstname}#=%=#Alexander
+Author{4}{Lastname}#=%=#Fraser
+Author{4}{Email}#=%=#fraser@cis.uni-muenchen.de
+Author{4}{Affiliation}#=%=#Ludwig-Maximilians-Universität München
+
+==========

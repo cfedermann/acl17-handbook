@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#130
+FinalPaperTitle#=%=#Enriching Complex Networks with Word Embeddings for Detecting Mild Cognitive Impairment from Speech Transcripts
+ShortPaperTitle#=%=#Enriching Complex Networks with Word Embeddings for Detecting Mild Cognitive Impairment from Speech Transcripts
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Leandro Borges dos Santos
+JobTitle#==#PhD Student
+Organization#==#Institute of Mathematics and Computer Science, University of São Paulo, São Carlos, São Paulo, Brazil
+Abstract#==#Mild Cognitive Impairment (MCI) is a mental disorder difficult to diagnose.
+Linguistic features, mainly from parsers, have been used to detect MCI, but
+this is not suitable for large-scale assessments. MCI disfluencies produce
+non-grammatical speech that requires manual or high precision automatic
+correction of transcripts.  In this paper, we modeled transcripts into complex
+networks and enriched them with word embedding (CNE) to better represent short
+texts produced in neuropsychological assessments. The network measurements were
+applied with well-known classifiers to automatically identify MCI in
+transcripts, in a binary classification task. A comparison was made with the
+performance of traditional approaches using Bag of Words (BoW) and linguistic
+features for three datasets: DementiaBank in English, and Cinderella and
+Arizona-Battery in Portuguese. Overall, CNE provided higher accuracy than using
+only complex networks, while Support Vector Machine was superior to other
+classifiers. CNE provided the highest accuracies for DementiaBank and
+Cinderella, but BoW was more efficient for the Arizona-Battery dataset probably
+owing to its short narratives. The approach using linguistic features yielded
+higher accuracy if the transcriptions of the Cinderella dataset were manually
+revised. Taken together, the results indicate that complex networks enriched
+with embedding is promising for detecting MCI in large-scale assessments.
+Author{1}{Firstname}#=%=#Leandro
+Author{1}{Lastname}#=%=#Santos
+Author{1}{Email}#=%=#leandrobs@usp.br
+Author{1}{Affiliation}#=%=#Institute of Mathematics and Computer Science - University of São Paulo (USP)
+Author{2}{Firstname}#=%=#Edilson Anselmo
+Author{2}{Lastname}#=%=#Corrêa Júnior
+Author{2}{Email}#=%=#edilsonacjr@usp.br
+Author{2}{Affiliation}#=%=#Institute of Mathematics and Computer Science - University of São Paulo (USP)
+Author{3}{Firstname}#=%=#Osvaldo
+Author{3}{Lastname}#=%=#Oliveira Jr
+Author{3}{Email}#=%=#chu@ifsc.usp.br
+Author{3}{Affiliation}#=%=#Institute of Physics at Sao Carlos, University of Sao Paulo (USP)
+Author{4}{Firstname}#=%=#Diego
+Author{4}{Lastname}#=%=#Amancio
+Author{4}{Email}#=%=#diego@icmc.usp.br
+Author{4}{Affiliation}#=%=#Institute of Mathematics and Computer Science - University of São Paulo (USP)
+Author{5}{Firstname}#=%=#Letícia
+Author{5}{Lastname}#=%=#Mansur
+Author{5}{Email}#=%=#lmansur@usp.br
+Author{5}{Affiliation}#=%=#Department of Physiotherapy, Speech Pathology and Occupational Therapy Medical School - University of São Paulo (USP)
+Author{6}{Firstname}#=%=#Sandra
+Author{6}{Lastname}#=%=#Aluísio
+Author{6}{Email}#=%=#sandra@icmc.usp.br
+Author{6}{Affiliation}#=%=#University of São Paulo
+
+==========

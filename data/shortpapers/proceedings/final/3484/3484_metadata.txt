@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3484
+FinalPaperTitle#=%=#Automatic Compositor Attribution in the First Folio of Shakespeare
+ShortPaperTitle#=%=#Automatic Compositor Attribution in the First Folio of Shakespeare
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mariia Ryskina
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Avenue, Pittsburgh PA, 15213
+USA
+Abstract#==#Compositor attribution, the clustering of pages in a historical printed
+document by the individual who set the type, is a bibliographic task that
+relies on analysis of orthographic variation and inspection of visual details
+of the printed page. In this paper, we introduce a novel unsupervised model
+that jointly describes the textual and visual features needed to distinguish
+compositors. Applied to images of Shakespeare's First Folio, our model predicts
+attributions that agree with the manual judgements of bibliographers with an
+accuracy of 87%, even on text that is the output of OCR.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Ryskina
+Author{1}{Email}#=%=#mryskina@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Hannah
+Author{2}{Lastname}#=%=#Alpert-Abrams
+Author{2}{Email}#=%=#halperta@gmail.com
+Author{2}{Affiliation}#=%=#University of Texas at Austin
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Garrette
+Author{3}{Email}#=%=#dhgarrette@gmail.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Taylor
+Author{4}{Lastname}#=%=#Berg-Kirkpatrick
+Author{4}{Email}#=%=#tberg@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

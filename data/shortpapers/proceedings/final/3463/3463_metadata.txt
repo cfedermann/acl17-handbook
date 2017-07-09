@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#3463
+FinalPaperTitle#=%=#Chunk-Based Bi-Scale Decoder for Neural Machine Translation
+ShortPaperTitle#=%=#Chunk-Based Bi-Scale Decoder for Neural Machine Translation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Hao Zhou
+JobTitle#==#
+Organization#==#Xianlin Road, #163, Nanjing, Jinagsu Province, China
+Abstract#==#In typical neural machine translation~(NMT), the decoder generates a sentence
+word by word, packing all linguistic granularities in the same time-scale of
+RNN. In this paper, we propose a new type of decoder for NMT, which splits the
+decode state into two parts and updates them in two different time-scales.
+Specifically, we first predict a chunk time-scale state for phrasal modeling,
+on top of which multiple word time-scale states are generated.
+In this way, the target sentence is translated hierarchically from chunks to
+words, with information in different granularities being leveraged.
+Experiments show that our proposed model significantly improves the translation
+performance over the state-of-the-art NMT model.
+Author{1}{Firstname}#=%=#Hao
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Email}#=%=#zhouh@nlp.nju.edu.cn
+Author{1}{Affiliation}#=%=#Nanjing University
+Author{2}{Firstname}#=%=#Zhaopeng
+Author{2}{Lastname}#=%=#Tu
+Author{2}{Email}#=%=#tuzhaopeng@gmail.com
+Author{2}{Affiliation}#=%=#Tencent AI Lab
+Author{3}{Firstname}#=%=#Shujian
+Author{3}{Lastname}#=%=#Huang
+Author{3}{Email}#=%=#huangshujian@gmail.com
+Author{3}{Affiliation}#=%=#Nanjing University
+Author{4}{Firstname}#=%=#Xiaohua
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#liuxiaohua3@huawei.com
+Author{4}{Affiliation}#=%=#Huawei Noah's Ark Lab
+Author{5}{Firstname}#=%=#Hang
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#hangli.hl@huawei.com
+Author{5}{Affiliation}#=%=#Huawei Technologies
+Author{6}{Firstname}#=%=#Jiajun
+Author{6}{Lastname}#=%=#Chen
+Author{6}{Email}#=%=#chenjj@nlp.nju.edu.cn
+Author{6}{Affiliation}#=%=#Nanjing University
+
+==========

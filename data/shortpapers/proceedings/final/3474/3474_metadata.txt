@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3474
+FinalPaperTitle#=%=#Question Answering through Transfer Learning from Large Fine-grained Supervision Data
+ShortPaperTitle#=%=#Question Answering through Transfer Learning from Large Fine-grained Supervision Data
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Sewon Min
+JobTitle#==#student
+Organization#==#Sewon Min, Seoul National University, Gwanak-gu, Seoul, South Korea
+Abstract#==#We show that the task of question answering (QA) can significantly benefit from
+the transfer learning of models trained on a different large, fine-grained QA
+dataset. We achieve the state of the art in two well-studied QA datasets,
+WikiQA and SemEval-2016 (Task 3A), through a basic transfer learning technique
+from SQuAD. For WikiQA, our model outperforms the previous best model by more
+than 8%. We demonstrate that finer supervision provides better guidance for
+learning lexical and syntactic information than coarser supervision, through
+quantitative results and visual analysis. We also show that a similar transfer
+learning procedure  achieves  the state of the art on an entailment task.
+Author{1}{Firstname}#=%=#Sewon
+Author{1}{Lastname}#=%=#Min
+Author{1}{Email}#=%=#shmsw25@snu.ac.kr
+Author{1}{Affiliation}#=%=#Seoul National University
+Author{2}{Firstname}#=%=#Minjoon
+Author{2}{Lastname}#=%=#Seo
+Author{2}{Email}#=%=#minjoon@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Hannaneh
+Author{3}{Lastname}#=%=#Hajishirzi
+Author{3}{Email}#=%=#hannaneh@washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+
+==========

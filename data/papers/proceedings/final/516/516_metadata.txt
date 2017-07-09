@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#516
+FinalPaperTitle#=%=#Tandem Anchoring: a Multiword Anchor Approach for Interactive Topic Modeling
+ShortPaperTitle#=%=#Tandem Anchoring: a Multiword Anchor Approach for Interactive Topic Modeling
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jeffrey Lund
+JobTitle#==#
+Organization#==#Brigham Young University
+Abstract#==#Interactive topic models are powerful tools
+for those seeking to understand large
+collections of text. However, existing
+sampling-based interactive topic modeling
+approaches scale poorly to large data sets.
+Anchor methods, which use a single word
+to uniquely identify a topic, offer the speed
+needed for interactive work but lack both
+a mechanism to inject prior knowledge
+and lack the intuitive semantics needed
+for user-facing applications. We propose
+combinations of words as anchors, go-
+ing beyond existing single word anchor
+algorithms—an approach we call “Tan-
+dem Anchors”. We begin with a synthetic
+investigation of this approach then apply
+the approach to interactive topic modeling
+in a user study and compare it to interac-
+tive and non-interactive approaches. Tan-
+dem anchors are faster and more intuitive
+than existing interactive approaches.
+Author{1}{Firstname}#=%=#Jeffrey
+Author{1}{Lastname}#=%=#Lund
+Author{1}{Email}#=%=#jefflund@gmail.com
+Author{1}{Affiliation}#=%=#Brigham Young University
+Author{2}{Firstname}#=%=#Connor
+Author{2}{Lastname}#=%=#Cook
+Author{2}{Email}#=%=#cojoco@gmail.com
+Author{2}{Affiliation}#=%=#Brigham Young University
+Author{3}{Firstname}#=%=#Kevin
+Author{3}{Lastname}#=%=#Seppi
+Author{3}{Email}#=%=#kseppi@byu.edu
+Author{3}{Affiliation}#=%=#Brigham Young University
+Author{4}{Firstname}#=%=#Jordan
+Author{4}{Lastname}#=%=#Boyd-Graber
+Author{4}{Email}#=%=#jordan.boyd.graber@colorado.edu
+Author{4}{Affiliation}#=%=#University of Colorado
+
+==========

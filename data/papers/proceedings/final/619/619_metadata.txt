@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#619
+FinalPaperTitle#=%=#A Corpus of Annotated Revisions for Studying Argumentative Writing
+ShortPaperTitle#=%=#A Corpus of Annotated Revisions for Studying Argumentative Writing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Fan Zhang
+JobTitle#==#
+Organization#==#Department of Computer Science, University of Pittsburgh
+210 S Bouquet St. Pittsburgh, PA
+Abstract#==#This paper presents ArgRewrite, a corpus of between-draft revisions of
+argumentative essays. Drafts are manually aligned at the sentence level, and
+the writer’s purpose for each revision is annotated with categories analogous
+to those used in argument mining and discourse analysis. The corpus should
+enable advanced research in writing comparison and revision analysis, as
+demonstrated via our own studies of student revision behavior and of automatic
+revision purpose prediction.
+Author{1}{Firstname}#=%=#Fan
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#faz23@pitt.edu
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Homa
+Author{2}{Lastname}#=%=#B. Hashemi
+Author{2}{Email}#=%=#hashemi@cs.pitt.edu
+Author{2}{Affiliation}#=%=#Intelligent Systems Program, University of Pittsburgh
+Author{3}{Firstname}#=%=#Rebecca
+Author{3}{Lastname}#=%=#Hwa
+Author{3}{Email}#=%=#hwa@cs.pitt.edu
+Author{3}{Affiliation}#=%=#University of Pittsburgh
+Author{4}{Firstname}#=%=#Diane
+Author{4}{Lastname}#=%=#Litman
+Author{4}{Email}#=%=#litman@cs.pitt.edu
+Author{4}{Affiliation}#=%=#University of Pittsburgh
+
+==========

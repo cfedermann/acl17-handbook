@@ -1,0 +1,126 @@
+%
+% File acl2017.tex
+%
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{CJKutf8}
+\usepackage{amssymb}
+\usepackage{slashbox}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{rotating}
+\usepackage{tablefootnote}
+
+% Ukrainian
+\usepackage[OT2,OT1]{fontenc}
+\newcommand\cyr
+{
+\renewcommand\rmdefault{wncyr} 
+\renewcommand\sfdefault{wncyss}
+\renewcommand\encodingdefault{OT2}
+\normalfont
+\selectfont
+}
+\DeclareTextFontCommand{\textcyr}{\cyr}
+\def\cprime{\char"7E }
+\def\cdprime{\char"7F }
+\def\eoborotnoye{\char’013}
+\def\Eoborotnoye{\char’003}
+
+\aclfinalcopy % Uncomment this line for the final submission
+\def\aclpaperid{71} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+\definecolor{Orange}{rgb}{1,0.5,0}
+\newcommand{\todo}[1]{\textsf{\textbf{\textcolor{red}{[[#1]]}}}}
+\newcommand{\toreview}[1]{\textsf{\textbf{\textcolor{cyan}{[[#1]]}}}}
+
+\title{Cross-lingual Name Tagging and Linking for 282 Languages}
+% Xiaoman Pan, Boliang Zhang, Jonathan May, Joel Nothman, Kevin Knight, Heng Ji
+
+% \author{First Author \\
+%   Affiliation / Address line 1 \\
+%   Affiliation / Address line 2 \\
+%   Affiliation / Address line 3 \\
+%   {\tt email@domain} \\\And
+%   Second Author \\
+%   Affiliation / Address line 1 \\
+%   Affiliation / Address line 2 \\
+%   Affiliation / Address line 3 \\
+%   {\tt email@domain} \\}
+
+\author{Xiaoman Pan$^{1}$, Boliang Zhang$^{1}$, Jonathan May$^{2}$,\\
+\textbf{Joel Nothman$^{3}$, Kevin Knight$^{2}$, Heng Ji$^{1}$}\\
+$^{1}$ Computer Science Department, Rensselaer Polytechnic Institute\\
+        {\tt \{panx2,zhangb8,jih\}@rpi.edu}\\
+$^{2}$ Information Sciences Institute, University of Southern California\\
+        {\tt \{jonmay,knight\}@isi.edu}\\
+$^{3}$ Sydney Informatics Hub, University of Sydney\\
+       {\tt joel.nothman@gmail.com}\\
+}
+
+
+% \date{}
+
+% Ying: uncomment the following lines
+\AtBeginShipout{
+	\ifnum\value{page}>1
+	\typeout{* Additional boxing of page `\thepage'}
+	\setbox\AtBeginShipoutBox=\hbox{\copy\AtBeginShipoutBox}
+	\fi
+}
+
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}
+\maketitle
+
+ \input{0abstract}
+\input{1introduction}
+\input{2extraction}
+\input{3linking}
+\input{4experiments}
+\input{5related}
+\input{6conclusion}
+% \section*{Acknowledgments}
+
+% Do not number the acknowledgment section.
+% This section should not be presented for the submission version.
+% \todo{make references format consistent}
+\section*{Acknowledgments}
+%Do not number the acknowledgment section.
+This work was supported by the U.S. DARPA LORELEI Program No. HR0011-15-C-0115, ARL/ARO MURI W911NF-10-1-0533, DARPA DEFT  No. FA8750-13-2-0041 and FA8750-13-2-0045, and NSF CAREER No. IIS-1523198. The views and conclusions contained in this document are those of the authors and should not be interpreted as  representing the official policies, either expressed or implied, of the U.S. Government. The U.S. Government is authorized to reproduce  and distribute reprints for Government purposes notwithstanding any copyright notation here on.
+
+\bibliography{acl2017}
+\bibliographystyle{acl2017}
+
+
+
+\clearpage\end{CJK*}
+\end{document}

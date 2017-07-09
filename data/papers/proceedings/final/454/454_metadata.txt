@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#454
+FinalPaperTitle#=%=#Doubly-Attentive Decoder for Multi-modal Neural Machine Translation
+ShortPaperTitle#=%=#Doubly-Attentive Decoder for Multi-modal Neural Machine Translation
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Iacer Calixto
+JobTitle#==#PhD student
+Organization#==#ADAPT Centre, Dublin City University, Glasnevin, Dublin 9, Dublin, Ireland.
+Abstract#==#We introduce a Multi-modal Neural Machine Translation model in which a
+doubly-attentive decoder naturally incorporates spatial visual features
+obtained using pre-trained convolutional neural networks, bridging the gap
+between image description and translation. Our decoder learns to attend to
+source-language words and parts of an image independently by means of two
+separate attention mechanisms as it generates words in the target language. We
+find that our model can efficiently exploit not just back-translated in-domain
+multi-modal data but also large general-domain text-only MT corpora. We also
+report state-of-the-art results on the Multi30k data set.
+Author{1}{Firstname}#=%=#Iacer
+Author{1}{Lastname}#=%=#Calixto
+Author{1}{Email}#=%=#calixto.iacer@gmail.com
+Author{1}{Affiliation}#=%=#Dublin City University
+Author{2}{Firstname}#=%=#Qun
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#qun.liu@dcu.ie
+Author{2}{Affiliation}#=%=#Dublin City University
+Author{3}{Firstname}#=%=#Nick
+Author{3}{Lastname}#=%=#Campbell
+Author{3}{Email}#=%=#nick@tcd.ie
+Author{3}{Affiliation}#=%=#Trinity College Dublin
+
+==========

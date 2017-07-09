@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#123
+FinalPaperTitle#=%=#Linguistic analysis of differences in portrayal of movie characters
+ShortPaperTitle#=%=#Linguistic analysis of differences in portrayal of movie characters
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Anil K Ramakrishna
+JobTitle#==#
+Organization#==#University of Southern California, Los Angeles, CA
+Abstract#==#We examine differences in portrayal of characters in movies using
+psycholinguistic and graph theoretic measures computed directly from
+screenplays. Differences are examined with respect to characters' gender, race,
+age and other metadata. Psycholinguistic metrics are extrapolated to dialogues
+in movies using a linear regression model built on a set of manually annotated
+seed words. Interesting patterns are revealed about relationships between
+genders of production team and the gender ratio of characters. Several
+correlations are noted between gender, race, age of characters and the
+linguistic metrics.
+Author{1}{Firstname}#=%=#Anil
+Author{1}{Lastname}#=%=#Ramakrishna
+Author{1}{Email}#=%=#akramakr@usc.edu
+Author{1}{Affiliation}#=%=#University of Southern California
+Author{2}{Firstname}#=%=#Victor R.
+Author{2}{Lastname}#=%=#Martínez
+Author{2}{Email}#=%=#victorrm@usc.edu
+Author{2}{Affiliation}#=%=#University of Southern California
+Author{3}{Firstname}#=%=#Nikolaos
+Author{3}{Lastname}#=%=#Malandrakis
+Author{3}{Email}#=%=#malandra@usc.edu
+Author{3}{Affiliation}#=%=#Signal Analysis and Interpretation Laboratory (SAIL), USC, Los Angeles, CA 90089, USA
+Author{4}{Firstname}#=%=#Karan
+Author{4}{Lastname}#=%=#Singla
+Author{4}{Email}#=%=#singlak@usc.edu
+Author{4}{Affiliation}#=%=#SAIL, University of Southern California
+Author{5}{Firstname}#=%=#Shrikanth
+Author{5}{Lastname}#=%=#Narayanan
+Author{5}{Email}#=%=#shri@sipi.usc.edu
+Author{5}{Affiliation}#=%=#University of Southern California
+
+==========

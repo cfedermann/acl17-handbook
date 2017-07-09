@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#319
+FinalPaperTitle#=%=#Learning to Generate Market Comments from Stock Prices
+ShortPaperTitle#=%=#Learning to Generate Market Comments from Stock Prices
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Soichiro Murakami
+JobTitle#==#
+Organization#==#Tokyo Institute of Technology
+4259 Nagatsuta Midori-ku Yokohama, JAPAN, 226-8503
+Abstract#==#This paper presents a novel encoder-decoder model for automatically generating
+market comments from stock prices. The model first encodes both short- and
+long-term series of stock prices so that it can mention short- and long-term
+changes in stock prices. In the decoding phase, our model can also generate a
+numerical value by selecting an appropriate arithmetic operation such as
+subtraction or rounding, and applying it to the input stock prices. Empirical
+experiments show that our best model generates market comments at the fluency
+and the informativeness approaching human-generated reference texts.
+Author{1}{Firstname}#=%=#Soichiro
+Author{1}{Lastname}#=%=#Murakami
+Author{1}{Email}#=%=#murakami@lr.pi.titech.ac.jp
+Author{1}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{2}{Firstname}#=%=#Akihiko
+Author{2}{Lastname}#=%=#Watanabe
+Author{2}{Email}#=%=#watanabe@lr.pi.titech.ac.jp
+Author{2}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{3}{Firstname}#=%=#Akira
+Author{3}{Lastname}#=%=#Miyazawa
+Author{3}{Email}#=%=#miyazawa-a@nii.ac.jp
+Author{3}{Affiliation}#=%=#the Graduate University for Advanced Studies
+Author{4}{Firstname}#=%=#Keiichi
+Author{4}{Lastname}#=%=#Goshima
+Author{4}{Email}#=%=#goshima.k.aa@trn.dis.titech.ac.jp
+Author{4}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{5}{Firstname}#=%=#Toshihiko
+Author{5}{Lastname}#=%=#Yanase
+Author{5}{Email}#=%=#toshihiko.yanase.gm@hitachi.com
+Author{5}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{6}{Firstname}#=%=#Hiroya
+Author{6}{Lastname}#=%=#Takamura
+Author{6}{Email}#=%=#takamura@pi.titech.ac.jp
+Author{6}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{7}{Firstname}#=%=#Yusuke
+Author{7}{Lastname}#=%=#Miyao
+Author{7}{Email}#=%=#yusuke@nii.ac.jp
+Author{7}{Affiliation}#=%=#National Instutite of Informatics
+
+==========

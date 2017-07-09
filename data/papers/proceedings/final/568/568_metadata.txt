@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#568
+FinalPaperTitle#=%=#Detecting annotation noise in automatically labelled data
+ShortPaperTitle#=%=#Detecting annotation noise in automatically labelled data
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ines Rehbein
+JobTitle#==#
+Organization#==#Leibniz ScienceCampus, IDS Mannheim/University of Heidelberg, Germany
+Abstract#==#We introduce a method for error detection in automatically annotated text,
+aimed at supporting the creation of high-quality language resources at
+affordable cost. Our method combines an unsupervised generative model with
+human supervision from active learning. We test our approach on in-domain and
+out-of-domain data in two languages, in AL simulations and in a real world
+setting. For all settings, the results show that our method is able to detect
+annotation errors with high precision and high recall.
+Author{1}{Firstname}#=%=#Ines
+Author{1}{Lastname}#=%=#Rehbein
+Author{1}{Email}#=%=#rehbein@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Leibniz ScienceCampus
+Author{2}{Firstname}#=%=#Josef
+Author{2}{Lastname}#=%=#Ruppenhofer
+Author{2}{Email}#=%=#ruppenhofer@ids-mannheim.de
+Author{2}{Affiliation}#=%=#Institute for German Language
+
+==========

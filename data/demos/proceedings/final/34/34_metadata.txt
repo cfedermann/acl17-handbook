@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#Olelo: A Question Answering Application for Biomedicine
+ShortPaperTitle#=%=#Olelo: A Question Answering Application for Biomedicine
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mariana Lara Neves
+JobTitle#==#
+Organization#==#Hasso Plattner Institute at the University of Potsdam
+August Bebel Strasse 88 
+Potsdam, Brandenburg, 14482 Germany
+Abstract#==#Despite the importance of the biomedical domain, there are few reliable
+applications to support researchers and physicians for retrieving particular
+facts that fit their needs. Users typically rely on search engines that only
+support keyword- and filter-based searches. We present Olelo, a question
+answering system for biomedicine. Olelo is built on top of an in-memory
+database, integrates domain resources, such as document collections and
+terminologies, and uses various natural
+language processing components. Olelo is fast, intuitive and easy to use. We
+evaluated the systems on two use cases: answering questions related to a
+particular gene and on the BioASQ benchmark.
+Olelo is available at: http://hpi.de/plattner/olelo.
+Author{1}{Firstname}#=%=#Mariana
+Author{1}{Lastname}#=%=#Neves
+Author{1}{Email}#=%=#marianalaraneves@gmail.com
+Author{1}{Affiliation}#=%=#Hasso Plattner Institute
+Author{2}{Firstname}#=%=#Hendrik
+Author{2}{Lastname}#=%=#Folkerts
+Author{2}{Email}#=%=#Hendrik.Folkerts@student.hpi.uni-potsdam.de
+Author{2}{Affiliation}#=%=#Hasso Plattner Institute
+Author{3}{Firstname}#=%=#Marcel
+Author{3}{Lastname}#=%=#Jankrift
+Author{3}{Email}#=%=#Marcel.Jankrift@student.hpi.uni-potsdam.de
+Author{3}{Affiliation}#=%=#Hasso Plattner Institute
+Author{4}{Firstname}#=%=#Julian
+Author{4}{Lastname}#=%=#Niedermeier
+Author{4}{Email}#=%=#Julian.Niedermeier@student.hpi.uni-potsdam.de
+Author{4}{Affiliation}#=%=#Hasso Plattner Institute
+Author{5}{Firstname}#=%=#Toni
+Author{5}{Lastname}#=%=#Stachewicz
+Author{5}{Email}#=%=#Toni.Stachewicz@student.hpi.uni-potsdam.de
+Author{5}{Affiliation}#=%=#Hasso Plattner Institute
+Author{6}{Firstname}#=%=#Sören
+Author{6}{Lastname}#=%=#Tietböhl
+Author{6}{Email}#=%=#Soeren.Tietboehl@student.hpi.uni-potsdam.de
+Author{6}{Affiliation}#=%=#Hasso Plattner Institute
+Author{7}{Firstname}#=%=#Milena
+Author{7}{Lastname}#=%=#Kraus
+Author{7}{Email}#=%=#Milena.Kraus@hpi.de
+Author{7}{Affiliation}#=%=#Hasso Plattner Institute
+Author{8}{Firstname}#=%=#Matthias
+Author{8}{Lastname}#=%=#Uflacker
+Author{8}{Email}#=%=#Matthias.Uflacker@hpi.de
+Author{8}{Affiliation}#=%=#Hasso Plattner Institute
+
+==========

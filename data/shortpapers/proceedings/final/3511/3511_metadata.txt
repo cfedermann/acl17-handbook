@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#3511
+FinalPaperTitle#=%=#EviNets: Neural Networks for Combining Evidence Signals for Factoid Question Answering
+ShortPaperTitle#=%=#EviNets: Neural Networks for Combining Evidence Signals for Factoid Question Answering
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Denis Savenkov
+JobTitle#==#
+Organization#==#
+Abstract#==#A critical task for question answering is the final answer selection stage,
+which has to combine multiple signals available about each answer candidate.
+This paper proposes EviNets: a novel neural network architecture for factoid
+question answering. EviNets scores candidate answer entities by combining the
+available supporting evidence, e.g., structured knowledge bases and
+unstructured text documents. EviNets represents each piece of evidence with a
+dense embeddings vector, scores their relevance to the question, and aggregates
+the support for each candidate to predict their final scores. Each of the
+components is generic and allows plugging in a variety of models for semantic
+similarity scoring and information aggregation. We demonstrate the
+effectiveness of EviNets in experiments on the existing TREC QA and WikiMovies
+benchmarks, and on the new Yahoo! Answers dataset introduced in this paper.
+EviNets can be extended to other information types and could facilitate future
+work on combining evidence signals for joint reasoning in question answering.
+Author{1}{Firstname}#=%=#Denis
+Author{1}{Lastname}#=%=#Savenkov
+Author{1}{Email}#=%=#dsavenk@emory.edu
+Author{1}{Affiliation}#=%=#Emory University
+Author{2}{Firstname}#=%=#Eugene
+Author{2}{Lastname}#=%=#Agichtein
+Author{2}{Email}#=%=#eugene@mathcs.emory.edu
+Author{2}{Affiliation}#=%=#Emory University
+
+==========

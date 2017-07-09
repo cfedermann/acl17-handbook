@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#54
+FinalPaperTitle#=%=#An Empirical Study on End-to-End Sentence Modelling
+ShortPaperTitle#=%=#An Empirical Study on End-to-End Sentence Modelling
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Kurt Junshean Espinosa
+JobTitle#==#
+Organization#==#University of Manchester
+Manchester, UK
+Abstract#==#Accurately representing the meaning of a piece of text, otherwise known as
+sentence modelling, is an important component in many natural language
+inference tasks. We survey the spectrum of these methods, which lie along two
+dimensions: input representation granularity and composition model complexity.
+Using this framework, we reveal in our quantitative and qualitative experiments
+the limitations of the current state-of-the-art model in the context of
+sentence similarity tasks.
+Author{1}{Firstname}#=%=#Kurt Junshean
+Author{1}{Lastname}#=%=#Espinosa
+Author{1}{Email}#=%=#kurtjunshean.espinosa@postgrad.manchester.ac.uk
+Author{1}{Affiliation}#=%=#University of the Manchester
+
+==========

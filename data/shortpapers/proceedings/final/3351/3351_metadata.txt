@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#3351
+FinalPaperTitle#=%=#Discourse Annotation of Non-native Spontaneous Spoken Responses Using the Rhetorical Structure Theory Framework
+ShortPaperTitle#=%=#Annotation of Non-native Speech Using RST
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Keelan Evanini
+JobTitle#==#
+Organization#==#Educational Testing Service, 660 Rosedale Rd., Princeton, NJ 08541, USA
+Abstract#==#The availability of the Rhetorical Structure Theory (RST) Discourse Treebank
+has spurred substantial research into discourse analysis of written texts;
+however, limited research has been conducted to date on RST annotation and
+parsing of spoken language, in particular, non-native spontaneous speech.
+Considering that the measurement of discourse coherence is typically a key
+metric in human scoring rubrics for assessments of spoken language, we
+initiated a research effort to obtain RST annotations of a large number of
+non-native spoken responses from a standardized assessment of academic English
+proficiency. The resulting inter-annotator kappa agreements on the three
+different levels of Span, Nuclearity, and Relation are 0.848, 0.766, and 0.653,
+respectively. Furthermore, a set of features was explored to evaluate the
+discourse structure of non-native spontaneous speech based on these
+annotations; the highest performing feature resulted in a correlation of 0.612
+with scores of discourse coherence provided by expert human raters.
+Author{1}{Firstname}#=%=#Xinhao
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#xwang002@ets.org
+Author{1}{Affiliation}#=%=#Educational Testing Service
+Author{2}{Firstname}#=%=#James
+Author{2}{Lastname}#=%=#Bruno
+Author{2}{Email}#=%=#jbruno@ets.org
+Author{2}{Affiliation}#=%=#Educational Testing Service
+Author{3}{Firstname}#=%=#Hillary
+Author{3}{Lastname}#=%=#Molloy
+Author{3}{Email}#=%=#hmolloy@ets.org
+Author{3}{Affiliation}#=%=#Educational Testing Service
+Author{4}{Firstname}#=%=#Keelan
+Author{4}{Lastname}#=%=#Evanini
+Author{4}{Email}#=%=#kevanini@ets.org
+Author{4}{Affiliation}#=%=#Educational Testing Service
+Author{5}{Firstname}#=%=#Klaus
+Author{5}{Lastname}#=%=#Zechner
+Author{5}{Email}#=%=#kzechner@ets.org
+Author{5}{Affiliation}#=%=#ETS
+
+==========

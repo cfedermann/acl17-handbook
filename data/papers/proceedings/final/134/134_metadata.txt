@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#134
+FinalPaperTitle#=%=#Neural End-to-End Learning for Computational Argumentation Mining
+ShortPaperTitle#=%=#Neural End-to-End Learning for Computational Argumentation Mining
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#SE
+JobTitle#==#
+Organization#==#TU Darmstadt - FB 20 
+Hochschulstraße 10 
+64289 Darmstadt
+Germany
+Abstract#==#We investigate neural techniques for end-to-end computational argumentation
+mining (AM). We frame AM both as a token-based dependency parsing and as a
+token-based sequence tagging problem, including a multi-task learning setup.
+Contrary to models that operate on the argument component level, we find that
+framing AM as dependency parsing leads to subpar performance results. In
+contrast, less complex (local) tagging models based on BiLSTMs perform robustly
+across classification scenarios, being able to catch long-range dependencies
+inherent to the AM problem. Moreover, we find that jointly
+learning `natural' subtasks, in a multi-task learning setup, improves
+performance.
+Author{1}{Firstname}#=%=#Steffen
+Author{1}{Lastname}#=%=#Eger
+Author{1}{Email}#=%=#eger.steffen@gmail.com
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Johannes
+Author{2}{Lastname}#=%=#Daxenberger
+Author{2}{Email}#=%=#daxenberger@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{3}{Firstname}#=%=#Iryna
+Author{3}{Lastname}#=%=#Gurevych
+Author{3}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

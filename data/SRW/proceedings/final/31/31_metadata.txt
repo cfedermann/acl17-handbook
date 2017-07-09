@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Blind Phoneme Segmentation With Temporal Prediction Errors
+ShortPaperTitle#=%=#Blind Phoneme Segmentation With Temporal Prediction Errors
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Paul Michel
+JobTitle#==#
+Organization#==#
+Abstract#==#Phonemic segmentation of speech is a critical step of speech recognition
+systems. We propose a novel unsupervised algorithm based on sequence prediction
+models such as Markov chains and recurrent neural networks. Our approach
+consists in analyzing the error profile of a model trained to predict speech
+features frame-by-frame.Specifically, we try to learn the dynamics of speech in
+the MFCC space and hypothesize boundaries from local maxima in the prediction
+error. We evaluate our system on the TIMIT dataset, with improvements over
+similar methods
+Author{1}{Firstname}#=%=#Paul
+Author{1}{Lastname}#=%=#Michel
+Author{1}{Email}#=%=#pmichel1@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Okko
+Author{2}{Lastname}#=%=#Räsänen
+Author{2}{Email}#=%=#okko.rasanen@aalto.fi
+Author{2}{Affiliation}#=%=#Aalto University
+Author{3}{Firstname}#=%=#Roland
+Author{3}{Lastname}#=%=#Thiolliere
+Author{3}{Email}#=%=#rolthiolliere@gmail.com
+Author{3}{Affiliation}#=%=#Ecole Normale Supérieur
+Author{4}{Firstname}#=%=#Emmanuel
+Author{4}{Lastname}#=%=#Dupoux
+Author{4}{Email}#=%=#emmanuel.dupoux@gmail.com
+Author{4}{Affiliation}#=%=#Ecole des Hautes Etudes en Sciences Sociales
+
+==========

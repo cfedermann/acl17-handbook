@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#506
+FinalPaperTitle#=%=#Cross-lingual Distillation for Text Classification
+ShortPaperTitle#=%=#Cross-lingual Distillation for Text Classification
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ruochen Xu
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA 15213
+Abstract#==#Cross-lingual text classification(CLTC) is the task of classifying documents
+written in different languages into the same taxonomy of categories. 
+This paper presents a novel approach to CLTC that builds on model distillation,
+which adapts and extends a framework originally proposed for model compression.
+Using soft probabilistic predictions for the documents in a label-rich language
+as the (induced) supervisory labels in a parallel corpus of documents, we train
+classifiers successfully for new languages in which labeled training data are
+not available. An adversarial feature adaptation technique is also applied
+during the model training to reduce distribution mismatch. We conducted
+experiments on two benchmark CLTC datasets, treating English as the source
+language and German, French, Japan and Chinese as the unlabeled target
+languages. The proposed approach had the advantageous or comparable performance
+of the other state-of-art methods.
+Author{1}{Firstname}#=%=#Ruochen
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#ruochenx@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Yiming
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#yiming@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

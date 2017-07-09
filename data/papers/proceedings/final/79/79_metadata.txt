@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#79
+FinalPaperTitle#=%=#An Interpretable Knowledge Transfer Model for Knowledge Base Completion
+ShortPaperTitle#=%=#An Interpretable Knowledge Transfer Model for Knowledge Base Completion
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Qizhe Xie
+JobTitle#==#
+Organization#==#carnegie mellon university.  5000 Forbes Avenue Pittsburgh, PA 15213
+Abstract#==#Knowledge bases are important resources for a variety of natural language
+processing tasks but suffer from incompleteness. We propose a novel embedding
+model, ITransF, to perform knowledge base completion. Equipped with a
+sparse attention mechanism, ITransF discovers hidden concepts of relations and
+transfer statistical strength through the sharing of concepts. Moreover, the
+learned associations between relations and concepts, which are represented by
+sparse attention vectors, can be interpreted easily.
+We evaluate ITransF on two benchmark datasets---WN18 and FB15k for knowledge
+base completion and obtains improvements on both the mean rank and Hits@10
+metrics, over all baselines that do not use additional information.
+Author{1}{Firstname}#=%=#Qizhe
+Author{1}{Lastname}#=%=#Xie
+Author{1}{Email}#=%=#qzxie@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Xuezhe
+Author{2}{Lastname}#=%=#Ma
+Author{2}{Email}#=%=#xuezhem@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Language Technologies Institute, Carnegie Mellon University
+Author{3}{Firstname}#=%=#Zihang
+Author{3}{Lastname}#=%=#Dai
+Author{3}{Email}#=%=#zander.dai@gmail.com
+Author{3}{Affiliation}#=%=#CMU
+Author{4}{Firstname}#=%=#Eduard
+Author{4}{Lastname}#=%=#Hovy
+Author{4}{Email}#=%=#hovy@cmu.edu
+Author{4}{Affiliation}#=%=#CMU
+
+==========

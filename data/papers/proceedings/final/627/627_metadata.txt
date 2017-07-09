@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#627
+FinalPaperTitle#=%=#Towards End-to-End Reinforcement Learning of Dialogue Agents for Information Access
+ShortPaperTitle#=%=#Towards End-to-End RL of Dialogue Agents for Information Access
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Bhuwan Dhingra
+JobTitle#==#
+Organization#==#Carnegie Mellon University,
+5000 Forbes Ave, Pittsburgh, PA-15213, USA
+Abstract#==#This paper proposes KB-InfoBot - a multi-turn dialogue agent which helps users
+search Knowledge Bases (KBs) without composing complicated queries. Such
+goal-oriented dialogue agents typically need to interact with an external
+database to access real-world knowledge. Previous systems achieved this by
+issuing a symbolic query to the KB to retrieve entries based on their
+attributes. However, such symbolic operations break the differentiability of
+the system and prevent end-to-end training of neural dialogue agents. In this
+paper, we address this limitation by replacing symbolic queries with an induced
+``soft'' posterior distribution over the KB that indicates which entities the
+user is interested in. Integrating the soft retrieval process with a
+reinforcement learner leads to higher task success rate and reward in both
+simulations and against real users. We also present a fully neural end-to-end
+agent, trained entirely from user feedback, and discuss its application towards
+personalized dialogue agents.
+Author{1}{Firstname}#=%=#Bhuwan
+Author{1}{Lastname}#=%=#Dhingra
+Author{1}{Email}#=%=#bdhingra@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Lihong
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#lihongli@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Xiujun
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#xiul@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Redmond
+Author{4}{Firstname}#=%=#Jianfeng
+Author{4}{Lastname}#=%=#Gao
+Author{4}{Email}#=%=#jfgao@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research, Redmond
+Author{5}{Firstname}#=%=#Yun-Nung
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Email}#=%=#y.v.chen@ieee.org
+Author{5}{Affiliation}#=%=#National Taiwan University
+Author{6}{Firstname}#=%=#Faisal
+Author{6}{Lastname}#=%=#Ahmed
+Author{6}{Email}#=%=#fiahmed@microsoft.com
+Author{6}{Affiliation}#=%=#Microsoft Research
+Author{7}{Firstname}#=%=#Li
+Author{7}{Lastname}#=%=#Deng
+Author{7}{Email}#=%=#deng@microsoft.com
+Author{7}{Affiliation}#=%=#Microsoft Research
+
+==========

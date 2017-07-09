@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#343
+FinalPaperTitle#=%=#Neural Word Segmentation with Rich Pretraining
+ShortPaperTitle#=%=#Neural Word Segmentation with Rich Pretraining
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Neural word segmentation research has benefited from large-scale raw texts by
+leveraging them for pretraining character and word embeddings. On the other
+hand, statistical segmentation research has exploited richer sources of
+external information, such as punctuation, automatic segmentation and POS. We
+investigate the effectiveness of a range of external training sources for
+neural word segmentation by building a modular segmentation model, pretraining
+the most important submodule using rich external sources. Results show that
+such pretraining significantly improves the model, leading to accuracies
+competitive to the best methods on six benchmarks.
+Author{1}{Firstname}#=%=#Jie
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#jie_yang@mymail.sutd.edu.sg
+Author{1}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{3}{Firstname}#=%=#Fei
+Author{3}{Lastname}#=%=#Dong
+Author{3}{Email}#=%=#fei_dong@mymail.sutd.edu.sg
+Author{3}{Affiliation}#=%=#Singapore University of Technology & Design
+
+==========

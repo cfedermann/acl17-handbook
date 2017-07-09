@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#3162
+FinalPaperTitle#=%=#Temporal Word Analogies: Identifying Lexical Replacement with Diachronic Word Embeddings
+ShortPaperTitle#=%=#Temporal Word Analogies: Identifying Lexical Replacement with Diachronic Word Embeddings
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Terrence Szymanski
+JobTitle#==#
+Organization#==#Insight Centre for Data Analytics
+University College Dublin
+Belfield, Dublin 4, Ireland
+Abstract#==#This paper introduces the concept of temporal word analogies: pairs of words
+which occupy the same semantic space at different points in time. One
+well-known property of word embeddings is that they are able to effectively
+model traditional word analogies (“word w1 is to word w2 as word w3 is to
+word w4”) through vector addition. Here, I show that temporal word analogies
+(“word w1 at time tα is like word w2 at time tβ”) can effectively be
+modeled with diachronic word embeddings, provided that the independent
+embedding spaces from each time period are appropriately transformed into a
+common vector space. When applied to a diachronic corpus of news articles, this
+method is able to identify temporal word analogies such as “Ronald Reagan in
+1987 is like Bill Clinton in 1997”, or “Walkman in 1987 is like iPod in
+2007”.
+Author{1}{Firstname}#=%=#Terrence
+Author{1}{Lastname}#=%=#Szymanski
+Author{1}{Email}#=%=#terrence.szymanski@insight-centre.org
+Author{1}{Affiliation}#=%=#Insight Centre for Data Analytics, University College Dublin
+
+==========

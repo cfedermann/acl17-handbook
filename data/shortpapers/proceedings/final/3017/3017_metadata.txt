@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3017
+FinalPaperTitle#=%=#English Event Detection With Translated Language Features
+ShortPaperTitle#=%=#English Event Detection With Translated Language Features
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sam Wei
+JobTitle#==#
+Organization#==#University of Sydney
+City Road, Camperdown 
+NSW 2006 Australia
+Abstract#==#We propose novel radical features from automatic translation for event
+extraction.
+Event detection is a complex language processing task for which it is expensive
+to collect training data, making generalisation challenging. 
+We derive meaningful subword features from automatic translations into target
+language.
+Results suggest this method is particularly useful when using languages with
+writing systems that facilitate easy decomposition into subword features, e.g.,
+logograms and Cangjie.
+The best result combines logogram features from Chinese and Japanese with
+syllable features from Korean, providing an additional 3.0 points f-score when
+added to state-of-the-art generalisation features on the TAC KBP 2015 Event
+Nugget task.
+Author{1}{Firstname}#=%=#Sam
+Author{1}{Lastname}#=%=#Wei
+Author{1}{Email}#=%=#swei4829@uni.sydney.edu.au
+Author{1}{Affiliation}#=%=#University of Sydney
+Author{2}{Firstname}#=%=#Igor
+Author{2}{Lastname}#=%=#Korostil
+Author{2}{Email}#=%=#eeghor@gmail.com
+Author{2}{Affiliation}#=%=#TEG Analytics
+Author{3}{Firstname}#=%=#Joel
+Author{3}{Lastname}#=%=#Nothman
+Author{3}{Email}#=%=#joel.nothman@gmail.com
+Author{3}{Affiliation}#=%=#University of Sydney
+Author{4}{Firstname}#=%=#Ben
+Author{4}{Lastname}#=%=#Hachey
+Author{4}{Email}#=%=#ben.hachey@gmail.com
+Author{4}{Affiliation}#=%=#University of Sydney
+
+==========

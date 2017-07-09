@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3457
+FinalPaperTitle#=%=#Character-Aware Neural Morphological Disambiguation
+ShortPaperTitle#=%=#Character-Aware Neural Morphological Disambiguation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Aibek Makazhanov
+JobTitle#==#
+Organization#==#
+Abstract#==#We develop a language-independent, deep learning-based approach to the task of
+morphological disambiguation.
+Guided by the intuition that the correct analysis should be ``most similar'' to
+the context, we propose dense representations for morphological analyses and
+surface context and a simple yet effective way of combining the two to perform
+disambiguation.
+Our approach improves on the language-dependent state of the art for two
+agglutinative languages (Turkish and Kazakh) and can be potentially applied to
+other morphologically complex languages.
+Author{1}{Firstname}#=%=#Alymzhan
+Author{1}{Lastname}#=%=#Toleu
+Author{1}{Email}#=%=#alymzhan.toleu@gmail.com
+Author{1}{Affiliation}#=%=#National Laboratory Astana
+Author{2}{Firstname}#=%=#Gulmira
+Author{2}{Lastname}#=%=#Tolegen
+Author{2}{Email}#=%=#gulmira.tolegen.cs@gmail.com
+Author{2}{Affiliation}#=%=#National Laboratory Astana
+Author{3}{Firstname}#=%=#Aibek
+Author{3}{Lastname}#=%=#Makazhanov
+Author{3}{Email}#=%=#aibek.makazhanov@nu.edu.kz
+Author{3}{Affiliation}#=%=#National Laboratory Astana
+
+==========

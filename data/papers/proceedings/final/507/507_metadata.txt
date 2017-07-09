@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#507
+FinalPaperTitle#=%=#Riemannian Optimization for Skip-Gram Negative Sampling
+ShortPaperTitle#=%=#Riemannian Optimization for Skip-Gram Negative Sampling
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Alexander Fonarev
+JobTitle#==#
+Organization#==#
+Abstract#==#Skip-Gram Negative Sampling (SGNS) word embedding model, well known by its
+implementation in ``word2vec'' software, is usually optimized by stochastic
+gradient descent. However, the optimization of SGNS objective can be viewed as
+a problem of searching for a good matrix with the low-rank constraint. The most
+standard way to solve this type of problems is to apply Riemannian optimization
+framework to optimize the SGNS objective over the manifold of required low-rank
+matrices. In this paper, we propose an algorithm that optimizes SGNS objective
+using Riemannian optimization and demonstrates its superiority over popular
+competitors, such as the original method to train SGNS and SVD over SPPMI
+matrix.
+Author{1}{Firstname}#=%=#Alexander
+Author{1}{Lastname}#=%=#Fonarev
+Author{1}{Email}#=%=#newo@newo.su
+Author{1}{Affiliation}#=%=#Skolkovo Institute of Science and Technology, Yandex LLC, SBDA Group
+Author{2}{Firstname}#=%=#Oleksii
+Author{2}{Lastname}#=%=#Grinchuk
+Author{2}{Email}#=%=#oleksii.hrinchuk@skolkovotech.ru
+Author{2}{Affiliation}#=%=#Skolkovo Institute of Science and Technology, Yandex LLC
+Author{3}{Firstname}#=%=#Gleb
+Author{3}{Lastname}#=%=#Gusev
+Author{3}{Email}#=%=#gleb57@yandex-team.ru
+Author{3}{Affiliation}#=%=#Yandex LLC, Moscow Institute of Physics and Technology
+Author{4}{Firstname}#=%=#Pavel
+Author{4}{Lastname}#=%=#Serdyukov
+Author{4}{Email}#=%=#pavser@yandex-team.ru
+Author{4}{Affiliation}#=%=#Yandex LLC
+Author{5}{Firstname}#=%=#Ivan
+Author{5}{Lastname}#=%=#Oseledets
+Author{5}{Email}#=%=#ioseledets@skoltech.ru
+Author{5}{Affiliation}#=%=#Skolkovo Institute of Science and Technology, Institute of Numerical Mathematics of Russian Academy of Sciences
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#741
+FinalPaperTitle#=%=#Automatic Induction of Synsets from a Graph of Synonyms
+ShortPaperTitle#=%=#Automatic Induction of Synsets from a Graph of Synonyms
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Alexander Panchenko
+JobTitle#==#
+Organization#==#University of Hamburg
+Faculty of Mathematics, Informatics and Natural Sciences
+Department of Informatics, Language Technology Group 
+Vogt-Kölln-Str. 30, F-416, 22527 Hamburg
+Tel: +49 40 428 832 368
+Abstract#==#This paper presents a new graph-based approach that induces synsets using
+synonymy dictionaries and word embeddings. First, we build a weighted graph of
+synonyms extracted from commonly available resources, such as Wiktionary.
+Second, we apply word sense induction to deal with ambiguous words. Finally, we
+cluster the disambiguated version of the ambiguous input graph into synsets.
+Our meta-clustering approach lets us use an efficient hard clustering algorithm
+to perform a fuzzy clustering of the graph. Despite its simplicity, our
+approach shows excellent results, outperforming five competitive
+state-of-the-art methods in terms of F-score on three gold standard datasets
+for English and Russian derived from large-scale manually constructed lexical
+resources.
+Author{1}{Firstname}#=%=#Dmitry
+Author{1}{Lastname}#=%=#Ustalov
+Author{1}{Email}#=%=#dmitry.ustalov@gmail.com
+Author{1}{Affiliation}#=%=#Krasovskii Institute of Mathematics and Mechanics
+Author{2}{Firstname}#=%=#Alexander
+Author{2}{Lastname}#=%=#Panchenko
+Author{2}{Email}#=%=#panchenko.alexander@gmail.com
+Author{2}{Affiliation}#=%=#University of Hamburg
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Biemann
+Author{3}{Email}#=%=#biemann@informatik.uni-hamburg.de
+Author{3}{Affiliation}#=%=#University of Hamburg
+
+==========

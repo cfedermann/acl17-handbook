@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#494
+FinalPaperTitle#=%=#Morph-fitting: Fine-Tuning Word Vector Spaces with Simple Language-Specific Rules
+ShortPaperTitle#=%=#Morph-fitting: Fine-Tuning Word Vector Spaces with Simple Language-Specific Rules
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Ivan Vulić
+JobTitle#==#Research Associate
+Organization#==#Language Technology Lab, DTAL, University of Cambridge, 9 West Road, CB3 9DP, Cambridge, United Kingdom
+Abstract#==#Morphologically rich languages accentuate two properties of distributional
+vector space models: 1) the difficulty of inducing accurate representations for
+low-frequency word forms; and 2) insensitivity to distinct lexical relations
+that have similar distributional signatures. These effects are detrimental for
+language understanding systems, which may infer that  'inexpensive' is a
+rephrasing for 'expensive' or may not associate 'acquire' with 'acquires'. In
+this work, we propose a novel morph-fitting procedure which moves past the use
+of curated semantic lexicons for improving distributional vector spaces.
+Instead, our method injects morphological constraints generated using simple
+language-specific rules, pulling inflectional forms of the same word close
+together and pushing derivational antonyms far apart. In intrinsic evaluation
+over four languages, we show that our approach: 1) improves low-frequency word
+estimates; and 2) boosts the semantic quality of the entire word vector
+collection. Finally, we show that morph-fitted vectors yield large gains in the
+downstream task of dialogue state tracking, highlighting the importance of
+morphology for tackling long-tail phenomena in language understanding tasks.
+Author{1}{Firstname}#=%=#Ivan
+Author{1}{Lastname}#=%=#Vulić
+Author{1}{Email}#=%=#iv250@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Nikola
+Author{2}{Lastname}#=%=#Mrkšić
+Author{2}{Email}#=%=#nikola.mrksic@gmail.com
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Roi
+Author{3}{Lastname}#=%=#Reichart
+Author{3}{Email}#=%=#roireichart@gmail.com
+Author{3}{Affiliation}#=%=#Technion - Israel Institute of Technology
+Author{4}{Firstname}#=%=#Diarmuid
+Author{4}{Lastname}#=%=#Ó Séaghdha
+Author{4}{Email}#=%=#do242@cam.ac.uk
+Author{4}{Affiliation}#=%=#Apple
+Author{5}{Firstname}#=%=#Steve
+Author{5}{Lastname}#=%=#Young
+Author{5}{Email}#=%=#sjy@eng.cam.ac.uk
+Author{5}{Affiliation}#=%=#Cambridge University
+Author{6}{Firstname}#=%=#Anna
+Author{6}{Lastname}#=%=#Korhonen
+Author{6}{Email}#=%=#anna.korhonen@cl.cam.ac.uk
+Author{6}{Affiliation}#=%=#University of Cambridge
+
+==========

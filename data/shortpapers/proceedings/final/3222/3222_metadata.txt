@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#3222
+FinalPaperTitle#=%=#Incorporating Uncertainty into Deep Learning for Spoken Language Assessment
+ShortPaperTitle#=%=#Incorporating Uncertainty into Deep Learning for Spoken Language Assessment
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Andrey Malinin
+JobTitle#==#
+Organization#==#University of Cambridge, Department of Engineering
+  
+Trumpington St, Cambridge CB2 1PZ, UK
+Abstract#==#There is a growing demand for automatic assessment of spoken English
+proficiency. These systems need to handle large variations in input
+data owing to the wide range of candidate skill levels and L1s, and
+errors from ASR. Some candidates will be a poor match
+to the training data set, undermining the validity of the predicted grade. For
+high stakes tests it is essential for such systems not only to grade well, but
+also to provide a measure
+of their uncertainty in their predictions, enabling rejection to human
+graders. Previous work examined Gaussian Process (GP) graders which, though
+successful, do not scale well with large data sets. Deep Neural Network (DNN)
+may also be used to provide uncertainty using Monte-Carlo Dropout (MCD). This
+paper proposes a novel method to yield uncertainty and compares it to GPs and
+DNNs with MCD. The proposed approach explicitly teaches a DNN to have low
+uncertainty on training data and high uncertainty on generated artificial data.
+On experiments conducted on data from the Business Language Testing Service
+(BULATS), the proposed approach is found to outperform GPs and DNNs with MCD in
+uncertainty-based rejection whilst achieving comparable grading performance.
+Author{1}{Firstname}#=%=#Andrey
+Author{1}{Lastname}#=%=#Malinin
+Author{1}{Email}#=%=#am969@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Anton
+Author{2}{Lastname}#=%=#Ragni
+Author{2}{Email}#=%=#ar527@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Kate
+Author{3}{Lastname}#=%=#Knill
+Author{3}{Email}#=%=#kate.knill@ieee.org
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#Mark
+Author{4}{Lastname}#=%=#Gales
+Author{4}{Email}#=%=#mjfg@eng.cam.ac.uk
+Author{4}{Affiliation}#=%=#Cambridge University
+
+==========

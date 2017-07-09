@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#Chunk-based Decoder for Neural Machine Translation
+ShortPaperTitle#=%=#Chunk-based Decoder for Neural Machine Translation
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Shonosuke Ishiwatari
+JobTitle#==#
+Organization#==#The University of Tokyo
+Abstract#==#Chunks (or phrases) once played a pivotal role in machine translation. By using
+a chunk rather than a word as the basic translation unit, local (intra-chunk)
+and global (inter-chunk) word orders and dependencies can be easily modeled.
+The chunk structure, despite its importance, has not been considered in the
+decoders used for neural machine translation (NMT). In this paper, we propose
+chunk-based decoders for (NMT), each of which consists of a chunk-level decoder
+and a word-level decoder. The chunk-level decoder models global dependencies
+while the word-level decoder decides the local word order in a chunk. To output
+a target sentence, the chunk-level decoder generates a chunk representation
+containing global information, which the word-level decoder then uses as a
+basis to predict the words inside the chunk. Experimental results show that our
+proposed decoders can significantly improve translation performance in a WAT
+'16 English-to-Japanese translation task.
+Author{1}{Firstname}#=%=#Shonosuke
+Author{1}{Lastname}#=%=#Ishiwatari
+Author{1}{Email}#=%=#ishiwatari@tkl.iis.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Jingtao
+Author{2}{Lastname}#=%=#Yao
+Author{2}{Email}#=%=#yjt1995@sjtu.edu.cn
+Author{2}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{3}{Firstname}#=%=#Shujie
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#shujliu@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Asia
+Author{4}{Firstname}#=%=#Mu
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#muli@microsoft.com
+Author{4}{Affiliation}#=%=#
+Author{5}{Firstname}#=%=#Ming
+Author{5}{Lastname}#=%=#Zhou
+Author{5}{Email}#=%=#mingzhou@microsoft.com
+Author{5}{Affiliation}#=%=#microsoft research asia
+Author{6}{Firstname}#=%=#Naoki
+Author{6}{Lastname}#=%=#Yoshinaga
+Author{6}{Email}#=%=#ynaga@tkl.iis.u-tokyo.ac.jp
+Author{6}{Affiliation}#=%=#Institute of Industrial Science, the University of Tokyo
+Author{7}{Firstname}#=%=#Masaru
+Author{7}{Lastname}#=%=#Kitsuregawa
+Author{7}{Email}#=%=#kitsure@tkl.iis.u-tokyo.ac.jp
+Author{7}{Affiliation}#=%=#National Institute of Informatics, Japan
+Author{8}{Firstname}#=%=#Weijia
+Author{8}{Lastname}#=%=#Jia
+Author{8}{Email}#=%=#jia-wj@cs.sjtu.edu.cn
+Author{8}{Affiliation}#=%=#Shanghai Jiao Tong University
+
+==========

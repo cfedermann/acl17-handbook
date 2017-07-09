@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#763
+FinalPaperTitle#=%=#Bayesian Modeling of Lexical Resources for Low-Resource Settings
+ShortPaperTitle#=%=#Bayesian Modeling of Lexical Resources for Low-Resource Settings
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Nicholas Andrews
+JobTitle#==#
+Organization#==#Johns Hopkins University
+Baltimore, MD
+Abstract#==#Lexical resources such as dictionaries and gazetteers are often used
+as auxiliary data for tasks such as part-of-speech induction and named-entity
+recognition. However, discriminative training with lexical features requires
+annotated data to reliably estimate the lexical feature weights and may result
+in overfitting the lexical features at the expense of features which generalize
+better.
+In this paper, we investigate a more robust approach: we stipulate
+that the lexicon is the result of an assumed generative
+process. Practically, this means that we may treat the lexical
+resources as observations under the proposed generative model.
+The lexical resources provide training data for the generative model
+without requiring separate data to estimate lexical feature
+weights. We evaluate the proposed approach in two settings:
+part-of-speech induction and low-resource named-entity recognition.
+Author{1}{Firstname}#=%=#Nicholas
+Author{1}{Lastname}#=%=#Andrews
+Author{1}{Email}#=%=#noa@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dredze
+Author{2}{Email}#=%=#mdredze@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Benjamin
+Author{3}{Lastname}#=%=#Van Durme
+Author{3}{Email}#=%=#vandurme@cs.jhu.edu
+Author{3}{Affiliation}#=%=#JHU
+Author{4}{Firstname}#=%=#Jason
+Author{4}{Lastname}#=%=#Eisner
+Author{4}{Email}#=%=#jason@cs.jhu.edu
+Author{4}{Affiliation}#=%=#Johns Hopkins University
+
+==========

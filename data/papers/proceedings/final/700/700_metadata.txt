@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#700
+FinalPaperTitle#=%=#Diversity driven attention model for query-based abstractive summarization
+ShortPaperTitle#=%=#Diversity driven attention model for query-based abstractive summarization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mitesh M Khapra
+JobTitle#==#
+Organization#==#
+Abstract#==#Abstractive summarization aims to generate a shorter version of the document
+covering all the salient points in a compact and coherent fashion. On the other
+hand, query-based summarization highlights those points that are relevant in
+the context of a given query. The encode-attend-decode paradigm has achieved
+notable success in machine translation, extractive summarization, dialog
+systems, etc. But it suffers from the drawback of generation of repeated
+phrases. In this work we propose a model for the query-based summarization task
+based on the encode-attend-decode paradigm with two key additions (i) a query
+attention model (in addition to document attention model) which learns to focus
+on different portions of the query at different time steps (instead of using a
+static representation for the query) and (ii) a new diversity based attention
+model which aims to alleviate the problem of repeating phrases in the summary.
+In order to enable the testing of this model we introduce a new query-based
+summarization dataset building on debatepedia. Our experiments show that with
+these two additions the proposed model clearly outperforms vanilla
+encode-attend-decode models with a gain of 28\% (absolute) in ROUGE-L scores.
+Author{1}{Firstname}#=%=#Preksha
+Author{1}{Lastname}#=%=#Nema
+Author{1}{Email}#=%=#cs15m036@smail.iitm.ac.in
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Madras
+Author{2}{Firstname}#=%=#Mitesh M.
+Author{2}{Lastname}#=%=#Khapra
+Author{2}{Email}#=%=#miteshk@cse.iitm.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Madras
+Author{3}{Firstname}#=%=#Anirban
+Author{3}{Lastname}#=%=#Laha
+Author{3}{Email}#=%=#anirlaha@in.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research India
+Author{4}{Firstname}#=%=#Balaraman
+Author{4}{Lastname}#=%=#Ravindran
+Author{4}{Email}#=%=#ravi@cse.iitm.ac.in
+Author{4}{Affiliation}#=%=#Indian Institute of Technology Madras
+
+==========

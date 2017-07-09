@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#3211
+FinalPaperTitle#=%=#Lexical Features in Coreference Resolution: To be Used With Caution
+ShortPaperTitle#=%=#Lexical Features in Coreference Resolution: To be Used With Caution
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nafise Sadat Moosavi
+JobTitle#==#
+Organization#==#
+Abstract#==#Lexical features are a major source of information in state-of-the-art
+coreference resolvers. Lexical features implicitly model some of the linguistic
+phenomena at a fine granularity level. They are especially useful for
+representing the context of mentions. In this paper we investigate a drawback
+of using many lexical features in state-of-the-art coreference resolvers. We
+show that if coreference resolvers mainly rely on lexical features, they can
+hardly generalize to unseen domains. Furthermore, we show that the current
+coreference resolution evaluation is clearly flawed by only evaluating on a
+specific split of a specific dataset in which there is a notable overlap
+between the training, development and test sets.
+Author{1}{Firstname}#=%=#Nafise Sadat
+Author{1}{Lastname}#=%=#Moosavi
+Author{1}{Email}#=%=#ns.moosavi@gmail.com
+Author{1}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Strube
+Author{2}{Email}#=%=#michael.strube@h-its.org
+Author{2}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+
+==========

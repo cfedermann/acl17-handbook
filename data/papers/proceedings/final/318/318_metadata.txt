@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#318
+FinalPaperTitle#=%=#Improved Word Representation Learning with Sememes
+ShortPaperTitle#=%=#Improved Word Representation Learning with Sememes
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yilin Niu
+JobTitle#==#
+Organization#==#Tsinghua University
+Tsinghua University, Haidian District, Beijing, 100084, China
+Abstract#==#Sememes are minimum semantic units of word meanings, and the meaning of each
+word sense is typically composed by several sememes. Since sememes are not
+explicit for each word, people manually annotate word sememes and form
+linguistic common-sense knowledge bases. In this paper, we present that, word
+sememe information can improve word representation learning (WRL), which maps
+words into a low-dimensional semantic space and serves as a fundamental step
+for many NLP tasks. The key idea is to utilize word sememes to capture exact
+meanings of a word within specific contexts accurately. More specifically, we
+follow the framework of Skip-gram and present three sememe-encoded models to
+learn representations of sememes, senses and words, where we apply the
+attention scheme to detect word senses in various contexts. We conduct
+experiments on two tasks including word similarity and word analogy, and our
+models significantly outperform baselines. The results indicate that WRL can
+benefit from sememes via the attention scheme, and also confirm our models
+being capable of correctly modeling sememe information.
+Author{1}{Firstname}#=%=#Yilin
+Author{1}{Lastname}#=%=#Niu
+Author{1}{Email}#=%=#niuyl14j@gmail.com
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Ruobing
+Author{2}{Lastname}#=%=#Xie
+Author{2}{Email}#=%=#xrbsnowing@163.com
+Author{2}{Affiliation}#=%=#Tsinghua University
+Author{3}{Firstname}#=%=#Zhiyuan
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#liuzy@tsinghua.edu.cn
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#Maosong
+Author{4}{Lastname}#=%=#Sun
+Author{4}{Email}#=%=#sms@tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#
+
+==========

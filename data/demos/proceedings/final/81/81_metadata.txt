@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#81
+FinalPaperTitle#=%=#WebChild 2.0 : Fine-Grained Commonsense Knowledge Distillation
+ShortPaperTitle#=%=#WebChild 2.0 : Fine-Grained Commonsense Knowledge Distillation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Niket Tandon
+JobTitle#==#
+Organization#==#Allen Institute for Artificial Intelligence,  2157 N Northlake Way, Seattle, WA 98103
+Abstract#==#Despite important progress in the area of intelligent systems, most such
+systems still lack commonsense knowledge that appears crucial for enabling
+smarter, more human-like decisions. In this paper, we present a system based on
+a series of algorithms to distill fine-grained disambiguated commonsense
+knowledge from massive amounts of text. Our WebChild 2.0 knowledge base is one
+of
+the largest commonsense knowledge bases available, describing over 2 million
+disambiguated concepts and activities, connected by over 18 million assertions.
+Author{1}{Firstname}#=%=#Niket
+Author{1}{Lastname}#=%=#Tandon
+Author{1}{Email}#=%=#nikett@allenai.org
+Author{1}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{2}{Firstname}#=%=#Gerard
+Author{2}{Lastname}#=%=#de Melo
+Author{2}{Email}#=%=#gdm@demelo.org
+Author{2}{Affiliation}#=%=#Rutgers University
+Author{3}{Firstname}#=%=#Gerhard
+Author{3}{Lastname}#=%=#Weikum
+Author{3}{Email}#=%=#weikum@mpi-inf.mpg.de
+Author{3}{Affiliation}#=%=#Max Planck Institute for Informatics
+
+==========

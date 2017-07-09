@@ -1,0 +1,53 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#V for Vocab: An Intelligent Flashcard Application
+ShortPaperTitle#=%=#V for Vocab: An Intelligent Flashcard Application
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nihal V. Nayak
+JobTitle#==#
+Organization#==#M S Ramaiah Institute of Technology
+MSRIT Post, MSR College Road
+MSR Nagar, Bengaluru, Karnataka, India - 560054
+Abstract#==#Students choose to use flashcard applications available on the Internet to help
+memorize word-meaning pairs. This is helpful for tests such as GRE, TOEFL or
+IELTS, which emphasize on verbal skills. However, monotonous nature of
+flashcard applications can be diminished with the help of Cognitive Science
+through Testing Effect. Experimental evidences have shown that memory tests are
+an important tool for long term retention (Roediger and Karpicke, 2006). Based
+on these evidences, we developed a novel flashcard application called "V for
+Vocab" that implements short answer based tests for learning new words.
+Furthermore, we aid this by implementing our short answer grading algorithm
+which automatically scores the user's answer. The algorithm makes use of an
+alternate thesaurus instead of traditional Wordnet and delivers
+state-of-the-art performance on popular word similarity datasets. We also look
+to lay the foundation for analysis based on implicit data collected from our
+application.
+Author{1}{Firstname}#=%=#Nihal V.
+Author{1}{Lastname}#=%=#Nayak
+Author{1}{Email}#=%=#nihalnayak@gmail.com
+Author{1}{Affiliation}#=%=#M S Ramaiah Institute of Technology
+Author{2}{Firstname}#=%=#Tanmay
+Author{2}{Lastname}#=%=#Chinchore
+Author{2}{Email}#=%=#tanmayrc@gmail.com
+Author{2}{Affiliation}#=%=#M S Ramaiah Institute of Technology
+Author{3}{Firstname}#=%=#Aishwarya
+Author{3}{Lastname}#=%=#Hanumanth Rao
+Author{3}{Email}#=%=#aishwarya.hrao@gmail.com
+Author{3}{Affiliation}#=%=#M S Ramaiah Institute of Technology
+Author{4}{Firstname}#=%=#Shane Michael
+Author{4}{Lastname}#=%=#Martin
+Author{4}{Email}#=%=#shanemartin1995@gmail.com
+Author{4}{Affiliation}#=%=#M S Ramaiah Institute of Technology
+Author{5}{Firstname}#=%=#Sagar Nagaraj
+Author{5}{Lastname}#=%=#Simha
+Author{5}{Email}#=%=#sagar.simha@dese.iisc.ernet.in
+Author{5}{Affiliation}#=%=#Department of Electronic Systems Engineering (formerly CEDT), Indian Institute of Science
+Author{6}{Firstname}#=%=#G. M.
+Author{6}{Lastname}#=%=#Lingaraju
+Author{6}{Email}#=%=#gmlraju@msrit.edu
+Author{6}{Affiliation}#=%=#M S Ramaiah Institute of Technology
+Author{7}{Firstname}#=%=#H. S.
+Author{7}{Lastname}#=%=#Jamadagni
+Author{7}{Email}#=%=#jamadagni@dese.iisc.ernet.in
+Author{7}{Affiliation}#=%=#Department of Electronic Systems Engineering (formerly CEDT), Indian Institute of Science
+
+==========

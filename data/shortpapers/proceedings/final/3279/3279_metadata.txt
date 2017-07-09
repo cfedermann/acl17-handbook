@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#3279
+FinalPaperTitle#=%=#A Deep Network with Visual Text Composition Behavior
+ShortPaperTitle#=%=#A Deep Network with Visual Text Composition Behavior
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hongyu Guo
+JobTitle#==#Research Officer
+Organization#==#National Research Council Canada
+1200 Montreal Road, Ottawa, Ontario, K1A 0R6, Canada
+Abstract#==#While natural languages are compositional, how state-of-the-art neural models
+achieve compositionality is still unclear. We propose a deep network, which 
+not only achieves competitive accuracy for text classification, but also 
+exhibits compositional behavior. That is, while creating hierarchical 
+representations of a piece of text, such as a sentence, the lower layers of the
+network distribute their layer-specific attention weights to individual words.
+In contrast, the higher layers compose meaningful phrases and clauses, whose
+lengths increase as the networks get deeper until fully composing the 
+sentence.
+Author{1}{Firstname}#=%=#Hongyu
+Author{1}{Lastname}#=%=#GUO
+Author{1}{Email}#=%=#hongyu.guo@nrc-cnrc.gc.ca
+Author{1}{Affiliation}#=%=#National Research Council Canada
+
+==========

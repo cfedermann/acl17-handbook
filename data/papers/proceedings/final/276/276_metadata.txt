@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#276
+FinalPaperTitle#=%=#Semi-supervised Multitask Learning for Sequence Labeling
+ShortPaperTitle#=%=#Semi-supervised Multitask Learning for Sequence Labeling
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Marek Rei
+JobTitle#==#
+Organization#==#Computer Laboratory, University of Cambridge, 15 JJ Thomson Avenue, Cambridge CB3 0FD
+Abstract#==#We propose a sequence labeling framework with a secondary training objective,
+learning to predict surrounding words for every word in the dataset.
+This language modeling objective incentivises the system to learn
+general-purpose patterns of semantic and syntactic composition, which are also
+useful for improving accuracy on different sequence labeling tasks.
+The architecture was evaluated on a range of datasets, covering the tasks of
+error detection in learner texts, named entity recognition, chunking and
+POS-tagging.
+The novel language modeling objective provided consistent performance
+improvements on every benchmark, without requiring any additional annotated or
+unannotated data.
+Author{1}{Firstname}#=%=#Marek
+Author{1}{Lastname}#=%=#Rei
+Author{1}{Email}#=%=#marek.rei@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#489
+FinalPaperTitle#=%=#Obtaining referential word meanings from visual and distributional information: Experiments on object naming
+ShortPaperTitle#=%=#Obtaining referential word meanings from visual and distributional information
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Sina Zarrieß
+JobTitle#==#
+Organization#==#Sina Zarrieß
+Bielefeld University, Germany
+Universitätsstraße 25
+D-33615, Bielefeld
+Abstract#==#We investigate object naming, which is an important sub-task of referring
+expression generation on real-world images. As opposed to mutually exclusive
+labels used in object recognition, object names are more flexible, subject to
+communicative preferences and semantically related to each other. Therefore, we
+investigate models of referential word meaning that link visual to lexical
+information which we assume to be given through distributional word embeddings.
+
+We present a model that learns individual predictors for object names that link
+visual and distributional aspects of word meaning during training. We show that
+this is particularly beneficial for zero-shot learning, as compared to
+projecting visual objects directly into the distributional space. In a standard
+object naming task, we find that different ways of combining lexical and visual
+information achieve very similar performance, though experiments on model
+combination suggest that they capture complementary aspects of referential
+meaning.
+Author{1}{Firstname}#=%=#Sina
+Author{1}{Lastname}#=%=#Zarrieß
+Author{1}{Email}#=%=#sina.zarriess@uni-bielefeld.de
+Author{1}{Affiliation}#=%=#University of Bielefeld
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Schlangen
+Author{2}{Email}#=%=#david.schlangen@uni-bielefeld.de
+Author{2}{Affiliation}#=%=#Bielefeld University
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#806
+FinalPaperTitle#=%=#Joint Learning for Event Coreference Resolution
+ShortPaperTitle#=%=#Joint Learning for Event Coreference Resolution
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Jing Lu
+JobTitle#==#
+Organization#==#Computer Science Department
+The University of Texas at Dallas
+800 W. Campbell Rd., MS EC31
+Richardson, TX 75080, USA
+Abstract#==#While joint models have been developed for many NLP tasks, the vast majority of
+event coreference resolvers, including the top-performing resolvers competing
+in the recent TAC KBP 2016 Event Nugget Detection and Coreference task, are
+pipeline-based, where the propagation of errors from the trigger detection
+component to the event coreference component is a major performance limiting
+factor. To address this problem, we propose a model for jointly learning event
+coreference, trigger detection, and event anaphoricity. Our joint model is
+novel in its choice of tasks and its features for capturing cross-task
+interactions. To our knowledge, this is the first attempt to train a
+mention-ranking model and employ event anaphoricity for event coreference. Our
+model achieves the best results to date on the KBP 2016 English and Chinese
+datasets.
+Author{1}{Firstname}#=%=#Jing
+Author{1}{Lastname}#=%=#Lu
+Author{1}{Email}#=%=#jxl125430@utdallas.edu
+Author{1}{Affiliation}#=%=#University of Texas at Dallas
+Author{2}{Firstname}#=%=#Vincent
+Author{2}{Lastname}#=%=#Ng
+Author{2}{Email}#=%=#vince@hlt.utdallas.edu
+Author{2}{Affiliation}#=%=#University of Texas at Dallas
+
+==========

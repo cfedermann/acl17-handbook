@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3584
+FinalPaperTitle#=%=#Improving Neural Parsing by Disentangling Model Combination and Reranking Effects
+ShortPaperTitle#=%=#Improving Neural Parsing by Disentangling Model Combination and Reranking Effects
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Daniel Fried
+JobTitle#==#
+Organization#==#UC Berkeley
+Berkeley, CA 94720
+Abstract#==#Recent work has proposed several generative neural models for constituency
+parsing that achieve state-of-the-art results. Since direct search in these
+generative models is difficult, they have primarily been used to rescore
+candidate outputs from base parsers in which decoding is more straightforward. 
+We first present an algorithm for direct search in these generative models.  We
+then demonstrate that the rescoring results are at least partly due to implicit
+model combination rather than reranking effects.  Finally, we show that
+explicit model combination can improve performance even further, resulting in
+new state-of-the-art numbers on the PTB of 94.25 F1 when training only on gold
+data and 94.66 F1 when using external data.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Fried
+Author{1}{Email}#=%=#dfried@berkeley.edu
+Author{1}{Affiliation}#=%=#UC Berkeley
+Author{2}{Firstname}#=%=#Mitchell
+Author{2}{Lastname}#=%=#Stern
+Author{2}{Email}#=%=#mitchell@berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Klein
+Author{3}{Email}#=%=#klein@cs.berkeley.edu
+Author{3}{Affiliation}#=%=#UC Berkeley
+
+==========

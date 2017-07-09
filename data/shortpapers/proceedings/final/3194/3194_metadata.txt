@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#3194
+FinalPaperTitle#=%=#A Network Framework for Noisy Label Aggregation in Social Media
+ShortPaperTitle#=%=#A Network Framework for Noisy Label Aggregation in Social Media
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yanghui Rao
+JobTitle#==#
+Organization#==#School of Data and Computer Science, Sun Yat-sen University, Guangzhou, China.
+No. 132 Waihuan East Rd., Guangzhou University City, Sun Yat-sen University, Guangzhou, Guangdong Province, China.
+Abstract#==#This paper focuses on the task of noisy label aggregation in social media,
+where users with different social or culture backgrounds may annotate invalid
+or malicious tags for documents. To aggregate noisy labels at a small cost, a
+network framework is proposed by calculating the matching degree of a
+document's topics and the annotators' meta-data. Unlike using the
+back-propagation algorithm, a probabilistic inference approach is adopted to
+estimate network parameters. Finally, a new simulation method is designed for
+validating the effectiveness of the proposed framework in aggregating noisy
+labels.
+Author{1}{Firstname}#=%=#Xueying
+Author{1}{Lastname}#=%=#Zhan
+Author{1}{Email}#=%=#zhanxy5@mail2.sysu.edu.cn
+Author{1}{Affiliation}#=%=#School of Data and Computer Science, Sun Yat-sen University
+Author{2}{Firstname}#=%=#Yaowei
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#wangyw7@mail2.sysu.edu.cn
+Author{2}{Affiliation}#=%=#School of Data and Computer Science, Sun Yat-sen University
+Author{3}{Firstname}#=%=#Yanghui
+Author{3}{Lastname}#=%=#Rao
+Author{3}{Email}#=%=#raoyangh@mail.sysu.edu.cn
+Author{3}{Affiliation}#=%=#School of Data and Computer Science, Sun Yat-sen University
+Author{4}{Firstname}#=%=#Haoran
+Author{4}{Lastname}#=%=#Xie
+Author{4}{Email}#=%=#hrxie2@gmail.com
+Author{4}{Affiliation}#=%=#Department of Mathematics and Information Technology, The Education University of Hong Kong
+Author{5}{Firstname}#=%=#Qing
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#qing.li@cityu.edu.hk
+Author{5}{Affiliation}#=%=#Department of Computer Science, City University of Hong Kong
+Author{6}{Firstname}#=%=#Fu Lee
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Email}#=%=#pwang@cihe.edu.hk
+Author{6}{Affiliation}#=%=#Caritas Institute of Higher Education
+Author{7}{Firstname}#=%=#Tak-Lam
+Author{7}{Lastname}#=%=#Wong
+Author{7}{Email}#=%=#tlwong@eduhk.hk
+Author{7}{Affiliation}#=%=#Department of Mathematics and Information Technology, The Education University of Hong Kong
+
+==========

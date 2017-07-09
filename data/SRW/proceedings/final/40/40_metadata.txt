@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#Accent Adaptation for the Air Traffic Control Domain
+ShortPaperTitle#=%=#Accent Adaptation for the Air Traffic Control Domain
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Matthew Garber
+JobTitle#==#
+Organization#==#Brandeis University
+415 South Street
+Waltham, MA 02453, USA
+Abstract#==#Automated speech recognition (ASR) plays a significant role in training and
+simulation systems for air traffic controllers. However, because English is the
+default language used in air traffic control (ATC), ASR systems often encounter
+difficulty with speakers' non-native accents, for which there is a paucity of
+data. This paper examines the effects of accent adaptation on the recognition
+of non-native English speech in the ATC domain. Accent adaptation has been
+demonstrated to be an effective way to model under-resourced speech, and can be
+applied to a variety of models. We use Subspace Gaussian Mixture Models (SGMMs)
+with the Kaldi Speech Recognition Toolkit to adapt acoustic models from
+American English to German-accented English, and compare it against other
+adaptation methods. Our results provide additional evidence that SGMMs can be
+an efficient and effective way to approach this problem, particularly with
+smaller amounts of accented training data.
+Author{1}{Firstname}#=%=#Matthew
+Author{1}{Lastname}#=%=#Garber
+Author{1}{Email}#=%=#mgarber@brandeis.edu
+Author{1}{Affiliation}#=%=#Brandeis University
+Author{2}{Firstname}#=%=#Meital
+Author{2}{Lastname}#=%=#Singer
+Author{2}{Email}#=%=#tsinger@brandeis.edu
+Author{2}{Affiliation}#=%=#Brandeis University
+Author{3}{Firstname}#=%=#Christopher
+Author{3}{Lastname}#=%=#Ward
+Author{3}{Email}#=%=#cmward@brandeis.edu
+Author{3}{Affiliation}#=%=#Brandeis University
+
+==========

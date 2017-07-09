@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3329
+FinalPaperTitle#=%=#A Recurrent Neural Model with Attention for the Recognition of Chinese Implicit Discourse Relations
+ShortPaperTitle#=%=#A Recurrent Neural Model with Attention for the Recognition of Chinese Implicit Discourse Relations
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Niko Schenk
+JobTitle#==#
+Organization#==#Angewandte Computerlinguistik
+Fachbereich für Informatik und Mathematik
+Goethe-Universität Frankfurt am Main
+Robert-Mayer-Str. 11-15
+D-60325 Frankfurt am Main
+Abstract#==#We introduce an attention-based Bi-LSTM for Chinese implicit discourse
+relations and demonstrate that modeling argument pairs as a joint sequence can
+outperform word order-agnostic approaches. Our model benefits from a partial
+sampling scheme and is conceptually simple, yet achieves state-of-the-art
+performance on the Chinese Discourse Treebank. We also visualize its attention
+activity to illustrate the model's ability to selectively focus on the relevant
+parts of an input sequence.
+Author{1}{Firstname}#=%=#Samuel
+Author{1}{Lastname}#=%=#Rönnqvist
+Author{1}{Email}#=%=#sronnqvi@abo.fi
+Author{1}{Affiliation}#=%=#Turku Centre for Computer Science
+Author{2}{Firstname}#=%=#Niko
+Author{2}{Lastname}#=%=#Schenk
+Author{2}{Email}#=%=#n.schenk@em.uni-frankfurt.de
+Author{2}{Affiliation}#=%=#Goethe University Frankfurt am Main
+Author{3}{Firstname}#=%=#Christian
+Author{3}{Lastname}#=%=#Chiarcos
+Author{3}{Email}#=%=#christian.chiarcos@web.de
+Author{3}{Affiliation}#=%=#Goethe-Universität Frankfurt am Main
+
+==========

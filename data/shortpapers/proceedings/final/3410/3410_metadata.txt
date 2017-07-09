@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3410
+FinalPaperTitle#=%=#Understanding and Detecting Diverse Supporting Arguments on Controversial Issues
+ShortPaperTitle#=%=#Understanding and Detecting Diverse Supporting Arguments on Controversial Issues
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Xinyu Hua
+JobTitle#==#
+Organization#==#Northeastern University
+360 Huntington Ave, Boston, MA 02115
+Abstract#==#We investigate the problem of sentence-level supporting argument detection from
+relevant documents for user-specified claims. A dataset containing claims and
+associated citation articles is collected from online debate website
+idebate.org. We then manually label sentence-level supporting arguments from
+the documents along with their types as study, factual, opinion, or reasoning.
+We further characterize arguments of different types, and explore whether
+leveraging type information can facilitate the supporting arguments detection
+task. Experimental results show that LambdaMART (Burges, 2010) ranker that uses
+features informed by argument types yields better performance than the same
+ranker trained without type information.
+Author{1}{Firstname}#=%=#Xinyu
+Author{1}{Lastname}#=%=#Hua
+Author{1}{Email}#=%=#xinyuhua1994@gmail.com
+Author{1}{Affiliation}#=%=#Northeastern University
+Author{2}{Firstname}#=%=#Lu
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#luwang@ccs.neu.edu
+Author{2}{Affiliation}#=%=#Northeastern University
+
+==========

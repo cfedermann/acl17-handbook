@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#3207
+FinalPaperTitle#=%=#Bootstrapping for Numerical Open IE
+ShortPaperTitle#=%=#Bootstrapping for Numerical Open IE
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Swarnadeep Saha
+JobTitle#==#
+Organization#==#
+Abstract#==#We design and release BONIE, the first open numerical relation extractor, for
+extracting Open IE tuples where one of the arguments is a number or a
+quantity-unit phrase. BONIE uses bootstrapping to learn the specific dependency
+patterns that express numerical relations in a sentence. BONIE’s novelty lies
+in task-specific customizations, such as inferring implicit relations, which
+are clear due to context such as units (for e.g., ‘square kilometers’
+suggests
+area, even if the word ‘area’ is missing in the sentence). BONIE obtains
+1.5x yield and 15 point precision gain on numerical facts over a
+state-of-the-art Open IE system.
+Author{1}{Firstname}#=%=#Swarnadeep
+Author{1}{Lastname}#=%=#Saha
+Author{1}{Email}#=%=#writetoswarna@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology at Delhi
+Author{2}{Firstname}#=%=#Harinder
+Author{2}{Lastname}#=%=#Pal
+Author{2}{Email}#=%=#sethi.harinder@gmail.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#
+Author{3}{Lastname}#=%=#Mausam
+Author{3}{Email}#=%=#mausam@cse.iitd.ac.in
+Author{3}{Affiliation}#=%=#Indian Institute of Technology at Delhi
+
+==========

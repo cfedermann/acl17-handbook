@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Zara Returns: Improved Personality Induction and Adaptation by an Empathetic Virtual Agent
+ShortPaperTitle#=%=#Zara Returns: Improved Personality Induction and Adaptation by an Empathetic Virtual Agent
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Farhad Bin Siddique
+JobTitle#==#
+Organization#==#The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
+Abstract#==#Virtual agents need to adapt their personality to the user in order to become
+more empathetic. To this end, we developed Zara the Supergirl, an interactive
+empathetic agent, using a modular approach. In this paper, we describe the
+enhanced personality module with improved recognition from speech and text
+using deep learning frameworks. From raw audio, an average F-score of 69.6 was
+obtained from real-time personality assessment using a Convolutional Neural
+Network (CNN) model. From text, we improved personality recognition results
+with a CNN model on top of pre-trained word embeddings and obtained an average
+F-score of 71.0. Results from our Human-Agent Interaction study confirmed our
+assumption that people have different agent personality preferences. We use
+insights from this study to adapt our agent to user personality.
+Author{1}{Firstname}#=%=#Farhad Bin
+Author{1}{Lastname}#=%=#Siddique
+Author{1}{Email}#=%=#fsiddique@connect.ust.hk
+Author{1}{Affiliation}#=%=#Human Language Technology Center, The Hong Kong University of Science and Technology
+Author{2}{Firstname}#=%=#Onno
+Author{2}{Lastname}#=%=#Kampman
+Author{2}{Email}#=%=#opkampman@connect.ust.hk
+Author{2}{Affiliation}#=%=#Human Language Technology Center, The Hong Kong University of Science and Technology
+Author{3}{Firstname}#=%=#Yang
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Email}#=%=#yyangag@connect.ust.hk
+Author{3}{Affiliation}#=%=#Human Language Technology Center, The Hong Kong University of Science and Technology
+Author{4}{Firstname}#=%=#Anik
+Author{4}{Lastname}#=%=#Dey
+Author{4}{Email}#=%=#adey@connect.ust.hk
+Author{4}{Affiliation}#=%=#Human Language Technology Center, The Hong Kong University of Science and Technology
+Author{5}{Firstname}#=%=#Pascale
+Author{5}{Lastname}#=%=#Fung
+Author{5}{Email}#=%=#pascale@ece.ust.hk
+Author{5}{Affiliation}#=%=#Human Language Technology Center, The Hong Kong University of Science and Technology
+
+==========

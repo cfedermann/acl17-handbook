@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3146
+FinalPaperTitle#=%=#A Generative Parser with a Discriminative Recognition Algorithm
+ShortPaperTitle#=%=#A Generative Parser with a Discriminative Recognition Algorithm
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Generative models defining joint distributions over parse trees and sentences
+are useful for parsing and language modeling, but impose restrictions on the
+scope of features and are often outperformed by discriminative models. We
+propose a framework for parsing and language modeling which marries a
+generative model with a discriminative recognition model in an encoder-decoder
+setting. We provide interpretations of the framework based on expectation
+maximization and variational inference, and show that it enables parsing and
+language modeling within a single implementation. On the English Penn
+Treen-bank, our framework obtains competitive performance on constituency
+parsing while matching the state-of-the-art single- model language modeling
+score.
+Author{1}{Firstname}#=%=#Jianpeng
+Author{1}{Lastname}#=%=#Cheng
+Author{1}{Email}#=%=#jianpeng.cheng@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Adam
+Author{2}{Lastname}#=%=#Lopez
+Author{2}{Email}#=%=#alopez@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Mirella
+Author{3}{Lastname}#=%=#Lapata
+Author{3}{Email}#=%=#mlap@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+
+==========

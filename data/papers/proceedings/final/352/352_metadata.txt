@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#352
+FinalPaperTitle#=%=#Adversarial Multi-task Learning for Text Classification
+ShortPaperTitle#=%=#Adversarial Multi-task Learning for Text Classification
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Pengfei Liu
+JobTitle#==#
+Organization#==#Pengfei Liu
+Fudan University
+Abstract#==#Neural network models have shown their promising opportunities for multi-task
+learning, which focus on learning the shared layers to extract the common and
+task-invariant features. However, in most existing approaches, the extracted
+shared features are prone to be contaminated by task-specific features or the
+noise brought by other tasks.
+In this paper, we propose an adversarial multi-task learning framework,
+alleviating the shared and private latent feature spaces from interfering with
+each other.
+We conduct extensive experiments on 16 different text classification tasks,
+which demonstrates the benefits of our approach. Besides, we show that the
+shared knowledge learned by our proposed model can be regarded as off-the-shelf
+knowledge and easily transferred to new tasks.
+The datasets of all 16 tasks are publicly available at
+\url{http://nlp.fudan.edu.cn/data/}
+Author{1}{Firstname}#=%=#Pengfei
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#pfliu14@fudan.edu.cn
+Author{1}{Affiliation}#=%=#
+Author{2}{Firstname}#=%=#Xipeng
+Author{2}{Lastname}#=%=#Qiu
+Author{2}{Email}#=%=#xpqiu@fudan.edu.cn
+Author{2}{Affiliation}#=%=#Fudan University
+Author{3}{Firstname}#=%=#Xuanjing
+Author{3}{Lastname}#=%=#Huang
+Author{3}{Email}#=%=#xjhuang@fudan.edu.cn
+Author{3}{Affiliation}#=%=#Fudan University
+
+==========

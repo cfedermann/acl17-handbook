@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#154
+FinalPaperTitle#=%=#Incorporating Word Reordering Knowledge into Attention-based Neural Machine Translation
+ShortPaperTitle#=%=#Incorporating Word Reordering Knowledge into Attention-based Neural Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jinchao Zhang
+JobTitle#==#Incorporating Word Reordering Knowledge into Attention-based Neural Machine Translation
+Organization#==#Institute of Computing Technology, Chinese Academy of Sciences
+Abstract#==#This paper proposes three distortion models to explicitly incorporate the word
+reordering knowledge into attention-based Neural Machine Translation (NMT) for
+further improving translation performance. Our proposed models enable attention
+mechanism to attend to source words regarding both the semantic requirement and
+the word reordering penalty. Experiments on Chinese-English translation show
+that the approaches can improve word alignment quality and achieve significant
+translation improvements over a basic attention-based NMT by large margins.
+Compared with previous works on identical corpora, our system achieves the
+state-of-the-art performance on translation quality.
+Author{1}{Firstname}#=%=#Jinchao
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zhangjinchao@ict.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Mingxuan
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#wangmingxuan@ict.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Qun
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#qun.liu@dcu.ie
+Author{3}{Affiliation}#=%=#Dublin City University
+Author{4}{Firstname}#=%=#Jie
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#zhoujie01@baidu.com
+Author{4}{Affiliation}#=%=#Baidu Research
+
+==========

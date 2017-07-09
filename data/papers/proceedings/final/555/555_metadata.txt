@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#555
+FinalPaperTitle#=%=#Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems
+ShortPaperTitle#=%=#Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#
+Abstract#==#Solving algebraic word problems requires executing a series of arithmetic
+operations---a program---to obtain a final answer. However, since programs can
+be arbitrarily complicated, inducing them directly from question-answer pairs
+is a formidable challenge. To make this task more feasible, we solve these
+problems by generating answer rationales, sequences of natural language and
+human-readable mathematical expressions that derive the final answer through a
+series of small steps. Although rationales do not explicitly specify programs,
+they provide a scaffolding for their structure via intermediate milestones. To
+evaluate our approach, we have created a new 100,000-sample dataset of
+questions, answers and rationales. Experimental results show that indirect
+supervision of program learning via answer rationales is a promising strategy
+for inducing arithmetic programs.
+Author{1}{Firstname}#=%=#Wang
+Author{1}{Lastname}#=%=#Ling
+Author{1}{Email}#=%=#wanglin1122@gmail.com
+Author{1}{Affiliation}#=%=#Google DeepMind
+Author{2}{Firstname}#=%=#Dani
+Author{2}{Lastname}#=%=#Yogatama
+Author{2}{Email}#=%=#dyogatama@google.com
+Author{2}{Affiliation}#=%=#DeepMind
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Dyer
+Author{3}{Email}#=%=#cdyer@google.com
+Author{3}{Affiliation}#=%=#Google DeepMind
+Author{4}{Firstname}#=%=#Phil
+Author{4}{Lastname}#=%=#Blunsom
+Author{4}{Email}#=%=#pblunsom@google.com
+Author{4}{Affiliation}#=%=#Google DeepMind, Oxford University
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#598
+FinalPaperTitle#=%=#Bandit Structured Prediction for Neural Sequence-to-Sequence Learning
+ShortPaperTitle#=%=#Bandit Structured Prediction for Neural Sequence-to-Sequence Learning
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Julia Kreutzer
+JobTitle#==#
+Organization#==#
+Abstract#==#Bandit structured prediction describes a stochastic optimization framework
+where learning is performed from partial feedback. This feedback is received in
+the form of a task loss evaluation to a predicted output structure, without
+having access to gold standard structures. We advance this framework by lifting
+linear bandit learning to neural sequence-to-sequence learning problems using
+attention-based recurrent neural networks. Furthermore, we show how to
+incorporate control variates into our learning algorithms for variance
+reduction and improved generalization. We present an evaluation on a neural
+machine translation task that shows improvements of up to 5.89 BLEU points for
+domain adaptation from simulated bandit feedback.
+Author{1}{Firstname}#=%=#Julia
+Author{1}{Lastname}#=%=#Kreutzer
+Author{1}{Email}#=%=#kreutzer@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Department of Computational Linguistics, Heidelberg University
+Author{2}{Firstname}#=%=#Artem
+Author{2}{Lastname}#=%=#Sokolov
+Author{2}{Email}#=%=#gposhta@gmail.com
+Author{2}{Affiliation}#=%=#Heidelberg University
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Riezler
+Author{3}{Email}#=%=#riezler@cl.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Heidelberg University
+
+==========

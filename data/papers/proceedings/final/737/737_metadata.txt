@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#737
+FinalPaperTitle#=%=#TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
+ShortPaperTitle#=%=#TriviaQA: A Large Dataset for Reading Comprehension
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Mandar Joshi
+JobTitle#==#
+Organization#==#Computer Science & Engineering
+University of Washington
+AC101 Paul G. Allen Center for
+     Computer Science & Engineering
+Box 352350
+185 Stevens Way
+Seattle WA 98195-2350
+Abstract#==#We present TriviaQA, a challenging reading comprehension dataset containing
+over 650K question-answer-evidence triples. TriviaQA includes 95K
+question-answer  pairs authored by trivia enthusiasts and independently
+gathered evidence documents, six per question on average, that provide high
+quality distant supervision for answering the questions. We show that, in
+comparison to other recently introduced large-scale datasets, TriviaQA (1) has
+relatively complex, compositional questions,  (2)  has considerable 
+syntactic and  lexical                                      variability  between     
+     
+questions and 
+corresponding 
+answer-evidence  sentences,  and  (3) requires more cross sentence reasoning to
+find answers.  We also present two baseline algorithms: a feature-based
+classifier and a state-of-the-art neural network, that performs well on SQuAD
+reading comprehension. Neither approach comes close to human performance (23%
+and 40% vs. 80%), suggesting that TriviaQA is a challenging testbed that is
+worth significant future study.
+Author{1}{Firstname}#=%=#Mandar
+Author{1}{Lastname}#=%=#Joshi
+Author{1}{Email}#=%=#mandar90@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Eunsol
+Author{2}{Lastname}#=%=#Choi
+Author{2}{Email}#=%=#eunsol@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Daniel
+Author{3}{Lastname}#=%=#Weld
+Author{3}{Email}#=%=#weld@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Luke
+Author{4}{Lastname}#=%=#Zettlemoyer
+Author{4}{Email}#=%=#lsz@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+
+==========

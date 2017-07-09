@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3057
+FinalPaperTitle#=%=#An Empirical Comparison of Domain Adaptation Methods for Neural Machine Translation
+ShortPaperTitle#=%=#An Empirical Comparison of Domain Adaptation Methods for Neural Machine Translation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Chenhui Chu
+JobTitle#==#Assistant professor
+Organization#==#Institute for Datability Science, Osaka University
+1-1 Yamadaoka, Suita, Osaka Prefecture 565-0871, Japan
+Abstract#==#In this paper, we propose a novel domain adaptation method named "mixed fine
+tuning'' for neural machine translation (NMT). We combine two existing
+approaches namely fine tuning and multi domain NMT. We first train an NMT model
+on an out-of-domain parallel corpus, and then fine tune it on a parallel corpus
+which is a mix of the in-domain and out-of-domain corpora. All corpora are
+augmented with artificial tags to indicate specific domains. We empirically
+compare our proposed method against fine tuning and multi domain methods and
+discuss its benefits and shortcomings.
+Author{1}{Firstname}#=%=#Chenhui
+Author{1}{Lastname}#=%=#Chu
+Author{1}{Email}#=%=#chu@ids.osaka-u.ac.jp
+Author{1}{Affiliation}#=%=#Osaka University
+Author{2}{Firstname}#=%=#Raj
+Author{2}{Lastname}#=%=#Dabre
+Author{2}{Email}#=%=#prajdabre@gmail.com
+Author{2}{Affiliation}#=%=#Kyoto University
+Author{3}{Firstname}#=%=#Sadao
+Author{3}{Lastname}#=%=#Kurohashi
+Author{3}{Email}#=%=#kuro@i.kyoto-u.ac.jp
+Author{3}{Affiliation}#=%=#Kyoto University
+
+==========

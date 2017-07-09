@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#183
+FinalPaperTitle#=%=#Chat Detection in an Intelligent Assistant: Combining Task-oriented and Non-task-oriented Spoken Dialogue Systems
+ShortPaperTitle#=%=#Chat Detection in an Intelligent Assistant
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Nobuhiro Kaji
+JobTitle#==#senior chief researcher
+Organization#==#Yahoo Japan Corporation
+1-3, Kioi-cho, Chiyoda-ku, Tokyo, Japan
+Abstract#==#Recently emerged intelligent assistants on smartphones and home electronics
+(e.g., Siri and Alexa) can be seen as novel hybrids of domain-specific
+task-oriented spoken dialogue systems and open-domain non-task-oriented ones.
+To realize such hybrid dialogue systems, this paper investigates determining
+whether or not a user is going to have a chat with the system. To address the
+lack of benchmark datasets for this task, we construct a new dataset consisting
+of 15,160 utterances collected from the real log data of a commercial
+intelligent assistant (and will release the dataset to facilitate future
+research activity). In addition, we investigate using tweets and Web search
+queries for handling open-domain user utterances, which characterize the task
+of chat detection. Experimental experiments demonstrated that, while simple
+supervised methods are effective, the use of the tweets and search queries
+further improves the F$_1$-score from 86.21 to 87.53.
+Author{1}{Firstname}#=%=#Satoshi
+Author{1}{Lastname}#=%=#Akasaki
+Author{1}{Email}#=%=#akasaki@tkl.iis.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#University of Tokyo
+Author{2}{Firstname}#=%=#Nobuhiro
+Author{2}{Lastname}#=%=#Kaji
+Author{2}{Email}#=%=#nkaji@yahoo-corp.jp
+Author{2}{Affiliation}#=%=#Yahoo Japan Corporation
+
+==========

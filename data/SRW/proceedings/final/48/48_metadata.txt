@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#48
+FinalPaperTitle#=%=#Fast Forward Through Opportunistic Incremental Meaning Representation Construction
+ShortPaperTitle#=%=#Fast Forward Through Opportunistic Incremental Meaning Representation Construction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Petr Babkin
+JobTitle#==#
+Organization#==#
+Abstract#==#One of the challenges semantic parsers face involves upstream errors
+originating from pre-processing modules such as ASR and syntactic parsers,
+which undermine the end result from the get go.
+We report the work in progress on a novel incremental semantic parsing
+algorithm that supports simultaneous application of independent heuristics and
+facilitates the construction of partial but potentially actionable meaning
+representations to overcome this problem.
+Our contribution to this point is mainly theoretical. In future work we intend
+to evaluate the algorithm as part of a dialogue understanding system on state
+of the art benchmarks.
+Author{1}{Firstname}#=%=#Petr
+Author{1}{Lastname}#=%=#Babkin
+Author{1}{Email}#=%=#petr.a.babkin@gmail.com
+Author{1}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{2}{Firstname}#=%=#Sergei
+Author{2}{Lastname}#=%=#Nirenburg
+Author{2}{Email}#=%=#zavedomo@gmail.com
+Author{2}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+
+==========

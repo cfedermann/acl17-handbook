@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#3246
+FinalPaperTitle#=%=#Learning Topic-Sensitive Word Representations
+ShortPaperTitle#=%=#Learning Topic-Sensitive Word Representations
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Marzieh Fadaee
+JobTitle#==#
+Organization#==#Informatics Institute, University of Amsterdam Science Park 904, 1098 XH Amsterdam, The Netherlands
+Abstract#==#Distributed word representations are widely used for modeling words in NLP
+tasks. Most of the existing models generate one representation per word and do
+not consider different meanings of a word.   
+We present two approaches to learn multiple topic-sensitive representations per
+word by using Hierarchical Dirichlet Process. We observe that by modeling
+topics and integrating topic distributions for each document  we obtain
+representations that are able to distinguish between different meanings of a
+given word.
+Our models yield statistically significant improvements for the lexical
+substitution task 
+indicating that commonly used single word representations, even when combined
+with contextual information, are insufficient for this task.
+Author{1}{Firstname}#=%=#Marzieh
+Author{1}{Lastname}#=%=#Fadaee
+Author{1}{Email}#=%=#m.fadaee@uva.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Arianna
+Author{2}{Lastname}#=%=#Bisazza
+Author{2}{Email}#=%=#A.Bisazza@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+Author{3}{Firstname}#=%=#Christof
+Author{3}{Lastname}#=%=#Monz
+Author{3}{Email}#=%=#c.monz@uva.nl
+Author{3}{Affiliation}#=%=#University of Amsterdam
+
+==========

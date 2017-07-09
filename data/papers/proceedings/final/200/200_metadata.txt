@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#200
+FinalPaperTitle#=%=#Generating Natural Answers by Incorporating Copying and Retrieving Mechanisms in Sequence-to-Sequence Learning
+ShortPaperTitle#=%=#Generating Natural Answers by Incorporating Copying and Retrieving Mechanisms in Sequence-to-Sequence Learning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Generating answer with natural language sentence is very important in
+real-world question answering systems, which needs to obtain a right answer as
+well as a coherent natural response. In this paper, we propose an end-to-end
+question answering system called COREQA in sequence-to-sequence learning, which
+incorporates copying and retrieving mechanisms to generate natural answers
+within an encoder-decoder framework. Specifically, in COREQA, the semantic
+units (words, phrases and entities) in a natural answer are dynamically
+predicted from the vocabulary, copied from the given question and/or retrieved
+from the corresponding knowledge base jointly. Our empirical study on both
+synthetic and real-world datasets demonstrates the efficiency of COREQA, which
+is able to generate correct, coherent and natural answers for knowledge
+inquired questions.
+Author{1}{Firstname}#=%=#Shizhu
+Author{1}{Lastname}#=%=#He
+Author{1}{Email}#=%=#shizhu.he@nlpr.ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Cao
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#cao.liu@nlpr.ia.ac.cn
+Author{2}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Kang
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#kliu@nlpr.ia.ac.cn
+Author{3}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Jun
+Author{4}{Lastname}#=%=#Zhao
+Author{4}{Email}#=%=#jzhao@nlpr.ia.ac.cn
+Author{4}{Affiliation}#=%=#Chinese Academy of Sciences
+
+==========

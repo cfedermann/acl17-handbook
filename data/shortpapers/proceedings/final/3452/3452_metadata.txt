@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#3452
+FinalPaperTitle#=%=#A Corpus of Natural Language for Visual Reasoning
+ShortPaperTitle#=%=#A Corpus of Natural Language for Visual Reasoning
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Alane Suhr
+JobTitle#==#
+Organization#==#Department of Computer Science
+402 Gates Hall, Cornell University
+Ithaca, NY 14853
+Abstract#==#We present a new visual reasoning language dataset, containing 92,244 pairs of
+examples of natural statements grounded in synthetic images with 3,962 unique
+sentences. We describe a method of crowdsourcing linguistically-diverse data,
+and present an analysis of our data. The data demonstrates a broad set of
+linguistic phenomena, requiring visual and set-theoretic reasoning. We
+experiment with various models, and show the data presents a strong challenge
+for future research.
+Author{1}{Firstname}#=%=#Alane
+Author{1}{Lastname}#=%=#Suhr
+Author{1}{Email}#=%=#als495@cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Mike
+Author{2}{Lastname}#=%=#Lewis
+Author{2}{Email}#=%=#mikelewis0@gmail.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+Author{3}{Firstname}#=%=#James
+Author{3}{Lastname}#=%=#Yeh
+Author{3}{Email}#=%=#cy443@cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+Author{4}{Firstname}#=%=#Yoav
+Author{4}{Lastname}#=%=#Artzi
+Author{4}{Email}#=%=#yoav@cs.cornell.edu
+Author{4}{Affiliation}#=%=#Cornell University
+
+==========

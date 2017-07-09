@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#715
+FinalPaperTitle#=%=#Reading Wikipedia to Answer Open-Domain Questions
+ShortPaperTitle#=%=#Reading Wikipedia to Answer Open-Domain Questions
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Danqi Chen
+JobTitle#==#
+Organization#==#Danqi Chen, Stanford University
+Abstract#==#This paper proposes to tackle open-domain question answering using Wikipedia as
+the unique knowledge source: the answer to any factoid question is a text span
+in a Wikipedia article. This task of machine reading at scale combines the
+challenges of document retrieval (finding the relevant articles) with that of
+machine comprehension of text (identifying the answer spans from those
+articles). Our approach combines a search component based on bigram hashing and
+TF-IDF matching with a multi-layer recurrent neural network model trained to
+detect answers in Wikipedia paragraphs. Our experiments on multiple existing QA
+datasets indicate that (1) both modules are highly competitive with respect to
+existing counterparts and (2) multitask learning using distant supervision on
+their combination is an effective complete system on this challenging task.
+Author{1}{Firstname}#=%=#Danqi
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#danqi@cs.stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Adam
+Author{2}{Lastname}#=%=#Fisch
+Author{2}{Email}#=%=#afisch@fb.com
+Author{2}{Affiliation}#=%=#Facebook
+Author{3}{Firstname}#=%=#Jason
+Author{3}{Lastname}#=%=#Weston
+Author{3}{Email}#=%=#jaseweston@gmail.com
+Author{3}{Affiliation}#=%=#Facebook
+Author{4}{Firstname}#=%=#Antoine
+Author{4}{Lastname}#=%=#Bordes
+Author{4}{Email}#=%=#abordes@fb.com
+Author{4}{Affiliation}#=%=#Facebook
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#385
+FinalPaperTitle#=%=#Predicting Native Language from Gaze
+ShortPaperTitle#=%=#Predicting Native Language from Gaze
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yevgeni Berzak
+JobTitle#==#
+Organization#==#MIT
+Abstract#==#A fundamental question in language learning concerns the role of a speaker's
+first language in second language acquisition. We present a novel methodology
+for studying this question: analysis of eye-movement patterns in second
+language reading of free-form text. Using this methodology, we demonstrate for
+the first time that the native language of English learners can be predicted
+from their gaze fixations when reading English. We provide analysis of
+classifier uncertainty and learned features, which indicates that differences
+in English reading are likely to be rooted in linguistic divergences across
+native languages. The presented framework complements production studies and
+offers new ground for advancing research on multilingualism.
+Author{1}{Firstname}#=%=#Yevgeni
+Author{1}{Lastname}#=%=#Berzak
+Author{1}{Email}#=%=#berzak@mit.edu
+Author{1}{Affiliation}#=%=#CSAIL MIT
+Author{2}{Firstname}#=%=#Chie
+Author{2}{Lastname}#=%=#Nakamura
+Author{2}{Email}#=%=#chienak@mit.edu
+Author{2}{Affiliation}#=%=#MIT Linguistics
+Author{3}{Firstname}#=%=#Suzanne
+Author{3}{Lastname}#=%=#Flynn
+Author{3}{Email}#=%=#sflynn@mit.edu
+Author{3}{Affiliation}#=%=#MIT Linguistics
+Author{4}{Firstname}#=%=#Boris
+Author{4}{Lastname}#=%=#Katz
+Author{4}{Email}#=%=#boris@mit.edu
+Author{4}{Affiliation}#=%=#CSAIL MIT
+
+==========

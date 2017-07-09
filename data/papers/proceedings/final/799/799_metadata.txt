@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#799
+FinalPaperTitle#=%=#Generic Axiomatization of Families of Noncrossing Graphs in Dependency Parsing
+ShortPaperTitle#=%=#Generic Axiomatization of Noncrossing Dependency Graphs
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Anssi Yli-Jyrä
+JobTitle#==#
+Organization#==#The Department of Modern Languages, PO Box 24, 00014 University of Helsinki, Finland
+Abstract#==#We present a simple encoding for unlabeled noncrossing graphs and show how its
+latent counterpart helps us to represent several families of directed and
+undirected graphs used in syntactic and semantic parsing of natural language as
+context-free languages.  The families are separated purely on the basis of
+forbidden patterns in latent encoding, eliminating the need to differentiate
+the families of non-crossing graphs in inference algorithms: one algorithm
+works for all when the search space can be controlled in parser input.
+Author{1}{Firstname}#=%=#Anssi
+Author{1}{Lastname}#=%=#Yli-Jyrä
+Author{1}{Email}#=%=#anssi.yli-jyra@helsinki.fi
+Author{1}{Affiliation}#=%=#University of Helsinki
+Author{2}{Firstname}#=%=#Carlos
+Author{2}{Lastname}#=%=#Gómez-Rodríguez
+Author{2}{Email}#=%=#cgomezr@udc.es
+Author{2}{Affiliation}#=%=#Universidade da Coruña
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#707
+FinalPaperTitle#=%=#Abstract Syntax Networks for Code Generation and Semantic Parsing
+ShortPaperTitle#=%=#Abstract Syntax Networks for Code Generation and Semantic Parsing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Maxim Rabinovich
+JobTitle#==#
+Organization#==#Computer Science Division
+UC Berkeley
+Soda Hall
+Berkeley, CA 94720
+Abstract#==#Tasks like code generation and semantic parsing require mapping unstructured
+(or partially structured) inputs to well-formed, executable outputs. We
+introduce abstract syntax networks, a modeling framework for these problems.
+The outputs are represented as abstract syntax trees (ASTs) and constructed by
+a decoder with a dynamically-determined modular structure paralleling the
+structure of the output tree. On the benchmark Hearthstone dataset for code
+generation, our model obtains 79.2 BLEU and 22.7% exact match accuracy,
+compared to previous state-of-the-art values of 67.1 and 6.1%. Furthermore, we
+perform competitively on the Atis, Jobs, and Geo semantic parsing datasets with
+no task-specific engineering.
+Author{1}{Firstname}#=%=#Maxim
+Author{1}{Lastname}#=%=#Rabinovich
+Author{1}{Email}#=%=#rabinovich@eecs.berkeley.edu
+Author{1}{Affiliation}#=%=#UC Berkeley
+Author{2}{Firstname}#=%=#Mitchell
+Author{2}{Lastname}#=%=#Stern
+Author{2}{Email}#=%=#mitchell@berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Klein
+Author{3}{Email}#=%=#klein@cs.berkeley.edu
+Author{3}{Affiliation}#=%=#UC Berkeley
+
+==========

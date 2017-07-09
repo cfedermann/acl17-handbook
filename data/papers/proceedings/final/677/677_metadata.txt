@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#677
+FinalPaperTitle#=%=#Multi-space Variational Encoder-Decoders for Semi-supervised Labeled Sequence Transduction
+ShortPaperTitle#=%=#Multi-space Variational Encoder-Decoders for Semi-supervised Labeled Sequence Transduction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chunting Zhou
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, USA
+Abstract#==#Labeled sequence transduction is a task of transforming one sequence into
+another sequence that satisfies desiderata specified by a set of labels. In
+this paper we propose multi-space variational encoder-decoders, a new model for
+labeled sequence transduction with semi-supervised learning. The generative
+model can use neural networks to handle both discrete and continuous latent
+variables to exploit various features of data. Experiments show that our model
+provides not only a powerful supervised framework but also can effectively take
+advantage of the unlabeled data. On the SIGMORPHON morphological inflection
+benchmark, our model outperforms single-model state-of-art results by a large
+margin for the majority of languages.
+Author{1}{Firstname}#=%=#Chunting
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Email}#=%=#ctzhou@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Graham
+Author{2}{Lastname}#=%=#Neubig
+Author{2}{Email}#=%=#gneubig@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

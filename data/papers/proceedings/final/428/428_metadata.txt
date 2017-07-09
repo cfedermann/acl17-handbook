@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#428
+FinalPaperTitle#=%=#Supervised Learning of Automatic Pyramid for Optimization-Based Multi-Document Summarization
+ShortPaperTitle#=%=#Supervised Learning of Automatic Pyramid for Optimization-Based Multi-Document Summarization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Maxime Peyrard
+JobTitle#==#
+Organization#==#Ubiquitous Knowledge Processing Lab
+Hochschulstraße 10 
+64289 Darmstadt
+Germany
+Abstract#==#We present a  new supervised framework that learns to estimate automatic
+Pyramid scores and uses them for optimization-based extractive multi-document
+summarization. For learning automatic Pyramid scores, we developed a method for
+automatic training data generation which is based on a genetic algorithm using
+automatic Pyramid as the fitness function. Our experimental evaluation shows
+that  our new framework significantly outperforms strong baselines regarding
+automatic Pyramid, and that there is much room for improvement in comparison
+with the upper-bound for automatic Pyramid.
+Author{1}{Firstname}#=%=#Maxime
+Author{1}{Lastname}#=%=#Peyrard
+Author{1}{Email}#=%=#peyrard@aiphes.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Judith
+Author{2}{Lastname}#=%=#Eckle-Kohler
+Author{2}{Email}#=%=#eckle-kohler@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#Technische Universität Darmstadt
+
+==========

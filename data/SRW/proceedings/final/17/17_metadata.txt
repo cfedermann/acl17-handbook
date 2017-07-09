@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Building a Non-Trivial Paraphrase Corpus Using Multiple Machine Translation Systems
+ShortPaperTitle#=%=#Building a Non-Trivial Paraphrase Corpus Using Multiple Machine Translation Systems
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yui Suzuki
+JobTitle#==#
+Organization#==#Tokyo Metropolitan University
+6-6, Asahigaoka, Hino, Tokyo, Japan
+Abstract#==#We propose a novel sentential paraphrase acquisition method.
+To build a well-balanced corpus for Paraphrase Identification, we especially
+focus on acquiring both non-trivial positive and negative instances.
+We use multiple machine translation systems to generate positive candidates and
+a monolingual corpus to extract negative candidates.
+To collect non-trivial instances, the candidates are uniformly sampled by word
+overlap rate.
+Finally, annotators judge whether the candidates are either positive or
+negative.
+Using this method, we built and released the first evaluation corpus for
+Japanese paraphrase identification, which comprises 655 sentence pairs.
+Author{1}{Firstname}#=%=#Yui
+Author{1}{Lastname}#=%=#Suzuki
+Author{1}{Email}#=%=#suzuki-yui@ed.tmu.ac.jp
+Author{1}{Affiliation}#=%=#Tokyo Metropolitan University
+Author{2}{Firstname}#=%=#Tomoyuki
+Author{2}{Lastname}#=%=#Kajiwara
+Author{2}{Email}#=%=#kajiwara-tomoyuki@ed.tmu.ac.jp
+Author{2}{Affiliation}#=%=#Tokyo Metropolitan University
+Author{3}{Firstname}#=%=#Mamoru
+Author{3}{Lastname}#=%=#Komachi
+Author{3}{Email}#=%=#komachi@tmu.ac.jp
+Author{3}{Affiliation}#=%=#Tokyo Metropolitan University
+
+==========

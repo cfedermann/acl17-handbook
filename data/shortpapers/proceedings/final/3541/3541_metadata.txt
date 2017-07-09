@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3541
+FinalPaperTitle#=%=#Incorporating Dialectal Variability for Socially Equitable Language Identification
+ShortPaperTitle#=%=#Incorporating Dialectal Variability for Socially Equitable Language Identification
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#David Jurgens
+JobTitle#==#
+Organization#==#
+Abstract#==#Language identification (LID) is a critical first step for processing
+multilingual text.  Yet most LID systems are not designed to handle the
+linguistic diversity of global platforms like Twitter, where local dialects and
+rampant code-switching lead language classifiers to systematically miss
+minority dialect speakers and multilingual speakers.  We propose a new dataset
+and a character-based sequence-to-sequence model for LID designed to support
+dialectal and multilingual language varieties. Our model achieves
+state-of-the-art performance on multiple LID benchmarks.  Furthermore, in a
+case study using Twitter for health tracking,  our method substantially
+increases the availability of texts written by underrepresented populations, 
+enabling the development of "socially inclusive" NLP tools.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Jurgens
+Author{1}{Email}#=%=#jurgens@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Yulia
+Author{2}{Lastname}#=%=#Tsvetkov
+Author{2}{Email}#=%=#yulia.tsvetkov@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Jurafsky
+Author{3}{Email}#=%=#jurafsky@stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+
+==========

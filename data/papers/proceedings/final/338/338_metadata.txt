@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#338
+FinalPaperTitle#=%=#Handling Cold-Start Problem in Review Spam Detection by Jointly Embedding Texts and Behaviors
+ShortPaperTitle#=%=#Handling Cold-Start Problem in Review Spam Detection by Jointly Embedding Texts and Behaviors
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xuepeng Wang
+JobTitle#==#
+Organization#==#Institute of Automation,
+Chinese Academy of Sciences
+Abstract#==#Solving cold-start problem in review spam detection is an urgent and
+significant task.
+It can help the on-line review websites to relieve the damage of spammers in
+time, but has never been investigated by previous work.
+This paper proposes a novel neural network model to detect review spam for
+cold-start problem, by learning to represent the new reviewers' review with
+jointly embedded textual and behavioral information.
+Experimental results prove the proposed model achieves an effective performance
+and possesses preferable domain-adaptability.
+It is also applicable to a large scale dataset in an unsupervised way.
+Author{1}{Firstname}#=%=#Xuepeng
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#xpwang@nlpr.ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Kang
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#kliu@nlpr.ia.ac.cn
+Author{2}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Jun
+Author{3}{Lastname}#=%=#Zhao
+Author{3}{Email}#=%=#junzhao123@163.com
+Author{3}{Affiliation}#=%=#NLPR, Institute of Automation, Chinese Academy of Sciences
+
+==========

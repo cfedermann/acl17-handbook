@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#218
+FinalPaperTitle#=%=#Prerequisite Relation Learning for Concepts in MOOCs
+ShortPaperTitle#=%=#Prerequisite Relation Learning for Concepts in MOOCs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Liangming Pan
+JobTitle#==#
+Organization#==#Knowledge Engineering Laboratory, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China
+Abstract#==#What prerequisite knowledge should students achieve a level of mastery before
+moving forward to learn subsequent coursewares? We study the extent to which
+the prerequisite relation between knowledge concepts in Massive Open Online
+Courses (MOOCs) can be inferred automatically. In particular, what kinds of
+information can be leverage to uncover the potential prerequisite relation
+between knowledge concepts. We first propose a representation learning-based
+method for learning latent representations of course concepts, and then
+investigate how different features capture the prerequisite relations between
+concepts. Our experiments on three datasets form Coursera show that the
+proposed method achieves significant improvements (+5.9-48.0% by F1-score)
+comparing with existing methods.
+Author{1}{Firstname}#=%=#Liangming
+Author{1}{Lastname}#=%=#Pan
+Author{1}{Email}#=%=#peterpan10211020@163.com
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Chengjiang
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#li-cj13@mails.tsinghua.edu.cn
+Author{2}{Affiliation}#=%=#Tsinghua University
+Author{3}{Firstname}#=%=#Juanzi
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#lijuanzi2008@gmail.com
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#Jie
+Author{4}{Lastname}#=%=#Tang
+Author{4}{Email}#=%=#jietang@tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#Tsinghua University
+
+==========

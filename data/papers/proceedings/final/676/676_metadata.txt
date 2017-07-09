@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#676
+FinalPaperTitle#=%=#Neural Machine Translation via Binary Code Prediction
+ShortPaperTitle#=%=#Neural Machine Translation via Binary Code Prediction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yusuke Oda
+JobTitle#==#
+Organization#==#Nara Institute of Science and Technology, 8916-5 Takayama-cho, Ikoma, Nara 630-0192, Japan.
+Abstract#==#In this paper, we propose a new method for calculating the output layer in
+neural machine translation systems. The method is based on predicting a
+binary code for each word and can reduce computation time/memory requirements
+of the output layer to be logarithmic in vocabulary size in the best case.
+In addition, we also introduce two advanced approaches to improve the
+robustness of the proposed model: using error-correcting codes and combining
+softmax and binary codes. Experiments on two English-Japanese bidirectional
+translation tasks show proposed models achieve BLEU scores that approach the
+softmax, while reducing memory usage to the order of less than 1/10 and
+improving decoding speed on CPUs by x5 to x10.
+Author{1}{Firstname}#=%=#Yusuke
+Author{1}{Lastname}#=%=#Oda
+Author{1}{Email}#=%=#oda.yusuke.on9@is.naist.jp
+Author{1}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{2}{Firstname}#=%=#Philip
+Author{2}{Lastname}#=%=#Arthur
+Author{2}{Email}#=%=#philip.arthur.om0@is.naist.jp
+Author{2}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{3}{Firstname}#=%=#Graham
+Author{3}{Lastname}#=%=#Neubig
+Author{3}{Email}#=%=#gneubig@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Koichiro
+Author{4}{Lastname}#=%=#Yoshino
+Author{4}{Email}#=%=#koichiro@is.naist.jp
+Author{4}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{5}{Firstname}#=%=#Satoshi
+Author{5}{Lastname}#=%=#Nakamura
+Author{5}{Email}#=%=#s-nakamura@is.naist.jp
+Author{5}{Affiliation}#=%=#Nara Institute of Science and Technology
+
+==========

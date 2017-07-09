@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#706
+FinalPaperTitle#=%=#Naturalizing a Programming Language via Interactive Learning
+ShortPaperTitle#=%=#Naturalizing a Programming Language via Interactive Learning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Sida I. Wang
+JobTitle#==#
+Organization#==#Stanford University
+Abstract#==#Our goal is to create a convenient natural language interface for performing
+well-specified but complex actions such as analyzing data, manipulating text,
+and querying databases. However, existing natural language interfaces for such
+tasks are quite primitive compared to the power one wields with a programming
+language. To bridge this gap, we start with a core programming language and
+allow users to ``naturalize'' the core language incrementally by defining
+alternative, more natural syntax and increasingly complex concepts in terms of
+compositions of simpler ones. In a voxel world, we show that a community of
+users can simultaneously teach a common system a diverse language and use it to
+build hundreds of complex voxel structures. Over the course of three days,
+these users went from using only the core language to using the naturalized
+language in 85.9\% of the last 10K utterances.
+Author{1}{Firstname}#=%=#Sida I.
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#sidaw@cs.stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Samuel
+Author{2}{Lastname}#=%=#Ginn
+Author{2}{Email}#=%=#samginn@cs.stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Percy
+Author{3}{Lastname}#=%=#Liang
+Author{3}{Email}#=%=#pliang@cs.stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+Author{4}{Firstname}#=%=#Christopher D.
+Author{4}{Lastname}#=%=#Manning
+Author{4}{Email}#=%=#manning@cs.stanford.edu
+Author{4}{Affiliation}#=%=#Stanford University
+
+==========

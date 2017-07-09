@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#638
+FinalPaperTitle#=%=#Unifying Text, Metadata, and User Network Representations with a Neural Network for Geolocation Prediction
+ShortPaperTitle#=%=#Unifying Text, Metadata, and User Network Representations with a Neural Network for Geolocation Prediction
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Yasuhide Miura
+JobTitle#==#
+Organization#==#Fuji Xerox Co., Ltd.
+6-1 Minatomirai Nishi-ku Yokohama-shi
+Kanagawa 220-8668 Japan
+Abstract#==#We propose a novel geolocation prediction model using a complex neural network.
+Geolocation prediction in social media has attracted many researchers to use
+information of various types. Our model unifies text, metadata, and user
+network representations with an attention mechanism to overcome previous
+ensemble approaches. In an evaluation using two open datasets, the proposed
+model exhibited a maximum 3.8% increase in accuracy and a maximum of 6.6%
+increase in accuracy@161 against previous models. We further analyzed several
+intermediate layers of our model, which revealed that their states capture some
+statistical characteristics of the datasets.
+Author{1}{Firstname}#=%=#Yasuhide
+Author{1}{Lastname}#=%=#Miura
+Author{1}{Email}#=%=#yasuhide.miura@fujixerox.co.jp
+Author{1}{Affiliation}#=%=#Research & Technology Group, Fuji Xerox Co., Ltd.
+Author{2}{Firstname}#=%=#Motoki
+Author{2}{Lastname}#=%=#Taniguchi
+Author{2}{Email}#=%=#motoki.taniguchi@fujixerox.co.jp
+Author{2}{Affiliation}#=%=#Research & Technology Group, Fuji Xerox Co., Ltd.
+Author{3}{Firstname}#=%=#Tomoki
+Author{3}{Lastname}#=%=#Taniguchi
+Author{3}{Email}#=%=#taniguchi.tomoki@fujixerox.co.jp
+Author{3}{Affiliation}#=%=#Research & Technology Group, Fuji Xerox Co., Ltd.
+Author{4}{Firstname}#=%=#Tomoko
+Author{4}{Lastname}#=%=#Ohkuma
+Author{4}{Email}#=%=#ohkuma.tomoko@fujixerox.co.jp
+Author{4}{Affiliation}#=%=#Research & Technology Group, Fuji Xerox Co., Ltd.
+
+==========

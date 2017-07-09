@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#SuperAgent: A Customer Service Chatbot for E-commerce Websites
+ShortPaperTitle#=%=#SuperAgent: A Customer Service Chatbot for E-commerce Websites
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Conventional customer service chatbots are usually built upon human dialogs,
+yet confronted with the problems of data scale and privacy. In this paper, we
+present SuperAgent, which is a customer service chatbot leveraging large-scale
+and public available e-commerce data. Distinct from existing counterparts,
+SuperAgent takes advantage of data from in-page product descriptions as well as
+user-generated content from e-commerce websites, which is more practical and
+cost-effective to answer repetitive questions, thereby freeing up support
+staffs to answer much higher value questions. We demonstrate SuperAgent as an
+add-on extension to mainstream web browsers and show its usefulness to user's
+online shopping experience.
+Author{1}{Firstname}#=%=#Lei
+Author{1}{Lastname}#=%=#Cui
+Author{1}{Email}#=%=#lecu@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft Research Asia
+Author{2}{Firstname}#=%=#Shaohan
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#shaohanh@microsoft.com
+Author{2}{Affiliation}#=%=#msra
+Author{3}{Firstname}#=%=#Furu
+Author{3}{Lastname}#=%=#Wei
+Author{3}{Email}#=%=#fuwei@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Asia
+Author{4}{Firstname}#=%=#Chuanqi
+Author{4}{Lastname}#=%=#Tan
+Author{4}{Email}#=%=#tanchuanqi@nlsde.buaa.edu.cn
+Author{4}{Affiliation}#=%=#Beihang University
+Author{5}{Firstname}#=%=#Chaoqun
+Author{5}{Lastname}#=%=#Duan
+Author{5}{Email}#=%=#duanchaoqun91@hotmail.com
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology
+Author{6}{Firstname}#=%=#Ming
+Author{6}{Lastname}#=%=#Zhou
+Author{6}{Email}#=%=#mingzhou@microsoft.com
+Author{6}{Affiliation}#=%=#microsoft research asia
+
+==========

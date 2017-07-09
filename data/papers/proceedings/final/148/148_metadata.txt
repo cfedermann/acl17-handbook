@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#148
+FinalPaperTitle#=%=#Evaluation Metrics for Machine Reading Comprehension: Prerequisite Skills and Readability
+ShortPaperTitle#=%=#Evaluation Metrics for Machine Reading Comprehension: Prerequisite Skills and Readability
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Saku Sugawara
+JobTitle#==#
+Organization#==#
+Abstract#==#Knowing the quality of reading comprehension (RC) datasets is important for the
+development of natural-language understanding systems.
+  In this study, two classes of metrics were adopted for evaluating RC
+datasets: prerequisite skills and readability. We applied these classes to six
+existing datasets, including MCTest and SQuAD, and highlighted the
+characteristics of the datasets according to each metric and the correlation
+between the two classes.
+  Our dataset analysis suggests that the readability of RC datasets does not
+directly affect the question difficulty and that it is possible to create an RC
+dataset that is easy to read but difficult to answer.
+Author{1}{Firstname}#=%=#Saku
+Author{1}{Lastname}#=%=#Sugawara
+Author{1}{Email}#=%=#saku@nii.ac.jp
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Yusuke
+Author{2}{Lastname}#=%=#Kido
+Author{2}{Email}#=%=#yusuke.kid@gmail.com
+Author{2}{Affiliation}#=%=#The University of Tokyo
+Author{3}{Firstname}#=%=#Hikaru
+Author{3}{Lastname}#=%=#Yokono
+Author{3}{Email}#=%=#yokono.hikaru@jp.fujitsu.com
+Author{3}{Affiliation}#=%=#Fujitsu Laboratories Ltd.
+Author{4}{Firstname}#=%=#Akiko
+Author{4}{Lastname}#=%=#Aizawa
+Author{4}{Email}#=%=#aizawa@nii.ac.jp
+Author{4}{Affiliation}#=%=#National Institute of Informatics
+
+==========

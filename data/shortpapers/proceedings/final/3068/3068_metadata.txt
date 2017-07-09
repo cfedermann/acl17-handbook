@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3068
+FinalPaperTitle#=%=#Implicitly-Defined Neural Networks for Sequence Labeling
+ShortPaperTitle#=%=#Implicitly-Defined Neural Networks for Sequence Labeling
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Michaeel Kazi
+JobTitle#==#
+Organization#==#MIT Lincoln Laboratory
+244 Wood St
+Lexington, MA 02420
+Abstract#==#In this work, we propose a novel, implicitly-defined neural network
+architecture
+and describe a method to compute its components.
+The proposed architecture forgoes the causality assumption
+used to formulate recurrent neural networks
+and instead couples the hidden states of the network,
+allowing improvement on problems with complex, long-distance dependencies.
+Initial experiments demonstrate the new architecture outperforms both the
+Stanford Parser
+and baseline bidirectional networks on the Penn Treebank Part-of-Speech tagging
+task
+and a baseline bidirectional network on an additional artificial random biased
+walk task.
+Author{1}{Firstname}#=%=#Michaeel
+Author{1}{Lastname}#=%=#Kazi
+Author{1}{Email}#=%=#michaeel.kazi@gmail.com
+Author{1}{Affiliation}#=%=#MIT Lincoln Laboratory
+Author{2}{Firstname}#=%=#Brian
+Author{2}{Lastname}#=%=#Thompson
+Author{2}{Email}#=%=#brian.thompson@ll.mit.edu
+Author{2}{Affiliation}#=%=#MIT Lincoln Laboratory
+
+==========

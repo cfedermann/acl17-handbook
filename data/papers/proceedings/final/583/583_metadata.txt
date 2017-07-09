@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#583
+FinalPaperTitle#=%=#A Multidimensional Lexicon for Interpersonal Stancetaking
+ShortPaperTitle#=%=#A Multidimensional Lexicon for Interpersonal Stancetaking
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#The sociolinguistic construct of stancetaking describes the activities through
+which discourse participants create and signal relationships to their
+interlocutors, to the topic of discussion, and to the talk itself. Stancetaking
+underlies a wide range of interactional phenomena, relating to formality,
+politeness, affect, and subjectivity. We present a computational approach to
+stancetaking, in which we build a theoretically-motivated lexicon of stance
+markers, and then use multidimensional analysis to identify a set of underlying
+stance dimensions. We validate these dimensions intrinscially and
+extrinsically, showing that they are internally coherent, match pre-registered
+hypotheses, and correlate with social phenomena.
+Author{1}{Firstname}#=%=#Umashanthi
+Author{1}{Lastname}#=%=#Pavalanathan
+Author{1}{Email}#=%=#umashanthi@gatech.edu
+Author{1}{Affiliation}#=%=#Georgia Institute of Technology
+Author{2}{Firstname}#=%=#Jim
+Author{2}{Lastname}#=%=#Fitzpatrick
+Author{2}{Email}#=%=#jim.fitzpatrick@gmail.com
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+Author{3}{Firstname}#=%=#Scott
+Author{3}{Lastname}#=%=#Kiesling
+Author{3}{Email}#=%=#kiesling@pitt.edu
+Author{3}{Affiliation}#=%=#University of Pittsburgh
+Author{4}{Firstname}#=%=#Jacob
+Author{4}{Lastname}#=%=#Eisenstein
+Author{4}{Email}#=%=#jacobe@gmail.com
+Author{4}{Affiliation}#=%=#Georgia Institute of Technology
+
+==========

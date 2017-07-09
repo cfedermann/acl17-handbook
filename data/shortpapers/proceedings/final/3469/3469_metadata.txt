@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3469
+FinalPaperTitle#=%=#Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths
+ShortPaperTitle#=%=#Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Fei Cheng
+JobTitle#==#Postdoctoral Researcher
+Organization#==#National Institute of Informatics
+2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo 101-8430
+Abstract#==#Temporal relation classification is becoming an active research field. Lots of
+methods have been proposed, while most of them focus on extracting features
+from external resources. Less attention has been paid to a significant advance
+in a closely related task: relation extraction. In this work, we borrow a
+state-of-the-art method in relation extraction by adopting bidirectional long
+short-term memory (Bi-LSTM) along dependency paths (DP). We make a “common
+root” assumption to extend DP representations of cross-sentence links. In the
+final comparison to two state-of-the-art systems on TimeBank-Dense, our model
+achieves comparable performance, without using external knowledge, as well as
+manually annotated attributes of entities (class, tense, polarity, etc.).
+Author{1}{Firstname}#=%=#Fei
+Author{1}{Lastname}#=%=#Cheng
+Author{1}{Email}#=%=#kevin.cheng.fei@gmail.com
+Author{1}{Affiliation}#=%=#National Institute of Informatics
+Author{2}{Firstname}#=%=#Yusuke
+Author{2}{Lastname}#=%=#Miyao
+Author{2}{Email}#=%=#yusuke@nii.ac.jp
+Author{2}{Affiliation}#=%=#National Instutite of Informatics
+
+==========

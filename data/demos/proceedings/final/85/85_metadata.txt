@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#85
+FinalPaperTitle#=%=#RelTextRank: An Open Source Framework for Building Relational Syntactic-Semantic Text Pair Representations
+ShortPaperTitle#=%=#RelTextRank: An Open Source Framework for Building Relational Syntactic-Semantic Text Pair Representations
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kateryna Tymoshenko
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a highly-flexible UIMA-based pipeline for developing structural
+kernel-based systems for relational learning from text, i.e., for generating
+training and test data for ranking, classifying short text pairs or measuring
+similarity between pieces of text. For example, the proposed pipeline can
+represent an input question and answer sentence pairs as syntactic-semantic
+structures, enriching them with relational information,  e.g., links between
+question class, focus and named entities, and serializes them as training and
+test files for the tree kernel-based reranking framework. The pipeline
+generates a number of dependency and shallow chunk-based representations shown
+to achieve competitive results in previous work. It also enables easy
+evaluation of the models thanks to cross-validation facilities.
+Author{1}{Firstname}#=%=#Kateryna
+Author{1}{Lastname}#=%=#Tymoshenko
+Author{1}{Email}#=%=#k.tymoshenko@gmail.com
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Alessandro
+Author{2}{Lastname}#=%=#Moschitti
+Author{2}{Email}#=%=#amoschitti@gmail.com
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+Author{3}{Firstname}#=%=#Massimo
+Author{3}{Lastname}#=%=#Nicosia
+Author{3}{Email}#=%=#m.nicosia@gmail.com
+Author{3}{Affiliation}#=%=#University of Trento
+Author{4}{Firstname}#=%=#Aliaksei
+Author{4}{Lastname}#=%=#Severyn
+Author{4}{Email}#=%=#severyn@google.com
+Author{4}{Affiliation}#=%=#Google Research
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#744
+FinalPaperTitle#=%=#Translating Neuralese
+ShortPaperTitle#=%=#Translating Neuralese
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#JA
+JobTitle#==#
+Organization#==#
+Abstract#==#Several approaches have recently been proposed for learning decentralized deep
+multiagent policies that coordinate via a differentiable communication channel.
+While these policies are effective for many tasks, interpretation of their
+induced communication strategies has remained a challenge. Here we propose to
+interpret agents' messages by translating them.  Unlike in typical machine
+translation problems, we have no parallel data to learn from. Instead we
+develop
+a translation model based on the insight that agent messages and natural
+language strings mean the same thing if they induce the same belief about
+the world in a listener.  We present theoretical guarantees and empirical
+evidence that our approach preserves both the semantics and pragmatics of
+messages by ensuring that players communicating through a translation layer do
+not suffer a substantial loss in reward relative to players with a common
+language.
+Author{1}{Firstname}#=%=#Jacob
+Author{1}{Lastname}#=%=#Andreas
+Author{1}{Email}#=%=#jda@cs.berkeley.edu
+Author{1}{Affiliation}#=%=#Berkeley
+Author{2}{Firstname}#=%=#Anca
+Author{2}{Lastname}#=%=#Dragan
+Author{2}{Email}#=%=#anca@cs.berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Klein
+Author{3}{Email}#=%=#klein@cs.berkeley.edu
+Author{3}{Affiliation}#=%=#UC Berkeley
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#547
+FinalPaperTitle#=%=#Learning to Create and Reuse Words in Open-Vocabulary Neural Language Modeling
+ShortPaperTitle#=%=#Learning to Create and Reuse Words in Open-Vocabulary Neural Language Modeling
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Kazuya Kawakami
+JobTitle#==#
+Organization#==#
+Abstract#==#Fixed-vocabulary language models fail to account for one of the most
+characteristic statistical facts of natural language: the frequent creation and
+reuse of new word types. Although character-level language models offer a
+partial solution in that they can create word types not attested in the
+training corpus, they do not capture the ``bursty'' distribution of such words.
+In this paper, we augment a hierarchical LSTM language model that generates
+sequences of word tokens character by character with a caching mechanism that
+learns to reuse previously generated words. 
+To validate our model we construct a new open-vocabulary language modeling
+corpus (the Multilingual Wikipedia Corpus; MWC) from comparable Wikipedia
+articles in 7 typologically diverse languages and demonstrate the effectiveness
+of our model across this range of languages.
+Author{1}{Firstname}#=%=#Kazuya
+Author{1}{Lastname}#=%=#Kawakami
+Author{1}{Email}#=%=#www.kazuya.kawakami@gmail.com
+Author{1}{Affiliation}#=%=#University of Oxford
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Dyer
+Author{2}{Email}#=%=#cdyer@google.com
+Author{2}{Affiliation}#=%=#Google DeepMind
+Author{3}{Firstname}#=%=#Phil
+Author{3}{Lastname}#=%=#Blunsom
+Author{3}{Email}#=%=#phil.blunsom@cs.ox.ac.uk
+Author{3}{Affiliation}#=%=#University of Oxford
+
+==========

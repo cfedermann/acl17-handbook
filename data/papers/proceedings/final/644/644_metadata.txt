@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#644
+FinalPaperTitle#=%=#Going out on a limb: Joint Extraction of Entity Mentions and Relations without Dependency Trees
+ShortPaperTitle#=%=#Going out on a limb: Joint Extraction of Entity Mentions and Relations without Dependency Trees
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a novel attention-based recurrent neural network for joint
+extraction of entity mentions and relations. We show that attention along with
+long short term memory (LSTM) network can extract semantic relations between
+entity mentions without having access to dependency trees. 
+Experiments on Automatic Content Extraction (ACE) corpora show that our model
+significantly outperforms feature-based joint model by Li and Ji (2014). We
+also compare our model with an end-to-end tree-based LSTM model (SPTree) by
+Miwa and Bansal (2016) and show that our model performs within 1\% on entity
+mentions and 2\% on relations. Our fine-grained analysis also shows that our
+model performs significantly better on Agent-Artifact relations, while SPTree
+performs better on Physical and Part-Whole relations.
+Author{1}{Firstname}#=%=#Arzoo
+Author{1}{Lastname}#=%=#Katiyar
+Author{1}{Email}#=%=#ak979@cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Claire
+Author{2}{Lastname}#=%=#Cardie
+Author{2}{Email}#=%=#cardie@cs.cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+
+==========

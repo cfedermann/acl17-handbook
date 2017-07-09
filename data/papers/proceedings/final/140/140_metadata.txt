@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#140
+FinalPaperTitle#=%=#A Convolutional Encoder Model for Neural Machine Translation
+ShortPaperTitle#=%=#A Convolutional Encoder Model for Neural Machine Translation
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Michael Auli
+JobTitle#==#
+Organization#==#Facebook AI Research
+Abstract#==#The prevalent approach to neural machine translation relies on bi-directional
+LSTMs to encode the source sentence. We present a faster and simpler
+architecture based on a succession of convolutional layers. This allows to
+encode the source sentence simultaneously compared to recurrent networks for
+which computation is constrained by temporal dependencies. On WMT'16
+English-Romanian translation we achieve competitive accuracy to the
+state-of-the-art and on WMT'15 English-German we outperform several recently
+published results. Our models obtain almost the same accuracy as a very deep
+LSTM setup on WMT'14 English-French translation. We speed up CPU decoding by
+more than two times at the same or higher accuracy as a strong bi-directional
+LSTM.
+Author{1}{Firstname}#=%=#Jonas
+Author{1}{Lastname}#=%=#Gehring
+Author{1}{Email}#=%=#jonas.gehring@kit.edu
+Author{1}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Auli
+Author{2}{Email}#=%=#michael.auli@gmail.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Grangier
+Author{3}{Email}#=%=#grangier@fb.com
+Author{3}{Affiliation}#=%=#Facebook
+Author{4}{Firstname}#=%=#Yann
+Author{4}{Lastname}#=%=#Dauphin
+Author{4}{Email}#=%=#ynd@fb.com
+Author{4}{Affiliation}#=%=#Facebook
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#3340
+FinalPaperTitle#=%=#Representing Sentences as Low-Rank Subspaces
+ShortPaperTitle#=%=#Representing Sentences as Low-Rank Subspaces
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jiaqi Mu
+JobTitle#==#
+Organization#==#University of Illinois at Urbana-Champaign
+1308 W. Main St., Urbana, IL, 61801
+Abstract#==#Sentences are important semantic units of natural language. A generic,
+distributional representation of sentences that can capture the latent
+semantics is beneficial to multiple downstream applications. We observe a
+simple geometry of sentences -- the word representations of a given sentence
+(on average 10.23 words in all SemEval datasets with a standard deviation 4.84)
+roughly lie in a low-rank subspace (roughly, rank 4). Motivated by this
+observation, we represent a sentence by the low-rank subspace spanned by its
+word vectors. Such an unsupervised representation is empirically validated via
+semantic textual similarity tasks on 19 different datasets, where it
+outperforms the sophisticated neural network models,  including skip-thought
+vectors, by 15% on average.
+Author{1}{Firstname}#=%=#Jiaqi
+Author{1}{Lastname}#=%=#Mu
+Author{1}{Email}#=%=#jiaqimu2@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana Champaign
+Author{2}{Firstname}#=%=#Suma
+Author{2}{Lastname}#=%=#Bhat
+Author{2}{Email}#=%=#spbhat2@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana Champaign
+Author{3}{Firstname}#=%=#Pramod
+Author{3}{Lastname}#=%=#Viswanath
+Author{3}{Email}#=%=#pramodv@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois at Urbana Champaign
+
+==========

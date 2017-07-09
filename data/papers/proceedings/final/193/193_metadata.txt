@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#193
+FinalPaperTitle#=%=#A Transition-Based Directed Acyclic Graph Parser for UCCA
+ShortPaperTitle#=%=#A Transition-Based DAG Parser for UCCA
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Daniel
+JobTitle#==#
+Organization#==#The Hebrew University, The Edmond J. Safra Campus - Givat Ram, Jerusalem 9190401, Israel
+Abstract#==#We present the first parser for UCCA, a cross-linguistically applicable
+framework for semantic representation, which builds on extensive typological
+work and supports rapid annotation. UCCA poses a challenge for existing parsing
+techniques, as it exhibits reentrancy (resulting in DAG structures),
+discontinuous structures and non-terminal nodes corresponding to complex
+semantic units. To our knowledge, the conjunction of these formal properties is
+not supported by any existing parser. Our transition-based parser, which uses a
+novel transition set and features based on bidirectional LSTMs, has value not
+just for UCCA parsing: its ability to handle more general graph structures can
+inform the development of parsers for other semantic DAG structures, and in
+languages that frequently use discontinuous structures.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Hershcovich
+Author{1}{Email}#=%=#daniel.hershcovich@gmail.com
+Author{1}{Affiliation}#=%=#Hebrew University
+Author{2}{Firstname}#=%=#Omri
+Author{2}{Lastname}#=%=#Abend
+Author{2}{Email}#=%=#omri.abend@mail.huji.ac.il
+Author{2}{Affiliation}#=%=#The Hebrew University of Jerusalem
+Author{3}{Firstname}#=%=#Ari
+Author{3}{Lastname}#=%=#Rappoport
+Author{3}{Email}#=%=#arir@cs.huji.ac.il
+Author{3}{Affiliation}#=%=#The Hebrew University
+
+==========

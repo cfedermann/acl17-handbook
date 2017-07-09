@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#256
+FinalPaperTitle#=%=#Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders
+ShortPaperTitle#=%=#Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Tiancheng Zhao
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Ave Pittsburgh PA USA
+Abstract#==#While recent neural encoder-decoder models have shown great promise in modeling
+open-domain conversations, they often generate dull and generic responses.
+Unlike past work that has focused on diversifying the output of the decoder
+from word-level to alleviate this problem, we present a novel framework based
+on conditional variational autoencoders that capture the discourse-level
+diversity in the encoder. Our model uses latent variables to learn a
+distribution over potential conversational intents and generates diverse
+responses using only greedy decoders. We have further developed a novel variant
+that is integrated with linguistic prior knowledge for better performance.
+Finally, the training procedure is improved through introducing a bag-of-word
+loss. Our proposed models have been validated to generate significantly more
+diverse responses than baseline approaches and exhibit competence of
+discourse-level decision-making.
+Author{1}{Firstname}#=%=#Tiancheng
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#tianchez@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Language Technologies Institute, Carnegie Mellon University
+Author{2}{Firstname}#=%=#Ran
+Author{2}{Lastname}#=%=#Zhao
+Author{2}{Email}#=%=#ranzhao.cmu@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Maxine
+Author{3}{Lastname}#=%=#Eskenazi
+Author{3}{Email}#=%=#max@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#3156
+FinalPaperTitle#=%=#Sentence Embedding for Neural Machine Translation Domain Adaptation
+ShortPaperTitle#=%=#Sentence Embedding for NMT Domain Adaptation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Rui Wang
+JobTitle#==#
+Organization#==#Advanced Translation Technology Laboratory
+National Institute of Information and Communications Technology (NICT)
+3-5 Hikaridai, Seika-cho, Soraku-gun, Kyoto 619-0289, Japan
+Abstract#==#Although new corpora are becoming increasingly available for machine
+translation, only those that belong to the same or similar domains are
+typically able to improve translation performance. Recently Neural Machine
+Translation (NMT) has become prominent in the field. However, most of the
+existing domain adaptation methods only focus on phrase-based machine
+translation. In this paper, we exploit the NMT's internal embedding of the
+source sentence and use the sentence embedding similarity to select the
+sentences which are close to in-domain data. The empirical adaptation results
+on the IWSLT English-French and NIST Chinese-English tasks show that the
+proposed methods can substantially improve NMT performance by 2.4-9.0 BLEU
+points, outperforming the existing state-of-the-art baseline by 2.3-4.5 BLEU
+points.
+Author{1}{Firstname}#=%=#Rui
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wangrui.nlp@gmail.com
+Author{1}{Affiliation}#=%=#NICT
+Author{2}{Firstname}#=%=#Andrew
+Author{2}{Lastname}#=%=#Finch
+Author{2}{Email}#=%=#andrew.finch@gmail.com
+Author{2}{Affiliation}#=%=#NICT
+Author{3}{Firstname}#=%=#Masao
+Author{3}{Lastname}#=%=#Utiyama
+Author{3}{Email}#=%=#mutiyama@nict.go.jp
+Author{3}{Affiliation}#=%=#NICT
+Author{4}{Firstname}#=%=#Eiichiro
+Author{4}{Lastname}#=%=#Sumita
+Author{4}{Email}#=%=#eiichiro.sumita@nict.go.jp
+Author{4}{Affiliation}#=%=#NICT
+
+==========

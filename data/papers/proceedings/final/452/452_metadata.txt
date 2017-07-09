@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#452
+FinalPaperTitle#=%=#The State of the Art in Semantic Representation
+ShortPaperTitle#=%=#The State of the Art in Semantic Representation
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Omri Abend
+JobTitle#==#
+Organization#==#School of Computer Science and Engineering
+Edmond Safra Campus, Givat Ram
+The Hebrew University
+Jerusalem, 9190401, Israel
+
+e-mail: oabend at cs dot huji dot ac dot il
+Abstract#==#Semantic representation is receiving growing attention in NLP in the past few
+years, and many proposals for semantic schemes (e.g., AMR, UCCA, GMB, UDS) have
+been put forth. Yet, little has been done to assess the achievements and the
+shortcomings of these new contenders, compare them with syntactic schemes, and
+clarify the general goals of research on semantic representation. We address
+these gaps by critically surveying the state of the art in the field.
+Author{1}{Firstname}#=%=#Omri
+Author{1}{Lastname}#=%=#Abend
+Author{1}{Email}#=%=#omri.abend@mail.huji.ac.il
+Author{1}{Affiliation}#=%=#The Hebrew University of Jerusalem
+Author{2}{Firstname}#=%=#Ari
+Author{2}{Lastname}#=%=#Rappoport
+Author{2}{Email}#=%=#arir@cs.huji.ac.il
+Author{2}{Affiliation}#=%=#The Hebrew University
+
+==========

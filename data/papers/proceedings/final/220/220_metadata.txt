@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#220
+FinalPaperTitle#=%=#Vancouver Welcomes You! Minimalist Location Metonymy Resolution
+ShortPaperTitle#=%=#Vancouver Welcomes You! Minimalist Location Metonymy Resolution
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Milan Gritta
+JobTitle#==#
+Organization#==#Language Technology Lab, Department of Theoretical and Applied Linguistics, University of Cambridge, English Faculty Building, 9 West Road, Cambridge CB3 9DA, United Kingdom
+Abstract#==#Named entities are frequently used in a metonymic manner. They serve as
+references to related entities such as people and organisations. Accurate
+identification and interpretation of metonymy can be directly beneficial to
+various NLP applications, such as Named Entity Recognition and Geographical
+Parsing. Until now, metonymy resolution (MR) methods mainly relied on parsers,
+taggers, dictionaries, external word lists and other handcrafted lexical
+resources. We show how a minimalist neural approach combined with a novel
+predicate window method can achieve competitive results on the SemEval 2007
+task on Metonymy Resolution. Additionally, we contribute with a new
+Wikipedia-based MR dataset called RelocaR, which is tailored towards locations
+as well as improving previous deficiencies in annotation guidelines.
+Author{1}{Firstname}#=%=#Milan
+Author{1}{Lastname}#=%=#Gritta
+Author{1}{Email}#=%=#mg711@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Mohammad Taher
+Author{2}{Lastname}#=%=#Pilehvar
+Author{2}{Email}#=%=#mp792@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Nut
+Author{3}{Lastname}#=%=#Limsopatham
+Author{3}{Email}#=%=#nl347@cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#Nigel
+Author{4}{Lastname}#=%=#Collier
+Author{4}{Email}#=%=#nhc30@cam.ac.uk
+Author{4}{Affiliation}#=%=#University of Cambridge
+
+==========

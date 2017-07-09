@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Extended Named Entity Recognition API and Its Applications in Language Education
+ShortPaperTitle#=%=#Extended Named Entity Recognition API
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nguyen Tuan Duc
+JobTitle#==#
+Organization#==#Alt Inc
+Abstract#==#We present an Extended Named Entity Recognition API to recognize various types
+of entities and classify the entities into 200 different categories. Each
+entity is classified into a hierarchy of entity categories, in which the
+categories near the root are more general than the categories near the leaves
+of the hierarchy. This category information can be used in various applications
+such as language educational applications, online news services and
+recommendation engines. We show an application of the proposed API in a
+Japanese online news service for Japanese language studying users.
+Author{1}{Firstname}#=%=#Tuan Duc
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#nguyen.tuan.duc@alt.ai
+Author{1}{Affiliation}#=%=#Alt Inc
+Author{2}{Firstname}#=%=#Khai
+Author{2}{Lastname}#=%=#Mai
+Author{2}{Email}#=%=#khaimaitien@gmail.com
+Author{2}{Affiliation}#=%=#Alt Inc
+Author{3}{Firstname}#=%=#Thai-Hoang
+Author{3}{Lastname}#=%=#Pham
+Author{3}{Email}#=%=#phamthaihoang.hn@gmail.com
+Author{3}{Affiliation}#=%=#Alt Inc
+Author{4}{Firstname}#=%=#Minh Trung
+Author{4}{Lastname}#=%=#Nguyen
+Author{4}{Email}#=%=#nguyen.minh.trung@alt.ai
+Author{4}{Affiliation}#=%=#Alt Inc
+Author{5}{Firstname}#=%=#Truc-Vien T.
+Author{5}{Lastname}#=%=#Nguyen
+Author{5}{Email}#=%=#trucvien.nguyen@gmail.com
+Author{5}{Affiliation}#=%=#Alt Inc.
+Author{6}{Firstname}#=%=#Takashi
+Author{6}{Lastname}#=%=#Eguchi
+Author{6}{Email}#=%=#takashi.eguchi@alt.ai
+Author{6}{Affiliation}#=%=#Alt Inc
+Author{7}{Firstname}#=%=#Ryohei
+Author{7}{Lastname}#=%=#Sasano
+Author{7}{Email}#=%=#sasano@i.nagoya-u.ac.jp
+Author{7}{Affiliation}#=%=#Nagoya University
+Author{8}{Firstname}#=%=#Satoshi
+Author{8}{Lastname}#=%=#Sekine
+Author{8}{Email}#=%=#sekine@cs.nyu.edu
+Author{8}{Affiliation}#=%=#New York University
+
+==========

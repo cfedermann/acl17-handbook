@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#117
+FinalPaperTitle#=%=#Improved Neural Relation Detection for Knowledge Base Question Answering
+ShortPaperTitle#=%=#Improved Neural Relation Detection for KBQA
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Mo Yu
+JobTitle#==#
+Organization#==#AI Foundations, IBM Research, USA
+Abstract#==#Relation detection is a core component of many NLP applications including
+Knowledge Base Question Answering (KBQA). In this paper, we propose a
+hierarchical recurrent neural network enhanced by residual learning which
+detects KB relations given an input question. Our method uses deep residual
+bidirectional LSTMs to compare questions and relation names via different
+levels of abstraction. Additionally, we propose a simple KBQA system that
+integrates entity linking and our proposed relation detector to make the two
+components enhance each other. Our experimental results show that our approach
+not only achieves outstanding relation detection performance, but more
+importantly, it helps our KBQA system achieve state-of-the-art accuracy for
+both single-relation (SimpleQuestions) and multi-relation (WebQSP) QA
+benchmarks.
+Author{1}{Firstname}#=%=#Mo
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Email}#=%=#gflfof@gmail.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Wenpeng
+Author{2}{Lastname}#=%=#Yin
+Author{2}{Email}#=%=#mr.yinwenpeng@gmail.com
+Author{2}{Affiliation}#=%=#University of Munich
+Author{3}{Firstname}#=%=#Kazi Saidul
+Author{3}{Lastname}#=%=#Hasan
+Author{3}{Email}#=%=#saidul29@gmail.com
+Author{3}{Affiliation}#=%=#University of Texas at Dallas, IBM
+Author{4}{Firstname}#=%=#Cicero
+Author{4}{Lastname}#=%=#dos Santos
+Author{4}{Email}#=%=#cicerons@us.ibm.com
+Author{4}{Affiliation}#=%=#IBM Watson
+Author{5}{Firstname}#=%=#Bing
+Author{5}{Lastname}#=%=#Xiang
+Author{5}{Email}#=%=#bxiang05@gmail.com
+Author{5}{Affiliation}#=%=#IBM
+Author{6}{Firstname}#=%=#Bowen
+Author{6}{Lastname}#=%=#Zhou
+Author{6}{Email}#=%=#zhou@us.ibm.com
+Author{6}{Affiliation}#=%=#IBM Research
+
+==========

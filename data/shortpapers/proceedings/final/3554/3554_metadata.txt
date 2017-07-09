@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3554
+FinalPaperTitle#=%=#Japanese Sentence Compression with a Large Training Dataset
+ShortPaperTitle#=%=#Japanese Sentence Compression with a Large Training Dataset
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shun Hasegawa
+JobTitle#==#
+Organization#==#
+Abstract#==#In English, high-quality sentence compression models by deleting words have
+been trained on automatically created large training datasets. We work on
+Japanese sentence compression by a similar approach. To create a large Japanese
+training dataset, a method of creating English training dataset is modified
+based on the characteristics of the Japanese language. The created dataset is
+used to train Japanese sentence compression models based on the recurrent
+neural network.
+Author{1}{Firstname}#=%=#Shun
+Author{1}{Lastname}#=%=#Hasegawa
+Author{1}{Email}#=%=#hasegawa.s@lr.pi.titech.ac.jp
+Author{1}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{2}{Firstname}#=%=#Yuta
+Author{2}{Lastname}#=%=#Kikuchi
+Author{2}{Email}#=%=#kikuchi@preferred.jp
+Author{2}{Affiliation}#=%=#Preferred Networks, Inc.
+Author{3}{Firstname}#=%=#Hiroya
+Author{3}{Lastname}#=%=#Takamura
+Author{3}{Email}#=%=#takamura@pi.titech.ac.jp
+Author{3}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{4}{Firstname}#=%=#Manabu
+Author{4}{Lastname}#=%=#Okumura
+Author{4}{Email}#=%=#oku@pi.titech.ac.jp
+Author{4}{Affiliation}#=%=#Tokyo Institute of Technology
+
+==========

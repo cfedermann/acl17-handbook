@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3206
+FinalPaperTitle#=%=#Improving Semantic Composition with Offset Inference
+ShortPaperTitle#=%=#Improving Semantic Composition with Offset Inference
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Thomas Kober
+JobTitle#==#
+Organization#==#University of Sussex, Department of Informatics, TAG Laboratory, Brighton, BN1 9RH, E Sussex, UK
+Abstract#==#Count-based distributional semantic models suffer from sparsity due to
+unobserved but plausible co-occurrences in any text collection. This problem is
+amplified for models like Anchored Packed Trees (APTs), that take the
+grammatical type of a co-occurrence into account. We therefore introduce a
+novel form of distributional inference that exploits the rich type structure in
+APTs and infers missing data by the same mechanism that is used for semantic
+composition.
+Author{1}{Firstname}#=%=#Thomas
+Author{1}{Lastname}#=%=#Kober
+Author{1}{Email}#=%=#thk22@sussex.ac.uk
+Author{1}{Affiliation}#=%=#University of Sussex
+Author{2}{Firstname}#=%=#Julie
+Author{2}{Lastname}#=%=#Weeds
+Author{2}{Email}#=%=#juliewe@sussex.ac.uk
+Author{2}{Affiliation}#=%=#University of Sussex
+Author{3}{Firstname}#=%=#Jeremy
+Author{3}{Lastname}#=%=#Reffin
+Author{3}{Email}#=%=#j.p.reffin@sussex.ac.uk
+Author{3}{Affiliation}#=%=#University of Sussex
+Author{4}{Firstname}#=%=#David
+Author{4}{Lastname}#=%=#Weir
+Author{4}{Email}#=%=#d.j.weir@sussex.ac.uk
+Author{4}{Affiliation}#=%=#University of Sussex
+
+==========

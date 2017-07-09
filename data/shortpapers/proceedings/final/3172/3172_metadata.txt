@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#3172
+FinalPaperTitle#=%=#Efficient Extraction of Pseudo-Parallel Sentences from Raw Monolingual Data Using Word Embeddings
+ShortPaperTitle#=%=#Extraction of Pseudo-Parallel Sentences from Monolingual Data
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Benjamin Marie
+JobTitle#==#Researcher
+Organization#==#National Institute of Information and Communications Technology
+3-5 Hikaridai, Seika-cho, Souraku-gun, Kyoto, 619-0289, Japan
+Abstract#==#We propose a new method for extracting pseudo-parallel sentences from a pair of
+large monolingual corpora, without relying on any document-level information.
+Our method first exploits word embeddings in order to efficiently evaluate
+trillions of candidate sentence pairs and then a classifier to find the most
+reliable ones. We report significant improvements in domain adaptation for
+statistical machine translation when using a translation model trained on the
+sentence pairs extracted from in-domain monolingual corpora.
+Author{1}{Firstname}#=%=#Benjamin
+Author{1}{Lastname}#=%=#Marie
+Author{1}{Email}#=%=#bmarie@nict.go.jp
+Author{1}{Affiliation}#=%=#NICT
+Author{2}{Firstname}#=%=#Atsushi
+Author{2}{Lastname}#=%=#Fujita
+Author{2}{Email}#=%=#fujita@paraphrasing.org
+Author{2}{Affiliation}#=%=#National Institute of Information and Communications Technology
+
+==========

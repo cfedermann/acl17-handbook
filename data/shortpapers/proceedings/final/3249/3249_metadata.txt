@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#3249
+FinalPaperTitle#=%=#Data Augmentation for Low-Resource Neural Machine Translation
+ShortPaperTitle#=%=#Data Augmentation for Low-Resource Neural Machine Translation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Marzieh Fadaee
+JobTitle#==#
+Organization#==#Informatics Institute, University of Amsterdam Science Park 904, 1098 XH Amsterdam, The Netherlands
+Abstract#==#The quality of a Neural Machine Translation system depends substantially on the
+availability of sizable parallel corpora.
+For low-resource language pairs this is not the case, resulting in poor
+translation quality. 
+Inspired by work in computer vision, we propose a novel data augmentation
+approach that targets low-frequency words by generating new sentence pairs
+containing rare words in new, synthetically created contexts.
+Experimental results on simulated low-resource settings show that our method
+improves translation quality by up to 2.9 BLEU points over the baseline and up
+to 3.2 BLEU over back-translation.
+Author{1}{Firstname}#=%=#Marzieh
+Author{1}{Lastname}#=%=#Fadaee
+Author{1}{Email}#=%=#m.fadaee@uva.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Arianna
+Author{2}{Lastname}#=%=#Bisazza
+Author{2}{Email}#=%=#A.Bisazza@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+Author{3}{Firstname}#=%=#Christof
+Author{3}{Lastname}#=%=#Monz
+Author{3}{Email}#=%=#c.monz@uva.nl
+Author{3}{Affiliation}#=%=#University of Amsterdam
+
+==========

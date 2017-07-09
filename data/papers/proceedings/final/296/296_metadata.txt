@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#296
+FinalPaperTitle#=%=#Found in Translation: Reconstructing Phylogenetic Language Trees from Translations
+ShortPaperTitle#=%=#Found in Translation: Reconstructing Phylogenetic Language Trees from Translations
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ella Rabinovich
+JobTitle#==#
+Organization#==#
+Abstract#==#Translation has played an important role in trade, law, commerce, politics, and
+literature for thousands of years. Translators have always tried to be
+invisible; ideal translations should look as if they were written originally in
+the target language. We show that traces of the source language remain in the
+translation product to the extent that it is possible to uncover the history of
+the source language by looking only at the translation. Specifically, we
+automatically reconstruct phylogenetic language trees from monolingual texts
+(translated from several source languages). The signal of the source language
+is so powerful that it is retained even after two phases of translation. This
+strongly indicates that source language interference is the most dominant
+characteristic of translated texts, overshadowing the more subtle signals of
+universal properties of translation.
+Author{1}{Firstname}#=%=#Ella
+Author{1}{Lastname}#=%=#Rabinovich
+Author{1}{Email}#=%=#ellarabi@gmail.com
+Author{1}{Affiliation}#=%=#University of Haifa
+Author{2}{Firstname}#=%=#Noam
+Author{2}{Lastname}#=%=#Ordan
+Author{2}{Email}#=%=#noam.ordan@gmail.com
+Author{2}{Affiliation}#=%=#Univeristy of Haifa
+Author{3}{Firstname}#=%=#Shuly
+Author{3}{Lastname}#=%=#Wintner
+Author{3}{Email}#=%=#shuly@cs.haifa.ac.il
+Author{3}{Affiliation}#=%=#University of Haifa
+
+==========

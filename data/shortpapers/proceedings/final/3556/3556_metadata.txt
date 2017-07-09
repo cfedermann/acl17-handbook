@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#3556
+FinalPaperTitle#=%=#Parser Adaptation for Social Media by Integrating Normalization
+ShortPaperTitle#=%=#Parser Adaptation for Social Media by Integrating Normalization
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Rob van der Goot
+JobTitle#==#
+Organization#==#University of Groningen, Broerstraat 5, 9712CP, Groningen, Netherlands
+Abstract#==#This work explores different approaches of using normalization for parser
+adaptation.  Traditionally, normalization is used as separate pre-processing
+step. We show that integrating the normalization model into the
+parsing algorithm is more beneficial. This way, multiple normalization
+candidates can be leveraged, which improves parsing performance on social
+media.
+We test this hypothesis by modifying the Berkeley parser; out-of-the-box it
+achieves an F1 score of 66.52.                          Our integrated approach
+reaches a
+significant
+improvement with an F1 score of 67.36, while using the best normalization
+sequence results in an F1 score of only 66.94.
+Author{1}{Firstname}#=%=#Rob
+Author{1}{Lastname}#=%=#van der Goot
+Author{1}{Email}#=%=#robvanderg@live.nl
+Author{1}{Affiliation}#=%=#University of Groningen
+Author{2}{Firstname}#=%=#Gertjan
+Author{2}{Lastname}#=%=#van Noord
+Author{2}{Email}#=%=#g.j.m.van.noord@rug.nl
+Author{2}{Affiliation}#=%=#University of Groningen
+
+==========

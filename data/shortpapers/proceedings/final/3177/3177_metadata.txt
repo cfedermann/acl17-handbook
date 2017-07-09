@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#3177
+FinalPaperTitle#=%=#How to Make Context More Useful? An Empirical Study on Context-Aware Neural Conversational Models
+ShortPaperTitle#=%=#An Empirical Study on Context-Aware Neural Conversational Models
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Lili Mou
+JobTitle#==#
+Organization#==#Peking University, 
+5 Yiheyuan Rd.,
+Beijing 100871, China
+Abstract#==#Generative conversational systems are attracting increasing attention in
+natural language processing (NLP). Recently, researchers have noticed the
+importance of context information in dialog processing, and built various
+models to utilize context. However, there is no systematic comparison to
+analyze how to use context effectively. In this paper, we conduct an empirical
+study to compare various models and investigate the effect of context
+information in dialog systems. We also propose a variant that explicitly
+weights context vectors by context-query relevance, outperforming the other
+baselines.
+Author{1}{Firstname}#=%=#Zhiliang
+Author{1}{Lastname}#=%=#Tian
+Author{1}{Email}#=%=#tianzhiliang@baidu.com
+Author{1}{Affiliation}#=%=#Baidu Inc.
+Author{2}{Firstname}#=%=#Rui
+Author{2}{Lastname}#=%=#Yan
+Author{2}{Email}#=%=#rui.yan.pku@gmail.com
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Lili
+Author{3}{Lastname}#=%=#Mou
+Author{3}{Email}#=%=#doublepower.mou@gmail.com
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Yiping
+Author{4}{Lastname}#=%=#Song
+Author{4}{Email}#=%=#songyiping@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+Author{5}{Firstname}#=%=#Yansong
+Author{5}{Lastname}#=%=#Feng
+Author{5}{Email}#=%=#fengyansong@pku.edu.cn
+Author{5}{Affiliation}#=%=#Peking University
+Author{6}{Firstname}#=%=#Dongyan
+Author{6}{Lastname}#=%=#Zhao
+Author{6}{Email}#=%=#zhaody@pku.edu.cn
+Author{6}{Affiliation}#=%=#Peking University
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3158
+FinalPaperTitle#=%=#STAIR Captions: Constructing a Large-Scale Japanese Image Caption Dataset
+ShortPaperTitle#=%=#STAIR Captions: Constructing a Large-Scale Japanese Image Caption Dataset
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yuya Yoshikawa
+JobTitle#==#
+Organization#==#Chiba Institute of Technology. 
+2-17-1, Tsudanuma, Narashino, Chiba, Japan.
+Abstract#==#In recent years, automatic generation of image descriptions (captions), that
+is, image captioning, has attracted a great deal of attention.
+In this paper, we particularly consider generating Japanese captions for
+images.
+Since most available caption datasets have been constructed for English
+language, there are few datasets for Japanese.
+To tackle this problem, we construct a large-scale Japanese image caption
+dataset based on images from MS-COCO, which is called STAIR Captions.
+STAIR Captions consists of 820,310 Japanese captions for 164,062 images.
+In the experiment, we show that a neural network trained using STAIR Captions
+can generate more natural and better Japanese captions, compared to those
+generated using English-Japanese machine translation after generating English
+captions.
+Author{1}{Firstname}#=%=#Yuya
+Author{1}{Lastname}#=%=#Yoshikawa
+Author{1}{Email}#=%=#yoshikawa@stair.center
+Author{1}{Affiliation}#=%=#Chiba Institute of Technology
+Author{2}{Firstname}#=%=#Yutaro
+Author{2}{Lastname}#=%=#Shigeto
+Author{2}{Email}#=%=#shigeto@stair.center
+Author{2}{Affiliation}#=%=#Chiba Institute of Technology
+Author{3}{Firstname}#=%=#Akikazu
+Author{3}{Lastname}#=%=#Takeuchi
+Author{3}{Email}#=%=#takeuchi@stair.center
+Author{3}{Affiliation}#=%=#Chiba Institute of Technology
+
+==========

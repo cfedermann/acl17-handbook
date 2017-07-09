@@ -1,0 +1,692 @@
+%
+% File acl2017.tex
+%
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+%\usepackage[draft]{hyperref}
+%\usepackage{acl2017}
+\usepackage[hyperref]{acl2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\urlstyle{same}
+
+\usepackage{multirow}
+
+\usepackage{flushend}
+%\let\oldbibitem\bibitem
+%\def\bibitem{\vfill\oldbibitem}
+
+
+\aclfinalcopy % Uncomment this line for the final submission
+\def\aclpaperid{617} %  Enter the acl Paper ID here
+
+\setlength\titlebox{7cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\newcounter{Lcount}
+\newcommand{\squishenum}{
+\begin{list}{\arabic{Lcount}. }
+{ \usecounter{Lcount}
+\setlength{\itemsep}{0pt}
+\setlength{\parsep}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
+\setlength{\leftmargin}{2em}
+\setlength{\labelwidth}{1.5em}
+\setlength{\labelsep}{0.5em} } }
+
+
+\newcommand{\squishlist}{
+ \begin{list}{$\bullet$}
+  { \setlength{\itemsep}{0pt}
+     \setlength{\parsep}{3pt}
+     \setlength{\topsep}{3pt}
+     \setlength{\partopsep}{0pt}
+     \setlength{\leftmargin}{1.5em}
+     \setlength{\labelwidth}{1em}
+     \setlength{\labelsep}{0.5em} } }
+
+
+\newcommand{\squishlisttwo}{
+ \begin{list}{$\bullet$}
+  { \setlength{\itemsep}{0pt}
+    \setlength{\parsep}{0pt}
+    \setlength{\topsep}{0pt}
+    \setlength{\partopsep}{0pt}
+    \setlength{\leftmargin}{2em}
+    \setlength{\labelwidth}{1.5em}
+    \setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishend}{
+  \end{list}  }
+  
+\usepackage{color}
+\definecolor{addedForCR}{rgb}{1,0,0}
+\newcommand\addedForCR[1]{{\color{addedForCR}#1}}
+
+\title{MalwareTextDB: A Database for Annotated Malware Articles}
+
+\author{Swee Kiat Lim \and Aldrian Obaja Muis \and Wei Lu \\
+  Singapore University of Technology and Design \\
+  8 Somapah Road, Singapore, 487372 \\
+  {\tt limsweekiat@gmail.com, \{aldrian\_muis,luwei\}@sutd.edu.sg}\\\\
+  \textbf{Chen Hui Ong} \\
+  DSO National Laboratories\\
+  20 Science Park Drive, Singapore, 118230 \\
+  {\tt ochenhui@dso.org.sg}}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+
+Cybersecurity risks and malware threats are becoming increasingly dangerous and common. Despite the severity of the problem, there has been few NLP efforts focused on tackling cybersecurity.
+
+In this paper, we discuss the construction of a new database for annotated malware texts. An annotation framework is introduced based around the MAEC vocabulary for defining malware characteristics, along with a database consisting of 39 annotated APT reports with a total of 6,819 sentences. We also use the database to construct models that can potentially help cybersecurity researchers in their data collection and analytics efforts.
+
+\end{abstract}
+
+\section{Introduction}
+
+In 2010, the malware known as Stuxnet physically damaged centrifuges in Iranian nuclear facilities \cite{Langner:11}. More recently in 2016, a botnet known as Mirai used infected Internet of Things (IoT) devices to conduct large-scale Distributed Denial of Service (DDoS) attacks and disabled Internet access for millions of users in the US West Coast \cite{USCERT:16}. These are only two cases in a long list ranging from ransomeware on personal laptops \cite{Andronio:15} to taking over control of moving cars \cite{Checkoway:11}. Attacks such as these are likely to become increasingly frequent and dangerous as more devices and facilities become connected and digitized.
+
+Recently, {\em cybersecurity defense} has also been recognized as one of the ``{\em problem areas likely to be important both for advancing AI and for its long-run impact on society}" \cite{openai}.
+In particular, we feel that natural language processing (NLP) has the potential for substantial contribution in cybersecurity and that this is a critical research area given the urgency and risks involved. 
+
+\begin{figure}[t]
+%original scale=0.6
+\centering
+\includegraphics[width=\columnwidth]{headline}
+
+\vspace{-2mm}
+
+\caption{\label{headline}Annotated sentence and sentence fragment from MalwareTextDB. 
+Such annotations provide semantic-level information to the text. 
+\vspace{-1em}
+}
+
+\end{figure}
+
+There exists a large repository of malware-related texts online, such as detailed malware reports by various cybersecurity agencies such as Symantec \cite{DiMaggio:15} and Cylance \cite{Gross:16} and in various blog posts. Cybersecurity researchers often consume such texts in the process of data collection. However, the sheer volume and diversity of these texts make it difficult for researchers to quickly obtain useful information. A potential application of NLP can be to quickly highlight critical information from these texts, such as the specific actions taken by a certain malware. This can help researchers quickly understand the capabilities of a specific malware and search in other texts for malware with similar capabilities. 
+
+An immediate problem preventing application of NLP techniques to malware texts is that such texts are mostly unannotated. This severely limits their use in supervised learning techniques.
+
+In light of that, we introduce a database of annotated malware reports for facilitating future NLP work in cybersecurity. To the best of our knowledge, this is the first database consisting of annotated malware reports. It is intended for public release, where we hope to inspire contributions from other research groups and individuals.
+
+The main contributions of this paper are:
+\squishlist %\begin{itemize}
+\item We initiate a framework for annotating malware reports and annotate 39 Advanced Persistent Threat (APT) reports (containing 6,819 sentences) with attribute labels from the Malware Attribute Enumeration and Characterization (MAEC) vocabulary \cite{Kirillov:10}.
+\item We propose the following tasks and construct models for tackling them:
+	\squishlisttwo %\begin{itemize}
+	\item Classify if a sentence is useful for inferring malware actions and capabilities,
+	\item Predict token, relation and attribute labels for a given malware-related text, as defined by the earlier framework, and
+	\item Predict a malware's signatures based only on text describing the malware.
+	\squishend %\end{itemize}
+\squishend %\end{itemize}
+
+\section{Background}
+
+\subsection{APTnotes}
+
+The 39 APT reports in this database are sourced from APTnotes, a GitHub repository of publicly-released reports related to APT groups \cite{Kiran}. The repository is constantly updated, which means a constant source of reports for annotations. While the repository currently consists of 384 reports (as of writing), we have chosen 39 reports from the year 2014 to initialize the database.
+
+\subsection{MAEC}
+
+The MAEC vocabulary was devised by The MITRE Corporation as a standardized language for describing malware \cite{Kirillov:10}. The MAEC vocabulary is used as a source of labels for our annotations. This will facilitate cross-applications in other projects and ensure relevance in the cybersecurity community.
+
+
+
+
+
+\subsection{Related Work}
+
+There are datasets available, which are used for more general tasks such as content extraction \cite{walker2006} or keyword extraction \cite{Kim:2010}. These may appear similar to our dataset.
+However, a big difference is that we are not performing general-purpose annotation and not all tokens are annotated.
+Instead, we only annotated tokens relevant to malware capabilities and provide more valuable information by annotating the type of malware capability or action implied.
+These are important differentiating factors, specifically catered to the cybersecurity domain.
+
+While we are not aware of any database catering specifically to malware reports, there are various databases in the cybersecurity domain that provide malware hashes, such as the National Software Reference Library (NSRL) \cite{NIST, Mead:06} and the File Hash Repository (FHR) by the Open Web Application Security Project \cite{OWASP}. 
+
+Most work on classifying and detecting malware has also been focusing on detecting system calls \cite{Alazab2010,briones2008,willems2007,qiao2013}. More recently, \citet{rieck2011} has incorporated machine learning techniques for detecting malware, again through system calls. To the best of our knowledge, we are not aware of any work on classifying malware based on analysis of malware reports. By building a model that learns to highlight critical information on malware capabilities, we feel that malware-related texts can become a more accessible source of information and provide a richer form of malware characterization beyond detecting file hashes and system calls.
+
+%Lal focused on t.
+%However the author restricts the annotations to more general labels, somewhat similar to the Token Labels in our work. One of the key points of our work is the implementation of Attribute Labels, which is extremely domain-specific.
+
+
+\section{Data Collection}
+
+
+We worked together with cybersecurity researchers while choosing the preliminary dataset, to ensure that it is relevant for the cybersecurity community.
+The factors considered when selecting the dataset include the mention of most current malware threats, the range of author sources, with blog posts and technical security reports, and the range of actor attributions, from several suspected state actors to smaller APT groups.
+
+
+\subsection{Preprocessing}
+
+
+
+After the APT reports have been downloaded in PDF format, the PDFMiner tool \cite{Shinyama} is used to convert the PDF files into plaintext format.
+The reports often contain non-sentences, such as the cover page or document header and footer. We went through these non-sentences manually and subsequently removed them before the annotation. Hence only complete sentences are considered for subsequent steps.
+
+
+
+\subsection{Annotation}
+
+
+The Brat Rapid Annotation Tool \cite{Stenetorp:12} is used to annotate the reports. The main aim of the annotation is to map important word phrases that describe malware actions and behaviors to the relevant MAEC vocabulary, such as the one shown in Figure \ref{headline}. We first extract and enumerate the labels from the MAEC vocabulary, which we call attribute labels. This gives us a total of 444 attribute labels, consisting of 211 ActionName labels, 20 Capability labels, 65 StrategicObjectives labels and 148 TacticalObjectives labels. These labels are elaborated in Section \ref{app:ann:stage3}.
+
+There are three main stages to the annotation process. These are cumulative and eventually build up to the annotation of the attribute labels.
+
+
+\subsection{Stage 1 - Token Labels}
+\label{ann_stage1}
+
+The first stage involves annotating the text with the following \emph{token labels}, illustrated in Figure~\ref{sample-1}:
+\squishlist %\begin{description}
+\item [\bf Action]		This refers to an event, such as ``\emph{registers}'', ``\emph{provides}'' and ``\emph{is written}''.
+\item [\bf Subject]		This refers to the initiator of the Action such as ``\emph{The dropper}'' and ``\emph{This module}''.
+\item [\bf Object]		This refers to the recipient of the Action such as ``\emph{itself}'', ``\emph{remote persistent access}'' and ``\emph{The ransom note}''; it also refers to word phrases that provide elaboration on the Action such as ``\emph{a service}'', ``\emph{the attacker}'' and ``\emph{disk}''.
+\item [\bf Modifier]	This refers to tokens that link to other word phrases that provide elaboration on the Action such as ``\emph{as}'' and ``\emph{to}''.
+\squishend %\end{description}
+
+This stage helps to identify word phrases that are relevant to the MAEC vocabulary. Notice that for the last sentence in Figure \ref{sample-1}, ``\emph{The ransom note}'' is tagged as an Object instead of a Subject. This is because the Action ``\emph{is written}'' is not being initiated by ``\emph{The ransom note}''. Instead, the Subject is absent in this sentence.
+
+\subsection{Stage 2 - Relation Labels}
+
+The second stage involves annotating the text with the following \emph{relation labels}:
+\squishlist %\begin{description}
+\item [\bf SubjAction]	This links an Action with its relevant Subject.
+\item [\bf ActionObj]	This links an Action with its relevant Object.
+\item [\bf ActionMod]	This links an Action with its relevant Modifier.
+\item [\bf ModObj]		This links a Modifier with the Object that provides elaboration.
+\squishend %\end{description}
+
+This stage helps to make the links between the labelled tokens explicit, which is important in cases where a single Action has multiple Subjects, Objects or Modifiers. Figure \ref{sample-1} demonstrates how the relation labels are used to link the token labels.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{examples_noCoRefer}
+
+\vspace{-1mm}
+
+\caption{\label{sample-1}Examples of annotated sentences.}
+\vspace{-1em}
+\end{figure}
+
+\begin{figure}[t]
+\vspace{4mm}
+\centering
+\includegraphics[width=\columnwidth]{relevance-2}
+
+\vspace{-3mm}
+
+\caption{\label{irrelevant}Examples of irrelevant sentences.}
+%\vspace{-1em}
+\end{figure}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[scale=0.24]{complex}
+\vspace{-2mm}
+\caption{\label{complex}
+Two different ways for annotating a sentence, where both seem to be equally satisfactory to a human annotator. In this case, both serve to highlight the malware's ability to hide its DLL's functionality. 
+}
+\end{figure*}
+
+
+\subsection{Stage 3 - Attribute Labels}
+\label{app:ann:stage3}
+
+The third stage involves annotating the text with the \emph{attribute labels} extracted from the MAEC vocabulary. Since the Action is the main indicator of a malware's action or capability, the attribute labels are annotated onto the Actions tagged in Stage 1. Each Action should have one or more attribute labels.
+
+There are four classes of attribute labels: ActionName, Capability, StrategicObjectives and TacticalObjectives. These labels describe different actions and capabilities of the malware. Refer to Appendix \ref{sec:labels} for examples and elaboration.
+
+
+\subsection{Summary}
+
+The above stages complete the annotation process and is done for each document.
+There are also sentences that are not annotated at all since they do not provide any indication of malware actions or capabilities, such as the sentences in Figure \ref{irrelevant}. We call these sentences \emph{irrelevant sentences}.
+
+At the time of writing, the database consists of 39 annotated APT reports with a combined total of 6,819 sentences. Out of the 6,819 sentences, 2,080 sentences are annotated. Table \ref{summary} shows the breakdown of the annotation statistics.
+
+
+\begin{table}[t]
+\begin{center}
+\small
+{\def\arraystretch{1.125}\tabcolsep=3.5pt
+\begin{tabular}{l | c || l | c || l | c  }
+\hline 
+\multicolumn{2}{ c||}{\bf Token Labels} & \multicolumn{2}{ c||}{\bf Relation Labels} & \multicolumn{2}{c}{\bf Attribute Labels} \\ 
+\multicolumn{2}{ c||}{(by label)} & \multicolumn{2}{ c||}{(by label)} & \multicolumn{2}{c}{(by class)} \\ 
+\hline
+Subj & 1,778 & SubjAction & 2,343 & ActionName & 982\\
+Obj & 4,411 & ActionObj & 2,713 & Capability & 2,524\\
+Act & 2,975 & ActionMod & 1,841 & StratObj & 2,004\\
+Mod & 1,819 & ModObj & 1,808 & TactObj & 1,592\\
+\hline
+\multicolumn{1}{c|}{\bf Total} & \bf{10,983} & \multicolumn{1}{c|}{\bf Total} & \bf{8,705} & \multicolumn{1}{c|}{\bf Total} & \bf{7,102}\\
+\hline
+\end{tabular}
+}
+\end{center}
+\vspace{-1mm}
+\caption{\label{summary} Breakdown of annotation statistics.}
+\end{table}
+
+
+\subsection{Annotators' Challenges}
+\label{challenges}
+
+We can calculate the Cohen's Kappa \cite{Cohen:60} to quantify the agreement between annotators and to give an estimation of the difficulty of this task for human annotators. Using annotations from pairs of annotators, the Cohen's Kappa was calculated to be 0.36 for annotation of the Token labels. This relatively low agreement between annotators suggests that this is a rather difficult task. In the following subsections, we discuss some possible reasons that make this annotation task difficult.
+
+\subsubsection{Complex Sentence Structures}
+
+In many cases, there may be no definite way to label the tokens. Figure \ref{complex} shows two ways to annotate the same sentence. Both annotations essentially serve to highlight the Gen 2 sub-family's capability of hiding the DLL's functionality. The first annotation highlights the method used by the malware to hide the library, i.e., employing the Driver. The second annotation focuses on the malware hiding the library and does not include the method. Also notice that the Modifiers highlighted are different in the two cases, since this depends on the Action highlighted and are hence mutually exclusive. Such cases occur more commonly when the sentences contain complex noun- and verb-phrases that can be decomposed in several ways. Repercussions surface later in the experiments described in Section \ref{complex_reper}, specifically in the second point under Discussions.
+
+\subsubsection{Large Quantity of Labels}
+Due to the large number (444) of attribute labels, it is challenging for annotators to remember all of the attribute labels. Moreover, some of the attribute labels are subject to interpretation. For instance, should \emph{Capability: 005: MalwareCapability-command\_and\_control} be tagged for sentences that mention the location or IP addresses of command and control servers, even though such sentences may not be relevant to the capabilities of the malware?
+
+\subsubsection{Specialized Domain Knowledge Required}
+Finally, this task requires specialized cybersecurity domain knowledge from the annotator and the ability to apply such knowledge in a natural language context. For example, given the phrase ``\emph{load the DLL into memory}'', the annotator has to realize that this phrase matches the attribute label \emph{ActionName: 119: ProcessMemory-map\_library\_into\_process}. The abundance of labels with the many ways that each label can be expressed in natural language makes this task extremely challenging.
+
+
+
+\section{Proposed Tasks}
+
+The main goal of creating this database is to aid cybersecurity researchers in parsing malware-related texts for important information. To this end, we propose several tasks that build up to this main goal.
+
+\squishlist %\begin{description}
+\item [\bf Task 1]	Classify if a sentence is relevant for inferring malware actions and capabilities
+\item [\bf Task 2]	Predict token labels for a given malware-related text
+\item [\bf Task 3]	Predict relation labels for a given malware-related text
+\item [\bf Task 4]	Predict attribute labels for a given malware-related text
+\item [\bf Task 5]	Predict a malware's signatures based on the text describing the malware and the text's annotations
+\squishend %\end{description}
+
+Task 1 arose from discussions with domain experts where we found that a main challenge for cybersecurity researchers is having to sift out critical sentences from lengthy malware reports and articles. Figure \ref{irrelevant} shows sentences describing the political and military background of North Korea in the APT report \emph{HPSR SecurityBriefing\_Episode16\_NorthKorea}. Such information is essentially useless for cybersecurity researchers focused on malware actions and capabilities. It will be helpful to build a model that can filter relevant sentences that pertain to malware.
+
+Tasks 2 to 4 serve to automate the laborious annotation procedure as described earlier. With sufficient data, we hope that it becomes possible to build an effective model for annotating malware-related texts, using the framework and labels we defined earlier. Such a model will help to quickly increase the size of the database, which in turn facilitate other supervised learning tasks.
+
+Task 5 explores the possibility of using malware texts and annotations to predict a malware's signatures. While conventional malware analyzers generate a list of malware signatures based on the malware's activities in a sandbox, such analysis is often difficult due to restricted distribution of malware samples. In contrast, numerous malware reports are freely available and it will be helpful for cybersecurity researchers if such texts can be used to predict malware signatures instead of having to rely on a limited supply of malware samples.
+
+In the following experiments, we construct models for tackling each of these tasks and discuss the performance of our models.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[scale=0.26]{sbjobj}
+\vspace{-2mm}
+\caption{\label{subjectobject}
+An example of a token (``\emph{a lure document}'') labelled as both Subject and Object. In the first case, it is the recipient of the Action ``\emph{used}'', while in the latter case, it is the initiator of the Action ``\emph{installed}''.
+}
+\end{figure*}
+
+
+\section{Experiments and Results}
+
+
+Since the focus of this paper is on the introduction of a new framework and database for annotating malware-related texts, we only use simple algorithms for building the models and leave more complex models for future work. 
+
+For the following experiments, we use linear support vector machine (SVM) and multinomial Naive Bayes (NB) implementations in the scikit-learn library \cite{scikit-learn}. The regularization parameter in SVM and smoothing parameter in NB were tuned (with the values $10^{-3}$ to $10^{3}$ in logarithmic increments) by taking the value that gave the best performance in development set.
+
+For experiments where Conditional Random Field (CRF) \cite{Lafferty:01} is used, we utilized the CRF++ implementation \cite{Kudo}. 
+
+For scoring the predictions, unless otherwise stated, we use the metrics module in scikit-learn for SVM and NB, as well as the CoNLL2000 conlleval Perl script for CRF\footnote{\url{www.cnts.ua.ac.be/conll2000/chunking/output.html}}.
+
+Also, unless otherwise mentioned, we make use of all 39 annotated documents in the database. The experiments are conducted with a 60\%/20\%/20\% training/development/test split, resulting in 23, 8 and 8 documents in the respective datasets. Each experiment is conducted 5 times with a different random allocation of the dataset splits and we report averaged scores\footnote{Note that therefore the averaged $F_1$ may not be the harmonic mean of averaged $P$ and $R$ in the result tables.}. 
+
+Since we focus on building a database, we weigh recall and precision as equally important in the following experiments and hence focus on the F$_{1}$ score metric. 
+The relative importance of recall against precision will ultimately depend on the downstream tasks.
+
+\subsection{Task 1 - Classify sentences relevant to malware}
+
+We make use of the annotations in our database for this supervised learning task and consider a sentence to be relevant as long as it has an annotated token label. For example, the sentences in Figure \ref{sample-1} will be labeled relevant whereas the sentences in Figure \ref{irrelevant} will be labeled irrelevant.
+
+A simple bag-of-words model is used to represent each sentence. We then build two models -- SVM and NB -- for tackling this task.
+
+\begin{table}[t]
+\begin{center}
+\small
+{\def\arraystretch{1.125}\tabcolsep=3.5pt
+\begin{tabular}{c | c | c | c}
+\hline 
+& \bf P & \bf R & \bf F$_{1}$ \\ 
+\hline
+SVM & 69.7 & 54.0 & 60.5 \\
+NB & 59.5 & 68.5 & 63.2 \\
+\hline
+\end{tabular}
+}
+\end{center}
+\caption{\label{t1_scores} Task 1 scores: classifying relevant sentences.}
+\vspace{-1em}
+\end{table}
+
+\textbf{Results:} Table \ref{t1_scores} shows that while the NB model outperforms the SVM model in terms of F$_{1}$ score, the performance of both models are still rather low with F$_{1}$ scores below 70 points. We proceed to discuss possible sources of errors for the models.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[scale=0.44]{tokenAnalysis}
+\vspace{-2mm}
+\caption{\label{error-2}Actual and predicted annotations. For predicted annotations, the Entity label replaces the Subject and Object labels.}
+\end{figure*}
+
+\textbf{Discussions:} We find that there are two main types of misclassified sentences.
+
+\textbf{1. Sentences describing malware without implying specific actions}
+
+These sentences often contain malware-specific terms, such as ``\emph{payload}'' and ``\emph{malware}'' in the following sentence.
+
+\vspace{0.3em}
+
+\emph{This file is the main payload of the malware.}
+
+\vspace{0.3em}
+
+These sentences are often classified as relevant, probably due to the presence of malware-specific terms. However, such sentences are actually irrelevant because they merely describe the malware but do not indicate specific malware actions or capabilities.  
+
+
+\textbf{2. Sentences describing attacker actions}
+
+Such sentences mostly contain the term ``\emph{attacker}'' or names of attackers. For instance, the following sentence is incorrectly classified as irrelevant.
+
+\vspace{0.3em}
+
+\emph{This is another remote administration tool often used by the Pitty Tiger crew.}
+
+\vspace{0.3em}
+
+Such sentences involving the attacker are often irrelevant since the annotations focus on the malware and not the attacker. However, the above sentence implies that the malware is a remote administration tool and hence is a relevant sentence that implies malware capability.
+
+
+\subsection{Task 2 - Predict token labels}
+
+Task 2 concerns automating Stage 1 for the annotation process described in Section \ref{ann_stage1}. Within the annotated database, we find several cases where a single word-phrase may be annotated with both Subject and Object labels (see Figure \ref{subjectobject}). In order to simplify the model for prediction, we redefine Task 2 as predicting Entity, Action and Modifier labels for word-phrases. The single Entity label is used to replace both Subject and Object labels. Since the labels may extend beyond a single word token, we use the BIO format for indicating the span of the labels \cite{sang1999}. We use two approaches for tackling this task: a) CRF is used to train a model for directly predicting token labels, b) A pipeline approach where the NB model from Task 1 is used to filter relevant sentences. A CRF model is then trained to predict token labels for relevant sentences.
+
+The CRF model in Approach 1 is trained on the entire training set, whereas the CRF model in Approach 2 is trained only on the gold relevant sentences in the training set.
+
+For features in both approaches, we use unigrams and bigrams, part-of-Speech labels from the Stanford POStagger \cite{Toutanova:03}, and Brown clustering features after optimizing the cluster size \cite{Brown:1992}. A C++ implementation of the Brown clustering algorithm is used \cite{Percy2005}. The Brown cluster was trained on a larger corpus of APT reports, consisting of 103 APT reports not in the annotated database and the 23 APT reports from the training set. We group together low-frequency words that appear 4 or less times in the set of 126 APT reports into one cluster and during testing we assign new words into this cluster.
+
+\textbf{Results:} Table \ref{t2-1_scores} demonstrates that Approach 2 outperforms Approach 1 on most scores. Nevertheless, both approaches still give low performance for tackling Task 2 with F$_{1}$-scores below 50 points.
+
+\textbf{Discussions:} There seem to be three main categories of wrong predictions:
+
+\textbf{1. Sentences describing attacker actions}
+
+Such sentences are also a main source of prediction errors in Task 1. Again, most sentences describing attackers are deemed irrelevant and left unannotated because we focus on malware actions rather than human attacker actions. However, these sentences may be annotated in cases where the attacker's actions imply a malware action or capability. 
+
+For example, the Figure \ref{error-2}a describes the attackers stealing credentials. This implies that the malware used is capable of stealing and exfiltrating credentials. It may be challenging for the model to distinguish whether such sentences describing attackers should be annotated since a level of inference is required.
+
+\begin{table}[t]
+\begin{center}
+\small
+{\def\arraystretch{1.125}\tabcolsep=3.5pt
+\begin{tabular}{l | c | c | c || c | c | c}
+\hline 
+& \multicolumn{3}{ c||}{\bf Approach 1} & \multicolumn{3}{c}{\bf Approach 2} \\
+ \hline
+{\bf Token Label} & {\bf P} & {\bf R} & {\bf F$_{1}$} & {\bf P} & {\bf R} & {\bf F$_{1}$} \\ 
+\hline
+Entity   & 48.8 & 25.1 & 32.9 & 42.8 & 33.8 & 37.6 \\
+Action   & 55.2 & 30.3 & 38.9 & 50.8 & 41.1 & 45.2 \\
+Modifier & 55.7 & 28.4 & 37.3 & 48.9 & 37.4 & 42.1 \\
+\hline
+Average  & 51.7 & 27.0 & 35.2 & 45.9 & 36.3 & 40.3 \\
+\hline
+\end{tabular}
+}
+\end{center}
+\caption{\label{t2-1_scores} Task 2 scores: predicting token labels. }
+\end{table}
+
+
+\begin{figure*}[t]
+\centering
+\includegraphics[scale=0.27]{manyparents}
+\vspace{-2mm}
+\caption{\label{manyparents}
+An example of an entity with multiple parents. In this case, \emph{stage two payloads} has two parents by ActionObject relations - \emph{downloading} and \emph{executing}.
+}
+\end{figure*}
+
+\textbf{2. Sentences containing noun-phrases made up of participial phrases and/or prepositional phrases}
+
+\label{complex_reper}
+
+These sentences contain complex noun-phrases with multiple verbs and prepositions, such as in Figures \ref{error-2}b and \ref{error-2}c. In Figure \ref{error-2}b, ``\emph{the RCS sample sent to Ahmed}'' is a noun-phrase annotated as a single Subject/Entity. However, the model decomposes the noun-phrase into the subsidiary noun ``\emph{the RCS sample}'' and participial phrase ``\emph{sent to Ahmed}'' and further decompose the participial phrase into the constituent words, predicting Action, Modifier and Entity labels for ``\emph{sent}'', ``\emph{to}'' and ``\emph{Ahmed}'' respectively. There are cases where such decomposition of noun-phrases is correct, such as in Figure \ref{error-2}c. 
+
+As mentioned in Section \ref{challenges}, this is also a challenge for human annotators because there may be several ways to decompose the sentence, many of which serve equally well to highlight certain malware aspects (see Figure \ref{complex}).
+
+Whether such decomposition is correct depends on the information that can be extracted from the decomposition. For instance, the decomposition in Figure \ref{error-2}c implies that the malware can receive remote commands from attackers. In contrast, the decomposition predicted by the model in Figure \ref{error-2}b does not offer any insight into the malware. This is a difficult task that requires recognition of the phrase spans and the ability to decide which level of decomposition is appropriate.
+
+
+\begin{table}[t!]
+\begin{center}
+\small
+\vspace{-0.5mm}
+{\def\arraystretch{1.125}\tabcolsep=3.5pt
+\begin{tabular}{l | c | c | c || c | c | c}
+\hline 
+& \multicolumn{3}{ c||}{\bf Approach 1} & \multicolumn{3}{ c }{\bf Approach 2}\\
+ \hline
+{\bf Token Label} & {\bf P} & {\bf R} & {\bf F$_{1}$} & {\bf P} & {\bf R} & {\bf F$_{1}$}\\ 
+\hline
+Entity   & 63.6 & 32.1 & 42.3 & 56.5 & 46.3 & 50.6 \\
+Action   & 60.2 & 31.4 & 41.0 & 54.6 & 42.8 & 47.7 \\
+Modifier & 56.4 & 28.1 & 37.1 & 50.1 & 37.1 & 42.3 \\
+\hline
+Average  & 62.7 & 31.8 & 41.9 & 55.9 & 45.3 & 49.8 \\
+\hline
+\end{tabular}
+}
+\end{center}
+\caption{\label{t2-1_scores_relaxed} Task 2 relaxed/token-level scores.}
+%\vspace{-1em}
+\end{table}
+
+\textbf{3. Sentences containing noun-phrases made up of determiners and adjectives}
+
+These sentences contain noun-phrases with determiners and adjectives such as ``\emph{All the requests}'' in Figure \ref{error-2}d. In such cases, the model may only predict the Entity label for part of the noun-phrase. This is shown in Figure \ref{error-2}d, where the model predicts the Entity label for ``\emph{the requests}'' instead of ``\emph{All the requests}''.
+
+Thus, we also consider a relaxed scoring scheme where predictions are scored in token level instead of phrase level (see Table \ref{t2-1_scores_relaxed}).
+The aim of the relaxed score is to give credit to the model when the span for a predicted label intersects with the span for the actual label, as in Figure \ref{error-2}d. 
+
+
+
+\begin{table}[t]
+\begin{center}
+\small
+{\def\arraystretch{1.125}\tabcolsep=3.5pt
+\begin{tabular}{l | c | c | c }
+\hline 
+\bf Relation Label & \bf P & \bf R & \bf F$_{1}$ \\ 
+\hline
+%SubjAction & 86.22 & 81.87 & 83.99 \\
+%ActionObj & 91.55 & 86.29 & 88.84 \\
+%ActionMod & 98.58 & 96.37 & 97.46 \\
+%ModObj & 97.87 & 96.47 & 97.17 \\
+SubjAction & 86.3 & 82.3 & 84.2 \\
+ActionObj & 91.6 & 86.2 & 88.8 \\
+ActionMod & 98.5 & 96.4 & 97.4 \\
+ModObj & 98.0 & 96.7 & 97.4 \\
+\hline
+Average & 89.2 & 89.4 & 89.3 \\
+\hline
+\end{tabular}
+}
+\end{center}
+\caption{\label{t3_scores} Task 3 scores: predicting relation labels.}
+\vspace{-2mm}
+\end{table}
+
+
+
+
+\subsection{Task 3 - Predict relation labels}
+\label{task3}
+
+Following the prediction of token labels in Task 2, we move on to Task 3 for building a model for predicting relation labels. Due to the low performance of the earlier models for predicting token labels, for this experiment we decided to use the gold token labels as input into the model for predicting relation labels. Nevertheless, the models can still be chained in a pipeline context.
+
+The task initially appeared to be similar to a dependency parsing task where the model predicts dependencies between the entities demarcated by the token labels. However, on further inspection, we realized that there are several entities which have more than one parent entity (see Figure \ref{manyparents}). As such, we treat the task as a binary classification task, by enumerating all possible pairs of entities and predicting whether there is a relation between each pair.
+
+Predicting the relation labels from the token labels seem to be a relatively straightforward task and hence we design a simple rule-based model for the predictions. We tuned the rule-based model on one of the documents (\emph{AdversaryIntelligenceReport\_DeepPanda\_0 (1)}) and tested it on the remaining 38 documents. The rules are documented in Appendix \ref{rules}.
+
+
+\textbf{Results:} Table \ref{t3_scores} shows the scores from testing the model on the remaining 38 documents.
+
+The results from the rule-based model are better than expected, with the average F$_{1}$-scores exceeding 84 points for all the labels. This shows that the relation labels can be reliably predicted given good predictions of the preceding token labels.
+
+\textbf{Discussions:} The excellent performance from the rule-based model suggests that there is a well-defined structure in the relations between the entities. It may be possible to make use of this inherent structure to help improve the results for predicting the token labels.
+
+Also, notice that by predicting the SubjAction, ActionObj and ActionMod relations, we are simultaneously classifying the ambiguous Entity labels into specific Subject and Object labels. For instance, Rule 1 predicts a ModObj relation between a Modifier and an Entity, implying that the Entity is an Object, whereas Rule 3 predicts a Subj\-Action relation between an Entity and an Action, implying that the Entity is a Subject.
+
+
+\begin{table}[t!]
+\begin{center}
+\small
+{\def\arraystretch{1.125}\tabcolsep=3.5pt
+\begin{tabular}{l | c | c | c | c | c | c}
+\hline 
+\multirow{2}{*}{\bf Attribute Category} & \multicolumn{3}{ c |}{\bf NB} & \multicolumn{3}{ c }{\bf SVM} \\ 
+\cline{2-7}
+& {\bf P} & {\bf R} & {\bf F}$_{1}$ & {\bf P} & {\bf R} & {\bf F}$_{1}$ \\
+\hline
+%ActionName & 31.5 & 28.6 & 29.7 & 45.9 & 29.7 & 35.3 \\
+%Capability & 41.2 & 40.4 & 40.8 & 43.0 & 42.2 & 42.6 \\
+%StrategicObjectives & 36.2 & 26.9 & 30.8 & 38.7 & 25.5 & 30.0 \\
+%TacticalObjectives & 32.5 & 21.6 & 25.8 & 32.3 & 19.6 & 23.7 \\
+ActionName & 35.2 & 23.9 & 28.0 & 43.9 & 27.9 & 33.9 \\
+Capability & 41.5 & 39.8 & 40.6 & 42.5 & 41.1 & 41.8 \\
+StrategicObjectives & 33.7 & 24.4 & 28.3 & 32.2 & 23.5 & 27.2 \\
+TacticalObjectives & 27.6 & 17.4 & 21.1 & 30.2 & 18.4 & 22.7 \\
+\hline
+\end{tabular}
+}
+\end{center}
+\vspace{-2mm}
+\caption{\label{t4_scores} Task 4 scores: predicting attribute labels.}
+\vspace{-3mm}
+\end{table}
+
+\subsection{Task 4 - Predict attribute labels}
+
+A significant obstacle in the prediction of attribute labels is the large number of attribute labels available. More precisely, we discover that many of these attribute labels occur rarely, if not never, in the annotated reports. This results in a severely sparse dataset for training a model.
+
+Due to the lack of substantial data, we decide to use {\em token groups} instead of entire sentences for predicting attribute labels. Token groups are the set of tokens that are linked to each other via relation labels. We extract the token groups from the gold annotations and then build a model for predicting the attribute labels for each token group. Again, we use a bag-of-words model to represent the token groups while SVM and NB are each used to build a model for predicting attribute labels.
+
+\textbf{Results:} Table \ref{t4_scores} shows the average scores over 5 runs for the four separate attribute categories. For this task, SVM appears to perform generally better than NB, although much more data seems to be required in order to train a reliable model for predicting attribute labels. The Capability category shows the best performance, which is to be expected, since the Capability attributes occur the most frequently.
+
+\textbf{Discussions:} The main challenge for this task is the sparse data and the abundant attribute labels available. In fact, out of the 444 attribute labels, 190 labels do not appear in the database. For the remaining 254 attribute labels that do occur in the database, 92 labels occur less than five times and 50 labels occur only once. With the sparse data available, particularly for rare attribute labels, effective one-shot learning models might have to be designed to tackle this difficult task.
+
+\begin{table}[t]
+\begin{center}
+\small
+{\def\arraystretch{1.125}\tabcolsep=3.5pt
+\begin{tabular}{l | c | c | c | c | c | c}
+\hline 
+\multirow{2}{*}{\bf Features Used} & \multicolumn{3}{ c |}{\bf NB} & \multicolumn{3}{ c }{\bf SVM} \\ 
+\cline{2-7}
+& \bf P & \bf R & \bf F$_{1}$ & \bf P & \bf R & \bf F$_{1}$ \\
+\hline
+Text only & 58.8 & 50.8 & 53.5 & 49.3 & 47.0 & 47.2 \\
+Ann. only & 64.7 & 55.0 & 58.0 & 62.6 & 57.2 & 59.2 \\
+Text and Ann. & 59.3 & 50.7 & 53.6 & 54.3 & 51.1 & 51.6 \\
+\hline
+\end{tabular}
+}
+\end{center}
+\caption{\label{t5_scores} Task 5 scores: predicting malware signatures using text and annotations.}
+\vspace{-1em}
+\end{table}
+
+
+
+
+\subsection{Task 5 - Predict malware signatures using text and annotations}
+
+Conventional malware analyzers, such as malwr.com, generate a list of signatures based on the malware's activities in a sandbox. Examples of such signatures include \emph{antisandbox\_sleep}, which indicates anti-sandbox capabilities or \emph{persistence\_autorun}, which indicates persistence capabilities. 
+
+If it is possible to build an effective model to predict malware signatures based on natural language texts about the malware, this can help cybersecurity researchers predict signatures of malware samples that are difficult to obtain, using the malware reports freely available online. 
+
+By analyzing the hashes listed in each APT report, we obtain a list of signatures for the malware discussed in the report. However, we are unable to obtain the signatures for several hashes due to restricted distribution of malware samples. There are 8 APT reports without any obtained signatures, which are subsequently discarded for the following experiments. This leaves us with 31 out of 39 APT reports.
+
+The current list of malware signatures from Cuckoo Sandbox\footnote{\url{https://cuckoosandbox.org/}} consists of 378 signature types. However, only 68 signature types have been identified for the malware discussed in the 31 documents. Furthermore, out of these 68 signature-types, 57 signature-types appear less than 10 times, which we exclude from the experiments. The experiments that follow will focus on predicting the remaining 11 signature-types using the 31 documents.
+
+The OneVsRestClassifier implementation in scikit-learn is used in the following experiments, since this is a multilabel classification problem. We also use SVM and NB to build two types of models for comparison.
+
+Three separate methods are used to generate features for the task: a) The text in each APT report is used as features via a bag-of-words representation, without annotations, b) The gold labels from the annotations are used as features, without the text, and c) Both the text and the gold annotations are used, via a concatenation of the two feature vectors.
+
+\textbf{Results:} Comparing the first two rows in Table~\ref{t5_scores}, we can see that using the annotations as features significantly improve the prediction of signatures, especially when trained with SVM. This suggests that the annotations provide a condensed source of features for predicting malware signatures.
+
+\textbf{Discussions:} Certain malware signatures seem to be more reliably predicted after addition of the annotations as features, such as \emph{persistence\_autorun} and \emph{has\_pdb}. In particular, \emph{persistence\_autorun} has a direct parallel in attribute labels, which is \emph{Capability: 013: MalwareCapability-persistence}. This supports our initial choice of the MAEC vocabulary as attribute labels and shows relevance in other cybersecurity applications. 
+
+\section{Conclusion}
+
+In this paper, we presented a framework for annotating malware reports. We also introduced a database with 39 annotated APT reports and proposed several new tasks and built models for extracting information from the reports. Finally, we discuss several factors that make these tasks extremely challenging given currently available models. We hope that this paper and the accompanying database serve as a first step towards NLP being applied in cybersecurity and that other researchers will be inspired to contribute to the database, as well as construct their own datasets and implementations. More details about this database can be found at \texttt{http://statnlp.org/research/sc/}.
+
+\section*{Acknowledgments}
+
+We would like to thank the anonymous reviewers for their helpful comments. This work is supported by ST Electronics -- SUTD Cyber Security Laboratory Project 1 Big Data Security Analytics, and is partly supported by MOE Tier 1 grant SUTDT12015008.
+
+\bibliography{malware}
+\bibliographystyle{acl_natbib}
+
+\appendix
+
+\section{Attribute Labels}
+\label{sec:labels}
+
+The following elaborates on the types of malware actions described by each class of attribute labels and gives specific examples.
+
+\subsection{ActionName}
+
+The ActionName labels describe specific actions taken by the malware, such as downloading a file \emph{ActionName: 090: Network- download\_ file} or creating a registry key \emph{ActionName: 135: Registry-create\_registry\_key}.
+
+\subsection{Capability}
+
+The Capability labels describe general capabilities of the malware, such as exfiltrating stolen data \emph{Capability: 006: MalwareCapability-data\_exfiltration} or spying on the victim \emph{Capability: 019: MalwareCapability-spying}.
+
+
+\subsection{StrategicObjectives}
+
+The StrategicObjectives labels elaborate on the Capability labels and provide more detail on the capabilities of the malware, such as preparing stolen data for exfiltration \emph{StrategicObjectives: 021: DataExfiltration-stage\_data\_for\_exfiltration} or capturing information from input devices connected to the victim's machine \emph{StrategicObjectives: 061: Spying- capture\_system\_input\_peripheral\_data}. 
+
+Each StrategicObjectives label belongs to a Capability label.
+
+\subsection{TacticalObjectives}
+
+The TacticalObjectives labels provide a third level of detail on the malware's capability, such as encrypting stolen data for exfiltration \emph{TacticalObjectives: 053: DataExfiltration-encrypt\_data} or an ability to perform key-logging \emph{TacticalObjectives: 140: Spying-capture\_keyboard\_input}. 
+
+Again, each TacticalObjectives label belongs to a Capability label.
+
+\section{Rules for Rule-based Model in Task 3}
+
+The following are the rules used in the rule-based model described in Section \ref{task3}.
+\label{rules}
+\squishenum
+\item If a Modifier is followed by an Entity, a ModObj relation is predicted between the Modifier and the Entity
+\item If an Action is followed by an Entity, an ActionObj relation is predicted between the Action and the Entity
+\item If an Entity is followed by an Action of token-length 1, a SubjAction relation is predicted between the Entity and the Action
+\item An ActionObj relation is predicted between any Action that begins with \emph{be} and the most recent previous Entity
+\item An ActionObj relation is predicted between any Action that begins with \emph{is}, \emph{was}, \emph{are} or \emph{were} and ends with \emph{-ing} and the most recent previous Entity
+\item An ActionMod relation is predicted between all Modifiers and the most recent previous Action
+\squishend
+\phantom{.}
+
+\end{document}

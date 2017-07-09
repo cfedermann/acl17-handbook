@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#543
+FinalPaperTitle#=%=#Learning Character-level Compositionality with Visual Features
+ShortPaperTitle#=%=#Learning Character-level Compositionality with Visual Features
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Frederick Liu
+JobTitle#==#
+Organization#==#Language Technology Institute, Carnegie Mellon University, Pittsburgh, PA 15213
+Abstract#==#Previous work has modeled the compositionality of words by creating
+character-level models of meaning, reducing problems of sparsity for rare
+words. However, in many writing systems compositionality has an effect even on
+the character-level: the meaning of a character is derived by the sum of its
+parts. In this paper, we model this effect by creating embeddings for
+characters based on their visual characteristics, creating an image for the
+character and running it through a convolutional neural network to produce a
+visual character embedding. Experiments on a text classification task
+demonstrate that such model allows for better processing of instances with rare
+characters in languages such as Chinese, Japanese, and Korean. Additionally,
+qualitative analyses demonstrate that our proposed model learns to focus on the
+parts of characters that carry topical content which resulting in embeddings
+that are coherent in visual space.
+Author{1}{Firstname}#=%=#Frederick
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#fliu1@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Han
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#hlu2@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Chieh
+Author{3}{Lastname}#=%=#Lo
+Author{3}{Email}#=%=#chiehl@andrew.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Graham
+Author{4}{Lastname}#=%=#Neubig
+Author{4}{Email}#=%=#gneubig@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

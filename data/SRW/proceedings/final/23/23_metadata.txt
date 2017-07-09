@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Variation Autoencoder Based Network Representation Learning for Classification
+ShortPaperTitle#=%=#Variation Autoencoder Based Network Representation Learning for Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hang Li
+JobTitle#==#
+Organization#==#College of Computer and Control Engineering, College of Software, Nankai University, Tianjin, China
+Abstract#==#Network representation is the basis of many applications and of extensive
+interest in various fields, such as information retrieval, social network
+analysis, and recommendation systems. Most previous methods for network
+representation only consider the incomplete aspects of a problem, including
+link structure, node information, and partial integration. The present study
+introduces a deep network representation model that seamlessly integrates the
+text information and structure of a network. The model captures highly
+non-linear relationships between nodes and complex features of a network by
+exploiting the variational autoencoder (VAE), which is a deep unsupervised
+generation algorithm. The representation learned with a paragraph vector model
+is merged with that learned with the VAE to obtain the network representation,
+which preserves both structure and text information. Comprehensive experiments
+is conducted on benchmark datasets and find that the introduced model performs
+better than state-of-the-art techniques.
+Author{1}{Firstname}#=%=#Hang
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#hangl@mail.nankai.edu.cn
+Author{1}{Affiliation}#=%=#Nankai University
+Author{2}{Firstname}#=%=#Haozheng
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#hzwang@mail.nankai.edu.cn
+Author{2}{Affiliation}#=%=#Nankai University
+Author{3}{Firstname}#=%=#Zhenglu
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Email}#=%=#yangzl@nankai.edu.cn
+Author{3}{Affiliation}#=%=#Nankai University
+Author{4}{Firstname}#=%=#Masato
+Author{4}{Lastname}#=%=#Odagaki
+Author{4}{Email}#=%=#odagaki@maebashiit.ac.jp
+Author{4}{Affiliation}#=%=#Maebashi Institute of Technology
+
+==========

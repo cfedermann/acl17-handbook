@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#774
+FinalPaperTitle#=%=#From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood
+ShortPaperTitle#=%=#From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Kelvin Guu
+JobTitle#==#
+Organization#==#Stanford University
+450 Serra Mall, Stanford, CA 94305
+Abstract#==#Our goal is to learn a semantic parser that maps natural language utterances
+into executable programs when only indirect supervision is available: examples
+are labeled with the correct execution result, but not the program itself.
+Consequently, we must search the space of programs for those that output the
+correct result, while not being misled by \emph{spurious programs}: incorrect
+programs that coincidentally output the correct result. We connect two common
+learning paradigms, reinforcement learning (RL) and maximum marginal likelihood
+(MML), and then present a new learning algorithm that combines the strengths of
+both. The new algorithm guards against spurious programs by combining the
+systematic search traditionally employed in MML with the randomized exploration
+of RL, and by updating parameters such that probability is spread more evenly
+across consistent programs. We apply our learning algorithm to a new neural
+semantic parser and show significant gains over existing state-of-the-art
+results on a recent context-dependent semantic parsing task.
+Author{1}{Firstname}#=%=#Kelvin
+Author{1}{Lastname}#=%=#Guu
+Author{1}{Email}#=%=#kguu@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Panupong
+Author{2}{Lastname}#=%=#Pasupat
+Author{2}{Email}#=%=#ppasupat@cs.stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Evan
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#evanliu@stanford.edu
+Author{3}{Affiliation}#=%=#Stanford
+Author{4}{Firstname}#=%=#Percy
+Author{4}{Lastname}#=%=#Liang
+Author{4}{Email}#=%=#pliang@cs.stanford.edu
+Author{4}{Affiliation}#=%=#Stanford University
+
+==========

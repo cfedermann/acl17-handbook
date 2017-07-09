@@ -1,0 +1,744 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[nohyperref]{acl2017}
+\aclfinalcopy
+
+\usepackage{amsmath}
+\allowdisplaybreaks
+
+\usepackage[upright]{txgreeks}
+\usepackage{latexsym}
+
+\usepackage{url}
+\urlstyle{rm}
+
+\usepackage{multirow}
+
+\usepackage{amssymb}
+
+\usepackage{amsmath}
+\usepackage{booktabs}
+
+\DeclareMathAlphabet{\mathcal}{OMS}{zplm}{m}{n}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+
+\def\mat#1{\boldsymbol{\mathbf{#1}}}
+\def\transpose{^{\mathrm{T}}}
+\def\lfrac#1#2{#1/#2}
+
+\def\Cset{\mathbb{C}}
+\def\Rset{\mathbb{R}}
+
+\let\cconv*
+\let\ccorr\star
+\let\hprod\odot
+
+\def\vec{\mathop{\text{vec}}}
+\def\DFT{\mathop{\mathfrak{F}}}
+\def\IDFT{\mathop{\mathfrak{F}^{-1}}}
+\def\RE{\mathop{\text{Re}}}
+\def\flip{\mathop{\text{flip}}}
+\def\diag{\mathop{\text{diag}}}
+\def\displaypartialgrad#1#2{\frac{\partial #1}{\partial #2}}
+\def\partialgrad#1#2{{\partial #1}/{\partial #2}}
+
+\hyphenation{con-vo-lu-tion}
+\hyphenation{cor-re-la-tion}
+
+\usepackage{xcolor}
+\newcommand{\fixme}[1]{}
+\newcommand{\memo}[1]{}
+
+\title{On the Equivalence of
+  Holographic and Complex\\ Embeddings
+  for Link Prediction}
+
+\author{%
+  Katsuhiko Hayashi\\
+  NTT Communication Science Laboratories,
+  Seika-cho, Kyoto 619 0237, Japan\\
+  \protect\url{hayashi.katsuhiko@lab.ntt.co.jp}%
+  \AND
+  Masashi Shimbo\\
+  Nara Institute of Science and Technology,
+  Ikoma, Nara 630 0192, Japan\\
+  \protect\url{shimbo@is.naist.jp}%
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+
+  We show the equivalence of two state-of-the-art models for link prediction\slash knowledge graph completion:
+  Nickel et al's holographic embeddings and Trouillon et al.'s complex embeddings.
+  We first consider a spectral version of the holographic embeddings,
+  exploiting the frequency domain in the Fourier transform for
+  efficient computation.
+  The analysis of the resulting model reveals that it can be viewed as
+  an instance of the complex embeddings
+  with a certain constraint imposed on the initial vectors upon training.
+  Conversely, any set of complex embeddings can be converted to a set of
+  equivalent holographic embeddings.
+
+\end{abstract}
+
+
+\section{Introduction}
+\label{sec:intro}
+
+Recently, there have been efforts to build and maintain large-scale knowledge bases represented in the form of a graph (\emph{knowledge graph})
+\cite{Auer:07,Bollacker:08,Suchanek:07}.
+Although these knowledge graphs contain billions of relational facts,
+they are known to be incomplete.
+\emph{Knowledge graph completion} (KGC) \cite{Nickel:15} aims at augmenting missing knowledge in an incomplete knowledge graph automatically.
+It can be viewed as a task of \emph{link prediction} \cite{Liben-Nowell:03,Hasan:11}
+studied in the field of statistical relational learning \cite{Getoor:07}.
+In recent years, methods based on vector embeddings of graphs have been actively pursued as a scalable approach to KGC
+\citep{
+  Bordes:11, %
+  Socher:13,
+  Guu:15, %
+  Yang:15,
+  Nickel:16, %
+  Trouillon:16%
+}.
+
+In this paper, we investigate the connection between two models of graph embeddings that have emerged along this line of research:
+The \emph{holographic embeddings} %
+\citep{Nickel:16}
+and
+the \emph{complex embeddings} %
+\cite{Trouillon:16}.
+These models are simple yet achieve the current state-of-the-art performance in KGC.
+
+We begin by showing that %
+holographic embeddings
+can be trained entirely in the frequency domain induced by the Fourier transform,
+thereby reducing the time needed to compute the scoring function from $O(n\log n)$ to $O(n)$,
+where $n$ is the dimension of the embeddings.
+
+The analysis of the resulting training method reveals that
+the Fourier transform of holographic embeddings can be regarded as an instance of
+the complex embeddings,
+with a specific constraint (viz. conjugate symmetry property) cast on
+on the initial values.
+
+Conversely, we also show that every set of complex embeddings has
+a set of holographic embeddings (with real vectors)
+that is equivalent,
+in the sense that their scoring functions are equal up to scaling.
+
+
+\section{Preliminaries}
+\label{sec:prelim}
+
+Let $i$ denote the imaginary unit,
+$\Rset$ be the set of real values,
+and $\Cset$ the set of complex values.
+We write $[\mat{v}]_j$ to denote the $j$th component of vector $\mat{v}$.
+A superscript \text{T} (e.g., $\mat{v}\transpose$) represents vector/matrix transpose.
+For a complex scalar $z$, vector $\mat{z}$, and matrix $\mat{Z}$,
+$\overline{z}$, $\overline{\mat{z}}$, and $\overline{\mat{Z}}$ represent their complex conjugate,
+and $\RE(z)$, $\RE(\mat{z})$, and $\RE(\mat{Z})$ denote their real parts, respectively.
+
+Let
+$ \mat{x} = [x_0 \; \cdots \; x_{n-1}]\transpose \in \Rset^n$ and
+$ \mat{y} = [y_0 \; \cdots \; y_{n-1}]\transpose \in \Rset^n$.
+Note that the vector indices start from $0$ for notational convenience.
+The \emph{circular convolution} of $\mat{x}$ and $\mat{y}$,
+denoted by $\mat{x} \cconv \mat{y}$,
+is defined by
+\begin{align}
+  [\mat{x} \cconv \mat{y}]_j &= \sum_{k=0}^{n-1} x_{[(j-k)\bmod n]} y_k,
+  \label{eq:convolution}
+\end{align}
+where $\bmod$ denotes modulus.
+Likewise, \emph{circular correlation} $\mat{x} \ccorr \mat{y}$ is defined by
+\begin{align}
+  [\mat{x} \ccorr \mat{y}]_j &= \sum_{k=0}^{n-1} x_{[(k-j)\bmod n]} y_k.
+  \label{eq:correlation}
+\end{align}
+While circular convolution is commutative, circular correlation is not;
+i.e.,
+$\mat{x} \cconv \mat{y} = \mat{y} \cconv \mat{x}$, but
+$\mat{x} \ccorr \mat{y} \ne \mat{y} \ccorr \mat{x}$ in general.
+As it can be verified with Eqs.~\eqref{eq:convolution} and \eqref{eq:correlation},
+$\mat{x} \ccorr \mat{y} = \flip(\mat{x}) \cconv \mat{y}$,
+where $\flip(\mat{x}) = [x_{n-1} \; \cdots \; x_0]\transpose$ is a vector
+obtained by arranging the components of $\mat{x}$ in reverse.
+
+For $n$-dimensional vectors,
+naively computing circular convolution/correlation
+by Eqs.~\eqref{eq:convolution} and \eqref{eq:correlation} 
+requires $O(n^2)$ multiplications.
+However, we can take advantage of
+the Fast Fourier Transform (FFT) algorithm
+to accelerate the computation:
+For circular convolution,
+first compute the discrete Fourier transform (DFT)
+of $\mat{x}$ and $\mat{y}$,
+and then compute the inverse DFT of their elementwise vector product, i.e.,
+\begin{align*}
+  \mat{x}\cconv\mat{y} &= \IDFT(\DFT(\mat{x}) \hprod \DFT(\mat{y})),
+\end{align*}
+where $\DFT: \Rset^n \to \Cset^n$ and $\IDFT: \Cset^n \to \Rset^n$
+respectively denote
+the DFT %
+and inverse DFT, %
+and $\hprod$ denotes the elementwise product.
+DFT and inverse DFT can be computed in $O(n\log n)$ time
+with the FFT algorithm, and thus
+the computation time for
+circular convolution is also $O(n\log n)$.
+The same can be said of circular correlation.
+Since $\DFT(\flip(\mat{x})) = \overline{\DFT(\mat{x})}$, we have
+\begin{align}
+  \mat{x}\ccorr\mat{y} &= \IDFT(\overline{\DFT(\mat{x})} \hprod \DFT(\mat{y})).
+  \label{eq:correlation-dft}
+\end{align}
+
+By analogy to how the Fourier transform is used in signal processing,
+the original real space $\Rset^n$ %
+is called the ``time'' domain,
+and the complex space $\Cset^n$ where DFT vectors reside %
+is called the ``frequency'' domain.
+
+
+\section{Holographic embeddings for knowledge graph completion}
+\label{sec:knowledge-graph-completion}
+
+\subsection{Knowledge graph completion}
+\label{sec:kowledge-graph-completion-task}
+
+Let $\mathcal{E}$ and $\mathcal{R}$ be the finite sets of \emph{entities} and \emph{(binary) relations}
+over entities,
+respectively.
+For each relation $r \in \mathcal{R}$ and each pair $s,o \in \mathcal{E}$ of entities,
+we are interested in whether $r(s,o)$ holds%
+\footnote{
+  Depending on the context,
+  letter $r$ is used either as an index to an element in $\mathcal{R}$ or the binary relation it signifies.
+} or not;
+we write $r(s,o)=+1$ if it holds, and $r(s,o)=-1$ if not.
+To be precise,
+given a \emph{training set}
+$\mathcal{D} = \mathcal{R} \times \mathcal{E} \times \mathcal{E} \times \{-1, +1\}$
+such that $(r, s, o, y) \in \mathcal{D}$
+indicates $y = r(s,o)$,
+our task is to design a \emph{scoring function}
+$f: \mathcal{R} \times \mathcal{E} \times \mathcal{E} \to \Rset$
+such that
+for each of the triples $(r,s,o)$ not observed in $\mathcal{D}$,
+function $f$ should give a higher value if $r(s,o) = +1$ is more likely,
+and a smaller value for those that are less likely.
+If necessary, $f(r,s,o)$ can be converted to probability by $P[r(s,o) = +1] = \sigma(f(r,s,o))$,
+where $\sigma: \Rset \to (0,1)$ is a sigmoid function.
+
+Dataset $\mathcal{D}$ can be regarded as a directed graph
+in which nodes represent entities $\mathcal{E}$ and edges are labeled by relations $\mathcal{R}$.
+Thus, the task is essentially that of \emph{link prediction} \citep{Liben-Nowell:03,Hasan:11}.
+Often, it is also called
+\emph{knowledge graph completion}.
+
+\subsection{Holographic embeddings (HolE)}
+\label{sec:holographic-embedding}
+
+\citet{Nickel:16} proposed \emph{holographic embeddings} (HolE) 
+for knowledge graph completion.
+Using training data $\mathcal{D}$,
+this method learns
+the vector embeddings
+$\mat{e}_k \in\Rset^n$ of entities $k \in \mathcal{E}$
+and the embeddings
+$\mat{w}_r \in \Rset^n$ of relations $r \in \mathcal{R}$.
+The score for triple $(r,s,o)$ is then given by
+\begin{equation}
+  \label{eq:holographic-embedding}
+  f_{\text{HolE}}(r,s,o) = \mat{w}_r \cdot ( \mat{e}_s  \ccorr \mat{e}_o).
+\end{equation}
+Eq.~\eqref{eq:holographic-embedding} can be evaluated 
+in time $O(n \log n)$
+if $\mat{e}_s \ccorr \mat{e}_o$ is computed
+by Eq.~\eqref{eq:correlation-dft}.
+
+
+\section{Spectral training of HolE}
+\label{sec:proposed}
+
+\begin{table}[tb]
+  \centering
+  \caption{Correspondence between operations in time and frequency domains.
+    $\mat{r} \leftrightarrow \mat{\rho}$ indicates $\mat{\rho}=\DFT(\mat{r})$
+    (and also $\mat{r}=\IDFT(\mat{\rho})$).}
+  \label{tab:correspondence}
+  $
+  \begin{array}{r c @{\quad} c @{\quad} c}
+    \toprule
+    \text{operation}    & \text{time}            &                     & \text{frequency}                              \\
+    \midrule
+    \text{scalar mult.} & \alpha \mat{x}         & \longleftrightarrow & \alpha \DFT(\mat{x})                          \\
+    \text{summation}    & \mat{x} + \mat{y}      & \longleftrightarrow & \DFT(\mat{x}) + \DFT(\mat{y})                 \\
+    \text{flip}         & \flip(\mat{x})         & \longleftrightarrow & \overline{\DFT(\mat{x})}                      \\
+    \text{convolution}  & \mat{x} \cconv \mat{y} & \longleftrightarrow & \DFT(\mat{x}) \hprod \DFT(\mat{y})            \\
+    \text{correlation}  & \mat{x} \ccorr \mat{y} & \longleftrightarrow & \overline{\DFT(\mat{x})} \hprod \DFT(\mat{y}) \\
+    \text{dot product}  & \mat{x} \cdot \mat{y}  & =                   & \frac{1}{n} \DFT(\mat{x}) \cdot \DFT(\mat{y}) \\
+    \bottomrule
+  \end{array}
+  $
+\end{table}
+
+
+To compute the circular correlation in the scoring function of Eq.~\eqref{eq:holographic-embedding} efficiently,
+\citet{Nickel:16} used Eq.~\eqref{eq:correlation-dft} in Section~\ref{sec:prelim} and FFT.
+In this section,
+we extend this technique further, and consider training HolE solely in the frequency domain.
+That is, real-valued embeddings $\mat{e}_k, \mat{w}_r \in \Rset^n$ in the original ``time'' domain are abolished,
+and instead we train their DFT counterparts
+$\mat{\varepsilon}_k=\DFT(\mat{e}_k) \in \Cset^n$ and $\mat{\omega}_k=\DFT(\mat{w}_r) \in \Cset^n$
+in the frequency domain.
+This formulation eliminates the need of FFT and inverse FFT,
+which are the major computational bottleneck in HolE.
+As a result,
+Eq.~\eqref{eq:holographic-embedding} can be computed in time $O(n)$
+directly from $\mat{\varepsilon}_k$ and $\mat{\omega}_k$.
+
+Indeed,
+equivalent counterparts in the frequency domain
+exist for not only convolution\slash correlation but all other computations
+needed for HolE:
+scalar multiplication, summation
+(needed when vectors are updated by stochastic gradient descent),
+and
+dot product (used in Eq.~\eqref{eq:holographic-embedding}).
+The frequency-domain equivalents for these operations are 
+summarized in Table~\ref{tab:correspondence}.
+All of these can be performed efficiently (in linear time) in the frequency domain.
+
+In particular, the following relation holds for the dot product between any ``time'' vectors $\mat{x}, \mat{y}\in \Rset^n$.
+\begin{equation}
+  \mat{x}\cdot \mat{y} = \frac{1}{n} \DFT(\mat{x}) \cdot \DFT(\mat{y}),
+  \label{eq:parseval}
+\end{equation}
+where the dot product on the right-hand side is the complex inner product defined by $\mat{a}\cdot \mat{b} = \overline{\mat{a}}\transpose \mat{b}$.
+Eq.~\eqref{eq:parseval} is known as
+Parseval's theorem (also called the \emph{power theorem} in \citep{Smith:07}),
+and it states that dot products in two domains
+are equal up to scaling. 
+
+After embeddings $\mat{\varepsilon}_k, \mat{\omega}_r \in \Cset^n$
+are learned in the frequency domain,
+their time-domain counterparts $\mat{e}_k = \IDFT(\mat{\varepsilon}_k)$ and $\mat{w}_r = \IDFT(\mat{\omega}_r)$ can be recovered if needed,
+but this is not required as far as computation of the scoring function is concerned.
+Thanks to Parseval's theorem, Eq.~\eqref{eq:holographic-embedding}
+can be directly computed from the frequency vectors $\mat{\varepsilon}_k, \mat{\omega}_r \in \Cset^n$
+by
+\begin{equation}
+  \label{eq:holographic-embedding-freq}
+  f_{\text{HolE}}(r,s,o) = \frac{1}{n} \mat{\omega}_r \cdot ( \overline{ \mat{\varepsilon}_s } \hprod \mat{\varepsilon}_o).
+\end{equation}
+
+\subsection{Conjugate symmetry of spectral components}
+\label{sec:conjugacy}
+
+A complex vector
+$\mat{\xi} = [\xi_0 \; \cdots \; \xi_{n-1}]\transpose \in \Cset^{n}$
+is said to be \emph{conjugate symmetric} (or \emph{Hermitian})
+if
+$\xi_j = \overline{\xi_{[(n-j) \bmod n]}}$ for $j = 0, \ldots, n-1$,
+or, in other words,
+if it can be written in the form
+\begin{align*}
+  \mat{\xi} =
+  \begin{cases}
+    \begin{bmatrix} \xi_0 & \mat{\gamma} &             \flip(\overline{\mat{\gamma}}) \end{bmatrix}\transpose, & \text{if $n$ is odd,} \\[3pt]
+    \begin{bmatrix} \xi_0 & \mat{\gamma} & \xi_{n/2} & \flip(\overline{\mat{\gamma}}) \end{bmatrix}\transpose, & \text{if $n$ is even,}
+  \end{cases}
+\end{align*}
+for some $\mat{\gamma} \in \Cset^{\ceil{n/2}-1}$ and $\xi_0, \xi_{n/2} \in \Rset$.
+
+The DFT $\DFT(\mat{x})$ is conjugate symmetric
+if and only if $\mat{x}$ is a real vector.
+Thus,
+maintaining conjugate symmetry of ``frequency'' vectors is the key to
+ensure their ``time'' counterparts remain in real space.
+Below, we verify that this property is indeed preserved with stochastic gradient descent.
+Moreover, conjugate symmetry provides a sufficient condition under which dot product takes a real value.
+It also has implications on space requirement. %
+These topics are covered in the rest of this section.
+
+\subsection{Vector initialization and update in frequency domain}
+\label{sec:update}
+
+Typically, at the beginning of training HolE,
+each individual embedding is initialized by a random vector.
+When we train HolE in the frequency domain,
+we could first generate a random real vector,
+regard them as a HolE vector in the time domain,
+and compute its DFT as the initial value in the frequency domain.
+An alternative, easier approach is to directly generate a random complex vector
+that is conjugate symmetric, and use it as the initial frequency vector.
+This guarantees the inverse DFT to be a real vector, i.e., there exists a valid corresponding image in the time domain.
+
+Given a training set $\mathcal{D}$ (see Section~\ref{sec:kowledge-graph-completion-task}),
+HolE is trained by minimizing the following objective function over
+parameter matrix
+$\mat{\Theta} = [ \mat{e}_1 \cdots \mat{e}_{|\mathcal{E}|} \; \mat{w}_1 \cdots \mat{w}_{|\mathcal{R}|} ] \in \Rset^{n\times (|\mathcal{E}| + |\mathcal{R}|)}$:
+\begin{equation}
+  \label{eq:hole-objective}
+  \sum_{(r,s,o, y)\in{\mathcal D}} \!\! \log\{1+\exp(-y f_{\text{HolE}}(r,s,o))\}
+  + \lambda||\mat{\Theta}||_{\text{F}}^2
+\end{equation}
+where
+$\lambda \in \Rset$ is the hyperparameter controlling the degree of regularization,
+and $\|\cdot\|_F$ denotes the Frobenius norm.
+
+In our version of spectral training of HolE,
+the parameters matrix consists of frequency vectors $\mat{\varepsilon}_k$ and $\mat{\omega}_r$ instead of $\mat{e}_k$ and $\mat{w}_r$, i.e.,
+$\mat{\Theta} = [ \mat{\varepsilon}_1 \cdots \mat{\varepsilon}_{|\mathcal{E}|} \; \mat{\omega}_1 \cdots \mat{\omega}_{|\mathcal{R}|} ] \in \Cset^{n\times (|\mathcal{E}| + |\mathcal{R}|)}$.
+Let us discuss the stochastic gradient descent (SGD) update with respect to these frequency vectors.
+In particular, we are interested in whether conjugate symmetry of vectors is preserved by the update.
+
+Suppose vectors $\mat{\omega}_r, \mat{\varepsilon}_s, \mat{\varepsilon}_o$ are conjugate symmetric.
+Neglecting the contribution from the regularization term\footnote{
+  It can be easily verified that the contribution from the regularization term to SGD update do not violate conjugate symmetry.
+}
+in Eq.~\eqref{eq:hole-objective},
+we see that in an SGD update step,
+$\alpha \partialgrad{ f_{\text{HoLE}} }{ \mat{\omega}_r      }$,
+$\alpha \partialgrad{ f_{\text{HoLE}} }{ \mat{\varepsilon}_s }$, and
+$\alpha \partialgrad{ f_{\text{HoLE}} }{ \mat{\varepsilon}_o }$
+are respectively subtracted from
+$\mat{\omega}_r, \mat{\varepsilon}_s, \mat{\varepsilon}_o$,
+where
+$\alpha \in \Rset$ is a factor not depending on these parameters.
+Noting the equalities
+\begin{equation*}
+  \mat{w}_r \cdot ( \mat{e}_s \ccorr \mat{e}_o )
+  = \mat{e}_s \cdot ( \mat{w}_r \ccorr \mat{e}_o )
+  = \mat{e}_o \cdot ( \mat{w}_r \cconv \mat{e}_s )
+\end{equation*}
+(see \cite[Eq.~(12), p.~1958]{Nickel:16}) and their frequency counterparts
+\begin{equation*}
+  \mat{\omega}_r        \cdot ( \overline{ \mat{\varepsilon}_s } \hprod \mat{\varepsilon}_o )
+  = \mat{\varepsilon}_s \cdot ( \overline{ \mat{\omega}_r      } \hprod \mat{\varepsilon}_o )
+  = \mat{\varepsilon}_o \cdot (            \mat{\omega}_r        \hprod \mat{\varepsilon}_s ),
+\end{equation*}
+obtained through the translation of Table~\ref{tab:correspondence},
+we can derive
+\begin{align*}
+  \displaypartialgrad{ f_{\text{HolE}} }{ \mat{\omega}_r     } & = \overline{ \mat{\varepsilon}_s } \hprod \mat{\varepsilon}_o , \\
+  \displaypartialgrad{ f_{\text{HolE}} }{ \mat{\varepsilon}_s} & = \overline{ \mat{\omega}_r      } \hprod \mat{\varepsilon}_o , \\
+  \displaypartialgrad{ f_{\text{HolE}} }{ \mat{\varepsilon}_o} & =            \mat{\omega}_r        \hprod \mat{\varepsilon}_s .
+\end{align*}
+As seen from above, conjugation, scalar multiplication, summation, and elementwise product 
+are used in the SGD update.
+And it is straightforward to verify that all these operations preserve conjugate symmetry.
+It follows that
+if $\mat{\omega}_r, \mat{\varepsilon}_s,  \mat{\varepsilon}_o$
+are initially conjugate symmetric, they will remain so during the course of training,
+which assures that the inverse DFTs of the learned embeddings are real vectors.
+
+\subsection{Real-valued dot product}
+
+In the scoring function of HolE (Eq.~\eqref{eq:holographic-embedding}),
+dot product is used for generating a real-valued
+``score'' out of two vectors,
+$\mat{w}_r$ and $\mat{e}_s \hprod \mat{e}_o$.
+Likewise, 
+in Eq.~\eqref{eq:holographic-embedding-freq},
+the dot product is applied to
+$\mat{\omega}_r$ and $\mat{\varepsilon}_s \hprod \mat{\varepsilon}_o$, which are complex-valued.
+However, provided that the conjugate symmetry of these vectors is maintained,
+their dot product is always real.
+This follows from Parseval's theorem;
+the inverse DFTs of these frequency vectors are real, and thus their dot product is also real.
+Therefore, the dot product of the corresponding frequency vectors is real as well,
+according to Eq.~\eqref{eq:parseval}.
+
+\subsection{Space requirement}
+\label{sec:space}
+
+A general complex vector $\mat{\xi} \in \Cset^n$ can be stored in memory as $2n$ floating-point numbers,
+i.e., one each for the real and imaginary part of a component.
+In our spectral representation of HolE, however,
+the first $\floor{n/2}$ components suffice to specify the frequency vector $\mat{\xi}$,
+since the vector is conjugate symmetric.
+Moreover, $\xi_0$ (and $\xi_{n/2}$ if $n$ is even) are real values.
+Thus, a spectral representation of HolE can be specified with exactly $n$ floating-point numbers,
+which can be stored in the same amount of memory as needed by the original HolE.
+
+
+\section{Relation to Trouillon et~al.'s complex embeddings}
+\label{sec:relation-to-complex-embedding}
+
+\subsection{Complex embeddings (ComplEx)}
+\label{sec:complex-embedding}
+
+\citet{Trouillon:16} proposed
+a model of embedding-based knowledge graph completion, called \emph{complex embeddings} (ComplEx).
+The objective is similar to Nickel et~al.'s;
+the embeddings $\mat{e}_k$ of entities and
+$\mat{w}_r$ of relations are to be learned.
+In their model, however, these vectors are complex-valued, and are based on the
+eigendecomposition of complex \fixme{Hermitian?} matrix $\mat{X}_r = \mat{E} \mat{W}_r \overline{\mat{E}} \transpose$ that encodes
+relation $r \in \mathcal{R}$ over pairs of entities,
+where $\mat{X}_r \in \Cset^{|\mathcal{E}|\times |\mathcal{E}|}$,
+$\mat{E} = [\mat{e}_1, \ldots, \mat{e}_{|\mathcal{E}|}]\transpose \in \Cset^{|\mathcal{E}| \times n}$,
+and $\mat{W}_r = \diag(\mat{w}_r) \in \Cset^{n\times n}$ is a diagonal matrix (with diagonal elements $\mat{w}_r \in \Cset^n$).
+In practice, $\mat{X}_r$ needs to be a real matrix, because its $(r,s)$-component must define the score for $r(s,o)$.
+To this end, \citeauthor{Trouillon:16} simply extracted the real part; i.e.,
+$\mat{X}_r = \RE(\mat{E}\mat{W}_r\overline{\mat{E}}\transpose)$.
+\citet{Trouillon:16:arXiv} advocated this approach, by showing that
+any real matrix $\mat{X}_r$ can be expressed in this form.
+
+With this formulation, the score for triple $(r, s,o)$ is given by
+\begin{align}
+  f_{\text{ComplEx}}(r,s,o)
+  & = \RE \left( \sum_{j=0}^{n-1} [\mat{w}_r]_j [\mat{e}_s]_j \overline{ [\mat{e}_o]_j } \right). \label{eq:complex-embedding-componentwise}
+\end{align}
+
+\subsection{Equivalence of holographic and complex embeddings}
+\label{sec:equivalence}
+
+Now let us rewrite Eq.~\eqref{eq:complex-embedding-componentwise}.
+Noting the definition of complex dot product, i.e., $\mat{a}\cdot \mat{b} = \overline{ \mat{a} }\transpose \mat{b} $,
+we have
+\begin{align}
+  \sum_{j=0}^{n-1} [\mat{w}_r]_j [\mat{e}_s]_j \overline{ [\mat{e}_o]_j }
+  & = ( \mat{e}_s  \hprod \overline{ \mat{e}_o } )\transpose \mat{w}_r
+    \notag \\
+  & = \overline { ( \mat{e}_s  \hprod \overline{ \mat{e}_o }) } \cdot \mat{w}_r
+    \tag*{\scriptsize ($\because \mat{a}\cdot \mat{b} = \overline{ \mat{a} }\transpose \mat{b} $)} \\
+  & = ( \overline{ \mat{e}_s} \hprod            \mat{e}_o   ) \cdot \mat{w}_r
+    \notag \\
+  & =  \overline { \mat{w}_r \cdot ( \overline{ \mat{e}_s} \hprod            \mat{e}_o   ) }
+    \tag*{\scriptsize ($\because \mat{a}\cdot\mat{b} = \overline { \mat{b} \cdot \mat{a} }$)}
+\end{align}
+and since $\RE(\mat{z}) = \RE(\overline{\mat{z}})$,
+\begin{align*}
+   \RE( \overline { \mat{w}_r \cdot ( \overline{ \mat{e}_s} \hprod \mat{e}_o ) } )  & = \RE( \mat{w}_r \cdot ( \overline{ \mat{e}_s} \hprod \mat{e}_o ) ).
+\end{align*}
+Thus, Eq.~\eqref{eq:complex-embedding-componentwise} can be written as
+\begin{equation}
+  \label{eq:complex-embedding-alt}
+  f_{\text{ComplEx}}(r,s,o) = \RE \left( \mat{w}_r \cdot ( \overline{ \mat{e}_s } \hprod \mat{e}_o) \right).
+\end{equation}
+Here, a marked similarity is noticeable between
+Eq.~\eqref{eq:complex-embedding-alt} and
+Eq.~\eqref{eq:holographic-embedding-freq},
+the scoring function of our spectral version of HolE (spectral HolE);
+ComplEx extracts the real part of complex dot product,
+whereas in the spectral HolE, dot product is guaranteed to be real
+because all embeddings satisfy conjugate symmetry.
+Indeed,
+Eq.~\eqref{eq:holographic-embedding-freq} can be equally written as
+\begin{equation}
+  \label{eq:holographic-embedding-freq-re}
+  f_{\text{HolE}}(r,s,o) = \frac{1}{n} \RE \left( \mat{\omega}_r \cdot ( \overline{ \mat{\varepsilon}_s } \hprod \mat{\varepsilon}_o) \right).
+\end{equation}
+although
+the operator $\RE(\cdot)$ in this formula is redundant, since the inner product is guaranteed to be real-valued.
+Nevertheless, Eq.~\eqref{eq:holographic-embedding-freq-re}
+elucidates the fact that the spectral HolE can be viewed as an instance of ComplEx,
+with the embeddings constrained to be conjugate symmetric to make the inner product in Eq.~\eqref{eq:holographic-embedding-freq-re} real-valued.
+
+Conversely, given a set of complex embeddings for entities and relations, we can construct their equivalent holographic embeddings, in the sense
+that $f_{\text{ComplEx}}(r,s,o) = c f_{\text{HolE}}(r,s,o)$ for every $r, s, o$,
+where $c > 0$ is a constant. %
+For each $n$-dimensional complex embeddings
+$\mat{x} \in \{ \mat{e}_k \}_{k \in \mathcal{E}} \cup \{ \mat{w}_r \}_{r \in \mathcal{R}} \subset \Cset^n$
+computed by ComplEx,
+we make a corresponding HolE $\mathfrak{h}(\mat{x}) \in \Rset^{2n+1}$ as follows:
+For a given complex embedding $\mat{x} = [x_0 \cdots x_{n-1}] \in \Cset^n$,
+first compute $\mathfrak{s}(\mat{x}) \in \Cset^{2n+1}$
+by
+\begin{align}
+  \mathfrak{s}(\mat{x})
+  & = \begin{bmatrix} 0 & x_0 & \cdots & x_{n-1} & \overline{x_{n-1}} & \cdots & \overline{x_{0}} \end{bmatrix} \transpose \nonumber \\
+  & = \begin{bmatrix} 0 & \mat{x} & \flip( \overline{ \mat{x} } ) \end{bmatrix} \transpose \label{eq:s()}
+\end{align}
+and then define
+$
+  \mathfrak{h}(\mat{x}) = \IDFT(\mathfrak{s}(\mat{x})).
+$
+Since $\mathfrak{s}(\mat{x})$ is conjugate symmetric,
+$\mathfrak{h}(\mat{x})$ is a real vector.
+
+To verify if this conversion defines an equivalent scoring function for any triple $(r, s, o)$,
+let us now suppose complex embeddings $\mat{w}_r \in \Cset^n$ and $\mat{e}_s, \mat{e}_o \in \Cset^n$ are given.
+Since we regard real vectors $\mathfrak{h}(\mat{w}_r)$, $\mathfrak{h}(\mat{e}_s)$, $\mathfrak{h}(\mat{e}_o) \in \Rset^{2n+1}$
+as the holographic embeddings of $r$, $s$ and $o$, respectively,
+the HolE score for the triple $(r,s,o)$ is given as
+\begin{align*}
+  \rlap{ $ f_{\text{HolE}}(r,s,o) $ } \;\; \\
+        & = \mathfrak{h}(\mat{w}_r) \cdot ( \mathfrak{h}(\mat{e}_s) \ccorr \mathfrak{h}(\mat{e}_o )) \\
+        & = \frac{1}{n} \mathfrak{s}(\mat{w}_r) \cdot ( \overline{ \mathfrak{s}(\mat{e}_s) } \hprod \mathfrak{s}(\mat{e}_o))
+          \tag*{\scriptsize ($\because$ Eq.~\eqref{eq:holographic-embedding-freq}) } \\
+        & = \frac{1}{n} \mathfrak{s}(\mat{w}_r)
+          \cdot
+          \begin{bmatrix}
+             0 & \!\! \overline{ \mat{e}_s } \hprod \mat{e}_o & \!\! \flip( \overline{ \overline{ \mat{e}_s } \hprod \mat{e}_o } )
+          \end{bmatrix} \transpose
+                                                           \tag*{\scriptsize ($\because$ Eq.~\eqref{eq:s()}) } \\
+        & = \frac{1}{n} 
+          \begin{bmatrix}
+            0 & \!\!\! \mat{w}_r & \!\!\! \flip( \overline{ \mat{w}_r } )
+          \end{bmatrix} \transpose \!
+          \cdot 
+          \begin{bmatrix}
+            0 & \!\! \overline{ \mat{e}_s } \hprod \mat{e}_o & \!\!\! \flip( \overline{ \overline{ \mat{e}_s } \hprod \mat{e}_o } )
+          \end{bmatrix} \transpose \\
+        & = \frac{1}{n}     \left( \mat{w}_r     \cdot                   ( \overline{ \mat{e}_s } \hprod \mat{e}_o )
+          + \flip(      \overline{ \mat{w}_r } ) \cdot \flip( \overline{   \overline{ \mat{e}_s } \hprod \mat{e}_o } ) \right) \\
+        & = \frac{1}{n}     \left( \mat{w}_r     \cdot                   ( \overline{ \mat{e}_s } \hprod \mat{e}_o )
+          +             \overline{ \mat{w}_r }   \cdot        \overline{ ( \overline{ \mat{e}_s } \hprod \mat{e}_o ) } \right) \\
+        & = \frac{1}{n}     \left( \mat{w}_r     \cdot                   ( \overline{ \mat{e}_s } \hprod \mat{e}_o )
+          +             \overline{ \mat{w}_r     \cdot                   ( \overline{ \mat{e}_s } \hprod \mat{e}_o ) } \right) \\
+        & = \frac{2}{n} \RE \left( \mat{w}_r     \cdot                   ( \overline{ \mat{e}_s } \hprod \mat{e}_o ) \right) \\
+        & = \frac{2}{n} f_{\text{ComplEx}}(r,s,o),
+\end{align*}
+which shows that $\mathfrak{h}(\cdot)$ (or $\mathfrak{s}(\cdot)$) gives the desired conversion from ComplEx to HolE.
+
+
+\section{Conclusion}
+\label{sec:concl}
+
+In this paper, we have shown that the holographic embeddings (HolE) can be
+trained entirely in the frequency domain.
+If stochastic gradient descent is used for training, the conjugate symmetry of frequency vectors
+is preserved,
+which ensures the existence of the corresponding holographic embedding in the original real space (time domain).
+Also, this training method
+eliminates the need of FFT and inverse FFT,
+thereby reducing
+the computation time of the scoring function from $O(n\log n)$ to $O(n)$.
+
+Moreover, we have established the equivalence of HolE and
+the complex embeddings (ComplEx):
+The spectral version of HolE is subsumed by ComplEx as a special case in which
+conjugate symmetry is imposed on the embeddings.
+Conversely, every set of complex embeddings can be converted to equivalent holographic embeddings.
+
+Many systems for natural language processing, such as those for semantic parsing and question answering, benefit from access to information
+stored in knowledge graphs.
+We plan to further investigate the property of spectral HolE and ComplEx in these applications.
+
+
+\subsection*{Acknowledgments}
+
+We thank the anonymous reviewers for helpful comments.
+This work was partially supported by JSPS Kakenhi Grants 26730126 and 15H02749.
+
+
+\bibliographystyle{acl_natbib}
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Auer et~al.(2007)Auer, Bizer, Kobilarov, Lehmann, Cyganiak, and
+  Ives}]{Auer:07}
+S{\"o}ren Auer, Christian Bizer, Georgi Kobilarov, Jens Lehmann, Richard
+  Cyganiak, and Zachary Ives. 2007.
+\newblock {DB}pedia: A nucleus for a web of open data.
+\newblock In {\em The Semantic Web: Proceedings of the 6th International
+  Semantic Web Conference and the 2nd Asian Semantic Web Conference (ISWC
+  '07/ASWC '07)\/}. Springer, Lecture Notes in Computer Science~4825, pages
+  722--735.
+
+\bibitem[{Bollacker et~al.(2008)Bollacker, Evans, Paritosh, Sturge, and
+  Taylor}]{Bollacker:08}
+Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, and Jamie Taylor.
+  2008.
+\newblock Freebase: A collaboratively created graph database for structuring
+  human knowledge.
+\newblock In {\em Proceedings of the 2008 ACM SIGMOD International Conference
+  on Management of Data (SIGMOD '08)\/}. pages 1247--1250.
+
+\bibitem[{Bordes et~al.(2011)Bordes, Weston, Collobert, and Bengio}]{Bordes:11}
+Antoine Bordes, Jason Weston, Ronan Collobert, and Yoshua Bengio. 2011.
+\newblock Learning structured embeddings of knowledge bases.
+\newblock In {\em Proceedings of the 25th AAAI Conference on Artificial
+  Intelligence (AAAI '11)\/}. pages 301--306.
+
+\bibitem[{Getoor and Taskar(2007)}]{Getoor:07}
+Lise Getoor and Ben Taskar. 2007.
+\newblock {\em Introduction to Statistical Relational Learning\/}.
+\newblock Adaptive Computation and Machine Learning. The MIT Press.
+
+\bibitem[{Guu et~al.(2015)Guu, Miller, and Liang}]{Guu:15}
+Kelvin Guu, John Miller, and Percy Liang. 2015.
+\newblock Traversing knowledge graphs in vector space.
+\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP '15)\/}. pages 318--327.
+
+\bibitem[{Hasan and Zaki(2011)}]{Hasan:11}
+Mohammad~Al Hasan and Mohammed~J. Zaki. 2011.
+\newblock A survey of link prediction in social networks.
+\newblock In Charu~C. Aggarwal, editor, {\em Social Network Data Analytics\/},
+  Springer, chapter~9, pages 243--275.
+
+\bibitem[{Liben-Nowell and Kleinberg(2003)}]{Liben-Nowell:03}
+David Liben-Nowell and Jon Kleinberg. 2003.
+\newblock The link prediction problem for social networks.
+\newblock In {\em Proceedings of the 12nd Annual ACM International Conference
+  on Information and Knowledge Management (CIKM '03)\/}. pages 556--559.
+
+\bibitem[{Nickel et~al.(2015)Nickel, Murphy, Tresp, and
+  Gabrilovich}]{Nickel:15}
+Maximilian Nickel, Kevin Murphy, Volker Tresp, and Evgeniy Gabrilovich. 2015.
+\newblock A review of relational machine learning for knowledge graphs.
+\newblock {\em Proceedings of the IEEE\/} pages 1--18.
+
+\bibitem[{Nickel et~al.(2016)Nickel, Rosasco, and Poggio}]{Nickel:16}
+Maximilian Nickel, Lorenzo Rosasco, and Tomaso Poggio. 2016.
+\newblock Holographic embeddings of knowledge graphs.
+\newblock In {\em Proceedings of the 30th AAAI Conference on Artificial
+  Intelligence (AAAI '16)\/}. pages 1955--1961.
+
+\bibitem[{Smith(2007)}]{Smith:07}
+III Julius~O. Smith. 2007.
+\newblock {\em Mathematics of the Discrete Fourier Transform (DFT): with Audio
+  Applications\/}.
+\newblock W3K Publishing, 2nd edition.
+
+\bibitem[{Socher et~al.(2013)Socher, Chen, Manning, and Ng}]{Socher:13}
+Richard Socher, Danqi Chen, Christopher~D. Manning, and Andrew~Y. Ng. 2013.
+\newblock Reasoning with neural tensor networks for knowledge base completion.
+\newblock In {\em Advances in Neural Information Processing Systems 26 (NIPS
+  '13)\/}. pages 926--934.
+
+\bibitem[{Suchanek et~al.(2007)Suchanek, Kasneci, and Weikum}]{Suchanek:07}
+Fabian~M. Suchanek, Gjergji Kasneci, and Gerhard Weikum. 2007.
+\newblock {YAGO}: A core of semantic knowledge unifying {W}ordnet and
+  {W}ikipedia.
+\newblock In {\em Proceedings of the 16th International Conference on World
+  Wide Web (WWW '07)\/}. pages 697--706.
+
+\bibitem[{Trouillon et~al.(2016{\natexlab{a}})Trouillon, Dance, Gaussier, and
+  Bouchard}]{Trouillon:16:arXiv}
+Th{\'{e}}o Trouillon, Christopher~R. Dance, {\'{E}}ric Gaussier, and Guillaume
+  Bouchard. 2016{\natexlab{a}}.
+\newblock Decomposing real square matrices via unitary diagonalization.
+\newblock arXiv.math eprint 1605.07103, arXiv.
+
+\bibitem[{Trouillon et~al.(2016{\natexlab{b}})Trouillon, Welbl, Riedel,
+  Gaussier, and Bouchard}]{Trouillon:16}
+Th{\'{e}}o Trouillon, Johannes Welbl, Sebastian Riedel, {\'{E}}ric Gaussier,
+  and Guillaume Bouchard. 2016{\natexlab{b}}.
+\newblock Complex embeddings for simple link prediction.
+\newblock In {\em Proceedings of the 33rd International Conference on Machine
+  Learning (ICML '16)\/}. pages 2071--2080.
+
+\bibitem[{Yang et~al.(2015)Yang, tau Yih, He, Gao, and Deng}]{Yang:15}
+Bishan Yang, Wen tau Yih, Xiaodong He, Jianfeng Gao, and Li~Deng. 2015.
+\newblock Embedding entities and relations for learning and inference in
+  knowledge bases.
+\newblock In {\em Proceedings of the 3rd International Conference on Learning
+  Representations (ICLR '15)\/}.
+
+\end{thebibliography}
+
+\end{document}

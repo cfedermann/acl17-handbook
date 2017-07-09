@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#691
+FinalPaperTitle#=%=#Ontology-Aware Token Embeddings for Prepositional Phrase Attachment
+ShortPaperTitle#=%=#Ontology-Aware Token Embeddings for Prepositional Phrase Attachment
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Pradeep Dasigi
+JobTitle#==#
+Organization#==#
+Abstract#==#Type-level word embeddings use the same set of parameters to represent all
+instances of a word regardless of its context, ignoring the inherent lexical
+ambiguity in language. Instead, we embed semantic concepts (or synsets) as
+defined in WordNet and represent a word token in a particular context by
+estimating a distribution over relevant semantic concepts. We use the new,
+context-sensitive embeddings in a model for predicting prepositional phrase
+(PP) attachments and jointly learn the concept embeddings and model parameters.
+We show that using context-sensitive embeddings improves the accuracy of the PP
+attachment model by 5.4% absolute points, which amounts to a 34.4% relative
+reduction in errors.
+Author{1}{Firstname}#=%=#Pradeep
+Author{1}{Lastname}#=%=#Dasigi
+Author{1}{Email}#=%=#pdasigi@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Language Technologies Institute, Carnegie Mellon University
+Author{2}{Firstname}#=%=#Waleed
+Author{2}{Lastname}#=%=#Ammar
+Author{2}{Email}#=%=#waleed.ammar@gmail.com
+Author{2}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Dyer
+Author{3}{Email}#=%=#cdyer@google.com
+Author{3}{Affiliation}#=%=#Google DeepMind
+Author{4}{Firstname}#=%=#Eduard
+Author{4}{Lastname}#=%=#Hovy
+Author{4}{Email}#=%=#hovy@cmu.edu
+Author{4}{Affiliation}#=%=#CMU
+
+==========

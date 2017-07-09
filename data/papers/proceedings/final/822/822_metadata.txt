@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#822
+FinalPaperTitle#=%=#Semantic Parsing of Pre-university Math Problems
+ShortPaperTitle#=%=#Semantic Parsing of Pre-university Math Problems
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Takuya Matsuzaki
+JobTitle#==#
+Organization#==#Nagoya University
+Furo-cho, Chikusa-ku, Nagoya, Aichi, Japan
+Abstract#==#We have been developing an end-to-end math problem solving system that accepts
+natural language input.
+The current paper focuses on how we analyze the problem sentences to produce
+logical forms.
+We chose a hybrid approach combining a shallow syntactic analyzer and a
+manually-developed lexicalized grammar.
+A feature of the grammar is that it is extensively typed on the basis of a
+formal ontology for pre-university math.
+These types are helpful in semantic disambiguation inside and across sentences.
+Experimental results show that the hybrid system produces a well-formed logical
+form with 88\% precision and 56\% recall.
+Author{1}{Firstname}#=%=#Takuya
+Author{1}{Lastname}#=%=#Matsuzaki
+Author{1}{Email}#=%=#matuzaki@nuee.nagoya-u.ac.jp
+Author{1}{Affiliation}#=%=#Nagoya University
+Author{2}{Firstname}#=%=#Takumi
+Author{2}{Lastname}#=%=#Ito
+Author{2}{Email}#=%=#takumi_i@nuee.nagoya-u.ac.jp
+Author{2}{Affiliation}#=%=#Nagoya University
+Author{3}{Firstname}#=%=#Hidenao
+Author{3}{Lastname}#=%=#Iwane
+Author{3}{Email}#=%=#iwane@jp.fujitsu.com
+Author{3}{Affiliation}#=%=#Fujitsu Lab. Ltd.
+Author{4}{Firstname}#=%=#Hirokazu
+Author{4}{Lastname}#=%=#Anai
+Author{4}{Email}#=%=#anai@jp.fujitsu.com
+Author{4}{Affiliation}#=%=#Fujitsu Lab. Ltd
+Author{5}{Firstname}#=%=#Noriko
+Author{5}{Lastname}#=%=#H. Arai
+Author{5}{Email}#=%=#arai@nii.ac.jp
+Author{5}{Affiliation}#=%=#National Institute of Informatics
+
+==========

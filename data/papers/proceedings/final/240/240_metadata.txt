@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#240
+FinalPaperTitle#=%=#Unsupervised Text Segmentation Based on Native Language Characteristics
+ShortPaperTitle#=%=#Unsupervised Text Segmentation Based on Native Language Characteristics
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Mark Dras
+JobTitle#==#
+Organization#==#Macquarie University, Herring Rd, North Ryde, NSW 2109, Australia
+Abstract#==#Most work on segmenting text does so on the basis of topic changes,
+but it can be of interest to segment by other, stylistically expressed
+characteristics such as change of authorship or native language.  We
+propose a Bayesian unsupervised text segmentation approach to the
+latter.  While baseline models achieve essentially random segmentation
+on our task, indicating its difficulty, a Bayesian model that
+incorporates appropriately compact language models and alternating
+asymmetric priors can achieve scores on the standard metrics around
+halfway to perfect segmentation.
+Author{1}{Firstname}#=%=#Shervin
+Author{1}{Lastname}#=%=#Malmasi
+Author{1}{Email}#=%=#shervin.malmasi@students.mq.edu.au
+Author{1}{Affiliation}#=%=#Harvard Medical School
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dras
+Author{2}{Email}#=%=#mark.dras@mq.edu.au
+Author{2}{Affiliation}#=%=#Macquarie University
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Johnson
+Author{3}{Email}#=%=#Mark.Johnson@MQ.edu.au
+Author{3}{Affiliation}#=%=#Macquarie University
+Author{4}{Firstname}#=%=#Lan
+Author{4}{Lastname}#=%=#Du
+Author{4}{Email}#=%=#lan.du@monash.edu
+Author{4}{Affiliation}#=%=#Monash University
+Author{5}{Firstname}#=%=#Magdalena
+Author{5}{Lastname}#=%=#Wolska
+Author{5}{Email}#=%=#magdalena.wolska@uni-tuebingen.de
+Author{5}{Affiliation}#=%=#Eberhard Karls Universität Tübingen
+
+==========

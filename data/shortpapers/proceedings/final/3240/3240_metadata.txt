@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#3240
+FinalPaperTitle#=%=#The Role of Prosody and Speech Register in Word Segmentation: A Computational Modelling Perspective
+ShortPaperTitle#=%=#The Role of Prosody and Speech Register in Word Segmentation: A Computational Modelling Perspective
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Bogdan Ludusan
+JobTitle#==#
+Organization#==#Laboratoire de Sciences Cognitives et Psycolinguistique
+ENS/EHESS/PSL/CNRS
+29 rue d'Ulm, 75005 Paris, France
+Abstract#==#This study explores the role of speech register and prosody for the task of
+word segmentation. Since these two factors are thought to play an important
+role in early language acquisition, we aim to quantify their contribution for
+this task. We study a Japanese corpus containing both infant- and
+adult-directed speech and we apply four different word segmentation models,
+with and without knowledge of prosodic boundaries. The results showed that the
+difference between registers is smaller than previously reported and that
+prosodic boundary information helps more adult- than infant-directed speech.
+Author{1}{Firstname}#=%=#Bogdan
+Author{1}{Lastname}#=%=#Ludusan
+Author{1}{Email}#=%=#bogdan.ludusan@ens.fr
+Author{1}{Affiliation}#=%=#LSCP - EHESS/ENS/CNRS, Paris
+Author{2}{Firstname}#=%=#Reiko
+Author{2}{Lastname}#=%=#Mazuka
+Author{2}{Email}#=%=#mazuka@brain.riken.jp
+Author{2}{Affiliation}#=%=#Language Development Lab - RIKEN Brain Science Institute, Wako
+Author{3}{Firstname}#=%=#Mathieu
+Author{3}{Lastname}#=%=#Bernard
+Author{3}{Email}#=%=#mmathieubernardd@gmail.com
+Author{3}{Affiliation}#=%=#LSCP - EHESS/ENS/CNRS, Paris
+Author{4}{Firstname}#=%=#Alejandrina
+Author{4}{Lastname}#=%=#Cristia
+Author{4}{Email}#=%=#alecristia@gmail.com
+Author{4}{Affiliation}#=%=#LSCP - EHESS/ENS/CNRS, Paris
+Author{5}{Firstname}#=%=#Emmanuel
+Author{5}{Lastname}#=%=#Dupoux
+Author{5}{Email}#=%=#emmanuel.dupoux@gmail.com
+Author{5}{Affiliation}#=%=#Ecole des Hautes Etudes en Sciences Sociales
+
+==========

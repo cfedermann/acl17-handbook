@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#554
+FinalPaperTitle#=%=#Scalable Bayesian Learning of Recurrent Neural Networks for Language Modeling
+ShortPaperTitle#=%=#Scalable Bayesian Learning of Recurrent Neural Networks for Language Modeling
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Zhe Gan
+JobTitle#==#
+Organization#==#Duke University
+Abstract#==#Recurrent neural networks (RNNs) have shown promising performance for language
+modeling. However, traditional training of RNNs using back-propagation through
+time often suffers from overfitting. One reason for this is that stochastic
+optimization (used for large training sets) does not provide good estimates of
+model uncertainty. This paper leverages recent advances in stochastic gradient
+Markov Chain Monte Carlo (also appropriate for large training sets) to learn
+weight uncertainty in RNNs. It yields a principled Bayesian learning algorithm,
+adding gradient noise during training (enhancing exploration of the
+model-parameter space) and model averaging when testing. Extensive experiments
+on various RNN models and across a broad range of applications demonstrate the
+superiority of the proposed approach relative to stochastic optimization.
+Author{1}{Firstname}#=%=#Zhe
+Author{1}{Lastname}#=%=#Gan
+Author{1}{Email}#=%=#zg27@duke.edu
+Author{1}{Affiliation}#=%=#Duke University
+Author{2}{Firstname}#=%=#Chunyuan
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#chunyuan.li@duke.edu
+Author{2}{Affiliation}#=%=#Duke University
+Author{3}{Firstname}#=%=#Changyou
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#cc448@duke.edu
+Author{3}{Affiliation}#=%=#Duke University
+Author{4}{Firstname}#=%=#Yunchen
+Author{4}{Lastname}#=%=#Pu
+Author{4}{Email}#=%=#yp42@duke.edu
+Author{4}{Affiliation}#=%=#Duke University
+Author{5}{Firstname}#=%=#Qinliang
+Author{5}{Lastname}#=%=#Su
+Author{5}{Email}#=%=#qs15@duke.edu
+Author{5}{Affiliation}#=%=#Duke University
+Author{6}{Firstname}#=%=#Lawrence
+Author{6}{Lastname}#=%=#Carin
+Author{6}{Email}#=%=#lcarin@duke.edu
+Author{6}{Affiliation}#=%=#Duke University
+
+==========

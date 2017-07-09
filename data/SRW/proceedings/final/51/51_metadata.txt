@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#Modeling Situations in Neural Chat Bots
+ShortPaperTitle#=%=#Modeling Situations in Neural Chat Bots
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Shoetsu Sato
+JobTitle#==#
+Organization#==#The University of Tokyo / 7-3-1, Hongo, Bunkyo-ku, Tokyo, 113-8654, Japan
+Abstract#==#Social media accumulates vast amounts of online conversations that enable
+data-driven
+modeling of chat dialogues. It is, however, still hard to utilize the neural
+network-based SEQ2SEQ model for dialogue modeling in spite of its acknowledged
+success in machine translation. The main challenge comes from the high degrees
+of freedom of responses in dialogues. In this study, we explore neural
+conversational models that have general mechanisms for handling a variety of
+situations
+that affect our response. In our experiments, we confirmed the effectiveness
+of the proposed method in a response selection test by using massive dialogue
+data
+we have collected from Twitter.
+Author{1}{Firstname}#=%=#Shoetsu
+Author{1}{Lastname}#=%=#Sato
+Author{1}{Email}#=%=#shoetsu@tkl.iis.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#Graduate School of Information Science and Technology, The University of Tokyo
+Author{2}{Firstname}#=%=#Naoki
+Author{2}{Lastname}#=%=#Yoshinaga
+Author{2}{Email}#=%=#ynaga@tkl.iis.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#Institute of Industrial Science, the University of Tokyo
+Author{3}{Firstname}#=%=#Masashi
+Author{3}{Lastname}#=%=#Toyoda
+Author{3}{Email}#=%=#toyoda@tkl.iis.u-tokyo.ac.jp
+Author{3}{Affiliation}#=%=#Institute of Industrial Science, the University of Tokyo
+Author{4}{Firstname}#=%=#Masaru
+Author{4}{Lastname}#=%=#Kitsuregawa
+Author{4}{Email}#=%=#kitsure@tkl.iis.u-tokyo.ac.jp
+Author{4}{Affiliation}#=%=#Institute of Industrial Science, the University of Tokyo; National Institute of Informatics
+
+==========

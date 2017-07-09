@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#UCCAApp: Web-application for Syntactic and Semantic Phrase-based Annotation
+ShortPaperTitle#=%=#UCCAApp: Web-application for Syntactic and Semantic Phrase-based Annotation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Omri Abend
+JobTitle#==#
+Organization#==#School of Computer Science and Engineering
+Rothberg Building A, Room A527
+Edmond Safra Campus, Givat Ram
+The Hebrew University
+Jerusalem, 9190401, Israel
+Abstract#==#We present UCCAApp, an open-source, flexible web-application for syntactic and
+semantic phrase-based annotation in general, and for UCCA annotation in
+particular. UCCAApp supports a variety of formal properties that have proven
+useful for syntactic and semantic representation, such as discontiguous
+phrases, multiple parents and empty elements, making it useful to a variety of
+other annotation schemes with similar formal properties. UCCAApp's user
+interface is intuitive and user friendly, so as to support annotation by users
+with no background in linguistics or formal representation. Indeed, a pilot
+version of the application has been successfully used in the compilation of the
+UCCA Wikipedia treebank by annotators with no previous linguistic training. 
+The application and all accompanying resources are released as open source
+under the GNU public license, and are available online along with a live demo.
+Author{1}{Firstname}#=%=#Omri
+Author{1}{Lastname}#=%=#Abend
+Author{1}{Email}#=%=#omri.abend@mail.huji.ac.il
+Author{1}{Affiliation}#=%=#The Hebrew University of Jerusalem
+Author{2}{Firstname}#=%=#Shai
+Author{2}{Lastname}#=%=#Yerushalmi
+Author{2}{Email}#=%=#shaiy@cs.huji.ac.il
+Author{2}{Affiliation}#=%=#The Hebrew University of Jerusalem
+Author{3}{Firstname}#=%=#Ari
+Author{3}{Lastname}#=%=#Rappoport
+Author{3}{Email}#=%=#arir@cs.huji.ac.il
+Author{3}{Affiliation}#=%=#The Hebrew University
+
+==========

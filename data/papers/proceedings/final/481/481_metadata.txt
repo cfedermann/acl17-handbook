@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#481
+FinalPaperTitle#=%=#FOIL it! Find One mismatch between Image and Language caption
+ShortPaperTitle#=%=#FOIL it! Find One mismatch between Image and Language caption
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Aurelie Herbelot
+JobTitle#==#
+Organization#==#University of Trento
+Abstract#==#In this paper, we aim to understand whether current language and vision (LaVi)
+models truly grasp the interaction between the two modalities. To this end, we
+propose an extension of the MS-COCO dataset, FOIL-COCO, which associates images
+with both correct and `foil' captions, that is, descriptions of the image that
+are highly similar to the original ones, but contain one single mistake (`foil
+word'). We show that current LaVi models fall into the traps of this data and
+perform badly on three tasks: a) caption  classification (correct vs. foil); b)
+foil word detection; c) foil word correction. Humans, in contrast, have
+near-perfect performance on those tasks. We demonstrate that merely utilising
+language cues is not enough to model FOIL-COCO and that it challenges the
+state-of-the-art by requiring a fine-grained understanding of the relation
+between text and image.
+Author{1}{Firstname}#=%=#Ravi
+Author{1}{Lastname}#=%=#Shekhar
+Author{1}{Email}#=%=#ravi.shekhar@unitn.it
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Sandro
+Author{2}{Lastname}#=%=#Pezzelle
+Author{2}{Email}#=%=#sandro.pezzelle@unitn.it
+Author{2}{Affiliation}#=%=#University of Trento
+Author{3}{Firstname}#=%=#Yauhen
+Author{3}{Lastname}#=%=#Klimovich
+Author{3}{Email}#=%=#yauhenklimovich@gmail.com
+Author{3}{Affiliation}#=%=#University of Trento
+Author{4}{Firstname}#=%=#Aurélie
+Author{4}{Lastname}#=%=#Herbelot
+Author{4}{Email}#=%=#aurelie.herbelot@cantab.net
+Author{4}{Affiliation}#=%=#University of Trento
+Author{5}{Firstname}#=%=#Moin
+Author{5}{Lastname}#=%=#Nabi
+Author{5}{Email}#=%=#moin.nabi@unitn.it
+Author{5}{Affiliation}#=%=#University of Trento
+Author{6}{Firstname}#=%=#Enver
+Author{6}{Lastname}#=%=#Sangineto
+Author{6}{Email}#=%=#enver.sangineto@unitn.it
+Author{6}{Affiliation}#=%=#University of Trento
+Author{7}{Firstname}#=%=#Raffaella
+Author{7}{Lastname}#=%=#Bernardi
+Author{7}{Email}#=%=#bernardi@disi.unitn.it
+Author{7}{Affiliation}#=%=#University of Trento
+
+==========

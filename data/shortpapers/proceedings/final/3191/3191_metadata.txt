@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#3191
+FinalPaperTitle#=%=#How (not) to train a dependency parser: The curious case of jackknifing part-of-speech taggers
+ShortPaperTitle#=%=#How (not) to train a dependency parser: The curious case of jackknifing part-of-speech taggers
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zeljko Agic
+JobTitle#==#
+Organization#==#Department of Computer Science
+IT University of Copenhagen
+Rued Langgaards Vej 7
+2300 Copenhagen S
+Denmark
+Abstract#==#In dependency parsing, jackknifing taggers is indiscriminately used as a simple
+adaptation strategy. Here, we empirically evaluate when and how (not) to use
+jackknifing in parsing. On 26 languages, we reveal a preference that conflicts
+with, and surpasses the ubiquitous ten-folding. We show no clear benefits of
+tagging the training data in cross-lingual parsing.
+Author{1}{Firstname}#=%=#Željko
+Author{1}{Lastname}#=%=#Agić
+Author{1}{Email}#=%=#zeljko.agic@gmail.com
+Author{1}{Affiliation}#=%=#IT University of Copenhagen
+Author{2}{Firstname}#=%=#Natalie
+Author{2}{Lastname}#=%=#Schluter
+Author{2}{Email}#=%=#natschluter@itu.dk
+Author{2}{Affiliation}#=%=#IT University of Copenhagen
+
+==========

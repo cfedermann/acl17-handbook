@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#710
+FinalPaperTitle#=%=#Alignment at Work: Using Language to Distinguish the Internalization and Self-Regulation Components of Cultural Fit in Organizations
+ShortPaperTitle#=%=#Alignment at Work: Using Language to Distinguish the Internalization and Self-Regulation Components of Cultural Fit in Organizations
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Gabriel Doyle
+JobTitle#==#
+Organization#==#Stanford University, Department of Psychology
+Stanford, CA 94305
+Abstract#==#Cultural fit is widely believed to affect the success of individuals and the
+groups to which they belong. Yet it remains an elusive, poorly measured
+construct. Recent research draws on computational linguistics to measure
+cultural fit but overlooks asymmetries in cultural adaptation. By contrast, we
+develop a directed, dynamic measure of cultural fit based on linguistic
+alignment, which estimates the influence of one person's word use on another's
+and distinguishes between two enculturation mechanisms: internalization and
+self-regulation. We use this measure to trace employees' enculturation
+trajectories over a large, multi-year corpus of corporate emails and find that
+patterns of alignment in the first six months of employment are predictive of
+individuals’ downstream outcomes, especially involuntary exit. Further
+predictive analyses suggest referential alignment plays an overlooked role in
+linguistic alignment.
+Author{1}{Firstname}#=%=#Gabriel
+Author{1}{Lastname}#=%=#Doyle
+Author{1}{Email}#=%=#gdoyle@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Amir
+Author{2}{Lastname}#=%=#Goldberg
+Author{2}{Email}#=%=#amirgo@stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Sameer
+Author{3}{Lastname}#=%=#Srivastava
+Author{3}{Email}#=%=#srivastava@haas.berkeley.edu
+Author{3}{Affiliation}#=%=#UC Berkeley
+Author{4}{Firstname}#=%=#Michael
+Author{4}{Lastname}#=%=#Frank
+Author{4}{Email}#=%=#mcfrank@stanford.edu
+Author{4}{Affiliation}#=%=#Stanford University
+
+==========

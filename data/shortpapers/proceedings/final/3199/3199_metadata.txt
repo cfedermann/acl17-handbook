@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3199
+FinalPaperTitle#=%=#Sentence Alignment Methods for Improving Text Simplification Systems
+ShortPaperTitle#=%=#Sentence Alignment Methods for Improving Text Simplification Systems
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sanja Stajner
+JobTitle#==#
+Organization#==#
+Abstract#==#We provide several methods for sentence-alignment of texts with different
+complexity levels. Using the best of them, we sentence-align the Newsela
+corpora, thus providing large training materials for automatic text
+simplification (ATS) systems. We show that using this dataset, even the
+standard phrase-based statistical machine translation models for ATS can
+outperform the state-of-the-art ATS systems.
+Author{1}{Firstname}#=%=#Sanja
+Author{1}{Lastname}#=%=#Štajner
+Author{1}{Email}#=%=#stajner.sanja@gmail.com
+Author{1}{Affiliation}#=%=#University of Mannheim
+Author{2}{Firstname}#=%=#Marc
+Author{2}{Lastname}#=%=#Franco-Salvador
+Author{2}{Email}#=%=#marc.franco@symanto.net
+Author{2}{Affiliation}#=%=#Symanto Research
+Author{3}{Firstname}#=%=#Simone Paolo
+Author{3}{Lastname}#=%=#Ponzetto
+Author{3}{Email}#=%=#simone@informatik.uni-mannheim.de
+Author{3}{Affiliation}#=%=#University of Mannheim
+Author{4}{Firstname}#=%=#Paolo
+Author{4}{Lastname}#=%=#Rosso
+Author{4}{Email}#=%=#prosso@dsic.upv.es
+Author{4}{Affiliation}#=%=#Universitat Politecnica de Valencia
+Author{5}{Firstname}#=%=#Heiner
+Author{5}{Lastname}#=%=#Stuckenschmidt
+Author{5}{Email}#=%=#heiner@informatik.uni-mannheim.de
+Author{5}{Affiliation}#=%=#University of Mannheim
+
+==========

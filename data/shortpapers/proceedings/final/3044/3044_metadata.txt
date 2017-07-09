@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#3044
+FinalPaperTitle#=%=#Exploiting Domain Knowledge via Grouped Weight Sharing with Application to Text Categorization
+ShortPaperTitle#=%=#Exploiting Domain Knowledge via Grouped Weight Sharing with Application to Text Categorization
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#A fundamental advantage of neural models
+for NLP is their ability to learn representations
+from scratch. However, in
+practice this often means ignoring existing
+external linguistic resources, e.g., WordNet
+or domain specific ontologies such
+as the Unified Medical Language System
+(UMLS). We propose a general, novel
+method for exploiting such resources via
+weight sharing. Prior work on weight
+sharing in neural networks has considered
+it largely as a means of model compression.
+In contrast, we treat weight sharing
+as a flexible mechanism for incorporating
+prior knowledge into neural models.
+We show that this approach consistently
+yields improved performance on classification tasks compared to baseline
+strategies that do not exploit weight sharing.
+Author{1}{Firstname}#=%=#Ye
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#yezhang@utexas.edu
+Author{1}{Affiliation}#=%=#University of Texas at Austin
+Author{2}{Firstname}#=%=#Matthew
+Author{2}{Lastname}#=%=#Lease
+Author{2}{Email}#=%=#ml@utexas.edu
+Author{2}{Affiliation}#=%=#University of Texas at Austin
+Author{3}{Firstname}#=%=#Byron C.
+Author{3}{Lastname}#=%=#Wallace
+Author{3}{Email}#=%=#byron@ccs.neu.edu
+Author{3}{Affiliation}#=%=#Northeastern University
+
+==========

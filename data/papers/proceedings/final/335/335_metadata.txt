@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#335
+FinalPaperTitle#=%=#Gated Self-Matching Networks for Reading Comprehension and Question Answering
+ShortPaperTitle#=%=#Gated Self-Matching Networks for Reading Comprehension and Question Answering
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Wenhui Wang
+JobTitle#==#
+Organization#==#Key Laboratory of Computational Linguistics, Peking University, MOE, China
+Abstract#==#In this paper, we present the gated self-matching networks for reading
+comprehension style question answering, which aims to answer questions from a
+given passage. We first match the question and passage with gated
+attention-based recurrent networks to obtain the question-aware passage
+representation. Then we propose a self-matching attention mechanism to refine
+the representation by matching the passage against itself, which effectively
+encodes information from the whole passage. We finally employ the pointer
+networks to locate the positions of answers from the passages. We conduct
+extensive experiments on the SQuAD dataset. The single model achieves 71.3% on
+the evaluation metrics of exact match on the hidden test set, while the
+ensemble model further boosts the results to 75.9%. At the time of submission
+of the paper, our model holds the first place on the SQuAD leaderboard for both
+single and ensemble model.
+Author{1}{Firstname}#=%=#Wenhui
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wangwenhui@pku.edu.cn
+Author{1}{Affiliation}#=%=#Institute of Computational Linguistics Dept of Computer Science & Technology, Peking University
+Author{2}{Firstname}#=%=#Nan
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#nanya@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Furu
+Author{3}{Lastname}#=%=#Wei
+Author{3}{Email}#=%=#fuwei@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Asia
+Author{4}{Firstname}#=%=#Baobao
+Author{4}{Lastname}#=%=#Chang
+Author{4}{Email}#=%=#chbb@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+Author{5}{Firstname}#=%=#Ming
+Author{5}{Lastname}#=%=#Zhou
+Author{5}{Email}#=%=#mingzhou@microsoft.com
+Author{5}{Affiliation}#=%=#microsoft research asia
+
+==========

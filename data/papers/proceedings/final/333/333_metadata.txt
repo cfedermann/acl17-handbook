@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#333
+FinalPaperTitle#=%=#Selective Encoding for Abstractive Sentence Summarization
+ShortPaperTitle#=%=#Selective Encoding for Abstractive Sentence Summarization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Qingyu Zhou
+JobTitle#==#
+Organization#==#Harbin Institute of Technology, 92 West Dazhi Street,Nan Gang District, Harbin, China
+Abstract#==#We propose a selective encoding model to extend the sequence-to-sequence
+framework for abstractive sentence summarization. It consists of a sentence
+encoder, a selective gate network, and an attention equipped decoder. The
+sentence encoder and decoder are built with recurrent neural networks. The
+selective gate network constructs a second level sentence representation by
+controlling the information flow from encoder to decoder. The second level
+representation is tailored for sentence summarization task, which leads to
+better performance. We evaluate our model on the English Gigaword, DUC 2004 and
+MSR abstractive sentence summarization datasets. The experimental results show
+that the proposed selective encoding model outperforms the state-of-the-art
+baseline models.
+Author{1}{Firstname}#=%=#Qingyu
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Email}#=%=#qyzhgm@gmail.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Nan
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#nanya@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Furu
+Author{3}{Lastname}#=%=#Wei
+Author{3}{Email}#=%=#fuwei@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Asia
+Author{4}{Firstname}#=%=#Ming
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#mingzhou@microsoft.com
+Author{4}{Affiliation}#=%=#microsoft research asia
+
+==========

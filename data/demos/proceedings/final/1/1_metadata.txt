@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Swanson linking revisited: Accelerating literature-based discovery across domains using a conceptual influence graph
+ShortPaperTitle#=%=#Swanson linking revisited: Accelerating literature-based discovery across domains using a conceptual influence graph
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Gus Hahn-Powell
+JobTitle#==#
+Organization#==#University of Arizona
+Tucson, AZ 85721
+Abstract#==#We introduce a modular approach for literature-based discovery consisting of a
+machine reading and knowledge assembly component that together produce a graph
+of influence relations (e.g., ``A promotes B'') from a collection of
+publications.  A search engine is used to explore direct and indirect influence
+chains. Query results are substantiated with textual evidence, ranked according
+to their relevance, and presented in both a table-based view, as well as a
+network graph visualization.  Our approach operates in both domain-specific
+settings, where there are knowledge bases and ontologies available to guide
+reading, and in multi-domain settings where such resources are absent.               
+     
+
+We
+demonstrate that this deep reading and search system reduces the effort needed
+to uncover ``undiscovered public knowledge'', and that with the aid of this
+tool a domain expert was able to drastically reduce her model building time
+from months to two days.
+Author{1}{Firstname}#=%=#Gus
+Author{1}{Lastname}#=%=#Hahn-Powell
+Author{1}{Email}#=%=#gushahnpowell@gmail.com
+Author{1}{Affiliation}#=%=#University of Arizona
+Author{2}{Firstname}#=%=#Marco A.
+Author{2}{Lastname}#=%=#Valenzuela-Escárcega
+Author{2}{Email}#=%=#marcov@email.arizona.edu
+Author{2}{Affiliation}#=%=#University of Arizona
+Author{3}{Firstname}#=%=#Mihai
+Author{3}{Lastname}#=%=#Surdeanu
+Author{3}{Email}#=%=#surdeanu@gmail.com
+Author{3}{Affiliation}#=%=#University of Arizona
+
+==========
