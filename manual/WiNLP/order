@@ -1,0 +1,99 @@
+* Sunday, July 30, 2017
+= 7:30--8:30 ACL Registration
+= 8:30--10:35 Session I: Opening, Invited Talk, Oral Presentations
+! 8:30--9:00 Opening Remarks %by Libby, Isabelle, Chloé, He, Margaret
+! 9:00--9:35 Invited Talk: Discourse and Computation: A life in tokens %by Bonnie Webber
+= Oral Presentations
+46 9:35--9:55  # Grammatical gender associations outweigh topical gender bias in crosslinguistic word embeddings
+9 9:55--10:15  # Contextual and Structural Language Understanding in Dialogues
+63 10:15--10:35  # Data-driven Natural Language Generation: Paving the Road to Success
+= 10:35--11:00 Coffee Break
+= 11:00--12:00 Session II:  Invited Talk, Mentoring
+! 11:00--11:35 Invited Talk: Improving zero-shot learning for word-level translation %by Ndapa Nakashole
+! 11:35--12:00 Mentoring Session %by WiNLP Participants
+= 12:00--13:00 Lunch
+= 13:00--15:30 Session III: Poster Presentations, Oral Presentations
+= 13:00--14:30 Poster Session (see list below)
+= 14:30--15:30 Oral Presentations
+81 14:30--14:50  # Persuading People to Give: Modeling Persuasive Strategies via Semi Supervised Neural Nets
+61 14:50--15:10  # CANDiS: Coupled & Attention-Driven Neural Distant Supervision
+37 15:10--15:30  # Semantic and Visual Cues for Humanitarian Computing of Natural Disaster Damage Images
+= 15:30--15:55 Coffee Break
+= 15:55--18:00 Session IV: Invited Talk, Oral Presentations, Closing, Mentor Meetup
+! 15:55--16:30 Invited Talk:  Empathetic Natural Language Processing %by Pascale Fung
+=  Oral Presentations
+40 16:30--16:50  # Detecting clinical conditions with Distributional Semantic Models
+18 16:50--17:10  # Chasing Rhetorical Cues to Sarcasm in Online Debate
+= Closing
+! 17:10--17:30 Closing Remarks and Planning %by Libby, Isabelle, Chloé, He, Margaret
+! 17:30 One-on-One Mentor Meetup
+= 18:00 End of WiNLP
+= 18:00--21:30 Session P1: Poster Session 1
+2   # Offensive Comments in the Brazilian Web: a dataset and baseline results
+3   # Planning in Language Grounded in Perception
+5   # Empirical Evaluation of Named Entities on Arabic Sentiment Analysis of Levantine Dialect on Social Media
+6   # Are you asking the right questions? Teaching Machines to Ask Clarification Questions
+7   # Sarcasm SIGN: Interpreting Sarcasm with Sentiment Based Monolingual Machine Translation
+10   # Classify and Examine : Using Semi-supervised Learning with Ensemble Learning to Score Short-Answer Questions in Korean
+11   # Parameter Sharing for Morphological Generation Using Neural Sequence-to-Sequence Models
+12   # Convolutional Neural Networks for Churn Prediction in Microblogs
+13   # Using Distributional Semantics to Identify Idiomatic Language
+15   # Neural Sentiment Classification with User and Product Attention
+16   # Adaptive Platform for Collaborative Translation
+17   # Name Variation in Community Question Answering Systems
+21   # Time Expression Resolution for Social Media Data
+22   # Neural Headline Generation with Sentence-wise Optimization
+23   # Discovering Domain Specific Dialog Acts
+24   # Learning from Heterogeneous Data with PNN for Chinese SRL
+26   # Virtual Patient
+27   # Using Fine-grained Phonetic Transcription to Improve the performance of Arabic Speech Recognition System
+28   # Visual Verb Sense Disambiguation
+29   # From Characters to Words to in Between: Do We Capture Morphology?
+30   # Regular Graph Grammars for NLP
+31   # Understanding Text Pre-processing for Latent Dirichlet Allocation
+32   # Combination of RNN and CRF for Extracting Adverse Drug Reactions from User Reviews
+33   # Who's to say what's funny? A computer using Language Models and Deep Learning, That's Who!
+34   # Creation of an Annotated Corpus of Spanish Radiology Reports
+35   # Argumentation Mining In Twitter: A Study Of Controversial Topics
+36   # Affective Relationship Between Color and Text in Arabic Comic books
+38   # A Hybrid Approach to Recommender Systems for Technology Enhanced Learning: Using Probabilistic Topic Models, Collaborative Tagging and Domain Ontologies
+39   # Syntax Matters for Rhetorical Structure: The Case of Chiasmus
+41   # Morph-Inflected Word Detection in Igbo via Bitext
+42   # Partial productivity of The Indefinite Noun Quantification Construction: implications for computational modeling in FrameNet Brasil
+43   # Identifying frames at the sentence level in news articles
+44   # Unsupervised Word Discovery Using Attentional Encoder-Decoder Models
+45   # A Data-Driven Approach to Understanding Happiness
+47   # Multi-task Domain Adaptation for Sequence Tagging
+49   # Optimizing Statistical Machine Translation for Text Simplification
+50   # Copying Monolingual Data Improves Neural Machine Translation
+51   # Insights on Sentiment Polarity Extraction from Bollywood Song Lyrics
+52   # Towards Efficient Human-Robot Dialogue Collection: Moving Fido into the Virtual World
+53   # When does a Compliment become Sexist? Analysis and Classification of Ambivalent Sexism using Twitter Data
+54   # My Husband, the Dragonfly: The (Non-)Compositionality of Mansi Animal Names
+55   # Comment Relevance Classification in Facebook
+58   # Enterprise to Computer: Star Trek chatbot
+59   # Neural Interactive Translation Prediction
+62   # Psychological Stress Detection from Text Using Word Embeddings
+64   # WixNLP: Probabilistic Finite-State morphological analyzer for Wixarika language
+68   # PubTermVariants: A Data-driven Approach to Finding Biomedical Term Variants
+69   # Safe Evaluation of Dialogue Management
+70   # What does an effective treatment recommendation look like: A corpus-based study on doctor-patient conversations
+71   # Linguistic Theories and Resources for Natural Language Processing
+73   # Argument Summarization in Social Media Dialogue
+74   # Functional Segment Identification and Emotion Tagging for Vietnamese Conversational Texts
+75   # Learning Sentiment-Aware Word Representation in Compositional Matrix-Space Models
+76   # Exploring bilingual lexicon extraction for Spanish-Nahuatl
+77   # Sequential Approach to Rumour Stance Classification
+79   # Comparison between Neural and Statistical translation after transliteration of Algerian Arabic Dialect
+80   # How Biased Are We? Automated Detection of Gendered Language
+82   # #MAGA or #TheResistance: Classifying Twitter users' political affiliation without looking at their words or friends
+83   # Predicting Depression from User-generated Content in Social Media
+84   # User Trust When Machine Translation Goes Wrong
+85   # The role of domain in learning about referents
+86   # Measuring Personality Adaptation in Task-Oriented Dialogs
+87   # Modeling of Political Discourse on Twitter
+91   # Collecting Artwork Descriptions Through Dialogue
+92   # Bilingual Lexicon for Algerian Arabic Dialect Treatment in Social Media
+93   # Debbie, the Debate Bot of the Future
+94   # Generalized and Unsupervised Word-Level Language Detection
+95   # Automatic Query Expansion for Patent Passage Retrieval using Paradigmatic and Syntagmatic Information
