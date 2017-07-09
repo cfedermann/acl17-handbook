@@ -1,56 +1,59 @@
-W1, SemEval
-9th International Workshop on Semantic Evaluations.
-Preslav Nakov, Torsten Zesch
+W1, CoNLL
+CoNLL: The SIGNLL Conference on Computational Natural Language Learning
+Lucia Specia, Roger Levy
 
-W2, ArgMining
-2nd Workshop on Argumentation Mining
-Claire Cardie, Nancy Green, Iryna Gurevych, Graeme Hirst, Diane Litman, Smaranda Muresan, Georgios Petasis, Manfred Stede, Marilyn Walker, Janyce Wiebe
+W2, starSEM
+*SEM: Sixth Joint Conference On Lexical And Computational Semantics
+Nancy Ide, Aurelie Herbelot, Luís Màrquez
 
-W3, BEA
-The 10th Workshop on Innovative Use of NLP for Building Educational Applications
-Joel Tetreault, Jill Burstein, Claudia Leacock
+W3, SemEval
+SemEval: 11th International Workshop on Semantic Evaluation
+Steven Bethard, Marine Carpuat, Marianna Apidianaki, Saif M. Mohammad, Daniel Cer, David Jurgens
 
-W4, CLFL
-Fourth Workshop on Computational Linguistics for Literature
-Anna Feldman, Anna Kazantseva, Stan Szpakowicz
+W4, WiNLP
+Women and Underrepresented Groups in Natural Language Processing
+Libby Barak, Isabelle Augenstein, Chloé Braud, He He, Margaret Mitchell
 
-W5, CMCL
-Cognitive Modeling and Computational Linguistics
-Timothy J. O’Donnell, Marten van Schijndel
+W5, BUCC
+The 10th Workshop on Building and Using Comparable Corpora
+Serge Sharoff, Pierre Zweigenbaum, Reinhard Rapp
 
-W6, Event
-The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation
-Eduard Hovy, Teruko Mitamura, Martha Palmer
+W6, CLPsych
+Computational Linguistics and Clinical Psychology – From Linguistic Signal to Clinical Reality
+Kristy Hollingshead, Molly E. Ireland, Kate Loveys
 
-W7, MWE
-The 11th Workshop on Multiword Expressions.
-Valia Kordoni, Markus Egg, Kostadin Cholakov, Stella Markantonatou, Shuly Wintner
+W7, NLPandCSS
+NLP+CSS: Workshops on Natural Language Processing and Computational Social Science
+David Bamman, A. Seza Doğruöz, Dirk Hovy, David Jurgens, Brendan O'Connor, Oren Tsur, Svitlana Volkova
 
-W8, SSST
-Ninth Workshop on Syntax, Semantics and Structure in Statistical Translation
-Dekai Wu, Marine Carpuat, Eneko Agirre, Nora Aranberri
+W8, Repl4NLP
+The 2nd Workshop on Representation Learning for NLP
+Phil Blunsom, Antoine Bordes, Kyunghyun Cho, Shay Cohen, Chris Dyer, Edward Grefenstette, Karl Moritz Hermann, Laura Rimell, Jason Weston, Scott Wen-tau Yih
 
-W9, CLPsych
-Computational Linguistics and Clinical Psychology — From Linguistic Signal to Clinical Reality
-Margaret Mitchell, Glen Coppersmith, Kristy Hollingshead
+W9, RoboNLP
+RoboNLP: Language Grounding for Robotics
+Mohit Bansal, Cynthia Matuszek, Jacob Andreas, Yoav Artzi, Yonatan Bisk
 
-W10, ExProM
-Extra-Propositional Aspects of Meaning in Computational Linguistics
-Eduardo Blanco, Roser Morante, Caroline Sporleder
+W10, TextGraphs-11
+TextGraphs-11: Graph-based Methods for Natural Language Processing
+Martin Riedl, Swapna Somasundaran, Goran Glavaš, Eduard Hovy
 
-W11, LAW
-The 9th Linguistic Annotation Workshop
-Adam Meyers, Ines Rehbein, Heike Zinsmeister
+W11, ALW1
+ALW1: 1st Workshop on Abusive Language Online
+Wendy Hui Kyong Chun, Dirk Hovy, Joel Tetreault, Zeerak Waseem
 
-W12, Metaphor
-The Third Workshop on Metaphor in NLP
-Ekaterina Shutova, Beata Beigman Klebanov, Patricia Lichtenstein
+W12, BioNLP
+BioNLP: Workshop on Biomedical Natural Language Processing
+Kevin Bretonnel Cohen, Dina Demner-Fushman, Sophia Ananiadou, Jun-ichi Tsujii
 
-W13, SocialNLP
-Third International Workshop on Natural Language Processing for Social Media
-Shou-De Lin, Lun-Wei Ku, Cheng-Te Li, Erik Cambria
+W13, EventStory
+EventStory: Events and Stories in the News
+Tommaso Caselli, Ben Miller, Marieke van Erp, Piek Vossen, Martha Palmer, Eduard Hovy, Teruko Mitamura, David Caswell
 
-W14, VSM–NLP
-Vector Space Modeling for NLP
-Phil Blunsom, Shay Cohen, Paramveer Dhillon, Percy Liang
+W14, LaTeCH-CLfL
+LaTeCH-CLfL: Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature
+Beatrice Alex, Stefania Degaetano-Ortlieb, Anna Feldman, Anna Kazantseva, Nils Reiter, Stan Szpakowicz
 
+W15, NMT
+NMT: 1st Workshop on Neural Machine Translation
+Thang Luong, Graham Neubig, Alexandra Birch, Andrew Finch
