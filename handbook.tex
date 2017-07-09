@@ -41,6 +41,7 @@
 \renewcommand{\large}{\fontsize{10}{11}\selectfont}
 \renewcommand{\Large}{\fontsize{12}{14}\selectfont}
 \renewcommand{\huge}{\fontsize{14}{17}\selectfont}
+\newcommand{\ie}{i.e.}
 
 % for each part of the conference, add the .bib file produced with
 % meta2bibtex.py here:
@@ -66,23 +67,41 @@
 %
 %%%
 
-\bibliography{auto/tacl/papers.bib}
+\bibliography{auto/tacl/papers.bib}            % TACL
 
-\bibliography{auto/conll-3/papers.bib}
-\bibliography{auto/semeval/papers.bib}
+\bibliography{auto/CoNLL/papers.bib}           % W1
+\bibliography{auto/starSEM/papers.bib}         % W2
+\bibliography{auto/SemEval/papers.bib}         % W3
+\bibliography{auto/BUCC/papers.bib}            % W5
+\bibliography{auto/CLPsych/papers.bib}         % W6
+\bibliography{auto/NLPandCSS/papers.bib}       % W7
+\bibliography{auto/Repl4NLP/papers.bib}        % W8
+\bibliography{auto/RoboNLP/papers.bib}         % W9
+\bibliography{auto/TextGraphs-11/papers.bib}   % W10
+\bibliography{auto/ALW1/papers.bib}            % W11
+\bibliography{auto/BioNLP/papers.bib}          % W12
+\bibliography{auto/EventStory/papers.bib}      % W13
+\bibliography{auto/LaTeCH-CLfL/papers.bib}     % W14
+\bibliography{auto/NMT/papers.bib}             % W15
+
+
+
+%\bibliography{auto/conll-3/papers.bib}
+%\bibliography{auto/semeval/papers.bib}
 %\bibliography{auto/clfl/papers.bib}
 %\bibliography{auto/clpsych/papers.bib}
 %\bibliography{auto/cmcl/papers.bib}
-%\bibliography{auto/demos/papers.bib}
+\bibliography{auto/demos/papers.bib}
 %\bibliography{auto/event/papers.bib}
 %\bibliography{auto/exprom/papers.bib}
 %\bibliography{auto/law/papers.bib}
 %\bibliography{auto/metaphor/papers.bib}
 %\bibliography{auto/mwe/papers.bib}
-%\bibliography{auto/papers/papers.bib}
+\bibliography{auto/papers/papers.bib}
 %\bibliography{auto/semeval/papers.bib}
 %\bibliography{auto/socialnlp/papers.bib}
-%\bibliography{auto/srw/papers.bib}
+\bibliography{auto/SRW/papers.bib}
+\bibliography{auto/shortpapers/papers.bib}
 %\bibliography{auto/ssst-9/papers.bib}
 %\bibliography{auto/starsem/papers.bib}
 %\bibliography{auto/tutorial-final/papers.bib}
@@ -174,8 +193,8 @@
 
 %% MAIN CONFERENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\setdaydateyear{Monday}{July 31}{2017}
-%\input{content/day1/day1}
+\setdaydateyear{Monday}{July 31}{2017}
+\input{content/day1/day1}
 
 %\setdaydateyear{Tuesday}{August 1}{2017}
 %\input{content/day2/day2}
