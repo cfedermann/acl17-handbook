@@ -560,6 +560,20 @@ Human Language Technologies}\par
       \hline\hline}
 {\end{tabular}\end{center}}
 
+\newenvironment{TwoSessionOverview}[4]{
+  \section[#1]{#1 Overview -- #2}
+  \setheaders{#1}{#2}
+  \begin{center}
+    \righthyphenmin2
+    \sloppy
+    \begin{tabular}{|>{\RaggedRight}p{2.0in}|>{\RaggedRight}p{2.0in}|}
+      \hline
+      \bf Track A & \bf Track B \\\hline
+      \it #3 & \it #4 \\
+      \TrackALoc & \TrackBLoc \\
+      \hline\hline}
+{\hline\end{tabular}\end{center}}
+
 \newenvironment{ThreeSessionOverview}[5]{
   \section[#1]{#1 Overview -- #2}
   \setheaders{#1}{#2}

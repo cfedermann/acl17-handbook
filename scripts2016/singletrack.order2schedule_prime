@@ -1,0 +1,88 @@
+#!/usr/bin/perl -W
+
+# hacked to work with workshop schedules
+
+use strict;
+
+my (@S, @P, @D);
+my $conf_part = $ARGV[0];	# main / wsX / demo 
+
+my @args = @ARGV;
+my $with_abstracts = 0;
+my $debug = 0;
+while (my $a = shift @args)
+{
+  if ($a =~ /^-a|--with-abstracts/)
+  {
+    $with_abstracts = 1;
+  }
+  if ($a =~ /^-d|--debug/)
+  {
+    $debug = 1;
+  }
+  else
+   {
+     $conf_part = $a;
+   } 
+}
+
+die "Conference part tag not specified!\n" unless $conf_part;
+$|=1;
+
+my $tpat     = "[0-9]{1,2}[:.][0-9]{2,2}(?:\\s*[ap]m)?";
+my $tspanpat = "\\(?($tpat)(?:\\s*-+\\s*($tpat))?\\)?";
+while (my $line = <STDIN>)
+{
+  print "\n" if ($line =~ /^[*=+]/);
+  print "\% $line" if $debug;
+  "a" =~ /a/; # reset match variables
+  if ($line =~ /^\* (.*)/)
+  {
+    my $header = $1;
+    $header = texify($header) if $header;
+    print"\\item[] {\\Large\\bfseries $header}\\\\\\vspace{1.5ex}\n";
+  }
+  elsif ($line =~ /^[=+]\s+(.*?)($tspanpat)\s*(.*)/i)
+  {
+    my $pre   = $1;
+    my $time  = lc($2);
+    my $start = $3;
+    my $end   = $4;
+    my $post  = $5;
+    $start = "" unless $start;
+    $end   = "" unless $end;
+    $pre  = texify($pre)  if $pre;
+    $post = texify($post) if $post;
+    #print "$pre\n$post\n$start\n$end\n";
+    print"\\vspace{1ex}\n";
+    print "\\item[$time] {\\bfseries $pre $post}\n";
+  }
+  elsif ($line =~ /^[=+]\s*(.*)/)
+  {
+    my $header = texify($1);
+    print"\\vspace{1ex}\n";
+    print "\\item[] {\\bfseries $header}\n";
+  }
+  elsif ($line =~ /^([0-9]+)\s+($tspanpat)?\s*\#/i)
+  {
+    my $paper_id  = $1;
+    my $time = $2;
+    $time = "\$\\bullet\$" unless $time;
+    $time = lc($time);
+    my @t;
+    push @t, $3 if $3;
+    push @t, $4 if $4;
+    my $endsat   = scalar(@t) ? pop @t : "\$\\bullet\$";
+    my $startsat = scalar(@t) ? pop @t : "";
+    print sprintf("\\item[$time] \\wspaperentry{$conf_part-%03d}\n", $paper_id);
+  }
+}
+
+sub texify
+{
+  $_[0] =~ s/ "/ ``/g;
+  $_[0] =~ s/" /''/g;
+  $_[0] =~ s/\\/\\\\/g;
+  $_[0] =~ s/\@/\\\@/g;
+  return $_[0];
+}
