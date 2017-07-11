@@ -131,8 +131,8 @@
 %%%\cleardoublepage
 \thispagestyle{empty}
 \vspace*{6in}
-\noindent\emph{Cover design by Dawn Mercurio and Sharan Freundschuh Atak}\\\index{Mercurio, Dawn}\index{Atak, Sharan Freundschuh}
-\noindent\emph{Handbook assembled by Christian Federmann (\emph{\color{red}in memoriam Hans-Ulrich Krieger})}\\\index{Federmann, Christian}
+\noindent\emph{Cover design by Sharan Freundschuh Atak}\\\index{Atak, Sharan Freundschuh}
+\noindent\emph{Handbook assembled by Christian Federmann (\emph{\color{red}in memoriam Hans-Ulrich Krieger})}\\\index{Federmann, Christian}\index{Krieger, Hans-Ulrich}
 \emph{Printing by Omnipress of Madison, Wisconsin}
 
 \newpage
@@ -197,13 +197,13 @@
 %% MAIN CONFERENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \setdaydateyear{Monday}{July 31}{2017}
-\input{content/day1/day1}
+%%%\input{content/day1/day1}
 
 \setdaydateyear{Tuesday}{August 1}{2017}
-\input{content/day2/day2}
+%%%\input{content/day2/day2}
 
 \setdaydateyear{Wednesday}{August 2}{2017}
-\input{content/day3/day3}
+%%%\input{content/day3/day3}
 
 %% Cultural event %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -211,14 +211,9 @@
 %% \addcontentsline{toc}{chapter}{Special Cultural Event: Thursday, August 3, 7:00 PM}
 %% \input{content/special-event}
 
-%% *SEM% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\setdaydateyear{Thursday--Friday}{August 3--4}{2017}
-%\input{content/colocated/overview}
-
 %% WORKSHOPS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setdaydateyear{Thursday--Friday}{August 3--4}{2017}
-\input{content/workshops/workshops}
+%%%\input{content/workshops/workshops}
 
 %% MISC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Anti-harassment policy
@@ -238,6 +233,7 @@
 %% BACK COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \fancyfoot[C]{}
+\includepdf[pages={1}]{content/fmatter/ACL17-westin-bayshore-floorplans}
 \includepdf[pages={1}]{content/fmatter/back2.pdf}
 
 %\thispagestyle{empty}
