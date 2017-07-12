@@ -1,3 +1,24 @@
+# TODOs for final ACL 2017 handbook
+
+The following list contains the remaining steps until the final
+ACL 2017 handbook can be compiled:
+
+- Update CoNLL order
+- Update BUCC order
+- Update RoboNLP order (or provide placeholder data)
+- Create WiNLP papers.bib
+- Finalize missing locations
+- Validate times are in 24h format (or normalize to 12h am/pm)
+- Add page for social event
+- Add childcare to conference information
+- Drop W$x$ from workshop names in TOC
+- Verify meal info correctness
+- Add image to welcome reception page?
+
+
+
+# Old README.md content
+
 If you're reading this, it's likely because you've been asked to
 assemble an *ACL handbook. Congratulations!  
 

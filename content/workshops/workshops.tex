@@ -1,6 +1,6 @@
-\chapter[Workshops: \daydate]{Workshops}
+\chapter[Workshops and Colocated Events: \daydate]{Workshops and Colocated Events}
 \thispagestyle{emptyheader}
-\setheaders{Workshops}{\daydateyear}
+\setheaders{Workshops and Colocated Events}{\daydateyear}
 \vfill
 
 \input{content/workshops/overview}
@@ -15,10 +15,25 @@
 %% \end{wsschedule}
 
 %%%
+% Sunday
+%%%
+\setdaydateyear{Sunday}{July 30}{2017}
+\setheaders{One-day Workshops}{\daydateyear}
+
+\begin{wsschedule}
+  {WiNLP: Women \& Underrepresented Minorities in Natural Language Processing}
+  {4}{WShopD}
+  {workshop4}
+  {\WShopLocD}
+  \input{auto/WiNLP/schedule}
+\end{wsschedule}
+
+
+%%%
 % Colocated
 %%%
 \setdaydateyear{Thursday--Friday}{August 3--4}{2017}
-\setheaders{Two-day Workshops}{\daydateyear}
+\setheaders{Two-day Workshops and Colocated Events}{\daydateyear}
 
 \begin{wsschedule}
   {CoNLL: The SIGNLL Conference on Computational Natural Language Learning}
@@ -42,21 +57,6 @@
   {workshop3}
   {\WShopLocC}
   \input{auto/SemEval/schedule}
-\end{wsschedule}
-
-
-%%%
-% Sunday
-%%%
-\setdaydateyear{Sunday}{July 30}{2017}
-\setheaders{One-day Workshops}{\daydateyear}
-
-\begin{wsschedule}
-  {WiNLP: Women \& Underrepresented Minorities in Natural Language Processing}
-  {4}{WShopD}
-  {workshop4}
-  {\WShopLocD}
-  \input{auto/WiNLP/schedule}
 \end{wsschedule}
 
 %%%
