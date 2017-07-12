@@ -477,8 +477,12 @@ Human Language Technologies}\par
   % For workshops numbered 0, don't prepend W0 on the contents page
   \clearpage
   \ifthenelse{\equal{#2}{0}}
-             {\section{\textbf{#1}}}
-             {\section[{\bfseries W#2:} #1]{{\bfseries Workshop #2:} #1}}
+%%             {\section{\textbf{#1}}}
+             {\section{#1}}
+%%
+%% For ACL 2017, we do not show the Wx prefix and instead only show the title
+%%             {\section[{\bfseries W#2:} #1]{{\bfseries Workshop #2:} #1}}
+             {\section{#1}}
              %% {{\addcontentsline{toc}{section}{{#1}}}}
              %% {{\addcontentsline{toc}{section}{{{\bfseries W#2:} #1}}}}
 
