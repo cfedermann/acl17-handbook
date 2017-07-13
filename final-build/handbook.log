@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 JUL 2017 03:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 JUL 2017 03:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2120,7 +2120,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 6.
+(hyperref)                be the same. Added a new anchor on input line 10.
 
 (./auto/papers/Tuesday-overview.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
@@ -2158,62 +2158,67 @@ Overfull \hbox (2.853pt too wide) in paragraph at lines 15--20
  []
 
 
-Overfull \hbox (7.86073pt too wide) in paragraph at lines 28--28
-[]|\T1/ptm/m/n/8 Multidisciplinary
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/ptm/m/n/8 Multi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/ptm/m/n/8 disciplinary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
 []|\T1/ptm/m/n/8 Language and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
 []|\T1/ptm/m/n/8 Machine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
 \T1/ptm/m/n/8 Trans-la-tion 3
  []
 
 
-Overfull \hbox (2.853pt too wide) in paragraph at lines 26--31
+Overfull \hbox (2.853pt too wide) in paragraph at lines 28--33
 []|[]|  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\T1/ptm/m/n/8 Information
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\T1/ptm/m/n/8 Semantics 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\T1/ptm/m/n/8 Discourse 2 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\T1/ptm/m/n/8 Machine
  []
 
 
-Overfull \hbox (1.18895pt too wide) in paragraph at lines 38--39
+Overfull \hbox (1.18895pt too wide) in paragraph at lines 40--41
 []|\T1/ptm/m/n/8 Summarization
  []
 
 
-Overfull \hbox (2.853pt too wide) in paragraph at lines 36--41
+Overfull \hbox (2.853pt too wide) in paragraph at lines 38--43
 []|[]|  
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 43--44
+Underfull \hbox (badness 6825) in paragraph at lines 45--46
 []|\T1/ptm/b/n/8 Poster Ses-sion P2 (in-cludes sys-tems demon-stra-tions) 
  []
 
@@ -4066,13 +4071,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
 ### simple group (level 1) entered at line 1 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26111 strings out of 492995
- 470083 string characters out of 6132704
- 1590959 words of memory out of 5000000
- 27653 multiletter control sequences out of 15000+600000
+ 26114 strings out of 492995
+ 470118 string characters out of 6132704
+ 1590969 words of memory out of 5000000
+ 27656 multiletter control sequences out of 15000+600000
  49610 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,18n,51p,2419b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,18n,51p,2419b,1953s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced bu
 t does not exist, replaced by a fixed one
 
@@ -4091,7 +4096,7 @@ type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pf
 b>
-Output written on handbook.pdf (225 pages, 72266189 bytes).
+Output written on handbook.pdf (225 pages, 72266196 bytes).
 PDF statistics:
  5236 PDF objects out of 6186 (max. 8388607)
  4711 compressed objects within 48 object streams
