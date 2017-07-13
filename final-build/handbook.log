@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 JUL 2017 02:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 JUL 2017 02:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1542,13 +1542,13 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored! <./content/fmatter/cover2.pdf>] [2{/usr/local/texlive/
 2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 126.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 133.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 126.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 133.
  (./handbook.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
@@ -1569,16 +1569,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [2]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OT1+pzc on input line 131.
+LaTeX Font Info:    Try loading font information for OT1+pzc on input line 138.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pzc.fd
 File: ot1pzc.fd 2001/06/04 font definitions for OT1/pzc.
 )
 LaTeX Font Info:    Font shape `OT1/pzc/m/n' in size <76> not available
-(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 131.
+(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 138.
 
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 131--131
+Overfull \hbox (10.0pt too wide) in paragraph at lines 138--138
 [][][][][][][][][]  
  []
 
@@ -1600,7 +1600,7 @@ l.32
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.134 \clearpage
+l.141 \clearpage
                  [2] (./content/fmatter/preface-pc.tex
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 90.
 
@@ -2813,7 +2813,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
  []
 
 )
-Overfull \hbox (5.3527pt too wide) in paragraph at lines 42--178
+Overfull \hbox (5.3527pt too wide) in paragraph at lines 42--185
 [][]$\T1/pcr/m/n/8 https : / / www . aclweb . org / adminwiki / index . php ? t
 itle = Anti -[] Harassment _
  []
@@ -3944,14 +3944,14 @@ File: content/fmatter/ACL17-westin-bayshore-floorplans.pdf Graphic file (type p
 df)
  <use content/fmatter/ACL17-westin-bayshore-floorplans.pdf>
 Package pdftex.def Info: content/fmatter/ACL17-westin-bayshore-floorplans.pdf u
-sed on input line 199.
+sed on input line 206.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: content/fmatter/ACL17-westin-bayshore-floorplans.pdf Graphic file (type p
 df)
 
 <use content/fmatter/ACL17-westin-bayshore-floorplans.pdf>
 Package pdftex.def Info: content/fmatter/ACL17-westin-bayshore-floorplans.pdf u
-sed on input line 199.
+sed on input line 206.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 <content/fmatter/ACL17-westin-bayshore-floorplans.pdf, id=4988, page=1, 614.295
@@ -3961,35 +3961,35 @@ df)
 
 <use content/fmatter/ACL17-westin-bayshore-floorplans.pdf, page 1>
 Package pdftex.def Info: content/fmatter/ACL17-westin-bayshore-floorplans.pdf, 
-page1 used on input line 199.
+page1 used on input line 206.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: content/fmatter/ACL17-westin-bayshore-floorplans.pdf Graphic file (type p
 df)
 
 <use content/fmatter/ACL17-westin-bayshore-floorplans.pdf, page 1>
 Package pdftex.def Info: content/fmatter/ACL17-westin-bayshore-floorplans.pdf, 
-page1 used on input line 199.
+page1 used on input line 206.
 (pdftex.def)             Requested size: 397.67479pt x 514.63799pt.
 File: content/fmatter/ACL17-westin-bayshore-floorplans.pdf Graphic file (type p
 df)
 
 <use content/fmatter/ACL17-westin-bayshore-floorplans.pdf, page 1>
 Package pdftex.def Info: content/fmatter/ACL17-westin-bayshore-floorplans.pdf, 
-page1 used on input line 199.
+page1 used on input line 206.
 (pdftex.def)             Requested size: 397.67479pt x 514.63799pt.
 File: content/fmatter/ACL17-westin-bayshore-floorplans.pdf Graphic file (type p
 df)
 
 <use content/fmatter/ACL17-westin-bayshore-floorplans.pdf, page 1>
 Package pdftex.def Info: content/fmatter/ACL17-westin-bayshore-floorplans.pdf, 
-page1 used on input line 199.
+page1 used on input line 206.
 (pdftex.def)             Requested size: 397.67479pt x 514.63799pt.
 File: content/fmatter/ACL17-westin-bayshore-floorplans.pdf Graphic file (type p
 df)
 
 <use content/fmatter/ACL17-westin-bayshore-floorplans.pdf, page 1>
 Package pdftex.def Info: content/fmatter/ACL17-westin-bayshore-floorplans.pdf, 
-page1 used on input line 199.
+page1 used on input line 206.
 (pdftex.def)             Requested size: 397.67479pt x 514.63799pt.
  [220
 
@@ -3998,11 +3998,11 @@ page1 used on input line 199.
 File: content/fmatter/back2.pdf Graphic file (type pdf)
 
 <use content/fmatter/back2.pdf>
-Package pdftex.def Info: content/fmatter/back2.pdf used on input line 200.
+Package pdftex.def Info: content/fmatter/back2.pdf used on input line 207.
 (pdftex.def)             Requested size: 397.48402pt x 614.61708pt.
 File: content/fmatter/back2.pdf Graphic file (type pdf)
  <use content/fmatter/back2.pdf>
-Package pdftex.def Info: content/fmatter/back2.pdf used on input line 200.
+Package pdftex.def Info: content/fmatter/back2.pdf used on input line 207.
 (pdftex.def)             Requested size: 397.48402pt x 614.61708pt.
 
 <content/fmatter/back2.pdf, id=5015, page=1, 397.485pt x 614.61859pt>
@@ -4010,45 +4010,45 @@ File: content/fmatter/back2.pdf Graphic file (type pdf)
 
 <use content/fmatter/back2.pdf, page 1>
 Package pdftex.def Info: content/fmatter/back2.pdf, page1 used on input line 20
-0.
+7.
 (pdftex.def)             Requested size: 397.48402pt x 614.61708pt.
 File: content/fmatter/back2.pdf Graphic file (type pdf)
 
 <use content/fmatter/back2.pdf, page 1>
 Package pdftex.def Info: content/fmatter/back2.pdf, page1 used on input line 20
-0.
+7.
 (pdftex.def)             Requested size: 397.67204pt x 614.9078pt.
 File: content/fmatter/back2.pdf Graphic file (type pdf)
 
 <use content/fmatter/back2.pdf, page 1>
 Package pdftex.def Info: content/fmatter/back2.pdf, page1 used on input line 20
-0.
+7.
 (pdftex.def)             Requested size: 397.67204pt x 614.9078pt.
 File: content/fmatter/back2.pdf Graphic file (type pdf)
 
 <use content/fmatter/back2.pdf, page 1>
 Package pdftex.def Info: content/fmatter/back2.pdf, page1 used on input line 20
-0.
+7.
 (pdftex.def)             Requested size: 397.67204pt x 614.9078pt.
 File: content/fmatter/back2.pdf Graphic file (type pdf)
 
 <use content/fmatter/back2.pdf, page 1>
 Package pdftex.def Info: content/fmatter/back2.pdf, page1 used on input line 20
-0.
+7.
 (pdftex.def)             Requested size: 397.67204pt x 614.9078pt.
  [221 <./content/fmatter/back2.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
 
 (./handbook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
 Package rerunfilecheck Info: File `handbook.out' has not changed.
 (rerunfilecheck)             Checksum: 217B75964F074B5338FCEDFD01974451;5046.
 Package logreq Info: Writing requests to 'handbook.run.xml'.
 \openout1 = `handbook.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
  )
 (\end occurred inside a group at level 12)
 
@@ -4091,7 +4091,7 @@ type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pf
 b>
-Output written on handbook.pdf (225 pages, 72266252 bytes).
+Output written on handbook.pdf (225 pages, 72266215 bytes).
 PDF statistics:
  5236 PDF objects out of 6186 (max. 8388607)
  4711 compressed objects within 48 object streams
