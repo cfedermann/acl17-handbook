@@ -1,0 +1,151 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {american}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Table of Contents}{i}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Conference Information}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Message from the General Chair}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Message from the Program Committee Co-Chairs}{3}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Organizing Committee}{5}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Program Committee}{6}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Meal Info}{8}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Tutorials: Sunday, July 30\xspace }{9}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Message from the Tutorial Co-Chairs}{10}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\textbf {T1:} {Natural Language Processing for Precision Medicine}}{11}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\textbf {T2:} {Multimodal Machine Learning}}{13}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\textbf {T3:} {Deep Learning for Semantic Composition}}{14}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\textbf {T4:} {Deep Learning for Dialogue Systems}}{15}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\textbf {T5:} {Beyond Words: Deep Learning for Multiword Expressions and Collocations}}{17}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\textbf {T6:} {Making Better Use of the Crowd}}{18}{section.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Welcome Reception: Sunday, July 30\xspace , 18:00}{20}{section.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Welcome Reception}{20}{section.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Main Conference: Monday, July 31\xspace }{21}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Presidential Address: Joakim Nivre}{22}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Session 1}{23}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Session 2}{32}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Session 3}{41}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Poster Session P1 (Long Papers)}{50}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Poster Session P1 (Short Papers)}{58}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Poster Session P1 (SRW Papers)}{66}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Main Conference: Tuesday, August 1\xspace }{71}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Keynote Address: Noah Smith}{72}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Session 4}{73}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Session 5}{82}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Session 6}{88}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Poster Session P2 (Long Papers)}{97}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Poster Session P2 (Short Papers)}{103}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Poster Session P2 (Systems Demonstrations)}{108}{section.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Social Event: Tuesday, August 1\xspace , 19:00}{113}{section.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Social Event}{113}{section.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Main Conference: Wednesday, August 2\xspace }{115}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Keynote Address: Mirella Lapata}{116}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Session 7}{117}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Session 8}{121}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Workshops and Colocated Events: Sunday,Thursday--Friday, July 30,August 3--4\xspace }{125}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{WiNLP: Women \& Underrepresented Minorities in Natural Language Processing}{126}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{CoNLL: The SIGNLL Conference on Computational Natural Language Learning}{131}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{*SEM: Sixth Joint Conference On Lexical And Computational Semantics}{135}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{SemEval: 11th International Workshop on Semantic Evaluation}{138}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{BUCC: 10th Workshop on Building and Using Comparable Corpora}{150}{section.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{CLPsych: Computational Linguistics and Clinical Psychology \IeC {\textendash } From Linguistic Signal to Clinical Reality}{152}{section.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{NLP+CSS: Workshops on Natural Language Processing and Computational Social Science}{154}{section.6.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Repl4NLP: 2nd Workshop on Representation Learning for NLP}{156}{section.6.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{RoboNLP: Language Grounding for Robotics}{159}{section.6.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{TextGraphs-11: Graph-based Methods for Natural Language Processing}{161}{section.6.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ALW1: 1st Workshop on Abusive Language Online}{162}{section.6.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{BioNLP: Workshop on Biomedical Natural Language Processing}{164}{section.6.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{EventStory: Events and Stories in the News}{168}{section.6.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{LaTeCH-CLfL: Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature}{170}{section.6.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{NMT: 1st Workshop on Neural Machine Translation}{172}{section.6.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Anti-harassment policy}{175}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Local Guide}{177}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Vancouver Pride Festival}{177}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Celebration of Light}{177}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caribbean Days}{178}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Vancouver Folk Music Festival}{178}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Bard on the Beach: Shakespeare Festival}{178}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Theatre under the Stars}{178}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Transportation}{178}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Safety}{178}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}On-Site Childcare and Nursing Room}{179}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Activities}{180}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Commitment }{180}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Where, When, For Whom}{180}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Other Info}{180}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Need more information?}{180}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Example activities - A Pirate's Life For Me}{181}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Author Index}{183}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Sponsorship}{206}{section*.14}
