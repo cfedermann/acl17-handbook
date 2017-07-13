@@ -1,12 +1,28 @@
+* Thursday, August 3, 2017
++ 9:00--9:15 # Welcome and Opening Remarks
++ 9:15--9:50 # Invited Talk 1 (Joyce Chai, MSU)
++ 9:50--10:25 # Invited Talk 2 (Ray Mooney, UT Austin)
++ 10:30--11:00 # Coffee break
++ 11:00--11:35 # Invited Talk 3 (Stefanie Tellax)
++ 11:35--12:10 # Invited Talk 4 (Karl Moritz Hermann, Google DeepMind)
++ 12:10--14:00 # Poster Session (Lunch from 12:30--14:00)
 2   # Grounding Language for Interactive Task Learning
-3   # Learning how to Learn: An Adaptive Dialogue Agent for Incrementally Learning Visually Grounded Word Meanings
 4   # Guiding Interaction Behaviors for Multi-modal Grounded Language Learning
 5   # Structured Learning for Context-aware Spoken Language Understanding of Robotic Commands
-6   # Natural Language Grounding and Grammar Induction for Robotic Manipulation Commands
 10   # Communication with Robots using Multilayer Recurrent Networks
 14   # Grounding Symbols in Multi-Modal Instructions
 17   # Exploring Variation of Natural Human Commands to a Robot in a Collaborative Navigation Task
-19   # A Tale of Two DRAGGNs: A Hybrid Approach for Interpreting Action-Oriented and Goal-Oriented Instructions
 20   # Are Distributional Representations Ready for the Real World? Evaluating Word Vectors for Grounded Perceptual Meaning
 21   # Sympathy Begins with a Smile, Intelligence Begins with a Word: Use of Multimodal Features in Spoken Human-Robot Interaction
 23   # Towards Problem Solving Agents that Communicate and Learn
++ 14:00--14:35 # Invited Talk 5 (Percy Liang, Stanford)
++ 14:45--15:10 # Invited Talk 6 (Jason Weston, Facebook AI Research)
+= Selected Oral Submission 1
+3 15:10--15:20 # Learning how to Learn: An Adaptive Dialogue Agent for Incrementally Learning Visually Grounded Word Meanings
+= Selected Oral Submission 2
+6 15:20--15:30 # Natural Language Grounding and Grammar Induction for Robotic Manipulation Commands
++ 15:30--16:00 # Coffee break
+= Selected Oral Submission 3
+19 16:00--16:10 # A Tale of Two DRAGGNs: A Hybrid Approach for Interpreting Action-Oriented and Goal-Oriented Instructions
++ 16:10--16:45 # Invited Talk 7 (Nicholas Roy, MIT)
++ 16:45--17:45 # Panel
