@@ -147,19 +147,37 @@
 \setdaydateyear{Sunday}{July 30}{2017}
 \input{content/tutorials/tutorials-overview}
 
+\chapter[Workshops: \daydate]{Workshops}
+%\addcontentsline{toc}{chapter}{WiNLP: Women \& Underrepresented Minorities in Natural Language Processing}
+
+%%%
+% Sunday
+%%%
+\setdaydateyear{Sunday}{July 30}{2017}
+\setheaders{One-day Workshops}{\daydateyear}
+
+\begin{wsschedule}
+  {WiNLP: Women \& Underrepresented Minorities in Natural Language Processing}
+  {4}{WShopD}
+  {workshop4}
+  {\WShopLocD}
+  \input{auto/WiNLP/schedule}
+\end{wsschedule}
+
+
 %% RECEPTION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\addcontentsline{toc}{chapter}{Welcome Reception: \daydate, 6:00pm}
+\addcontentsline{toc}{chapter}{Welcome Reception: \daydate, 18:00}
 \input{content/tutorials/welcome-reception}
 
 %% MAIN CONFERENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setdaydateyear{Monday}{July 31}{2017}
-\input{content/day1/day1}
+%%%IGNORE\input{content/day1/day1}
 
 \setdaydateyear{Tuesday}{August 1}{2017}
-\input{content/day2/day2}
+%%%IGNORE\input{content/day2/day2}
 
 \setdaydateyear{Wednesday}{August 2}{2017}
-\input{content/day3/day3}
+%%%IGNORE\input{content/day3/day3}
 
 %% Cultural event %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% \setdaydateyear{Tuesday}{August 1}{2017}
@@ -176,6 +194,9 @@
 %% LOCAL GUIDE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setheaders{Local Guide}{Local Guide}
 \input{content/local-guide/local-guide.tex}
+
+\setheaders{On-Site Childcare}{On-Site Childcare}
+\input{content/local-guide/kiddiecorp.tex}
 
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Author Index}
