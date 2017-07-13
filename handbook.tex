@@ -74,6 +74,7 @@
 \bibliography{auto/CoNLL/papers.bib}           % W1
 \bibliography{auto/starSEM/papers.bib}         % W2
 \bibliography{auto/SemEval/papers.bib}         % W3
+\bibliography{manual/WiNLP/papers.bib}         % W4
 \bibliography{auto/BUCC/papers.bib}            % W5
 \bibliography{auto/CLPsych/papers.bib}         % W6
 \bibliography{auto/NLPandCSS/papers.bib}       % W7
@@ -147,45 +148,29 @@
 \setdaydateyear{Sunday}{July 30}{2017}
 \input{content/tutorials/tutorials-overview}
 
-\chapter[Workshops: \daydate]{Workshops}
-%\addcontentsline{toc}{chapter}{WiNLP: Women \& Underrepresented Minorities in Natural Language Processing}
-
-%%%
-% Sunday
-%%%
-\setdaydateyear{Sunday}{July 30}{2017}
-\setheaders{One-day Workshops}{\daydateyear}
-
-\begin{wsschedule}
-  {WiNLP: Women \& Underrepresented Minorities in Natural Language Processing}
-  {4}{WShopD}
-  {workshop4}
-  {\WShopLocD}
-  \input{auto/WiNLP/schedule}
-\end{wsschedule}
-
-
 %% RECEPTION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \addcontentsline{toc}{chapter}{Welcome Reception: \daydate, 18:00}
-\input{content/tutorials/welcome-reception}
+\input{content/welcome-reception}
 
 %% MAIN CONFERENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setdaydateyear{Monday}{July 31}{2017}
-%%%IGNORE\input{content/day1/day1}
+\input{content/day1/day1}
 
 \setdaydateyear{Tuesday}{August 1}{2017}
-%%%IGNORE\input{content/day2/day2}
+\input{content/day2/day2}
+
+%% SOCIAL EVENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\setheaders{}{}
+\addcontentsline{toc}{chapter}{Social Event: \daydate, 19:00}
+\input{content/social-event}
 
 \setdaydateyear{Wednesday}{August 2}{2017}
-%%%IGNORE\input{content/day3/day3}
-
-%% Cultural event %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% \setdaydateyear{Tuesday}{August 1}{2017}
-%%\addcontentsline{toc}{chapter}{Social Event: \daydate, 6:00pm}
-%%\input{content/day2/social-event}
+\input{content/day3/day3}
 
 %% WORKSHOPS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setdaydateyear{Thursday--Friday}{August 3--4}{2017}
+\setdaydateyear{Sunday,Thursday--Friday}{July 30,August 3--4}{2017}
 \input{content/workshops/workshops}
 
 %% MISC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -205,9 +190,9 @@
 \printindex
 
 %% SPONSOR ADS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \addcontentsline{toc}{chapter}{Sponsorship}
-% \setheaders{}{}
-% \input{content/ads/ads}
+ \addcontentsline{toc}{chapter}{Sponsorship}
+ \setheaders{}{}
+ \input{content/ads/ads}
 
 %% BACK COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \fancyfoot[C]{}
