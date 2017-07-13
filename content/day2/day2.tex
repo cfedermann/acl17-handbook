@@ -2,8 +2,13 @@
 \thispagestyle{emptyheader}
 \setheaders{Main Conference}{\daydateyear}
 
+\newif\ifmetaconf
+\metaconftrue
+
 %% Overview page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ifmetaconf
 \addcontentsline{toc}{section}{Discussion: Double Blind Reviewing \& arXiv, 12:05--13:30, \MetaConfLoc}
+\fi
 \input{auto/papers/Tuesday-overview.tex}\clearpage
 
 %% Invited talk and other events %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
