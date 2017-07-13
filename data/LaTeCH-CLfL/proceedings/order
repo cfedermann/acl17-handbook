@@ -1,24 +1,24 @@
 * August 4th, 2017
-= 09:00--10:00 Session 1
-3 09:00--09:30  # Metaphor Detection in a Poetry Corpus
-11 09:30--10:00  # Machine Translation and Automated Analysis of the Sumerian Language
-= 10:00--10:30 Poster Teaser Talks
-= 11:00--12:30 Session 2
-15 11:00--11:30  # Investigating the Relationship between Literary Genres and Emotional Plot Development
-22 11:30--12:00  # Enjambment Detection in a Large Diachronic Corpus of Spanish Sonnets
-1 12:00--12:30  # Plotting Markson's "Mistress"
-= 13:30--14:00 SIGHUM Business Meeting
-= 14:00--15:00 Invited Talk
-! 14:00--15:00 Characterization %by Andrew Piper
-= 15:00--16:00 Poster Session
-4 15:00--16:00  # Annotation Challenges for Reconstructing the Structural Elaboration of Middle Low German
-8 15:00--16:00  # Phonological Soundscapes in Medieval Poetry
-13 15:00--16:00  # An End-to-end Environment for Research Question-Driven Entity Extraction and Network Analysis
-17 15:00--16:00  # Modeling intra-textual variation with entropy and surprisal: topical vs. stylistic patterns
-19 15:00--16:00  # Finding a Character___s Voice: Stylome Classification on Literary Characters
-25 15:00--16:00  # An Ontology-Based Method for Extracting and Classifying Domain-Specific Compositional Nominal Compounds
-26 15:00--16:00  # Speeding up corpus development for linguistic research: language documentation and acquisition in Romansh Tuatschin
-= 16:00--17:30 Session 4
-7 16:00--16:30  # Distantly Supervised POS Tagging of Low-Resource Languages under Extreme Data Sparsity: The Case of Hittite
-10 16:30--17:00  # A Dataset for Sanskrit Word Segmentation
-27 17:00--17:30  # Lexical Correction of Polish Twitter Political Data
+= Session 1
+3 # 9:00-09:30 Metaphor Detection in a Poetry Corpus
+11 # 9:30-10:00 Machine Translation and Automated Analysis of the Sumerian Language
++ 10:00-10:30 Poster teaser talks
+= Session 2
+15 # 11:00-11:30 Investigating the Relationship between Literary Genres and Emotional Plot Development
+22 # 11:30-12:00 Enjambment Detection in a Large Diachronic Corpus of Spanish Sonnets
+1 # 12:00-12:30 Plotting Markson's "Mistress"
+= 13:30-14:00 SIGHUM Business Meeting
+= Session 3
++ 14:00-15:00 Characterization (invited talk by Andrew Piper)
++ 15:00-15:30 Poster session
+13 # An End-to-end Environment for Research Question-Driven Entity Extraction and Network Analysis
+25 # Extracting and Classifying Domain-Specific Compositional Nominal Compounds
+17 # Modeling intra-textual variation with entropy and surprisal: topical vs. stylistic patterns
+19 # Finding a Character's Voice: Stylome Classification on Literary Characters
+8 # Phonological Soundscapes in Medieval Poetry
+4 # Facing Annotation Challenges for Reconstructing the Structural Elaboration of Middle Low German
+26 Speeding up corpus development for linguistic research: language documentation and acquisition in Romansh Tuatschin
+= Session 4
+7 # 16:00-16:30 Distantly Supervised POS Tagging of Low-Resource Languages under Extreme Data Sparsity: The Case of Hittite
+10 # 16:30-17:00 A Dataset for Sanskrit Word Segmentation
+27 # 17:00-17:30 Lexical Correction of Polish Twitter Political Data
