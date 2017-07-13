@@ -8055,13 +8055,13 @@
     \endentry
     \entry{WiNLP-092}{inproceedings}{}
       \name{author}{2}{}{%
-        {{hash=b525539176ade6b8f51c6225e84bc00a}{%
-           family={GUELLIL},
+        {{hash=6268bb86f5936e0bdabc6567808283cb}{%
+           family={Guellil},
            familyi={G\bibinitperiod},
            given={Imane},
            giveni={I\bibinitperiod}}}%
-        {{hash=4aec1cade537b1ff5ea537985d146d04}{%
-           family={AZOUAOU},
+        {{hash=09f864f43a2c479c23043ca73c202d22}{%
+           family={Azouaou},
            familyi={A\bibinitperiod},
            given={Faical},
            giveni={F\bibinitperiod}}}%
@@ -8072,10 +8072,10 @@
       \list{publisher}{1}{%
         {Association for Computational Linguistics}%
       }
-      \strng{namehash}{261ebb752f2c06c4845e57b78eb1a081}
-      \strng{fullhash}{261ebb752f2c06c4845e57b78eb1a081}
-      \strng{authornamehash}{261ebb752f2c06c4845e57b78eb1a081}
-      \strng{authorfullhash}{261ebb752f2c06c4845e57b78eb1a081}
+      \strng{namehash}{eca89801f3a9eef0ac9798ec7fa43dc2}
+      \strng{fullhash}{eca89801f3a9eef0ac9798ec7fa43dc2}
+      \strng{authornamehash}{eca89801f3a9eef0ac9798ec7fa43dc2}
+      \strng{authorfullhash}{eca89801f3a9eef0ac9798ec7fa43dc2}
       \field{sortinit}{G}
       \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
       \field{labelnamesource}{author}
@@ -14236,8 +14236,8 @@
            familyi={X\bibinitperiod},
            given={Jingjing},
            giveni={J\bibinitperiod}}}%
-        {{hash=c1af80c1e88131dcfc24569c1739a6f7}{%
-           family={WANG},
+        {{hash=f31bb592c801f31928bb98720f36f2a0}{%
+           family={Wang},
            familyi={W\bibinitperiod},
            given={Houfeng},
            giveni={H\bibinitperiod}}}%
@@ -14252,10 +14252,10 @@
            given={Qi},
            giveni={Q\bibinitperiod}}}%
       }
-      \strng{namehash}{a6f906de8c6a25dd9ce008d12e5a6a3a}
-      \strng{fullhash}{a6f906de8c6a25dd9ce008d12e5a6a3a}
-      \strng{authornamehash}{a6f906de8c6a25dd9ce008d12e5a6a3a}
-      \strng{authorfullhash}{a6f906de8c6a25dd9ce008d12e5a6a3a}
+      \strng{namehash}{142b1a070327a8694a39698248fcdc0a}
+      \strng{fullhash}{142b1a070327a8694a39698248fcdc0a}
+      \strng{authornamehash}{142b1a070327a8694a39698248fcdc0a}
+      \strng{authorfullhash}{142b1a070327a8694a39698248fcdc0a}
       \field{sortinit}{M}
       \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{labelnamesource}{author}
@@ -16631,8 +16631,8 @@
     \endentry
     \entry{SemEval-063}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=57a7eb0a65ae9a9db23e0c416eacaba8}{%
-           family={NAGOUDI},
+        {{hash=f36c972678293f14c0c075ebd1c3c98c}{%
+           family={Nagoudi},
            familyi={N\bibinitperiod},
            given={El\bibnamedelima Moatez\bibnamedelima Billah},
            giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
@@ -16647,10 +16647,10 @@
            given={Didier},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{dd47ab4d27dbe682997dcc74f09dd3f3}
-      \strng{fullhash}{dd47ab4d27dbe682997dcc74f09dd3f3}
-      \strng{authornamehash}{dd47ab4d27dbe682997dcc74f09dd3f3}
-      \strng{authorfullhash}{dd47ab4d27dbe682997dcc74f09dd3f3}
+      \strng{namehash}{0e943dbe17abbb5a54ec84f5ded72757}
+      \strng{fullhash}{0e943dbe17abbb5a54ec84f5ded72757}
+      \strng{authornamehash}{0e943dbe17abbb5a54ec84f5ded72757}
+      \strng{authorfullhash}{0e943dbe17abbb5a54ec84f5ded72757}
       \field{sortinit}{N}
       \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
       \field{labelnamesource}{author}
@@ -24317,10 +24317,10 @@
     \endentry
     \entry{WiNLP-074}{inproceedings}{}
       \name{author}{5}{}{%
-        {{hash=9803159a9209a9c9e72b5f661e0f154c}{%
+        {{hash=b89f57b74633bfd1e1dbe2a4a0827b4d}{%
            family={Thi\bibnamedelima Lan},
            familyi={T\bibinitperiod\bibinitdelim L\bibinitperiod},
-           given={NGO},
+           given={Ngo},
            giveni={N\bibinitperiod}}}%
         {{hash=909272c54d34b6004591076f2a0a9d4d}{%
            family={Van\bibnamedelima Hoang},
@@ -24349,10 +24349,10 @@
       \list{publisher}{1}{%
         {Association for Computational Linguistics}%
       }
-      \strng{namehash}{f444ffbf03f1b2758d4ad1cf1bc6158c}
-      \strng{fullhash}{f444ffbf03f1b2758d4ad1cf1bc6158c}
-      \strng{authornamehash}{f444ffbf03f1b2758d4ad1cf1bc6158c}
-      \strng{authorfullhash}{f444ffbf03f1b2758d4ad1cf1bc6158c}
+      \strng{namehash}{4954c8b9fcc1f3d8b44064be507256d2}
+      \strng{fullhash}{4954c8b9fcc1f3d8b44064be507256d2}
+      \strng{authornamehash}{4954c8b9fcc1f3d8b44064be507256d2}
+      \strng{authorfullhash}{4954c8b9fcc1f3d8b44064be507256d2}
       \field{sortinit}{T}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelnamesource}{author}
@@ -26361,16 +26361,16 @@
            familyi={L\bibinitperiod},
            given={Sujian},
            giveni={S\bibinitperiod}}}%
-        {{hash=c1af80c1e88131dcfc24569c1739a6f7}{%
-           family={WANG},
+        {{hash=f31bb592c801f31928bb98720f36f2a0}{%
+           family={Wang},
            familyi={W\bibinitperiod},
            given={Houfeng},
            giveni={H\bibinitperiod}}}%
       }
-      \strng{namehash}{682329352c230efb4a2c32c2b6980897}
-      \strng{fullhash}{682329352c230efb4a2c32c2b6980897}
-      \strng{authornamehash}{682329352c230efb4a2c32c2b6980897}
-      \strng{authorfullhash}{682329352c230efb4a2c32c2b6980897}
+      \strng{namehash}{435e7d81f2c300ea865627217fd2f148}
+      \strng{fullhash}{435e7d81f2c300ea865627217fd2f148}
+      \strng{authornamehash}{435e7d81f2c300ea865627217fd2f148}
+      \strng{authorfullhash}{435e7d81f2c300ea865627217fd2f148}
       \field{sortinit}{W}
       \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
       \field{labelnamesource}{author}

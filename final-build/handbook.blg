@@ -1,155 +1,155 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'handbook.blg'
-[49] biber:303> INFO - === Thu Jul 13, 2017, 01:46:33
+[48] biber:303> INFO - === Thu Jul 13, 2017, 02:58:27
 [82] Biber.pm:359> INFO - Reading 'handbook.bcf'
-[319] Biber.pm:835> INFO - Found 923 citekeys in bib section 0
-[336] Biber.pm:3670> INFO - Processing section 0
-[352] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/tacl/papers.bib' for section 0
-[355] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[361] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/tacl/papers.bib'
-[419] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/CoNLL/papers.bib' for section 0
-[423] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[426] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/CoNLL/papers.bib'
-[553] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/starSEM/papers.bib' for section 0
-[556] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[559] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/starSEM/papers.bib'
-[672] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/SemEval/papers.bib' for section 0
-[682] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[699] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/SemEval/papers.bib'
-[1231] Biber.pm:3840> INFO - Looking for bibtex format file 'manual/WiNLP/papers.bib' for section 0
-[1246] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1271] bibtex.pm:1292> INFO - Found BibTeX data source 'manual/WiNLP/papers.bib'
-[1290] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-046' is not an integer - this will probably not sort properly.
-[1298] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-009' is not an integer - this will probably not sort properly.
-[1301] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-063' is not an integer - this will probably not sort properly.
-[1303] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-081' is not an integer - this will probably not sort properly.
-[1305] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-061' is not an integer - this will probably not sort properly.
-[1307] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-037' is not an integer - this will probably not sort properly.
-[1310] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-040' is not an integer - this will probably not sort properly.
-[1314] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-018' is not an integer - this will probably not sort properly.
-[1317] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-002' is not an integer - this will probably not sort properly.
-[1319] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-003' is not an integer - this will probably not sort properly.
-[1321] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-005' is not an integer - this will probably not sort properly.
-[1323] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-006' is not an integer - this will probably not sort properly.
-[1325] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-007' is not an integer - this will probably not sort properly.
-[1331] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-010' is not an integer - this will probably not sort properly.
-[1333] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-011' is not an integer - this will probably not sort properly.
-[1335] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-012' is not an integer - this will probably not sort properly.
-[1337] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-013' is not an integer - this will probably not sort properly.
-[1340] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-015' is not an integer - this will probably not sort properly.
-[1343] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-016' is not an integer - this will probably not sort properly.
-[1346] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-017' is not an integer - this will probably not sort properly.
-[1348] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-021' is not an integer - this will probably not sort properly.
-[1351] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-022' is not an integer - this will probably not sort properly.
-[1354] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-023' is not an integer - this will probably not sort properly.
-[1359] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-024' is not an integer - this will probably not sort properly.
-[1363] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-026' is not an integer - this will probably not sort properly.
-[1367] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-028' is not an integer - this will probably not sort properly.
-[1369] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-029' is not an integer - this will probably not sort properly.
-[1371] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-030' is not an integer - this will probably not sort properly.
-[1373] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-031' is not an integer - this will probably not sort properly.
-[1375] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-032' is not an integer - this will probably not sort properly.
-[1377] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-033' is not an integer - this will probably not sort properly.
-[1383] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-034' is not an integer - this will probably not sort properly.
-[1385] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-035' is not an integer - this will probably not sort properly.
-[1388] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-036' is not an integer - this will probably not sort properly.
-[1390] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-038' is not an integer - this will probably not sort properly.
-[1392] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-039' is not an integer - this will probably not sort properly.
-[1395] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-041' is not an integer - this will probably not sort properly.
-[1397] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-042' is not an integer - this will probably not sort properly.
-[1401] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-043' is not an integer - this will probably not sort properly.
-[1403] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-044' is not an integer - this will probably not sort properly.
-[1405] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-045' is not an integer - this will probably not sort properly.
-[1407] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-047' is not an integer - this will probably not sort properly.
-[1410] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-049' is not an integer - this will probably not sort properly.
-[1415] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-050' is not an integer - this will probably not sort properly.
-[1421] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-052' is not an integer - this will probably not sort properly.
-[1423] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-053' is not an integer - this will probably not sort properly.
-[1425] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-054' is not an integer - this will probably not sort properly.
-[1427] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-055' is not an integer - this will probably not sort properly.
-[1430] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-058' is not an integer - this will probably not sort properly.
-[1432] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-059' is not an integer - this will probably not sort properly.
-[1435] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-062' is not an integer - this will probably not sort properly.
-[1437] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-064' is not an integer - this will probably not sort properly.
-[1441] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-068' is not an integer - this will probably not sort properly.
-[1444] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-069' is not an integer - this will probably not sort properly.
-[1449] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-070' is not an integer - this will probably not sort properly.
-[1451] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-071' is not an integer - this will probably not sort properly.
-[1453] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-073' is not an integer - this will probably not sort properly.
-[1456] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-074' is not an integer - this will probably not sort properly.
-[1457] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-075' is not an integer - this will probably not sort properly.
-[1459] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-076' is not an integer - this will probably not sort properly.
-[1462] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-077' is not an integer - this will probably not sort properly.
-[1464] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-079' is not an integer - this will probably not sort properly.
-[1466] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-080' is not an integer - this will probably not sort properly.
-[1468] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-082' is not an integer - this will probably not sort properly.
-[1470] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-083' is not an integer - this will probably not sort properly.
-[1473] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-085' is not an integer - this will probably not sort properly.
-[1475] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-086' is not an integer - this will probably not sort properly.
-[1477] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-087' is not an integer - this will probably not sort properly.
-[1479] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-091' is not an integer - this will probably not sort properly.
-[1483] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-092' is not an integer - this will probably not sort properly.
-[1486] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-093' is not an integer - this will probably not sort properly.
-[1488] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-094' is not an integer - this will probably not sort properly.
-[1491] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-095' is not an integer - this will probably not sort properly.
-[1493] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/BUCC/papers.bib' for section 0
-[1495] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1497] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/BUCC/papers.bib'
-[1532] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/CLPsych/papers.bib' for section 0
-[1535] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1536] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/CLPsych/papers.bib'
-[1587] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/NLPandCSS/papers.bib' for section 0
-[1589] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1590] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/NLPandCSS/papers.bib'
-[1626] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/Repl4NLP/papers.bib' for section 0
-[1630] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1633] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/Repl4NLP/papers.bib'
-[1755] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/RoboNLP/papers.bib' for section 0
-[1758] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1759] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/RoboNLP/papers.bib'
-[1805] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/TextGraphs-11/papers.bib' for section 0
-[1807] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1808] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/TextGraphs-11/papers.bib'
-[1847] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/ALW1/papers.bib' for section 0
-[1849] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1851] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/ALW1/papers.bib'
-[1896] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/BioNLP/papers.bib' for section 0
-[1902] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1907] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/BioNLP/papers.bib'
-[2044] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/EventStory/papers.bib' for section 0
-[2047] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[2048] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/EventStory/papers.bib'
-[2092] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/LaTeCH-CLfL/papers.bib' for section 0
-[2094] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[2098] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/LaTeCH-CLfL/papers.bib'
-[2144] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/NMT/papers.bib' for section 0
-[2149] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[2150] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/NMT/papers.bib'
-[2184] Biber.pm:3840> INFO - Looking for bibtex format file 'content/workshops/papers.bib' for section 0
-[2187] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[2189] bibtex.pm:1292> INFO - Found BibTeX data source 'content/workshops/papers.bib'
-[2248] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/49/5h17w8xx7js52r31_p3jfdcc0000gn/T/b1WkvEP0N2/papers.bib_4733.utf8, line 30, warning: 80 characters of junk seen at toplevel
-[2248] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/49/5h17w8xx7js52r31_p3jfdcc0000gn/T/b1WkvEP0N2/papers.bib_4733.utf8, line 43, warning: 83 characters of junk seen at toplevel
-[2248] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/49/5h17w8xx7js52r31_p3jfdcc0000gn/T/b1WkvEP0N2/papers.bib_4733.utf8, line 90, warning: 81 characters of junk seen at toplevel
-[2250] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/papers/papers.bib' for section 0
-[2259] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[2269] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/papers/papers.bib'
-[2776] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/shortpapers/papers.bib' for section 0
-[2782] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[2788] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/shortpapers/papers.bib'
-[3062] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/demos/papers.bib' for section 0
-[3065] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[3067] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/demos/papers.bib'
-[3148] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/SRW/papers.bib' for section 0
-[3150] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[3152] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/SRW/papers.bib'
-[3209] Biber.pm:3840> INFO - Looking for bibtex format file 'manual/tutorials/papers.bib' for section 0
-[3211] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[3212] bibtex.pm:1292> INFO - Found BibTeX data source 'manual/tutorials/papers.bib'
-[4577] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4577] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4577] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[4578] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[5699] bbl.pm:608> INFO - Writing 'handbook.bbl' with encoding 'UTF-8'
-[5849] bbl.pm:712> INFO - Output to handbook.bbl
-[5850] Biber.pm:109> INFO - WARNINGS: 76
+[331] Biber.pm:835> INFO - Found 923 citekeys in bib section 0
+[349] Biber.pm:3670> INFO - Processing section 0
+[364] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/tacl/papers.bib' for section 0
+[367] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[372] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/tacl/papers.bib'
+[427] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/CoNLL/papers.bib' for section 0
+[434] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[437] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/CoNLL/papers.bib'
+[573] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/starSEM/papers.bib' for section 0
+[576] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[578] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/starSEM/papers.bib'
+[692] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/SemEval/papers.bib' for section 0
+[701] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[720] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/SemEval/papers.bib'
+[1228] Biber.pm:3840> INFO - Looking for bibtex format file 'manual/WiNLP/papers.bib' for section 0
+[1242] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1268] bibtex.pm:1292> INFO - Found BibTeX data source 'manual/WiNLP/papers.bib'
+[1288] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-046' is not an integer - this will probably not sort properly.
+[1295] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-009' is not an integer - this will probably not sort properly.
+[1298] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-063' is not an integer - this will probably not sort properly.
+[1299] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-081' is not an integer - this will probably not sort properly.
+[1301] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-061' is not an integer - this will probably not sort properly.
+[1304] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-037' is not an integer - this will probably not sort properly.
+[1307] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-040' is not an integer - this will probably not sort properly.
+[1309] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-018' is not an integer - this will probably not sort properly.
+[1313] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-002' is not an integer - this will probably not sort properly.
+[1315] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-003' is not an integer - this will probably not sort properly.
+[1317] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-005' is not an integer - this will probably not sort properly.
+[1319] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-006' is not an integer - this will probably not sort properly.
+[1321] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-007' is not an integer - this will probably not sort properly.
+[1324] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-010' is not an integer - this will probably not sort properly.
+[1326] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-011' is not an integer - this will probably not sort properly.
+[1328] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-012' is not an integer - this will probably not sort properly.
+[1334] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-013' is not an integer - this will probably not sort properly.
+[1337] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-015' is not an integer - this will probably not sort properly.
+[1339] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-016' is not an integer - this will probably not sort properly.
+[1342] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-017' is not an integer - this will probably not sort properly.
+[1344] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-021' is not an integer - this will probably not sort properly.
+[1347] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-022' is not an integer - this will probably not sort properly.
+[1350] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-023' is not an integer - this will probably not sort properly.
+[1355] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-024' is not an integer - this will probably not sort properly.
+[1358] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-026' is not an integer - this will probably not sort properly.
+[1360] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-028' is not an integer - this will probably not sort properly.
+[1366] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-029' is not an integer - this will probably not sort properly.
+[1368] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-030' is not an integer - this will probably not sort properly.
+[1370] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-031' is not an integer - this will probably not sort properly.
+[1372] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-032' is not an integer - this will probably not sort properly.
+[1374] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-033' is not an integer - this will probably not sort properly.
+[1377] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-034' is not an integer - this will probably not sort properly.
+[1379] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-035' is not an integer - this will probably not sort properly.
+[1382] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-036' is not an integer - this will probably not sort properly.
+[1384] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-038' is not an integer - this will probably not sort properly.
+[1386] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-039' is not an integer - this will probably not sort properly.
+[1389] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-041' is not an integer - this will probably not sort properly.
+[1391] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-042' is not an integer - this will probably not sort properly.
+[1394] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-043' is not an integer - this will probably not sort properly.
+[1397] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-044' is not an integer - this will probably not sort properly.
+[1400] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-045' is not an integer - this will probably not sort properly.
+[1402] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-047' is not an integer - this will probably not sort properly.
+[1404] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-049' is not an integer - this will probably not sort properly.
+[1406] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-050' is not an integer - this will probably not sort properly.
+[1412] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-052' is not an integer - this will probably not sort properly.
+[1416] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-053' is not an integer - this will probably not sort properly.
+[1419] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-054' is not an integer - this will probably not sort properly.
+[1421] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-055' is not an integer - this will probably not sort properly.
+[1423] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-058' is not an integer - this will probably not sort properly.
+[1425] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-059' is not an integer - this will probably not sort properly.
+[1428] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-062' is not an integer - this will probably not sort properly.
+[1431] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-064' is not an integer - this will probably not sort properly.
+[1436] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-068' is not an integer - this will probably not sort properly.
+[1438] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-069' is not an integer - this will probably not sort properly.
+[1440] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-070' is not an integer - this will probably not sort properly.
+[1442] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-071' is not an integer - this will probably not sort properly.
+[1444] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-073' is not an integer - this will probably not sort properly.
+[1450] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-074' is not an integer - this will probably not sort properly.
+[1452] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-075' is not an integer - this will probably not sort properly.
+[1453] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-076' is not an integer - this will probably not sort properly.
+[1456] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-077' is not an integer - this will probably not sort properly.
+[1458] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-079' is not an integer - this will probably not sort properly.
+[1460] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-080' is not an integer - this will probably not sort properly.
+[1462] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-082' is not an integer - this will probably not sort properly.
+[1464] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-083' is not an integer - this will probably not sort properly.
+[1468] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-085' is not an integer - this will probably not sort properly.
+[1470] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-086' is not an integer - this will probably not sort properly.
+[1472] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-087' is not an integer - this will probably not sort properly.
+[1474] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-091' is not an integer - this will probably not sort properly.
+[1477] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-092' is not an integer - this will probably not sort properly.
+[1480] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-093' is not an integer - this will probably not sort properly.
+[1483] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-094' is not an integer - this will probably not sort properly.
+[1486] Utils.pm:164> WARN - month field 'July' in entry 'WiNLP-095' is not an integer - this will probably not sort properly.
+[1488] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/BUCC/papers.bib' for section 0
+[1490] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1492] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/BUCC/papers.bib'
+[1525] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/CLPsych/papers.bib' for section 0
+[1528] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1530] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/CLPsych/papers.bib'
+[1580] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/NLPandCSS/papers.bib' for section 0
+[1583] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1584] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/NLPandCSS/papers.bib'
+[1621] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/Repl4NLP/papers.bib' for section 0
+[1625] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1628] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/Repl4NLP/papers.bib'
+[1749] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/RoboNLP/papers.bib' for section 0
+[1752] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1753] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/RoboNLP/papers.bib'
+[1801] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/TextGraphs-11/papers.bib' for section 0
+[1803] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1804] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/TextGraphs-11/papers.bib'
+[1833] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/ALW1/papers.bib' for section 0
+[1835] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1837] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/ALW1/papers.bib'
+[1888] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/BioNLP/papers.bib' for section 0
+[1892] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1900] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/BioNLP/papers.bib'
+[2036] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/EventStory/papers.bib' for section 0
+[2038] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[2040] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/EventStory/papers.bib'
+[2075] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/LaTeCH-CLfL/papers.bib' for section 0
+[2077] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[2079] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/LaTeCH-CLfL/papers.bib'
+[2122] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/NMT/papers.bib' for section 0
+[2124] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[2126] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/NMT/papers.bib'
+[2168] Biber.pm:3840> INFO - Looking for bibtex format file 'content/workshops/papers.bib' for section 0
+[2171] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[2173] bibtex.pm:1292> INFO - Found BibTeX data source 'content/workshops/papers.bib'
+[2239] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/49/5h17w8xx7js52r31_p3jfdcc0000gn/T/5nFZZEuFOp/papers.bib_5604.utf8, line 30, warning: 80 characters of junk seen at toplevel
+[2240] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/49/5h17w8xx7js52r31_p3jfdcc0000gn/T/5nFZZEuFOp/papers.bib_5604.utf8, line 43, warning: 83 characters of junk seen at toplevel
+[2240] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/49/5h17w8xx7js52r31_p3jfdcc0000gn/T/5nFZZEuFOp/papers.bib_5604.utf8, line 90, warning: 81 characters of junk seen at toplevel
+[2242] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/papers/papers.bib' for section 0
+[2251] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[2261] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/papers/papers.bib'
+[2772] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/shortpapers/papers.bib' for section 0
+[2778] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[2784] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/shortpapers/papers.bib'
+[3049] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/demos/papers.bib' for section 0
+[3052] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[3054] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/demos/papers.bib'
+[3134] Biber.pm:3840> INFO - Looking for bibtex format file 'auto/SRW/papers.bib' for section 0
+[3137] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[3139] bibtex.pm:1292> INFO - Found BibTeX data source 'auto/SRW/papers.bib'
+[3190] Biber.pm:3840> INFO - Looking for bibtex format file 'manual/tutorials/papers.bib' for section 0
+[3192] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[3193] bibtex.pm:1292> INFO - Found BibTeX data source 'manual/tutorials/papers.bib'
+[4582] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4582] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4582] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[4583] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[5702] bbl.pm:608> INFO - Writing 'handbook.bbl' with encoding 'UTF-8'
+[5848] bbl.pm:712> INFO - Output to handbook.bbl
+[5849] Biber.pm:109> INFO - WARNINGS: 76
