@@ -1,0 +1,39 @@
+* Tuesday, August 1, 2017
+= 15:25--17:00 Session 6A: Information Extraction 4 %by SARVNAZ KARIMI
+516 15:25--15:43  # Tandem Anchoring: a Multiword Anchor Approach for Interactive Topic Modeling
+694 15:44--16:02  # Apples to Apples: Learning Semantics of Common Entities Through a Novel Comprehension Task
+644 16:03--16:21  # Going out on a limb: Joint Extraction of Entity Mentions and Relations without Dependency Trees
+887/TACL 16:22--16:40 # TACL-887: Evaluating Visual Representations for Topic Understanding and Their Effects on Manually Generated Labels
+3584 16:41--17:00  # Improving Neural Parsing by Disentangling Model Combination and Reranking Effects
+
+* Tuesday, August 1, 2017
+= 15:25--17:00 Session 6B: Semantics 2 (NN) %by HANNA HAJISHIRZI
+706 15:25--15:43  # Naturalizing a Programming Language via Interactive Learning
+565 15:44--16:02  # Semantic Word Clusters Using Signed Spectral Clustering
+79 16:03--16:21  # An Interpretable Knowledge Transfer Model for Knowledge Base Completion
+726 16:22--16:40  # Learning a Neural Semantic Parser from User Feedback
+999/TACL 16:41--17:00 # TACL-999: Enriching Word Vectors with Subword Information
+
+* Tuesday, August 1, 2017
+= 15:25--17:00 Session 6C: Discourse 2 / Dialogue 3 %by SMARANDA MURESAN
+759 15:25--15:43  # Joint Modeling of Content and Discourse Relations in Dialogues
+366 15:44--16:02  # Argument Mining with Structured SVMs and RNNs
+447 16:03--16:21  # Neural Discourse Structure for Text Categorization
+147 16:22--16:40  # Adversarial Connective-exploiting Networks for Implicit Discourse Relation Classification
+771 16:41--17:00  # Don't understand a measure? Learn it: Structured Prediction for Coreference Resolution optimizing its measures
+
+* Tuesday, August 1, 2017
+= 15:25--17:00 Session 6D: Machine Learning 2 %by TBA
+763 15:25--15:43  # Bayesian Modeling of Lexical Resources for Low-Resource Settings
+585 15:44--16:02  # Semi-Supervised QA with Generative Domain-Adaptive Nets
+774 16:03--16:21  # From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood
+3318 16:22--16:40  # Information-Theory Interpretation of the Skip-Gram Negative-Sampling Objective Function
+3068 16:41--17:00  # Implicitly-Defined Neural Networks for Sequence Labeling
+
+* Tuesday, August 1, 2017
+= 15:25--17:00 Session 6E: Summarization 1 %by REBECCA PASSONNEAU
+700 15:25--15:43  # Diversity driven attention model for query-based abstractive summarization
+761 15:44--16:02  # Get To The Point: Summarization with Pointer-Generator Networks
+428 16:03--16:21  # Supervised Learning of Automatic Pyramid for Optimization-Based Multi-Document Summarization
+333 16:22--16:40  # Selective Encoding for Abstractive Sentence Summarization
+87 16:41--17:00  # PositionRank: An Unsupervised Approach to Keyphrase Extraction from Scholarly Documents

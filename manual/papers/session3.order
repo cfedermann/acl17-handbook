@@ -1,0 +1,39 @@
+* Monday, July 31, 2017
+= 15:45--17:15 Session 3A: Information Extraction 2 / Biomedical 1 %by KARIN VERSPOOR
+350 15:45--16:03  # Automatically Labeled Data Generation for Large Scale Event Extraction
+12 16:04--16:22  # Time Expression Analysis and Recognition Using Syntactic Token Types and General Heuristic Rules
+798 16:23--16:41  # Learning with Noise: Enhance Distantly Supervised Relation Extraction with Dynamic Transition Matrix
+1082/TACL 16:42--17:00 # TACL-1082: Ordinal Common-sense Inference
+3464 17:01--17:12  # Vector space models for evaluating semantic fluency in autism
+
+* Monday, July 31, 2017
+= 15:45--17:15 Session 3B: Semantics 2 (NN) %by DANIEL GILDEA
+86 15:45--16:03  # A Syntactic Neural Model for General-Purpose Code Generation
+467 16:04--16:22  # Learning bilingual word embeddings with (almost) no bilingual data
+448 16:23--16:41  # Abstract Meaning Representation Parsing using LSTM Recurrent Neural Networks
+654 16:42--17:00  # Deep Semantic Role Labeling: What Works and What's Next
+3033 17:01--17:12  # Neural Architectures for Multilingual Semantic Parsing
+
+* Monday, July 31, 2017
+= 15:45--17:15 Session 3C: Speech 1 / Dialogue 1 %by CHIORI HORI
+627 15:45--16:03  # Towards End-to-End Reinforcement Learning of Dialogue Agents for Information Access
+37 16:04--16:22  # Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots
+573 16:23--16:41  # Learning Word-Like Units from Joint Audio-Visual Analysis
+484 16:42--17:00  # Joint CTC/attention decoding for end-to-end speech recognition
+3222 17:01--17:12  # Incorporating Uncertainty into Deep Learning for Spoken Language Assessment
+
+* Monday, July 31, 2017
+= 15:45--17:15 Session 3D: Multilingual 1 %by BONNIE WEBBER
+296 15:45--16:03  # Found in Translation: Reconstructing Phylogenetic Language Trees from Translations
+385 16:04--16:22  # Predicting Native Language from Gaze
+821/TACL 16:23--16:41 # TACL-821: Decoding Anagrammed Texts Written in an Unknown Language and Script
+1063/TACL 16:42--17:00 # TACL-1063: Sparse Coding of Neural Word Embeddings for Multilingual Sequence Labeling
+3541 17:01--17:12  # Incorporating Dialectal Variability for Socially Equitable Language Identification
+
+* Monday, July 31, 2017
+= 15:45--17:15 Session 3E: Phonology 1 %by TBA
+723 15:45--16:03  # MORSE: Semantic-ally Drive-n MORpheme SEgment-er
+971/TACL 16:04--16:22 # TACL-971: A Generative Model of Phonotactics
+923/TACL 16:23--16:41 # TACL-923: Joint Semantic Synthesis and Morphological Analysis of the Derived Word
+1039/TACL 16:42--17:00 # TACL-1039: Unsupervised Learning of Morphological Forests
+3123 17:01--17:12  # Evaluating Compound Splitters Extrinsically with Textual Entailment

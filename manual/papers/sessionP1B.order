@@ -1,0 +1,46 @@
+* Monday, July 31, 2017
++ 18:00--21:30 Session P1: Poster Session 1 (Short Papers)
+3352   # Neural Architecture for Temporal Relation Extraction: A Bi-LSTM Approach for Detecting Narrative Containers
+3177   # How to Make Context More Useful? An Empirical Study on Context-Aware Neural Conversational Models
+3238   # Cross-lingual and cross-domain discourse segmentation of entire documents
+3326   # Detecting Good Arguments in a Non-Topic-Specific Way: An Oxymoron?
+3226   # Argumentation Quality Assessment: Theory vs. Practice
+3329   # A Recurrent Neural Model with Attention for the Recognition of Chinese Implicit Discourse Relations
+3351   # Discourse Annotation of Non-native Spontaneous Spoken Responses Using the Rhetorical Structure Theory Framework
+3004   # Improving Implicit Discourse Relation Recognition with Discourse-specific Word Embeddings
+3480   # Oracle Summaries of Compressive Summarization
+3554   # Japanese Sentence Compression with a Large Training Dataset
+3528   # A Neural Architecture for Generating Natural Language Descriptions from Source Code Changes
+3017   # English Event Detection With Translated Language Features
+3511   # EviNets: Neural Networks for Combining Evidence Signals for Factoid Question Answering
+3414   # Pocket Knowledge Base Population
+3433   # Answering Complex Questions Using Open Information Extraction
+3207   # Bootstrapping for Numerical Open IE
+3577   # Feature-Rich Networks for Knowledge Base Completion
+3282   # Fine-Grained Entity Typing with High-Multiplicity Assignments
+3486   # Group Sparse CNNs for Question Classification with Answer Sets
+3331   # Multi-Task Learning of Keyphrase Boundary Classification
+3260   # Cardinal Virtues: Extracting Relation Cardinalities from Text
+3255   # Integrating Deep Linguistic Features in Factuality Prediction over Unified Datasets
+3478   # Question Answering on Knowledge Bases and Text using Universal Schema and Memory Networks
+3470   # Differentiable Scheduled Sampling for Credit Assignment
+3279   # A Deep Network with Visual Text Composition Behavior
+3213   # Neural System Combination for Machine Translation
+3057   # An Empirical Comparison of Domain Adaptation Methods for Neural Machine Translation
+3172   # Efficient Extraction of Pseudo-Parallel Sentences from Raw Monolingual Data Using Word Embeddings
+3165   # Feature Hashing for Language and Dialect Identification
+3424   # Detection of Chinese Word Usage Errors for Non-Native Chinese Learners with Bidirectional LSTM
+3484   # Automatic Compositor Attribution in the First Folio of Shakespeare
+3158   # STAIR Captions: Constructing a Large-Scale Japanese Image Caption Dataset
+3303   # "Liar, Liar Pants on Fire": A New Benchmark Dataset for Fake News Detection
+3168   # English Multiword Expression-aware Dependency Parsing Including Named Entities
+3206   # Improving Semantic Composition with Offset Inference
+3246   # Learning Topic-Sensitive Word Representations
+3162   # Temporal Word Analogies: Identifying Lexical Replacement with Diachronic Word Embeddings
+3210   # Methodical Evaluation of Arabic Word Embeddings
+3441   # Multilingual Connotation Frames: A Case Study on Social Media for Targeted Sentiment Analysis and Forecast
+3312   # Best-Worst Scaling More Reliable than Rating Scales: A Case Study on Sentiment Intensity Annotation
+3574   # Demographic Inference on Twitter using Recursive Neural Networks
+3492   # Twitter Demographic Classification Using Deep Multi-modal Multi-task Learning
+3194   # A Network Framework for Noisy Label Aggregation in Social Media
+3556   # Parser Adaptation for Social Media by Integrating Normalization

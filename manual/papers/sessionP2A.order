@@ -1,0 +1,31 @@
+* Tuesday, August 1, 2017
++ 17:40--19:40 Session P2: Poster Session 2 (Long Papers)
+3013   # AliMe Chat: A Sequence to Sequence and Rerank based Chatbot Engine
+3250   # A Conditional Variational Framework for Dialog Generation
+3474   # Question Answering through Transfer Learning from Large Fine-grained Supervision Data
+3369   # Self-Crowdsourcing Training for Relation Extraction
+3200   # A Generative Attentional Neural Network Model for Dialogue Act Classification
+3039   # Salience Rank: Efficient Keyphrase Extraction with Topic Modeling
+3040   # List-only Entity Linking
+3384   # Improving Native Language Identification by Using Spelling Errors
+3180   # Disfluency Detection using a Noisy Channel Model and a Deep Neural Language Model
+3434   # On the Equivalence of Holographic and Complex Embeddings for Link Prediction
+3156   # Sentence Embedding for Neural Machine Translation Domain Adaptation
+3249   # Data Augmentation for Low-Resource Neural Machine Translation
+3083   # Speeding Up Neural Machine Translation Decoding by Shrinking Run-time Vocabulary
+3463   # Chunk-Based Bi-Scale Decoder for Neural Machine Translation
+3394   # Model Transfer for Tagging Low-resource Languages using a Bilingual Dictionary
+3184   # EuroSense: Automatic Harvesting of Multilingual Sense Annotations from Parallel Text
+3313   # Challenging Language-Dependent Segmentation for Arabic: An Application to Machine Translation and Part-of-Speech Tagging
+3085   # Fast and Accurate Neural Word Segmentation for Chinese
+3498   # Pay Attention to the Ending:Strong Neural Baselines for the ROC Story Cloze Task
+3197   # Neural Semantic Parsing over Multiple Knowledge-bases
+3340   # Representing Sentences as Low-Rank Subspaces
+3224   # Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization
+3485   # Determining Whether and When People Participate in the Events They Tweet About
+3383   # Separating Facts from Fiction: Linguistic Models to Classify Suspicious and Trusted News Posts on Twitter
+3365   # Recognizing Counterfactual Thinking in Social Media Texts
+3335   # Temporal Orientation of Tweets for Predicting Income of Users
+3457   # Character-Aware Neural Morphological Disambiguation
+3129   # Character Composition Model with Convolutional Neural Networks for Dependency Parsing on Morphologically Rich Languages
+3191   # How (not) to train a dependency parser: The curious case of jackknifing part-of-speech taggers

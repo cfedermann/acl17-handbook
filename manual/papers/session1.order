@@ -1,0 +1,39 @@
+* Monday, July 31, 2017
+= 10:30--12:00 Session 1A: Information Extraction 1 (NN)
+352 10:30--10:48  # Adversarial Multi-task Learning for Text Classification
+134 10:49--11:07  # Neural End-to-End Learning for Computational Argumentation Mining
+606 11:08--11:26  # Neural Symbolic Machines: Learning Semantic Parsers on Freebase with Weak Supervision
+348 11:27--11:45  # Neural Relation Extraction with Multi-lingual Attention
+3469 11:46--11:58  # Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths
+
+* Monday, July 31, 2017
+= 10:30--12:00 Session 1B: Semantics 1
+219 10:30--10:48  # Learning Structured Natural Language Representations for Semantic Parsing
+494 10:49--11:07  # Morph-fitting: Fine-Tuning Word Vector Spaces with Simple Language-Specific Rules
+251 11:08--11:26  # Skip-Gram - Zipf + Uniform = Vector Additivity
+452 11:27--11:45  # The State of the Art in Semantic Representation
+3214 11:46--11:58  # AMR-to-text Generation with Synchronous Node Replacement Grammar
+
+* Monday, July 31, 2017
+= 10:30--12:00 Session 1C: Discourse 1
+806 10:30--10:48  # Joint Learning for Event Coreference Resolution
+19 10:49--11:07  # Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution
+360 11:08--11:26  # Discourse Mode Identification in Essays
+1009/TACL 11:27--11:45 # TACL-1009: Winning on the Merits: The Joint Effects of Content and Style on Debate Outcomes
+3211 11:46--11:58  # Lexical Features in Coreference Resolution: To be Used With Caution
+
+* Monday, July 31, 2017
+= 10:30--12:00 Session 1D: Machine Translation 1
+140 10:30--10:48  # A Convolutional Encoder Model for Neural Machine Translation
+161 10:49--11:07  # Deep Neural Machine Translation with Linear Associative Unit
+1020/TACL 11:08--11:26 # TACL-1020: A Polynomial-Time Dynamic Programming Algorithm for Phrase-Based Decoding with a Fixed Distortion Limit % by Chang, Yin-Wen and Collins, Michael
+948/TACL 11:27--11:45 # TACL-948: Context Gates for Neural Machine Translation % by Tu, Zhaopeng and Liu, Yang and Lu, Zhengdong and Liu, Xiaohua and Li, Hang
+3407 11:46--11:58  # Alternative Objective Functions for Training MT Evaluation Metrics
+
+* Monday, July 31, 2017
+= 10:30--12:00 Session 1E: Generation 1
+752 10:30--10:48  # Neural AMR: Sequence-to-Sequence Models for Parsing and Generation
+555 10:49--11:07  # Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems
+660 11:08--11:26  # Automatically Generating Rhythmic Verse with Neural Networks
+382 11:27--11:45  # Creating Training Corpora for NLG Micro-Planners* Monday, July 31, 2017
+3321 11:46--11:58  # A Principled Framework for Evaluating Summarizers: Comparing Models of Summary Quality against Human Judgments

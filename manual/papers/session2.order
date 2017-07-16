@@ -1,0 +1,39 @@
+* Monday, July 31, 2017
+= 13:40--15:15 Session 2A: Question Answering 1 %chair ALESSANDRO MOSCHITTI
+335 13:40--13:58  # Gated Self-Matching Networks for Reading Comprehension and Question Answering
+200 13:59--14:17  # Generating Natural Answers by Incorporating Copying and Retrieving Mechanisms in Sequence-to-Sequence Learning
+673 14:18--14:36  # Coarse-to-Fine Question Answering for Long Documents
+26 14:37--14:55  # An End-to-End Model for Question Answering over Knowledge Base with Cross-Attention Combining Global Knowledge
+1064/TACL 14:56--15:14 # TACL-1064: Domain-Targeted, High Precision Knowledge Extraction
+
+* Monday, July 31, 2017
+= 13:40--15:15 Session 2B: Vision 1 % chair MOHIT BANSAL
+744 13:40--13:58  # Translating Neuralese
+489 13:59--14:17  # Obtaining referential word meanings from visual and distributional information: Experiments on object naming
+481 14:18--14:36  # FOIL it! Find One mismatch between Image and Language caption
+818 14:37--14:55  # Verb Physics: Relative Physical Knowledge of Actions and Objects
+879/TACL 14:56--15:14 # TACL-879: Visually Grounded and Textual Semantic Models Differentially Decode Brain Activity Associated with Concrete and Abstract Nouns
+
+* Monday, July 31, 2017
+= 13:40--15:15 Session 2C: Syntax 1 % chair Alexander Koller
+440 13:40--13:58  # A* CCG Parsing with a Supertag and Dependency Factored Model
+94 13:59--14:17  # A Full Non-Monotonic Transition System for Unrestricted Non-Projective Parsing
+595 14:18--14:36  # Aggregating and Predicting Sequence Labels from Crowd Annotations
+1060/TACL 14:37--14:55 # TACL-1060: Fine-Grained Prediction of Syntactic Typology: Discovering Latent Structure with Supervised Learning
+924/TACL 14:56--15:14 # TACL-924: Learning to Prune: Exploring the Frontier of Fast and Accurate Parsing
+
+* Monday, July 31, 2017
+= 13:40--15:15 Session 2D: Machine Learning 1 (NN) % chair GRZEGORZ CHRUPAŁA
+677 13:40--13:58  # Multi-space Variational Encoder-Decoders for Semi-supervised Labeled Sequence Transduction
+554 13:59--14:17  # Scalable Bayesian Learning of Recurrent Neural Networks for Language Modeling
+365 14:18--14:36  # Learning attention for historical text normalization by learning to pronounce
+74 14:37--14:55  # Deep Learning in Semantic Kernel Spaces
+265 14:56--15:14  # Topically Driven Neural Language Model
+
+* Monday, July 31, 2017
+= 13:40--15:15 Session 2E: Sentiment 1 (NN) % chair SVITLANA VOLKOVA
+338 13:40--13:58  # Handling Cold-Start Problem in Review Spam Detection by Jointly Embedding Texts and Behaviors
+387 13:59--14:17  # Learning Cognitive Features from Gaze Data for Sentiment and Sarcasm Classification using Convolutional Neural Network
+274 14:18--14:36  # An Unsupervised Neural Attention Model for Aspect Extraction
+777 14:37--14:55  # Other Topics You May Also Agree or Disagree: Modeling Inter-Topic Preferences using Tweets and Matrix Factorization
+1024/TACL 14:56--15:14 # TACL-1024: Overcoming Language Variation in Sentiment Analysis with Social Attention

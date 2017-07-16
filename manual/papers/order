@@ -1,0 +1,454 @@
+* Monday, July 31, 2017
+= 10:30--11:45 Session 1A: Information Extraction 1 (NN)
+352 10:30--10:48  # Adversarial Multi-task Learning for Text Classification
+134 10:49--11:07  # Neural End-to-End Learning for Computational Argumentation Mining
+606 11:08--11:26  # Neural Symbolic Machines: Learning Semantic Parsers on Freebase with Weak Supervision
+348 11:27--11:45  # Neural Relation Extraction with Multi-lingual Attention
+* Monday, July 31, 2017
+= 10:30--11:45 Session 1B: Semantics 1
+219 10:30--10:48  # Learning Structured Natural Language Representations for Semantic Parsing
+494 10:49--11:07  # Morph-fitting: Fine-Tuning Word Vector Spaces with Simple Language-Specific Rules
+251 11:08--11:26  # Skip-Gram - Zipf + Uniform = Vector Additivity
+452 11:27--11:45  # The State of the Art in Semantic Representation
+* Monday, July 31, 2017
+= 10:30--11:26 Session 1C: Discourse 1
+806 10:30--10:48  # Joint Learning for Event Coreference Resolution
+19 10:49--11:07  # Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution
+360 11:08--11:26  # Discourse Mode Identification in Essays
+* Monday, July 31, 2017
+= 10:30--11:07 Session 1D: Machine Translation 1
+140 10:30--10:48  # A Convolutional Encoder Model for Neural Machine Translation
+161 10:49--11:07  # Deep Neural Machine Translation with Linear Associative Unit
+* Monday, July 31, 2017
+= 10:30--11:45 Session 1E: Generation 1
+752 10:30--10:48  # Neural AMR: Sequence-to-Sequence Models for Parsing and Generation
+555 10:49--11:07  # Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems
+660 11:08--11:26  # Automatically Generating Rhythmic Verse with Neural Networks
+382 11:27--11:45  # Creating Training Corpora for NLG Micro-Planners
+* Monday, July 31, 2017
+= 13:40--14:55 Session 2A: Question Answering 1
+335 13:40--13:58  # Gated Self-Matching Networks for Reading Comprehension and Question Answering
+200 13:59--14:17  # Generating Natural Answers by Incorporating Copying and Retrieving Mechanisms in Sequence-to-Sequence Learning
+673 14:18--14:36  # Coarse-to-Fine Question Answering for Long Documents
+26 14:37--14:55  # An End-to-End Model for Question Answering over Knowledge Base with Cross-Attention Combining Global Knowledge
+* Monday, July 31, 2017
+= 13:40--14:55 Session 2B: Vision 1
+744 13:40--13:58  # Translating Neuralese
+489 13:59--14:17  # Obtaining referential word meanings from visual and distributional information: Experiments on object naming
+481 14:18--14:36  # FOIL it! Find One mismatch between Image and Language caption
+818 14:37--14:55  # Verb Physics: Relative Physical Knowledge of Actions and Objects
+* Monday, July 31, 2017
+= 13:40--14:36 Session 2C: Syntax 1
+440 13:40--13:58  # A* CCG Parsing with a Supertag and Dependency Factored Model
+94 13:59--14:17  # A Full Non-Monotonic Transition System for Unrestricted Non-Projective Parsing
+595 14:18--14:36  # Aggregating and Predicting Sequence Labels from Crowd Annotations
+* Monday, July 31, 2017
+= 13:40--3.14 PM Session 2D: Machine Learning 1 (NN)
+677 13:40--13:58  # Multi-space Variational Encoder-Decoders for Semi-supervised Labeled Sequence Transduction
+554 13:59--14:17  # Scalable Bayesian Learning of Recurrent Neural Networks for Language Modeling
+365 14:18--14:36  # Learning attention for historical text normalization by learning to pronounce
+74 14:37--14:55  # Deep Learning in Semantic Kernel Spaces
+265 2.56 PM--3.14 PM  # Topically Driven Neural Language Model
+* Monday, July 31, 2017
+= 13:40--14:55 Session 2E: Sentiment 1 (NN)
+338 13:40--13:58  # Handling Cold-Start Problem in Review Spam Detection by Jointly Embedding Texts and Behaviors
+387 13:59--14:17  # Learning Cognitive Features from Gaze Data for Sentiment and Sarcasm Classification using Convolutional Neural Network
+274 14:18--14:36  # An Unsupervised Neural Attention Model for Aspect Extraction
+777 14:37--14:55  # Other Topics You May Also Agree or Disagree: Modeling Inter-Topic Preferences using Tweets and Matrix Factorization
+* Monday, July 31, 2017
+= 15:45--16:41 Session 3A: Information Extraction 2 / Biomedical 1
+350 15:45--16:03  # Automatically Labeled Data Generation for Large Scale Event Extraction
+12 16:04--16:22  # Time Expression Analysis and Recognition Using Syntactic Token Types and General Heuristic Rules
+798 16:23--16:41  # Learning with Noise: Enhance Distantly Supervised Relation Extraction with Dynamic Transition Matrix
+* Monday, July 31, 2017
+= 15:45--17:00 Session 3B: Semantics 2 (NN)
+86 15:45--16:03  # A Syntactic Neural Model for General-Purpose Code Generation
+467 16:04--16:22  # Learning bilingual word embeddings with (almost) no bilingual data
+448 16:23--16:41  # Abstract Meaning Representation Parsing using LSTM Recurrent Neural Networks
+654 16:42--17:00  # Deep Semantic Role Labeling: What Works and What___s Next
+* Monday, July 31, 2017
+= 15:45--17:00 Session 3C: Speech 1 / Dialogue 1
+627 15:45--16:03  # Towards End-to-End Reinforcement Learning of Dialogue Agents for Information Access
+37 16:04--16:22  # Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots
+573 16:23--16:41  # Learning Word-Like Units from Joint Audio-Visual Analysis
+484 16:42--17:00  # Joint CTC/attention decoding for end-to-end speech recognition
+* Monday, July 31, 2017
+= 15:45--16:22 Session 3D: Multilingual 1
+296 15:45--16:03  # Found in Translation: Reconstructing Phylogenetic Language Trees from Translations
+385 16:04--16:22  # Predicting Native Language from Gaze
+* Monday, July 31, 2017
+= 15:45--16:03 Session 3E: Phonology 1
+723 15:45--16:03  # MORSE: Semantic-ally Drive-n MORpheme SEgment-er
+* Tuesday, August 1, 2017
+= 10:30--11:45 Session 4A: Information Extraction 3 (NN)
+198 10:30--10:48  # Deep Pyramid Convolutional Neural Networks for Text Categorization
+117 10:49--11:07  # Improved Neural Relation Detection for Knowledge Base Question Answering
+699 11:08--11:26  # Deep Keyphrase Generation
+18 11:27--11:45  # Attention-over-Attention Neural Networks for Reading Comprehension
+* Tuesday, August 1, 2017
+= 10:30--11:26 Session 4B: Cognitive Modelling 1 / Vision 2
+710 10:30--10:48  # Alignment at Work: Using Language to Distinguish the Internalization and Self-Regulation Components of Cultural Fit in Organizations
+493 10:49--11:07  # Representations of language in a model of visually grounded speech signal
+652 11:08--11:26  # Spectral Analysis of Information Density in Dialogue Predicts Collaborative Task Performance
+* Tuesday, August 1, 2017
+= 10:30--12:04 Session 4C: Dialogue 2
+429 10:30--10:48  # Affect-LM: A Neural Language Model for Customizable Affective Text Generation
+794 10:49--11:07  # Domain Attention with an Ensemble of Experts
+256 11:08--11:26  # Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders
+528 11:27--11:45  # Hybrid Code Networks: practical and efficient end-to-end dialog control with supervised and reinforcement learning
+443 11:46--12:04  # Generating Contrastive Referring Expressions
+* Tuesday, August 1, 2017
+= 10:30--11:07 Session 4D: Machine Translation 2
+341 10:30--10:48  # Modeling Source Syntax for Neural Machine Translation
+38 10:49--11:07  # Sequence-to-Dependency Neural Machine Translation
+* Tuesday, August 1, 2017
+= 10:30--11:45 Session 4E: Social Media 1
+729 10:30--10:48  # Detect Rumors in Microblog Posts Using Propagation Structure via Kernel Learning
+525 10:49--11:07  # EmoNet: Fine-Grained Emotion Detection with Gated Recurrent Neural Networks
+616 11:08--11:26  # Beyond Binary Labels: Political Ideology Prediction of Twitter Users
+727 11:27--11:45  # Leveraging Behavioral and Social Information for Weakly Supervised Collective Classification of Political Discourse on Twitter
+* Tuesday, August 1, 2017
+= 13:49--14:39 Session 5A: Multidisciplinary 1
+252 13:49--14:07  # A Nested Attention Neural Hybrid Model for Grammatical Error Correction
+805 14:08--14:26  # TextFlow: A Text Similarity Measure based on Continuous Sequences
+417 14:27--14:39  # Friendships, Rivalries, and Trysts: Characterizing Relations between Ideas in Texts
+* Tuesday, August 1, 2017
+= 13:30--14:26 Session 5B: Language and Resources 1
+226 13:30--13:48  # Polish evaluation dataset for compositional distributional semantics models
+169 13:49--14:07  # Automatic Annotation and Evaluation of Error Types for Grammatical Error Correction
+148 14:08--14:26  # Evaluation Metrics for Machine Reading Comprehension: Prerequisite Skills and Readability
+* Tuesday, August 1, 2017
+= 13:30--14:26 Session 5C: Syntax 2 (NN)
+800 13:30--13:48  # A Minimal Span-Based Neural Constituency Parser
+144 13:49--14:07  # Semantic Dependency Parsing via Book Embedding
+343 14:08--14:26  # Neural Word Segmentation with Rich Pretraining
+* Tuesday, August 1, 2017
+= 13:30--14:07 Session 5D: Machine Translation 3 (NN)
+676 13:30--13:48  # Neural Machine Translation via Binary Code Prediction
+496 13:49--14:07  # What do Neural Machine Translation Models Learn about Morphology?
+* Tuesday, August 1, 2017
+= 13:30--14:07 Session 5E: Sentiment 2
+182 13:30--13:48  # Context-Dependent Sentiment Analysis in User-Generated Videos
+583 13:49--14:07  # A Multidimensional Lexicon for Interpersonal Stancetaking
+* Tuesday, August 1, 2017
+= 15:25--16:21 Session 6A: Information Extraction 4
+516 15:25--15:43  # Tandem Anchoring: a Multiword Anchor Approach for Interactive Topic Modeling
+694 15:44--16:02  # Apples to Apples: Learning Semantics of Common Entities Through a Novel Comprehension Task
+644 16:03--16:21  # Going out on a limb: Joint Extraction of Entity Mentions and Relations without Dependency Trees
+* Tuesday, August 1, 2017
+= 15:25--16:40 Session 6B: Semantics 2 (NN)
+706 15:25--15:43  # Naturalizing a Programming Language via Interactive Learning
+565 15:44--16:02  # Semantic Word Clusters Using Signed Spectral Clustering
+79 16:03--16:21  # An Interpretable Knowledge Transfer Model for Knowledge Base Completion
+726 16:22--16:40  # Learning a Neural Semantic Parser from User Feedback
+* Tuesday, August 1, 2017
+= 15:25--17:00 Session 6C: Discourse 2 / Dialogue 3
+759 15:25--15:43  # Joint Modeling of Content and Discourse Relations in Dialogues
+366 15:44--16:02  # Argument Mining with Structured SVMs and RNNs
+447 16:03--16:21  # Neural Discourse Structure for Text Categorization
+147 16:22--16:40  # Adversarial Connective-exploiting Networks for Implicit Discourse Relation Classification
+771 16:41--17:00  # Don't understand a measure? Learn it: Structured Prediction for Coreference Resolution optimizing its measures
+* Tuesday, August 1, 2017
+= 15:25--16:21 Session 6D: Machine Learning 2
+763 15:25--15:43  # Bayesian Modeling of Lexical Resources for Low-Resource Settings
+585 15:44--16:02  # Semi-Supervised QA with Generative Domain-Adaptive Nets
+774 16:03--16:21  # From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood
+* Tuesday, August 1, 2017
+= 15:25--17:00 Session 6E: Summarization 1
+700 15:25--15:43  # Diversity driven attention model for query-based abstractive summarization
+761 15:44--16:02  # Get To The Point: Summarization with Pointer-Generator Networks
+428 16:03--16:21  # Supervised Learning of Automatic Pyramid for Optimization-Based Multi-Document Summarization
+333 16:22--16:40  # Selective Encoding for Abstractive Sentence Summarization
+87 16:41--17:00  # PositionRank: An Unsupervised Approach to Keyphrase Extraction from Scholarly Documents
+* Wednesday, August 2, 2017
+= 10:40--11:36 Session 7A: Outstanding Papers 1
+649 10:40--10:58  # Towards an Automatic Turing Test: Learning to Evaluate Dialogue Responses
+193 10:59--11:17  # A Transition-Based Directed Acyclic Graph Parser for UCCA
+707 11:18--11:36  # Abstract Syntax Networks for Code Generation and Semantic Parsing
+* Wednesday, August 2, 2017
+= 10:40--11:17 Session 7B: Outstanding Papers 2
+733 10:40--10:58  # Visualizing and Understanding Neural Machine Translation
+568 10:59--11:17  # Detecting annotation noise in automatically labelled data
+* Wednesday, August 2, 2017
+= 15:00--16:34 Session 7C: Outstanding Papers 3
+558 15:00--15:18  # Abstractive Document Summarization with a Graph-Based Attentional Neural Model
+732 15:19--15:37  # Probabilistic Typology: Deep Generative Models of Vowel Inventories
+326 15:38--15:56  # Adversarial Multi-Criteria Learning for Chinese Word Segmentation
+336 15:57--16:15  # Neural Joint Model for Transition-based Chinese Syntactic Analysis
+578 16:16--16:34  # Robust Incremental Neural Semantic Graph Parsing
+* Wednesday, August 2, 2017
+= 15:00--16:34 Session 7D: Outstanding Papers 4
+222 15:00--15:18  # Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme
+268 15:19--15:37  # A Local Detection Approach for Named Entity Recognition and Mention Detection
+220 15:38--15:56  # Vancouver Welcomes You! Minimalist Location Metonymy Resolution
+638 15:57--16:15  # Unifying Text, Metadata, and User Network Representations with a Neural Network for Geolocation Prediction
+590 16:16--16:34  # Multi-Task Video Captioning with Video and Entailment Generation
+* Monday, July 31, 2017
+= 18:00--21:30 Session P1: Poster Session 1
+130   # Enriching Complex Networks with Word Embeddings for Detecting Mild Cognitive Impairment from Speech Transcripts
+592   # Adversarial Adaptation of Synthetic or Stale Data
+183   # Chat Detection in an Intelligent Assistant: Combining Task-oriented and Non-task-oriented Spoken Dialogue Systems
+323   # A Neural Local Coherence Model
+223   # Data-Driven Broad-Coverage Grammars for Opinionated Natural Language Generation (ONLG)
+164   # Learning to Ask: Neural Question Generation for Reading Comprehension
+470   # Joint Optimization of User-desired Content in Multi-document Summaries by Learning from User Feedback
+347   # Flexible and Creative Chinese Poetry Generation Using Neural Memory
+319   # Learning to Generate Market Comments from Stock Prices
+719   # Can Syntax Help? Improving an LSTM-based Sentence Compression Model for New Domains
+21   # Transductive Non-linear Learning for Chinese Hypernym Prediction
+101   # A Constituent-Centric Neural Architecture for Reading Comprehension
+506   # Cross-lingual Distillation for Text Classification
+491   # Understanding and Predicting Empathic Behavior in Counseling Therapy
+680   # Leveraging Knowledge Bases in LSTMs for Improving Machine Reading
+218   # Prerequisite Relation Learning for Concepts in MOOCs
+240   # Unsupervised Text Segmentation Based on Native Language Characteristics
+107   # Weakly Supervised Cross-Lingual Named Entity Recognition via Effective Annotation and Representation Projection
+658   # Context Sensitive Lemmatization Using Two Successive Bidirectional Gated Recurrent Networks
+547   # Learning to Create and Reuse Words in Open-Vocabulary Neural Language Modeling
+598   # Bandit Structured Prediction for Neural Sequence-to-Sequence Learning
+742   # Prior Knowledge Integration for Neural Machine Translation using Posterior Regularization
+154   # Incorporating Word Reordering Knowledge into Attention-based Neural Machine Translation
+564   # Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search
+713   # Combating Human Trafficking with Multimodal Deep Models
+617   # MalwareTextDB: A Database for Annotated Malware Articles
+619   # A Corpus of Annotated Revisions for Studying Argumentative Writing
+741   # Automatic Induction of Synsets from a Graph of Synonyms
+355   # Neural Modeling of Multi-Predicate Interactions for Japanese Predicate Argument Structure Analysis
+737   # TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
+439   # Learning Semantic Correspondences in Technical Documentation
+104   # Bridge Text and Knowledge by Learning Multi-Prototype Entity Mention Embedding
+556   # Interactive Learning of Grounded Verb Semantics towards Human-Robot Communication
+145   # Multimodal Word Distributions
+270   # Enhanced LSTM for Natural Language Inference
+123   # Linguistic analysis of differences in portrayal of movie characters
+33   # Linguistically Regularized LSTM for Sentiment Classification
+96   # Sarcasm SIGN: Interpreting Sarcasm with Sentiment Based Monolingual Machine Translation
+731   # Active Sentiment Domain Adaptation
+462   # Volatility Prediction using Financial Disclosures Sentiments with Word Embedding-based IR Models
+375   # CANE: Context-Aware Network Embedding for Relation Modeling
+433   # Universal Dependencies Parsing for Colloquial Singaporean English
+799   # Generic Axiomatization of Families of Noncrossing Graphs in Dependency Parsing
+561   # Semi-supervised sequence tagging with bidirectional language models
+* Tuesday, August 1, 2017
+= 19:00--22:00 Session P2: Poster Session 2
+769   # Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings
+122   # Neural Belief Tracker: Data-Driven Dialogue State Tracking
+16   # Exploiting Argument Information to Improve Event Detection via Supervised Attention Mechanisms
+216   # Topical Coherence in LDA-based Models through Induced Segmentation
+342   # Jointly Extracting Relations with Class Ties via Effective Deep Ranking
+764   # Search-based Neural Structured Learning for Sequential Question Answering
+684   # Gated-Attention Readers for Text Comprehension
+173   # Determining Gains Acquired from Word Embedding Quantitatively Using Discrete Distribution Clustering
+167   # Towards a Seamless Integration of Word Senses into Downstream NLP Applications
+715   # Reading Wikipedia to Answer Open-Domain Questions
+760   # Learning to Skim Text
+825   # An Algebra for Feature Extraction
+49   # Chunk-based Decoder for Neural Machine Translation
+454   # Doubly-Attentive Decoder for Multi-modal Neural Machine Translation
+779   # A Teacher-Student Framework for Zero-Resource Neural Machine Translation
+603   # Improved Neural Machine Translation with a Syntax-Aware Encoder and Decoder
+71   # Cross-lingual Name Tagging and Linking for 282 Languages
+143   # Adversarial Training for Unsupervised Bilingual Lexicon Induction
+686   # Estimating Code-Switching on Twitter with a Novel Generalized Word-Level Language Detection Technique
+611   # Using Global Constraints and Reranking to Improve Cognates Detection
+419   # One-Shot Neural Cross-Lingual Transfer for Paradigm Completion
+105   # Morphological Inflection Generation with Hard Monotonic Attention
+477   # From Characters to Words to in Between: Do We Capture Morphology?
+507   # Riemannian Optimization for Skip-Gram Negative Sampling
+596   # Deep Multitask Learning for Semantic Dependency Parsing
+318   # Improved Word Representation Learning with Sememes
+543   # Learning Character-level Compositionality with Visual Features
+170   # A Progressive Learning Approach to Chinese SRL Using Heterogeneous Data
+728   # Revisiting Recurrent Networks for Paraphrastic Sentence Embeddings
+691   # Ontology-Aware Token Embeddings for Prepositional Phrase Attachment
+384   # Identifying 1950s American Jazz Musicians: Fine-Grained IsA Extraction via Modifier Composition
+312   # Parsing to 1-Endpoint-Crossing, Pagenumber-2 Graphs
+276   # Semi-supervised Multitask Learning for Sequence Labeling
+822   # Semantic Parsing of Pre-university Math Problems
+* Monday, July 31, 2017
+= 11:46--11:58 Session 1A: Information Extraction 1 (NN)
+3469 11:46--11:58  # Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths
+= 11:46--11:58 Session 1B: Semantics 1
+3214 11:46--11:58  # AMR-to-text Generation with Synchronous Node Replacement Grammar
+= 11:46--11:58 Session 1C: Discourse 1
+3211 11:46--11:58  # Lexical Features in Coreference Resolution: To be Used With Caution
+= 11:46--11:58 Session 1D: Machine Translation 1
+3407 11:46--11:58  # Alternative Objective Functions for Training MT Evaluation Metrics
+= 11:46--11:58 Session 1E: Generation 1
+3321 11:46--11:58  # A Principled Framework for Evaluating Summarizers: Comparing Models of Summary Quality against Human Judgments
+= 17:00--17:12 Session 3A: Information Extraction 2 / Biomedical 1
+3464 17:00--17:12  # Vector space models for evaluating semantic fluency in autism
+= 17:00--17:12 Session 3B: Semantics 2 (NN)
+3033 17:00--17:12  # Neural Architectures for Multilingual Semantic Parsing
+= 17:00--17:12 Session 3C: Speech 1 / Dialogue 1
+3222 17:00--17:12  # Incorporating Uncertainty into Deep Learning for Spoken Language Assessment
+= 17:00--17:12 Session 3D: Multilingual 1
+3541 17:00--17:12  # Incorporating Dialectal Variability for Socially Equitable Language Identification
+= 17:00--17:12 Session 3E: Phonology 1
+3123 17:00--17:12  # Evaluating Compound Splitters Extrinsically with Textual Entailment
+* Tuesday, August 1, 2017
+= 11:46--12:04 Session 4B: Cognitive Modelling 1 / Vision 2
+3105 11:46--12:04  # An Analysis of Action Recognition Datasets for Language and Vision Tasks
+= 11:46--12:04 Session 4D: Machine Translation 2
+3285 11:46--12:04  # Learning to Parse and Translate Improves Neural Machine Translation
+= 11:46--12:04 Session 4E: Social Media 1
+3360 11:46--12:04  # On the Distribution of Lexical Features at Multiple Levels of Analysis
+= 13:30--15:02 Session 5A: Multidisciplinary 1
+3510 13:30--13:48  # Exploring Neural Text Simplification Models
+3513 14:40--15:02  # On the Challenges of Translating NLP Research into Commercial Products
+= 14:27--15:02 Session 5B: Language and Resources 1
+3199 14:27--14:39  # Sentence Alignment Methods for Improving Text Simplification Systems
+3296 14:40--15:02  # Understanding Task Design Trade-offs in Crowdsourced Paraphrase Collection
+= 14:27--15:02 Session 5C: Syntax 2 (NN)
+3392 14:27--14:39  # Arc-swift: A Novel Transition System for Dependency Parsing
+3146 14:40--15:02  # A Generative Parser with a Discriminative Recognition Algorithm
+= 14:27--15:02 Session 5D: Machine Translation 3 (NN)
+3242 14:27--14:39  # Hybrid Neural Network Alignment and Lexicon Model in Direct HMM for Statistical Machine Translation
+3564 14:40--15:02  # Towards String-To-Tree Neural Machine Translation
+= 14:08--15:02 Session 5E: Sentiment 2
+3128 14:08--14:26  # Learning Lexico-Functional Patterns for First-Person Affect
+3125 14:27--14:39  # Lifelong Learning CRF for Supervised Aspect Extraction
+3044 14:40--15:02  # Exploiting Domain Knowledge via Grouped Weight Sharing with Application to Text Categorization
+= 16:41--17:00 Session 6A: Information Extraction 4
+3584 16:41--17:00  # Improving Neural Parsing by Disentangling Model Combination and Reranking Effects
+= 16:22--17:00 Session 6D: Machine Learning 2
+3318 16:22--16:40  # Information-Theory Interpretation of the Skip-Gram Negative-Sampling Objective Function
+3068 16:41--17:00  # Implicitly-Defined Neural Networks for Sequence Labeling
+* Wednesday, August 2, 2017
+= 11:37--12:25 Session 7A: Outstanding Papers 1
+3240 11:37--11:49  # The Role of Prosody and Speech Register in Word Segmentation: A Computational Modelling Perspective
+3263 11:50--12:12  # A Two-Stage Parsing Method for Text-Level Discourse Analysis
+3322 12:13--12:25  # Error-repair Dependency Parsing for Ungrammatical Texts
+= 11:18--12:25 Session 7B: Outstanding Papers 2
+3580 11:18--11:36  # Attention Strategies for Multi-Source Sequence-to-Sequence Learning
+3410 11:37--11:49  # Understanding and Detecting Diverse Supporting Arguments on Controversial Issues
+3417 11:50--12:12  # A Neural Model for User Geolocation and Lexical Dialectology
+3452 12:13--12:25  # A Corpus of Natural Language for Visual Reasoning
+* Monday, July 31, 2017
+= 18:00--21:30 Session P1: Poster Session 1
+3352   # Neural Architecture for Temporal Relation Extraction: A Bi-LSTM Approach for Detecting Narrative Containers
+3177   # How to Make Context More Useful? An Empirical Study on Context-Aware Neural Conversational Models
+3238   # Cross-lingual and cross-domain discourse segmentation of entire documents
+3326   # Detecting Good Arguments in a Non-Topic-Specific Way: An Oxymoron?
+3226   # Argumentation Quality Assessment: Theory vs. Practice
+3329   # A Recurrent Neural Model with Attention for the Recognition of Chinese Implicit Discourse Relations
+3351   # Discourse Annotation of Non-native Spontaneous Spoken Responses Using the Rhetorical Structure Theory Framework
+3004   # Improving Implicit Discourse Relation Recognition with Discourse-specific Word Embeddings
+3480   # Oracle Summaries of Compressive Summarization
+3554   # Japanese Sentence Compression with a Large Training Dataset
+3528   # A Neural Architecture for Generating Natural Language Descriptions from Source Code Changes
+3017   # English Event Detection With Translated Language Features
+3511   # EviNets: Neural Networks for Combining Evidence Signals for Factoid Question Answering
+3414   # Pocket Knowledge Base Population
+3433   # Answering Complex Questions Using Open Information Extraction
+3207   # Bootstrapping for Numerical Open IE
+3577   # Feature-Rich Networks for Knowledge Base Completion
+3282   # Fine-Grained Entity Typing with High-Multiplicity Assignments
+3486   # Group Sparse CNNs for Question Classification with Answer Sets
+3331   # Multi-Task Learning of Keyphrase Boundary Classification
+3260   # Cardinal Virtues: Extracting Relation Cardinalities from Text
+3255   # Integrating Deep Linguistic Features in Factuality Prediction over Unified Datasets
+3478   # Question Answering on Knowledge Bases and Text using Universal Schema and Memory Networks
+3470   # Differentiable Scheduled Sampling for Credit Assignment
+3279   # A Deep Network with Visual Text Composition Behavior
+3213   # Neural System Combination for Machine Translation
+3057   # An Empirical Comparison of Domain Adaptation Methods for Neural Machine Translation
+3172   # Efficient Extraction of Pseudo-Parallel Sentences from Raw Monolingual Data Using Word Embeddings
+3165   # Feature Hashing for Language and Dialect Identification
+3424   # Detection of Chinese Word Usage Errors for Non-Native Chinese Learners with Bidirectional LSTM
+3484   # Automatic Compositor Attribution in the First Folio of Shakespeare
+3158   # STAIR Captions: Constructing a Large-Scale Japanese Image Caption Dataset
+3303   # "Liar, Liar Pants on Fire": A New Benchmark Dataset for Fake News Detection
+3168   # English Multiword Expression-aware Dependency Parsing Including Named Entities
+3206   # Improving Semantic Composition with Offset Inference
+3246   # Learning Topic-Sensitive Word Representations
+3162   # Temporal Word Analogies: Identifying Lexical Replacement with Diachronic Word Embeddings
+3210   # Methodical Evaluation of Arabic Word Embeddings
+3441   # Multilingual Connotation Frames: A Case Study on Social Media for Targeted Sentiment Analysis and Forecast
+3312   # Best-Worst Scaling More Reliable than Rating Scales: A Case Study on Sentiment Intensity Annotation
+3574   # Demographic Inference on Twitter using Recursive Neural Networks
+3492   # Twitter Demographic Classification Using Deep Multi-modal Multi-task Learning
+3194   # A Network Framework for Noisy Label Aggregation in Social Media
+3556   # Parser Adaptation for Social Media by Integrating Normalization
+* Tuesday, August 1, 2017
+= 19:00--22:00 Session P2: Poster Session 2
+3013   # AliMe Chat: A Sequence to Sequence and Rerank based Chatbot Engine
+3250   # A Conditional Variational Framework for Dialog Generation
+3474   # Question Answering through Transfer Learning from Large Fine-grained Supervision Data
+3369   # Self-Crowdsourcing Training for Relation Extraction
+3200   # A Generative Attentional Neural Network Model for Dialogue Act Classification
+3039   # Salience Rank: Efficient Keyphrase Extraction with Topic Modeling
+3040   # List-only Entity Linking
+3384   # Improving Native Language Identification by Using Spelling Errors
+3180   # Disfluency Detection using a Noisy Channel Model and a Deep Neural Language Model
+3434   # On the Equivalence of Holographic and Complex Embeddings for Link Prediction
+3156   # Sentence Embedding for Neural Machine Translation Domain Adaptation
+3249   # Data Augmentation for Low-Resource Neural Machine Translation
+3083   # Speeding Up Neural Machine Translation Decoding by Shrinking Run-time Vocabulary
+3463   # Chunk-Based Bi-Scale Decoder for Neural Machine Translation
+3394   # Model Transfer for Tagging Low-resource Languages using a Bilingual Dictionary
+3184   # EuroSense: Automatic Harvesting of Multilingual Sense Annotations from Parallel Text
+3313   # Challenging Language-Dependent Segmentation for Arabic: An Application to Machine Translation and Part-of-Speech Tagging
+3085   # Fast and Accurate Neural Word Segmentation for Chinese
+3498   # Pay Attention to the Ending:Strong Neural Baselines for the ROC Story Cloze Task
+3197   # Neural Semantic Parsing over Multiple Knowledge-bases
+3340   # Representing Sentences as Low-Rank Subspaces
+3224   # Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization
+3485   # Determining Whether and When People Participate in the Events They Tweet About
+3383   # Separating Facts from Fiction: Linguistic Models to Classify Suspicious and Trusted News Posts on Twitter
+3365   # Recognizing Counterfactual Thinking in Social Media Texts
+3335   # Temporal Orientation of Tweets for Predicting Income of Users
+3457   # Character-Aware Neural Morphological Disambiguation
+3129   # Character Composition Model with Convolutional Neural Networks for Dependency Parsing on Morphologically Rich Languages
+3191   # How (not) to train a dependency parser: The curious case of jackknifing part-of-speech taggers
+* Tuesday, August 1, 2017
+= 5:40pm--7:40pm ACL System Demonstrations Session
+51   # Annotating tense, mood and voice for English, French and German
+6   # Automating Biomedical Evidence Synthesis: RobotReviewer
+15   # Benben: A Chinese Intelligent Conversational Robot
+21   # End-to-End Non-Factoid Question Answering with an Interactive Visualization of Neural Attention Weights
+61   # ESTEEM: A Novel Framework for Qualitatively Evaluating and Visualizing Spatiotemporal Embeddings in Social Media
+38   # Exploring Diachronic Lexical Semantics with JeSemE
+24   # Extended Named Entity Recognition API and Its Applications in Language Education
+19   # Hafez: an Interactive Poetry Generation System
+27   # Interactive Visual Analysis of Transcribed Multi-Party Discourse
+47   # Life-iNet: A Structured Network-Based Knowledge Exploration and Analytics System for Life Sciences
+34   # Olelo: A Question Answering Application for Biomedicine
+7   # OpenNMT: Open-Source Toolkit for Neural Machine Translation
+29   # PyDial: A Multi-domain Statistical Dialogue System Toolkit
+85   # RelTextRank: An Open Source Framework for Building Relational Syntactic-Semantic Text Pair Representations
+13   # Scattertext: a Browser-Based Tool for Visualizing how Corpora Differ
+31   # Semedico: A Comprehensive Semantic Search Engine for the Life Sciences
+20   # SuperAgent: A Customer Service Chatbot for E-commerce Websites
+1   # Swanson linking revisited: Accelerating literature-based discovery across domains using a conceptual influence graph
+30   # UCCAApp: Web-application for Syntactic and Semantic Phrase-based Annotation
+81   # WebChild 2.0 : Fine-Grained Commonsense Knowledge Distillation
+16   # Zara Returns: Improved Personality Induction and Adaptation by an Empathetic Virtual Agent
+* Monday, July 31, 2017 % Evening poster session
+1   # Computational Characterization of Mental States: A Natural Language Processing Approach
+6   # Improving Distributed Representations of Tweets - Present and Future
+7   # Bilingual Word Embeddings with Bucketed CNN for Parallel Sentence Extraction
+10   # nQuery - A Natural Language Statement to SQL Query Generator
+14   # V for Vocab: An Intelligent Flashcard Application
+15   # Are You Asking the Right Questions? Teaching Machines to Ask Clarification Questions
+17   # Building a Non-Trivial Paraphrase Corpus Using Multiple Machine Translation Systems
+19   # Segmentation Guided Attention Networks for Visual Question Answering
+21   # Text-based Speaker Identification on Multiparty Dialogues Using Multi-document Convolutional Neural Networks
+23   # Variation Autoencoder Based Network Representation Learning for Classification
+31   # Blind Phoneme Segmentation With Temporal Prediction Errors
+35   # Automatic Generation of Jokes in Hindi
+37   # Word Embedding for Response-To-Text Assessment of Evidence
+38   # Domain Specific Automatic Question Generation from Text
+39   # SoccEval: An Annotation Schema for Rating Soccer Players
+40   # Accent Adaptation for the Air Traffic Control Domain
+41   # Generating Steganographic Text with LSTMs
+45   # Predicting Depression for Japanese Blog Text
+48   # Fast Forward Through Opportunistic Incremental Meaning Representation Construction
+51   # Modeling Situations in Neural Chat Bots
+54   # An Empirical Study on End-to-End Sentence Modelling
+55   # Varying Linguistic Purposes of Emoji in (Twitter) Context
+59   # Negotiation of Antibiotic Treatment in Medical Consultations: A Corpus Based Study
+* Monday, July 31, 2017
++ 10:30--12:00 Session 1D: Machine Translation 1
+1020/TACL 11:08--11:26 # TACL-1020: A Polynomial-Time Dynamic Programming Algorithm for Phrase-Based Decoding with a Fixed Distortion Limit % by Chang, Yin-Wen and Collins, Michael
+948/TACL 11:27--11:45 # TACL-948: Context Gates for Neural Machine Translation % by Tu, Zhaopeng and Liu, Yang and Lu, Zhengdong and Liu, Xiaohua and Li, Hang

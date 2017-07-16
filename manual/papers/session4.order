@@ -1,0 +1,39 @@
+* Tuesday, August 1, 2017
+= 10:30--12:05 Session 4A: Information Extraction 3 (NN) %by KANG LIU
+198 10:30--10:48  # Deep Pyramid Convolutional Neural Networks for Text Categorization
+117 10:49--11:07  # Improved Neural Relation Detection for Knowledge Base Question Answering
+699 11:08--11:26  # Deep Keyphrase Generation
+18 11:27--11:45  # Attention-over-Attention Neural Networks for Reading Comprehension
+1028/TACL 11:46--12:04 # TACL-1028: Cross-Sentence N-ary Relation Extraction with Graph LSTMs
+
+* Tuesday, August 1, 2017
+= 10:30--12:05 Session 4B: Cognitive Modelling 1 / Vision 2 %by OMRI ABEND
+710 10:30--10:48  # Alignment at Work: Using Language to Distinguish the Internalization and Self-Regulation Components of Cultural Fit in Organizations
+493 10:49--11:07  # Representations of language in a model of visually grounded speech signal
+652 11:08--11:26  # Spectral Analysis of Information Density in Dialogue Predicts Collaborative Task Performance
+968/TACL 11:27--11:45 # TACL-968: Modelling Semantic Expectation: Using Script Knowledge for Referent Prediction
+3105 11:46--12:04  # An Analysis of Action Recognition Datasets for Language and Vision Tasks
+
+* Tuesday, August 1, 2017
+= 10:30--12:05 Session 4C: Dialogue 2 %by MARTI HEARST
+429 10:30--10:48  # Affect-LM: A Neural Language Model for Customizable Affective Text Generation
+794 10:49--11:07  # Domain Attention with an Ensemble of Experts
+256 11:08--11:26  # Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders
+528 11:27--11:45  # Hybrid Code Networks: practical and efficient end-to-end dialog control with supervised and reinforcement learning
+443 11:46--12:04  # Generating Contrastive Referring Expressions
+
+* Tuesday, August 1, 2017
+= 10:30--12:05 Session 4D: Machine Translation 2 %by GRAHAM NEUBIG
+341 10:30--10:48  # Modeling Source Syntax for Neural Machine Translation
+38 10:49--11:07  # Sequence-to-Dependency Neural Machine Translation
+925/TACL 11:08--11:26 # TACL-925: Head-Lexicalized Bidirectional Tree LSTMs
+1113/TACL 11:27--11:45 # TACL-1113: Pushing the Limits of Translation Quality Estimation
+3285 11:46--12:04  # Learning to Parse and Translate Improves Neural Machine Translation
+
+* Tuesday, August 1, 2017
+= 10:30--12:05 Session 4E: Social Media 1 %by SAIF M. MOHAMMAD
+729 10:30--10:48  # Detect Rumors in Microblog Posts Using Propagation Structure via Kernel Learning
+525 10:49--11:07  # EmoNet: Fine-Grained Emotion Detection with Gated Recurrent Neural Networks
+616 11:08--11:26  # Beyond Binary Labels: Political Ideology Prediction of Twitter Users
+727 11:27--11:45  # Leveraging Behavioral and Social Information for Weakly Supervised Collective Classification of Political Discourse on Twitter
+3360 11:46--12:04  # On the Distribution of Lexical Features at Multiple Levels of Analysis
