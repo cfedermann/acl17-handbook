@@ -48,7 +48,7 @@ class Paper:
             self.id = '%s-%s' % (subconf, threedigits(self.id))
             
     def __str__(self):
-        return "%s %s" % (id, time)
+        return "%s %s" % (self.id, self.time)
 
 def threedigits(str):
     return '%03d' % (int(str))

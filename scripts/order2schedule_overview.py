@@ -135,8 +135,11 @@ for date in dates:
 
             for event in events:
                 # A regular event
+                print "DEBUG", start, stop
                 print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-                loc = event.split(' ')[0].capitalize()
+                print "DEBUG", event
+                # CHRIFE: this needs to be FIXED!!!
+                loc = event.split(' ')[0].capitalize() if hasattr(event, 'split') else 'Unknown'
                 print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event, loc)
                 print >>out, '  \\\\'
 

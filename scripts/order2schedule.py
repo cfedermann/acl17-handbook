@@ -57,10 +57,11 @@ session_times = defaultdict()
 
 for file in args.order_files:
     subconf_name = file.split('/')[1]
+    print subconf_name
     for line in open(file):
         line = line.rstrip()
 
-        # print "LINE", line
+        print "LINE", line
 
         if line.startswith('*'):
             # This sets the day
@@ -151,7 +152,15 @@ for date in dates:
             # print the session overview
             for session in parallel_sessions:
                 print >>out, '  {%s}' % (session.desc)
-                times = [minus12(p.time.split('--')[0]) for p in parallel_sessions[0].papers]
+                for p in parallel_sessions[0].papers:
+                    if not p.time:
+                        print p, session.time
+                
+                try:
+                    times = [minus12(p.time.split('--')[0]) for p in parallel_sessions[0].papers]
+                
+                except:
+                    times = [minus12(session.time.split('--')[0]) for p in parallel_sessions[0].papers]
 
             num_papers = len(parallel_sessions[0].papers)
             for paper_num in range(num_papers):
